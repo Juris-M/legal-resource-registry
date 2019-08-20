@@ -23,6 +23,7 @@ function getConfig() {
 			path: {
 				dataDir: null,
 				repoDir: null,
+				jurisSrcDir: null,
 				jurisAbbrevsDir: null,
 				configFile: configFile
 			}
@@ -32,6 +33,10 @@ function getConfig() {
 	
 	if (!config.path.dataDir) {
 		var e = new Error("path.dataDir is undefined in " + configFile);
+		handleError(e);
+	}
+	if (!config.path.jurisSrcDir) {
+		var e = new Error("path.jurisSrcDir is undefined in " + configFile);
 		handleError(e);
 	}
 	
@@ -45,11 +50,6 @@ function getConfig() {
 	}
 	config.path.jurisVersionFile = path.join(config.path.jurisMapDir, "versions.json");
 	
-	if (!config.path.repoDir) {
-		config.path.jurisSrcDir = path.join(config.path.dataDir, "juris-src");
-	} else {
-		config.path.jurisSrcDir = path.join(config.path.repoDir, "juris-src");
-	}
 	console.log("Using " +config.path.jurisSrcDir + " as path for descriptive jurisdiction files");
 	
 	for (var subdir of dirNames) {

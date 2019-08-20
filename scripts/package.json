@@ -1,0 +1,32 @@
+{
+  "name": "juris-update",
+  "version": "1.0.0",
+  "description": "Conversion scripts for Jurism LRR jurisdiction data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juris-M/juris-update.git"
+  },
+  "keywords": [
+    "zotero",
+    "reference",
+    "management",
+    "jurism",
+    "bibliography"
+  ],
+  "author": "Frank Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juris-M/juris-update/issues"
+  },
+  "homepage": "https://github.com/Juris-M/juris-update#readme",
+  "dependencies": {
+    "getopts": "^2.2.5",
+    "rfc6902": "^3.0.4",
+    "sqlite": "^3.0.3",
+    "sqlite3": "^4.0.9"
+  }
+}

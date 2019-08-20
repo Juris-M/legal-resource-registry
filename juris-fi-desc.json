@@ -1,0 +1,241 @@
+{
+  "courts": {
+    "admin": {
+      "name": "Hallinto-oikeus"
+    },
+    "dc": {
+      "name": "Käräjäoikeus"
+    },
+    "ca": {
+      "name": "Hovioikeus"
+    },
+    "ic": {
+      "name": "Vakuutusoikeus"
+    },
+    "impeachment": {
+      "name": "Valtakunnanoikeus"
+    },
+    "mc": {
+      "name": "Markkinaoikeus"
+    },
+    "sac": {
+      "name": "Korkein hallinto-oikeus"
+    },
+    "sc": {
+      "name": "Korkein oikeus"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "fi",
+      "name": "Finland",
+      "courts": [
+        "ic",
+        "impeachment",
+        "mc",
+        "sac",
+        "sc"
+      ]
+    },
+    {
+      "path": "fi/ahvenanmaa",
+      "name": "Ahvenanmaa",
+      "courts": [
+        "admin"
+      ]
+    },
+    {
+      "path": "fi/hameenlinna",
+      "name": "Hämeenlinna",
+      "courts": [
+        "admin"
+      ]
+    },
+    {
+      "path": "fi/helsinki",
+      "name": "Helsinki",
+      "courts": [
+        "admin",
+        "ca"
+      ]
+    },
+    {
+      "path": "fi/helsinki/helsinki",
+      "name": "Helsinki",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/helsinki/ita.uudenmaa",
+      "name": "Itä-Uudenmaa",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/helsinki/lansi.uudenmaa",
+      "name": "Länsi-Uudenmaa",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/ita.suomi",
+      "name": "Itä-Suomi",
+      "courts": [
+        "admin",
+        "ca"
+      ]
+    },
+    {
+      "path": "fi/ita.suomi/etela.karjala",
+      "name": "Etelä-Karjala",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/ita.suomi/etela.savo",
+      "name": "Etelä-Savo",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/ita.suomi/kymenlaakso",
+      "name": "Kymenlaakso",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/ita.suomi/paijat.hame",
+      "name": "Päijät-Häme",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/ita.suomi/pohjois.karjala",
+      "name": "Pohjois-Karjala",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/ita.suomi/pohjois.savo",
+      "name": "Pohjois-Savo",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/pohjois.suomi",
+      "name": "Pohjois-Suomi",
+      "courts": [
+        "admin"
+      ]
+    },
+    {
+      "path": "fi/rovaniemi",
+      "name": "Rovaniemi",
+      "courts": [
+        "ca"
+      ]
+    },
+    {
+      "path": "fi/rovaniemi/kainuu",
+      "name": "Kainuu",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/rovaniemi/lapin",
+      "name": "Lapin",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/rovaniemi/oulu",
+      "name": "Oulu",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/turku",
+      "name": "Turku",
+      "courts": [
+        "admin",
+        "ca"
+      ]
+    },
+    {
+      "path": "fi/turku/ahvenanmaa",
+      "name": "Ahvenanmaa",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/turku/kanta.hame",
+      "name": "Kanta-Häme",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/turku/pirkanmaa",
+      "name": "Pirkanmaa",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/turku/varsinais.suomi",
+      "name": "Varsinais-Suomi",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/vaasa",
+      "name": "Vaasa",
+      "courts": [
+        "admin",
+        "ca"
+      ]
+    },
+    {
+      "path": "fi/vaasa/etela.pohjanmaa",
+      "name": "Etelä-Pohjanmaa",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/vaasa/keski.suomi",
+      "name": "Keski-Suomi",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/vaasa/pohjanmaa",
+      "name": "Pohjanmaa",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "fi/vaasa/satakunna",
+      "name": "Satakunna",
+      "courts": [
+        "dc"
+      ]
+    }
+  ]
+}

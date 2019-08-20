@@ -1,0 +1,55 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "au",
+      "name": "Australia",
+      "courts": []
+    },
+    {
+      "path": "au/act",
+      "name": "Australian Capital Territory",
+      "courts": []
+    },
+    {
+      "path": "au/norfolk.island",
+      "name": "Norfolk Island",
+      "courts": []
+    },
+    {
+      "path": "au/nsw",
+      "name": "New South Wales",
+      "courts": []
+    },
+    {
+      "path": "au/nt",
+      "name": "Northern Territory",
+      "courts": []
+    },
+    {
+      "path": "au/qld",
+      "name": "Queensland",
+      "courts": []
+    },
+    {
+      "path": "au/sa",
+      "name": "South Australia",
+      "courts": []
+    },
+    {
+      "path": "au/tas",
+      "name": "Tasmania",
+      "courts": []
+    },
+    {
+      "path": "au/vic",
+      "name": "Victoria",
+      "courts": []
+    },
+    {
+      "path": "au/wa",
+      "name": "Western Australia",
+      "courts": []
+    }
+  ]
+}

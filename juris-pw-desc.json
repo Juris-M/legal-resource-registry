@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "pw",
+      "name": "Palau",
+      "courts": []
+    }
+  ]
+}

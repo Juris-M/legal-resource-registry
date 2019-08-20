@@ -1,0 +1,316 @@
+{
+  "courts": {
+    "high.court": {
+      "name": "High Court"
+    },
+    "land.court": {
+      "name": "Land Court"
+    },
+    "mac": {
+      "name": "Maori Appellate Court"
+    },
+    "aca": {
+      "name": "Accident Compensation Appeal Authority"
+    },
+    "bsa": {
+      "name": "Broadcasting Standards Authority"
+    },
+    "ca": {
+      "name": "Court Appeal"
+    },
+    "caa": {
+      "name": "Customs Appeal Authority"
+    },
+    "cc": {
+      "name": "Commerce Commission"
+    },
+    "cop": {
+      "name": "Copyright Tribunal"
+    },
+    "drt": {
+      "name": "Deportation Review Tribunal"
+    },
+    "hrrt": {
+      "name": "Human Rights Review Tribunal"
+    },
+    "iacdt": {
+      "name": "Immigration Advisers Complaints Disciplinary Tribunal"
+    },
+    "ieaa": {
+      "name": "International Education Appeal Authority"
+    },
+    "ipt": {
+      "name": "Immigration And Protection Tribunal"
+    },
+    "lat": {
+      "name": "Legal Aid Tribunal"
+    },
+    "lcdt": {
+      "name": "Lawyers And Conveyancers Disciplinary Tribunal"
+    },
+    "lla": {
+      "name": "Liquor Licensing Authority"
+    },
+    "lvt": {
+      "name": "Land Valuation Tribunal"
+    },
+    "mvdt": {
+      "name": "Motor Vehicle Disputes Tribunal"
+    },
+    "pspla": {
+      "name": "Private Security Personnel Licensing Authority"
+    },
+    "readt": {
+      "name": "Real Estate Agents Disciplinary Tribunal"
+    },
+    "saaa": {
+      "name": "Student Allowance Appeal Authority"
+    },
+    "sc": {
+      "name": "Supreme Court"
+    },
+    "shd": {
+      "name": "Licensing Authority Of Secondhand Dealers And Pawnbrokers"
+    },
+    "ssaa": {
+      "name": "Social Security Appeal Authority"
+    },
+    "tra": {
+      "name": "Taxation Review Authority"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "nz",
+      "name": "New Zealand",
+      "courts": [
+        "aca",
+        "bsa",
+        "ca",
+        "caa",
+        "cc",
+        "cop",
+        "drt",
+        "hrrt",
+        "iacdt",
+        "ieaa",
+        "ipt",
+        "lat",
+        "lcdt",
+        "lla",
+        "lvt",
+        "mvdt",
+        "pspla",
+        "readt",
+        "saaa",
+        "sc",
+        "shd",
+        "ssaa",
+        "tra"
+      ]
+    },
+    {
+      "path": "nz/auckland",
+      "name": "Auckland",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/blenheim",
+      "name": "Blenheim",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/christchurch",
+      "name": "Christchurch",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/dunedin",
+      "name": "Dunedin",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/gisborne",
+      "name": "Gisborne",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/greymouth",
+      "name": "Greymouth",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/hamilton",
+      "name": "Hamilton",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/invercargill",
+      "name": "Invercargill",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/maori",
+      "name": "Maori Land Court Jurisdiction",
+      "courts": [
+        "mac"
+      ]
+    },
+    {
+      "path": "nz/maori/christchurch",
+      "name": "Christchurch",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/maori/ellerslie",
+      "name": "Ellerslie",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/maori/gisborne",
+      "name": "Gisborne",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/maori/hamilton",
+      "name": "Hamilton",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/maori/hastings",
+      "name": "Hastings",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/maori/rotorua",
+      "name": "Rotorua",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/maori/wellington",
+      "name": "Wellington",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/maori/whanganui",
+      "name": "Whanganui",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/maori/whangarei",
+      "name": "Whangarei",
+      "courts": [
+        "land.court"
+      ]
+    },
+    {
+      "path": "nz/masterton",
+      "name": "Masterton",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/napier",
+      "name": "Napier",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/nelson",
+      "name": "Nelson",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/new.plymouth",
+      "name": "New Plymouth",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/palmerston.north",
+      "name": "Palmerston North",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/rotorua",
+      "name": "Rotorua",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/tauranga",
+      "name": "Tauranga",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/timaru",
+      "name": "Timaru",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/wellington",
+      "name": "Wellington",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/whanganui",
+      "name": "Whanganui",
+      "courts": [
+        "high.court"
+      ]
+    },
+    {
+      "path": "nz/whangarei",
+      "name": "Whangarei",
+      "courts": [
+        "high.court"
+      ]
+    }
+  ]
+}

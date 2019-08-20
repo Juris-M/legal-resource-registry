@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "ly",
+      "name": "Libya",
+      "courts": []
+    }
+  ]
+}

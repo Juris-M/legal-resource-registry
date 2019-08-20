@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "vg",
+      "name": "British Virgin Islands",
+      "courts": []
+    }
+  ]
+}

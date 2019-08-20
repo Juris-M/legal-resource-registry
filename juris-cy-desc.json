@@ -1,0 +1,121 @@
+{
+  "courts": {
+    "dc": {
+      "name": "Επαρχιακά Δικαστήρια"
+    },
+    "fc": {
+      "name": "Δικαστήριο Έλεγχου Ενοικιάσεων"
+    },
+    "assize": {
+      "name": "Κακουργιοδικεία"
+    },
+    "lc": {
+      "name": "Δικαστήριο Εργατικών Διάφορων"
+    },
+    "rcc": {
+      "name": "Δικαστήριο Εργατικών Διάφορων"
+    },
+    "ac": {
+      "name": "Διοικητικό Δικαστήριο"
+    },
+    "afc": {
+      "name": "Δευτεροβάθμιο Οικογενειακό Δικαστήριο"
+    },
+    "fcrg": {
+      "name": "Οικογενειακά Δικαστήρια θρησκευτικών ομάδων"
+    },
+    "mc": {
+      "name": "Στρατιωτικό Δικαστήριο"
+    },
+    "sc": {
+      "name": "Ανώτατο Δικαστήριο"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "cy",
+      "name": "Cyprus",
+      "courts": [
+        "ac",
+        "afc",
+        "fcrg",
+        "mc",
+        "sc"
+      ]
+    },
+    {
+      "path": "cy/famagusta",
+      "name": "Αμμοχώστου",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "cy/kyrenia",
+      "name": "Κερύνειας",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "cy/larnaca",
+      "name": "Λάρνακας",
+      "courts": [
+        "assize",
+        "dc",
+        "lc",
+        "rcc"
+      ]
+    },
+    {
+      "path": "cy/larnaca.famagusta",
+      "name": "Λάρνακας-Αμμοχώστου",
+      "courts": [
+        "fc"
+      ]
+    },
+    {
+      "path": "cy/limassol",
+      "name": "Λεμεσού",
+      "courts": [
+        "assize",
+        "dc",
+        "lc",
+        "rcc"
+      ]
+    },
+    {
+      "path": "cy/limassol.paphos.",
+      "name": "Λεμεσού-Πάφου",
+      "courts": [
+        "fc"
+      ]
+    },
+    {
+      "path": "cy/nicosia",
+      "name": "Λευκωσίας",
+      "courts": [
+        "assize",
+        "dc",
+        "lc",
+        "rcc"
+      ]
+    },
+    {
+      "path": "cy/nicosia.kyrenia",
+      "name": "Λευκωσίας-Κερύνειας",
+      "courts": [
+        "fc"
+      ]
+    },
+    {
+      "path": "cy/paphos",
+      "name": "Πάφου",
+      "courts": [
+        "assize",
+        "dc",
+        "rcc"
+      ]
+    }
+  ]
+}

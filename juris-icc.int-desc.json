@@ -1,0 +1,24 @@
+{
+  "courts": {
+    "appeals.chamber": {
+      "name": "Appeals Chamber"
+    },
+    "pre.trial.chamber": {
+      "name": "Pre-Trial Chamber"
+    },
+    "trial.chamber": {
+      "name": "Trial Chamber"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "icc.int",
+      "name": "International Criminal Court",
+      "courts": [
+        "appeals.chamber",
+        "pre.trial.chamber",
+        "trial.chamber"
+      ]
+    }
+  ]
+}

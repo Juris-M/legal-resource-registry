@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "wto.int",
+      "name": "World Trade Organization",
+      "courts": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "courts": {
+    "ag": {
+      "name": "Attorney General"
+    },
+    "ecj": {
+      "name": "Cour de Justice"
+    },
+    "ecj~chamber.1": {
+      "name": "Cour de Justice|First Chamber"
+    },
+    "ecj~chamber.2": {
+      "name": "Cour de Justice|Second Chamber"
+    },
+    "ecj~chamber.3": {
+      "name": "Cour de Justice|Third Chamber"
+    },
+    "ecj~chamber.4": {
+      "name": "Cour de Justice|Fourth Chamber"
+    },
+    "ecj~chamber.5": {
+      "name": "Cour de Justice|Fifth Chamber"
+    },
+    "ecj~chamber.6": {
+      "name": "Cour de Justice|Sixth Chamber"
+    },
+    "ecj~chamber.7": {
+      "name": "Cour de Justice|Seventh Chamber"
+    },
+    "ecj~chamber.8": {
+      "name": "Cour de Justice|Eighth Chamber"
+    },
+    "ecj~chamber.9": {
+      "name": "Cour de Justice|Ninth Chamber"
+    },
+    "ec": {
+      "name": "European Commission"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "eu.int",
+      "name": "European Union",
+      "courts": [
+        "ec"
+      ]
+    },
+    {
+      "path": "eu.int/cjeu",
+      "name": "Court of Justice of the European Union",
+      "courts": [
+        "ag",
+        "ecj",
+        "ecj~chamber.1",
+        "ecj~chamber.2",
+        "ecj~chamber.3",
+        "ecj~chamber.4",
+        "ecj~chamber.5",
+        "ecj~chamber.6",
+        "ecj~chamber.7",
+        "ecj~chamber.8",
+        "ecj~chamber.9"
+      ]
+    },
+    {
+      "path": "eu.int/encj",
+      "name": "European Network of Councils for the Judiciary",
+      "courts": []
+    }
+  ]
+}

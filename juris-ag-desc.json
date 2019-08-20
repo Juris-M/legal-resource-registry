@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "ag",
+      "name": "Antigua and Barbuda",
+      "courts": []
+    }
+  ]
+}

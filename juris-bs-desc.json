@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "bs",
+      "name": "The Bahamas",
+      "courts": []
+    }
+  ]
+}

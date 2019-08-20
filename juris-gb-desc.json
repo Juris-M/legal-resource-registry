@@ -1,0 +1,129 @@
+{
+  "courts": {
+    "ewca.civ": {
+      "name": "Court of Appeal|Civil Division"
+    },
+    "ewhc.ch.bankruptcy": {
+      "name": "High Court|Chancery Division|Bankruptcy and Companies Court"
+    },
+    "ewhc.ch.masters": {
+      "name": "High Court|Chancery Division|Masters"
+    },
+    "ewhc.ch.patent": {
+      "name": "High Court|Chancery Division|Patents Court"
+    },
+    "ewhc.family": {
+      "name": "High Court|Family Division"
+    },
+    "ewhc.qb.admin": {
+      "name": "High Court|Queen's Bench Division|Administrative Court"
+    },
+    "ewhc.qb.admiralty": {
+      "name": "High Court|Queen's Bench Division|Admiralty Court"
+    },
+    "ewhc.qb.comm": {
+      "name": "High Court|Queen's Bench Division|Commercial Court"
+    },
+    "ewhc.qb.mercantile": {
+      "name": "High Court|Queen's Bench Division|Mercantile Court"
+    },
+    "ewhc.qb.tcc": {
+      "name": "High Court|Queen's Bench Division|Technology and Construction Court"
+    },
+    "kb": {
+      "name": "King's Bench"
+    },
+    "house.of.lords": {
+      "name": "House of Lords"
+    },
+    "privy.council": {
+      "name": "Privy Council"
+    },
+    "supreme.court": {
+      "name": "Supreme Court"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "gb",
+      "name": "United Kingdom",
+      "courts": [
+        "house.of.lords",
+        "privy.council",
+        "supreme.court"
+      ]
+    },
+    {
+      "path": "gb/bermuda",
+      "name": "Bermuda",
+      "courts": []
+    },
+    {
+      "path": "gb/england.and.wales",
+      "name": "England and Wales",
+      "courts": [
+        "ewca.civ",
+        "ewhc.ch.bankruptcy",
+        "ewhc.ch.masters",
+        "ewhc.ch.patent",
+        "ewhc.family",
+        "ewhc.qb.admin",
+        "ewhc.qb.admiralty",
+        "ewhc.qb.comm",
+        "ewhc.qb.mercantile",
+        "ewhc.qb.tcc",
+        "kb"
+      ]
+    },
+    {
+      "path": "gb/falkland.islands",
+      "name": "Falkland Islands",
+      "courts": []
+    },
+    {
+      "path": "gb/gibraltar",
+      "name": "Gibraltar",
+      "courts": []
+    },
+    {
+      "path": "gb/guernsey",
+      "name": "Guernsey",
+      "courts": []
+    },
+    {
+      "path": "gb/hong.kong",
+      "name": "Hong Kong",
+      "courts": []
+    },
+    {
+      "path": "gb/isle.man",
+      "name": "Isle of Man",
+      "courts": []
+    },
+    {
+      "path": "gb/montserrat",
+      "name": "Montserrat",
+      "courts": []
+    },
+    {
+      "path": "gb/northern.ireland",
+      "name": "Northern Ireland",
+      "courts": []
+    },
+    {
+      "path": "gb/pitcairn.islands",
+      "name": "Pitcairn Islands",
+      "courts": []
+    },
+    {
+      "path": "gb/scotland",
+      "name": "Scotland",
+      "courts": []
+    },
+    {
+      "path": "gb/turks.caicos.islands",
+      "name": "Turks and Caicos Islands",
+      "courts": []
+    }
+  ]
+}

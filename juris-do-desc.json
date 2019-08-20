@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "do",
+      "name": "Dominican Republic",
+      "courts": []
+    }
+  ]
+}

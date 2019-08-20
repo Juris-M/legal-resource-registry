@@ -1,0 +1,32 @@
+{
+  "courts": {
+    "icj": {
+      "name": "International Court of Justice"
+    },
+    "ictr": {
+      "name": "International Criminal Tribunal for Rwanda"
+    },
+    "icty": {
+      "name": "International Criminal Tribunal for the Former Yugoslavia"
+    },
+    "itlos": {
+      "name": "International Tribunal for the Law of the Sea"
+    },
+    "pca": {
+      "name": "Permanent Court of Arbitration"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "un.int",
+      "name": "United Nations",
+      "courts": [
+        "icj",
+        "ictr",
+        "icty",
+        "itlos",
+        "pca"
+      ]
+    }
+  ]
+}

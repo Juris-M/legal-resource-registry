@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "ec.int",
+      "name": "European Community",
+      "courts": []
+    }
+  ]
+}

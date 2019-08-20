@@ -1,0 +1,873 @@
+{
+  "courts": {
+    "ks": {
+      "name": "Krajský soud",
+      "abbrev": "Krajský soud >"
+    },
+    "oks": {
+      "name": "Okresní soud",
+      "abbrev": "Okresní soud >"
+    },
+    "ms": {
+      "name": "Městský soud",
+      "abbrev": "Městský soud >"
+    },
+    "vs": {
+      "name": "Vrchní soud",
+      "abbrev": "Vrchní soud >"
+    },
+    "obs": {
+      "name": "Obvodní soud",
+      "abbrev": "Obvodní soud >"
+    },
+    "ns": {
+      "name": "Nejvyšší soud",
+      "abbrev": "Nejvyšší soud"
+    },
+    "nss": {
+      "name": "Nejvyšší správní soud",
+      "abbrev": "Nejvyšší správní soud"
+    },
+    "us": {
+      "name": "Ústavní soud",
+      "abbrev": "Ústavní soud"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "cz",
+      "name": "Czechia",
+      "courts": [
+        "ns",
+        "nss",
+        "us"
+      ],
+      "abbrev": "Czech Republic"
+    },
+    {
+      "path": "cz/brno",
+      "name": "Brno",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Brně"
+    },
+    {
+      "path": "cz/ceske.budejovice",
+      "name": "Ceské Budejovice",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Českých Budějovicích"
+    },
+    {
+      "path": "cz/hradec.kralove",
+      "name": "Hradec Králové",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Hradci Králové"
+    },
+    {
+      "path": "cz/olomouc",
+      "name": "Olomouc",
+      "courts": [
+        "vs"
+      ],
+      "abbrev": "v Olomouci"
+    },
+    {
+      "path": "cz/olomouc/brno",
+      "name": "Brno",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Brně"
+    },
+    {
+      "path": "cz/olomouc/brno/blansko",
+      "name": "Blansko",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Blansku"
+    },
+    {
+      "path": "cz/olomouc/brno/breclav",
+      "name": "Břeclav",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Břeclavi"
+    },
+    {
+      "path": "cz/olomouc/brno/brno.v",
+      "name": "Brno",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "Brno venkov"
+    },
+    {
+      "path": "cz/olomouc/brno/hodonin",
+      "name": "Hodonín",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Hodoníně"
+    },
+    {
+      "path": "cz/olomouc/brno/jihlava",
+      "name": "Jihlava",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Jihlavě"
+    },
+    {
+      "path": "cz/olomouc/brno/kromeriz",
+      "name": "Kroměříž",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Kroměříži"
+    },
+    {
+      "path": "cz/olomouc/brno/m.brno",
+      "name": "Brno",
+      "courts": [
+        "ms"
+      ],
+      "abbrev": "v Brně"
+    },
+    {
+      "path": "cz/olomouc/brno/prostejov",
+      "name": "Prostějov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Prostějově"
+    },
+    {
+      "path": "cz/olomouc/brno/trebic",
+      "name": "Třebíč",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Třebíči"
+    },
+    {
+      "path": "cz/olomouc/brno/uherske.hradiste",
+      "name": "Uhersk Hradiště",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Uherském Hradišti"
+    },
+    {
+      "path": "cz/olomouc/brno/vyskov",
+      "name": "Vyškov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "ve Vyškově"
+    },
+    {
+      "path": "cz/olomouc/brno/zdar.sazavou",
+      "name": "Žďár nad Sázavou",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "ve Žďáru nad Sázavou"
+    },
+    {
+      "path": "cz/olomouc/brno/zlin",
+      "name": "Zlín",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "ve Zlíně"
+    },
+    {
+      "path": "cz/olomouc/brno/znojmo",
+      "name": "Znojmo",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "ve Znojmě"
+    },
+    {
+      "path": "cz/olomouc/ostrava",
+      "name": "Ostrava",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Ostravě"
+    },
+    {
+      "path": "cz/olomouc/ostrava/bruntal",
+      "name": "Bruntál",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Bruntále"
+    },
+    {
+      "path": "cz/olomouc/ostrava/frydek.mistek",
+      "name": "Frýdek-Místek",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "ve Frýdku-Místku"
+    },
+    {
+      "path": "cz/olomouc/ostrava/jesenik",
+      "name": "Jeseník",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Jeseníku"
+    },
+    {
+      "path": "cz/olomouc/ostrava/karvina",
+      "name": "Karviná",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Karviné"
+    },
+    {
+      "path": "cz/olomouc/ostrava/novy.jicin",
+      "name": "Nový Jičín",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Novém Jičíně"
+    },
+    {
+      "path": "cz/olomouc/ostrava/olomouc",
+      "name": "Olomouc",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Olomouci"
+    },
+    {
+      "path": "cz/olomouc/ostrava/opava",
+      "name": "Opava",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Opavě"
+    },
+    {
+      "path": "cz/olomouc/ostrava/ostava",
+      "name": "Ostrava",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Ostravě"
+    },
+    {
+      "path": "cz/olomouc/ostrava/prerov",
+      "name": "Přerov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Přerově"
+    },
+    {
+      "path": "cz/olomouc/ostrava/sumperk",
+      "name": "Šumperk",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v  Šumperku"
+    },
+    {
+      "path": "cz/olomouc/ostrava/vsetin",
+      "name": "Vsetín",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "ve Vsetíně"
+    },
+    {
+      "path": "cz/ostrava",
+      "name": "Ostrava",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Ostravě"
+    },
+    {
+      "path": "cz/plzen",
+      "name": "Plzen",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Plzni"
+    },
+    {
+      "path": "cz/praha",
+      "name": "Praha",
+      "courts": [
+        "ks",
+        "vs"
+      ],
+      "abbrev": "v Praze"
+    },
+    {
+      "path": "cz/praha.mestsky",
+      "name": "Praha",
+      "courts": [
+        "ms"
+      ],
+      "abbrev": "v Praze"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice",
+      "name": "Ceské Budejovice",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Českých Budějovicích"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice/ceske.budejovice",
+      "name": "České Budějovice",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Českých Budějovicích"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice/cesky.krumlov",
+      "name": "Český Krumlov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Českém Krumlově"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice/jindrichov.hradec",
+      "name": "Jindřichov Hradec",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Jindřichově Hradci"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice/pelhrimov",
+      "name": "Pelhřimov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Pelhřimově"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice/pisek",
+      "name": "Pisek",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Písku"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice/prachatice",
+      "name": "Prachatice",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Prachaticích"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice/strakonice",
+      "name": "Strakonice",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "ve Strakonicích"
+    },
+    {
+      "path": "cz/praha/ceske.budejovice/tabor",
+      "name": "Tábor",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Táboře"
+    },
+    {
+      "path": "cz/praha/hradec.kralove",
+      "name": "Hradec Králové",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Hradci Králové"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/chrudim",
+      "name": "Chrudim",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Chrudimi"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/havlickuv.brod",
+      "name": "Havlíčkův Brod",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Havlíčkově Brodu"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/hradec.kralove",
+      "name": "Hradec Králové",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Hradci Králové"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/jicin",
+      "name": "Jičín",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Jičíně"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/nachod",
+      "name": "Náchod",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Náchodě"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/pardubice",
+      "name": "Pardubice",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Pardubicích"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/rychnov.nad.kneznou",
+      "name": "Rychnov nad Kněžnou",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Rychnově nad Kněžnou"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/semily",
+      "name": "Semily",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Semilech"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/svitavy",
+      "name": "Svitavy",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Svitavách"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/trutnov",
+      "name": "Trutnov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Trutnově"
+    },
+    {
+      "path": "cz/praha/hradec.kralove/usti.nad.orlici",
+      "name": "Ústí nad Orlicí",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Ústí nad Orlicí"
+    },
+    {
+      "path": "cz/praha/plzen",
+      "name": "Plzen",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Plzni"
+    },
+    {
+      "path": "cz/praha/plzen/cheb",
+      "name": "Cheb",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Chebu"
+    },
+    {
+      "path": "cz/praha/plzen/domazlice",
+      "name": "Domažlice",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Domažlicích"
+    },
+    {
+      "path": "cz/praha/plzen/karlovy.vary",
+      "name": "Karlovy Vary",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Karlových Varech"
+    },
+    {
+      "path": "cz/praha/plzen/klatovy",
+      "name": "Klatovy",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Klatovech"
+    },
+    {
+      "path": "cz/praha/plzen/plzen-jih",
+      "name": "Plzeň-jih",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "Plzeň-jih"
+    },
+    {
+      "path": "cz/praha/plzen/plzen.mesto",
+      "name": "Plzeň-město",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "Plzeň-město"
+    },
+    {
+      "path": "cz/praha/plzen/plzen.sever",
+      "name": "Plzeň-sever",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "Plzeň-sever"
+    },
+    {
+      "path": "cz/praha/plzen/rokycany",
+      "name": "Rokycany",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Rokycanech"
+    },
+    {
+      "path": "cz/praha/plzen/sokolov",
+      "name": "Sokolov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Sokolově"
+    },
+    {
+      "path": "cz/praha/plzen/tachov",
+      "name": "Tachov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Tachově"
+    },
+    {
+      "path": "cz/praha/praha",
+      "name": "Praha",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Praze"
+    },
+    {
+      "path": "cz/praha/praha.mestsky",
+      "name": "Praha",
+      "courts": [
+        "ms"
+      ],
+      "abbrev": "v Praze"
+    },
+    {
+      "path": "cz/praha/praha/benesov",
+      "name": "Benešov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Benešově"
+    },
+    {
+      "path": "cz/praha/praha/beroun",
+      "name": "Beroun",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Berouně"
+    },
+    {
+      "path": "cz/praha/praha/kladno",
+      "name": "Kladno",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v  Kladně"
+    },
+    {
+      "path": "cz/praha/praha/kolin",
+      "name": "Kolín",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Kolíně"
+    },
+    {
+      "path": "cz/praha/praha/kutna.hora",
+      "name": "Kutná Hora",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Kutné Hoře"
+    },
+    {
+      "path": "cz/praha/praha/melnik",
+      "name": "Mělník",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Mělníku"
+    },
+    {
+      "path": "cz/praha/praha/mlada.boleslav",
+      "name": "Mladá Boleslav",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Mladé Boleslavi"
+    },
+    {
+      "path": "cz/praha/praha/nymburk",
+      "name": "Nymburk",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Nymburku"
+    },
+    {
+      "path": "cz/praha/praha/praha.vychod",
+      "name": "Praha-východ",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "Praha-východ"
+    },
+    {
+      "path": "cz/praha/praha/praha.zapad",
+      "name": "Praha-západ",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "Praha-západ"
+    },
+    {
+      "path": "cz/praha/praha/praha01",
+      "name": "Prahu 1",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 1"
+    },
+    {
+      "path": "cz/praha/praha/praha02",
+      "name": "Prahu 2",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 2"
+    },
+    {
+      "path": "cz/praha/praha/praha03",
+      "name": "Prahu 3",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 3"
+    },
+    {
+      "path": "cz/praha/praha/praha04",
+      "name": "Prahu 4",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 4"
+    },
+    {
+      "path": "cz/praha/praha/praha05",
+      "name": "Prahu 5",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 5"
+    },
+    {
+      "path": "cz/praha/praha/praha06",
+      "name": "Prahu 6",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 6"
+    },
+    {
+      "path": "cz/praha/praha/praha07",
+      "name": "Prahu 7",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 7"
+    },
+    {
+      "path": "cz/praha/praha/praha08",
+      "name": "Prahu 8",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 8"
+    },
+    {
+      "path": "cz/praha/praha/praha09",
+      "name": "Prahu 9",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 9"
+    },
+    {
+      "path": "cz/praha/praha/praha10",
+      "name": "Prahu 10",
+      "courts": [
+        "obs"
+      ],
+      "abbrev": "pro Prahu 10"
+    },
+    {
+      "path": "cz/praha/praha/pribram",
+      "name": "Příbram",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Příbrami"
+    },
+    {
+      "path": "cz/praha/praha/rakovnik",
+      "name": "Rakovník",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Rakovníku"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem",
+      "name": "Ústí nad Labem",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Ústí nad Labem"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/ceska.lipa",
+      "name": "Česká Lípa",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v  České Lípě"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/chomutov",
+      "name": "Chomutov",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Chomutově"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/decin",
+      "name": "Děčín",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Děčíně"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/jablonec.nad.nisou",
+      "name": "Jablonec nad Nisou",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Jablonci nad Nisou"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/liberec",
+      "name": "Liberec",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Liberci"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/litomerice",
+      "name": "Litoměřice",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Litoměřicích"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/louny",
+      "name": "Louny",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Lounech"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/most",
+      "name": "Most",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Mostě"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/teplice",
+      "name": "Teplice",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Teplicích"
+    },
+    {
+      "path": "cz/praha/usti.nad.labem/usti.nad.labem",
+      "name": "Ústí nad Labem",
+      "courts": [
+        "oks"
+      ],
+      "abbrev": "v Ústí nad Labem"
+    },
+    {
+      "path": "cz/usti.nad.labem",
+      "name": "Ústí nad Labem",
+      "courts": [
+        "ks"
+      ],
+      "abbrev": "v Ústí nad Labem"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "mo",
+      "name": "Macau",
+      "courts": []
+    }
+  ]
+}

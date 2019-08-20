@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "er",
+      "name": "Eritrea",
+      "courts": []
+    }
+  ]
+}

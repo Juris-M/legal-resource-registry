@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "tw",
+      "name": "Republic of China",
+      "courts": []
+    }
+  ]
+}

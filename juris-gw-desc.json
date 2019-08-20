@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "gw",
+      "name": "Guinea-Bissau",
+      "courts": []
+    }
+  ]
+}

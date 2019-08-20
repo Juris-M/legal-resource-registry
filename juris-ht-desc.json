@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "ht",
+      "name": "Haiti",
+      "courts": []
+    }
+  ]
+}

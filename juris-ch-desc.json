@@ -1,0 +1,224 @@
+{
+  "courts": {
+    "obergericht": {
+      "name": "Obergericht"
+    },
+    "appellationsgericht": {
+      "name": "Appellationsgericht"
+    },
+    "tribunal.cantonal": {
+      "name": "Tribunal cantonal"
+    },
+    "cour.de.cassation": {
+      "name": "Cour de cassation"
+    },
+    "trubunal.cantonal": {
+      "name": "Trubunal cantonal"
+    },
+    "cour.de.cassation.civile": {
+      "name": "Cour de cassation civile"
+    },
+    "cour.de.cassation.penale": {
+      "name": "Cour de cassation pénale"
+    },
+    "kantonsgericht": {
+      "name": "Kantonsgericht"
+    },
+    "kassationsgericht": {
+      "name": "Kassationsgericht"
+    },
+    "tribunale.d.appello": {
+      "name": "Tribunale d'appello"
+    },
+    "kassationssgericht": {
+      "name": "Kassationssgericht"
+    },
+    "fcc": {
+      "name": "Bundesstrafgericht"
+    },
+    "fsc": {
+      "name": "Sweizerisches Bundesgericht"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "ch",
+      "name": "Switzerland",
+      "courts": [
+        "fcc",
+        "fsc"
+      ]
+    },
+    {
+      "path": "ch/aargau",
+      "name": "Aargau",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/appenzell.ausserrhoden",
+      "name": "Appenzell-Ausserrhoden",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/basel.landschaft",
+      "name": "Basel-Landschaft",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/basel.stadt",
+      "name": "Basel-Stadt",
+      "courts": [
+        "appellationsgericht"
+      ]
+    },
+    {
+      "path": "ch/bern",
+      "name": "Bern",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/fribourg",
+      "name": "Fribourg",
+      "courts": [
+        "tribunal.cantonal"
+      ]
+    },
+    {
+      "path": "ch/geneva",
+      "name": "Geneva",
+      "courts": [
+        "cour.de.cassation"
+      ]
+    },
+    {
+      "path": "ch/glarus",
+      "name": "Glarus",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/jura",
+      "name": "Jura",
+      "courts": [
+        "trubunal.cantonal"
+      ]
+    },
+    {
+      "path": "ch/luzern",
+      "name": "Luzern",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/neuchatel",
+      "name": "Neuchatel",
+      "courts": [
+        "cour.de.cassation.civile",
+        "cour.de.cassation.penale"
+      ]
+    },
+    {
+      "path": "ch/nidwalden",
+      "name": "Nidwalden",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/obwalden",
+      "name": "Obwalden",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/schaffhausen",
+      "name": "Schaffhausen",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/schwyz",
+      "name": "Schwyz",
+      "courts": [
+        "kantonsgericht"
+      ]
+    },
+    {
+      "path": "ch/solothurn",
+      "name": "Solothurn",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/st.gallen",
+      "name": "St-Gallen",
+      "courts": [
+        "kantonsgericht",
+        "kassationsgericht"
+      ]
+    },
+    {
+      "path": "ch/thurgau",
+      "name": "Thurgau",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/ticino",
+      "name": "Ticino",
+      "courts": [
+        "tribunale.d.appello"
+      ]
+    },
+    {
+      "path": "ch/uri",
+      "name": "Uri",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/valais",
+      "name": "Valais",
+      "courts": [
+        "tribunal.cantonal"
+      ]
+    },
+    {
+      "path": "ch/vaud",
+      "name": "Vaud",
+      "courts": [
+        "tribunal.cantonal"
+      ]
+    },
+    {
+      "path": "ch/zug",
+      "name": "Zug",
+      "courts": [
+        "obergericht"
+      ]
+    },
+    {
+      "path": "ch/zurich",
+      "name": "Zurich",
+      "courts": [
+        "kassationssgericht",
+        "obergericht"
+      ]
+    }
+  ]
+}

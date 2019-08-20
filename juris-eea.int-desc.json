@@ -1,0 +1,16 @@
+{
+  "courts": {
+    "efta": {
+      "name": "Court Of Justice of the European Free Trade Agreement"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "eea.int",
+      "name": "European Economic Area",
+      "courts": [
+        "efta"
+      ]
+    }
+  ]
+}

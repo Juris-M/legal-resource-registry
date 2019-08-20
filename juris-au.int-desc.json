@@ -1,0 +1,16 @@
+{
+  "courts": {
+    "achpr": {
+      "name": "African Court on Human and Peoples' Rights"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "au.int",
+      "name": "African Union",
+      "courts": [
+        "achpr"
+      ]
+    }
+  ]
+}

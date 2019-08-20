@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "nir",
+      "name": "Northern Ireland",
+      "courts": []
+    }
+  ]
+}

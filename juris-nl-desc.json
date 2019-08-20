@@ -1,0 +1,25 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "nl",
+      "name": "The Netherlands",
+      "courts": []
+    },
+    {
+      "path": "nl/aruba",
+      "name": "Aruba",
+      "courts": []
+    },
+    {
+      "path": "nl/curacao",
+      "name": "Curaçao",
+      "courts": []
+    },
+    {
+      "path": "nl/sint.maarten",
+      "name": "Sint Maarten",
+      "courts": []
+    }
+  ]
+}

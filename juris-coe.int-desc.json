@@ -1,0 +1,44 @@
+{
+  "courts": {
+    "commission.human.rights": {
+      "name": "Commission on Human Rights"
+    },
+    "echr": {
+      "name": "European Court of Human Rights"
+    },
+    "echr~section.1": {
+      "name": "European Court of Human Rights|Section I"
+    },
+    "echr~section.2": {
+      "name": "European Court of Human Rights|Section II"
+    },
+    "echr~section.3": {
+      "name": "European Court of Human Rights|Section III"
+    },
+    "echr~section.4": {
+      "name": "European Court of Human Rights|Section IV"
+    },
+    "echr~section.5": {
+      "name": "European Court of Human Rights|Section V"
+    },
+    "echr~section.filtrage": {
+      "name": "European Court of Human Rights|Filtering Section"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "coe.int",
+      "name": "Council of Europe",
+      "courts": [
+        "commission.human.rights",
+        "echr",
+        "echr~section.1",
+        "echr~section.2",
+        "echr~section.3",
+        "echr~section.4",
+        "echr~section.5",
+        "echr~section.filtrage"
+      ]
+    }
+  ]
+}

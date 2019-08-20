@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "lc",
+      "name": "Saint Lucia",
+      "courts": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "ge-ab",
+      "name": "Abkhazia",
+      "courts": []
+    }
+  ]
+}

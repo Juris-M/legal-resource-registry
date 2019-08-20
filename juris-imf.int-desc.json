@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "imf.int",
+      "name": "International Monetary Fund",
+      "courts": []
+    }
+  ]
+}

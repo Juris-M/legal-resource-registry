@@ -1,0 +1,16 @@
+{
+  "courts": {
+    "hc": {
+      "name": "High Court"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "sg",
+      "name": "Singapore",
+      "courts": [
+        "hc"
+      ]
+    }
+  ]
+}

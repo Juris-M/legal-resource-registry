@@ -1,0 +1,32 @@
+{
+  "courts": {
+    "cietac": {
+      "name": "China International Economic and Trade Arbitration Commission"
+    },
+    "crcica": {
+      "name": "Cairo Regional Centre for International Commercial Arbitration"
+    },
+    "icc": {
+      "name": "International Chamber of Commerce"
+    },
+    "lcia": {
+      "name": "London Court of International Arbitration"
+    },
+    "scc": {
+      "name": "Stockholm Chamber of Commerce"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "arb.cls",
+      "name": "Arbitrations",
+      "courts": [
+        "cietac",
+        "crcica",
+        "icc",
+        "lcia",
+        "scc"
+      ]
+    }
+  ]
+}

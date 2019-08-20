@@ -1,0 +1,184 @@
+{
+  "courts": {
+    "aimgiin.shuukh": {
+      "name": "Аймгийн шүүх"
+    },
+    "niisleliin.shuukh": {
+      "name": "Niisleliin Shuukh"
+    },
+    "ulsyn.deed.shuukh": {
+      "name": "Улсын дээд шүүх"
+    },
+    "ulsyn.undsen.khuuliin.tsets": {
+      "name": "Улсын Үндсэн хуулийн цэц"
+    },
+    "zakhirgaanii.khergiin.davj.zaaldakh.shatnii.shuukh": {
+      "name": "Захиргааны хэргийн давж заалдах шатны шүүх"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "mn",
+      "name": "Mongolia",
+      "courts": [
+        "ulsyn.deed.shuukh",
+        "ulsyn.undsen.khuuliin.tsets",
+        "zakhirgaanii.khergiin.davj.zaaldakh.shatnii.shuukh"
+      ]
+    },
+    {
+      "path": "mn/arkhangai",
+      "name": "Архангай",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/bayan.olgii",
+      "name": "Баян-Өлгий",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/bayankhongor",
+      "name": "Баянхонгор",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/bulgan",
+      "name": "Булган",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/darkhan.uul",
+      "name": "Дархан-Уул",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/dornod",
+      "name": "Дорнод",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/dornogovi",
+      "name": "Дорноговь",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/dundgovi",
+      "name": "Дундговь",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/govi.altai",
+      "name": "Говь-Алтай",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/govisumber",
+      "name": "Говьсүмбэр",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/khentii",
+      "name": "Хэнтий",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/khovd",
+      "name": "Ховд",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/khovsgol",
+      "name": "Хөвсгөл",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/omnogovi",
+      "name": "Өмнөговь",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/orkhon",
+      "name": "Орхон",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/ovorkhangai",
+      "name": "Өвөрхангай",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/selenge",
+      "name": "Сэлэнгэ",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/sukhbaatar",
+      "name": "Сүхбаатар",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/tov",
+      "name": "Төв",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/ulaanbaatar",
+      "name": "Улаанбаатар",
+      "courts": [
+        "niisleliin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/uvs",
+      "name": "Увс",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    },
+    {
+      "path": "mn/zavkhan",
+      "name": "Завхан",
+      "courts": [
+        "aimgiin.shuukh"
+      ]
+    }
+  ]
+}

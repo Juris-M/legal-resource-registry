@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "cf",
+      "name": "Central African Republic",
+      "courts": []
+    }
+  ]
+}

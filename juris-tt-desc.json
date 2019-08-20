@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "tt",
+      "name": "Trinidad and Tobago",
+      "courts": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "bi",
+      "name": "Burundi",
+      "courts": []
+    }
+  ]
+}

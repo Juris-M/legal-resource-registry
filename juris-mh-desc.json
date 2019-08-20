@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "mh",
+      "name": "Marshall Islands",
+      "courts": []
+    }
+  ]
+}

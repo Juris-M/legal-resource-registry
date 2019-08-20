@@ -1,0 +1,28 @@
+{
+  "courts": {
+    "angchumnum.chumreas.visamanh": {
+      "name": "អង្គជំនុំជម្រះវិសាមញ្ញ"
+    },
+    "krompreksa.tommnunh": {
+      "name": "ក្រុមប្រឹក្សាធម្មនុញ្ញ"
+    },
+    "sala.outo": {
+      "name": "សាលាឧទ្ធរណ៍"
+    },
+    "tolaka.kompoul": {
+      "name": "តុលាការកំពូល"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "kh",
+      "name": "Cambodia",
+      "courts": [
+        "angchumnum.chumreas.visamanh",
+        "krompreksa.tommnunh",
+        "sala.outo",
+        "tolaka.kompoul"
+      ]
+    }
+  ]
+}

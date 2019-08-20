@@ -1,0 +1,14 @@
+{
+	"courts": {
+		"sc": {
+			"name": "Supreme Court"
+		}
+	},
+	"jurisdictions": [
+		{
+			"path": "zz",
+			"name": "Atlantis",
+			"courts": ["sc"]
+		}
+	]
+}

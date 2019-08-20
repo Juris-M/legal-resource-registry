@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "my",
+      "name": "Malaysia",
+      "courts": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "sa",
+      "name": "Saudi Arabia",
+      "courts": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "cm",
+      "name": "Cameroon",
+      "courts": []
+    }
+  ]
+}

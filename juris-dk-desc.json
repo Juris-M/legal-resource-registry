@@ -1,0 +1,273 @@
+{
+  "courts": {
+    "dc": {
+      "name": "Byret"
+    },
+    "hc": {
+      "name": "Landsret"
+    },
+    "mcc": {
+      "name": "Sø- og Handelsretten"
+    },
+    "cc": {
+      "name": "Kredsret"
+    },
+    "lrc": {
+      "name": "Tinglysningsretten"
+    },
+    "sc": {
+      "name": "Højesteret"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "dk",
+      "name": "Denmark",
+      "courts": [
+        "lrc",
+        "mcc",
+        "sc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen",
+      "name": "Copenhagen",
+      "courts": [
+        "hc",
+        "mcc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/bornholm",
+      "name": "Bornholm",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/copenhagen",
+      "name": "Copenhagen",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/elsinore",
+      "name": "Elsinore",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/frederiksberg",
+      "name": "Frederiksberg",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/glostrup",
+      "name": "Glostrup",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/hillerod",
+      "name": "Hillerød",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/holbaek",
+      "name": "Holbæk",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/lyngby",
+      "name": "Lyngby",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/nykobing.falster",
+      "name": "Nykøbing Falster",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/odense",
+      "name": "Odense",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/roskilde",
+      "name": "Roskilde",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/svendborg",
+      "name": "Svendborg",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/copenhagen/torshaven",
+      "name": "Tórshaven",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/nuuk",
+      "name": "Nuuk",
+      "courts": [
+        "dc",
+        "hc"
+      ]
+    },
+    {
+      "path": "dk/nuuk/kujalleq",
+      "name": "Kujalleq",
+      "courts": [
+        "cc"
+      ]
+    },
+    {
+      "path": "dk/nuuk/qaasuitsoq",
+      "name": "Qaasuitsoq",
+      "courts": [
+        "cc"
+      ]
+    },
+    {
+      "path": "dk/nuuk/qeqqa",
+      "name": "Qeqqa",
+      "courts": [
+        "cc"
+      ]
+    },
+    {
+      "path": "dk/nuuk/sermersooq",
+      "name": "Sermersooq",
+      "courts": [
+        "cc"
+      ]
+    },
+    {
+      "path": "dk/viborg",
+      "name": "Viborg",
+      "courts": [
+        "hc"
+      ]
+    },
+    {
+      "path": "dk/viborg/aalborg",
+      "name": "Aalborg",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/aarhus",
+      "name": "Aarhus",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/grenaa",
+      "name": "Grenaa",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/haderslev",
+      "name": "Haderslev",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/herning",
+      "name": "Herning",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/hjorring",
+      "name": "Hjørring",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/hobro",
+      "name": "Hobro",
+      "courts": [
+        "lrc"
+      ]
+    },
+    {
+      "path": "dk/viborg/holstebro",
+      "name": "Holstebro",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/horsens",
+      "name": "Horsens",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/randers",
+      "name": "Randers",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/sonderborg",
+      "name": "Sønderborg",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/thisted",
+      "name": "Thisted",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/tonder",
+      "name": "Tønder",
+      "courts": [
+        "dc"
+      ]
+    },
+    {
+      "path": "dk/viborg/viborg",
+      "name": "Viborg",
+      "courts": [
+        "dc"
+      ]
+    }
+  ]
+}

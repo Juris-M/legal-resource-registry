@@ -1,0 +1,16 @@
+{
+  "courts": {
+    "tjac": {
+      "name": "Court of Justice of the Andean Community"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "sai.int",
+      "name": "Comunidad Andina",
+      "courts": [
+        "tjac"
+      ]
+    }
+  ]
+}

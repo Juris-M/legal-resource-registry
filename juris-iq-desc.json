@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "iq",
+      "name": "Iraq",
+      "courts": []
+    }
+  ]
+}

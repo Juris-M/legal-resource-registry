@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "mc",
+      "name": "Monaco",
+      "courts": []
+    }
+  ]
+}

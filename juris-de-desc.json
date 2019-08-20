@@ -1,0 +1,6401 @@
+{
+  "courts": {
+    "arbg": {
+      "name": "Arbeitsgericht"
+    },
+    "sg": {
+      "name": "Sozialgericht"
+    },
+    "vg": {
+      "name": "Verwaltungsgericht"
+    },
+    "ag": {
+      "name": "Amtsgericht"
+    },
+    "lg": {
+      "name": "Landgericht"
+    },
+    "olg": {
+      "name": "Oberlandesgericht"
+    },
+    "fg": {
+      "name": "Finanzgericht"
+    },
+    "lag": {
+      "name": "Landesarbeitsgericht"
+    },
+    "lsg": {
+      "name": "Landessozialgericht"
+    },
+    "verfgh": {
+      "name": "Verfassungsgerichtshof"
+    },
+    "vgh": {
+      "name": "Verwaltungsgerichtshof"
+    },
+    "bayoblg": {
+      "name": "Oberstes Landesgericht"
+    },
+    "ovg": {
+      "name": "Oberverwaltungsgericht"
+    },
+    "kg": {
+      "name": "Kammergericht"
+    },
+    "verfg": {
+      "name": "Verfassungsgericht"
+    },
+    "stgh": {
+      "name": "Staatsgerichtshof"
+    },
+    "lverfg": {
+      "name": "Landesverfassungsgericht"
+    },
+    "bag": {
+      "name": "Bundesarbeitsgericht"
+    },
+    "bfh": {
+      "name": "Bundesfinanzhof"
+    },
+    "bgh": {
+      "name": "Bundesgerichtshof"
+    },
+    "bpatg": {
+      "name": "Bundespatentgericht"
+    },
+    "bsg": {
+      "name": "Bundessozialgericht"
+    },
+    "bverfg": {
+      "name": "Bundesverfassungsgericht"
+    },
+    "bverwg": {
+      "name": "Bundesverwaltungsgericht"
+    },
+    "trdg.nord": {
+      "name": "Truppendienstgericht Nord"
+    },
+    "trdg.sud": {
+      "name": "Truppendienstgericht Süd"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "de",
+      "name": "Germany",
+      "courts": [
+        "bag",
+        "bfh",
+        "bgh",
+        "bpatg",
+        "bsg",
+        "bverfg",
+        "bverwg",
+        "trdg.nord",
+        "trdg.sud"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg",
+      "name": "Baden-Württemberg",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "verfgh",
+        "vgh"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/freiburg",
+      "name": "Freiburg",
+      "courts": [
+        "arbg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/heilbronn",
+      "name": "Heilbronn",
+      "courts": [
+        "arbg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe",
+      "name": "Karlsruhe",
+      "courts": [
+        "arbg",
+        "olg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/baden.baden",
+      "name": "Baden-Baden",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/baden.baden/achern",
+      "name": "Achern",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/baden.baden/baden.baden",
+      "name": "Baden-Baden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/baden.baden/buhl",
+      "name": "Bühl",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/baden.baden/gernsbach",
+      "name": "Gernsbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/baden.baden/rastatt",
+      "name": "Rastatt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg",
+      "name": "Freiburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/breisach",
+      "name": "Breisach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/emmendingen",
+      "name": "Emmendingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/ettenheim",
+      "name": "Ettenheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/freiburg.im.breisgau",
+      "name": "Freiburg im Breisgau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/kenzingen",
+      "name": "Kenzingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/lorrach",
+      "name": "Lörrach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/mullheim",
+      "name": "Müllheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/staufen.im.breisgau",
+      "name": "Staufen im Breisgau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/titisee.neustadt",
+      "name": "Titisee-Neustadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/freiburg/waldkirch",
+      "name": "Waldkirch",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/heidelberg",
+      "name": "Heidelberg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/heidelberg/heidelberg",
+      "name": "Heidelberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/heidelberg/sinsheim",
+      "name": "Sinsheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/heidelberg/wiesloch",
+      "name": "Wiesloch",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe",
+      "name": "Karlsruhe",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe/bretten",
+      "name": "Bretten",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe/bruchsal",
+      "name": "Bruchsal",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe/ettlingen",
+      "name": "Ettlingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe/karlsruhe",
+      "name": "Karlsruhe",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe/karlsruhe.durlach",
+      "name": "Karlsruhe-Durlach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe/maulbronn",
+      "name": "Maulbronn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe/pforzheim",
+      "name": "Pforzheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/karlsruhe/phillippsburg",
+      "name": "Phillippsburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/konstanz",
+      "name": "Konstanz",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/konstanz/donaueschingen",
+      "name": "Donaueschingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/konstanz/konstanz",
+      "name": "Konstanz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/konstanz/radolfzell",
+      "name": "Radolfzell",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/konstanz/singen",
+      "name": "Singen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/konstanz/stockach",
+      "name": "Stockach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/konstanz/uberlingen",
+      "name": "Überlingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/konstanz/villingen.schwenningen",
+      "name": "Villingen-Schwenningen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mannheim",
+      "name": "Mannheim",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mannheim/mannheim",
+      "name": "Mannheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mannheim/schwetzingen",
+      "name": "Schwetzingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mannheim/weinheim",
+      "name": "Weinheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mosbach",
+      "name": "Mosbach",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mosbach/adelsheim",
+      "name": "Adelsheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mosbach/buchen",
+      "name": "Buchen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mosbach/mosbach",
+      "name": "Mosbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mosbach/tauberbischofsheim",
+      "name": "Tauberbischofsheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/mosbach/wertheim",
+      "name": "Wertheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/offenburg",
+      "name": "Offenburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/offenburg/gengenbach",
+      "name": "Gengenbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/offenburg/kehl",
+      "name": "Kehl",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/offenburg/lahr",
+      "name": "Lahr",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/offenburg/oberkirch",
+      "name": "Oberkirch",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/offenburg/offenburg",
+      "name": "Offenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/offenburg/wolfach",
+      "name": "Wolfach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/waldshut.tiengen",
+      "name": "Waldshut-Tiengen",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/waldshut.tiengen/bad.sackingen",
+      "name": "Säckingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/waldshut.tiengen/schonau",
+      "name": "Schönau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/waldshut.tiengen/schopfheim",
+      "name": "Schopfheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/waldshut.tiengen/st.blasien",
+      "name": "St Blasien",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/karlsruhe/waldshut.tiengen/waldshut.tiengen",
+      "name": "Waldshut-Tiengen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/konstanz",
+      "name": "Konstanz",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/mannheim",
+      "name": "Mannheim",
+      "courts": [
+        "arbg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/pforzheim",
+      "name": "Pforzheim",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/reutlingen",
+      "name": "Reutlingen",
+      "courts": [
+        "arbg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/sigmaringen",
+      "name": "Sigmaringen",
+      "courts": [
+        "vg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart",
+      "name": "Stuttgart",
+      "courts": [
+        "arbg",
+        "olg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst",
+      "name": "Ellwangen/Jagst",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst/aalen",
+      "name": "Aalen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst/bad.mergentheim",
+      "name": "Bad Mergentheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst/crailsheim",
+      "name": "Crailsheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst/ellwangen",
+      "name": "Ellwangen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst/heidenheim.an.der.brenz",
+      "name": "Heidenheim an der Brenz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst/langenburg",
+      "name": "Langenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst/neresheim",
+      "name": "Neresheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ellwangen.jagst/schwabisch.gmund",
+      "name": "Schwäbisch Gmünd",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/hechingen",
+      "name": "Hechingen",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/hechingen/albstadt",
+      "name": "Albstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/hechingen/balingen",
+      "name": "Balingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/hechingen/hechingen",
+      "name": "Hechingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/hechingen/sigmaringen",
+      "name": "Sigmaringen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn",
+      "name": "Heilbronn",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn/besigheim",
+      "name": "Besigheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn/brackenheim",
+      "name": "Brackenheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn/heilbronn",
+      "name": "Heilbronn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn/kunzelssau",
+      "name": "Künzelssau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn/marbach.am.neckar",
+      "name": "Marbach am Neckar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn/ohringen",
+      "name": "Öhringen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn/schwabisch.hall",
+      "name": "Schwäbisch Hall",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/heilbronn/vaihingen.an.der.enz",
+      "name": "Vaihingen an der Enz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg",
+      "name": "Ravensburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg/bad.saulgau",
+      "name": "Bad Saulgau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg/bad.waldsee",
+      "name": "Bad Waldsee",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg/biberach.an.def.riss",
+      "name": "Beberach an der Riß",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg/leutkirch.im.allgau",
+      "name": "Leutkirch im Allgäu",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg/ravensburg",
+      "name": "Ravensburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg/riedlingen",
+      "name": "Riedlingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg/tettnang",
+      "name": "Tettnang",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ravensburg/wangen.im.allgau",
+      "name": "Wangen im Allgäu",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/rottweil",
+      "name": "Rottweil",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/rottweil/freudenstadt",
+      "name": "Freudenstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/rottweil/horb.am.neckar",
+      "name": "Horb am Neckar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/rottweil/oberndorf.am.neckar",
+      "name": "Oberndorf am Neckar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/rottweil/rottweil",
+      "name": "Rottweil",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/rottweil/spaichingen",
+      "name": "Spaichingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/rottweil/tuttlingen",
+      "name": "Tuttlingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart",
+      "name": "Stuttgart",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/backnang",
+      "name": "Backnang",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/boblingen",
+      "name": "Böblingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/esslingen.am.neckar",
+      "name": "Esslingen am Neckar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/kirchheim.unter.teck",
+      "name": "Kirchheim unter Teck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/leonberg",
+      "name": "Leonberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/ludwigsburg",
+      "name": "Ludwigsburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/nurtingen",
+      "name": "Nürtingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/schondorf",
+      "name": "Schondorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/stuttgart",
+      "name": "Stuttgart",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/stuttgart.bad.canstatt",
+      "name": "Stuttgart-Bad Canstatt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/stuttgart/waiblingen",
+      "name": "Waiblingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/tubingen",
+      "name": "Tübingen",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/tubingen/bad.urach",
+      "name": "Bad Urach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/tubingen/calw",
+      "name": "Calw",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/tubingen/munsingen",
+      "name": "Münsingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/tubingen/nagold",
+      "name": "Nagold",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/tubingen/reutlingen",
+      "name": "Reutlingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/tubingen/rottenburg.am.neckar",
+      "name": "Rottenburg am Neckar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/tubingen/tubingen",
+      "name": "Tübingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ulm",
+      "name": "Ulm",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ulm/ehingen",
+      "name": "Ehingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ulm/geislingen.an.der.steige",
+      "name": "Geislingen an der Steige",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ulm/goppingen",
+      "name": "Göppingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/stuttgart/ulm/ulm",
+      "name": "Ulm",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/ulm",
+      "name": "Ulm",
+      "courts": [
+        "arbg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/baden.wurttemberg/villingen.schwenningen",
+      "name": "Villingen-Schwenningen",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/bayern",
+      "name": "Bayern",
+      "courts": [
+        "bayoblg",
+        "lsg",
+        "verfgh",
+        "vgh"
+      ]
+    },
+    {
+      "path": "de/bayern/ansbach",
+      "name": "Ansbach",
+      "courts": [
+        "vg"
+      ]
+    },
+    {
+      "path": "de/bayern/augsburg",
+      "name": "Augsburg",
+      "courts": [
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg",
+      "name": "Bamberg",
+      "courts": [
+        "olg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/aschaffenburg",
+      "name": "Aschaffenburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/aschaffenburg/aschaffenburg",
+      "name": "Aschaffenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/aschaffenburg/obernburg",
+      "name": "Obernburg am Main",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/bamberg",
+      "name": "Bamberg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/bamberg/bamberg",
+      "name": "Bamberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/bamberg/forchheim",
+      "name": "Forchheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/bamberg/hassfurt",
+      "name": "Haßfurt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/bayreuth",
+      "name": "Bayreuth",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/bayreuth/bayreuth",
+      "name": "Bayreuth",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/bayreuth/kulmbach",
+      "name": "Kulmbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/coburg",
+      "name": "Coburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/coburg/coburg",
+      "name": "Coburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/coburg/kronach",
+      "name": "Kronach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/coburg/lichtenfels",
+      "name": "Lichtenfels",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/hof",
+      "name": "Hof",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/hof/hof",
+      "name": "Hof",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/hof/wundsiedel",
+      "name": "Wunsiedel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/schweinfurt",
+      "name": "Schweinfurt",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/schweinfurt/kissingen",
+      "name": "Kissingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/schweinfurt/neustadt",
+      "name": "Neustadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/schweinfurt/schweinfurt",
+      "name": "Schweinfurt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/wurzburg",
+      "name": "Würzburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/wurzburg/gemunden",
+      "name": "Gemünden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/wurzburg/kitzingen",
+      "name": "Kitzingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bamberg/wurzburg/wurzburg",
+      "name": "Würzburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/bayreuth",
+      "name": "Bayreuth",
+      "courts": [
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/bayern/landshut",
+      "name": "Landshut",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen",
+      "name": "München",
+      "courts": [
+        "fg",
+        "lag",
+        "olg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/augsburg",
+      "name": "Augsburg",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/augsburg/aichach",
+      "name": "Aichach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/augsburg/augsburg",
+      "name": "Augsburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/augsburg/dillingen",
+      "name": "Dillingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/augsburg/landsberg",
+      "name": "Landsberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/augsburg/nordlingen",
+      "name": "Nördlingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/deggendorf",
+      "name": "Deggendorf",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/deggendorf/deggendorf",
+      "name": "Deggendorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/deggendorf/viechtach",
+      "name": "Viechtach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/ingolstadt",
+      "name": "Ingolstadt",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/ingolstadt/ingolstadt",
+      "name": "Ingolstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/ingolstadt/neuburg",
+      "name": "Neuburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/ingolstadt/pfaffenhofen",
+      "name": "Pfaffenhofen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/kempten",
+      "name": "Kempten",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/kempten/kaufbeuren",
+      "name": "Kaufbeuren",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/kempten/kempten",
+      "name": "Kempten",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/kempten/lindau",
+      "name": "Lindau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/kempten/sonthofen",
+      "name": "Sonthofen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/landshut",
+      "name": "Landshut",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/landshut/eggenfelden",
+      "name": "Eggenfelden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/landshut/erding",
+      "name": "Erding",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/landshut/freising",
+      "name": "Freising",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/landshut/landau",
+      "name": "Landau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/landshut/landshut",
+      "name": "Landshut",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/memmingen",
+      "name": "Memmingen",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/memmingen/gunzburg",
+      "name": "Günzburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/memmingen/memmingen",
+      "name": "Memmingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/memmingen/neu.ulm",
+      "name": "Neu-Ulm",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen",
+      "name": "München",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.i",
+      "name": "München I",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.i/munchen",
+      "name": "München",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii",
+      "name": "München II",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii/dachau",
+      "name": "Dachau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii/ebersberg",
+      "name": "Ebersberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii/furstenfeldbruck",
+      "name": "Fürstenfeldbruck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii/gamisch.partenkirchen",
+      "name": "Garmisch-Partenkirchen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii/miesbach",
+      "name": "Miesbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii/starnberg",
+      "name": "Starnberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii/weilheim",
+      "name": "Weilheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/munchen.ii/wolfratshausen",
+      "name": "Wolfratshausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/passau",
+      "name": "Passau",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/passau/freyung",
+      "name": "Freyung",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/passau/passau",
+      "name": "Passau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/regensburg",
+      "name": "Regensburg",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/rosenheim",
+      "name": "Rosenheim",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/traunstein",
+      "name": "Traunstein",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/traunstein/altotting",
+      "name": "Altötting",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/traunstein/laufen",
+      "name": "Laufen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/traunstein/muhldorf",
+      "name": "Mühldorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/traunstein/rosenheim",
+      "name": "Rosenheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/munchen/traunstein/traunstein",
+      "name": "Traunstein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg",
+      "name": "Nürnberg",
+      "courts": [
+        "fg",
+        "lag",
+        "olg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/amberg",
+      "name": "Amberg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/amberg/amberg",
+      "name": "Amberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/amberg/schwandorf",
+      "name": "Schwandorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/ansbach",
+      "name": "Ansbach",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/ansbach/ansbach",
+      "name": "Ansbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/ansbach/weissenburg",
+      "name": "Weißenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/bamberg",
+      "name": "Bamberg",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/bayreuth",
+      "name": "Bayreuth",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/nurnberg",
+      "name": "Nürnberg",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/nurnberg/erlangen",
+      "name": "Erlangen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/nurnberg/furth",
+      "name": "Fürth",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/nurnberg/hersbruck",
+      "name": "Hersbruck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/nurnberg/neumarkt",
+      "name": "Neumarkt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/nurnberg/neustadt",
+      "name": "Neustadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/nurnberg/nurnberg",
+      "name": "Nürnberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/nurnberg/schwabach",
+      "name": "Schwabach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/regensburg",
+      "name": "Regensburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/regensburg/cham",
+      "name": "Cham",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/regensburg/kelheim",
+      "name": "Kelheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/regensburg/regensburg",
+      "name": "Regensburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/regensburg/straubing",
+      "name": "Straubing",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/weiden",
+      "name": "Weiden in der Oberpfalz",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/weiden/tirschenreuth",
+      "name": "Tirschenreuth",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/weiden/weiden",
+      "name": "Weiden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bayern/nurnberg/wurzburg",
+      "name": "Würzburg",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/bayern/regensburg",
+      "name": "Regensburg",
+      "courts": [
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/bayern/wurzburg",
+      "name": "Würzburg",
+      "courts": [
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/berlin",
+      "name": "Berlin",
+      "courts": [
+        "kg",
+        "lg",
+        "verfgh"
+      ]
+    },
+    {
+      "path": "de/berlin.brandenburg",
+      "name": "Berlin-Brandenburg",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "ovg"
+      ]
+    },
+    {
+      "path": "de/berlin.brandenburg/berlin",
+      "name": "Berlin",
+      "courts": [
+        "arbg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/berlin.brandenburg/brandenburg",
+      "name": "Brandenburg",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/berlin.brandenburg/cottbus",
+      "name": "Cottbus",
+      "courts": [
+        "arbg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/berlin.brandenburg/eberswalde",
+      "name": "Eberswalde",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/berlin.brandenburg/frankfurt",
+      "name": "Frankfurt",
+      "courts": [
+        "arbg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/berlin.brandenburg/neuruppin",
+      "name": "Neuruppin",
+      "courts": [
+        "arbg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/berlin.brandenburg/potsdam",
+      "name": "Potsdam",
+      "courts": [
+        "arbg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/berlin/charlottenburg",
+      "name": "Charlottenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/kopenick",
+      "name": "Köpenick",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/lichtenberg",
+      "name": "Lichtenberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/mitte",
+      "name": "Mitte",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/neukolln",
+      "name": "Neukölln",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/pankow.weissensee",
+      "name": "Pankow/Weißensee",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/schoneberg",
+      "name": "Schöneberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/spandau",
+      "name": "Spandau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/tempelhof.kreuzberg",
+      "name": "Tempelhof-Kreuzberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/tiergarten",
+      "name": "Tiergarten",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/berlin/wedding",
+      "name": "Wedding",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg",
+      "name": "Brandenburg",
+      "courts": [
+        "olg",
+        "verfg"
+      ]
+    },
+    {
+      "path": "de/brandenburg/cottbus",
+      "name": "Cottbus",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/brandenburg/cottbus/bad.liebenwerda",
+      "name": "Bad Liebenwerda",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/cottbus/cottbus",
+      "name": "Cottbus",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/cottbus/konigs.wusterhausen",
+      "name": "Königs Wusterhausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/cottbus/lubben",
+      "name": "Lübben",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/cottbus/senftenberg",
+      "name": "Senftenberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/frankfurt",
+      "name": "Frankfurt (Oder)",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/brandenburg/frankfurt/bad.freienwalde",
+      "name": "Bad Freienwalde",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/frankfurt/bernau.bei.berlin",
+      "name": "Bernau bei Berlin",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/frankfurt/eberswalde",
+      "name": "Eberswalde",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/frankfurt/eisenhuttenstadt",
+      "name": "Eisenhüttenstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/frankfurt/frankfurt",
+      "name": "Frankfurt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/frankfurt/furstenwalde",
+      "name": "Fürstenwalde",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/frankfurt/strausberg",
+      "name": "Strausberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/neuruppin",
+      "name": "Neuruppin",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/brandenburg/neuruppin/neuruppin",
+      "name": "Neuruppin",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/neuruppin/oranienburg",
+      "name": "Oranienburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/neuruppin/perleberg",
+      "name": "Perleberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/neuruppin/prenzlau",
+      "name": "Prenzlau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/neuruppin/schwedt",
+      "name": "Schwedt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/neuruppin/zehdenick",
+      "name": "Zehdenick",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/potsdam",
+      "name": "Potsdam",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/brandenburg/potsdam/brandenburg.an.der.havel",
+      "name": "Brandenburg an der Havel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/potsdam/luckenwalde",
+      "name": "Luckenwalde",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/potsdam/nauen",
+      "name": "Nauen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/potsdam/potsdam",
+      "name": "Potsdam",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/potsdam/rathenow",
+      "name": "Rathenow",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/brandenburg/potsdam/zossen",
+      "name": "Zossen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bremen",
+      "name": "Bremen",
+      "courts": [
+        "arbg",
+        "fg",
+        "lag",
+        "lg",
+        "olg",
+        "ovg",
+        "stgh",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/bremen/bremen",
+      "name": "Bremen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bremen/bremen.blumenthal",
+      "name": "Bremen Blumenthal",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/bremen/bremerhaven",
+      "name": "Bremerhaven",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hamburg",
+      "name": "Hamburg",
+      "courts": [
+        "arbg",
+        "fg",
+        "lag",
+        "lg",
+        "lsg",
+        "olg",
+        "ovg",
+        "sg",
+        "verfg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/hamburg/hamburg",
+      "name": "Hamburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hamburg/hamburg.altona",
+      "name": "Hamburg-Altona",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hamburg/hamburg.barmbek",
+      "name": "Hamburg Barmbek",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hamburg/hamburg.bergedorf",
+      "name": "Hamburg-Bergedorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hamburg/hamburg.blankenese",
+      "name": "Hamburg-Blankenese",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hamburg/hamburg.harburg",
+      "name": "Hamburg-Harburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hamburg/hamburg.st.georg",
+      "name": "Hamburg-St Georg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hamburg/hamburg.wandsbek",
+      "name": "Hamburg-Wandsbek",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen",
+      "name": "Hessen",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "olg",
+        "stgh",
+        "vgh"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt",
+      "name": "Darmstadt",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/bensheim",
+      "name": "Bensheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/darmstadt",
+      "name": "Darmstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/dieburg",
+      "name": "Dieburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/furth",
+      "name": "Fürth",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/gross.gerau",
+      "name": "Groß-Gerau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/lampertheim",
+      "name": "Lampertheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/langen",
+      "name": "Langen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/michelstadt",
+      "name": "Michelstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/offenbach.am.main",
+      "name": "Offenbach am Main",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/russelshei",
+      "name": "Rüsselshei",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/darmstadt/seligenstadt",
+      "name": "Seligenstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/frankfurt.am.main",
+      "name": "Frankfurt am Main",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/hessen/frankfurt.am.main/bad.homburg",
+      "name": "Bad Homburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/frankfurt.am.main/frankfurt.am.main",
+      "name": "Frankfurt am Main",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/frankfurt.am.main/konigstein.im.taunus",
+      "name": "Königstein im Taunus",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/fulda",
+      "name": "Fulda",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/hessen/fulda/bad.hersfeld",
+      "name": "Bad Hersfeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/fulda/fulda",
+      "name": "Fulda",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/fulda/hunfeld",
+      "name": "Hünfeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/giessen",
+      "name": "Gießen",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/hessen/giessen/alsfeld",
+      "name": "Alsfeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/giessen/budingen",
+      "name": "Büdingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/giessen/friedberg",
+      "name": "Friedberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/giessen/giessen",
+      "name": "Gießen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/hanau",
+      "name": "Hanau",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/hessen/hanau/gelnhausen",
+      "name": "Gelnhausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/hanau/hanau",
+      "name": "Hanau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/kassel",
+      "name": "Kassel",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/hessen/kassel/eschwege",
+      "name": "Eschwege",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/kassel/fritzlar",
+      "name": "Fritzlar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/kassel/kassel",
+      "name": "Kassel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/kassel/korbach",
+      "name": "Korbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/kassel/melsungen",
+      "name": "Melsungen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/limburg",
+      "name": "Limburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/hessen/limburg/dillenburg",
+      "name": "Dillenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/limburg/limburg.an.der.lahn",
+      "name": "Limburg an der Lahn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/limburg/weilburg",
+      "name": "Weilburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/limburg/wetzlar",
+      "name": "Wetzlar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/marburg",
+      "name": "Marburg",
+      "courts": [
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/hessen/marburg/biedenkopf",
+      "name": "Biedenkopf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/marburg/frankenberg",
+      "name": "Frankenberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/marburg/kirchhain",
+      "name": "Kirchhain",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/marburg/marburg",
+      "name": "Marburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/marburg/schwalmstadt",
+      "name": "Schwalmstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/offenbach.am.main",
+      "name": "Offenbach am Main",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/hessen/wiesbaden",
+      "name": "Wiesbaden",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/hessen/wiesbaden/bad.schwalbach",
+      "name": "Bad Schwalbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/wiesbaden/idstein",
+      "name": "Idstein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/wiesbaden/rudesheim.am.rhein",
+      "name": "Rüdesheim am Rhein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/hessen/wiesbaden/wiesbaden",
+      "name": "Wiesbaden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern",
+      "name": "Mecklenburg-Vorpommern",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "lverfg",
+        "olg",
+        "ovg"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/greifswald",
+      "name": "Greifswald",
+      "courts": [
+        "vg"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/neubrandenburg",
+      "name": "Neubrandenburg",
+      "courts": [
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/neubrandenburg/neubrandenburg",
+      "name": "Neubrandenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/neubrandenburg/pasewalk",
+      "name": "Pasewalk",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/neubrandenburg/waren",
+      "name": "Waren",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/rostock",
+      "name": "Rostock",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/rostock/gustrow",
+      "name": "Güstrow",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/rostock/rostock",
+      "name": "Rostock",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/schwerin",
+      "name": "Schwerin",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/schwerin/ludwigslust",
+      "name": "Ludwigslust",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/schwerin/schwerin",
+      "name": "Schwerin",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/schwerin/wismar",
+      "name": "Wismar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/stralsund",
+      "name": "Stralsund",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/stralsund/greifswald",
+      "name": "Greifswald",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/mecklenburg.vorpommern/stralsund/stralsund",
+      "name": "Stralsund",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen",
+      "name": "Niedersachsen",
+      "courts": [
+        "fg",
+        "lag",
+        "ovg",
+        "stgh"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen",
+      "name": "Niedersachsen-Bremen",
+      "courts": [
+        "lsg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/aurich",
+      "name": "Aurich",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/braunschweig",
+      "name": "Braunschweig",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/bremen",
+      "name": "Bremen",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/hannover",
+      "name": "Hannover",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/hildesheim",
+      "name": "Hildesheim",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/luneburg",
+      "name": "Lüneburg",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/oldenburg",
+      "name": "Oldenburg",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/osnabruck",
+      "name": "Osnabrück",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen.bremen/stade",
+      "name": "Stade",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig",
+      "name": "Braunschweig",
+      "courts": [
+        "arbg",
+        "olg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig",
+      "name": "Braunschweig",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/bad.gandersheim",
+      "name": "Bad Gandersheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/braunschweig",
+      "name": "Braunschweig",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/clausthal.zellerfeld",
+      "name": "Clausthal-Zellerfeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/goslar",
+      "name": "Goslar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/helmstedt",
+      "name": "Helmstedt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/salzgitter",
+      "name": "Salzgitter",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/seesen",
+      "name": "Seesen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/wolfenbuttel",
+      "name": "Wolfenbüttel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/braunschweig/wolfsburg",
+      "name": "Wolfsburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/gottingen",
+      "name": "Göttingen",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/gottingen/duderstadt",
+      "name": "Duderstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/gottingen/einbeck",
+      "name": "Einbeck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/gottingen/gottingen",
+      "name": "Göttingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/gottingen/herzberg.am.harz",
+      "name": "Herzberg am Harz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/gottingen/munden",
+      "name": "Münden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/gottingen/northeim",
+      "name": "Northeim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/braunschweig/gottingen/osterode.am.harz",
+      "name": "Osterode am Harz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle",
+      "name": "Celle",
+      "courts": [
+        "arbg",
+        "olg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/buckeburg",
+      "name": "Bückeburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/buckeburg/buckeburg",
+      "name": "Bückeburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/buckeburg/rinteln",
+      "name": "Rinteln",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/buckeburg/stadthagen",
+      "name": "Stadthagen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hannover",
+      "name": "Hannover",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hannover/burgwedel",
+      "name": "Burgwedel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hannover/hameln",
+      "name": "Hameln",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hannover/hannover",
+      "name": "Hannover",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hannover/neustadt.am.rubenberge",
+      "name": "Neustadt am Rübenberge",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hannover/springe",
+      "name": "Springe",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hannover/wennigsen",
+      "name": "Wennigsen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim",
+      "name": "Hildesheim",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim/alfeld",
+      "name": "Alfeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim/burgdorf",
+      "name": "Burgdorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim/elze",
+      "name": "Elze",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim/gifhorn",
+      "name": "Gifhorn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim/hildesheim",
+      "name": "Hildesheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim/holzminden",
+      "name": "Holzminden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim/lehrte",
+      "name": "Lehrte",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/hildesheim/peine",
+      "name": "Peine",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/luneburg",
+      "name": "Lüneburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/luneburg/celle",
+      "name": "Celle",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/luneburg/dannenberg",
+      "name": "Dannenberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/luneburg/luneburg",
+      "name": "Lüneburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/luneburg/soltau",
+      "name": "Soltau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/luneburg/uelzen",
+      "name": "Uelzen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/luneburg/winsen",
+      "name": "Winsen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade",
+      "name": "Stade",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade/bremervorde",
+      "name": "Bremervörde",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade/buxtehude",
+      "name": "Buxtehude",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade/cuxhaven",
+      "name": "Cuxhaven",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade/geestland",
+      "name": "Geestland",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade/otterndorf",
+      "name": "Otterndorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade/stade",
+      "name": "Stade",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade/tostedt",
+      "name": "Tostedt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/stade/zeven",
+      "name": "Zeven",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden",
+      "name": "Verden",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/achim",
+      "name": "Achim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/diepholz",
+      "name": "Diepholz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/nienburg",
+      "name": "Nienburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/osterholz.scharmbeck",
+      "name": "Osterholz-Scharmbeck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/rotenburg",
+      "name": "Rotenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/stolzenau",
+      "name": "Stolzenau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/sulingen",
+      "name": "Sulingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/syke",
+      "name": "Syke",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/verden",
+      "name": "Verden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/celle/verden/walsrode",
+      "name": "Walsrode",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/emden",
+      "name": "Emden",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/gottingen",
+      "name": "Göttingen",
+      "courts": [
+        "arbg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/hameln",
+      "name": "Hameln",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/hannover",
+      "name": "Hannover",
+      "courts": [
+        "arbg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/hildesheim",
+      "name": "Hildesheim",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/lingen",
+      "name": "Lingen",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/luneburg",
+      "name": "Lüneburg",
+      "courts": [
+        "arbg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/nienburg",
+      "name": "Nienburg",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg",
+      "name": "Oldenburg",
+      "courts": [
+        "arbg",
+        "olg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/aurich",
+      "name": "Aurich",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/aurich/aurich",
+      "name": "Aurich",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/aurich/emden",
+      "name": "Emden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/aurich/leer",
+      "name": "Leer",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/aurich/norden",
+      "name": "Norden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/aurich/wittmund",
+      "name": "Wittmund",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg",
+      "name": "Oldenburg",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/brake",
+      "name": "Brake",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/cloppenburg",
+      "name": "Cloppenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/delmenhorst",
+      "name": "Delmenhorst",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/jever",
+      "name": "Jever",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/nordenham",
+      "name": "Nordenham",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/oldenburg",
+      "name": "Oldenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/varel",
+      "name": "Varel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/vechta",
+      "name": "Vechta",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/westerstede",
+      "name": "Westerstede",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/wildeshausen",
+      "name": "Wildeshausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/oldenburg/wilhelmshaven",
+      "name": "Wilhelmshaven",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/osnabruck",
+      "name": "Osnabrück",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/osnabruck/bad.iburg",
+      "name": "Bad Iburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/osnabruck/bersenbruck",
+      "name": "Bersenbrück",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/osnabruck/lingen",
+      "name": "Lingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/osnabruck/meppen",
+      "name": "Meppen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/osnabruck/nordhorn",
+      "name": "Nordhorn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/osnabruck/osnabruck",
+      "name": "Osnabrück",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/oldenburg/osnabruck/papenburg",
+      "name": "Papenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/osnabruck",
+      "name": "Osnabrück",
+      "courts": [
+        "arbg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/stade",
+      "name": "Stade",
+      "courts": [
+        "arbg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/verden",
+      "name": "Verden",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/niedersachsen/wilhelmshaven",
+      "name": "Wilhelmshaven",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen",
+      "name": "Nordrhein-Westfalen",
+      "courts": [
+        "lsg",
+        "ovg",
+        "verfgh"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/aachen",
+      "name": "Aachen",
+      "courts": [
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/arnsberg",
+      "name": "Arnsberg",
+      "courts": [
+        "vg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/detmold",
+      "name": "Detmold",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dortmund",
+      "name": "Dortmund",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/duisburg",
+      "name": "Duisburg",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf",
+      "name": "Düsseldorf",
+      "courts": [
+        "fg",
+        "lag",
+        "olg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/duisburg",
+      "name": "Duisburg",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/duisburg/dinslaken",
+      "name": "Dinslaken",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/duisburg/duisburg",
+      "name": "Duisburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/duisburg/duisburg.hamborn",
+      "name": "Duisburg-Hamborn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/duisburg/duisburg.ruhrort",
+      "name": "Duisburg-Ruhrort",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/duisburg/mulheim.an.der.ruhr",
+      "name": "Mülheim an der Ruhr",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/duisburg/oberhausen",
+      "name": "Oberhausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/duisburg/wesel",
+      "name": "Wesel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/dusseldorf",
+      "name": "Düsseldorf",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/dusseldorf/dusseldorf",
+      "name": "Düsseldorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/dusseldorf/langenfeld",
+      "name": "Langenfeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/dusseldorf/neuss",
+      "name": "Neuss",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/dusseldorf/ratingen",
+      "name": "Ratingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/essen",
+      "name": "Essen",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/kleve",
+      "name": "Kleve",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/kleve/emmerich",
+      "name": "Emmerich",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/kleve/geldern",
+      "name": "Geldern",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/kleve/kleve",
+      "name": "Kleve",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/kleve/moers",
+      "name": "Moers",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/kleve/rheinberg",
+      "name": "Rheinberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/krefeld",
+      "name": "Krefeld",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/krefeld/kempen",
+      "name": "Kempen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/krefeld/krefeld",
+      "name": "Krefeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/krefeld/nettetal",
+      "name": "Nettetal",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/monchengladbach",
+      "name": "Mönchengladbach",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/monchengladbach/erkelenz",
+      "name": "Erkelenz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/monchengladbach/grevenbroich",
+      "name": "Grevenbroich",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/monchengladbach/monchengladbach",
+      "name": "Mönchengladbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/monchengladbach/monchengladbach.rheydt",
+      "name": "Mönchengladbach-Rheydt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/monchengladbach/viersen",
+      "name": "Viersen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/oberhausen",
+      "name": "Oberhausen",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/solingen",
+      "name": "Solingen",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/wesel",
+      "name": "Wesel",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/wuppertal",
+      "name": "Wuppertal",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/wuppertal/mettmann",
+      "name": "Mettmann",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/wuppertal/remscheid",
+      "name": "Remscheid",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/wuppertal/solingen",
+      "name": "Solingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/wuppertal/velbert",
+      "name": "Velbert",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/dusseldorf/wuppertal/wuppertal",
+      "name": "Wuppertal",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/gelsenkirchen",
+      "name": "Gelsenkirchen",
+      "courts": [
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm",
+      "name": "Hamm",
+      "courts": [
+        "lag",
+        "olg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg",
+      "name": "Arnsberg",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/arnsberg",
+      "name": "Arnsberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/brilon",
+      "name": "Brilon",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/marsberg",
+      "name": "Marsberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/medebach",
+      "name": "Medebach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/menden",
+      "name": "Menden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/meschede",
+      "name": "Meschede",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/schmallenberg",
+      "name": "Schmallenberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/soest",
+      "name": "Soest",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/warstein",
+      "name": "Warstein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/arnsberg/werl",
+      "name": "Werl",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld",
+      "name": "Bielefeld",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/bad.oeynhausen",
+      "name": "Bad Oeynhausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/bielefeld",
+      "name": "Bielefeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/bunde",
+      "name": "Bünde",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/gutersloh",
+      "name": "Gütersloh",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/halle",
+      "name": "Halle",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/herford",
+      "name": "Herford",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/lubbecke",
+      "name": "Lübbecke",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/minden",
+      "name": "Minden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/rahden",
+      "name": "Rahden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bielefeld/rheda.wiedenbruck",
+      "name": "Rheda-Wiedenbrück",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bocholt",
+      "name": "Bocholt",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bochum",
+      "name": "Bochum",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bochum/bochum",
+      "name": "Bochum",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bochum/herne",
+      "name": "Herne",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bochum/herne.wanne",
+      "name": "Herne-Wanne",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bochum/recklinghausen",
+      "name": "Recklinghausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/bochum/witten",
+      "name": "Witten",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/detmold",
+      "name": "Detmold",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/detmold/blomberg",
+      "name": "Blomberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/detmold/detmold",
+      "name": "Detmold",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/detmold/lemgo",
+      "name": "Lemgo",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/dortmund",
+      "name": "Dortmund",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/dortmund/castrop.rauxel",
+      "name": "Castrop-Rauxel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/dortmund/dortmund",
+      "name": "Dortmund",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/dortmund/hamm",
+      "name": "Hamm",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/dortmund/kamen",
+      "name": "Kamen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/dortmund/lunen",
+      "name": "Lünen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/dortmund/unna",
+      "name": "Unna",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen",
+      "name": "Essen",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/bottrop",
+      "name": "Bottrop",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/dorsten",
+      "name": "Dorsten",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/essen",
+      "name": "Essen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/essen.borbeck",
+      "name": "Essen-Borbeck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/essen.steele",
+      "name": "Essen-Steele",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/gelsenkirchen",
+      "name": "Gelsenkirchen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/gladbeck",
+      "name": "Gladbeck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/hattingen",
+      "name": "Hattingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/essen/marl",
+      "name": "Marl",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/gelsenkirchen",
+      "name": "Gelsenkirchen",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen",
+      "name": "Hagen",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/altena",
+      "name": "Altena",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/hagen",
+      "name": "Hagen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/iserlohn",
+      "name": "Iserlohn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/ludenscheid",
+      "name": "Lüdenscheid",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/meinerzhagen",
+      "name": "Meinerzhagen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/plettenberg",
+      "name": "Plettenberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/schwelm",
+      "name": "Schwelm",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/schwerte",
+      "name": "Schwerte",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hagen/wetter",
+      "name": "Wetter",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/hamm",
+      "name": "Hamm",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/herford",
+      "name": "Herford",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/herne",
+      "name": "Herne",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/iserlohn",
+      "name": "Iserlohn",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/minden",
+      "name": "Minden",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster",
+      "name": "Münster",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/ahaus",
+      "name": "Ahaus",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/ahlen",
+      "name": "Ahlen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/beckum",
+      "name": "Beckum",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/bocholt",
+      "name": "Bocholt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/borken",
+      "name": "Borken",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/coesfeld",
+      "name": "Coesfeld",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/dulmen",
+      "name": "Dülmen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/gronau",
+      "name": "Gronau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/ibbenburen",
+      "name": "Ibbenbüren",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/ludinghausen",
+      "name": "Lüdinghausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/munster",
+      "name": "Münster",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/rheine",
+      "name": "Rheine",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/steinfurt",
+      "name": "Steinfurt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/tecklenburg",
+      "name": "Tecklenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/munster/warendorf",
+      "name": "Warendorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/paderborn",
+      "name": "Paderborn",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/paderborn/brakel",
+      "name": "Brakel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/paderborn/delbruck",
+      "name": "Delbrück",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/paderborn/hoxter",
+      "name": "Höxter",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/paderborn/lippstadt",
+      "name": "Lippstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/paderborn/paderborn",
+      "name": "Paderborn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/paderborn/warburg",
+      "name": "Warburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/rheine",
+      "name": "Rheine",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/siegen",
+      "name": "Siegen",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/siegen/bad.berleburg",
+      "name": "Bad Berleburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/siegen/lennestadt",
+      "name": "Lennestadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/siegen/olpe",
+      "name": "Olpe",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/hamm/siegen/siegen",
+      "name": "Siegen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln",
+      "name": "Köln",
+      "courts": [
+        "fg",
+        "lag",
+        "olg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen",
+      "name": "Aachen",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen/aachen",
+      "name": "Aachen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen/duren",
+      "name": "Düren",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen/eschweiler",
+      "name": "Eschweiler",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen/geilenkirchen",
+      "name": "Geilenkirchen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen/heinsberg",
+      "name": "Heinsberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen/julich",
+      "name": "Jülich",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen/monschau",
+      "name": "Monschau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/aachen/schleiden",
+      "name": "Schleiden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/bonn",
+      "name": "Bonn",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/bonn/bonn",
+      "name": "Bonn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/bonn/euskirchen",
+      "name": "Euskirchen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/bonn/konigswinter",
+      "name": "Königswinter",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/bonn/rheinbach",
+      "name": "Rheinbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/bonn/siegburg",
+      "name": "Siegburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/bonn/waldbrol",
+      "name": "Waldbröl",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln",
+      "name": "Köln",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/bergheim",
+      "name": "Bergheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/bergisch.gladbach",
+      "name": "Bergisch Gladbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/bruhl",
+      "name": "Brühl",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/gummersbach",
+      "name": "Gummersbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/kerpen",
+      "name": "Kerpen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/koln",
+      "name": "Köln",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/leverkusen",
+      "name": "Leverkusen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/wermelskirchen",
+      "name": "Wermelskirchen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/koln/wipperfurth",
+      "name": "Wipperfürth",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/koln/siegburg",
+      "name": "Siegburg",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/minden",
+      "name": "Minden",
+      "courts": [
+        "vg"
+      ]
+    },
+    {
+      "path": "de/nordrhein.westfalen/munster",
+      "name": "Münster",
+      "courts": [
+        "fg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz",
+      "name": "Rheinland-Pfalz",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "ovg",
+        "verfgh"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/kaiserslautern",
+      "name": "Kaiserslautern",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz",
+      "name": "Koblenz",
+      "courts": [
+        "arbg",
+        "olg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/bad.kreuznach",
+      "name": "Bad Kreuznach",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/bad.kreuznach/bad.kreuznach",
+      "name": "Bad Kreuznach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/bad.kreuznach/bad.sobernheim",
+      "name": "Bad Sobernheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/bad.kreuznach/idar.oberstein",
+      "name": "Idar-Oberstein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/bad.kreuznach/simmern.hunsruck",
+      "name": "Simmern/Hunsrück",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz",
+      "name": "Koblenz",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/altenkirchen",
+      "name": "Altenkirchen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/andernach",
+      "name": "Andernach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/bad.neuenahr.ahrweiler",
+      "name": "Bad Neuenahr-Ahrweiler",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/betzdorf",
+      "name": "Betzdorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/cochem",
+      "name": "Cochem",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/diez",
+      "name": "Diez",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/koblenz",
+      "name": "Koblenz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/lahnstein",
+      "name": "Lahnstein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/linz.am.rhein",
+      "name": "Linz am Rhein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/mayen",
+      "name": "Mayen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/montabaur",
+      "name": "Montabaur",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/neuwied",
+      "name": "Neuwied",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/sankt.goar",
+      "name": "Sankt Goar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/sinzig",
+      "name": "Sinzig",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/koblenz/westerburg",
+      "name": "Westerburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/mainz",
+      "name": "Mainz",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/mainz/alzey",
+      "name": "Alzey",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/mainz/bingen.am.rhein",
+      "name": "Bingen am Rhein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/mainz/mainz",
+      "name": "Mainz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/mainz/worms",
+      "name": "Worms",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier",
+      "name": "Trier",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier/bernkastel.kues",
+      "name": "Bernkastel-Kues",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier/bitburg",
+      "name": "Bitburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier/daun",
+      "name": "Daun",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier/hermeskeil",
+      "name": "Hermeskeil",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier/prum",
+      "name": "Prüm",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier/saarburg",
+      "name": "Saarburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier/trier",
+      "name": "Trier",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/koblenz/trier/wittlich",
+      "name": "Wittlich",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/ludwigshafen.am.rhein",
+      "name": "Ludwigshafen am Rhein",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/mainz",
+      "name": "Mainz",
+      "courts": [
+        "arbg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/neustadt.an.der.weinstrasse",
+      "name": "Neustadt an der Weinstraße",
+      "courts": [
+        "vg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/speyer",
+      "name": "Speyer",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/trier",
+      "name": "Trier",
+      "courts": [
+        "arbg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken",
+      "name": "Zweibrücken",
+      "courts": [
+        "olg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/frankenthal",
+      "name": "Frankenthal",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/frankenthal/bad.durkheim",
+      "name": "Bad Dürkheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/frankenthal/frankenthal",
+      "name": "Frankenthal",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/frankenthal/grunstadt",
+      "name": "Grünstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/frankenthal/ludwigshafen",
+      "name": "Ludwigshafen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/frankenthal/neustadt.an.der.weinstrasse",
+      "name": "Neustadt an der Weinstraße",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/frankenthal/speyer",
+      "name": "Speyer",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/kaiserslautern",
+      "name": "Kaiserslautern",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/kaiserslautern/kaiserslautern",
+      "name": "Kaiserslautern",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/kaiserslautern/kusel",
+      "name": "Kusel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/kaiserslautern/rockenhausen",
+      "name": "Rockenhausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/landau.in.der.pfalz",
+      "name": "Landau in der Pfalz",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/landau.in.der.pfalz/germersheim",
+      "name": "Germersheim",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/landau.in.der.pfalz/kandel",
+      "name": "Kandel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/landau.in.der.pfalz/landau.in.der.pfalz",
+      "name": "Landau in der Pfalz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/zweibrucken",
+      "name": "Zweibrücken",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/zweibrucken/landstuhl",
+      "name": "Landstuhl",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/zweibrucken/pirmasens",
+      "name": "Pirmasens",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/rheinland.pfalz/zweibrucken/zweibrucken/zweibrucken",
+      "name": "Zweibrücken",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland",
+      "name": "Saarbrücken",
+      "courts": [
+        "arbg",
+        "fg",
+        "lag",
+        "lg",
+        "lsg",
+        "olg",
+        "ovg",
+        "sg",
+        "verfgh",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/saarland/homburg",
+      "name": "Homburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/ingbert",
+      "name": "Ingbert",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/lebach",
+      "name": "Lebach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/merzig",
+      "name": "Merzig",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/neunkirchen",
+      "name": "Neunkirchen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/ottweiler",
+      "name": "Ottweiler",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/saarbrucken",
+      "name": "Saarbrücken",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/saarlouis",
+      "name": "Saarlouis",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/volklingen",
+      "name": "Völklingen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/saarland/wendel",
+      "name": "Wendel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen",
+      "name": "Sachsen",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "olg",
+        "ovg",
+        "verfgh"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt",
+      "name": "Sachsen-Anhalt",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "lverfg",
+        "olg",
+        "ovg"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/dessau.rosslau",
+      "name": "Dessau-Roßlau",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/dessau.rosslau/bitterfeld.wolfen",
+      "name": "Bitterfeld-Wolfen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/dessau.rosslau/dessau.rosslau",
+      "name": "Dessau-Roßlau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/dessau.rosslau/kothen",
+      "name": "Köthen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/dessau.rosslau/wittenberg",
+      "name": "Wittenberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/dessau.rosslau/zerbst",
+      "name": "Zerbst",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/halle",
+      "name": "Halle",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/halle/eisleben",
+      "name": "Eisleben",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/halle/halle",
+      "name": "Halle",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/halle/merseburg",
+      "name": "Merseburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/halle/naumburg",
+      "name": "Naumburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/halle/sangerhausen",
+      "name": "Sangerhausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/halle/weissenfels",
+      "name": "Weißenfels",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/halle/zeitz",
+      "name": "Zeitz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg",
+      "name": "Magdeburg",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/aschersleben",
+      "name": "Aschersleben",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/bernburg",
+      "name": "Bernburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/halberstadt",
+      "name": "Halberstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/haldensleben",
+      "name": "Haldensleben",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/magdeburg",
+      "name": "Magdeburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/oschersleben",
+      "name": "Oschersleben",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/quedlinburg",
+      "name": "Quedlinburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/schonebeck",
+      "name": "Schönebeck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/magdeburg/wernigerode",
+      "name": "Wernigerode",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/stendal",
+      "name": "Stendal",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/stendal/burg",
+      "name": "Burg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/stendal/gardelegen",
+      "name": "Gardelegen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/stendal/salzwedel",
+      "name": "Salzwedel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen.anhalt/stendal/stendal",
+      "name": "Stendal",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/bautzen",
+      "name": "Bautzen",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/sachsen/chemnitz",
+      "name": "Chemnitz",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/sachsen/chemnitz/aue",
+      "name": "Aue",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/chemnitz/chemnitz",
+      "name": "Chemnitz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/chemnitz/dobeln",
+      "name": "Döbeln",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/chemnitz/freiberg",
+      "name": "Freiberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/chemnitz/marienberg",
+      "name": "Marienberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/dresden",
+      "name": "Dresden",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/sachsen/dresden/dippoldiswalde",
+      "name": "Dippoldiswalde",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/dresden/dresden",
+      "name": "Dresden",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/dresden/meissen",
+      "name": "Meißen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/dresden/pirna",
+      "name": "Pirna",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/dresden/riesa",
+      "name": "Riesa",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/gorlitz",
+      "name": "Görlitz",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/sachsen/gorlitz/bautzen",
+      "name": "Bautzen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/gorlitz/gorlitz",
+      "name": "Görlitz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/gorlitz/hoyerswerda",
+      "name": "Hoyerswerda",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/gorlitz/kamenz",
+      "name": "Kamenz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/gorlitz/weisswasser",
+      "name": "Weißwasser",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/gorlitz/zittau",
+      "name": "Zittau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/leipzig",
+      "name": "Leipzig",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/sachsen/leipzig/borna",
+      "name": "Borna",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/leipzig/eilenburg",
+      "name": "Eilenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/leipzig/grimma",
+      "name": "Grimma",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/leipzig/leipzig",
+      "name": "Leipzig",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/leipzig/torgau",
+      "name": "Torgau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/zwickau",
+      "name": "Zwickau",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/sachsen/zwickau/auerbach",
+      "name": "Auerbach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/zwickau/hohenstein.ernstthal",
+      "name": "Hohenstein-Ernstthal",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/zwickau/plauen",
+      "name": "Plauen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/sachsen/zwickau/zwickau",
+      "name": "Zwickau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein",
+      "name": "Schleswig-Holstein",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "lverfg",
+        "olg",
+        "ovg"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/elmshorn",
+      "name": "Elmshorn",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/flensburg",
+      "name": "Flensburg",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/flensburg/flensburg",
+      "name": "Flensburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/flensburg/husum",
+      "name": "Husum",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/flensburg/niebull",
+      "name": "Niebüll",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/flensburg/schleswig",
+      "name": "Schleswig",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/itzehoe",
+      "name": "Itzehoe",
+      "courts": [
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/itzehoe/elmshorn",
+      "name": "Elmshorn",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/itzehoe/itzehoe",
+      "name": "Itzehoe",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/itzehoe/meldorf",
+      "name": "Meldorf",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/itzehoe/pinneberg",
+      "name": "Pinneberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/kiel",
+      "name": "Kiel",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/kiel/bad.segeberg",
+      "name": "Bad Segeberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/kiel/eckernforde",
+      "name": "Eckernförde",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/kiel/kiel",
+      "name": "Kiel",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/kiel/neumunster",
+      "name": "Neumünster",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/kiel/norderstedt",
+      "name": "Norderstedt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/kiel/plon",
+      "name": "Plön",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/kiel/rendsburg",
+      "name": "Rendsburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/lubeck",
+      "name": "Lübeck",
+      "courts": [
+        "arbg",
+        "lg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/lubeck/ahrensburg",
+      "name": "Ahrensburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/lubeck/eutin",
+      "name": "Eutin",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/lubeck/lubeck",
+      "name": "Lübeck",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/lubeck/oldenburg.in.holstein",
+      "name": "Oldenburg in Holstein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/lubeck/ratzeburg",
+      "name": "Ratzeburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/lubeck/reinbek",
+      "name": "Reinbek",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/lubeck/schwarzenbek",
+      "name": "Schwarzenbek",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/neumunster",
+      "name": "Neumünster",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/schleswig.holstein/schleswig",
+      "name": "Schleswig",
+      "courts": [
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/thuringen",
+      "name": "Thüringen",
+      "courts": [
+        "fg",
+        "lag",
+        "lsg",
+        "olg",
+        "ovg",
+        "verfgh"
+      ]
+    },
+    {
+      "path": "de/thuringen/altenburg",
+      "name": "Altenburg",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/thuringen/eisenach",
+      "name": "Eisenach",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/thuringen/erfurt",
+      "name": "Erfurt",
+      "courts": [
+        "arbg",
+        "lg"
+      ]
+    },
+    {
+      "path": "de/thuringen/erfurt/apolda",
+      "name": "Apolda",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/erfurt/arnstadt",
+      "name": "Arnstadt mit Zweigstelle Ilmenau",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/erfurt/erfurt",
+      "name": "Erfurt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/erfurt/gotha",
+      "name": "Gotha",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/erfurt/sommerda",
+      "name": "Sömmerda",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/erfurt/weimar",
+      "name": "Weimar",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/gera",
+      "name": "Gera",
+      "courts": [
+        "arbg",
+        "lg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/thuringen/gera/altenburg",
+      "name": "Altenburg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/gera/gera",
+      "name": "Gera",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/gera/greiz",
+      "name": "Greiz",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/gera/jena",
+      "name": "Jena",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/gera/possneck",
+      "name": "Pößneck mit Zweigstelle Bad Lobenstein",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/gera/rudolstadt",
+      "name": "Rudolstadt mit Zweigstelle Saalfeld/Saale",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/gera/stadtroda",
+      "name": "Stadtroda",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/gotha",
+      "name": "Gotha",
+      "courts": [
+        "sg"
+      ]
+    },
+    {
+      "path": "de/thuringen/jena",
+      "name": "Jena",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/thuringen/meiningen",
+      "name": "Meiningen",
+      "courts": [
+        "lg",
+        "sg",
+        "vg"
+      ]
+    },
+    {
+      "path": "de/thuringen/meiningen/bad.salzungen",
+      "name": "Bad Salzungen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/meiningen/eisenach",
+      "name": "Eisenach",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/meiningen/hildburghausen",
+      "name": "Hildburghausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/meiningen/meiningen",
+      "name": "Meiningen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/meiningen/sonneberg",
+      "name": "Sonneberg",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/meiningen/suhl",
+      "name": "Suhl",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/muhlhausen",
+      "name": "Mühlhausen",
+      "courts": [
+        "lg"
+      ]
+    },
+    {
+      "path": "de/thuringen/muhlhausen/heilbad.heiligenstadt",
+      "name": "Heilbad Heiligenstadt",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/muhlhausen/muhlhausen",
+      "name": "Mühlhausen mit Zweigstelle Bad Langensalza",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/muhlhausen/nordhausen",
+      "name": "Nordhausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/muhlhausen/sondershausen",
+      "name": "Sondershausen",
+      "courts": [
+        "ag"
+      ]
+    },
+    {
+      "path": "de/thuringen/nordhausen",
+      "name": "Nordhausen",
+      "courts": [
+        "arbg",
+        "sg"
+      ]
+    },
+    {
+      "path": "de/thuringen/suhl",
+      "name": "Suhl",
+      "courts": [
+        "arbg"
+      ]
+    },
+    {
+      "path": "de/thuringen/weimar",
+      "name": "Weimar",
+      "courts": [
+        "vg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "ae",
+      "name": "United Arab Emirates",
+      "courts": []
+    }
+  ]
+}

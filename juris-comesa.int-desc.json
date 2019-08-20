@@ -1,0 +1,16 @@
+{
+  "courts": {
+    "court.justice": {
+      "name": "Court Of Justice"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "comesa.int",
+      "name": "Common Market for Eastern and Southern Africa",
+      "courts": [
+        "court.justice"
+      ]
+    }
+  ]
+}

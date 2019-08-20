@@ -1,0 +1,16 @@
+{
+  "courts": {
+    "pcij": {
+      "name": "Permanent Court of International Justice"
+    }
+  },
+  "jurisdictions": [
+    {
+      "path": "ln.int",
+      "name": "League of Nations",
+      "courts": [
+        "pcij"
+      ]
+    }
+  ]
+}

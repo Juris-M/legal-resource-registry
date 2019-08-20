@@ -1,0 +1,10 @@
+{
+  "courts": {},
+  "jurisdictions": [
+    {
+      "path": "sm",
+      "name": "San Marino",
+      "courts": []
+    }
+  ]
+}

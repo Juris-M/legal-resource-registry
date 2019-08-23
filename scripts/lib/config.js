@@ -8,7 +8,6 @@ var configFile = path.join(os.homedir(), ".jurisUpdate");
 
 var dirNames = [
 	"dataDir",
-	"repoDir",
 	"jurisMapDir",
 	"jurisSrcDir",
 	"jurisAbbrevsDir"
@@ -22,9 +21,7 @@ function getConfig() {
 		config = {
 			path: {
 				dataDir: null,
-				repoDir: null,
 				jurisSrcDir: null,
-				jurisAbbrevsDir: null,
 				configFile: configFile
 			}
 		}
@@ -40,11 +37,9 @@ function getConfig() {
 		handleError(e);
 	}
 	
-	if (!config.path.jurisAbbrevsDir) {
-		var e = new Error("path.jurisAbbrevsDir is undefined in " + configFile);
-		handleError(e);
+	if (!config.path.jurisMapDir) {
+		config.path.jurisAbbrevsDir = path.join(config.path.dataDir, "juris-abbrevs");
 	}
-
 	if (!config.path.jurisMapDir) {
 		config.path.jurisMapDir = path.join(config.path.dataDir, "juris-maps");
 	}

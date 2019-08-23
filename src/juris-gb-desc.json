@@ -1,7 +1,8 @@
 {
   "courts": {
     "ewca.civ": {
-      "name": "Court of Appeal|Civil Division"
+		"name": "Court of Appeal|Civil Division",
+		"ABBREV": "EWCA"
     },
     "ewhc.ch.bankruptcy": {
       "name": "High Court|Chancery Division|Bankruptcy and Companies Court"

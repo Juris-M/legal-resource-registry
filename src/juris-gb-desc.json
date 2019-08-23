@@ -1,8 +1,8 @@
 {
   "courts": {
     "ewca.civ": {
-		"name": "Court of Appeal|Civil Division",
-		"ABBREV": "EWCA"
+      "name": "Court of Appeal|Civil Division",
+      "ABBREV": "EWCA"
     },
     "ewhc.ch.bankruptcy": {
       "name": "High Court|Chancery Division|Bankruptcy and Companies Court"
@@ -52,12 +52,14 @@
         "house.of.lords",
         "privy.council",
         "supreme.court"
-      ]
+      ],
+      "abbrev": "United Kingdom"
     },
     {
       "path": "gb/bermuda",
       "name": "Bermuda",
-      "courts": []
+      "courts": [],
+      "abbrev": "Bermuda"
     },
     {
       "path": "gb/england.and.wales",
@@ -74,57 +76,68 @@
         "ewhc.qb.mercantile",
         "ewhc.qb.tcc",
         "kb"
-      ]
+      ],
+      "abbrev": "England and Wales"
     },
     {
       "path": "gb/falkland.islands",
       "name": "Falkland Islands",
-      "courts": []
+      "courts": [],
+      "abbrev": "Falkland Islands"
     },
     {
       "path": "gb/gibraltar",
       "name": "Gibraltar",
-      "courts": []
+      "courts": [],
+      "abbrev": "Gibraltar"
     },
     {
       "path": "gb/guernsey",
       "name": "Guernsey",
-      "courts": []
+      "courts": [],
+      "abbrev": "Guernsey"
     },
     {
       "path": "gb/hong.kong",
       "name": "Hong Kong",
-      "courts": []
+      "courts": [],
+      "abbrev": "Hong Kong"
     },
     {
       "path": "gb/isle.man",
       "name": "Isle of Man",
-      "courts": []
+      "courts": [],
+      "abbrev": "Isle of Man"
     },
     {
       "path": "gb/montserrat",
       "name": "Montserrat",
-      "courts": []
+      "courts": [],
+      "abbrev": "Montserrat"
     },
     {
       "path": "gb/northern.ireland",
       "name": "Northern Ireland",
-      "courts": []
+      "courts": [],
+      "abbrev": "Northern Ireland"
     },
     {
       "path": "gb/pitcairn.islands",
       "name": "Pitcairn Islands",
-      "courts": []
+      "courts": [],
+      "abbrev": "Pitcairn Islands"
     },
     {
       "path": "gb/scotland",
       "name": "Scotland",
-      "courts": []
+      "courts": [],
+      "abbrev": "Scotland"
     },
     {
       "path": "gb/turks.caicos.islands",
       "name": "Turks and Caicos Islands",
-      "courts": []
+      "courts": [],
+      "abbrev": "Turks and Caicos Islands"
     }
   ]
 }

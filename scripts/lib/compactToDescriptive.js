@@ -182,7 +182,10 @@ async function compactToDescriptive_process(opts) {
 					}
 				}
 			}
-			ret.courts[courtID][abbrevkey] = courtAbbrev;
+			var courtCodes = getCourtCodes(abbrevSets[fn].data, jurisdictionID);
+			if (courtCodes && courtCodes[courtID]) {
+				ret.courts[courtID].ABBREV = courtCodes[courtID];
+			}
 		}
 	}
 	var filePath = path.join(config.path.jurisSrcDir, "juris-" + opts.j + "-desc.json");
@@ -252,6 +255,14 @@ function getCourtAbbrevs(data, jurisdictionID) {
 		abbrevs = data.xdata[jurisdictionID]["institution-part"];
 	}
 	return abbrevs;
+}
+
+function getCourtCodes(data, jurisdictionID) {
+	var ABBREVS = false;
+	if (data.xdata && data.xdata[jurisdictionID] && data.xdata[jurisdictionID]["institution-entire"]) {
+		ABBREVS = data.xdata[jurisdictionID]["institution-entire"];
+	}
+	return ABBREVS;
 }
 
 

@@ -59,7 +59,7 @@ At this point, running the `jurisupdate` command should yield the following erro
 
 ``` bash
     shell> jurisupdate
-    path.dataDir is undefined in /MY/HOME/DIRECTORY/.jurisUpdate
+    ERROR: path.dataDir is undefined in /MY/HOME/DIRECTORY/.jurisUpdate
 ```
 
 The final step in setup is to set several path names in the `.jurisUpdate` configuration
@@ -92,7 +92,7 @@ error message:
 ``` bash
     shell> jurisupdate
     Using /PATH/TO/legal-resource-registry/src as path for descriptive jurisdiction files
-    The -f option is required
+    ERROR: The -t option is required
 ```
 
 If that all checks out, setup is complete and you’re ready to go.
@@ -153,4 +153,40 @@ This structure covers requirements for most jurisdictions. Tweaks may be require
 
 ### Special cases
 
-Hello.
+As described above, the “abbreviated” form of a court for citation purposes is the `"abbrev"` form of its `"courts"` object, optionally combined with the `"name"` or `"abbrev"` form of its `"jurisdictions"` object. There are three cases that are not quite captured by this scheme:
+
+* Citations in declined languages (such as Russian, Czech, or Polish);
+* Citations cast in alternative languages (i.e. an English versus a French form); and
+* Citation using vendor-neutral court codes.
+
+#### Declined languages
+
+Declined languages are those in which the form of a noun varies according
+to context. For example, consider the following Polish case reference:
+
+> Wyrok, Sąd Apelacyjny w Warszawie, Feb. 28, 2017, I ACa 2383/15.
+
+In this reference, “Wyrok” indicates that the reference is to a court
+judgment.  The docket number of the case is “I ACa 2383/15,” and the
+date is rendered in English. The court name here, if translated into
+English, would be “Court of Appeals in Warsaw.” In Polish grammar, the
+place name following “w” (“in”) is set in locative case, and so is
+written “Warszawie” rather than in nominative case as “Warszaw.”
+
+In the Jurism UI, the jurisdiction name should display as nominative
+“Warszaw,” but the form must be “w Warszawie” for citation purposes.
+This is accomplished with the following pattern in the
+`"jurisdiction"` object:
+
+``` javascript
+{
+  "path": "pl/warsaw",
+  "name": "Warszaw",
+  "courts": [
+    "sa",
+    "wsa"
+  ],
+  "abbrev": "w Warszawie"
+}
+```
+

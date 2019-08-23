@@ -55,6 +55,44 @@ function writeCompactData(opts, ret) {
 	}
 };
 
+function writeAbbrevData(opts, jurisID, abbrevVariantName, abbrevs) {
+	var variantName = abbrevVariantName ? "-" + abbrevVariantName : "";
+	var fileName = "auto-" + jurisID + variantName + ".json";
+	var filePath = path.join(config.path.jurisAbbrevsDir, fileName);
+	var sameData = false;
+	if (fs.existsSync(filePath)) {
+		var oldObj = JSON.parse(fs.readFileSync(filePath).toString());
+		oldObj.version = abbrevs.version;
+		sameData = deepEqual(oldObj, abbrevs);
+	}
+	if (!sameData || opts.F) {
+		var dirlistPath = path.join(config.path.jurisAbbrevsDir, "DIRECTORY_LISTING.json");
+		var allinfo = JSON.parse(fs.readFileSync(dirlistPath).toString());
+		var foundOne = false;
+		for (var info of allinfo) {
+			if (!info.jurisdiction) continue;
+			if (info.jurisdiction === jurisID) {
+				if (abbrevVariantName) {
+					info.variants[abbrevVariantName] = abbrevs.version;
+				} else {
+					info.version = abbrevs.version;
+				}
+				foundOne = true;
+			}
+		}
+		if (!foundOne) {
+			var newInfo = {};
+			newInfo.filename = fileName;
+			newInfo.name = "Abbreviations: " + abbrevs.name + " legal";
+			newInfo.version = abbrevs.version;
+			newInfo.jurisdiction = jurisID;
+			allinfo.push(newInfo);
+		}
+		fs.writeFileSync(dirlistPath, JSON.stringify(allinfo, null, 2));
+		fs.writeFileSync(path.join(config.path.jurisAbbrevsDir, fileName), JSON.stringify(abbrevs, null, 2));
+	}
+}
+
 function deepEqual(x, y) {
   if (x === y) {
     return true;
@@ -81,5 +119,6 @@ function deepEqual(x, y) {
 
 module.exports = {
 	getDateNow: getDateNow,
-	writeCompactData: writeCompactData
+	writeCompactData: writeCompactData,
+	writeAbbrevData: writeAbbrevData
 }

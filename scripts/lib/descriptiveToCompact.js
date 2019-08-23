@@ -44,11 +44,9 @@ async function descriptiveToCompact(opts) {
 		for (var abbrevVariantName of abbrevVariantNames) {
 			var fileName = getAbbrevFilename(jurisID, abbrevVariantName);
 			var abbrevs = buildAbbrevs(jurisID, abbrevVariantName, jurisDesc);
-			var label = abbrevVariantName ? jurisID + "/" + abbrevVariantName : jurisID;
+			// var label = abbrevVariantName ? jurisID + "/" + abbrevVariantName : jurisID;
 			// write each abbreviation file
-			var variantName = abbrevVariantName ? "-" + abbrevVariantName : "";
-			var fileName = "auto-" + jurisID + variantName + ".json";
-			fs.writeFileSync(path.join(config.path.jurisAbbrevsDir, fileName), JSON.stringify(abbrevs, null, 2));
+			util.writeAbbrevData(opts, jurisID, abbrevVariantName, abbrevs);
 		}
 		// Compact file
 		var compact = {
@@ -187,6 +185,12 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 				abbrev = courtAbbrev;
 			}
 			abbrevs.xdata[id]["institution-part"][courtID] = abbrev;
+			if (court.ABBREV) {
+				if (!abbrevs.xdata[id]["institution-entire"]) {
+					abbrevs.xdata[id]["institution-entire"] = {};
+				}
+				abbrevs.xdata[id]["institution-entire"][courtID] = court.ABBREV;
+			}
 		}
 	}
 	return abbrevs;

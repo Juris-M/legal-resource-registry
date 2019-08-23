@@ -1,12 +1,14 @@
 # Jurism: Legal Resource Registry
 
-## What is special about legal referencing?
+This repository is one part of the [Jurism](https://juris-m.github.io/downloads) reference manager project, a variant of Zotero that supports legal and multilingual research and writing. As outlined below, jurisdiction and court identifiers are central to the project’s objectives. The notes here are aimed at Jurism users who need to extend or improve jurisdictional coverage. In the instructions that follow the introductory notes below, it is assumed that the reader is comfortable with command-line tools and has a basic familiarity with [JSON syntax](https://en.wikipedia.org/wiki/JSON).
 
-The special requirements for citation of legal resources have long been a barrier to the development of reference managers capable of handling this category of material. Legal information has a complex structure, and for clarity and accuracy, legal material should be cited in the form familiar to professionals in the target jurisdiction. This clashes with the "one size fits all" citation rules that guides such as MLA, APA, the Chicago Manual of Style apply to (what a lawyer would refer to as) secondary resources.
- Properly automating citation forms across multiple jurisdictions requires, in the first instance, a system of machine-readable identifiers for each jurisdiction and (at minimum) the courts within it. These are useful for more than generating citations, of course: a properly composed identifier can concisely express the context of a resource within a hierarchy of authority, which is useful for organizing and interpreting materials.
+## Legal referencing requirements
 
-## What do “machine-readable identifiers” look like?
- This document assumes that the reader aims to extend or modify the Jurism identifier system for one or more jurisdictions. Identifiers are not exposed directly to users, but some explanation of their structure is in order. Note that this document covers only the construction of identifiers and abbreviations associated with them. The composition of jurisdiction-specific citations is documented elsewhere.
+By way of background, the special requirements for citation of legal resources have long been a barrier to the development of reference managers capable of handling this category of material. Legal information has a complex structure, and for clarity and accuracy, legal material should be cited in the form familiar to professionals in the target jurisdiction. This clashes with the "one size fits all" citation rules that guides such as MLA, APA, the Chicago Manual of Style apply to (what a lawyer would refer to as) secondary resources.
+
+Properly automating citation forms across multiple jurisdictions requires, in the first instance, a system of machine-readable identifiers for each jurisdiction and (at minimum) the courts within it. These are useful for more than generating citations, of course: a properly composed identifier can concisely express the context of a resource within a hierarchy of authority, which is useful for organizing and interpreting materials.
+
+## Machine-readable identifiers
  
  A standard system of machine-readable jurisdiction/court identifiers does not yet exist, so we are creating one for use in Jurism, loosely based on [a draft “URN:LEX” schema](https://datatracker.ietf.org/doc/draft-spinosa-urn-lex/) proposed to the IETF by Spinosa, Francesconi & Lupo in 2009. While not an official Internet standard, the proposal defines a clear and simple structure for identifers:
 
@@ -27,7 +29,7 @@ Apart from the constraints listed above, identifiers can be assigned arbitrarily
 
 Identifiers and abbreviations are closely related. Both are defined in individual country-specific source files held in the [Legal Resource Registry](https://github.com/Juris-M/legal-resource-registry) (LRR), along with software tools used to deploy identifiers and abbreviations into the Jurism client. The LRR content is not shipped with the processor: it must be installed separately to manipulate the Jurism identifier system. 
 
-The instructions below assume familiarity with use of the command line. A [GitHub account](https://github.com/) is required, and you will need to have both [`git`](https://git-scm.com/) and [`nodejs`](https://nodejs.org/en/) installed on your local system. With those tools in place, let’s get started …
+To set up for editing the Jurism identifiers, you will need a [GitHub account](https://github.com/), and both [`git`](https://git-scm.com/) and [`nodejs`](https://nodejs.org/en/) must be installed on your local system. With those tools in place, let’s get started …
 
 ### Setting up
 

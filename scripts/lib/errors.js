@@ -2,7 +2,7 @@ function handleError(e, verbose) {
 	if (verbose) {
 		console.log(e);
 	} else {
-		console.log(e.message)
+		console.log("ERROR: " + e.message)
 	}
 	process.exit();
 }

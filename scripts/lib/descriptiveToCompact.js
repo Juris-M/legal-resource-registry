@@ -174,15 +174,32 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 			};
 		}
 		for (var courtID of jurisdiction.courts) {
+			if (!courtID.match(/^[\-\+]?[a-z]([\+\.a-z0-9]+)*$/)) {
+				var e = new Error("invalid court ID \"" + courtID + "\" in jurisdiction " + id);
+				handleError(e);
+			}
+			var ignoreCourt = false;
+			var ignoreJurisdiction = false;
+			if (courtID.slice(0, 1) === "-") {
+				courtID = courtID.slice(1);
+				ignoreCourt = true;
+			} else if (courtID.slice(0, 1) === "+") {
+				courtID = courtID.slice(1);
+				ignoreJurisdiction = true;
+			}
 			var court = jurisDesc.courts[courtID];
-			var courtAbbrev = getBestAbbrev(court, abbrevVariantName);
 			var abbrev;
-			if (courtAbbrev.slice(0, 1) === "<") {
-				abbrev = jurisdictionAbbrev + courtAbbrev.slice(1);
-			} else if (courtAbbrev.slice(-1) === ">") {
-				abbrev = courtAbbrev.slice(0, -1) + jurisdictionAbbrev;
+			if (ignoreCourt) {
+				abbrev = jurisdictionAbbrev;
 			} else {
-				abbrev = courtAbbrev;
+				var courtAbbrev = getBestAbbrev(court, abbrevVariantName);
+				if (courtAbbrev.slice(0, 1) === "<" && !ignoreJurisdiction) {
+					abbrev = jurisdictionAbbrev + courtAbbrev.slice(1);
+				} else if (courtAbbrev.slice(-1) === ">" && !ignoreJurisdiction) {
+					abbrev = courtAbbrev.slice(0, -1) + jurisdictionAbbrev;
+				} else {
+					abbrev = courtAbbrev.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
+				}
 			}
 			abbrevs.xdata[id]["institution-part"][courtID] = abbrev;
 			if (court.ABBREV) {

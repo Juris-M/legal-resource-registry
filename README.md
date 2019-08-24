@@ -1,5 +1,7 @@
 # Jurism: Legal Resource Registry
 
+This repository is one part of the [Jurism](https://juris-m.github.io/downloads) reference manager project, a variant of Zotero that supports legal and multilingual research and writing. As outlined below, jurisdiction and court identifiers are central to the project’s objectives. The notes here are aimed at Jurism users who need to extend or improve jurisdictional coverage. In the instructions that follow the introductory notes below, it is assumed that the reader is comfortable with command-line tools and has a basic familiarity with [JSON syntax](https://en.wikipedia.org/wiki/JSON).
+
 ## Contents
 
 * [Legal referencing requirements](legal-referencing-requirements)
@@ -14,9 +16,8 @@
 	    * [Declined languages](declined-languages)
 	    * [Alternative languages](alternative-languages)
 * [Submitting changes](submitting-changes)
-	
 
-This repository is one part of the [Jurism](https://juris-m.github.io/downloads) reference manager project, a variant of Zotero that supports legal and multilingual research and writing. As outlined below, jurisdiction and court identifiers are central to the project’s objectives. The notes here are aimed at Jurism users who need to extend or improve jurisdictional coverage. In the instructions that follow the introductory notes below, it is assumed that the reader is comfortable with command-line tools and has a basic familiarity with [JSON syntax](https://en.wikipedia.org/wiki/JSON).
+---------------------
 
 ## Legal referencing requirements
 
@@ -232,6 +233,11 @@ while suppressing the jurisdiction, use a plus sign (`+`):
   ]
 }
 ```
+
+**Note:** *At the moment, the `-` and `+` modifiers *do not round-trip*
+with the `compact-to-descriptive` transform. That transform vector should
+not be needed in ordinary work on the identifier system, but if you do have
+occasion to use it, use it with caution.*
 
 #### Vendor-neutral court codes
 

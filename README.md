@@ -43,13 +43,25 @@ After forking the project, fetch your project address from your own project page
 
 Use `git` with the project address to clone the project to a location of your choice:
 
-``` bash
+```bash
     shell> git clone https://github.com/XXXXXXX/legal-resource-registry.git
+```
+
+Set the original “upstream” LRR project as a remote partner to your clone. (This makes is possible to keep your clone current with any upstream changes):
+
+```bash
+    shell> git remote add upstream https://github.com/Juris-M/legal-resource-registry.git
+```
+
+For good measure, issue the command to pull in upstream changes. You should issue this command each time you begin work in the clone, to be sure the upstream project has not changed in the meantime:
+
+```bash
+    shell> git pull upstream master
 ```
 
 Enter the `scripts` subdirectory of the project folder, install dependencies, and link the maintenance script (`jurisupdate`) to your command environment:
 
-``` bash
+```bash
     shell> cd legal-resource-registry/scripts
     shell> npm install
     shell> npm link
@@ -57,7 +69,7 @@ Enter the `scripts` subdirectory of the project folder, install dependencies, an
 
 At this point, running the `jurisupdate` command should yield the following error:
 
-``` bash
+```bash
     shell> jurisupdate
     ERROR: path.dataDir is undefined in /MY/HOME/DIRECTORY/.jurisUpdate
 ```
@@ -66,7 +78,7 @@ The final step in setup is to set several path names in the `.jurisUpdate` confi
 file shown in the error message, using a text editor. The file content will initially look
 like this, with a `null` value for two paths:
 
-``` javascript
+```javascript
 {
   "path": {
     "dataDir": null,
@@ -89,7 +101,7 @@ The paths should be set as follows:
 With these adjustments in place, the `jurisupdate` command should return the following
 error message:
 
-``` bash
+```bash
     shell> jurisupdate
     Using /PATH/TO/legal-resource-registry/src as path for descriptive jurisdiction files
     ERROR: The -t option is required
@@ -101,7 +113,7 @@ If that all checks out, setup is complete and you’re ready to go.
 
 Running the `jurisupdate` command with the `-h` option will show its help text:
 
-``` bash
+```bash
     shell> jurisupdate -h
     Using /PATH/TO/legal-resource-registry/src as path for descriptive jurisdiction files
     Usage: jurisupdate <options>
@@ -124,13 +136,13 @@ To make changes to the Jurism identifier system, you will edit source files in t
 and run the following command to make your changes available when the Jurism client is
 (re)started:
 
-``` bash
+```bash
     shell> jurisupdate -t descriptive-to-compact -a
 ```
 
 Alternatively, you can limit an update to a particular jurisdiction by setting its code with the `-j` option:
 
-``` bash
+```bash
     shell> jurisupdate -t descriptive-to-compact -j vn
 ```
 
@@ -178,7 +190,7 @@ citation conventions).
 To omit the court name from a target court’s abbreviation, prefix
 its court ID with a minus sign (`-`) in the `"jurisdictions"` object:
 
-``` javascript
+```javascript
 {
   "path": "us/c9",
   "name": "Ninth Circuit",
@@ -193,7 +205,7 @@ its court ID with a minus sign (`-`) in the `"jurisdictions"` object:
 To achieve the opposite effect, and force use of the court abbreviation
 while suppressing the jurisdiction, use a plus sign (`+`):
 
-``` javascript
+```javascript
 {
   "path": "us/fed",
   "name": "Federal",
@@ -229,7 +241,7 @@ of citation.
 To add court keys to a `"courts"` object, set them on an `"ABBREV"`
 (all-caps) element:
 
-``` javascript
+```javascript
 "ewca": {
   "name": "Court of Appeal",
   "abbrev": "CA",
@@ -259,7 +271,7 @@ In the Jurism UI, the jurisdiction name should display as nominative
 This is accomplished with the following pattern in the
 `"jurisdiction"` object:
 
-``` javascript
+```javascript
 {
   "path": "pl/warsaw",
   "name": "Warszaw",
@@ -284,7 +296,7 @@ will be preferred when applying abbreviations (and citation styling).
 In the jurisdiction/court source files documented here, a variant
 form can be set as in the following examples. In a `"courts"` object:
 
-``` javascript
+```javascript
 "koto.saibansho": {
   "name": "高等裁判所",
   "abbrev": "<高等裁判所",
@@ -294,7 +306,7 @@ form can be set as in the following examples. In a `"courts"` object:
 
 And in a `"jurisdictions"` object:
 
-``` javascript
+```javascript
 {
   "path": "jp/hiroshima",
   "name": "広島",
@@ -316,7 +328,7 @@ declaraton like following immediately after the `cs:info` section of a
 style (multiple jurisdiction preferences can be set as a
 space-delimited list):
 
-``` xml
+```xml
 <locale>
   <style-options jurisdiction-preference="englished" />
 </local>
@@ -335,11 +347,16 @@ entry of your GitHub user ID and password):
     shell> git commit -m "Update to Atlantis" -a
 ```
 
-After pushing your changes, visit the Legal Resource Registry
-project in your GitHub account, and file a pull request:
+After pushing your changes, visit the Legal Resource Registry project in your GitHub account, and file a pull request:
+
 
 ![](./assets/images/pull-request.png)
 
+
+Follow the instructions to complete the request, and we’ll be in touch!
+
+
+— Frank Bennett, Nisshin City near Nagoya, Japan, August 24, 2019
 
 ------------------
 

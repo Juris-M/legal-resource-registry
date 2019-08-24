@@ -378,7 +378,7 @@ After pushing your changes, visit the Legal Resource Registry project in your Gi
 Follow the instructions to complete the request, and we’ll be in touch!
 
 <br/>
->br/>
+<br/>
 — Frank Bennett, Nisshin City near Nagoya, Japan, August 24, 2019
 
 ------------------

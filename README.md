@@ -4,8 +4,8 @@ This repository is one part of the [Jurism](https://juris-m.github.io/downloads)
 
 ## Contents
 
-* [Legal referencing requirements](#about-legal-referencing-requirements)
-* [Machine-readable identifiers](#about-machine-readable-identifiers)
+* [About legal referencing requirements](#about-legal-referencing-requirements)
+* [About machine-readable identifiers](#about-machine-readable-identifiers)
 * [Source files and tools](#source-files-and-tools)
     * [Setting up](#setting-up)
 	* [Commands](#commands)

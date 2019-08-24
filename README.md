@@ -1,5 +1,21 @@
 # Jurism: Legal Resource Registry
 
+## Contents
+
+* [Legal referencing requirements](legal-referencing-requirements)
+* [Machine-readable identifiers](machine-readable-identifiers)
+* [Source files and tools](source-files-and-tools)
+    * [Setting up](setting-up)
+	* [Commands](commands)
+	* [File format](file-format)
+	* [Special cases](special-cases)
+	    * [Omitting the court or jurisdiction element of abbreviations](omitting-the-court-or-jurisdiction-element-of-abbreviations)
+	    * [Vendor-neutral court codes](vendor-neutral-court-codes)
+	    * [Declined languages](declined-languages)
+	    * [Alternative languages](alternative-languages)
+* [Submitting changes](submitting-changes)
+	
+
 This repository is one part of the [Jurism](https://juris-m.github.io/downloads) reference manager project, a variant of Zotero that supports legal and multilingual research and writing. As outlined below, jurisdiction and court identifiers are central to the project’s objectives. The notes here are aimed at Jurism users who need to extend or improve jurisdictional coverage. In the instructions that follow the introductory notes below, it is assumed that the reader is comfortable with command-line tools and has a basic familiarity with [JSON syntax](https://en.wikipedia.org/wiki/JSON).
 
 ## Legal referencing requirements

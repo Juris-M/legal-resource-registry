@@ -38,7 +38,7 @@
     },
     "district.court": {
       "name": "District Court",
-      "abbrev": ""
+      "abbrev": "< Dist. Ct."
     },
     "bankruptcy.appellate.panel": {
       "name": "Bankruptcy Appellate Panel",
@@ -176,7 +176,7 @@
       "name": "Judicial Panel on Multidistrict Litigation",
       "abbrev": "J.P.M.L."
     },
-    "navy-marine.corps.court.criminal.appeals": {
+    "navy.marine.corps.court.criminal.appeals": {
       "name": "Navy-Marine Corps Court of Criminal Appeals",
       "abbrev": "N.-M. Ct. Crim. App."
     },
@@ -350,13 +350,13 @@
         "customs.court",
         "merit.systems.protection.board"
       ],
-      "abbrev": "!here>>>"
+      "abbrev": "Fed. Cir."
     },
     {
       "path": "us/c0",
       "name": "D.C. Circuit",
       "courts": [
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "D.C. Cir."
     },
@@ -365,7 +365,7 @@
       "name": "D. District of Columbia",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.D.C."
     },
@@ -374,7 +374,7 @@
       "name": "First Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "1st Cir."
     },
@@ -383,7 +383,7 @@
       "name": "Tenth Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "10th Cir."
     },
@@ -392,7 +392,7 @@
       "name": "D. Colorado",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Colo."
     },
@@ -401,7 +401,7 @@
       "name": "D. Kansas",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Kan."
     },
@@ -410,7 +410,7 @@
       "name": "D. New Mexico",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.N.M."
     },
@@ -419,7 +419,7 @@
       "name": "E.D. Oklahoma",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Okla."
     },
@@ -428,7 +428,7 @@
       "name": "N.D. Oklahoma",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Okla."
     },
@@ -437,7 +437,7 @@
       "name": "W.D. Oklahoma",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Okla."
     },
@@ -446,7 +446,7 @@
       "name": "D. Utah",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Utah"
     },
@@ -455,7 +455,7 @@
       "name": "D. Wyoming",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Wyo."
     },
@@ -472,7 +472,7 @@
       "path": "us/c11/al.d",
       "name": "D. Alabama",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Ala."
     },
@@ -481,7 +481,7 @@
       "name": "M.D. Alabama",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "M.D. Ala."
     },
@@ -490,7 +490,7 @@
       "name": "N.D. Alabama",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Ala."
     },
@@ -499,7 +499,7 @@
       "name": "S.D. Alabama",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Ala."
     },
@@ -507,7 +507,7 @@
       "path": "us/c11/fl.d",
       "name": "D. Florida",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Fla."
     },
@@ -516,7 +516,7 @@
       "name": "M.D. Florida",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "M.D. Fla."
     },
@@ -525,7 +525,7 @@
       "name": "N.D. Florida",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Fla."
     },
@@ -534,7 +534,7 @@
       "name": "S.D. Florida",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Fla."
     },
@@ -542,7 +542,7 @@
       "path": "us/c11/ga.d",
       "name": "D. Georgia",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Ga."
     },
@@ -551,7 +551,7 @@
       "name": "M.D. Georgia",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "M.D. Ga."
     },
@@ -560,7 +560,7 @@
       "name": "N.D. Georgia",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Ga."
     },
@@ -569,7 +569,7 @@
       "name": "S.D. Georgia",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Ga."
     },
@@ -578,7 +578,7 @@
       "name": "D. Massachusetts",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Mass."
     },
@@ -588,7 +588,7 @@
       "courts": [
         "bankruptcy.appellate.panel",
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Me."
     },
@@ -597,7 +597,7 @@
       "name": "D. New Hampshire",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.N.H."
     },
@@ -606,7 +606,7 @@
       "name": "D. Puerto Rico",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.P.R."
     },
@@ -615,7 +615,7 @@
       "name": "D. Rhode Island",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.R.I."
     },
@@ -633,7 +633,7 @@
       "name": "D. Connecticut",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Conn."
     },
@@ -641,7 +641,7 @@
       "path": "us/c2/ny.d",
       "name": "D. New York",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.N.Y."
     },
@@ -650,7 +650,7 @@
       "name": "E.D. New York",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D.N.Y."
     },
@@ -659,7 +659,7 @@
       "name": "N.D. New York",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D.N.Y."
     },
@@ -668,7 +668,7 @@
       "name": "S.D. New York",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D.N.Y."
     },
@@ -677,7 +677,7 @@
       "name": "W.D. New York",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D.N.Y."
     },
@@ -686,7 +686,7 @@
       "name": "D. Vermont",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Vt."
     },
@@ -704,7 +704,7 @@
       "name": "D. Delaware",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Del."
     },
@@ -713,7 +713,7 @@
       "name": "D. New Jersey",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.N.J."
     },
@@ -721,7 +721,7 @@
       "path": "us/c3/pa.d",
       "name": "D. Pennsylvania",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Pa."
     },
@@ -730,7 +730,7 @@
       "name": "E.D. Pennsylvania",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Pa."
     },
@@ -739,7 +739,7 @@
       "name": "M.D. Pennsylvania",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "M.D. Pa."
     },
@@ -748,7 +748,7 @@
       "name": "W.D. Pennsylvania",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Pa."
     },
@@ -757,7 +757,7 @@
       "name": "D. U.S. Virgin Islands",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.V.I."
     },
@@ -775,7 +775,7 @@
       "name": "D. Maryland",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Md."
     },
@@ -783,7 +783,7 @@
       "path": "us/c4/nc.d",
       "name": "D. North Carolina",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.N.C."
     },
@@ -792,7 +792,7 @@
       "name": "E.D. North Carolina",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D.N.C."
     },
@@ -801,7 +801,7 @@
       "name": "M.D. North Carolina",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "M.D.N.C."
     },
@@ -810,7 +810,7 @@
       "name": "W.D. North Carolina",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D.N.C."
     },
@@ -819,7 +819,7 @@
       "name": "D. South Carolina",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.S.C."
     },
@@ -827,7 +827,7 @@
       "path": "us/c4/sc.ed",
       "name": "E.D. South Carolina",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D.S.C."
     },
@@ -835,7 +835,7 @@
       "path": "us/c4/sc.wd",
       "name": "W.D. South Carolina",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D.S.C."
     },
@@ -843,7 +843,7 @@
       "path": "us/c4/va.d",
       "name": "D. Virginia",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Va."
     },
@@ -852,7 +852,7 @@
       "name": "E.D. Virginia",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Va."
     },
@@ -861,7 +861,7 @@
       "name": "W.D. Virginia",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Va."
     },
@@ -869,7 +869,7 @@
       "path": "us/c4/wv.d",
       "name": "D. West Virginia",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.W. Va."
     },
@@ -878,7 +878,7 @@
       "name": "N.D. West Virginia",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D.W. Va."
     },
@@ -887,7 +887,7 @@
       "name": "S.D. West Virginia",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D.W. Va."
     },
@@ -904,7 +904,7 @@
       "path": "us/c5/la.d",
       "name": "D. Louisiana",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. La."
     },
@@ -913,7 +913,7 @@
       "name": "E.D. Louisiana",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. La."
     },
@@ -922,7 +922,7 @@
       "name": "M.D. Louisiana",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "M.D. La."
     },
@@ -931,7 +931,7 @@
       "name": "W.D. Louisiana",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. La."
     },
@@ -939,7 +939,7 @@
       "path": "us/c5/ms.d",
       "name": "D. Mississippi",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Miss."
     },
@@ -948,7 +948,7 @@
       "name": "N.D. Mississippi",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Miss."
     },
@@ -957,7 +957,7 @@
       "name": "S.D. Mississippi",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Miss."
     },
@@ -965,7 +965,7 @@
       "path": "us/c5/pz.d",
       "name": "D. Panama Canal Zone",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.D.Z."
     },
@@ -973,7 +973,7 @@
       "path": "us/c5/tx.d",
       "name": "D. Texas",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Tex."
     },
@@ -982,7 +982,7 @@
       "name": "E.D. Texas",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Tex."
     },
@@ -991,7 +991,7 @@
       "name": "N.D. Texas",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Tex."
     },
@@ -1000,7 +1000,7 @@
       "name": "S.D. Texas",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Tex."
     },
@@ -1009,7 +1009,7 @@
       "name": "W.D. Texas",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Tex."
     },
@@ -1026,7 +1026,7 @@
       "path": "us/c6/ky.d",
       "name": "D. Kentucky",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Ky."
     },
@@ -1035,7 +1035,7 @@
       "name": "E.D. Kentucky",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Ky."
     },
@@ -1044,7 +1044,7 @@
       "name": "W.D. Kentucky",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Ky."
     },
@@ -1052,7 +1052,7 @@
       "path": "us/c6/mi.d",
       "name": "D. Michigan",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Mich."
     },
@@ -1061,7 +1061,7 @@
       "name": "E.D. Michigan",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Mich."
     },
@@ -1070,7 +1070,7 @@
       "name": "W.D. Michigan",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Mich."
     },
@@ -1078,7 +1078,7 @@
       "path": "us/c6/oh.d",
       "name": "D. Ohio",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Ohio"
     },
@@ -1087,7 +1087,7 @@
       "name": "N.D. Ohio",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Ohio"
     },
@@ -1096,7 +1096,7 @@
       "name": "S.D. Ohio",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Ohio"
     },
@@ -1105,7 +1105,7 @@
       "name": "D. Tennessee",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Tenn."
     },
@@ -1114,7 +1114,7 @@
       "name": "E.D. Tennessee",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Tenn."
     },
@@ -1123,7 +1123,7 @@
       "name": "M.D. Tennessee",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "M.D. Tenn."
     },
@@ -1132,7 +1132,7 @@
       "name": "W.D. Tennessee",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Tenn."
     },
@@ -1150,7 +1150,7 @@
       "name": "C.D. Illinois",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "C.D. Ill."
     },
@@ -1158,7 +1158,7 @@
       "path": "us/c7/il.d",
       "name": "D. Illinois",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Ill."
     },
@@ -1166,7 +1166,7 @@
       "path": "us/c7/il.ed",
       "name": "E.D. Illinois",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Ill."
     },
@@ -1175,7 +1175,7 @@
       "name": "N.D. Illinois",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Ill."
     },
@@ -1184,7 +1184,7 @@
       "name": "S.D. Illinois",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Ill."
     },
@@ -1192,7 +1192,7 @@
       "path": "us/c7/in.d",
       "name": "D. Indiana",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Ind."
     },
@@ -1201,7 +1201,7 @@
       "name": "N.D. Indiana",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Ind."
     },
@@ -1210,7 +1210,7 @@
       "name": "S.D. Indiana",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Ind."
     },
@@ -1218,7 +1218,7 @@
       "path": "us/c7/wi.d",
       "name": "D. Wisconsin",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Wis."
     },
@@ -1227,7 +1227,7 @@
       "name": "E.D. Wisconsin",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Wis."
     },
@@ -1236,7 +1236,7 @@
       "name": "W.D. Wisconsin",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Wis."
     },
@@ -1254,7 +1254,7 @@
       "name": "E.D. Arkansas",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Ark."
     },
@@ -1263,7 +1263,7 @@
       "name": "W.D. Arkansas",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Ark."
     },
@@ -1271,7 +1271,7 @@
       "path": "us/c8/ia.d",
       "name": "D. Iowa",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Iowa"
     },
@@ -1280,7 +1280,7 @@
       "name": "N.D. Iowa",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Iowa"
     },
@@ -1289,7 +1289,7 @@
       "name": "S.D. Iowa",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Iowa"
     },
@@ -1298,7 +1298,7 @@
       "name": "D. Minnesota",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Minn."
     },
@@ -1306,7 +1306,7 @@
       "path": "us/c8/mo.cd",
       "name": "C.D. Missouri",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "C.D. Mo."
     },
@@ -1314,7 +1314,7 @@
       "path": "us/c8/mo.d",
       "name": "D. Missouri",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Mo."
     },
@@ -1323,7 +1323,7 @@
       "name": "E.D. Missouri",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Mo."
     },
@@ -1331,7 +1331,7 @@
       "path": "us/c8/mo.sd",
       "name": "S.D. Missouri",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Mo."
     },
@@ -1340,7 +1340,7 @@
       "name": "W.D. Missouri",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Mo."
     },
@@ -1349,7 +1349,7 @@
       "name": "D. North Dakota",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.N.D."
     },
@@ -1358,7 +1358,7 @@
       "name": "D. Nebraska",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Neb."
     },
@@ -1367,7 +1367,7 @@
       "name": "D. South Dakota",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.S.D."
     },
@@ -1385,7 +1385,7 @@
       "name": "D. Alaska",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Alaska"
     },
@@ -1394,7 +1394,7 @@
       "name": "D. Arizona",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Ariz."
     },
@@ -1403,7 +1403,7 @@
       "name": "C.D. California",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "C.D. Cal."
     },
@@ -1411,7 +1411,7 @@
       "path": "us/c9/ca.d",
       "name": "D. California",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Cal."
     },
@@ -1420,7 +1420,7 @@
       "name": "E.D. California",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Cal."
     },
@@ -1429,7 +1429,7 @@
       "name": "N.D. California",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "N.D. Cal."
     },
@@ -1438,7 +1438,7 @@
       "name": "S.D. California",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "S.D. Cal."
     },
@@ -1447,7 +1447,7 @@
       "name": "D. Guam",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Guam"
     },
@@ -1456,7 +1456,7 @@
       "name": "D. Hawaii",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Haw."
     },
@@ -1465,7 +1465,7 @@
       "name": "D. Idaho",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Idaho"
     },
@@ -1474,7 +1474,7 @@
       "name": "D. Northern Mariana Islands",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D.N. Mar. Is."
     },
@@ -1483,7 +1483,7 @@
       "name": "D. Montana",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Mont."
     },
@@ -1492,7 +1492,7 @@
       "name": "D. Nevada",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Nev."
     },
@@ -1501,7 +1501,7 @@
       "name": "D. Oregon",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Or."
     },
@@ -1509,7 +1509,7 @@
       "path": "us/c9/wa.d",
       "name": "D. Washington",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "D. Wash."
     },
@@ -1518,7 +1518,7 @@
       "name": "E.D. Washington",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "E.D. Wash."
     },
@@ -1527,7 +1527,7 @@
       "name": "W.D. Washington",
       "courts": [
         "bankruptcy.court",
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "W.D. Wash."
     },
@@ -1608,7 +1608,7 @@
         "air.force.court.criminal.appeals",
         "armed.services.board.contract.appeals",
         "army.court.criminal.appeals",
-        "attorney.general",
+        "+attorney.general",
         "commerce.court",
         "court.appeals.armed.forces",
         "court.military.commission.review",
@@ -1618,12 +1618,11 @@
         "foreign.intelligence.surveillance.court.review",
         "judicial.conference.committee",
         "judicial.panel.multidistrict.litigation",
-        "navy-marine.corps.court.criminal.appeals",
+        "navy.marine.corps.court.criminal.appeals",
         "special.court.regional.rail.reorganization.act",
         "tax.court",
         "temporary.emergency.court.appeals"
-      ],
-      "abbrev": "!here>>>"
+      ]
     },
     {
       "path": "us/fl",
@@ -1956,7 +1955,7 @@
       "path": "us/orleans.d",
       "name": "Orleans Federal",
       "courts": [
-        "district.court"
+        "-district.court"
       ],
       "abbrev": "Orleans"
     },

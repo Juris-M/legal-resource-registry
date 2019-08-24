@@ -4,18 +4,18 @@ This repository is one part of the [Jurism](https://juris-m.github.io/downloads)
 
 ## Contents
 
-* [Legal referencing requirements](legal-referencing-requirements)
-* [Machine-readable identifiers](machine-readable-identifiers)
-* [Source files and tools](source-files-and-tools)
-    * [Setting up](setting-up)
-	* [Commands](commands)
-	* [File format](file-format)
-	* [Special cases](special-cases)
-	    * [Omitting the court or jurisdiction element of abbreviations](omitting-the-court-or-jurisdiction-element-of-abbreviations)
-	    * [Vendor-neutral court codes](vendor-neutral-court-codes)
-	    * [Declined languages](declined-languages)
-	    * [Alternative languages](alternative-languages)
-* [Submitting changes](submitting-changes)
+* [Legal referencing requirements](#legal-referencing-requirements)
+* [Machine-readable identifiers](#machine-readable-identifiers)
+* [Source files and tools](#source-files-and-tools)
+    * [Setting up](#setting-up)
+	* [Commands](#commands)
+	* [File format](#file-format)
+	* [Special cases](#special-cases)
+	    * [Omitting the court or jurisdiction element of abbreviations](#omitting-the-court-or-jurisdiction-element-of-abbreviations)
+	    * [Vendor-neutral court codes](#vendor-neutral-court-codes)
+	    * [Declined languages](#declined-languages)
+	    * [Alternative languages](#alternative-languages)
+* [Submitting changes](#submitting-changes)
 
 ---------------------
 

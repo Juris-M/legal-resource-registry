@@ -4,8 +4,8 @@ This repository is one part of the [Jurism](https://juris-m.github.io/downloads)
 
 ## Contents
 
-* [Legal referencing requirements](#legal-referencing-requirements)
-* [Machine-readable identifiers](#machine-readable-identifiers)
+* [Legal referencing requirements](#about-legal-referencing-requirements)
+* [Machine-readable identifiers](#about-machine-readable-identifiers)
 * [Source files and tools](#source-files-and-tools)
     * [Setting up](#setting-up)
 	* [Commands](#commands)
@@ -19,13 +19,13 @@ This repository is one part of the [Jurism](https://juris-m.github.io/downloads)
 
 ---------------------
 
-## Legal referencing requirements
+## About legal referencing requirements
 
 By way of background, the special requirements for citation of legal resources have long been a barrier to the development of reference managers capable of handling this category of material. Legal information has a complex structure, and for clarity and accuracy, legal material should be cited in the form familiar to professionals in the target jurisdiction. This clashes with the "one size fits all" citation rules that guides such as MLA, APA, the Chicago Manual of Style apply to (what a lawyer would refer to as) secondary resources.
 
 Properly automating citation forms across multiple jurisdictions requires, in the first instance, a system of machine-readable identifiers for each jurisdiction and (at minimum) the courts within it. These are useful for more than generating citations, of course: a properly composed identifier can concisely express the context of a resource within a hierarchy of authority, which is useful for organizing and interpreting materials.
 
-## Machine-readable identifiers
+## About machine-readable identifiers
  
  A standard system of machine-readable jurisdiction/court identifiers does not yet exist, so we are creating one for use in Jurism, loosely based on [a draft “URN:LEX” schema](https://datatracker.ietf.org/doc/draft-spinosa-urn-lex/) proposed to the IETF by Spinosa, Francesconi & Lupo in 2009. While not an official Internet standard, the proposal defines a clear and simple structure for identifers:
 

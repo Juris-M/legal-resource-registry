@@ -196,9 +196,10 @@ courts of a particular name exist both at the national level and in
 its subunits. In this case, either the court or jurisdiction element
 may be omitted from the abbreviation used in citations. In US
 citations, the former is common, the latter rather rare. The following
-examples are drawn from the [Indigo Book]() (which I heartily
-recommend as an alternative to the Bluebook for guidance on US
-citation conventions).
+examples are drawn from the [Indigo
+Book](https://law.resource.org/pub/us/code/blue/) (which I heartily
+recommend, incidentally, as a free and open alternative to the
+Bluebook for guidance on US citation conventions).
 
 * *Mattel, Inc. v. MCA Records, Inc.*, 296 F.3d 894, 908 (9th Cir. 2002)
 * *Brown v. State*, 216 S.E.2d 356, 356 (Ga. Ct. App. 1975)

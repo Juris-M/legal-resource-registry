@@ -200,8 +200,7 @@ examples are drawn from the [Indigo Book]() (which I heartily
 recommend as an alternative to the Bluebook for guidance on US
 citation conventions).
 
-* *Mattel, Inc. v. MCA Records, Inc.*, 296 F.3d 894, 908 (9th Cir.
-2002)
+* *Mattel, Inc. v. MCA Records, Inc.*, 296 F.3d 894, 908 (9th Cir. 2002)
 * *Brown v. State*, 216 S.E.2d 356, 356 (Ga. Ct. App. 1975)
 
 To omit the court name from a target court’s abbreviation, prefix

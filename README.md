@@ -234,10 +234,10 @@ while suppressing the jurisdiction, use a plus sign (`+`):
 }
 ```
 
-**Note:** *At the moment, the `-` and `+` modifiers *do not round-trip*
-with the `compact-to-descriptive` transform. That transform vector should
-not be needed in ordinary work on the identifier system, but if you do have
-occasion to use it, use it with caution.*
+> **Note:** *At the moment, the `-` and `+` modifiers *do not round-trip*
+> with the `compact-to-descriptive` transform. That transform vector should
+> not be needed in ordinary work on the identifier system, but if you do have
+> occasion to use it, use it with caution.*
 
 #### Vendor-neutral court codes
 

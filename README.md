@@ -35,11 +35,11 @@ To set up for editing the Jurism identifiers, you will need a [GitHub account](h
 
 The first step in setting up is to fork the LRR project to your own GitHub account, by visiting [the LRR project page](https://github.com/Juris-M/legal-resource-registry) and clicking on the **Fork** button:
 
-> ![](./fork-button.png)
+> ![](./assets/images/fork-button.png)
 
 After forking the project, fetch your project address from your own project page to the clipboard:
 
-> ![](./get-address.png)
+> ![](./assets/images/get-address.png)
 
 Use `git` with the project address to clone the project to a location of your choice:
 
@@ -139,7 +139,7 @@ Alternatively, you can limit an update to a particular jurisdiction by setting i
 Source files are located in the `src` subdirectory of the LRR project folder. Its basic elements
 are as follows (some additional features are explained in the next section of this README).
 
-> ![](./sample-1.png)
+> ![](./assets/images/sample-1.png)
 
 1. The `"courts"` element is JSON object with keys for each court ID. The `"jurisdictions"` element is an array of objects, each defining a particular jurisdiction, with parent jurisdictions listed before their subordinates.
 2. The keys under `"courts"` are composed of roman characters only (periods and plus [+] characters are also allowed, spaces are not permitted).
@@ -155,9 +155,90 @@ This structure covers requirements for most jurisdictions. Tweaks may be require
 
 As described above, the “abbreviated” form of a court for citation purposes is the `"abbrev"` form of its `"courts"` object, optionally combined with the `"name"` or `"abbrev"` form of its `"jurisdictions"` object. There are three cases that are not quite captured by this scheme:
 
+* Abbreviations that sometimes omit the court or jurisdiction element;
 * Citations in declined languages (such as Russian, Czech, or Polish);
 * Citations cast in alternative languages (i.e. an English versus a French form); and
 * Citation using vendor-neutral court codes.
+
+#### Omitting the court or jurisdiction element of abbreviations
+
+In federal jurisdictions such as the United States, it may happen that
+courts of a particular name exist both at the national level and in
+its subunits. In this case, either the court or jurisdiction element
+may be omitted from the abbreviation used in citations. In US
+citations, the former is common, the latter rather rare. The following
+examples are drawn from the [Indigo Book]() (which I heartily
+recommend as an alternative to the Bluebook for guidance on US
+citation conventions).
+
+* *Mattel, Inc. v. MCA Records, Inc.*, 296 F.3d 894, 908 (9th Cir.
+2002)
+* *Brown v. State*, 216 S.E.2d 356, 356 (Ga. Ct. App. 1975)
+
+To omit the court name from a target court’s abbreviation, prefix
+its court ID with a minus sign (`-`) in the `"jurisdictions"` object:
+
+``` javascript
+{
+  "path": "us/c9",
+  "name": "Ninth Circuit",
+  "courts": [
+    "bankruptcy.appellate.panel",
+    "-court.appeals"
+  ],
+  "abbrev": "9th Cir."
+}
+```
+
+To achieve the opposite effect, and force use of the court abbreviation
+while suppressing the jurisdiction, use a plus sign (`+`):
+
+``` javascript
+{
+  "path": "us/fed",
+  "name": "Federal",
+  "courts": [
+    …
+    "+attorney.general",
+	…
+  ]
+}
+```
+
+#### Vendor-neutral court codes
+
+Through the 20th century, official publication of court judgments in
+many common-law jurisdictions was channeled through private
+publishers, with the result that their commercial products became
+essential tools for the practice of law. Electronic document systems
+introduced a new vector of competition, and in the United States this
+lead to the curious case of West Publishing v. Mead Data Center, 799
+F.2d 1219 (8th Cir. 1986), in which the firm in control of canonical
+repositories on which official citations were based sued a new entrant
+over copyright … in page numbering … as and early move in a struggle
+for market control that continues to this day. [1]
+
+In response to proposals by librarians, academics, and professional
+associations, several jurisdictions have adopted “vendor-neutral”
+citation forms for court judgments, assigned immediately upon
+publication by the court. The specific form varies by jurisdiction,
+but vendor-neutral citations typically make use of a court “key” that
+differs from the abbreviated court name in other, coexisting forms
+of citation.
+
+To add court keys to a `"courts"` object, set them on an `"ABBREV"`
+(all-caps) element:
+
+``` javascript
+"ewca": {
+  "name": "Court of Appeal",
+  "abbrev": "CA",
+  "ABBREV": "EWCA"
+}
+```
+
+Style modules (documented separately) can access this special
+key as appropriate when generating vendor-neutral citations.
 
 #### Declined languages
 
@@ -189,4 +270,79 @@ This is accomplished with the following pattern in the
   "abbrev": "w Warszawie"
 }
 ```
+
+#### Alternative languages
+
+Approximately 57 countries have [more than one official
+language](https://www.quora.com/How-many-countries-in-the-world-have-more-than-one-official-language). In
+addition, it is a common practice in Western publishing to romanize or
+translate court names from certain language domains with non-roman
+scripts. To cope with these requirements, Jurism styles can declare
+a preferred citation variant for legal references, and the variant
+will be preferred when applying abbreviations (and citation styling).
+
+In the jurisdiction/court source files documented here, a variant
+form can be set as in the following examples. In a `"courts"` object:
+
+``` javascript
+"koto.saibansho": {
+  "name": "高等裁判所",
+  "abbrev": "<高等裁判所",
+  "abbrev:englished": "< High Court"
+}
+```
+
+And in a `"jurisdictions"` object:
+
+``` javascript
+{
+  "path": "jp/hiroshima",
+  "name": "広島",
+  "courts": [
+    "koto.saibansho"
+  ],
+  "abbrev": "広島",
+  "abbrev:englished": "Hiroshima"
+}
+```
+
+The modifier (“englished” in this example) must be consistent across
+all entries, since the `descriptive-to-compact` transform will create
+a separate set of abbreviations for every unique modifier that it
+finds in the file.
+
+As a side-note, the variant would be invoked in a style by setting a
+declaraton like following immediately after the `cs:info` section of a
+style (multiple jurisdiction preferences can be set as a
+space-delimited list):
+
+``` xml
+<locale>
+  <style-options jurisdiction-preference="englished" />
+</local>
+```
+
+## Submitting changes
+
+If you have written your changes into a `git` clone of the Legal Resource
+Registry as described in the [Setting up](#setting-up) section above, you
+can submit your changes for general use by pushing them to your GitHub
+account, and then filing a “pull request” to invite their adoption.
+The first step is a one-liner at the command line (possibly followed by
+entry of your GitHub user ID and password):
+
+```bash
+    shell> git commit -m "Update to Atlantis" -a
+```
+
+After pushing your changes, visit the Legal Resource Registry
+project in your GitHub account, and file a pull request:
+
+![](./assets/images/pull-request.png)
+
+
+------------------
+
+[1] *See, e.g.* Georgia v. Public.Resource.Org Inc., SCOTUSblog, https://www.scotusblog.com/case-files/cases/georgia-v-public-resource-org-inc/ (*cert. granted* June 24, 2019).
+
 

@@ -2,59 +2,59 @@
   "courts": {
     "lvwg": {
       "name": "Landesverwaltungsgericht",
-      "abbrev": "Landesverwaltungsgericht >"
+      "abbrev": "LvWG >"
     },
     "bg": {
       "name": "Bezirksgericht",
-      "abbrev": "Bezirksgericht >"
+      "abbrev": "BG >"
     },
     "lgs": {
       "name": "Landesgericht für Strafsachen",
-      "abbrev": "Landesgericht für Strafsachen >"
+      "abbrev": "LGS >"
     },
     "lgzrs": {
       "name": "Landesgericht für Zivilrechtssachen",
-      "abbrev": "Landesgericht für Zivilrechtssachen >"
+      "abbrev": "LGZ >"
     },
     "lg": {
       "name": "Landesgericht",
-      "abbrev": "Landesgericht >"
+      "abbrev": "LG >"
     },
     "olg": {
       "name": "Oberlandesgericht",
-      "abbrev": "Oberlandesgericht >"
+      "abbrev": "OLG >"
     },
     "asg": {
-      "name": "Arbeits- und Sozialgericht",
-      "abbrev": "Arbeits- und Sozialgericht >"
+      "name": "Arbeits und Sozialgericht",
+      "abbrev": "ASG >"
     },
     "hg": {
       "name": "Handelsgericht",
-      "abbrev": "Handelsgericht >"
+      "abbrev": "HG >"
     },
     "vgwg": {
       "name": "Verwaltungsgericht",
-      "abbrev": "Verwaltungsgericht >"
+      "abbrev": "VGWG >"
     },
     "bfg": {
       "name": "Bundesfinanzgericht",
-      "abbrev": "Verwaltungsgericht >"
+      "abbrev": "Verwaltungsgericht"
     },
     "bvwg": {
       "name": "Bundesverwaltungsgericht",
-      "abbrev": "Verwaltungsgericht >"
+      "abbrev": "BvWG"
     },
     "ogh": {
       "name": "Oberster Gerichtshof",
-      "abbrev": "Verwaltungsgericht >"
+      "abbrev": "OGH"
     },
     "vfgh": {
       "name": "Verfassungsgerichtshof",
-      "abbrev": "Verwaltungsgericht >"
+      "abbrev": "VfGH"
     },
     "vwgh": {
       "name": "Verwaltungsgerichtshof",
-      "abbrev": "Verwaltungsgericht >"
+      "abbrev": "VwGH"
     }
   },
   "jurisdictions": [

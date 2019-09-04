@@ -32,13 +32,9 @@
       "name": "Handelsgericht",
       "abbrev": "HG >"
     },
-    "vgwg": {
-      "name": "Verwaltungsgericht",
-      "abbrev": "VGWG >"
-    },
     "bfg": {
       "name": "Bundesfinanzgericht",
-      "abbrev": "Verwaltungsgericht"
+      "abbrev": "BFG"
     },
     "bvwg": {
       "name": "Bundesverwaltungsgericht",
@@ -62,20 +58,94 @@
       "path": "at",
       "name": "Austria",
       "courts": [
-        "bfg",
-        "bvwg",
-        "ogh",
+        "ogh"
+      ]
+    },
+    {
+      "path": "at/a",
+      "courts": [
         "vfgh",
         "vwgh"
       ]
     },
     {
-      "path": "at/burgenland",
+      "path": "at/a/at",
+      "courts": [
+        "bfg",
+        "bvwg"
+      ]
+    },
+    {
+      "path": "at/a/burgenland",
       "name": "Burgenland",
       "courts": [
         "lvwg"
       ],
-      "abbrev": "Burgenland"
+      "abbrev": "Bgld"
+    },
+    {
+      "path": "at/a/karnten",
+      "name": "Kärnten",
+      "courts": [
+        "lvwg"
+      ],
+      "abbrev": "Ktn"
+    },
+    {
+      "path": "at/a/niederosterreich",
+      "name": "Niederösterreich",
+      "courts": [
+        "lvwg"
+      ],
+      "abbrev": "NÖ"
+    },
+    {
+      "path": "at/a/oberosterreich",
+      "name": "Oberösterreich",
+      "courts": [
+        "lvwg"
+      ],
+      "abbrev": "OÖ"
+    },
+    {
+      "path": "at/a/salzburg",
+      "name": "Salzburg",
+      "courts": [
+        "lvwg"
+      ],
+      "abbrev": "Sbg"
+    },
+    {
+      "path": "at/a/steiermark",
+      "name": "Steiermark",
+      "courts": [
+        "lvwg"
+      ],
+      "abbrev": "Stmk"
+    },
+    {
+      "path": "at/a/tirol",
+      "name": "Tirol",
+      "courts": [
+        "lvwg"
+      ],
+      "abbrev": "Tir"
+    },
+    {
+      "path": "at/a/vorarlberg",
+      "name": "Vorarlberg",
+      "courts": [
+        "lvwg"
+      ],
+      "abbrev": "Vlbg"
+    },
+    {
+      "path": "at/a/wien",
+      "name": "Wien",
+      "courts": [
+        "lvwg"
+      ],
+      "abbrev": "Wien"
     },
     {
       "path": "at/graz",
@@ -487,14 +557,6 @@
       "abbrev": "Zell am Ziller"
     },
     {
-      "path": "at/karnten",
-      "name": "Kärnten",
-      "courts": [
-        "lvwg"
-      ],
-      "abbrev": "Kärnten"
-    },
-    {
       "path": "at/linz",
       "name": "Linz",
       "courts": [
@@ -751,59 +813,10 @@
       "abbrev": "Wels"
     },
     {
-      "path": "at/niederosterreich",
-      "name": "Niederösterreich",
-      "courts": [
-        "lvwg"
-      ],
-      "abbrev": "Niederösterreich"
-    },
-    {
-      "path": "at/oberosterreich",
-      "name": "Oberösterreich",
-      "courts": [
-        "lvwg"
-      ],
-      "abbrev": "Oberösterreich"
-    },
-    {
-      "path": "at/salzburg",
-      "name": "Salzburg",
-      "courts": [
-        "lvwg"
-      ],
-      "abbrev": "Salzburg"
-    },
-    {
-      "path": "at/steiermark",
-      "name": "Steiermark",
-      "courts": [
-        "lvwg"
-      ],
-      "abbrev": "Steiermark"
-    },
-    {
-      "path": "at/tirol",
-      "name": "Tirol",
-      "courts": [
-        "lvwg"
-      ],
-      "abbrev": "Tirol"
-    },
-    {
-      "path": "at/vorarlberg",
-      "name": "Vorarlberg",
-      "courts": [
-        "lvwg"
-      ],
-      "abbrev": "Vorarlberg"
-    },
-    {
       "path": "at/wien",
       "name": "Wien",
       "courts": [
-        "olg",
-        "vgwg"
+        "olg"
       ],
       "abbrev": "Wien"
     },

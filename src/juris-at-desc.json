@@ -32,6 +32,10 @@
       "name": "Handelsgericht",
       "abbrev": "HG >"
     },
+    "vgw": {
+      "name": "Verwaltungsgericht",
+      "abbrev": "VGW"
+    },
     "bfg": {
       "name": "Bundesfinanzgericht",
       "abbrev": "BFG"
@@ -799,7 +803,7 @@
       "name": "Wien",
       "courts": [
         "olg",
-        "lvwg"
+        "vgw"
       ],
       "abbrev": "Wien"
     },

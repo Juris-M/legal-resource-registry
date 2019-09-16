@@ -1,13 +1,10 @@
 {
   "courts": {
     "ag": {
-      "name": "Attorney General",
-      "abbrev:de": "GA"
+      "name": "Attorney General"
     },
     "ecj": {
-      "name": "Cour de Justice",
-      "abbrev": "ECJ",
-      "abbrev:de": "EuGH"
+      "name": "Cour de Justice"
     },
     "ecj~chamber.1": {
       "name": "Cour de Justice|First Chamber"
@@ -37,17 +34,7 @@
       "name": "Cour de Justice|Ninth Chamber"
     },
     "ec": {
-      "name": "European Commission",
-      "abbrev:de": "Kom"
-    },
-    "egc": {
-      "name": "General Court",
-      "abbrev": "EGC",
-      "abbrev:de": "EuG"
-    },
-    "cst": {
-      "name": "European Union Civil Service Tribunal",
-      "abbrev:de": "EuGöD"
+      "name": "European Commission"
     }
   },
   "jurisdictions": [
@@ -72,9 +59,7 @@
         "ecj~chamber.6",
         "ecj~chamber.7",
         "ecj~chamber.8",
-        "ecj~chamber.9",
-        "egc",
-        "cst"
+        "ecj~chamber.9"
       ]
     },
     {

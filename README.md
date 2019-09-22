@@ -38,7 +38,7 @@ In the example above:
 * `jp` identifies the top level of an independent jurisdiction (Japan in this case);
 * `fukuoka` is a jurisdictional subdivision of its parent. Codes for subordinate jurisdictions are connected to their parent with a colon (`:`).
 * `hc` is a court identifer (in this case 高等裁判所, or High Court). A court code is connected to its associated jurisdiction with a semicolon (`;`).
-* The elements of an identifer must be written in roman characters (including optionally the period (`.`) and plus (`+`) characters—Latin-1 and other accented or non-roman chararacters are not allowed.
+* The elements of an identifer must be written in roman characters (including optionally the period (`.`) and tilde (`~`) characters—Latin-1 and other accented or non-roman chararacters are not allowed.
 
 Apart from the constraints listed above, identifiers can be assigned arbitrarily; but once assigned, identifiers should not be changed. Accordingly, if you make local changes to the identifier system following the instructions below, it is important to submit your changes to the Jurism project, so that they can be adopted as a (de facto) standard for all users.
 
@@ -171,7 +171,7 @@ are as follows (some additional features are explained in the next section of th
 > ![](./assets/images/sample-1.png)
 
 1. The `"courts"` element is JSON object with keys for each court ID. The `"jurisdictions"` element is an array of objects, each defining a particular jurisdiction, with parent jurisdictions listed before their subordinates.
-2. The keys under `"courts"` are composed of roman characters only (periods and plus [+] characters are also allowed, spaces are not permitted).
+2. The keys under `"courts"` are composed of roman characters only (periods and tilde [`~`] characters are also allowed, spaces are not permitted).
 3. A `"name"` is set on each court object. The name should be expressed in the primary language of the jurisdiction. This name will be shown in the Jurism UI, when the user clicks at the right end of the **Court** field for a list of available courts within a selected jurisdiction.
 4. An `"abbrev"` element should be set on each court object. This will be used to compose court names. As shown in the `< Ct. App.` entry in the sample, a less-than symbol (`<`) at the left end of the string indicates that the jurisdiction abbreviation should be set at the front of the court abbreviation when composing the full abbreviation for a subordinate court. A greater-than symbol (`>`) at the right end of the string indicates that the jurisdiction should be post-pended.
 5. The `"path"` element of a jurisdiction object expresses the jurisdiction identifier, delimited by slash characters (`/`) rather than colon. The elements of the identifier must be written in roman characters only (periods are allowed, spaces are not permitted).

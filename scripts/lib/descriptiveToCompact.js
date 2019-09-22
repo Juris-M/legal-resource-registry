@@ -168,8 +168,8 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 	var places = abbrevs.xdata["default"].place;
 	for (var jurisdiction of jurisDesc.jurisdictions) {
 		var id = getJurisdictionID(jurisdiction);
-		var jurisdictionAbbrev = getBestAbbrev(jurisdiction, abbrevVariantName);
-		places[id.toUpperCase()] = jurisdictionAbbrev;
+		var jurisdictionAbbrevs = getBestAbbrevs(jurisdiction, abbrevVariantName);
+		places[id.toUpperCase()] = jurisdictionAbbrevs.normal;
 		// Court abbrevs
 		if (!abbrevs.xdata[id]) {
 			abbrevs.xdata[id] = {
@@ -177,7 +177,7 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 			};
 		}
 		for (var courtID of jurisdiction.courts) {
-			if (!courtID.match(/^[\-\+]?[a-z]([\+\.a-z0-9]+)*$/)) {
+			if (!courtID.match(/^[\-\+]?[a-z]([\~\.a-z0-9]+)*$/)) {
 				var e = new Error("invalid court ID \"" + courtID + "\" in jurisdiction " + id);
 				handleError(e);
 			}
@@ -191,17 +191,20 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 				ignoreJurisdiction = true;
 			}
 			var court = jurisDesc.courts[courtID];
+			if (!court) {
+				throw new Error("no court registered for ID " + courtID);
+			}
 			var abbrev;
 			if (ignoreCourt) {
-				abbrev = jurisdictionAbbrev;
+				abbrev = jurisdictionAbbrevs.normal;
 			} else {
-				var courtAbbrev = getBestAbbrev(court, abbrevVariantName);
-				if (courtAbbrev.slice(0, 1) === "<" && !ignoreJurisdiction) {
-					abbrev = jurisdictionAbbrev + courtAbbrev.slice(1);
-				} else if (courtAbbrev.slice(-1) === ">" && !ignoreJurisdiction) {
-					abbrev = courtAbbrev.slice(0, -1) + jurisdictionAbbrev;
+				var courtAbbrev = getBestAbbrevs(court, abbrevVariantName);
+				if (courtAbbrev.normal.slice(0, 1) === "<" && !ignoreJurisdiction) {
+					abbrev = jurisdictionAbbrevs.normal + courtAbbrev.normal.slice(1);
+				} else if (courtAbbrev.normal.slice(-1) === ">" && !ignoreJurisdiction) {
+					abbrev = courtAbbrev.normal.slice(0, -1) + jurisdictionAbbrevs.normal;
 				} else {
-					abbrev = courtAbbrev.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
+					abbrev = courtAbbrev.normal.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
 				}
 			}
 			abbrevs.xdata[id]["institution-part"][courtID] = abbrev;
@@ -209,14 +212,25 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 				if (!abbrevs.xdata[id]["institution-entire"]) {
 					abbrevs.xdata[id]["institution-entire"] = {};
 				}
-				abbrevs.xdata[id]["institution-entire"][courtID] = court.ABBREV;
+				var code;
+				if (court.ABBREV.slice(0, 1) === "<") {
+					code = jurisdictionAbbrevs.normal + court.ABBREV.slice(1);
+				} else if (court.ABBREV.slice(-1) === ">") {
+					code = court.ABBREV.slice(0, -1) + jurisdictionAbbrevs.normal;
+				} else {
+					code = court.ABBREV.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
+				}
+				abbrevs.xdata[id]["institution-entire"][courtID] = code;
 			}
 		}
 	}
 	return abbrevs;
 }
 
-function getBestAbbrev(obj, abbrevVariantName) {
+function getBestAbbrevs(obj, abbrevVariantName) {
+	if (!obj) {
+		throw new Error("no object for getBestAbbrevs!");
+	}
 	var abbrev;
 	// Set name for abbrevVariantName key
 	var abbrevVariantKey = "abbrev:" + abbrevVariantName;
@@ -230,7 +244,10 @@ function getBestAbbrev(obj, abbrevVariantName) {
 	} else {
 		abbrev = obj.name;
 	}
-	return abbrev;
+	return {
+		normal: abbrev,
+		code: obj.ABBREV ? obj.ABBREV : ""
+	};
 }
 
 function getCountryNameOrID(jurisDesc, returnID) {

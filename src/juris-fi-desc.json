@@ -198,7 +198,7 @@
 		},
 		{
 			"path": "fi/rovaniemi",
-			"name": "Rovaniemi",
+			"name": "Pohjois-Suomi",
 			"abbrev": "Rovaniemen",
 			"courts": [
 				"ho"
@@ -285,11 +285,18 @@
 			]
 		},
 		{
-			"path": "fi/vaasa",
-			"name": "Vaasa",
+			"path": "fi/pohjanmaa",
+			"name": "Pohjanmaa",
 			"abbrev": "Vaasan",
 			"courts": [
-				"hao",
+				"hao"
+			]
+		},
+		{
+			"path": "fi/vaasa",
+			"name": "Keski-Suomi, Pohjanmaa",
+			"abbrev": "Vaasan",
+			"courts": [
 				"ho"
 			]
 		},

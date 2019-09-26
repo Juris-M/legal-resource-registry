@@ -77,7 +77,7 @@
 		{
 			"path": "fi/helsinki",
 			"name": "Uusimaa",
-			"abbrev": "Helsingen",
+			"abbrev": "Helsingin",
 			"courts": [
 				"hao",
 				"ho"
@@ -86,7 +86,7 @@
 		{
 			"path": "fi/helsinki/helsinki",
 			"name": "Helsinki",
-			"abbrev": "Helsingen",
+			"abbrev": "Helsingin",
 			"courts": [
 				"ko"
 			]
@@ -280,6 +280,7 @@
 		{
 			"path": "fi/turku/ahvenanmaa",
 			"name": "Ahvenanmaa",
+			"abbrev": "Ahvenanmaan",
 			"courts": [
 				"ko"
 			]

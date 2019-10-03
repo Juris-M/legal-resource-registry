@@ -2,7 +2,7 @@
   "courts": {
     "lvwg": {
       "name": "Landesverwaltungsgericht",
-      "abbrev": "LvWG >"
+      "abbrev": "LVwG >"
     },
     "bg": {
       "name": "Bezirksgericht",
@@ -42,7 +42,7 @@
     },
     "bvwg": {
       "name": "Bundesverwaltungsgericht",
-      "abbrev": "BvWG"
+      "abbrev": "BVwG"
     },
     "ogh": {
       "name": "Oberster Gerichtshof",

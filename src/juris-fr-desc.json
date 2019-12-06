@@ -1,7 +1,8 @@
 {
   "courts": {
     "ca": {
-      "name": "Cour d'appel"
+		"name": "Cour d'appel",
+		"abbrev": "CA >"
     },
     "cass": {
       "name": "Cour de Cassation"

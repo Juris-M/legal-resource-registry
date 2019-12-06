@@ -1,10 +1,1000 @@
 {
-  "courts": {},
+  "courts": {
+    "sc": {
+      "name": "Supreme Court"
+    },
+      "atc": {
+          "name": "Anti-Terrorist Court"
+      },
+    "hc": {
+      "name": "< High Court"
+    },
+    "fshc": {
+      "name": "Federal Shariat Court, >"
+    },
+    "dsc": {
+      "name": "District/Session Court, >"
+    },
+    "ajksc": {
+      "name": "< Supreme Court"
+    },
+    "ajkhc": {
+      "name": "< High Court"
+    },
+    "ajkshc": {
+      "name": "< Shariat Appellate Bench of High Court"
+    },
+    "gbsac": {
+      "name": "< Supreme Appellate Court"
+    },
+    "gbcc": {
+      "name": "< Chief Court"
+    }
+  },
   "jurisdictions": [
     {
       "path": "pk",
       "name": "Pakistan",
-      "courts": []
-    }
+      "courts": [
+          "sc",
+          "atc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa",
+      "name": "Khyber Pakhtunkhwa",
+      "courts": [
+        "hc",
+        "fshc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/peshawar",
+      "name": "Peshawar",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/bannu",
+      "name": "Bannu",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/charsadda",
+      "name": "Charsadda",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/kohat",
+      "name": "Kohat",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/abbottabad",
+      "name": "Abbottabad",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/d.i.khan",
+      "name": "D.I.Khan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/chitral",
+      "name": "Chitral",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/malakand",
+      "name": "Malakand",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/karak",
+      "name": "Karak",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/upper.dir",
+      "name": "Upper Dir",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/lower.dir",
+      "name": "Lower Dir",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/lakki.marwat",
+      "name": "Lakki Marwat",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/hangu",
+      "name": "Hangu",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/tank",
+      "name": "Tank",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/nowshera",
+      "name": "Nowshera",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/swabi",
+      "name": "Swabi",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/buner",
+      "name": "Buner",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/mardan",
+      "name": "Mardan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/shangla",
+      "name": "Shangla",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/haripur",
+      "name": "Haripur",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/mansehra",
+      "name": "Mansehra",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/battagram",
+      "name": "Battagram",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/dasu.kohistan",
+      "name": "Dasu Kohistan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/lower.kohistan",
+      "name": "Lower Kohistan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/kolai.palas",
+      "name": "Kolai Palas",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/tor.ghar",
+      "name": "Tor Ghar",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/khyber.pakhtunkhwa/swat",
+      "name": "Swat",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab",
+      "name": "Punjab",
+      "courts": [
+        "hc",
+        "fshc"
+      ]
+    },
+
+      {
+          "path": "pk/punjab/chakwal",
+          "name": "Chakwal",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/jehlum",
+          "name": "Jehlum",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/attock",
+          "name": "Attock",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/bhakkar",
+          "name": "Bhakkar",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/khushab",
+          "name": "Khushab",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/mianwali",
+          "name": "Mianwali",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/gujrat",
+          "name": "Gujrat",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/hafizabad",
+          "name": "Hafizabad",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/mandi bahauddin",
+          "name": "Mandi Bahauddin",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/narowal",
+          "name": "Narowal",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/sialkot",
+          "name": "Sialkot",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/chiniot",
+          "name": "Chiniot",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/jhang",
+          "name": "Jhang",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/toba tek singh",
+          "name": "Toba Tek Singh",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/kasur",
+          "name": "Kasur",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/nanakana sahib",
+          "name": "Nanakana Sahib",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/sheikhupura",
+          "name": "Sheikhupura",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/okara",
+          "name": "Okara",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/pakpattan",
+          "name": "Pakpattan",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/khanewal",
+          "name": "Khanewal",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/vehari",
+          "name": "Vehari",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/layyah",
+          "name": "Layyah",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/lodhran",
+          "name": "Lodhran",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/muzaffargarh",
+          "name": "Muzaffargarh",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/bahawalnagar",
+          "name": "Bahawalnagar",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/rajanpur",
+          "name": "Rajanpur",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/punjab/rahim yar khan",
+          "name": "Rahim Yar Khan",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+      "path": "pk/punjab/bahawalpur",
+      "name": "Bahawalpur",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab/dera.ghazi.khan",
+      "name": "Dera Ghazi Khan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab/faisalabad",
+      "name": "Faisalabad",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab/gujranwala",
+      "name": "Gujranwala",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab/lahore",
+      "name": "Lahore",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab/multan",
+      "name": "Multan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab/rawalpindi",
+      "name": "Rawalpindi",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab/sahiwal",
+      "name": "Sahiwal",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/punjab/sargodha",
+      "name": "Sargodha",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/azad.jammu.kashmir",
+      "name": "Azad Jammu Kashmir",
+      "courts": [
+          "ajksc",
+          "ajkhc",
+          "ajkshc"
+      ]
+    },
+      {
+          "path": "pk/azad.jammu.kashmir/neelum",
+          "name": "Neelum",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/azad.jammu.kashmir/hattian",
+          "name": "Hattian",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/azad.jammu.kashmir/bagh",
+          "name": "Bagh",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/azad.jammu.kashmir/haveli",
+          "name": "Haveli",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/azad.jammu.kashmir/sudhnoti",
+          "name": "Sudhnoti",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/azad.jammu.kashmir/kotli",
+          "name": "Kotli",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/azad.jammu.kashmir/bhimber",
+          "name": "Bhimber",
+          "courts": [
+              "dsc"
+          ]
+      },
+
+      
+    {
+      "path": "pk/balochistan",
+      "name": "Balochistan",
+      "courts": [
+        "hc",
+        "fshc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/peshin",
+      "name": "Peshin",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/lasbella",
+      "name": "Lasbella",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/panjgoor",
+      "name": "Panjgoor",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/killa.saifullah",
+      "name": "Killa Saifullah",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/killa.abdullah",
+      "name": "Killa Abdullah",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/khuzdar",
+      "name": "Khuzdar",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/gwadar",
+      "name": "Gawadar",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/zhob",
+      "name": "Zhob",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/usta.mohammad",
+      "name": "Usta Muhammad",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/turbat",
+      "name": "Turbat",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/noushki",
+      "name": "Noushki",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/kalat.mastung",
+      "name": "Kalat/Mastung",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/musakhail",
+      "name": "Musakhail",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/loralai",
+      "name": "Loralai",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/kohlu",
+      "name": "Kohlu",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/sibi",
+      "name": "Sibi",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/quetta",
+      "name": "Quetta",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/dera.allah.yar",
+      "name": "Dera Allah Yar",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/dera.murad.jamali",
+      "name": "Dera Murad Jamali",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/kharan",
+      "name": "Kharan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/barkhan",
+      "name": "Barkhan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/kalat",
+      "name": "Kalat",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/balochistan/dera.bugti",
+      "name": "Dera Bugti",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh",
+      "name": "Sindh",
+      "courts": [
+        "hc",
+        "fshc"
+      ]
+    },
+    {
+      "path": "pk/sindh/karachi.south",
+      "name": "Karachi South",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/karachi.west",
+      "name": "Karachi West",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/karachi.east",
+      "name": "Karachi East",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/karachi.central",
+      "name": "Karachi Central",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/malir",
+      "name": "Malir",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/matiari",
+      "name": "Matiari",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/hayderabad",
+      "name": "Hayderabad",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/thatta",
+      "name": "Thatta",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/badin",
+      "name": "Badin",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/dadu",
+      "name": "Dadu",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/jamshoro",
+      "name": "Jamshoro",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/tando.allahyar",
+      "name": "Tando Allahyar",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/tando.mohammad.khan",
+      "name": "Tando Mohammad Khan",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/tharparkar",
+      "name": "Tharparkar",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/mirpurkhas",
+      "name": "Mirpurkhas",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/sanghar",
+      "name": "Sanghar",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/umarkot",
+      "name": "Umarkot",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/naushahro.feroze",
+      "name": "Naushero Feroze",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/shaheed.benazirabad",
+      "name": "Shaheed Benazirabad",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/sukkur",
+      "name": "Sukkur",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/khairpur",
+      "name": "Khairpur",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/ghotki",
+      "name": "Ghotki",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/larkana",
+      "name": "Larkana",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/shikarpur",
+      "name": "Shikarpur",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/jacobabad",
+      "name": "Jacobabad",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/kashmore",
+      "name": "Kashmore",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/sindh/kamber",
+      "name": "Kamber-Shahdadkot",
+      "courts": [
+        "dsc"
+      ]
+    },
+    {
+      "path": "pk/gilgit.baltistan",
+      "name": "Gilgit Baltistan",
+      "courts": [
+        "gbsac",
+        "gbcc"
+      ]
+    },
+      {
+          "path": "pk/gilgit.baltistan/ghanche",
+          "name": "Ghanche",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/gilgit.baltistan/diamer",
+          "name": "Diamer",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/gilgit.baltistan/astore",
+          "name": "Astore",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/gilgit.baltistan/hunza nagar",
+          "name": "Hunza Nagar",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/gilgit.baltistan/ghizar",
+          "name": "Ghizar",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/gilgit.baltistan/sakardu",
+          "name": "Sakardu",
+          "courts": [
+              "dsc"
+          ]
+      },
+    {
+      "path": "pk/islamabad",
+      "name": "Islamabad",
+      "courts": [
+        "hc",
+        "fshc"
+      ]
+    },
+      {
+          "path": "pk/islamabad/east",
+          "name": "East Islamabad",
+          "courts": [
+              "dsc"
+          ]
+      },
+      {
+          "path": "pk/islamabad/west",
+          "name": "West Islamabad",
+          "courts": [
+              "dsc"
+          ]
+      }
   ]
 }

@@ -1,10 +1,504 @@
 {
-  "courts": {},
-  "jurisdictions": [
-    {
-      "path": "it",
-      "name": "Italy",
-      "courts": []
-    }
-  ]
+    "courts": {
+        "trib": {
+            "name":"Tribunale",
+            "name":"Tribunale di >"
+        },
+        "cdapp": {
+            "name":"Corti d’Appello",
+            "name":"Corti d’Appello di >"
+        },
+        "csdc": {
+            "name":"Corte Suprema di Cassazione"
+        },
+        "tpm": {
+            "name":"Tribunale per i minorenni",
+            "name":"Tribunale per i minorenni di >"
+        },
+        "to": {
+            "name":"Tribunale ordinario",
+            "name":"Tribunale ordinario di >"
+        },
+        "tds": {
+            "name":"Tribunale di Sorveglianza",
+            "name":"Tribunale di Sorveglianza di >"
+        },
+        "uds": {
+            "name":"Ufficio di Sorveglianza",
+            "name":"Ufficio di Sorveglianza di >"
+        },
+        "cdadapp": {
+            "name":"Corte d’Assise d’Appello",
+            "name":"Corte d’Assise d’Appello di >"
+        },
+        "cdass": {
+            "name":"Corte d’Assise",
+            "name":"Corte d’Assise di >"
+        }
+    },
+    "jurisdictions": [
+        {
+            "path": "it",
+            "name": "Italy",
+            "courts": [
+                "csdc"
+            ]
+        },
+        {
+            "path": "it/ancona",
+            "name": "Ancona",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/bari",
+            "name": "Bari",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/bologna",
+            "name": "Bologna",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/brescia",
+            "name": "Brescia",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/cagliari",
+            "name": "Cagliari",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/cagliari/sassari",
+            "name": "Sassari",
+            "courts": [
+                "cdass",
+                "trib"
+            ]
+        },
+        {
+            "path": "it/caltanissetta",
+            "name": "Caltanissetta",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/campobasso",
+            "name": "Campobasso",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/catania",
+            "name": "Catania",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/catanzaro",
+            "name": "Catanzaro",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/firenze",
+            "name": "Firenze",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/genova",
+            "name": "Genova",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/l.aquila",
+            "name": "L'aquila",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/lecce",
+            "name": "Lecce",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/lecce/taranto",
+            "name": "Taranto",
+            "courts": [
+                "cdass",
+                "trib"
+            ]
+        },
+        {
+            "path": "it/messina",
+            "name": "Messina",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/milano",
+            "name": "Milano",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/napoli",
+            "name": "Napoli",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/palermo",
+            "name": "Palermo",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/perugia",
+            "name": "Perugia",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/potenza",
+            "name": "Potenza",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/reggio.calabria",
+            "name": "Reggio calabria",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/roma",
+            "name": "Roma",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/salerno",
+            "name": "Salerno",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/sassari",
+            "name": "Sassari",
+            "courts": [
+                "cdass",
+                "trib"
+            ]
+        },
+        {
+            "path": "it/torino",
+            "name": "Torino",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/trento",
+            "name": "Trento",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/trento/bolzano",
+            "name": "Bolzano",
+            "courts": [
+                "cdass",
+                "trib"
+            ]
+        },
+        {
+            "path": "it/trieste",
+            "name": "Trieste",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        },
+        {
+            "path": "it/venezia",
+            "name": "Venezia",
+            "courts": [
+                "cdapp",
+                "cdass",
+                "cdadapp"
+            ]
+        }
+    ],
+    "raw_tribunals": {
+        "it/ancona": [
+            "Ancona",
+            "Ascoli Piceno",
+            "Fermo",
+            "Macerata",
+            "Pesaro",
+            "Urbino"
+        ],
+        "it/bari": [
+            "Bari",
+            "Foggia",
+            "Trani"
+        ],
+        "it/bologna": [
+            "Bologna",
+            "Ferrara",
+            "Forlì",
+            "Modena",
+            "Parma",
+            "Piacenza",
+            "Ravenna",
+            "Reggio nell'Emilia",
+            "Rimini"
+        ],
+        "it/brescia": [
+            "Bergamo",
+            "Brescia",
+            "Cremona",
+            "Mantova"
+        ],
+        "it/cagliari": [
+            "Cagliari",
+            "Lanusei",
+            "Oristano",
+            "Nuoro",
+            "Tempio Pausania"
+        ],
+        "it/caltanissetta": [
+            "Caltanissetta",
+            "Enna",
+            "Gela"
+        ],
+        "it/campobasso": [
+            "Campobasso",
+            "Isernia",
+            "Larino"
+        ],
+        "it/catania": [
+            "Caltagirone",
+            "Catania",
+            "Ragusa",
+            "Siracusa"
+        ],
+        "it/catanzaro": [
+            "Castrovillari",
+            "Catanzaro",
+            "Cosenza",
+            "Crotone",
+            "Lamezia Terme",
+            "Paola",
+            "Vibo Valentia"
+        ],
+        "it/firenze": [
+            "Arezzo",
+            "Firenze",
+            "Grosseto",
+            "Livorno",
+            "Lucca",
+            "Pisa",
+            "Pistoia",
+            "Prato",
+            "Siena"
+        ],
+        "it/genova": [
+            "Genova",
+            "Imperia",
+            "La Spezia",
+            "Massa",
+            "Savona"
+        ],
+        "it/l.aquila": [
+            "Chieti",
+            "L'Aquila",
+            "Pescara",
+            "Teramo"
+        ],
+        "it/lecce": [
+            "Brindisi",
+            "Lecce"
+        ],
+        "it/messina": [
+            "Barcellona Pozzo di Gotto",
+            "Messina",
+            "Patti"
+        ],
+        "it/milano": [
+            "Busto Arsizio",
+            "Como",
+            "Lecco",
+            "Lodi",
+            "Milano",
+            "Monza",
+            "Pavia",
+            "Sondrio",
+            "Varese"
+        ],
+        "it/napoli": [
+            "Avellino",
+            "Benevento",
+            "Napoli",
+            "Napoli Nord",
+            "Nola",
+            "Santa Maria Capua Vetere",
+            "Torre Annunziata"
+        ],
+        "it/palermo": [
+            "Agrigento",
+            "Marsala",
+            "Palermo",
+            "Sciacca",
+            "Termini Imerese",
+            "Trapani"
+        ],
+        "it/perugia": [
+            "Perugia",
+            "Spoleto",
+            "Terni"
+        ],
+        "it/potenza": [
+            "Lagonegro",
+            "Matera",
+            "Potenza"
+        ],
+        "it/reggio.calabria": [
+            "Locri",
+            "Palmi",
+            "Reggio Calabria"
+        ],
+        "it/roma": [
+            "Cassino",
+            "Civitavecchia",
+            "Frosinone",
+            "Latina",
+            "Rieti",
+            "Roma",
+            "Tivoli",
+            "Velletri",
+            "Viterbo"
+        ],
+        "it/salerno": [
+            "Nocera Inferiore",
+            "Salerno",
+            "Vallo della Lucania"
+        ],
+        "it/torino": [
+            "Alessandria",
+            "Aosta",
+            "Asti",
+            "Biella",
+            "Cuneo",
+            "Ivrea",
+            "Novara",
+            "Torino",
+            "Verbania",
+            "Vercelli"
+        ],
+        "it/trento": [
+            "Rovereto",
+            "Trento"
+        ],
+        "it/trieste": [
+            "Gorizia",
+            "Pordenone",
+            "Trieste",
+            "Udine"
+        ],
+        "it/venezia": [
+            "Belluno",
+            "Padova",
+            "Rovigo",
+            "Treviso",
+            "Venezia",
+            "Verona",
+            "Vicenza"
+        ]
+    },
+    "raw_surveillance_tribunals": "   Tribunale di Sorveglianza di ANCONA\n   Tribunale di Sorveglianza di BARI\n   Tribunale di Sorveglianza di BOLOGNA\n   Tribunale di Sorveglianza di BOLZANO\n   Tribunale di Sorveglianza di BRESCIA\n   Tribunale di Sorveglianza di CAGLIARI\n   Tribunale di Sorveglianza di CALTANISSETTA\n   Tribunale di Sorveglianza di CAMPOBASSO\n   Tribunale di Sorveglianza di CATANIA\n   Tribunale di Sorveglianza di CATANZARO\n   Tribunale di Sorveglianza di FIRENZE\n   Tribunale di Sorveglianza di GENOVA\n   Tribunale di Sorveglianza di L'AQUILA\n   Tribunale di Sorveglianza di LECCE\n   Tribunale di Sorveglianza di MESSINA\n   Tribunale di Sorveglianza di MILANO\n   Tribunale di Sorveglianza di NAPOLI\n   Tribunale di Sorveglianza di PALERMO\n   Tribunale di Sorveglianza di PERUGIA\n   Tribunale di Sorveglianza di POTENZA\n   Tribunale di Sorveglianza di REGGIO CALABRIA\n   Tribunale di Sorveglianza di ROMA\n   Tribunale di Sorveglianza di SALERNO\n   Tribunale di Sorveglianza di SASSARI\n   Tribunale di Sorveglianza di TARANTO\n   Tribunale di Sorveglianza di TORINO\n   Tribunale di Sorveglianza di TRENTO\n   Tribunale di Sorveglianza di TRIESTE\n   Tribunale di Sorveglianza di VENEZIA",
+    "raw_minor_tribunals": "   Tribunale per i Minorenni di ANCONA\n   Tribunale per i Minorenni di BARI\n   Tribunale per i Minorenni di BOLOGNA\n   Tribunale per i Minorenni di BOLZANO\n   Tribunale per i Minorenni di BRESCIA\n   Tribunale per i Minorenni di CAGLIARI\n   Tribunale per i Minorenni di CALTANISSETTA\n   Tribunale per i Minorenni di CAMPOBASSO\n   Tribunale per i Minorenni di CATANIA\n   Tribunale per i Minorenni di CATANZARO\n   Tribunale per i Minorenni di FIRENZE\n   Tribunale per i Minorenni di GENOVA\n   Tribunale per i Minorenni di L'AQUILA\n   Tribunale per i Minorenni di LECCE\n   Tribunale per i Minorenni di MESSINA\n   Tribunale per i Minorenni di MILANO\n   Tribunale per i Minorenni di NAPOLI\n   Tribunale per i Minorenni di PALERMO\n   Tribunale per i Minorenni di PERUGIA\n   Tribunale per i Minorenni di POTENZA\n   Tribunale per i Minorenni di REGGIO CALABRIA\n   Tribunale per i Minorenni di ROMA\n   Tribunale per i Minorenni di SALERNO\n   Tribunale per i Minorenni di SASSARI\n   Tribunale per i Minorenni di TARANTO\n   Tribunale per i Minorenni di TORINO\n   Tribunale per i Minorenni di TRENTO\n   Tribunale per i Minorenni di TRIESTE\n   Tribunale per i Minorenni di VENEZIA"
+
 }

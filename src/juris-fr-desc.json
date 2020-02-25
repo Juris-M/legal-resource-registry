@@ -34,6 +34,9 @@
     "ce": {
       "name": "Conseil d'Etat"
     },
+    "ce~cont": {
+      "name": "Conseil d'Etat|Section Contentieux"
+    },
     "cnda": {
       "name": "Cour National du Droit d'Asile"
     }

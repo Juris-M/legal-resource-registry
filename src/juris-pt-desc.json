@@ -10,22 +10,27 @@
 			"name":"Tribunal de Conflitos"
 		},
 		"supremo.tribunal.de.justicia":{
-			"name":"Supremo Tribunal de Justiça"
+			"name":"Supremo Tribunal de Justiça",
+			"abbrev": "STJ"
 		},
 		"relacao":{
-			"name":"Tribunal da Relação"
+			"name":"Tribunal da Relação",
+			"abbrev": "TR>"
 		},
 		"comarca":{
 			"name":"Tribunal Judicial da Comarca"
 		},
 		"supremo.administrativo":{
-			"name":"Supremo Tribunal Administrativo"
+			"name":"Supremo Tribunal Administrativo",
+			"abbrev": "STA"
 		},
 		"central.administrativo.norte":{
-			"name":"TCA Norte"
+			"name":"TCA Norte",
+			"abbrev": "TCAN"
 		},
 		"central.administrativo.sul":{
-			"name":"TCA Sul"
+			"name":"TCA Sul",
+			"abbrev": "TCAS"
 		},
 		"administrativo.de.circulo":{
 			"name":"Tribunal Administrativo de Círculo"
@@ -88,6 +93,7 @@
 		{
 			"path":"pt/lisboa",
 			"name":"Lisboa",
+			"abbrev": "L",
 			"courts":[
 				"relacao",
 				"maritimo",
@@ -173,6 +179,7 @@
 		{
 			"path":"pt/evora",
 			"name":"Évora",
+			"abbrev": "E",
 			"courts":[
 				"relacao",
 				"penas"
@@ -232,6 +239,7 @@
 		{
 			"path":"pt/coimbra",
 			"name":"Coimbra",
+			"abbrev": "C",
 			"courts":[
 				"relacao",
 				"penas",
@@ -279,6 +287,7 @@
 		{
 			"path":"pt/porto",
 			"name":"Porto",
+			"abbrev": "P",
 			"courts":[
 				"relacao",
 				"penas",
@@ -346,6 +355,7 @@
 		{
 			"path":"pt/guimarães",
 			"name":"Guimarães",
+			"abbrev": "G",
 			"courts":[
 				"relacao",
 				"comarca"

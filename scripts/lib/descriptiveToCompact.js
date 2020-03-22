@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const eol = require('eol');
 
 const util = require("./util");
 const handleError = require("./errors").handleError;
@@ -37,7 +38,9 @@ async function descriptiveToCompact(opts) {
 	for (var jurisID of jurisIDs) {
 		// Call working code for a single jurisdiction here
 		opts.j = jurisID;
-		var jurisDesc = JSON.parse(fs.readFileSync(path.join(config.path.jurisSrcDir, "juris-" + jurisID + "-desc.json")).toString());
+		var json = fs.readFileSync(path.join(config.path.jurisSrcDir, "juris-" + jurisID + "-desc.json")).toString();
+		var json = eol.lf(json);
+		var jurisDesc = JSON.parse(json);
 
 		// Abbreviation file(s)
 		var abbrevVariantNames = getAbbrevVariantKeys(jurisDesc);

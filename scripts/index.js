@@ -31,11 +31,6 @@ const optParams = {
     }
 };
 const usage = "Usage: " + path.basename(process.argv[1]) + " <options>\n"
-      + "    -t, --transform\n"
-      + "       Data transformation to perform. Valid values are:\n"
-	  + "           db-to-compact\n"
-	  + "           compact-to-descriptive\n"
-	  + "           descriptive-to-compact\n"
       + "    -a, --all\n"
       + "       Perform requested operation on all jurisdictions.\n"
       + "    -j <jurisdictionID>, --jurisdiction=<jurisdictionID>\n"
@@ -102,31 +97,6 @@ if (opts.l) {
 	process.exit();
 }
 
-if (!opts.t) {
-	var e = new Error("The -t option is required");
-	handleError(e);
-}
-
-var fromToMap = {
-	"db-to-compact": {
-		from: "jurism-db",
-		to: "compact"
-	},
-	"compact-to-descriptive": {
-		from: "compact",
-		to: "descriptive"
-	},
-	"descriptive-to-compact": {
-		from: "descriptive",
-		to: "compact"
-	}
-}
-
-if (!fromToMap[opts.t]) {
-	var e = new Error("Argument to option -t must be one of \"db-to-compact\", \"compact-to-descriptive\" or \"descriptive-to-compact\"");
-	handleError(e);
-}
-
 if (!opts.a && !opts.j) {
 	var e = new Error("One of -a or -j is required.");
 	handleError(e);
@@ -141,12 +111,6 @@ if (opts.a && opts.j) {
  * Run
  */
 
-console.log("Converting from \"" + fromToMap[opts.t].from + "\" to \"" + fromToMap[opts.t].to + "\"");
+console.log("Converting description to compiled forms");
 
-if (opts.t === "db-to-compact") {
-	dbToCompact(opts).catch(err => handleError(err));
-} else if (opts.t === "compact-to-descriptive") {
-	compactToDescriptive(opts).catch(err => handleError(err));
-} else if (opts.t === "descriptive-to-compact") {
-	descriptiveToCompact(opts).catch(err => handleError(err));
-}
+descriptiveToCompact(opts).catch(err => handleError(err));

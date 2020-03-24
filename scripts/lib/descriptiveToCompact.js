@@ -23,7 +23,7 @@ async function descriptiveToCompact(opts) {
 			}
 		}
 	} else if (opts.j) {
-		jurisIDs.push(opts.j)
+		jurisIDs.push(opts.j);
 	}
 	if (jurisIDs.length === 0) {
 		var e;
@@ -217,9 +217,17 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 				}
 				var code;
 				if (court.ABBREV.slice(0, 1) === "<") {
-					code = jurisdictionAbbrevs.normal + court.ABBREV.slice(1);
+					if (jurisdictionAbbrevs.code) {
+						code = jurisdictionAbbrevs.code + court.ABBREV.slice(1);
+					} else {
+						code = jurisdictionAbbrevs.normal + court.ABBREV.slice(1);
+					}
 				} else if (court.ABBREV.slice(-1) === ">") {
-					code = court.ABBREV.slice(0, -1) + jurisdictionAbbrevs.normal;
+					if (jurisdictionAbbrevs.code) {
+						code = court.ABBREV.slice(0, -1) + jurisdictionAbbrevs.code;
+					} else {
+						code = court.ABBREV.slice(0, -1) + jurisdictionAbbrevs.normal;
+					}
 				} else {
 					code = court.ABBREV.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
 				}

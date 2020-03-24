@@ -11,26 +11,26 @@
 		},
 		"supremo.tribunal.de.justicia":{
 			"name":"Supremo Tribunal de Justiça",
-			"abbrev": "STJ"
+			"ABBREV": "STJ"
 		},
 		"relacao":{
-			"name":"Tribunal da Relação",
-			"abbrev": "TR>"
+			"name":"Tribunal da Relação >",
+			"ABBREV": "TR>"
 		},
 		"comarca":{
 			"name":"Tribunal Judicial da Comarca"
 		},
 		"supremo.administrativo":{
 			"name":"Supremo Tribunal Administrativo",
-			"abbrev": "STA"
+			"ABBREV": "STA"
 		},
 		"central.administrativo.norte":{
 			"name":"TCA Norte",
-			"abbrev": "TCAN"
+			"ABBREV": "TCAN"
 		},
 		"central.administrativo.sul":{
 			"name":"TCA Sul",
-			"abbrev": "TCAS"
+			"ABBREV": "TCAS"
 		},
 		"administrativo.de.circulo":{
 			"name":"Tribunal Administrativo de Círculo"
@@ -93,7 +93,8 @@
 		{
 			"path":"pt/lisboa",
 			"name":"Lisboa",
-			"abbrev": "L",
+			"abbrev": "de Lisboa",
+			"ABBREV": "L",
 			"courts":[
 				"relacao",
 				"maritimo",
@@ -125,14 +126,14 @@
 			]
 		},
 		{
-			"path":"pt/lisboa/açores",
+			"path":"pt/lisboa/acores",
 			"name":"Açores",
 			"courts":[
 				"comarca"
 			]
 		},
 		{
-			"path":"pt/lisboa/açores/ponta.delgada",
+			"path":"pt/lisboa/acores/ponta.delgada",
 			"name":"Ponta Delgada",
 			"courts":[
 				"administrativo.fiscal.sul",
@@ -163,7 +164,7 @@
 			]
 		},
 		{
-			"path":"pt/lisboa/açores.e.madeira",
+			"path":"pt/lisboa/acores.e.madeira",
 			"name":"Açores e Madeira",
 			"courts":[
 				"comarca"
@@ -179,7 +180,8 @@
 		{
 			"path":"pt/evora",
 			"name":"Évora",
-			"abbrev": "E",
+			"abbrev": "de Évora",
+			"ABBREV": "E",
 			"courts":[
 				"relacao",
 				"penas"
@@ -223,14 +225,14 @@
 			]
 		},
 		{
-			"path":"pt/evora/santarém",
+			"path":"pt/evora/santarem",
 			"name":"Santarém",
 			"courts":[
 				"comarca"
 			]
 		},
 		{
-			"path":"pt/evora/setúbal",
+			"path":"pt/evora/setubal",
 			"name":"Setúbal",
 			"courts":[
 				"comarca"
@@ -239,7 +241,8 @@
 		{
 			"path":"pt/coimbra",
 			"name":"Coimbra",
-			"abbrev": "C",
+			"abbrev": "de Coimbra",
+			"ABBREV": "C",
 			"courts":[
 				"relacao",
 				"penas",
@@ -287,7 +290,8 @@
 		{
 			"path":"pt/porto",
 			"name":"Porto",
-			"abbrev": "P",
+			"abbrev": "do Porto",
+			"ABBREV": "P",
 			"courts":[
 				"relacao",
 				"penas",
@@ -346,23 +350,24 @@
 			]
 		},
 		{
-			"path":"pt/porto/leixões",
+			"path":"pt/porto/leixoes",
 			"name":"Leixões",
 			"courts":[
 				"maritimo"
 			]
 		},
 		{
-			"path":"pt/guimarães",
+			"path":"pt/guimaraes",
 			"name":"Guimarães",
-			"abbrev": "G",
+			"abbrev": "de Guimarães",
+			"ABBREV": "G",
 			"courts":[
 				"relacao",
 				"comarca"
 			]
 		},
 		{
-			"path":"pt/guimarães/braga",
+			"path":"pt/guimaraes/braga",
 			"name":"Braga",
 			"courts":[
 				"comarca",
@@ -370,14 +375,14 @@
 			]
 		},
 		{
-			"path":"pt/guimarães/bragança",
+			"path":"pt/guimaraes/braganca",
 			"name":"Bragança",
 			"courts":[
 				"comarca"
 			]
 		},
 		{
-			"path":"pt/guimarães/bragança/mirandela",
+			"path":"pt/guimaraes/braganca/mirandela",
 			"name":"Mirandela",
 			"courts":[
 				"comarca",
@@ -385,14 +390,14 @@
 			]
 		},
 		{
-			"path":"pt/guimarães/viana.do.castelo",
+			"path":"pt/guimaraes/viana.do.castelo",
 			"name":"Viana do Castelo",
 			"courts":[
 				"comarca"
 			]
 		},
 		{
-			"path":"pt/guimarães/vila.real",
+			"path":"pt/guimaraes/vila.real",
 			"name":"Vila Real",
 			"courts":[
 				"comarca"

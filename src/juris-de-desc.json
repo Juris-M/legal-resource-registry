@@ -58,7 +58,68 @@
       "name": "Bundesfinanzhof"
     },
     "bgh": {
-      "name": "Bundesgerichtshof"
+		"name": "Bundesgerichtshof",
+		"ABBREV": "BGH"
+    },
+    "bgh~zs1": {
+		"name": "Bundesgerichtshof|Zivilsenate I",
+		"ABBREV": "I "
+    },
+    "bgh~zs2": {
+		"name": "Bundesgerichtshof|Zivilsenate II",
+		"ABBREV": "II "
+    },
+    "bgh~zs3": {
+		"name": "Bundesgerichtshof|Zivilsenate III",
+		"ABBREV": "III "
+    },
+    "bgh~zs4": {
+		"name": "Bundesgerichtshof|Zivilsenate IV",
+		"ABBREV": "IV "
+    },
+    "bgh~zs5": {
+		"name": "Bundesgerichtshof|Zivilsenate V",
+		"ABBREV": "V "
+    },
+    "bgh~zs6": {
+		"name": "Bundesgerichtshof|Zivilsenate VI",
+		"ABBREV": "VI "
+    },
+    "bgh~zs7": {
+		"name": "Bundesgerichtshof|Zivilsenate VII",
+		"ABBREV": "VII "
+    },
+    "bgh~zs8": {
+		"name": "Bundesgerichtshof|Zivilsenate VIII",
+		"ABBREV": "VIII "
+    },
+    "bgh~zs9": {
+		"name": "Bundesgerichtshof|Zivilsenate IX",
+		"ABBREV": "IX "
+    },
+    "bgh~zs10": {
+		"name": "Bundesgerichtshof|Zivilsenate X",
+		"ABBREV": "X "
+    },
+    "bgh~zs11": {
+		"name": "Bundesgerichtshof|Zivilsenate XI",
+		"ABBREV": "XI "
+    },
+    "bgh~zs12": {
+		"name": "Bundesgerichtshof|Zivilsenate XII",
+		"ABBREV": "XII"
+    },
+    "bgh~ss1": {
+		"name": "Bundesgerichtshof|Strafsenate 1",
+		"ABBREV": "1 "
+    },
+    "bgh~ss2": {
+		"name": "Bundesgerichtshof|Strafsenate 2",
+		"ABBREV": "2 "
+    },
+    "bgh~ss3": {
+		"name": "Bundesgerichtshof|Strafsenate 3",
+		"ABBREV": "3 "
     },
     "bpatg": {
       "name": "Bundespatentgericht"
@@ -67,10 +128,60 @@
       "name": "Bundessozialgericht"
     },
     "bverfg": {
-      "name": "Bundesverfassungsgericht"
+		"name": "Bundesverfassungsgericht",
+		"ABBREV": "Bv"
+    },
+    "bverfg~1": {
+      "name": "Bundesverfassungsgericht|Erster Senat",
+		"ABBREV": "1 Bv"
+    },
+    "bverfg~2": {
+      "name": "Bundesverfassungsgericht|Zweiter Senat",
+		"ABBREV": "2 Bv"
     },
     "bverwg": {
-      "name": "Bundesverwaltungsgericht"
+		"name": "Bundesverwaltungsgericht",
+		"ABBREV": "BVerwG"
+    },
+    "bverwg~1": {
+      "name": "Bundesverwaltungsgericht|1. Revisionssenat",
+		"ABBREV": "BVerwG 1 "
+    },
+    "bverwg~2": {
+      "name": "Bundesverwaltungsgericht|2. Revisionssenat",
+		"ABBREV": "BVerwG 2"
+    },
+    "bverwg~3": {
+      "name": "Bundesverwaltungsgericht|3. Revisionssenat",
+		"ABBREV": "BVerwG 3"
+    },
+    "bverwg~4": {
+      "name": "Bundesverwaltungsgericht|4. Revisionssenat",
+		"ABBREV": "BVerwG 4"
+    },
+    "bverwg~5": {
+      "name": "Bundesverwaltungsgericht|5. Revisionssenat",
+		"ABBREV": "BVerwG 5"
+    },
+    "bverwg~6": {
+      "name": "Bundesverwaltungsgericht|6. Revisionssenat",
+		"ABBREV": "BVerwG 6"
+    },
+    "bverwg~7": {
+      "name": "Bundesverwaltungsgericht|7. Revisionssenat",
+		"ABBREV": "BVerwG 7"
+    },
+    "bverwg~8": {
+      "name": "Bundesverwaltungsgericht|8. Revisionssenat",
+		"ABBREV": "BVerwG 8"
+    },
+    "bverwg~9": {
+      "name": "Bundesverwaltungsgericht|9. Revisionssenat",
+		"ABBREV": "BVerwG 9"
+    },
+    "bverwg~10": {
+      "name": "Bundesverwaltungsgericht|10. Revisionssenat",
+		"ABBREV": "BVerwG 10"
     },
     "trdg.nord": {
       "name": "Truppendienstgericht Nord"
@@ -87,10 +198,37 @@
         "bag",
         "bfh",
         "bgh",
+		"bgh~zs1",
+		"bgh~zs2",
+		"bgh~zs3",
+		"bgh~zs4",
+		"bgh~zs5",
+		"bgh~zs6",
+		"bgh~zs7",
+		"bgh~zs8",
+		"bgh~zs9",
+		"bgh~zs10",
+		"bgh~zs11",
+		"bgh~zs12",
+		"bgh~ss1",
+		"bgh~ss2",
+		"bgh~ss3",
         "bpatg",
         "bsg",
         "bverfg",
+		"bverfg~1",
+		"bverfg~2",
         "bverwg",
+        "bverwg~1",
+        "bverwg~2",
+        "bverwg~3",
+        "bverwg~4",
+        "bverwg~5",
+        "bverwg~6",
+        "bverwg~7",
+        "bverwg~8",
+        "bverwg~9",
+        "bverwg~10",
         "trdg.nord",
         "trdg.sud"
       ]

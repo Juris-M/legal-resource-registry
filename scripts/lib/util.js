@@ -28,15 +28,15 @@ function writeCompactData(opts, ret) {
 			delete ret[key];
 		}
 	}
-	var oldFilePath = path.join(config.path.jurisMapDir, "juris-" + opts.j + "-map.json");
-	var oldObj;
-	if (fs.existsSync(oldFilePath)) {
-		oldObj = JSON.parse(fs.readFileSync(oldFilePath).toString());
+	var diskFilePath = path.join(config.path.jurisMapDir, "juris-" + opts.j + "-map.json");
+	var diskObj;
+	if (fs.existsSync(diskFilePath)) {
+		diskObj = JSON.parse(fs.readFileSync(diskFilePath).toString());
 	} else {
-		oldObj = {};
+		diskObj = {};
 	}
-	var sameData = deepEqual(oldObj, ret);
-	//console.log(JSON.stringify(oldObj, null, 2));
+	var sameData = deepEqual(diskObj, ret);
+	//console.log(JSON.stringify(diskObj, null, 2));
 	if (!sameData || opts.F) {
 		var versions;
 		if (fs.existsSync(config.path.jurisVersionFile)) {
@@ -47,23 +47,27 @@ function writeCompactData(opts, ret) {
 		versions[opts.j] = {
 			timestamp: getDateNow(),
 			rowcount: rowDataCount
-		}
+		};
 		fs.writeFileSync(config.path.jurisVersionFile, JSON.stringify(versions, null, 2));
-		
+
 		var filePath = path.join(config.path.jurisMapDir, "juris-" + opts.j + "-map.json");
 		fs.writeFileSync(filePath, JSON.stringify(ret));
 	}
 };
+
+// NB: working to assign new abbrevs object (xdata) to existing disk object
+// before write, to preserve journal-based court name suppression etc.
 
 function writeAbbrevData(opts, jurisID, abbrevVariantName, abbrevs) {
 	var variantName = abbrevVariantName ? "-" + abbrevVariantName : "";
 	var fileName = "auto-" + jurisID + variantName + ".json";
 	var filePath = path.join(config.path.jurisAbbrevsDir, fileName);
 	var sameData = false;
+	var diskObj;
 	if (fs.existsSync(filePath)) {
-		var oldObj = JSON.parse(fs.readFileSync(filePath).toString());
-		oldObj.version = abbrevs.version;
-		sameData = deepEqual(oldObj, abbrevs);
+		diskObj = JSON.parse(fs.readFileSync(filePath).toString());
+		diskObj.version = abbrevs.version;
+		sameData = deepEqual(diskObj, abbrevs);
 	}
 	if (!sameData || opts.F) {
 		var dirlistPath = path.join(config.path.jurisAbbrevsDir, "DIRECTORY_LISTING.json");
@@ -87,6 +91,26 @@ function writeAbbrevData(opts, jurisID, abbrevVariantName, abbrevs) {
 			newInfo.version = abbrevs.version;
 			newInfo.jurisdiction = jurisID;
 			allinfo.push(newInfo);
+		}
+		if (fs.existsSync(filePath)) {
+			// Remove old keys not found in the new data set
+			var diskKeys = Object.keys(diskObj.xdata);
+			var newKeys = Object.keys(abbrevs.xdata);
+			for (var i=diskKeys.length-1;i>-1;i--) {
+				var key = diskKeys[i];
+				if (newKeys.indexOf(key) === -1) {
+					delete diskObj.xdata[key];
+				}
+			}
+			// Move supplementary segments from existing file to new data set
+			for (var jurisdictionKey in diskObj.xdata) {
+				for (var fieldKey in diskObj.xdata[jurisdictionKey]) {
+					if (["institution-part", "institution-entire"].indexOf(fieldKey) > -1) {
+						continue;
+					}
+					abbrevs.xdata[jurisdictionKey][fieldKey] = diskObj.xdata[jurisdictionKey][fieldKey];
+				}
+			}
 		}
 		fs.writeFileSync(dirlistPath, JSON.stringify(allinfo, null, 2));
 		fs.writeFileSync(path.join(config.path.jurisAbbrevsDir, fileName), JSON.stringify(abbrevs, null, 2));

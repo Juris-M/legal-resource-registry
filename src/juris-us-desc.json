@@ -6,7 +6,7 @@
     },
     "supreme.court": {
       "name": "Supreme Court",
-      "abbrev": ""
+      "abbrev": "< Sup. Ct."
     },
     "court.civil.appeals": {
       "name": "Court of Civil Appeals",
@@ -282,7 +282,7 @@
       "path": "us",
       "name": "United States",
       "courts": [
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "U.S."
     },
@@ -291,7 +291,7 @@
       "name": "Alaska",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Alaska"
     },
@@ -302,7 +302,7 @@
         "court.appeals",
         "court.civil.appeals",
         "court.criminal.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Ala."
     },
@@ -312,7 +312,7 @@
       "courts": [
         "attorney.general",
         "court.appeals",
-        "supreme.court",
+        "-supreme.court",
         "workers.compensation.commission"
       ],
       "abbrev": "Ark."
@@ -330,7 +330,7 @@
       "name": "Arizona",
       "courts": [
         "court.appeals",
-        "supreme.court",
+        "-supreme.court",
         "tax.court"
       ],
       "abbrev": "Ariz."
@@ -340,7 +340,7 @@
       "name": "Federal Circuit",
       "courts": [
         "board.veterans.appeals",
-        "court.appeals.federal.circuit",
+        "-court.appeals.federal.circuit",
         "court.appeals.veterans.claims",
         "court.claims",
         "court.customs.appeals",
@@ -464,7 +464,7 @@
       "name": "Eleventh Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "11th Cir."
     },
@@ -624,9 +624,9 @@
       "name": "Second Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
-      "abbrev": "2nd Cir."
+      "abbrev": "2d Cir."
     },
     {
       "path": "us/c2/ct.d",
@@ -695,9 +695,9 @@
       "name": "Third Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
-      "abbrev": "3rd Cir."
+      "abbrev": "3d Cir."
     },
     {
       "path": "us/c3/de.d",
@@ -766,7 +766,7 @@
       "name": "Fourth Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "4th Cir."
     },
@@ -896,7 +896,7 @@
       "name": "Fifth Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "5th Cir."
     },
@@ -1018,7 +1018,7 @@
       "name": "Sixth Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "6th Cir."
     },
@@ -1141,7 +1141,7 @@
       "name": "Seventh Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "7th Cir."
     },
@@ -1245,7 +1245,7 @@
       "name": "Eighth Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "8th Cir."
     },
@@ -1376,7 +1376,7 @@
       "name": "Ninth Circuit",
       "courts": [
         "bankruptcy.appellate.panel",
-        "court.appeals"
+        "-court.appeals"
       ],
       "abbrev": "9th Cir."
     },
@@ -1538,7 +1538,7 @@
         "appellate.division.superior.court",
         "attorney.general",
         "court.appeal",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Cal."
     },
@@ -1557,7 +1557,7 @@
         "attorney.general",
         "court.appeals",
         "industrial.claim.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Colo."
     },
@@ -1568,7 +1568,7 @@
         "appellate.court",
         "compensation.review.board",
         "superior.court",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Conn."
     },
@@ -1589,7 +1589,7 @@
         "court.judiciary",
         "family.court",
         "superior.court",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Del."
     },
@@ -1630,7 +1630,7 @@
       "courts": [
         "attorney.general",
         "district.court.appeal",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Fla."
     },
@@ -1639,7 +1639,7 @@
       "name": "Georgia",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Ga."
     },
@@ -1649,7 +1649,7 @@
       "courts": [
         "small.claims.court",
         "superior.court",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Guam"
     },
@@ -1658,7 +1658,7 @@
       "name": "Hawaii",
       "courts": [
         "intermediate.court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Haw."
     },
@@ -1667,7 +1667,7 @@
       "name": "Iowa",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Iowa"
     },
@@ -1676,7 +1676,7 @@
       "name": "Idaho",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Idaho"
     },
@@ -1685,7 +1685,7 @@
       "name": "Illinois",
       "courts": [
         "appellate.court",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Ill."
     },
@@ -1694,7 +1694,7 @@
       "name": "Indiana",
       "courts": [
         "court.appeals",
-        "supreme.court",
+        "-supreme.court",
         "tax.court"
       ],
       "abbrev": "Ind."
@@ -1705,7 +1705,7 @@
       "courts": [
         "attorney.general",
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Kan."
     },
@@ -1715,7 +1715,7 @@
       "courts": [
         "court.appeals",
         "court.appeals.high",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Ky."
     },
@@ -1725,7 +1725,7 @@
       "courts": [
         "attorney.general",
         "court.appeal",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "La."
     },
@@ -1738,7 +1738,7 @@
         "department.industrial.accidents",
         "district.court",
         "superior.court",
-        "supreme.judicial.court"
+        "-supreme.judicial.court"
       ],
       "abbrev": "Mass."
     },
@@ -1765,7 +1765,7 @@
       "name": "Michigan",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Mich."
     },
@@ -1775,7 +1775,7 @@
       "courts": [
         "attorney.general",
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Minn."
     },
@@ -1785,13 +1785,14 @@
       "courts": [
         "attorney.general",
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Mo."
     },
     {
       "path": "us/mp",
-      "name": "Northern Mariana Islands",
+		"name": "Northern Mariana Islands",
+		"abbrev": "N. Mar. I.",
       "courts": []
     },
     {
@@ -1799,7 +1800,7 @@
       "name": "Mississippi",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "N. Mar. Is."
     },
@@ -1808,7 +1809,7 @@
       "name": "Montana",
       "courts": [
         "attorney.general",
-        "supreme.court",
+        "-supreme.court",
         "tax.appeal.board"
       ],
       "abbrev": "Mont."
@@ -1817,7 +1818,7 @@
       "path": "us/navajo",
       "name": "Navajo Nation",
       "courts": [
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Navajo"
     },
@@ -1828,7 +1829,7 @@
         "court.appeals",
         "industrial.commission",
         "superior.court",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "N.C."
     },
@@ -1845,7 +1846,7 @@
       "name": "North Dakota",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "N.D."
     },
@@ -1855,7 +1856,7 @@
       "courts": [
         "attorney.general",
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Neb."
     },
@@ -1863,7 +1864,7 @@
       "path": "us/nh",
       "name": "New Hampshire",
       "courts": [
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "N.H."
     },
@@ -1873,7 +1874,7 @@
       "courts": [
         "court.chancery",
         "superior.court",
-        "supreme.court",
+        "-supreme.court",
         "tax.court"
       ],
       "abbrev": "N.J."
@@ -1883,7 +1884,7 @@
       "name": "New Mexico",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "N.M."
     },
@@ -1891,7 +1892,7 @@
       "path": "us/nv",
       "name": "Nevada",
       "courts": [
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Nev."
     },
@@ -1924,7 +1925,7 @@
       "courts": [
         "court.appeals",
         "court.claims",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Ohio"
     },
@@ -1937,7 +1938,7 @@
         "court.criminal.appeals",
         "court.judiciary",
         "judicial.ethics.advisory.panel",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Okla."
     },
@@ -1946,7 +1947,7 @@
       "name": "Oregon",
       "courts": [
         "court.appeals",
-        "supreme.court",
+        "-supreme.court",
         "tax.court"
       ],
       "abbrev": "Or."
@@ -1967,13 +1968,14 @@
         "court.judicial.discipline",
         "special.tribunal",
         "superior.court",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Pa."
     },
     {
       "path": "us/pr",
-      "name": "Puerto Rico",
+		"name": "Puerto Rico",
+		"abbrev": "P.R.",
       "courts": []
     },
     {
@@ -1981,7 +1983,7 @@
       "name": "Rhode Island",
       "courts": [
         "superior.court",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "R.I."
     },
@@ -1990,7 +1992,7 @@
       "name": "South Carolina",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "S.C."
     },
@@ -1998,7 +2000,7 @@
       "path": "us/sd",
       "name": "South Dakota",
       "courts": [
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "S.D."
     },
@@ -2009,7 +2011,7 @@
         "court.appeals",
         "court.criminal.appeals",
         "superior.court.law.equity",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Tenn."
     },
@@ -2030,7 +2032,7 @@
         "court.criminal.appeals",
         "judicial.panel.multidistrict.litigation",
         "special.court.review",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Tex."
     },
@@ -2047,7 +2049,7 @@
       "name": "Utah",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Utah"
     },
@@ -2056,20 +2058,21 @@
       "name": "Virginia",
       "courts": [
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Va."
     },
     {
       "path": "us/vi",
-      "name": "U.S. Virgin Islands",
+		"name": "U.S. Virgin Islands",
+		"abbrev": "V.I.",
       "courts": []
     },
     {
       "path": "us/vt",
       "name": "Vermont",
       "courts": [
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Vt."
     },
@@ -2079,7 +2082,7 @@
       "courts": [
         "attorney.general",
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Wash."
     },
@@ -2089,7 +2092,7 @@
       "courts": [
         "attorney.general",
         "court.appeals",
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Wis."
     },
@@ -2097,7 +2100,7 @@
       "path": "us/wv",
       "name": "West Virginia",
       "courts": [
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "W. Va."
     },
@@ -2105,7 +2108,7 @@
       "path": "us/wy",
       "name": "Wyoming",
       "courts": [
-        "supreme.court"
+        "-supreme.court"
       ],
       "abbrev": "Wyo."
     }

@@ -1,5 +1,13 @@
 {
   "courts": {
+    "cftc": {
+      "name": "Commodity Futures Trading Commission",
+      "abbrev": "CFTC"
+    },
+    "cfpb": {
+      "name": "Consumer Financial Protection Bureau",
+      "abbrev": "CFPB"
+    },
     "court.appeals": {
       "name": "Court of Appeals",
       "abbrev": "< Ct. App."

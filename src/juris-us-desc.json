@@ -1,2126 +1,2168 @@
 {
-  "courts": {
-    "cftc": {
-      "name": "Commodity Futures Trading Commission",
-      "abbrev": "CFTC"
-    },
-    "cfpb": {
-      "name": "Consumer Financial Protection Bureau",
-      "abbrev": "CFPB"
-    },
-    "court.appeals": {
-      "name": "Court of Appeals",
-      "abbrev": "< Ct. App."
-    },
-    "supreme.court": {
-      "name": "Supreme Court",
-      "abbrev": "< Sup. Ct."
-    },
-    "court.civil.appeals": {
-      "name": "Court of Civil Appeals",
-      "abbrev": "< Civ. App."
-    },
-    "court.criminal.appeals": {
-      "name": "Court of Criminal Appeals",
-      "abbrev": "< Crim. App."
-    },
-    "attorney.general": {
-      "name": "Attorney General",
-      "abbrev": "< Att'y Gen."
-    },
-    "workers.compensation.commission": {
-      "name": "Workers Compensation Commission",
-      "abbrev": "Workers' Comp. Comm'n"
-    },
-    "high.court": {
-      "name": "High Court of American Samoa",
-      "abbrev": ""
-    },
-    "tax.court": {
-      "name": "Tax Court",
-      "abbrev": "T.C."
-    },
-    "bankruptcy.court": {
-      "name": "Bankruptcy Appellate Panel",
-      "abbrev": "Bankr. >"
-    },
-    "district.court": {
-      "name": "District Court",
-      "abbrev": "< Dist. Ct."
-    },
-    "bankruptcy.appellate.panel": {
-      "name": "Bankruptcy Appellate Panel",
-      "abbrev": "B.A.P. >"
-    },
-    "board.veterans.appeals": {
-      "name": "Board of Veterans' Appeals",
-      "abbrev": "Vet. App."
-    },
-    "court.appeals.federal.circuit": {
-      "name": "Court of Appeals for the Federal Circuit",
-      "abbrev": "Fed. Cir."
-    },
-    "court.appeals.veterans.claims": {
-      "name": "Court of Appeals for Veterans Claims",
-      "abbrev": "Vet. App."
-    },
-    "court.claims": {
-      "name": "Court of Claims",
-      "abbrev": "Ct. Cl."
-    },
-    "court.customs.appeals": {
-      "name": "United States Court of Customs Appeals",
-      "abbrev": "Ct. Cust. App."
-    },
-    "court.customs.patent.appeals": {
-      "name": "Court of Customs and Patent Appeals",
-      "abbrev": "C.C.P.A."
-    },
-    "court.federal.claims": {
-      "name": "Court of Federal Claims",
-      "abbrev": "Fed. Cl."
-    },
-    "court.international.trade": {
-      "name": "Court of International Trade",
-      "abbrev": "Ct. Int'l Trade"
-    },
-    "customs.court": {
-      "name": "Customs Court",
-      "abbrev": "Cust. Ct."
-    },
-    "merit.systems.protection.board": {
-      "name": "Merit Systems Protection Board",
-      "abbrev": "M.S.P.B."
-    },
-    "circuit.court": {
-      "name": "Circuit Court",
-      "abbrev": "Cal. Cir. Ct."
-    },
-    "appellate.division.superior.court": {
-      "name": "Appellate Division of the Superior Court",
-      "abbrev": "< App. Dep’t Super. Ct."
-    },
-    "court.appeal": {
-      "name": "Court of Appeal",
-      "abbrev": "< Ct. App."
-    },
-    "industrial.claim.appeals": {
-      "name": "Industrial Claim Appeals Office",
-      "abbrev": "< Indust. Cl. App."
-    },
-    "appellate.court": {
-      "name": "Appellate Court",
-      "abbrev": "< App. Ct."
-    },
-    "compensation.review.board": {
-      "name": "Compensation Review Board",
-      "abbrev": "< Comp. Rev. Bd."
-    },
-    "superior.court": {
-      "name": "Superior Court",
-      "abbrev": "< Super. Ct."
-    },
-    "court.chancery": {
-      "name": "Court of Chancery",
-      "abbrev": "< Ch."
-    },
-    "court.common.pleas": {
-      "name": "Court of Common Pleas",
-      "abbrev": "< Ct. Com. Pl."
-    },
-    "court.judiciary": {
-      "name": "Court on the Judiciary",
-      "abbrev": "< Ct. Jud."
-    },
-    "family.court": {
-      "name": "Family Court",
-      "abbrev": "< Fam. Ct."
-    },
-    "air.force.court.criminal.appeals": {
-      "name": "Air Force Court of Criminal Appeals",
-      "abbrev": "A.F. Ct. Crim. App."
-    },
-    "armed.services.board.contract.appeals": {
-      "name": "Armed Services Board of Contract Appeals",
-      "abbrev": "A.S.B.C.A."
-    },
-    "army.court.criminal.appeals": {
-      "name": "Army Court of Criminal Appeals",
-      "abbrev": "Army Ct. Crim. App."
-    },
-    "commerce.court": {
-      "name": "Commerce Court",
-      "abbrev": "Comm. Ct."
-    },
-    "court.appeals.armed.forces": {
-      "name": "Court of Appeals for the Armed Forces",
-      "abbrev": "C.A.A.F."
-    },
-    "court.military.commission.review": {
-      "name": "Court of Military Commission Review",
-      "abbrev": "Ct. Mi. Comm'n Rev."
-    },
-    "courts.martial": {
-      "name": "United States Courts Martial",
-      "abbrev": "Ct. Martial"
-    },
-    "emergency.court.appeals": {
-      "name": "Emergency Court of Appeals",
-      "abbrev": "Emer. Ct. App."
-    },
-    "foreign.intelligence.surveillance.court": {
-      "name": "Foreign Intelligence Surveillance Court",
-      "abbrev": "F.I.S.C."
-    },
-    "foreign.intelligence.surveillance.court.review": {
-      "name": "Foreign Intelligence Surveillance Court of Review",
-      "abbrev": "F.I.S.C. Rev."
-    },
-    "judicial.conference.committee": {
-      "name": "Judicial Conference Committee",
-      "abbrev": "Jud. Conf. Comm."
-    },
-    "judicial.panel.multidistrict.litigation": {
-      "name": "Judicial Panel on Multidistrict Litigation",
-      "abbrev": "J.P.M.L."
-    },
-    "navy.marine.corps.court.criminal.appeals": {
-      "name": "Navy-Marine Corps Court of Criminal Appeals",
-      "abbrev": "N.-M. Ct. Crim. App."
-    },
-    "special.court.regional.rail.reorganization.act": {
-      "name": "Special Court under the Regional Rail Reorganization Act",
-      "abbrev": "Reg’l Rail Reorg. Ct."
-    },
-    "temporary.emergency.court.appeals": {
-      "name": "Temporary Emergency Court of Appeals",
-      "abbrev": "Temp. Emer. Ct. App."
-    },
-    "district.court.appeal": {
-      "name": "District Court of Appeal",
-      "abbrev": "< Dist. Ct. App."
-    },
-    "small.claims.court": {
-      "name": "Small Claims Court",
-      "abbrev": "< Small Cl. Ct."
-    },
-    "intermediate.court.appeals": {
-      "name": "Intermediate Court of Appeals",
-      "abbrev": "< Ct. App."
-    },
-    "court.appeals.high": {
-      "name": "Court of Appeals of Kentucky",
-      "abbrev": "< Ct. App."
-    },
-    "appeals.court": {
-      "name": "Appeals Court",
-      "abbrev": "< App. Ct."
-    },
-    "department.industrial.accidents": {
-      "name": "Department of Industrial Accidents",
-      "abbrev": "< Dept. Indus. Accid."
-    },
-    "supreme.judicial.court": {
-      "name": "Supreme Judicial Court",
-      "abbrev": ""
-    },
-    "court.special.appeals": {
-      "name": "Court of Special Appeals",
-      "abbrev": "< Ct. Spec. App."
-    },
-    "tax.appeal.board": {
-      "name": "Tax Appeal Board",
-      "abbrev": "< Tax App. Bd."
-    },
-    "industrial.commission": {
-      "name": "Industrial Commission",
-      "abbrev": "< Ind. Comm."
-    },
-    "civil.court": {
-      "name": "Civil Court",
-      "abbrev": "< Civ. Ct."
-    },
-    "criminal.court": {
-      "name": "Criminal Court",
-      "abbrev": "< Crim. Ct."
-    },
-    "appellate.division.supreme.court": {
-      "name": "Appellate Division of the Supreme Court",
-      "abbrev": "< App. Div."
-    },
-    "appellate.term.supreme.court": {
-      "name": "Appellate Terms of the Supreme Court",
-      "abbrev": "< App. Term."
-    },
-    "surrogates.court": {
-      "name": "Surrogate's Court",
-      "abbrev": "< Sur. Ct."
-    },
-    "attorney.general.reports": {
-      "name": "Attorney General Reports",
-      "abbrev": "< Att'y Gen."
-    },
-    "judicial.ethics.advisory.panel": {
-      "name": "Judicial Ethics Advisory Panel",
-      "abbrev": "< Jud. Ethics Adv. Panel"
-    },
-    "commonwealth.court": {
-      "name": "Commonwealth Court",
-      "abbrev": "< Commw. Ct."
-    },
-    "court.judicial.discipline": {
-      "name": "Court of Judicial Discipline",
-      "abbrev": "< Ct. Jud. Disc."
-    },
-    "special.tribunal": {
-      "name": "Special Tribunal",
-      "abbrev": "Spec. Trib."
-    },
-    "superior.court.law.equity": {
-      "name": "Superior Court for Law and Equity",
-      "abbrev": "< Super. Ct. L. & Eq."
-    },
-    "special.court.review": {
-      "name": "Special Court of Review",
-      "abbrev": "< Spec. Ct. Rev."
-    }
-  },
-  "jurisdictions": [
-    {
-      "path": "us",
-      "name": "United States",
-      "courts": [
-          "-supreme.court",
-		  "cftc",
-		  "cfpb"
-      ],
-      "abbrev": "U.S."
-    },
-    {
-      "path": "us/ak",
-      "name": "Alaska",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Alaska"
-    },
-    {
-      "path": "us/al",
-      "name": "Alabama",
-      "courts": [
-        "court.appeals",
-        "court.civil.appeals",
-        "court.criminal.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Ala."
-    },
-    {
-      "path": "us/ar",
-      "name": "Arkansas",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "-supreme.court",
-        "workers.compensation.commission"
-      ],
-      "abbrev": "Ark."
-    },
-    {
-      "path": "us/as",
-      "name": "American Samoa",
-      "courts": [
-        "high.court"
-      ],
-      "abbrev": "Am. Samoa"
-    },
-    {
-      "path": "us/az",
-      "name": "Arizona",
-      "courts": [
-        "court.appeals",
-        "-supreme.court",
-        "tax.court"
-      ],
-      "abbrev": "Ariz."
-    },
-    {
-      "path": "us/c",
-      "name": "Federal Circuit",
-      "courts": [
-        "board.veterans.appeals",
-        "-court.appeals.federal.circuit",
-        "court.appeals.veterans.claims",
-        "court.claims",
-        "court.customs.appeals",
-        "court.customs.patent.appeals",
-        "court.federal.claims",
-        "court.international.trade",
-        "customs.court",
-        "merit.systems.protection.board"
-      ],
-      "abbrev": "Fed. Cir."
-    },
-    {
-      "path": "us/c0",
-      "name": "D.C. Circuit",
-      "courts": [
-        "-court.appeals"
-      ],
-      "abbrev": "D.C. Cir."
-    },
-    {
-      "path": "us/c0/dc.d",
-      "name": "D. District of Columbia",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.D.C."
-    },
-    {
-      "path": "us/c1",
-      "name": "First Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "1st Cir."
-    },
-    {
-      "path": "us/c10",
-      "name": "Tenth Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "10th Cir."
-    },
-    {
-      "path": "us/c10/co.d",
-      "name": "D. Colorado",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Colo."
-    },
-    {
-      "path": "us/c10/ks.d",
-      "name": "D. Kansas",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Kan."
-    },
-    {
-      "path": "us/c10/nm.d",
-      "name": "D. New Mexico",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.N.M."
-    },
-    {
-      "path": "us/c10/ok.ed",
-      "name": "E.D. Oklahoma",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Okla."
-    },
-    {
-      "path": "us/c10/ok.nd",
-      "name": "N.D. Oklahoma",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Okla."
-    },
-    {
-      "path": "us/c10/ok.wd",
-      "name": "W.D. Oklahoma",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Okla."
-    },
-    {
-      "path": "us/c10/ut.d",
-      "name": "D. Utah",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Utah"
-    },
-    {
-      "path": "us/c10/wy.d",
-      "name": "D. Wyoming",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Wyo."
-    },
-    {
-      "path": "us/c11",
-      "name": "Eleventh Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "11th Cir."
-    },
-    {
-      "path": "us/c11/al.d",
-      "name": "D. Alabama",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Ala."
-    },
-    {
-      "path": "us/c11/al.md",
-      "name": "M.D. Alabama",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "M.D. Ala."
-    },
-    {
-      "path": "us/c11/al.nd",
-      "name": "N.D. Alabama",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Ala."
-    },
-    {
-      "path": "us/c11/al.sd",
-      "name": "S.D. Alabama",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Ala."
-    },
-    {
-      "path": "us/c11/fl.d",
-      "name": "D. Florida",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Fla."
-    },
-    {
-      "path": "us/c11/fl.md",
-      "name": "M.D. Florida",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "M.D. Fla."
-    },
-    {
-      "path": "us/c11/fl.nd",
-      "name": "N.D. Florida",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Fla."
-    },
-    {
-      "path": "us/c11/fl.sd",
-      "name": "S.D. Florida",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Fla."
-    },
-    {
-      "path": "us/c11/ga.d",
-      "name": "D. Georgia",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Ga."
-    },
-    {
-      "path": "us/c11/ga.md",
-      "name": "M.D. Georgia",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "M.D. Ga."
-    },
-    {
-      "path": "us/c11/ga.nd",
-      "name": "N.D. Georgia",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Ga."
-    },
-    {
-      "path": "us/c11/ga.sd",
-      "name": "S.D. Georgia",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Ga."
-    },
-    {
-      "path": "us/c1/ma.d",
-      "name": "D. Massachusetts",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Mass."
-    },
-    {
-      "path": "us/c1/me.d",
-      "name": "D. Maine",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Me."
-    },
-    {
-      "path": "us/c1/nh.d",
-      "name": "D. New Hampshire",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.N.H."
-    },
-    {
-      "path": "us/c1/pr.d",
-      "name": "D. Puerto Rico",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.P.R."
-    },
-    {
-      "path": "us/c1/ri.d",
-      "name": "D. Rhode Island",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.R.I."
-    },
-    {
-      "path": "us/c2",
-      "name": "Second Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "2d Cir."
-    },
-    {
-      "path": "us/c2/ct.d",
-      "name": "D. Connecticut",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Conn."
-    },
-    {
-      "path": "us/c2/ny.d",
-      "name": "D. New York",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D.N.Y."
-    },
-    {
-      "path": "us/c2/ny.ed",
-      "name": "E.D. New York",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D.N.Y."
-    },
-    {
-      "path": "us/c2/ny.nd",
-      "name": "N.D. New York",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D.N.Y."
-    },
-    {
-      "path": "us/c2/ny.sd",
-      "name": "S.D. New York",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D.N.Y."
-    },
-    {
-      "path": "us/c2/ny.wd",
-      "name": "W.D. New York",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D.N.Y."
-    },
-    {
-      "path": "us/c2/vt.d",
-      "name": "D. Vermont",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Vt."
-    },
-    {
-      "path": "us/c3",
-      "name": "Third Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "3d Cir."
-    },
-    {
-      "path": "us/c3/de.d",
-      "name": "D. Delaware",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Del."
-    },
-    {
-      "path": "us/c3/nj.d",
-      "name": "D. New Jersey",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.N.J."
-    },
-    {
-      "path": "us/c3/pa.d",
-      "name": "D. Pennsylvania",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Pa."
-    },
-    {
-      "path": "us/c3/pa.ed",
-      "name": "E.D. Pennsylvania",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Pa."
-    },
-    {
-      "path": "us/c3/pa.md",
-      "name": "M.D. Pennsylvania",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "M.D. Pa."
-    },
-    {
-      "path": "us/c3/pa.wd",
-      "name": "W.D. Pennsylvania",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Pa."
-    },
-    {
-      "path": "us/c3/vi.d",
-      "name": "D. U.S. Virgin Islands",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.V.I."
-    },
-    {
-      "path": "us/c4",
-      "name": "Fourth Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "4th Cir."
-    },
-    {
-      "path": "us/c4/md.d",
-      "name": "D. Maryland",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Md."
-    },
-    {
-      "path": "us/c4/nc.d",
-      "name": "D. North Carolina",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D.N.C."
-    },
-    {
-      "path": "us/c4/nc.ed",
-      "name": "E.D. North Carolina",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D.N.C."
-    },
-    {
-      "path": "us/c4/nc.md",
-      "name": "M.D. North Carolina",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "M.D.N.C."
-    },
-    {
-      "path": "us/c4/nc.wd",
-      "name": "W.D. North Carolina",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D.N.C."
-    },
-    {
-      "path": "us/c4/sc.d",
-      "name": "D. South Carolina",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.S.C."
-    },
-    {
-      "path": "us/c4/sc.ed",
-      "name": "E.D. South Carolina",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "E.D.S.C."
-    },
-    {
-      "path": "us/c4/sc.wd",
-      "name": "W.D. South Carolina",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "W.D.S.C."
-    },
-    {
-      "path": "us/c4/va.d",
-      "name": "D. Virginia",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Va."
-    },
-    {
-      "path": "us/c4/va.ed",
-      "name": "E.D. Virginia",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Va."
-    },
-    {
-      "path": "us/c4/va.wd",
-      "name": "W.D. Virginia",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Va."
-    },
-    {
-      "path": "us/c4/wv.d",
-      "name": "D. West Virginia",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D.W. Va."
-    },
-    {
-      "path": "us/c4/wv.nd",
-      "name": "N.D. West Virginia",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D.W. Va."
-    },
-    {
-      "path": "us/c4/wv.sd",
-      "name": "S.D. West Virginia",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D.W. Va."
-    },
-    {
-      "path": "us/c5",
-      "name": "Fifth Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "5th Cir."
-    },
-    {
-      "path": "us/c5/la.d",
-      "name": "D. Louisiana",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. La."
-    },
-    {
-      "path": "us/c5/la.ed",
-      "name": "E.D. Louisiana",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. La."
-    },
-    {
-      "path": "us/c5/la.md",
-      "name": "M.D. Louisiana",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "M.D. La."
-    },
-    {
-      "path": "us/c5/la.wd",
-      "name": "W.D. Louisiana",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. La."
-    },
-    {
-      "path": "us/c5/ms.d",
-      "name": "D. Mississippi",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Miss."
-    },
-    {
-      "path": "us/c5/ms.nd",
-      "name": "N.D. Mississippi",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Miss."
-    },
-    {
-      "path": "us/c5/ms.sd",
-      "name": "S.D. Mississippi",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Miss."
-    },
-    {
-      "path": "us/c5/pz.d",
-      "name": "D. Panama Canal Zone",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D.D.Z."
-    },
-    {
-      "path": "us/c5/tx.d",
-      "name": "D. Texas",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Tex."
-    },
-    {
-      "path": "us/c5/tx.ed",
-      "name": "E.D. Texas",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Tex."
-    },
-    {
-      "path": "us/c5/tx.nd",
-      "name": "N.D. Texas",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Tex."
-    },
-    {
-      "path": "us/c5/tx.sd",
-      "name": "S.D. Texas",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Tex."
-    },
-    {
-      "path": "us/c5/tx.wd",
-      "name": "W.D. Texas",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Tex."
-    },
-    {
-      "path": "us/c6",
-      "name": "Sixth Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "6th Cir."
-    },
-    {
-      "path": "us/c6/ky.d",
-      "name": "D. Kentucky",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Ky."
-    },
-    {
-      "path": "us/c6/ky.ed",
-      "name": "E.D. Kentucky",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Ky."
-    },
-    {
-      "path": "us/c6/ky.wd",
-      "name": "W.D. Kentucky",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Ky."
-    },
-    {
-      "path": "us/c6/mi.d",
-      "name": "D. Michigan",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Mich."
-    },
-    {
-      "path": "us/c6/mi.ed",
-      "name": "E.D. Michigan",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Mich."
-    },
-    {
-      "path": "us/c6/mi.wd",
-      "name": "W.D. Michigan",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Mich."
-    },
-    {
-      "path": "us/c6/oh.d",
-      "name": "D. Ohio",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Ohio"
-    },
-    {
-      "path": "us/c6/oh.nd",
-      "name": "N.D. Ohio",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Ohio"
-    },
-    {
-      "path": "us/c6/oh.sd",
-      "name": "S.D. Ohio",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Ohio"
-    },
-    {
-      "path": "us/c6/tn.d",
-      "name": "D. Tennessee",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Tenn."
-    },
-    {
-      "path": "us/c6/tn.ed",
-      "name": "E.D. Tennessee",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Tenn."
-    },
-    {
-      "path": "us/c6/tn.md",
-      "name": "M.D. Tennessee",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "M.D. Tenn."
-    },
-    {
-      "path": "us/c6/tn.wd",
-      "name": "W.D. Tennessee",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Tenn."
-    },
-    {
-      "path": "us/c7",
-      "name": "Seventh Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "7th Cir."
-    },
-    {
-      "path": "us/c7/il.cd",
-      "name": "C.D. Illinois",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "C.D. Ill."
-    },
-    {
-      "path": "us/c7/il.d",
-      "name": "D. Illinois",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Ill."
-    },
-    {
-      "path": "us/c7/il.ed",
-      "name": "E.D. Illinois",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "E.D. Ill."
-    },
-    {
-      "path": "us/c7/il.nd",
-      "name": "N.D. Illinois",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Ill."
-    },
-    {
-      "path": "us/c7/il.sd",
-      "name": "S.D. Illinois",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Ill."
-    },
-    {
-      "path": "us/c7/in.d",
-      "name": "D. Indiana",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Ind."
-    },
-    {
-      "path": "us/c7/in.nd",
-      "name": "N.D. Indiana",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Ind."
-    },
-    {
-      "path": "us/c7/in.sd",
-      "name": "S.D. Indiana",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Ind."
-    },
-    {
-      "path": "us/c7/wi.d",
-      "name": "D. Wisconsin",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Wis."
-    },
-    {
-      "path": "us/c7/wi.ed",
-      "name": "E.D. Wisconsin",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Wis."
-    },
-    {
-      "path": "us/c7/wi.wd",
-      "name": "W.D. Wisconsin",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Wis."
-    },
-    {
-      "path": "us/c8",
-      "name": "Eighth Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "8th Cir."
-    },
-    {
-      "path": "us/c8/ar.ed",
-      "name": "E.D. Arkansas",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Ark."
-    },
-    {
-      "path": "us/c8/ar.wd",
-      "name": "W.D. Arkansas",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Ark."
-    },
-    {
-      "path": "us/c8/ia.d",
-      "name": "D. Iowa",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Iowa"
-    },
-    {
-      "path": "us/c8/ia.nd",
-      "name": "N.D. Iowa",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Iowa"
-    },
-    {
-      "path": "us/c8/ia.sd",
-      "name": "S.D. Iowa",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Iowa"
-    },
-    {
-      "path": "us/c8/mn.d",
-      "name": "D. Minnesota",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Minn."
-    },
-    {
-      "path": "us/c8/mo.cd",
-      "name": "C.D. Missouri",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "C.D. Mo."
-    },
-    {
-      "path": "us/c8/mo.d",
-      "name": "D. Missouri",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Mo."
-    },
-    {
-      "path": "us/c8/mo.ed",
-      "name": "E.D. Missouri",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Mo."
-    },
-    {
-      "path": "us/c8/mo.sd",
-      "name": "S.D. Missouri",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "S.D. Mo."
-    },
-    {
-      "path": "us/c8/mo.wd",
-      "name": "W.D. Missouri",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Mo."
-    },
-    {
-      "path": "us/c8/nd.d",
-      "name": "D. North Dakota",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.N.D."
-    },
-    {
-      "path": "us/c8/ne.d",
-      "name": "D. Nebraska",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Neb."
-    },
-    {
-      "path": "us/c8/sd.d",
-      "name": "D. South Dakota",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.S.D."
-    },
-    {
-      "path": "us/c9",
-      "name": "Ninth Circuit",
-      "courts": [
-        "bankruptcy.appellate.panel",
-        "-court.appeals"
-      ],
-      "abbrev": "9th Cir."
-    },
-    {
-      "path": "us/c9/ak.d",
-      "name": "D. Alaska",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Alaska"
-    },
-    {
-      "path": "us/c9/az.d",
-      "name": "D. Arizona",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Ariz."
-    },
-    {
-      "path": "us/c9/ca.cd",
-      "name": "C.D. California",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "C.D. Cal."
-    },
-    {
-      "path": "us/c9/ca.d",
-      "name": "D. California",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Cal."
-    },
-    {
-      "path": "us/c9/ca.ed",
-      "name": "E.D. California",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Cal."
-    },
-    {
-      "path": "us/c9/ca.nd",
-      "name": "N.D. California",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "N.D. Cal."
-    },
-    {
-      "path": "us/c9/ca.sd",
-      "name": "S.D. California",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "S.D. Cal."
-    },
-    {
-      "path": "us/c9/gu.d",
-      "name": "D. Guam",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Guam"
-    },
-    {
-      "path": "us/c9/hi.d",
-      "name": "D. Hawaii",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Haw."
-    },
-    {
-      "path": "us/c9/id.d",
-      "name": "D. Idaho",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Idaho"
-    },
-    {
-      "path": "us/c9/mp.d",
-      "name": "D. Northern Mariana Islands",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D.N. Mar. Is."
-    },
-    {
-      "path": "us/c9/mt.d",
-      "name": "D. Montana",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Mont."
-    },
-    {
-      "path": "us/c9/nv.d",
-      "name": "D. Nevada",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Nev."
-    },
-    {
-      "path": "us/c9/or.d",
-      "name": "D. Oregon",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "D. Or."
-    },
-    {
-      "path": "us/c9/wa.d",
-      "name": "D. Washington",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "D. Wash."
-    },
-    {
-      "path": "us/c9/wa.ed",
-      "name": "E.D. Washington",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "E.D. Wash."
-    },
-    {
-      "path": "us/c9/wa.wd",
-      "name": "W.D. Washington",
-      "courts": [
-        "bankruptcy.court",
-        "-district.court"
-      ],
-      "abbrev": "W.D. Wash."
-    },
-    {
-      "path": "us/ca",
-      "name": "California",
-      "courts": [
-        "appellate.division.superior.court",
-        "attorney.general",
-        "court.appeal",
-        "-supreme.court"
-      ],
-      "abbrev": "Cal."
-    },
-    {
-      "path": "us/ca.d",
-      "name": "California Federal",
-      "courts": [
-        "circuit.court"
-      ],
-      "abbrev": "D. Cal."
-    },
-    {
-      "path": "us/co",
-      "name": "Colorado",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "industrial.claim.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Colo."
-    },
-    {
-      "path": "us/ct",
-      "name": "Connecticut",
-      "courts": [
-        "appellate.court",
-        "compensation.review.board",
-        "superior.court",
-        "-supreme.court"
-      ],
-      "abbrev": "Conn."
-    },
-    {
-      "path": "us/dc",
-      "name": "District of Columbia",
-      "courts": [
-        "court.appeals"
-      ],
-      "abbrev": "D.C."
-    },
-    {
-      "path": "us/de",
-      "name": "Delaware",
-      "courts": [
-        "court.chancery",
-        "court.common.pleas",
-        "court.judiciary",
-        "family.court",
-        "superior.court",
-        "-supreme.court"
-      ],
-      "abbrev": "Del."
-    },
-    {
-      "path": "us/de.d",
-      "name": "Delaware Federal",
-      "courts": [
-        "circuit.court"
-      ],
-      "abbrev": "D. Del."
-    },
-    {
-      "path": "us/fed",
-      "name": "Federal",
-      "courts": [
-        "air.force.court.criminal.appeals",
-        "armed.services.board.contract.appeals",
-        "army.court.criminal.appeals",
-        "+attorney.general",
-        "commerce.court",
-        "court.appeals.armed.forces",
-        "court.military.commission.review",
-        "courts.martial",
-        "emergency.court.appeals",
-        "foreign.intelligence.surveillance.court",
-        "foreign.intelligence.surveillance.court.review",
-        "judicial.conference.committee",
-        "judicial.panel.multidistrict.litigation",
-        "navy.marine.corps.court.criminal.appeals",
-        "special.court.regional.rail.reorganization.act",
-        "tax.court",
-        "temporary.emergency.court.appeals"
-      ]
-    },
-    {
-      "path": "us/fl",
-      "name": "Florida",
-      "courts": [
-        "attorney.general",
-        "district.court.appeal",
-        "-supreme.court"
-      ],
-      "abbrev": "Fla."
-    },
-    {
-      "path": "us/ga",
-      "name": "Georgia",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Ga."
-    },
-    {
-      "path": "us/gu",
-      "name": "Guam",
-      "courts": [
-        "small.claims.court",
-        "superior.court",
-        "-supreme.court"
-      ],
-      "abbrev": "Guam"
-    },
-    {
-      "path": "us/hi",
-      "name": "Hawaii",
-      "courts": [
-        "intermediate.court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Haw."
-    },
-    {
-      "path": "us/ia",
-      "name": "Iowa",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Iowa"
-    },
-    {
-      "path": "us/id",
-      "name": "Idaho",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Idaho"
-    },
-    {
-      "path": "us/il",
-      "name": "Illinois",
-      "courts": [
-        "appellate.court",
-        "-supreme.court"
-      ],
-      "abbrev": "Ill."
-    },
-    {
-      "path": "us/in",
-      "name": "Indiana",
-      "courts": [
-        "court.appeals",
-        "-supreme.court",
-        "tax.court"
-      ],
-      "abbrev": "Ind."
-    },
-    {
-      "path": "us/ks",
-      "name": "Kansas",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Kan."
-    },
-    {
-      "path": "us/ky",
-      "name": "Kentucky",
-      "courts": [
-        "court.appeals",
-        "court.appeals.high",
-        "-supreme.court"
-      ],
-      "abbrev": "Ky."
-    },
-    {
-      "path": "us/la",
-      "name": "Louisiana",
-      "courts": [
-        "attorney.general",
-        "court.appeal",
-        "-supreme.court"
-      ],
-      "abbrev": "La."
-    },
-    {
-      "path": "us/ma",
-      "name": "Massachusetts",
-      "courts": [
-        "appeals.court",
-        "bankruptcy.appellate.panel",
-        "department.industrial.accidents",
-        "district.court",
-        "superior.court",
-        "-supreme.judicial.court"
-      ],
-      "abbrev": "Mass."
-    },
-    {
-      "path": "us/md",
-      "name": "Maryland",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "court.special.appeals"
-      ],
-      "abbrev": "Md."
-    },
-    {
-      "path": "us/me",
-      "name": "Maine",
-      "courts": [
-        "supreme.judicial.court"
-      ],
-      "abbrev": "Me."
-    },
-    {
-      "path": "us/mi",
-      "name": "Michigan",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Mich."
-    },
-    {
-      "path": "us/mn",
-      "name": "Minnesota",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Minn."
-    },
-    {
-      "path": "us/mo",
-      "name": "Missouri",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Mo."
-    },
-    {
-      "path": "us/mp",
-		"name": "Northern Mariana Islands",
-		"abbrev": "N. Mar. I.",
-      "courts": []
-    },
-    {
-      "path": "us/ms",
-      "name": "Mississippi",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "N. Mar. Is."
-    },
-    {
-      "path": "us/mt",
-      "name": "Montana",
-      "courts": [
-        "attorney.general",
-        "-supreme.court",
-        "tax.appeal.board"
-      ],
-      "abbrev": "Mont."
-    },
-    {
-      "path": "us/navajo",
-      "name": "Navajo Nation",
-      "courts": [
-        "-supreme.court"
-      ],
-      "abbrev": "Navajo"
-    },
-    {
-      "path": "us/nc",
-      "name": "North Carolina",
-      "courts": [
-        "court.appeals",
-        "industrial.commission",
-        "superior.court",
-        "-supreme.court"
-      ],
-      "abbrev": "N.C."
-    },
-    {
-      "path": "us/nc.d",
-      "name": "North Carolina Federal",
-      "courts": [
-        "circuit.court"
-      ],
-      "abbrev": "D.N.C."
-    },
-    {
-      "path": "us/nd",
-      "name": "North Dakota",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "N.D."
-    },
-    {
-      "path": "us/ne",
-      "name": "Nebraska",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Neb."
-    },
-    {
-      "path": "us/nh",
-      "name": "New Hampshire",
-      "courts": [
-        "-supreme.court"
-      ],
-      "abbrev": "N.H."
-    },
-    {
-      "path": "us/nj",
-      "name": "New Jersey",
-      "courts": [
-        "court.chancery",
-        "superior.court",
-        "-supreme.court",
-        "tax.court"
-      ],
-      "abbrev": "N.J."
-    },
-    {
-      "path": "us/nm",
-      "name": "New Mexico",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "N.M."
-    },
-    {
-      "path": "us/nv",
-      "name": "Nevada",
-      "courts": [
-        "-supreme.court"
-      ],
-      "abbrev": "Nev."
-    },
-    {
-      "path": "us/ny",
-      "name": "New York",
-      "courts": [
-        "appellate.division.supreme.court",
-        "appellate.term.supreme.court",
-        "attorney.general",
-        "court.appeals",
-        "family.court",
-        "supreme.court",
-        "surrogates.court"
-      ],
-      "abbrev": "N.Y."
-    },
-    {
-      "path": "us/ny/nyc",
-      "name": "New York City",
-      "courts": [
-        "civil.court",
-        "criminal.court"
-      ],
-      "abbrev": "N.Y.C."
-    },
-    {
-      "path": "us/oh",
-      "name": "Ohio",
-      "courts": [
-        "court.appeals",
-        "court.claims",
-        "-supreme.court"
-      ],
-      "abbrev": "Ohio"
-    },
-    {
-      "path": "us/ok",
-      "name": "Oklahoma",
-      "courts": [
-        "attorney.general.reports",
-        "court.civil.appeals",
-        "court.criminal.appeals",
-        "court.judiciary",
-        "judicial.ethics.advisory.panel",
-        "-supreme.court"
-      ],
-      "abbrev": "Okla."
-    },
-    {
-      "path": "us/or",
-      "name": "Oregon",
-      "courts": [
-        "court.appeals",
-        "-supreme.court",
-        "tax.court"
-      ],
-      "abbrev": "Or."
-    },
-    {
-      "path": "us/orleans.d",
-      "name": "Orleans Federal",
-      "courts": [
-        "-district.court"
-      ],
-      "abbrev": "Orleans"
-    },
-    {
-      "path": "us/pa",
-      "name": "Pennsylvania",
-      "courts": [
-        "commonwealth.court",
-        "court.judicial.discipline",
-        "special.tribunal",
-        "superior.court",
-        "-supreme.court"
-      ],
-      "abbrev": "Pa."
-    },
-    {
-      "path": "us/pr",
-		"name": "Puerto Rico",
-		"abbrev": "P.R.",
-      "courts": []
-    },
-    {
-      "path": "us/ri",
-      "name": "Rhode Island",
-      "courts": [
-        "superior.court",
-        "-supreme.court"
-      ],
-      "abbrev": "R.I."
-    },
-    {
-      "path": "us/sc",
-      "name": "South Carolina",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "S.C."
-    },
-    {
-      "path": "us/sd",
-      "name": "South Dakota",
-      "courts": [
-        "-supreme.court"
-      ],
-      "abbrev": "S.D."
-    },
-    {
-      "path": "us/tn",
-      "name": "Tennessee",
-      "courts": [
-        "court.appeals",
-        "court.criminal.appeals",
-        "superior.court.law.equity",
-        "-supreme.court"
-      ],
-      "abbrev": "Tenn."
-    },
-    {
-      "path": "us/tn.d",
-      "name": "Tennessee Federal",
-      "courts": [
-        "circuit.court"
-      ],
-      "abbrev": "D. Tenn."
-    },
-    {
-      "path": "us/tx",
-      "name": "Texas",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "court.criminal.appeals",
-        "judicial.panel.multidistrict.litigation",
-        "special.court.review",
-        "-supreme.court"
-      ],
-      "abbrev": "Tex."
-    },
-    {
-      "path": "us/tx.d",
-      "name": "Texas Federal",
-      "courts": [
-        "special.tribunal"
-      ],
-      "abbrev": "D. Tex."
-    },
-    {
-      "path": "us/ut",
-      "name": "Utah",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Utah"
-    },
-    {
-      "path": "us/va",
-      "name": "Virginia",
-      "courts": [
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Va."
-    },
-    {
-      "path": "us/vi",
-		"name": "U.S. Virgin Islands",
-		"abbrev": "V.I.",
-      "courts": []
-    },
-    {
-      "path": "us/vt",
-      "name": "Vermont",
-      "courts": [
-        "-supreme.court"
-      ],
-      "abbrev": "Vt."
-    },
-    {
-      "path": "us/wa",
-      "name": "Washington",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Wash."
-    },
-    {
-      "path": "us/wi",
-      "name": "Wisconsin",
-      "courts": [
-        "attorney.general",
-        "court.appeals",
-        "-supreme.court"
-      ],
-      "abbrev": "Wis."
-    },
-    {
-      "path": "us/wv",
-      "name": "West Virginia",
-      "courts": [
-        "-supreme.court"
-      ],
-      "abbrev": "W. Va."
-    },
-    {
-      "path": "us/wy",
-      "name": "Wyoming",
-      "courts": [
-        "-supreme.court"
-      ],
-      "abbrev": "Wyo."
-    }
-  ]
+	"courts": {
+		"cftc": {
+			"name": "Commodity Futures Trading Commission",
+			"abbrev": "CFTC"
+		},
+		"cfpb": {
+			"name": "Consumer Financial Protection Bureau",
+			"abbrev": "CFPB"
+		},
+		"court.appeals": {
+			"name": "Court of Appeals",
+			"abbrev": "< Ct. App."
+		},
+		"supreme.court": {
+			"name": "Supreme Court",
+			"abbrev": "< Sup. Ct.",
+			"ABBREV": "<"
+		},
+		"court.civil.appeals": {
+			"name": "Court of Civil Appeals",
+			"abbrev": "< Civ. App."
+		},
+		"court.criminal.appeals": {
+			"name": "Court of Criminal Appeals",
+			"abbrev": "< Crim. App."
+		},
+		"attorney.general": {
+			"name": "Attorney General",
+			"abbrev": "< Att'y Gen."
+		},
+		"workers.compensation.commission": {
+			"name": "Workers Compensation Commission",
+			"abbrev": "Workers' Comp. Comm'n"
+		},
+		"high.court": {
+			"name": "High Court of American Samoa",
+			"abbrev": ""
+		},
+		"tax.court": {
+			"name": "Tax Court",
+			"abbrev": "T.C."
+		},
+		"bankruptcy.court": {
+			"name": "Bankruptcy Appellate Panel",
+			"abbrev": "Bankr. >"
+		},
+		"district.court": {
+			"name": "District Court",
+			"abbrev": "< Dist. Ct."
+		},
+		"bankruptcy.appellate.panel": {
+			"name": "Bankruptcy Appellate Panel",
+			"abbrev": "B.A.P. >"
+		},
+		"board.veterans.appeals": {
+			"name": "Board of Veterans' Appeals",
+			"abbrev": "Vet. App."
+		},
+		"court.appeals.federal.circuit": {
+			"name": "Court of Appeals for the Federal Circuit",
+			"abbrev": "Fed. Cir."
+		},
+		"court.appeals.veterans.claims": {
+			"name": "Court of Appeals for Veterans Claims",
+			"abbrev": "Vet. App."
+		},
+		"court.claims": {
+			"name": "Court of Claims",
+			"abbrev": "Ct. Cl."
+		},
+		"court.customs.appeals": {
+			"name": "United States Court of Customs Appeals",
+			"abbrev": "Ct. Cust. App."
+		},
+		"court.customs.patent.appeals": {
+			"name": "Court of Customs and Patent Appeals",
+			"abbrev": "C.C.P.A."
+		},
+		"court.federal.claims": {
+			"name": "Court of Federal Claims",
+			"abbrev": "Fed. Cl."
+		},
+		"court.international.trade": {
+			"name": "Court of International Trade",
+			"abbrev": "Ct. Int'l Trade"
+		},
+		"customs.court": {
+			"name": "Customs Court",
+			"abbrev": "Cust. Ct."
+		},
+		"merit.systems.protection.board": {
+			"name": "Merit Systems Protection Board",
+			"abbrev": "M.S.P.B."
+		},
+		"circuit.court": {
+			"name": "Circuit Court",
+			"abbrev": "Cal. Cir. Ct."
+		},
+		"appellate.division.superior.court": {
+			"name": "Appellate Division of the Superior Court",
+			"abbrev": "< App. Dep’t Super. Ct."
+		},
+		"court.appeal": {
+			"name": "Court of Appeal",
+			"abbrev": "< Ct. App."
+		},
+		"industrial.claim.appeals": {
+			"name": "Industrial Claim Appeals Office",
+			"abbrev": "< Indust. Cl. App."
+		},
+		"appellate.court": {
+			"name": "Appellate Court",
+			"abbrev": "< App. Ct.",
+			"ABBREV": "<"
+		},
+		"compensation.review.board": {
+			"name": "Compensation Review Board",
+			"abbrev": "< Comp. Rev. Bd."
+		},
+		"superior.court": {
+			"name": "Superior Court",
+			"abbrev": "< Super. Ct."
+		},
+		"court.chancery": {
+			"name": "Court of Chancery",
+			"abbrev": "< Ch."
+		},
+		"court.common.pleas": {
+			"name": "Court of Common Pleas",
+			"abbrev": "< Ct. Com. Pl."
+		},
+		"court.judiciary": {
+			"name": "Court on the Judiciary",
+			"abbrev": "< Ct. Jud."
+		},
+		"family.court": {
+			"name": "Family Court",
+			"abbrev": "< Fam. Ct."
+		},
+		"air.force.court.criminal.appeals": {
+			"name": "Air Force Court of Criminal Appeals",
+			"abbrev": "A.F. Ct. Crim. App."
+		},
+		"armed.services.board.contract.appeals": {
+			"name": "Armed Services Board of Contract Appeals",
+			"abbrev": "A.S.B.C.A."
+		},
+		"army.court.criminal.appeals": {
+			"name": "Army Court of Criminal Appeals",
+			"abbrev": "Army Ct. Crim. App."
+		},
+		"commerce.court": {
+			"name": "Commerce Court",
+			"abbrev": "Comm. Ct."
+		},
+		"court.appeals.armed.forces": {
+			"name": "Court of Appeals for the Armed Forces",
+			"abbrev": "C.A.A.F."
+		},
+		"court.military.commission.review": {
+			"name": "Court of Military Commission Review",
+			"abbrev": "Ct. Mi. Comm'n Rev."
+		},
+		"courts.martial": {
+			"name": "United States Courts Martial",
+			"abbrev": "Ct. Martial"
+		},
+		"emergency.court.appeals": {
+			"name": "Emergency Court of Appeals",
+			"abbrev": "Emer. Ct. App."
+		},
+		"foreign.intelligence.surveillance.court": {
+			"name": "Foreign Intelligence Surveillance Court",
+			"abbrev": "F.I.S.C."
+		},
+		"foreign.intelligence.surveillance.court.review": {
+			"name": "Foreign Intelligence Surveillance Court of Review",
+			"abbrev": "F.I.S.C. Rev."
+		},
+		"judicial.conference.committee": {
+			"name": "Judicial Conference Committee",
+			"abbrev": "Jud. Conf. Comm."
+		},
+		"judicial.panel.multidistrict.litigation": {
+			"name": "Judicial Panel on Multidistrict Litigation",
+			"abbrev": "J.P.M.L."
+		},
+		"navy.marine.corps.court.criminal.appeals": {
+			"name": "Navy-Marine Corps Court of Criminal Appeals",
+			"abbrev": "N.-M. Ct. Crim. App."
+		},
+		"special.court.regional.rail.reorganization.act": {
+			"name": "Special Court under the Regional Rail Reorganization Act",
+			"abbrev": "Reg’l Rail Reorg. Ct."
+		},
+		"temporary.emergency.court.appeals": {
+			"name": "Temporary Emergency Court of Appeals",
+			"abbrev": "Temp. Emer. Ct. App."
+		},
+		"district.court.appeal": {
+			"name": "District Court of Appeal",
+			"abbrev": "< Dist. Ct. App."
+		},
+		"small.claims.court": {
+			"name": "Small Claims Court",
+			"abbrev": "< Small Cl. Ct."
+		},
+		"intermediate.court.appeals": {
+			"name": "Intermediate Court of Appeals",
+			"abbrev": "< Ct. App."
+		},
+		"court.appeals.high": {
+			"name": "Court of Appeals of Kentucky",
+			"abbrev": "< Ct. App."
+		},
+		"appeals.court": {
+			"name": "Appeals Court",
+			"abbrev": "< App. Ct."
+		},
+		"department.industrial.accidents": {
+			"name": "Department of Industrial Accidents",
+			"abbrev": "< Dept. Indus. Accid."
+		},
+		"supreme.judicial.court": {
+			"name": "Supreme Judicial Court",
+			"abbrev": ""
+		},
+		"court.special.appeals": {
+			"name": "Court of Special Appeals",
+			"abbrev": "< Ct. Spec. App."
+		},
+		"tax.appeal.board": {
+			"name": "Tax Appeal Board",
+			"abbrev": "< Tax App. Bd."
+		},
+		"industrial.commission": {
+			"name": "Industrial Commission",
+			"abbrev": "< Ind. Comm."
+		},
+		"civil.court": {
+			"name": "Civil Court",
+			"abbrev": "< Civ. Ct."
+		},
+		"criminal.court": {
+			"name": "Criminal Court",
+			"abbrev": "< Crim. Ct."
+		},
+		"appellate.division.supreme.court": {
+			"name": "Appellate Division of the Supreme Court",
+			"abbrev": "< App. Div."
+		},
+		"appellate.term.supreme.court": {
+			"name": "Appellate Terms of the Supreme Court",
+			"abbrev": "< App. Term."
+		},
+		"surrogates.court": {
+			"name": "Surrogate's Court",
+			"abbrev": "< Sur. Ct."
+		},
+		"attorney.general.reports": {
+			"name": "Attorney General Reports",
+			"abbrev": "< Att'y Gen."
+		},
+		"judicial.ethics.advisory.panel": {
+			"name": "Judicial Ethics Advisory Panel",
+			"abbrev": "< Jud. Ethics Adv. Panel"
+		},
+		"commonwealth.court": {
+			"name": "Commonwealth Court",
+			"abbrev": "< Commw. Ct."
+		},
+		"court.judicial.discipline": {
+			"name": "Court of Judicial Discipline",
+			"abbrev": "< Ct. Jud. Disc."
+		},
+		"special.tribunal": {
+			"name": "Special Tribunal",
+			"abbrev": "Spec. Trib."
+		},
+		"superior.court.law.equity": {
+			"name": "Superior Court for Law and Equity",
+			"abbrev": "< Super. Ct. L. & Eq."
+		},
+		"special.court.review": {
+			"name": "Special Court of Review",
+			"abbrev": "< Spec. Ct. Rev."
+		}
+	},
+	"jurisdictions": [
+		{
+			"path": "us",
+			"name": "United States",
+			"courts": [
+				"-supreme.court",
+				"cftc",
+				"cfpb"
+			],
+			"abbrev": "U.S."
+		},
+		{
+			"path": "us/ak",
+			"name": "Alaska",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Alaska"
+		},
+		{
+			"path": "us/al",
+			"name": "Alabama",
+			"courts": [
+				"court.appeals",
+				"court.civil.appeals",
+				"court.criminal.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Ala."
+		},
+		{
+			"path": "us/ar",
+			"name": "Arkansas",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"-supreme.court",
+				"workers.compensation.commission"
+			],
+			"abbrev": "Ark."
+		},
+		{
+			"path": "us/as",
+			"name": "American Samoa",
+			"courts": [
+				"high.court"
+			],
+			"abbrev": "Am. Samoa"
+		},
+		{
+			"path": "us/az",
+			"name": "Arizona",
+			"courts": [
+				"court.appeals",
+				"-supreme.court",
+				"tax.court"
+			],
+			"abbrev": "Ariz."
+		},
+		{
+			"path": "us/c",
+			"name": "Federal Circuit",
+			"courts": [
+				"board.veterans.appeals",
+				"-court.appeals.federal.circuit",
+				"court.appeals.veterans.claims",
+				"court.claims",
+				"court.customs.appeals",
+				"court.customs.patent.appeals",
+				"court.federal.claims",
+				"court.international.trade",
+				"customs.court",
+				"merit.systems.protection.board"
+			],
+			"abbrev": "Fed. Cir."
+		},
+		{
+			"path": "us/c0",
+			"name": "D.C. Circuit",
+			"courts": [
+				"-court.appeals"
+			],
+			"abbrev": "D.C. Cir."
+		},
+		{
+			"path": "us/c0/dc.d",
+			"name": "D. District of Columbia",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.D.C."
+		},
+		{
+			"path": "us/c1",
+			"name": "First Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "1st Cir."
+		},
+		{
+			"path": "us/c10",
+			"name": "Tenth Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "10th Cir."
+		},
+		{
+			"path": "us/c10/co.d",
+			"name": "D. Colorado",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Colo."
+		},
+		{
+			"path": "us/c10/ks.d",
+			"name": "D. Kansas",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Kan."
+		},
+		{
+			"path": "us/c10/nm.d",
+			"name": "D. New Mexico",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.N.M."
+		},
+		{
+			"path": "us/c10/ok.ed",
+			"name": "E.D. Oklahoma",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Okla."
+		},
+		{
+			"path": "us/c10/ok.nd",
+			"name": "N.D. Oklahoma",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Okla."
+		},
+		{
+			"path": "us/c10/ok.wd",
+			"name": "W.D. Oklahoma",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Okla."
+		},
+		{
+			"path": "us/c10/ut.d",
+			"name": "D. Utah",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Utah"
+		},
+		{
+			"path": "us/c10/wy.d",
+			"name": "D. Wyoming",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Wyo."
+		},
+		{
+			"path": "us/c11",
+			"name": "Eleventh Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "11th Cir."
+		},
+		{
+			"path": "us/c11/al.d",
+			"name": "D. Alabama",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Ala."
+		},
+		{
+			"path": "us/c11/al.md",
+			"name": "M.D. Alabama",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "M.D. Ala."
+		},
+		{
+			"path": "us/c11/al.nd",
+			"name": "N.D. Alabama",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Ala."
+		},
+		{
+			"path": "us/c11/al.sd",
+			"name": "S.D. Alabama",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Ala."
+		},
+		{
+			"path": "us/c11/fl.d",
+			"name": "D. Florida",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Fla."
+		},
+		{
+			"path": "us/c11/fl.md",
+			"name": "M.D. Florida",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "M.D. Fla."
+		},
+		{
+			"path": "us/c11/fl.nd",
+			"name": "N.D. Florida",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Fla."
+		},
+		{
+			"path": "us/c11/fl.sd",
+			"name": "S.D. Florida",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Fla."
+		},
+		{
+			"path": "us/c11/ga.d",
+			"name": "D. Georgia",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Ga."
+		},
+		{
+			"path": "us/c11/ga.md",
+			"name": "M.D. Georgia",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "M.D. Ga."
+		},
+		{
+			"path": "us/c11/ga.nd",
+			"name": "N.D. Georgia",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Ga."
+		},
+		{
+			"path": "us/c11/ga.sd",
+			"name": "S.D. Georgia",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Ga."
+		},
+		{
+			"path": "us/c1/ma.d",
+			"name": "D. Massachusetts",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Mass."
+		},
+		{
+			"path": "us/c1/me.d",
+			"name": "D. Maine",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Me."
+		},
+		{
+			"path": "us/c1/nh.d",
+			"name": "D. New Hampshire",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.N.H."
+		},
+		{
+			"path": "us/c1/pr.d",
+			"name": "D. Puerto Rico",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.P.R."
+		},
+		{
+			"path": "us/c1/ri.d",
+			"name": "D. Rhode Island",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.R.I."
+		},
+		{
+			"path": "us/c2",
+			"name": "Second Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "2d Cir."
+		},
+		{
+			"path": "us/c2/ct.d",
+			"name": "D. Connecticut",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Conn."
+		},
+		{
+			"path": "us/c2/ny.d",
+			"name": "D. New York",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D.N.Y."
+		},
+		{
+			"path": "us/c2/ny.ed",
+			"name": "E.D. New York",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D.N.Y."
+		},
+		{
+			"path": "us/c2/ny.nd",
+			"name": "N.D. New York",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D.N.Y."
+		},
+		{
+			"path": "us/c2/ny.sd",
+			"name": "S.D. New York",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D.N.Y."
+		},
+		{
+			"path": "us/c2/ny.wd",
+			"name": "W.D. New York",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D.N.Y."
+		},
+		{
+			"path": "us/c2/vt.d",
+			"name": "D. Vermont",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Vt."
+		},
+		{
+			"path": "us/c3",
+			"name": "Third Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "3d Cir."
+		},
+		{
+			"path": "us/c3/de.d",
+			"name": "D. Delaware",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Del."
+		},
+		{
+			"path": "us/c3/nj.d",
+			"name": "D. New Jersey",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.N.J."
+		},
+		{
+			"path": "us/c3/pa.d",
+			"name": "D. Pennsylvania",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Pa."
+		},
+		{
+			"path": "us/c3/pa.ed",
+			"name": "E.D. Pennsylvania",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Pa."
+		},
+		{
+			"path": "us/c3/pa.md",
+			"name": "M.D. Pennsylvania",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "M.D. Pa."
+		},
+		{
+			"path": "us/c3/pa.wd",
+			"name": "W.D. Pennsylvania",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Pa."
+		},
+		{
+			"path": "us/c3/vi.d",
+			"name": "D. U.S. Virgin Islands",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.V.I."
+		},
+		{
+			"path": "us/c4",
+			"name": "Fourth Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "4th Cir."
+		},
+		{
+			"path": "us/c4/md.d",
+			"name": "D. Maryland",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Md."
+		},
+		{
+			"path": "us/c4/nc.d",
+			"name": "D. North Carolina",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D.N.C."
+		},
+		{
+			"path": "us/c4/nc.ed",
+			"name": "E.D. North Carolina",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D.N.C."
+		},
+		{
+			"path": "us/c4/nc.md",
+			"name": "M.D. North Carolina",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "M.D.N.C."
+		},
+		{
+			"path": "us/c4/nc.wd",
+			"name": "W.D. North Carolina",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D.N.C."
+		},
+		{
+			"path": "us/c4/sc.d",
+			"name": "D. South Carolina",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.S.C."
+		},
+		{
+			"path": "us/c4/sc.ed",
+			"name": "E.D. South Carolina",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "E.D.S.C."
+		},
+		{
+			"path": "us/c4/sc.wd",
+			"name": "W.D. South Carolina",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "W.D.S.C."
+		},
+		{
+			"path": "us/c4/va.d",
+			"name": "D. Virginia",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Va."
+		},
+		{
+			"path": "us/c4/va.ed",
+			"name": "E.D. Virginia",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Va."
+		},
+		{
+			"path": "us/c4/va.wd",
+			"name": "W.D. Virginia",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Va."
+		},
+		{
+			"path": "us/c4/wv.d",
+			"name": "D. West Virginia",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D.W. Va."
+		},
+		{
+			"path": "us/c4/wv.nd",
+			"name": "N.D. West Virginia",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D.W. Va."
+		},
+		{
+			"path": "us/c4/wv.sd",
+			"name": "S.D. West Virginia",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D.W. Va."
+		},
+		{
+			"path": "us/c5",
+			"name": "Fifth Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "5th Cir."
+		},
+		{
+			"path": "us/c5/la.d",
+			"name": "D. Louisiana",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. La."
+		},
+		{
+			"path": "us/c5/la.ed",
+			"name": "E.D. Louisiana",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. La."
+		},
+		{
+			"path": "us/c5/la.md",
+			"name": "M.D. Louisiana",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "M.D. La."
+		},
+		{
+			"path": "us/c5/la.wd",
+			"name": "W.D. Louisiana",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. La."
+		},
+		{
+			"path": "us/c5/ms.d",
+			"name": "D. Mississippi",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Miss."
+		},
+		{
+			"path": "us/c5/ms.nd",
+			"name": "N.D. Mississippi",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Miss."
+		},
+		{
+			"path": "us/c5/ms.sd",
+			"name": "S.D. Mississippi",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Miss."
+		},
+		{
+			"path": "us/c5/pz.d",
+			"name": "D. Panama Canal Zone",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D.D.Z."
+		},
+		{
+			"path": "us/c5/tx.d",
+			"name": "D. Texas",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Tex."
+		},
+		{
+			"path": "us/c5/tx.ed",
+			"name": "E.D. Texas",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Tex."
+		},
+		{
+			"path": "us/c5/tx.nd",
+			"name": "N.D. Texas",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Tex."
+		},
+		{
+			"path": "us/c5/tx.sd",
+			"name": "S.D. Texas",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Tex."
+		},
+		{
+			"path": "us/c5/tx.wd",
+			"name": "W.D. Texas",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Tex."
+		},
+		{
+			"path": "us/c6",
+			"name": "Sixth Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "6th Cir."
+		},
+		{
+			"path": "us/c6/ky.d",
+			"name": "D. Kentucky",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Ky."
+		},
+		{
+			"path": "us/c6/ky.ed",
+			"name": "E.D. Kentucky",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Ky."
+		},
+		{
+			"path": "us/c6/ky.wd",
+			"name": "W.D. Kentucky",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Ky."
+		},
+		{
+			"path": "us/c6/mi.d",
+			"name": "D. Michigan",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Mich."
+		},
+		{
+			"path": "us/c6/mi.ed",
+			"name": "E.D. Michigan",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Mich."
+		},
+		{
+			"path": "us/c6/mi.wd",
+			"name": "W.D. Michigan",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Mich."
+		},
+		{
+			"path": "us/c6/oh.d",
+			"name": "D. Ohio",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Ohio"
+		},
+		{
+			"path": "us/c6/oh.nd",
+			"name": "N.D. Ohio",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Ohio"
+		},
+		{
+			"path": "us/c6/oh.sd",
+			"name": "S.D. Ohio",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Ohio"
+		},
+		{
+			"path": "us/c6/tn.d",
+			"name": "D. Tennessee",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Tenn."
+		},
+		{
+			"path": "us/c6/tn.ed",
+			"name": "E.D. Tennessee",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Tenn."
+		},
+		{
+			"path": "us/c6/tn.md",
+			"name": "M.D. Tennessee",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "M.D. Tenn."
+		},
+		{
+			"path": "us/c6/tn.wd",
+			"name": "W.D. Tennessee",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Tenn."
+		},
+		{
+			"path": "us/c7",
+			"name": "Seventh Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "7th Cir."
+		},
+		{
+			"path": "us/c7/il.cd",
+			"name": "C.D. Illinois",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "C.D. Ill."
+		},
+		{
+			"path": "us/c7/il.d",
+			"name": "D. Illinois",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Ill."
+		},
+		{
+			"path": "us/c7/il.ed",
+			"name": "E.D. Illinois",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "E.D. Ill."
+		},
+		{
+			"path": "us/c7/il.nd",
+			"name": "N.D. Illinois",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Ill."
+		},
+		{
+			"path": "us/c7/il.sd",
+			"name": "S.D. Illinois",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Ill."
+		},
+		{
+			"path": "us/c7/in.d",
+			"name": "D. Indiana",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Ind."
+		},
+		{
+			"path": "us/c7/in.nd",
+			"name": "N.D. Indiana",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Ind."
+		},
+		{
+			"path": "us/c7/in.sd",
+			"name": "S.D. Indiana",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Ind."
+		},
+		{
+			"path": "us/c7/wi.d",
+			"name": "D. Wisconsin",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Wis."
+		},
+		{
+			"path": "us/c7/wi.ed",
+			"name": "E.D. Wisconsin",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Wis."
+		},
+		{
+			"path": "us/c7/wi.wd",
+			"name": "W.D. Wisconsin",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Wis."
+		},
+		{
+			"path": "us/c8",
+			"name": "Eighth Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "8th Cir."
+		},
+		{
+			"path": "us/c8/ar.ed",
+			"name": "E.D. Arkansas",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Ark."
+		},
+		{
+			"path": "us/c8/ar.wd",
+			"name": "W.D. Arkansas",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Ark."
+		},
+		{
+			"path": "us/c8/ia.d",
+			"name": "D. Iowa",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Iowa"
+		},
+		{
+			"path": "us/c8/ia.nd",
+			"name": "N.D. Iowa",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Iowa"
+		},
+		{
+			"path": "us/c8/ia.sd",
+			"name": "S.D. Iowa",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Iowa"
+		},
+		{
+			"path": "us/c8/mn.d",
+			"name": "D. Minnesota",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Minn."
+		},
+		{
+			"path": "us/c8/mo.cd",
+			"name": "C.D. Missouri",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "C.D. Mo."
+		},
+		{
+			"path": "us/c8/mo.d",
+			"name": "D. Missouri",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Mo."
+		},
+		{
+			"path": "us/c8/mo.ed",
+			"name": "E.D. Missouri",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Mo."
+		},
+		{
+			"path": "us/c8/mo.sd",
+			"name": "S.D. Missouri",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "S.D. Mo."
+		},
+		{
+			"path": "us/c8/mo.wd",
+			"name": "W.D. Missouri",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Mo."
+		},
+		{
+			"path": "us/c8/nd.d",
+			"name": "D. North Dakota",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.N.D."
+		},
+		{
+			"path": "us/c8/ne.d",
+			"name": "D. Nebraska",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Neb."
+		},
+		{
+			"path": "us/c8/sd.d",
+			"name": "D. South Dakota",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.S.D."
+		},
+		{
+			"path": "us/c9",
+			"name": "Ninth Circuit",
+			"courts": [
+				"bankruptcy.appellate.panel",
+				"-court.appeals"
+			],
+			"abbrev": "9th Cir."
+		},
+		{
+			"path": "us/c9/ak.d",
+			"name": "D. Alaska",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Alaska"
+		},
+		{
+			"path": "us/c9/az.d",
+			"name": "D. Arizona",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Ariz."
+		},
+		{
+			"path": "us/c9/ca.cd",
+			"name": "C.D. California",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "C.D. Cal."
+		},
+		{
+			"path": "us/c9/ca.d",
+			"name": "D. California",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Cal."
+		},
+		{
+			"path": "us/c9/ca.ed",
+			"name": "E.D. California",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Cal."
+		},
+		{
+			"path": "us/c9/ca.nd",
+			"name": "N.D. California",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "N.D. Cal."
+		},
+		{
+			"path": "us/c9/ca.sd",
+			"name": "S.D. California",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "S.D. Cal."
+		},
+		{
+			"path": "us/c9/gu.d",
+			"name": "D. Guam",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Guam"
+		},
+		{
+			"path": "us/c9/hi.d",
+			"name": "D. Hawaii",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Haw."
+		},
+		{
+			"path": "us/c9/id.d",
+			"name": "D. Idaho",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Idaho"
+		},
+		{
+			"path": "us/c9/mp.d",
+			"name": "D. Northern Mariana Islands",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D.N. Mar. Is."
+		},
+		{
+			"path": "us/c9/mt.d",
+			"name": "D. Montana",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Mont."
+		},
+		{
+			"path": "us/c9/nv.d",
+			"name": "D. Nevada",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Nev."
+		},
+		{
+			"path": "us/c9/or.d",
+			"name": "D. Oregon",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "D. Or."
+		},
+		{
+			"path": "us/c9/wa.d",
+			"name": "D. Washington",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "D. Wash."
+		},
+		{
+			"path": "us/c9/wa.ed",
+			"name": "E.D. Washington",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "E.D. Wash."
+		},
+		{
+			"path": "us/c9/wa.wd",
+			"name": "W.D. Washington",
+			"courts": [
+				"bankruptcy.court",
+				"-district.court"
+			],
+			"abbrev": "W.D. Wash."
+		},
+		{
+			"path": "us/ca",
+			"name": "California",
+			"courts": [
+				"appellate.division.superior.court",
+				"attorney.general",
+				"court.appeal",
+				"-supreme.court"
+			],
+			"abbrev": "Cal."
+		},
+		{
+			"path": "us/ca.d",
+			"name": "California Federal",
+			"courts": [
+				"circuit.court"
+			],
+			"abbrev": "D. Cal."
+		},
+		{
+			"path": "us/co",
+			"name": "Colorado",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"industrial.claim.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Colo."
+		},
+		{
+			"path": "us/ct",
+			"name": "Connecticut",
+			"courts": [
+				"appellate.court",
+				"compensation.review.board",
+				"superior.court",
+				"-supreme.court"
+			],
+			"abbrev": "Conn."
+		},
+		{
+			"path": "us/dc",
+			"name": "District of Columbia",
+			"courts": [
+				"court.appeals"
+			],
+			"abbrev": "D.C."
+		},
+		{
+			"path": "us/de",
+			"name": "Delaware",
+			"courts": [
+				"court.chancery",
+				"court.common.pleas",
+				"court.judiciary",
+				"family.court",
+				"superior.court",
+				"-supreme.court"
+			],
+			"abbrev": "Del."
+		},
+		{
+			"path": "us/de.d",
+			"name": "Delaware Federal",
+			"courts": [
+				"circuit.court"
+			],
+			"abbrev": "D. Del."
+		},
+		{
+			"path": "us/fed",
+			"name": "Federal",
+			"courts": [
+				"air.force.court.criminal.appeals",
+				"armed.services.board.contract.appeals",
+				"army.court.criminal.appeals",
+				"+attorney.general",
+				"commerce.court",
+				"court.appeals.armed.forces",
+				"court.military.commission.review",
+				"courts.martial",
+				"emergency.court.appeals",
+				"foreign.intelligence.surveillance.court",
+				"foreign.intelligence.surveillance.court.review",
+				"judicial.conference.committee",
+				"judicial.panel.multidistrict.litigation",
+				"navy.marine.corps.court.criminal.appeals",
+				"special.court.regional.rail.reorganization.act",
+				"tax.court",
+				"temporary.emergency.court.appeals"
+			]
+		},
+		{
+			"path": "us/fl",
+			"name": "Florida",
+			"courts": [
+				"attorney.general",
+				"district.court.appeal",
+				"-supreme.court"
+			],
+			"abbrev": "Fla."
+		},
+		{
+			"path": "us/ga",
+			"name": "Georgia",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Ga."
+		},
+		{
+			"path": "us/gu",
+			"name": "Guam",
+			"courts": [
+				"small.claims.court",
+				"superior.court",
+				"-supreme.court"
+			],
+			"abbrev": "Guam"
+		},
+		{
+			"path": "us/hi",
+			"name": "Hawaii",
+			"courts": [
+				"intermediate.court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Haw."
+		},
+		{
+			"path": "us/ia",
+			"name": "Iowa",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Iowa"
+		},
+		{
+			"path": "us/id",
+			"name": "Idaho",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Idaho"
+		},
+		{
+			"path": "us/il",
+			"name": "Illinois",
+			"courts": [
+				"-supreme.court"
+			],
+			"abbrev": "Ill.",
+			"ABBREV": "IL"
+		},
+		{
+			"path": "us/il/d1",
+			"name": "First District",
+			"courts": [
+				"appellate.court"
+			],
+			"ABBREV": "IL App (1st)"
+		},
+		{
+			"path": "us/il/d2",
+			"name": "Secon District",
+			"courts": [
+				"appellate.court"
+			],
+			"ABBREV": "IL App (2d)"
+		},
+		{
+			"path": "us/il/d3",
+			"name": "Third District",
+			"courts": [
+				"appellate.court"
+			],
+			"ABBREV": "IL App (3d)"
+		},
+		{
+			"path": "us/il/d4",
+			"name": "Fourth District",
+			"courts": [
+				"appellate.court"
+			],
+			"ABBREV": "IL App (4th)"
+		},
+		{
+			"path": "us/il/d5",
+			"name": "Fifth District",
+			"courts": [
+				"appellate.court"
+			],
+			"ABBREV": "IL App (5th)"
+		},
+		{
+			"path": "us/in",
+			"name": "Indiana",
+			"courts": [
+				"court.appeals",
+				"-supreme.court",
+				"tax.court"
+			],
+			"abbrev": "Ind."
+		},
+		{
+			"path": "us/ks",
+			"name": "Kansas",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Kan."
+		},
+		{
+			"path": "us/ky",
+			"name": "Kentucky",
+			"courts": [
+				"court.appeals",
+				"court.appeals.high",
+				"-supreme.court"
+			],
+			"abbrev": "Ky."
+		},
+		{
+			"path": "us/la",
+			"name": "Louisiana",
+			"courts": [
+				"attorney.general",
+				"court.appeal",
+				"-supreme.court"
+			],
+			"abbrev": "La."
+		},
+		{
+			"path": "us/ma",
+			"name": "Massachusetts",
+			"courts": [
+				"appeals.court",
+				"bankruptcy.appellate.panel",
+				"department.industrial.accidents",
+				"district.court",
+				"superior.court",
+				"-supreme.judicial.court"
+			],
+			"abbrev": "Mass."
+		},
+		{
+			"path": "us/md",
+			"name": "Maryland",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"court.special.appeals"
+			],
+			"abbrev": "Md."
+		},
+		{
+			"path": "us/me",
+			"name": "Maine",
+			"courts": [
+				"supreme.judicial.court"
+			],
+			"abbrev": "Me."
+		},
+		{
+			"path": "us/mi",
+			"name": "Michigan",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Mich."
+		},
+		{
+			"path": "us/mn",
+			"name": "Minnesota",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Minn."
+		},
+		{
+			"path": "us/mo",
+			"name": "Missouri",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Mo."
+		},
+		{
+			"path": "us/mp",
+			"name": "Northern Mariana Islands",
+			"abbrev": "N. Mar. I.",
+			"courts": []
+		},
+		{
+			"path": "us/ms",
+			"name": "Mississippi",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "N. Mar. Is."
+		},
+		{
+			"path": "us/mt",
+			"name": "Montana",
+			"courts": [
+				"attorney.general",
+				"-supreme.court",
+				"tax.appeal.board"
+			],
+			"abbrev": "Mont."
+		},
+		{
+			"path": "us/navajo",
+			"name": "Navajo Nation",
+			"courts": [
+				"-supreme.court"
+			],
+			"abbrev": "Navajo"
+		},
+		{
+			"path": "us/nc",
+			"name": "North Carolina",
+			"courts": [
+				"court.appeals",
+				"industrial.commission",
+				"superior.court",
+				"-supreme.court"
+			],
+			"abbrev": "N.C."
+		},
+		{
+			"path": "us/nc.d",
+			"name": "North Carolina Federal",
+			"courts": [
+				"circuit.court"
+			],
+			"abbrev": "D.N.C."
+		},
+		{
+			"path": "us/nd",
+			"name": "North Dakota",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "N.D."
+		},
+		{
+			"path": "us/ne",
+			"name": "Nebraska",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Neb."
+		},
+		{
+			"path": "us/nh",
+			"name": "New Hampshire",
+			"courts": [
+				"-supreme.court"
+			],
+			"abbrev": "N.H."
+		},
+		{
+			"path": "us/nj",
+			"name": "New Jersey",
+			"courts": [
+				"court.chancery",
+				"superior.court",
+				"-supreme.court",
+				"tax.court"
+			],
+			"abbrev": "N.J."
+		},
+		{
+			"path": "us/nm",
+			"name": "New Mexico",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "N.M."
+		},
+		{
+			"path": "us/nv",
+			"name": "Nevada",
+			"courts": [
+				"-supreme.court"
+			],
+			"abbrev": "Nev."
+		},
+		{
+			"path": "us/ny",
+			"name": "New York",
+			"courts": [
+				"appellate.division.supreme.court",
+				"appellate.term.supreme.court",
+				"attorney.general",
+				"court.appeals",
+				"family.court",
+				"supreme.court",
+				"surrogates.court"
+			],
+			"abbrev": "N.Y."
+		},
+		{
+			"path": "us/ny/nyc",
+			"name": "New York City",
+			"courts": [
+				"civil.court",
+				"criminal.court"
+			],
+			"abbrev": "N.Y.C."
+		},
+		{
+			"path": "us/oh",
+			"name": "Ohio",
+			"courts": [
+				"court.appeals",
+				"court.claims",
+				"-supreme.court"
+			],
+			"abbrev": "Ohio"
+		},
+		{
+			"path": "us/ok",
+			"name": "Oklahoma",
+			"courts": [
+				"attorney.general.reports",
+				"court.civil.appeals",
+				"court.criminal.appeals",
+				"court.judiciary",
+				"judicial.ethics.advisory.panel",
+				"-supreme.court"
+			],
+			"abbrev": "Okla."
+		},
+		{
+			"path": "us/or",
+			"name": "Oregon",
+			"courts": [
+				"court.appeals",
+				"-supreme.court",
+				"tax.court"
+			],
+			"abbrev": "Or."
+		},
+		{
+			"path": "us/orleans.d",
+			"name": "Orleans Federal",
+			"courts": [
+				"-district.court"
+			],
+			"abbrev": "Orleans"
+		},
+		{
+			"path": "us/pa",
+			"name": "Pennsylvania",
+			"courts": [
+				"commonwealth.court",
+				"court.judicial.discipline",
+				"special.tribunal",
+				"superior.court",
+				"-supreme.court"
+			],
+			"abbrev": "Pa."
+		},
+		{
+			"path": "us/pr",
+			"name": "Puerto Rico",
+			"abbrev": "P.R.",
+			"courts": []
+		},
+		{
+			"path": "us/ri",
+			"name": "Rhode Island",
+			"courts": [
+				"superior.court",
+				"-supreme.court"
+			],
+			"abbrev": "R.I."
+		},
+		{
+			"path": "us/sc",
+			"name": "South Carolina",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "S.C."
+		},
+		{
+			"path": "us/sd",
+			"name": "South Dakota",
+			"courts": [
+				"-supreme.court"
+			],
+			"abbrev": "S.D."
+		},
+		{
+			"path": "us/tn",
+			"name": "Tennessee",
+			"courts": [
+				"court.appeals",
+				"court.criminal.appeals",
+				"superior.court.law.equity",
+				"-supreme.court"
+			],
+			"abbrev": "Tenn."
+		},
+		{
+			"path": "us/tn.d",
+			"name": "Tennessee Federal",
+			"courts": [
+				"circuit.court"
+			],
+			"abbrev": "D. Tenn."
+		},
+		{
+			"path": "us/tx",
+			"name": "Texas",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"court.criminal.appeals",
+				"judicial.panel.multidistrict.litigation",
+				"special.court.review",
+				"-supreme.court"
+			],
+			"abbrev": "Tex."
+		},
+		{
+			"path": "us/tx.d",
+			"name": "Texas Federal",
+			"courts": [
+				"special.tribunal"
+			],
+			"abbrev": "D. Tex."
+		},
+		{
+			"path": "us/ut",
+			"name": "Utah",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Utah"
+		},
+		{
+			"path": "us/va",
+			"name": "Virginia",
+			"courts": [
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Va."
+		},
+		{
+			"path": "us/vi",
+			"name": "U.S. Virgin Islands",
+			"abbrev": "V.I.",
+			"courts": []
+		},
+		{
+			"path": "us/vt",
+			"name": "Vermont",
+			"courts": [
+				"-supreme.court"
+			],
+			"abbrev": "Vt."
+		},
+		{
+			"path": "us/wa",
+			"name": "Washington",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Wash."
+		},
+		{
+			"path": "us/wi",
+			"name": "Wisconsin",
+			"courts": [
+				"attorney.general",
+				"court.appeals",
+				"-supreme.court"
+			],
+			"abbrev": "Wis."
+		},
+		{
+			"path": "us/wv",
+			"name": "West Virginia",
+			"courts": [
+				"-supreme.court"
+			],
+			"abbrev": "W. Va."
+		},
+		{
+			"path": "us/wy",
+			"name": "Wyoming",
+			"courts": [
+				"-supreme.court"
+			],
+			"abbrev": "Wyo."
+		}
+	]
 }

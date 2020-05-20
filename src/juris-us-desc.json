@@ -296,7 +296,7 @@
 				"cftc",
 				"cfpb"
 			],
-			"abbrev": "U.S."
+			"abbrev": "!here>>>"
 		},
 		{
 			"path": "us/ak",
@@ -1843,7 +1843,7 @@
 		},
 		{
 			"path": "us/mp",
-			"name": "Northern Mariana Islands",
+			"name": "N. Mar. I.",
 			"abbrev": "N. Mar. I.",
 			"courts": []
 		},

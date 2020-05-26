@@ -5,36 +5,36 @@
       "abbrev:de": "GA"
     },
     "ecj": {
-      "name": "Cour de Justice",
+      "name": "European Court of Justice",
       "abbrev": "ECJ",
       "abbrev:de": "EuGH"
     },
     "ecj~chamber.1": {
-      "name": "Cour de Justice|First Chamber"
+      "name": "< First Chamber"
     },
     "ecj~chamber.2": {
-      "name": "Cour de Justice|Second Chamber"
+      "name": "< Second Chamber"
     },
     "ecj~chamber.3": {
-      "name": "Cour de Justice|Third Chamber"
+      "name": "< Third Chamber"
     },
     "ecj~chamber.4": {
-      "name": "Cour de Justice|Fourth Chamber"
+      "name": "< Fourth Chamber"
     },
     "ecj~chamber.5": {
-      "name": "Cour de Justice|Fifth Chamber"
+      "name": "< Fifth Chamber"
     },
     "ecj~chamber.6": {
-      "name": "Cour de Justice|Sixth Chamber"
+      "name": "< Sixth Chamber"
     },
     "ecj~chamber.7": {
-      "name": "Cour de Justice|Seventh Chamber"
+      "name": "< Seventh Chamber"
     },
     "ecj~chamber.8": {
-      "name": "Cour de Justice|Eighth Chamber"
+      "name": "< Eighth Chamber"
     },
     "ecj~chamber.9": {
-      "name": "Cour de Justice|Ninth Chamber"
+      "name": "< Ninth Chamber"
     },
     "ec": {
       "name": "European Commission",
@@ -60,10 +60,10 @@
     },
     {
       "path": "eu.int/cjeu",
-      "name": "Court of Justice of the European Union",
+      "name": "Court of Justice",
       "courts": [
         "ag",
-        "ecj",
+        "-ecj",
         "ecj~chamber.1",
         "ecj~chamber.2",
         "ecj~chamber.3",

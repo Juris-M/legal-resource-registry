@@ -1567,9 +1567,9 @@
 			"name": "Colorado",
 			"courts": [
 				"attorney.general",
-				"court.appeals",
+				"court.appeals::COA",
 				"industrial.claim.appeals",
-				"-supreme.court"
+				"-supreme.court::CO"
 			],
 			"abbrev": "Colo."
 		},

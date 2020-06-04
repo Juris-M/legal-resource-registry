@@ -109,6 +109,7 @@ async function descriptiveToCompact(opts) {
 		for (var jurisdiction of jurisDesc.jurisdictions) {
 			var jurisdictionIdx = jurisdictionMap[getJurisdictionID(jurisdiction)];
 			for (var courtID of jurisdiction.courts) {
+				courtID = courtID.split("::")[0];
 				if (["-", "+"].indexOf(courtID.slice(0, 1)) > -1) {
 					courtID = courtID.slice(1);
 				}

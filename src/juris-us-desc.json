@@ -1776,8 +1776,47 @@
 			"name": "Louisiana",
 			"courts": [
 				"attorney.general",
-				"court.appeal",
 				"-supreme.court"
+			],
+			"abbrev": "La."
+		},
+		{
+			"path": "us/la/c1",
+			"name": "Louisiana 1st Cir",
+			"courts": [
+				"court.appeal::La. App. 1 Cir."
+			],
+			"abbrev": "La."
+		},
+		{
+			"path": "us/la/c2",
+			"name": "Louisiana 2d Cir",
+			"courts": [
+				"court.appeal::La. App. 2 Cir."
+			],
+			"abbrev": "La."
+		},
+		{
+			"path": "us/la/c3",
+			"name": "Louisiana 3d Cir",
+			"courts": [
+				"court.appeal::La. App. 3 Cir."
+			],
+			"abbrev": "La."
+		},
+		{
+			"path": "us/la/c4",
+			"name": "Louisiana 4th Cir",
+			"courts": [
+				"court.appeal::La. App. 4 Cir."
+			],
+			"abbrev": "La."
+		},
+		{
+			"path": "us/la/c5",
+			"name": "Louisiana 5th Cir",
+			"courts": [
+				"court.appeal::La. App. 5 Cir."
 			],
 			"abbrev": "La."
 		},

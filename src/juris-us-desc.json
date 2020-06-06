@@ -1,5 +1,9 @@
 {
 	"courts": {
+		"court.appeals.indian.territory": {
+			"name": "Court of Appeals for the Indian Territory",
+			"abbrev": "< Ct. App. Ind. Terr."
+		},
 		"cftc": {
 			"name": "Commodity Futures Trading Commission",
 			"abbrev": "CFTC"
@@ -1847,7 +1851,7 @@
 			"path": "us/me",
 			"name": "Maine",
 			"courts": [
-				"supreme.judicial.court"
+				"supreme.judicial.court::ME"
 			],
 			"abbrev": "Me."
 		},
@@ -1900,7 +1904,7 @@
 			"name": "Montana",
 			"courts": [
 				"attorney.general",
-				"-supreme.court",
+				"-supreme.court::MT",
 				"tax.appeal.board"
 			],
 			"abbrev": "Mont."
@@ -1936,8 +1940,8 @@
 			"path": "us/nd",
 			"name": "North Dakota",
 			"courts": [
-				"court.appeals",
-				"-supreme.court"
+				"court.appeals::ND App",
+				"-supreme.court::ND"
 			],
 			"abbrev": "N.D."
 		},
@@ -1974,8 +1978,8 @@
 			"path": "us/nm",
 			"name": "New Mexico",
 			"courts": [
-				"court.appeals",
-				"-supreme.court"
+				"court.appeals::NMCA",
+				"-supreme.court::NMSC"
 			],
 			"abbrev": "N.M."
 		},
@@ -2014,22 +2018,118 @@
 			"path": "us/oh",
 			"name": "Ohio",
 			"courts": [
-				"court.appeals",
-				"court.claims",
-				"-supreme.court"
+				"court.claims::Ohio",
+				"-supreme.court::Ohio"
 			],
 			"abbrev": "Ohio"
+		},
+		{
+			"path": "us/oh/d1",
+			"name": "1st District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "1st Dist."
+		},
+		{
+			"path": "us/oh/d2",
+			"name": "2rd District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "2d Dist."
+		},
+		{
+			"path": "us/oh/d3",
+			"name": "3rd District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "3d Dist."
+		},
+		{
+			"path": "us/oh/d4",
+			"name": "4th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "4th Dist."
+		},
+		{
+			"path": "us/oh/d5",
+			"name": "5th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "5th Dist."
+		},
+		{
+			"path": "us/oh/d6",
+			"name": "6th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "6th Dist."
+		},
+		{
+			"path": "us/oh/d7",
+			"name": "7th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "7th Dist."
+		},
+		{
+			"path": "us/oh/d8",
+			"name": "8th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "8th Dist."
+		},
+		{
+			"path": "us/oh/d9",
+			"name": "9th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "9th Dist."
+		},
+		{
+			"path": "us/oh/d10",
+			"name": "10th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "10th Dist."
+		},
+		{
+			"path": "us/oh/d11",
+			"name": "11th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "11th Dist."
+		},
+		{
+			"path": "us/oh/d12",
+			"name": "12th District",
+			"courts": [
+				"-court.appeals::Ohio"
+			],
+			"abbrev": "12th Dist."
 		},
 		{
 			"path": "us/ok",
 			"name": "Oklahoma",
 			"courts": [
 				"attorney.general.reports",
-				"court.civil.appeals",
-				"court.criminal.appeals",
+				"court.civil.appeals::OK CIV APP",
+				"court.criminal.appeals::OK CR",
 				"court.judiciary",
 				"judicial.ethics.advisory.panel",
-				"-supreme.court"
+				"-supreme.court::OK",
+				"court.appeals.indian.territory::IT"
 			],
 			"abbrev": "Okla."
 		},
@@ -2058,8 +2158,8 @@
 				"commonwealth.court",
 				"court.judicial.discipline",
 				"special.tribunal",
-				"superior.court",
-				"-supreme.court"
+				"-superior.court::PA Super",
+				"supreme.court"
 			],
 			"abbrev": "Pa."
 		},
@@ -2091,7 +2191,7 @@
 			"path": "us/sd",
 			"name": "South Dakota",
 			"courts": [
-				"-supreme.court"
+				"-supreme.court::S.D."
 			],
 			"abbrev": "S.D."
 		},
@@ -2139,8 +2239,8 @@
 			"path": "us/ut",
 			"name": "Utah",
 			"courts": [
-				"court.appeals",
-				"-supreme.court"
+				"court.appeals::UT App",
+				"-supreme.court::UT"
 			],
 			"abbrev": "Utah"
 		},
@@ -2163,7 +2263,7 @@
 			"path": "us/vt",
 			"name": "Vermont",
 			"courts": [
-				"-supreme.court"
+				"-supreme.court::VT"
 			],
 			"abbrev": "Vt."
 		},
@@ -2182,8 +2282,8 @@
 			"name": "Wisconsin",
 			"courts": [
 				"attorney.general",
-				"court.appeals",
-				"-supreme.court"
+				"court.appeals::WI App",
+				"-supreme.court::WI"
 			],
 			"abbrev": "Wis."
 		},
@@ -2199,7 +2299,7 @@
 			"path": "us/wy",
 			"name": "Wyoming",
 			"courts": [
-				"-supreme.court"
+				"-supreme.court::WY"
 			],
 			"abbrev": "Wyo."
 		}

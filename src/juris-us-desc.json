@@ -298,7 +298,7 @@
 				"+cftc",
 				"+cfpb"
 			],
-			"abbrev": "U.S."
+			"abbrev": "!here>>>"
 		},
 		{
 			"path": "us/ak",
@@ -1772,7 +1772,7 @@
 			"name": "Louisiana",
 			"courts": [
 				"attorney.general",
-				"-supreme.court"
+				"-supreme.court::La."
 			],
 			"abbrev": "La."
 		},

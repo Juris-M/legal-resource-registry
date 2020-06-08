@@ -228,6 +228,9 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 					abbrev = courtAbbrev.normal.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
 				}
 			}
+			if (id === "us" && courtID.replace(/^[-+]*/, "") === "supreme.court") {
+				abbrev = "!here>>>";
+			}
 			abbrevs.xdata[id]["institution-part"][courtID] = abbrev;
 			if (court.ABBREV) {
 				if (!ABBREV) {

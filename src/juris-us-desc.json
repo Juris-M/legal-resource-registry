@@ -18,8 +18,7 @@
 		},
 		"supreme.court": {
 			"name": "Supreme Court",
-			"abbrev": "< Sup. Ct.",
-			"ABBREV": "<"
+			"abbrev": "< Sup. Ct."
 		},
 		"court.civil.appeals": {
 			"name": "Court of Civil Appeals",
@@ -115,8 +114,7 @@
 		},
 		"appellate.court": {
 			"name": "Appellate Court",
-			"abbrev": "< App. Ct.",
-			"ABBREV": "<"
+			"abbrev": "< App. Ct."
 		},
 		"compensation.review.board": {
 			"name": "Compensation Review Board",
@@ -1665,9 +1663,9 @@
 			"courts": [
 				"small.claims.court",
 				"superior.court",
-				"-supreme.court"
+				"supreme.court::Guam"
 			],
-			"abbrev": "Guam"
+			"abbrev": "< Guam"
 		},
 		{
 			"path": "us/hi",
@@ -1700,50 +1698,44 @@
 			"path": "us/il",
 			"name": "Illinois",
 			"courts": [
-				"-supreme.court"
+				"-supreme.court::IL"
 			],
-			"abbrev": "Ill.",
-			"ABBREV": "IL"
+			"abbrev": "Ill."
 		},
 		{
 			"path": "us/il/d1",
 			"name": "First District",
 			"courts": [
-				"appellate.court"
-			],
-			"ABBREV": "IL App (1st)"
+				"appellate.court::IL App (1st)"
+			]
 		},
 		{
 			"path": "us/il/d2",
-			"name": "Secon District",
+			"name": "Second District",
 			"courts": [
-				"appellate.court"
-			],
-			"ABBREV": "IL App (2d)"
+				"appellate.court::Il App (2d)"
+			]
 		},
 		{
 			"path": "us/il/d3",
 			"name": "Third District",
 			"courts": [
-				"appellate.court"
-			],
-			"ABBREV": "IL App (3d)"
+				"appellate.court::IL App (3d)"
+			]
 		},
 		{
 			"path": "us/il/d4",
 			"name": "Fourth District",
 			"courts": [
-				"appellate.court"
-			],
-			"ABBREV": "IL App (4th)"
+				"appellate.court::IL App (4th)"
+			]
 		},
 		{
 			"path": "us/il/d5",
 			"name": "Fifth District",
 			"courts": [
-				"appellate.court"
-			],
-			"ABBREV": "IL App (5th)"
+				"appellate.court::IL App (5th)"
+			]
 		},
 		{
 			"path": "us/in",

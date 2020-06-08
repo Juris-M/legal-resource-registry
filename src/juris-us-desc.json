@@ -1880,14 +1880,17 @@
 			"path": "us/mp",
 			"name": "N. Mar. I.",
 			"abbrev": "N. Mar. I.",
-			"courts": []
+			"courts": [
+				"supreme.court::MP"
+			],
+			"abbrev": "< N. Mar. I."
 		},
 		{
 			"path": "us/ms",
 			"name": "Mississippi",
 			"courts": [
-				"court.appeals",
-				"-supreme.court"
+				"court.appeals::Miss. App.",
+				"-supreme.court::Miss."
 			],
 			"abbrev": "Miss."
 		},

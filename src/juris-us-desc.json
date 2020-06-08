@@ -295,10 +295,10 @@
 			"name": "United States",
 			"courts": [
 				"-supreme.court",
-				"cftc",
-				"cfpb"
+				"+cftc",
+				"+cfpb"
 			],
-			"abbrev": "!here>>>"
+			"abbrev": "U.S."
 		},
 		{
 			"path": "us/ak",

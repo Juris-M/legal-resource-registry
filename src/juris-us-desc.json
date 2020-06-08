@@ -1,5 +1,9 @@
 {
 	"courts": {
+		"tribunal.supremo": {
+			"name": "Tribunal Supremo",
+			"abbrev": "< Tr. Sup."
+		},
 		"court.appeals.indian.territory": {
 			"name": "Court of Appeals for the Indian Territory",
 			"abbrev": "< Ct. App. Ind. Terr."
@@ -298,7 +302,7 @@
 				"+cftc",
 				"+cfpb"
 			],
-			"abbrev": "!here>>>"
+			"abbrev": "U.S."
 		},
 		{
 			"path": "us/ak",
@@ -2162,7 +2166,9 @@
 			"path": "us/pr",
 			"name": "Puerto Rico",
 			"abbrev": "P.R.",
-			"courts": []
+			"courts": [
+				"tribunal.supremo::TSPR"
+			]
 		},
 		{
 			"path": "us/ri",

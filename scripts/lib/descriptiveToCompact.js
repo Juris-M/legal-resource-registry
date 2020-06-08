@@ -211,10 +211,18 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 				abbrev = jurisdictionAbbrevs.normal;
 			} else {
 				var courtAbbrev = getBestAbbrevs(court, abbrevVariantName);
-				if (courtAbbrev.normal.slice(0, 1) === "<" && !ignoreJurisdiction) {
-					abbrev = jurisdictionAbbrevs.normal + courtAbbrev.normal.slice(1);
-				} else if (courtAbbrev.normal.slice(-1) === ">" && !ignoreJurisdiction) {
-					abbrev = courtAbbrev.normal.slice(0, -1) + jurisdictionAbbrevs.normal;
+				if (!ignoreJurisdiction) {
+					if (jurisdictionAbbrevs.normal.slice(0, 1) === "<") {
+						abbrev = courtAbbrev.normal.replace(/^<\s*/, "").replace(/\s*>$/, "") + jurisdictionAbbrevs.normal.slice(1);
+					} else if (jurisdictionAbbrevs.normal.slice(-1) === ">") {
+						abbrev = jurisdictionAbbrevs.normal.slice(0, -1) + courtAbbrev.normal.replace(/^<\s*/, "").replace(/\s*>$/, "");
+					} else if (courtAbbrev.normal.slice(0, 1) === "<") {
+						abbrev = jurisdictionAbbrevs.normal + courtAbbrev.normal.slice(1);
+					} else if (courtAbbrev.normal.slice(-1) === ">") {
+						abbrev = courtAbbrev.normal.slice(0, -1) + jurisdictionAbbrevs.normal;
+					} else {
+						abbrev = courtAbbrev.normal.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
+					}
 				} else {
 					abbrev = courtAbbrev.normal.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
 				}

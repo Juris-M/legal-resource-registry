@@ -173,7 +173,8 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 	for (var jurisdiction of jurisDesc.jurisdictions) {
 		var id = getJurisdictionID(jurisdiction);
 		var jurisdictionAbbrevs = getBestAbbrevs(jurisdiction, abbrevVariantName);
-		places[id.toUpperCase()] = jurisdictionAbbrevs.normal;
+		places[id.toUpperCase()] = jurisdictionAbbrevs.normal.replace(/^<\s*/, "").replace(/\s*>$/, "");
+
 		// Court abbrevs
 		if (!abbrevs.xdata[id]) {
 			abbrevs.xdata[id] = {

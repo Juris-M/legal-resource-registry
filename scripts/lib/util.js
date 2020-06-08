@@ -105,7 +105,7 @@ function writeAbbrevData(opts, jurisID, abbrevVariantName, abbrevs) {
 			// Move supplementary segments from existing file to new data set
 			for (var jurisdictionKey in diskObj.xdata) {
 				for (var fieldKey in diskObj.xdata[jurisdictionKey]) {
-					if (["institution-part", "institution-entire"].indexOf(fieldKey) > -1) {
+					if (["institution-part", "institution-entire", "place"].indexOf(fieldKey) > -1) {
 						continue;
 					}
 					abbrevs.xdata[jurisdictionKey][fieldKey] = diskObj.xdata[jurisdictionKey][fieldKey];

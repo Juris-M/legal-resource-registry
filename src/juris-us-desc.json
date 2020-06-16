@@ -1847,7 +1847,7 @@
 			"path": "us/me",
 			"name": "Maine",
 			"courts": [
-				"supreme.judicial.court::ME"
+				"-supreme.judicial.court::ME"
 			],
 			"abbrev": "Me."
 		},

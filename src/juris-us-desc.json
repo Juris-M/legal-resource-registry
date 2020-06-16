@@ -2026,97 +2026,97 @@
 			"path": "us/oh/d1",
 			"name": "1st District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "1st Dist."
+			"abbrev": "Ohio Ct. App. 1st Dist."
 		},
 		{
 			"path": "us/oh/d2",
 			"name": "2rd District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "2d Dist."
+			"abbrev": "Ohio Ct. App. 2d Dist."
 		},
 		{
 			"path": "us/oh/d3",
 			"name": "3rd District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "3d Dist."
+			"abbrev": "Ohio Ct. App. 3d Dist."
 		},
 		{
 			"path": "us/oh/d4",
 			"name": "4th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "4th Dist."
+			"abbrev": "Ohio Ct. App. 4th Dist."
 		},
 		{
 			"path": "us/oh/d5",
 			"name": "5th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "5th Dist."
+			"abbrev": "Ohio Ct. App. 5th Dist."
 		},
 		{
 			"path": "us/oh/d6",
 			"name": "6th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "6th Dist."
+			"abbrev": "Ohio Ct. App. 6th Dist."
 		},
 		{
 			"path": "us/oh/d7",
 			"name": "7th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "7th Dist."
+			"abbrev": "Ohio Ct. App. 7th Dist."
 		},
 		{
 			"path": "us/oh/d8",
 			"name": "8th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "8th Dist."
+			"abbrev": "Ohio Ct. App. 8th Dist."
 		},
 		{
 			"path": "us/oh/d9",
 			"name": "9th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "9th Dist."
+			"abbrev": "Ohio Ct. App. 9th Dist."
 		},
 		{
 			"path": "us/oh/d10",
 			"name": "10th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "10th Dist."
+			"abbrev": "Ohio Ct. App. 10th Dist."
 		},
 		{
 			"path": "us/oh/d11",
 			"name": "11th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "11th Dist."
+			"abbrev": "Ohio Ct. App. 11th Dist."
 		},
 		{
 			"path": "us/oh/d12",
 			"name": "12th District",
 			"courts": [
-				"-court.appeals::Ohio"
+				"-court.appeals::!authority:Ohio Ct. App.>>>Ohio"
 			],
-			"abbrev": "12th Dist."
+			"abbrev": "Ohio Ct. App. 12th Dist."
 		},
 		{
 			"path": "us/ok",

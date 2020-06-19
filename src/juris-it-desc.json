@@ -1,5 +1,8 @@
 {
 	"courts": {
+		"ct": {
+			"name": "Commissione Territoriale di >"
+		},
 		"trib": {
 			"name": "Tribunale di >"
 		},
@@ -40,6 +43,7 @@
 			"path": "it/ancona",
 			"name": "Ancona",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -93,6 +97,7 @@
 			"path": "it/bari",
 			"name": "Bari",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -125,6 +130,7 @@
 			"path": "it/bologna",
 			"name": "Bologna",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -199,6 +205,7 @@
 			"path": "it/brescia",
 			"name": "Brescia",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -238,6 +245,7 @@
 			"path": "it/cagliari",
 			"name": "Cagliari",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -286,6 +294,13 @@
 			"name": "Tempio Pausania",
 			"courts": [
 				"trib"
+			]
+		},
+		{
+			"path": "it/caserta",
+			"name": "Caserta",
+			"courts": [
+				"ct"
 			]
 		},
 		{
@@ -356,6 +371,7 @@
 			"path": "it/catania",
 			"name": "Catania",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -452,9 +468,17 @@
 			]
 		},
 		{
+			"path": "it/crotone",
+			"name": "Crotone",
+			"courts": [
+				"ct"
+			]
+		},
+		{
 			"path": "it/firenze",
 			"name": "Firenze",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -523,6 +547,13 @@
 			"name": "Siena",
 			"courts": [
 				"trib"
+			]
+		},
+		{
+			"path": "it/foggia",
+			"name": "Foggia",
+			"courts": [
+				"ct"
 			]
 		},
 		{
@@ -614,6 +645,7 @@
 			"path": "it/lecce",
 			"name": "Lecce",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -679,6 +711,7 @@
 			"path": "it/milano",
 			"name": "Milano",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -733,6 +766,13 @@
 			"name": "Pavia",
 			"courts": [
 				"trib"
+			]
+		},
+		{
+			"path": "it/padova",
+			"name": "Padova",
+			"courts": [
+				"ct"
 			]
 		},
 		{
@@ -813,6 +853,7 @@
 			"path": "it/palermo",
 			"name": "Palermo",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -962,6 +1003,7 @@
 			"path": "it/roma",
 			"name": "Roma",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -1036,6 +1078,7 @@
 			"path": "it/salerno",
 			"name": "Salerno",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -1065,6 +1108,13 @@
 			]
 		},
 		{
+			"path": "it/siracusa",
+			"name": "Siracusa",
+			"courts": [
+				"ct"
+			]
+		},
+		{
 			"path": "it/sassari",
 			"name": "Sassari",
 			"courts": [
@@ -1076,6 +1126,7 @@
 			"path": "it/torino",
 			"name": "Torino",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -1190,6 +1241,7 @@
 			"path": "it/trieste",
 			"name": "Trieste",
 			"courts": [
+				"ct",
 				"cdapp",
 				"tpm",
 				"tds",
@@ -1223,6 +1275,13 @@
 			"name": "Udine",
 			"courts": [
 				"trib"
+			]
+		},
+		{
+			"path": "it/verona",
+			"name": "Verona",
+			"courts": [
+				"ct"
 			]
 		},
 		{

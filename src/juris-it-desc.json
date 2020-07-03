@@ -47,6 +47,126 @@
 				"cc"
 			]
 		},
+		{ "path": "it/abruzzo",
+		  "name": "Abruzzo",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/basilicata",
+		  "name": "Basilicata",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/calabria",
+		  "name": "Calabria",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/campania",
+		  "name": "Campania",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/emilia.romagna",
+		  "name": "Emilia-Romagna",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/friuli.venezia.giulia",
+		  "name": "Friuli-Venezia Giulia",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/lazio",
+		  "name": "Lazio",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/liguria",
+		  "name": "Liguria",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/lombardia",
+		  "name": "Lombardia",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/marche",
+		  "name": "Marche",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/molise",
+		  "name": "Molise",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/piemonte",
+		  "name": "Piemonte",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/puglia",
+		  "name": "Puglia",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/sardegna",
+		  "name": "Sardegna",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/sicilia",
+		  "name": "Sicilia",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/toscana",
+		  "name": "Toscana",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/trention.ato.adige",
+		  "name": "Trentino-Alto Adige",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/umbria",
+		  "name": "Umbria",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/valle.d.aosta",
+		  "name": "Valle d'Aosta",
+		  "courts": [
+			  "tar"
+		  ]
+		},
+		{ "path": "it/veneto",
+		  "name": "Veneto",
+		  "courts": [
+			  "tar"
+		  ]
+		},
 		{
 			"path": "it/ancona",
 			"name": "Ancona",

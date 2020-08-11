@@ -55,99 +55,144 @@
     "vwgh": {
       "name": "Verwaltungsgerichtshof",
       "abbrev": "VwGH"
+    },
+    "asylgh": {
+      "name": "Asylgerichtshof",
+      "abbrev": "AsylGH"
+    },
+    "uvs": {
+      "name": "Unabhängiger Verwaltungssenat",
+      "abbrev": "UVS >"
+    },
+    "ubas": {
+      "name": "Unabhängiger Bundesasylsenat",
+      "abbrev": "UBAS"
+    },
+    "ufs": {
+      "name": "Unabhängiger Finanzsenat",
+      "abbrev": "UFS"
+    },
+    "dsk": {
+      "name": "Datenschutzkommission",
+      "abbrev": "DSK"
+    },
+    "dsb": {
+      "name": "Datenschutzbehörde",
+      "abbrev": "DSB"
+    },
+    "bvga": {
+      "name": "Bundesvergabeamt",
+      "abbrev": "BVA"
+    },
+    "opms": {
+      "name": "Oberster Patent- und Markensenat",
+      "abbrev": "OPMS"
+    },
+    "bwb": {
+      "name": "Bundeswettbewerbsbehörde",
+      "abbrev": "BWB"
     }
+
   },
   "jurisdictions": [
     {
       "path": "at",
       "name": "Austria",
       "courts": [
-        "ogh"
-      ]
-    },
-    {
-      "path": "at/a",
-      "courts": [
+        "asylgh",
+        "bfg",
+        "bvga",
+        "bvwg",
+        "bwb",
+        "dsk",
+        "dsb",
+        "ogh",
+        "opms",
+        "ubas",
+        "ufs",
         "vfgh",
         "vwgh"
       ]
     },
     {
-      "path": "at/a/at",
-      "courts": [
-        "bfg",
-        "bvwg"
-      ]
-    },
-    {
-      "path": "at/a/burgenland",
+      "path": "at/burgenland",
       "name": "Burgenland",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Bgld"
     },
     {
-      "path": "at/a/karnten",
+      "path": "at/karnten",
       "name": "Kärnten",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Ktn"
     },
     {
-      "path": "at/a/niederosterreich",
+      "path": "at/niederosterreich",
       "name": "Niederösterreich",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "NÖ"
     },
     {
-      "path": "at/a/oberosterreich",
+      "path": "at/oberosterreich",
       "name": "Oberösterreich",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "OÖ"
     },
     {
-      "path": "at/a/salzburg",
+      "path": "at/salzburg",
       "name": "Salzburg",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Sbg"
     },
     {
-      "path": "at/a/steiermark",
+      "path": "at/steiermark",
       "name": "Steiermark",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Stmk"
     },
     {
-      "path": "at/a/tirol",
+      "path": "at/tirol",
       "name": "Tirol",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Tir"
     },
     {
-      "path": "at/a/vorarlberg",
+      "path": "at/vorarlberg",
       "name": "Vorarlberg",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Vlbg"
     },
     {
-      "path": "at/a/wien",
+      "path": "at/wien",
       "name": "Wien",
       "courts": [
-        "lvwg"
+        "olg",
+        "vgw",
+        "uvs"
       ],
       "abbrev": "Wien"
     },
@@ -815,15 +860,6 @@
         "bg"
       ],
       "abbrev": "Wels"
-    },
-    {
-      "path": "at/wien",
-      "name": "Wien",
-      "courts": [
-        "olg",
-        "vgw"
-      ],
-      "abbrev": "Wien"
     },
     {
       "path": "at/wien/eisenstadt",

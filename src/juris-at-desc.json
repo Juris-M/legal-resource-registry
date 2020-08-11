@@ -55,7 +55,44 @@
     "vwgh": {
       "name": "Verwaltungsgerichtshof",
       "abbrev": "VwGH"
+    },
+    "asylgh": {
+      "name": "Asylgerichtshof",
+      "abbrev": "AsylGH"
+    },
+    "uvs": {
+      "name": "Unabhängiger Verwaltungssenat",
+      "abbrev": "UVS >"
+    },
+    "ubas": {
+      "name": "Unabhängiger Bundesasylsenat",
+      "abbrev": "UBAS"
+    },
+    "ufs": {
+      "name": "Unabhängiger Finanzsenat",
+      "abbrev": "UFS"
+    },
+    "dsk": {
+      "name": "Datenschutzkommission",
+      "abbrev": "DSK"
+    },
+    "dsb": {
+      "name": "Datenschutzbehörde",
+      "abbrev": "DSB"
+    },
+    "bvga": {
+      "name": "Bundesvergabeamt",
+      "abbrev": "BVA"
+    },
+    "opms": {
+      "name": "Oberster Patent- und Markensenat",
+      "abbrev": "OPMS"
+    },
+    "bwb": {
+      "name": "Bundeswettbewerbsbehörde",
+      "abbrev": "BWB"
     }
+
   },
   "jurisdictions": [
     {

@@ -1,7 +1,8 @@
 {
   "courts": {
     "ca": {
-      "name": "Cour d'appel"
+		"name": "Cour d'appel",
+		"abbrev": "CA >"
     },
     "cass": {
       "name": "Cour de Cassation"
@@ -33,6 +34,9 @@
     "ce": {
       "name": "Conseil d'Etat"
     },
+    "ce~cont": {
+      "name": "Conseil d'Etat|Section Contentieux"
+    },
     "cnda": {
       "name": "Cour National du Droit d'Asile"
     }
@@ -53,6 +57,7 @@
         "cass~soc",
         "cc",
         "ce",
+		"ce~cont",  
         "cnda"
       ]
     },

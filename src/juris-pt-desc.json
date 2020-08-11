@@ -1,10 +1,407 @@
 {
-  "courts": {},
-  "jurisdictions": [
-    {
-      "path": "pt",
-      "name": "Portugal",
-      "courts": []
-    }
-  ]
+	"courts":{
+		"constitucional":{
+			"name":"Tribunal Constitucional"
+		},
+		"contas":{
+			"name":"Tribunal de Contas"
+		},
+		"conflitos":{
+			"name":"Tribunal de Conflitos"
+		},
+		"supremo.tribunal.de.justicia":{
+			"name":"Supremo Tribunal de Justiça",
+			"ABBREV": "STJ"
+		},
+		"relacao":{
+			"name":"Tribunal da Relação >",
+			"ABBREV": "TR>"
+		},
+		"comarca":{
+			"name":"Tribunal Judicial da Comarca"
+		},
+		"supremo.administrativo":{
+			"name":"Supremo Tribunal Administrativo",
+			"ABBREV": "STA"
+		},
+		"central.administrativo.norte":{
+			"name":"TCA Norte",
+			"ABBREV": "TCAN"
+		},
+		"central.administrativo.sul":{
+			"name":"TCA Sul",
+			"ABBREV": "TCAS"
+		},
+		"administrativo.de.circulo":{
+			"name":"Tribunal Administrativo de Círculo"
+		},
+		"tributario":{
+			"name":"Tribunal Tributário"
+		},
+		"administrativo.fiscal.sul":{
+			"name":"Administrativo e Fiscal"
+		},
+		"supremo.militar":{
+			"name":"Supremo Tribunal Militar"
+		},
+		"administrativo.fiscal.norte":{
+			"name":"Administrativo e Fiscal"
+		},
+		"paz":{
+			"name":"Julgados de Paz"
+		},
+		"arbitrais":{
+			"name":"Tribunal Arbitrais"
+		},
+		"eclesiasticos":{
+			"name":"Tribunal Eclesiásticos"
+		},
+		"maritimo":{
+			"name":"Tribunal Maritimo"
+		},
+		"propriedade.intelectual":{
+			"name":"Tribunal da Propriedade Intelectualo"
+		},
+		"concorrencia":{
+			"name":"Tribunal da Concorrência"
+		},
+		"criminal":{
+			"name":"Tribunal Central de Instrução Criminal"
+		},
+		"penas":{
+			"name":"Tribunal de Execução de Penas"
+		}
+	},
+	"jurisdictions":[
+		{
+			"path":"pt",
+			"name":"Portugal",
+			"courts":[
+				"constitucional",
+				"contas",
+				"conflitos",
+				"supremo.tribunal.de.justicia",
+				"supremo.administrativo",
+				"supremo.militar",
+				"paz",
+				"arbitrais",
+				"eclesiasticos",
+				"propriedade.intelectual",
+				"concorrencia"
+			]
+		},
+		{
+			"path":"pt/lisboa",
+			"name":"Lisboa",
+			"abbrev": "de Lisboa",
+			"ABBREV": "L",
+			"courts":[
+				"relacao",
+				"maritimo",
+				"penas",
+				"central.administrativo.sul"
+			]
+		},
+		{
+			"path":"pt/lisboa/lisboa",
+			"name":"Lisboa",
+			"courts":[
+				"comarca",
+				"administrativo.de.circulo",
+				"tributario"
+			]
+		},
+		{
+			"path":"pt/lisboa/lisboa.norte",
+			"name":"Lisboa Norte",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/lisboa/lisboa.oeste",
+			"name":"Lisboa Oeste",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/lisboa/acores",
+			"name":"Açores",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/lisboa/acores/ponta.delgada",
+			"name":"Ponta Delgada",
+			"courts":[
+				"administrativo.fiscal.sul",
+				"maritimo"
+			]
+		},
+		{
+			"path":"pt/lisboa/madeira",
+			"name":"Madeira",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/lisboa/almada",
+			"name":"Almada",
+			"courts":[
+				"administrativo.fiscal.sul",
+				"tributario"
+			]
+		},
+		{
+			"path":"pt/lisboa/madeira/funchal",
+			"name":"Funchal",
+			"courts":[
+				"administrativo.fiscal.sul",
+				"maritimo"
+			]
+		},
+		{
+			"path":"pt/lisboa/acores.e.madeira",
+			"name":"Açores e Madeira",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/lisboa/sintra",
+			"name":"Sintra",
+			"courts":[
+				"administrativo.fiscal.sul"
+			]
+		},
+		{
+			"path":"pt/evora",
+			"name":"Évora",
+			"abbrev": "de Évora",
+			"ABBREV": "E",
+			"courts":[
+				"relacao",
+				"penas"
+			]
+		},
+		{
+			"path":"pt/evora/evora",
+			"name":"Évora",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/evora/beja",
+			"name":"Beja",
+			"courts":[
+				"comarca",
+				"administrativo.fiscal.sul"
+			]
+		},
+		{
+			"path":"pt/evora/faro",
+			"name":"Faro",
+			"courts":[
+				"comarca",
+				"maritimo"
+			]
+		},
+		{
+			"path":"pt/evora/faro/loule",
+			"name":"Loule",
+			"courts":[
+				"administrativo.fiscal.sul"
+			]
+		},
+		{
+			"path":"pt/evora/portalegre",
+			"name":"Portalegre",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/evora/santarem",
+			"name":"Santarém",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/evora/setubal",
+			"name":"Setúbal",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/coimbra",
+			"name":"Coimbra",
+			"abbrev": "de Coimbra",
+			"ABBREV": "C",
+			"courts":[
+				"relacao",
+				"penas",
+				"administrativo.fiscal.sul"
+			]
+		},
+		{
+			"path":"pt/coimbra/coimbra",
+			"name":"Coimbra",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/coimbra/castelo.branco",
+			"name":"Castelo Branco",
+			"courts":[
+				"comarca",
+				"administrativo.fiscal.sul"
+			]
+		},
+		{
+			"path":"pt/coimbra/guarda",
+			"name":"Guarda",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/coimbra/leiria",
+			"name":"Leiria",
+			"courts":[
+				"comarca",
+				"administrativo.fiscal.sul"
+			]
+		},
+		{
+			"path":"pt/coimbra/viseu",
+			"name":"Viseu",
+			"courts":[
+				"comarca",
+				"administrativo.fiscal.norte"
+			]
+		},
+		{
+			"path":"pt/porto",
+			"name":"Porto",
+			"abbrev": "do Porto",
+			"ABBREV": "P",
+			"courts":[
+				"relacao",
+				"penas",
+				"central.administrativo.norte"
+			]
+		},
+		{
+			"path":"pt/porto/porto",
+			"name":"Porto",
+			"courts":[
+				"comarca",
+				"administrativo.fiscal.norte"
+			]
+		},
+		{
+			"path":"pt/porto/tras.os.montes",
+			"name":" Trás-os-Montes",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/porto/entre.douro.e.minho",
+			"name":"Entre Douro e Minho",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/porto/beira",
+			"name":"Beira",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/porto/aveiro",
+			"name":"Aveiro",
+			"courts":[
+				"comarca",
+				"administrativo.fiscal.norte"
+			]
+		},
+		{
+			"path":"pt/porto/porto.este",
+			"name":"Porto Este",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/porto/penafiel",
+			"name":"Penafiel",
+			"courts":[
+				"administrativo.fiscal.norte"
+			]
+		},
+		{
+			"path":"pt/porto/leixoes",
+			"name":"Leixões",
+			"courts":[
+				"maritimo"
+			]
+		},
+		{
+			"path":"pt/guimaraes",
+			"name":"Guimarães",
+			"abbrev": "de Guimarães",
+			"ABBREV": "G",
+			"courts":[
+				"relacao",
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/guimaraes/braga",
+			"name":"Braga",
+			"courts":[
+				"comarca",
+				"administrativo.fiscal.norte"
+			]
+		},
+		{
+			"path":"pt/guimaraes/braganca",
+			"name":"Bragança",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/guimaraes/braganca/mirandela",
+			"name":"Mirandela",
+			"courts":[
+				"comarca",
+				"administrativo.fiscal.norte"
+			]
+		},
+		{
+			"path":"pt/guimaraes/viana.do.castelo",
+			"name":"Viana do Castelo",
+			"courts":[
+				"comarca"
+			]
+		},
+		{
+			"path":"pt/guimaraes/vila.real",
+			"name":"Vila Real",
+			"courts":[
+				"comarca"
+			]
+		}
+    ]
 }

@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const eol = require('eol');
 
 const util = require("./util");
 const handleError = require("./errors").handleError;
@@ -22,7 +23,7 @@ async function descriptiveToCompact(opts) {
 			}
 		}
 	} else if (opts.j) {
-		jurisIDs.push(opts.j)
+		jurisIDs.push(opts.j);
 	}
 	if (jurisIDs.length === 0) {
 		var e;
@@ -37,7 +38,9 @@ async function descriptiveToCompact(opts) {
 	for (var jurisID of jurisIDs) {
 		// Call working code for a single jurisdiction here
 		opts.j = jurisID;
-		var jurisDesc = JSON.parse(fs.readFileSync(path.join(config.path.jurisSrcDir, "juris-" + jurisID + "-desc.json")).toString());
+		var json = fs.readFileSync(path.join(config.path.jurisSrcDir, "juris-" + jurisID + "-desc.json")).toString();
+		var json = eol.lf(json);
+		var jurisDesc = JSON.parse(json);
 
 		// Abbreviation file(s)
 		var abbrevVariantNames = getAbbrevVariantKeys(jurisDesc);
@@ -106,6 +109,7 @@ async function descriptiveToCompact(opts) {
 		for (var jurisdiction of jurisDesc.jurisdictions) {
 			var jurisdictionIdx = jurisdictionMap[getJurisdictionID(jurisdiction)];
 			for (var courtID of jurisdiction.courts) {
+				courtID = courtID.split("::")[0];
 				if (["-", "+"].indexOf(courtID.slice(0, 1)) > -1) {
 					courtID = courtID.slice(1);
 				}
@@ -168,8 +172,9 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 	var places = abbrevs.xdata["default"].place;
 	for (var jurisdiction of jurisDesc.jurisdictions) {
 		var id = getJurisdictionID(jurisdiction);
-		var jurisdictionAbbrev = getBestAbbrev(jurisdiction, abbrevVariantName);
-		places[id.toUpperCase()] = jurisdictionAbbrev;
+		var jurisdictionAbbrevs = getBestAbbrevs(jurisdiction, abbrevVariantName);
+		places[id.toUpperCase()] = jurisdictionAbbrevs.normal.replace(/^<\s*/, "").replace(/\s*>$/, "");
+
 		// Court abbrevs
 		if (!abbrevs.xdata[id]) {
 			abbrevs.xdata[id] = {
@@ -177,8 +182,16 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 			};
 		}
 		for (var courtID of jurisdiction.courts) {
-			if (!courtID.match(/^[\-\+]?[a-z]([\+\.a-z0-9]+)*$/)) {
-				var e = new Error("invalid court ID \"" + courtID + "\" in jurisdiction " + id);
+			[courtID, ABBREV] = courtID.split("::");
+			var myCourtID = courtID.replace(/^[-+]/, "");
+			if (ABBREV) {
+				if (!abbrevs.xdata[id]["institution-entire"]) {
+					abbrevs.xdata[id]["institution-entire"] = {};
+				}
+				abbrevs.xdata[id]["institution-entire"][myCourtID] = ABBREV;
+			}
+			if (!myCourtID.match(/^[\-\+]?[a-z]([\~\.a-z0-9]+)*$/)) {
+				var e = new Error("invalid court ID \"" + myCourtID + "\" in jurisdiction " + id);
 				handleError(e);
 			}
 			var ignoreCourt = false;
@@ -191,32 +204,67 @@ function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
 				ignoreJurisdiction = true;
 			}
 			var court = jurisDesc.courts[courtID];
+			if (!court) {
+				throw new Error("no court registered for ID " + courtID);
+			}
 			var abbrev;
 			if (ignoreCourt) {
-				abbrev = jurisdictionAbbrev;
+				abbrev = jurisdictionAbbrevs.normal;
 			} else {
-				var courtAbbrev = getBestAbbrev(court, abbrevVariantName);
-				if (courtAbbrev.slice(0, 1) === "<" && !ignoreJurisdiction) {
-					abbrev = jurisdictionAbbrev + courtAbbrev.slice(1);
-				} else if (courtAbbrev.slice(-1) === ">" && !ignoreJurisdiction) {
-					abbrev = courtAbbrev.slice(0, -1) + jurisdictionAbbrev;
+				var courtAbbrev = getBestAbbrevs(court, abbrevVariantName);
+				if (!ignoreJurisdiction) {
+					if (jurisdictionAbbrevs.normal.slice(0, 1) === "<") {
+						abbrev = courtAbbrev.normal.replace(/^<\s*/, "").replace(/\s*>$/, "") + jurisdictionAbbrevs.normal.slice(1);
+					} else if (jurisdictionAbbrevs.normal.slice(-1) === ">") {
+						abbrev = jurisdictionAbbrevs.normal.slice(0, -1) + courtAbbrev.normal.replace(/^<\s*/, "").replace(/\s*>$/, "");
+					} else if (courtAbbrev.normal.slice(0, 1) === "<") {
+						abbrev = jurisdictionAbbrevs.normal + courtAbbrev.normal.slice(1);
+					} else if (courtAbbrev.normal.slice(-1) === ">") {
+						abbrev = courtAbbrev.normal.slice(0, -1) + jurisdictionAbbrevs.normal;
+					} else {
+						abbrev = courtAbbrev.normal.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
+					}
 				} else {
-					abbrev = courtAbbrev.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
+					abbrev = courtAbbrev.normal.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
 				}
+			}
+			if (id === "us" && courtID.replace(/^[-+]*/, "") === "supreme.court") {
+				abbrev = "!here>>>";
 			}
 			abbrevs.xdata[id]["institution-part"][courtID] = abbrev;
 			if (court.ABBREV) {
-				if (!abbrevs.xdata[id]["institution-entire"]) {
-					abbrevs.xdata[id]["institution-entire"] = {};
+				if (!ABBREV) {
+					if (!abbrevs.xdata[id]["institution-entire"]) {
+						abbrevs.xdata[id]["institution-entire"] = {};
+					}
+					var code;
+					if (court.ABBREV.slice(0, 1) === "<") {
+						if (jurisdictionAbbrevs.code) {
+							code = jurisdictionAbbrevs.code + court.ABBREV.slice(1);
+						} else {
+							code = jurisdictionAbbrevs.normal + court.ABBREV.slice(1);
+						}
+					} else if (court.ABBREV.slice(-1) === ">") {
+						if (jurisdictionAbbrevs.code) {
+							code = court.ABBREV.slice(0, -1) + jurisdictionAbbrevs.code;
+						} else {
+							code = court.ABBREV.slice(0, -1) + jurisdictionAbbrevs.normal;
+						}
+					} else {
+						code = court.ABBREV.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
+					}
+					abbrevs.xdata[id]["institution-entire"][courtID] = code;
 				}
-				abbrevs.xdata[id]["institution-entire"][courtID] = court.ABBREV;
 			}
 		}
 	}
 	return abbrevs;
 }
 
-function getBestAbbrev(obj, abbrevVariantName) {
+function getBestAbbrevs(obj, abbrevVariantName) {
+	if (!obj) {
+		throw new Error("no object for getBestAbbrevs!");
+	}
 	var abbrev;
 	// Set name for abbrevVariantName key
 	var abbrevVariantKey = "abbrev:" + abbrevVariantName;
@@ -230,7 +278,10 @@ function getBestAbbrev(obj, abbrevVariantName) {
 	} else {
 		abbrev = obj.name;
 	}
-	return abbrev;
+	return {
+		normal: abbrev,
+		code: obj.ABBREV ? obj.ABBREV : ""
+	};
 }
 
 function getCountryNameOrID(jurisDesc, returnID) {

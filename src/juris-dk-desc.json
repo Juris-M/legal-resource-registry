@@ -1,10 +1,16 @@
 {
   "courts": {
     "dc": {
-      "name": "Byret"
+      "name": "Byret >"
     },
-    "hc": {
-      "name": "Landsret"
+    "whc": {
+      "name": "Vestre Landsret"
+    },
+    "ehc": {
+      "name": "Østre Landsret"
+    },
+    "ghc": {
+      "name": "Grønlands Landsret"
     },
     "mcc": {
       "name": "Sø- og Handelsretten"
@@ -16,8 +22,18 @@
       "name": "Tinglysningsretten"
     },
     "sc": {
-      "name": "Højesteret"
-    }
+		"name": "Højesteret",
+		"abbrev": "H"
+    },
+	  "om": {
+		  "name": "Ombudsmanden"
+	  },
+	  "neab": {
+		  "name": "Natur-og Miljøklagenævnet"
+	  },
+	  "tc": {
+		  "name": "Landsskatteretten"
+	  }
   },
   "jurisdictions": [
     {
@@ -26,14 +42,17 @@
       "courts": [
         "lrc",
         "mcc",
-        "sc"
+          "sc",
+		  "om",
+		  "neab",
+		  "tc"
       ]
     },
     {
       "path": "dk/copenhagen",
       "name": "Copenhagen",
       "courts": [
-        "hc",
+        "ehc",
         "mcc"
       ]
     },
@@ -133,7 +152,7 @@
       "name": "Nuuk",
       "courts": [
         "dc",
-        "hc"
+        "ghc"
       ]
     },
     {
@@ -168,7 +187,7 @@
       "path": "dk/viborg",
       "name": "Viborg",
       "courts": [
-        "hc"
+        "whc"
       ]
     },
     {

@@ -2,7 +2,7 @@
   "courts": {
     "lvwg": {
       "name": "Landesverwaltungsgericht",
-      "abbrev": "LvWG >"
+      "abbrev": "LVwG >"
     },
     "bg": {
       "name": "Bezirksgericht",
@@ -32,13 +32,17 @@
       "name": "Handelsgericht",
       "abbrev": "HG >"
     },
+    "vgw": {
+      "name": "Verwaltungsgericht",
+      "abbrev": "VGW"
+    },
     "bfg": {
       "name": "Bundesfinanzgericht",
       "abbrev": "BFG"
     },
     "bvwg": {
       "name": "Bundesverwaltungsgericht",
-      "abbrev": "BvWG"
+      "abbrev": "BVwG"
     },
     "ogh": {
       "name": "Oberster Gerichtshof",
@@ -816,7 +820,8 @@
       "path": "at/wien",
       "name": "Wien",
       "courts": [
-        "olg"
+        "olg",
+        "vgw"
       ],
       "abbrev": "Wien"
     },

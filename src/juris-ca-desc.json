@@ -153,7 +153,7 @@
       ]
     },
     {
-      "path": "ca/NB",
+      "path": "ca/nb",
       "name": "New-Brunswick",
       "abbrev": "NB",
       "abbrev:fr": "N-B",
@@ -175,19 +175,7 @@
       ]
     },
     {
-      "path": "ca/nwt",
-      "name": "Northwest Territories",
-      "abbrev": "NWT",
-      "abbrev:fr": "TN-O",
-      "ABBREV": "NWT",
-      "courts" : [
-        "court.appeal",
-        "supreme.court.prov",
-        "territorial.court"
-      ]
-    },
-    {
-      "path": "ca/NS",
+      "path": "ca/ns",
       "name": "Nova Scotia",
       "abbrev": "NS",
       "ABBREV": "NS",
@@ -196,6 +184,18 @@
         "supreme.court.prov",
         "family.court",
         "provincial.court"
+      ]
+    },
+    {
+      "path": "ca/nt",
+      "name": "Northwest Territories",
+      "abbrev": "NWT",
+      "abbrev:fr": "TN-O",
+      "ABBREV": "NWT",
+      "courts" : [
+        "court.appeal",
+        "supreme.court.prov",
+        "territorial.court"
       ]
     },
     {

@@ -63,7 +63,7 @@
       "name": "Court of Justice",
       "courts": [
         "ag",
-        "-ecj",
+        "ecj",
         "ecj~chamber.1",
         "ecj~chamber.2",
         "ecj~chamber.3",

@@ -55,7 +55,44 @@
     "vwgh": {
       "name": "Verwaltungsgerichtshof",
       "abbrev": "VwGH"
+    },
+    "asylgh": {
+      "name": "Asylgerichtshof",
+      "abbrev": "AsylGH"
+    },
+    "uvs": {
+      "name": "Unabhängiger Verwaltungssenat",
+      "abbrev": "UVS >"
+    },
+    "ubas": {
+      "name": "Unabhängiger Bundesasylsenat",
+      "abbrev": "UBAS"
+    },
+    "ufs": {
+      "name": "Unabhängiger Finanzsenat",
+      "abbrev": "UFS"
+    },
+    "dsk": {
+      "name": "Datenschutzkommission",
+      "abbrev": "DSK"
+    },
+    "dsb": {
+      "name": "Datenschutzbehörde",
+      "abbrev": "DSB"
+    },
+    "bvga": {
+      "name": "Bundesvergabeamt",
+      "abbrev": "BVA"
+    },
+    "opms": {
+      "name": "Oberster Patent- und Markensenat",
+      "abbrev": "OPMS"
+    },
+    "bwb": {
+      "name": "Bundeswettbewerbsbehörde",
+      "abbrev": "BWB"
     }
+
   },
   "jurisdictions": [
     {
@@ -66,14 +103,23 @@
         "bvwg",
         "ogh",
         "vfgh",
-        "vwgh"
+        "vwgh",
+        "asylgh",
+        "ubas",
+        "ufs",
+        "dsk",
+        "dsb",
+        "bvga",
+        "opms",
+        "bwb"
       ]
     },
     {
       "path": "at/burgenland",
       "name": "Burgenland",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Burgenland"
     },
@@ -490,7 +536,8 @@
       "path": "at/karnten",
       "name": "Kärnten",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Kärnten"
     },
@@ -754,7 +801,8 @@
       "path": "at/niederosterreich",
       "name": "Niederösterreich",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Niederösterreich"
     },
@@ -762,7 +810,8 @@
       "path": "at/oberosterreich",
       "name": "Oberösterreich",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Oberösterreich"
     },
@@ -770,7 +819,8 @@
       "path": "at/salzburg",
       "name": "Salzburg",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Salzburg"
     },
@@ -778,7 +828,8 @@
       "path": "at/steiermark",
       "name": "Steiermark",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Steiermark"
     },
@@ -786,7 +837,8 @@
       "path": "at/tirol",
       "name": "Tirol",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Tirol"
     },
@@ -794,7 +846,8 @@
       "path": "at/vorarlberg",
       "name": "Vorarlberg",
       "courts": [
-        "lvwg"
+        "lvwg",
+        "uvs"
       ],
       "abbrev": "Vorarlberg"
     },
@@ -803,7 +856,8 @@
       "name": "Wien",
       "courts": [
         "olg",
-        "vgw"
+        "vgw",
+        "uvs"
       ],
       "abbrev": "Wien"
     },

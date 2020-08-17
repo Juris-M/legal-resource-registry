@@ -104,165 +104,172 @@
       "name": "Superior Court",
       "abbrev": "<CS",
       "ABBREV": "<CS"
+    },
+    "quebec.admin.tribunal": {
+      "name": "Tribunal administratif du Québec",
+      "abbrev": "<TAQ",
+      "ABBREV": "<TAQ"
     }
   },
   "jurisdictions": [
     {
       "path": "ca",
       "name": "Canada",
-      "abbrev": "C",
       "courts": [
         "supreme.court",
         "federal.court",
         "federal.court.appeal",
         "tax.court",
         "court.martial.appeal.court"
-      ]
+      ],
+      "abbrev": "C",
+      "ABBREV": "C"
     },
     {
       "path": "ca/ab",
       "name": "Alberta",
-      "abbrev": "Alta",
-      "ABBREV": "AB",
       "courts" : [
         "court.appeal",
         "court.queens.bench",
         "provincial.court"
-      ]
+      ],
+      "abbrev": "Alta",
+      "ABBREV": "AB"
     },
     {
       "path": "ca/bc",
       "name": "British Columbia",
-      "abbrev": "BC",
-      "ABBREV": "BC",
       "courts": [
         "court.appeal",
         "supreme.court.prov",
         "provincial.court"
-      ]
+      ],
+      "abbrev": "BC",
+      "ABBREV": "BC"
     },
     {
       "path": "ca/mb",
       "name": "Manitoba",
-      "abbrev": "Man",
-      "ABBREV": "MB",
       "courts" : [
         "court.appeal",
         "court.queens.bench",
         "provincial.court"
-      ]
+      ],
+      "abbrev": "Man",
+      "ABBREV": "MB"
     },
     {
       "path": "ca/nb",
       "name": "New-Brunswick",
-      "abbrev": "NB",
-      "abbrev:fr": "N-B",
-      "ABBREV": "NB",
       "courts" : [
         "court.appeal",
         "court.queens.bench",
         "provincial.court"        
-      ]
+      ],
+      "abbrev": "NB",
+      "abbrev:fr": "N-B",
+      "ABBREV": "NB"
     },
     {
       "path": "ca/nl",
       "name": "Newfoundland & Labrador",
-      "abbrev": "NL",
-      "ABBREV": "NL",
       "courts" : [
         "supreme.court.court.appeal",
         "supreme.court.trial.division.nl"        
-      ]
+      ],
+      "abbrev": "NL",
+      "ABBREV": "NL"
     },
     {
       "path": "ca/ns",
       "name": "Nova Scotia",
-      "abbrev": "NS",
-      "ABBREV": "NS",
       "courts" : [
         "court.appeal",
         "supreme.court.prov",
         "family.court",
         "provincial.court"
-      ]
+      ],
+      "abbrev": "NS",
+      "ABBREV": "NS"
     },
     {
       "path": "ca/nt",
       "name": "Northwest Territories",
-      "abbrev": "NWT",
-      "abbrev:fr": "TN-O",
-      "ABBREV": "NWT",
       "courts" : [
         "court.appeal",
         "supreme.court.prov",
         "territorial.court"
-      ]
+      ],
+      "abbrev": "NWT",
+      "abbrev:fr": "TN-O",
+      "ABBREV": "NWT"
     },
     {
       "path": "ca/nu",
       "name": "Nunavut",
-      "abbrev": "Nu",
-      "ABBREV": "NU",
       "courts" : [
         "court.justice",
         "court.appeal"
-      ]
+      ],
+      "abbrev": "NU",
+      "ABBREV": "NU"
     },
     {
       "path": "ca/on",
       "name": "Ontario",
-      "abbrev": "Ont",
-      "ABBREV": "ON",
       "courts" : [
         "court.appeal",
         "superior.court.justice",
         "court.justice"
-      ]
+      ],
+      "abbrev": "Ont",
+      "ABBREV": "ON"
     },
     {
       "path": "ca/pe",
       "name": "Prince Edward Island",
-      "abbrev": "PEI",
-      "ABBREV": "PE",
       "courts" : [
         "supreme.court.appeal.division",
         "supreme.court.trial.division.pe"
-      ]
+      ],
+      "abbrev": "PEI",
+      "ABBREV": "PE"
     },
     {
       "path": "ca/qc",
       "name": "Québec",
-      "abbrev": "Qc",
-      "ABBREV": "QC",
       "courts" : [
         "court.appeal",
         "superior.court",
         "court.quebec",
-        "tribunal.professions"
-      ]
+        "tribunal.professions",
+        "quebec.admin.tribunal"
+      ],
+      "abbrev": "Qc",
+      "ABBREV": "QC"
     },
     {
       "path": "ca/sk",
       "name": "Saskatchewan",
-      "abbrev": "Sask",
-      "ABBREV": "SK",
       "courts" : [
         "court.appeal",
         "court.queens.bench",
         "provincial.court"
-      ]
+      ],
+      "abbrev": "Sask",
+      "ABBREV": "SK"
     },
     {
       "path": "ca/yk",
       "name": "Yukon",
-      "abbrev": "Y",
-      "ABBREV": "YK",
       "courts" : [
         "court.appeal",
         "supreme.court.prov",
         "territorial.court",
         "small.claims.court"
-      ]
+      ],
+      "abbrev": "Y",
+      "ABBREV": "YK"
     }
 
   ]

@@ -5,35 +5,35 @@
 	"abbrev": "Cass."	    
     },
     "cass~civ.1": {
-      "name": "< 1re Chambre civile"
+      "name": "< 1re Chambre civile",
 	    "abbrev": "< civ. 1re"
     },
     "cass~civ.2": {
-      "name": "< 2e Chambre civile"
+      "name": "< 2e Chambre civile",
 	    "abbrev": "< civ. 2e"
     },
     "cass~civ.3": {
-      "name": "< 3e Chambre civile"
+      "name": "< 3e Chambre civile",
 	    "abbrev": "civ. 2e"
     },
     "cass~crim": {
-      "name": "< Chambre criminelle"
+      "name": "< Chambre criminelle",
 	    "abbrev": "crim."
     },
     "cass~com": {
-      "name": "< Chambre commerciale, économique et financière"
+      "name": "< Chambre commerciale, économique et financière",
 	    "abbrev": "com."
     },
     "cass~soc": {
-      "name": "< Chambre sociale"
+      "name": "< Chambre sociale",
 	    "abbrev": "soc."
     },
     "cass~plen": {
-      "name": "< Assemblée plénière"
+      "name": "< Assemblée plénière",
 	    "abbrev": "Ass. plen."
     },
 	  "cass~mixte": {
-		  "name": "< Chambre mixte"
+		  "name": "< Chambre mixte",
 		  "abbrev": "< ch. mixte"
 
     "cc": {
@@ -43,31 +43,31 @@
       "name": "Conseil d'État"
     },
 	  "ce~reunies": {
-	  "name": "< Chambres réunies"
+	  "name": "< Chambres réunies",
 		  "abbrev": "< Ch. réunies"
 	  },
     "ce~sect": {
-      "name": "< Section du contentieux"
+      "name": "< Section du contentieux",
 	    "abbrev": "< Sect."
     },
 	  "ce~ass": {
-	  "name": "< Assemblée du contentieux"
+	  "name": "< Assemblée du contentieux",
 		  "abbrev": "< Ass."
 	  },
     "cnda": {
-      "name": "Cour nationale du droit d'asile"
+      "name": "Cour nationale du droit d'asile",
 	    "abbrev": "C.N.D.A."
     },
 	  "ca": { 
-		  "name": "Cour d'appel"
+		  "name": "Cour d'appel",
 		  "abbrev": "C.A. >"
 	  }, 
 	  "tsa": {
-		  "name": "Tribunal supérieur d'appel"
+		  "name": "Tribunal supérieur d'appel",
 		  "abbrev": "T.S.A."
 	  },
 	  "caa": {
-	  "name": "Cour administrative d'appel"
+	  "name": "Cour administrative d'appel",
 		  "abbrev": "C.A.A. >"
 	  },
 	

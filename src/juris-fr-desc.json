@@ -50,9 +50,9 @@
       "name": "< Section du contentieux",
 	    "abbrev": "< Sect."
     },
-	  "ce~ass": {
-	  "name": "< Assemblée du contentieux",
-		  "abbrev": "< Ass."
+    "ce~ass": {
+	"name": "< Assemblée du contentieux",
+	"abbrev": "< Ass."
 	  },
     "cnda": {
       "name": "Cour nationale du droit d'asile",
@@ -87,13 +87,13 @@
 	"cass~plen",
         "cc",
         "ce",
-	      "ce~reunies",
-	      "ce~sect",
-	      "ce~ass"  
-        "cnda"
-	      "ca"
-	      "tsa"
-	      "caa"
+	"ce~reunies",
+	"ce~sect",
+	"ce~ass", 
+        "cnda",
+	"ca",
+	"tsa",
+	"caa"
       ]
     },
     {
@@ -239,13 +239,13 @@
         "ca"
       ]
     },
-	   {
-		  "path": "fr/marseille",
-		  "name":"Marseille",
-		  "courts": [
-			  "caa"
-			  ]
-	  },
+    {
+      "path": "fr/marseille",
+      "name":"Marseille",
+      "courts": [
+	 "caa"
+	]
+    },
     {
       "path": "fr/montpellier",
       "name": "Montpellier",
@@ -261,13 +261,13 @@
 	      "caa"
       ]
     },
-	  {
-		  "path": "fr/nantes",
-		  "name": "Nantes",
-		  "Courts": [
-			  "caa"
-			  ]
-	  },
+    {
+      "path": "fr/nantes",
+      "name": "Nantes",
+      "Courts": [
+        "caa"
+	]
+    },
     {
       "path": "fr/nimes",
       "name": "Nîmes",
@@ -353,11 +353,11 @@
         "ca"
       ]
     },
-	   {
-		  "path": "fr/saint.pierre.et.miquelon",
-		  "name": "Saint-Pierre-et-Miquelon",
-		  "courts": [
-		  "tsa"
+    {
+	"path": "fr/saint.pierre.et.miquelon",
+	"name": "Saint-Pierre-et-Miquelon",
+	"courts": [
+	"tsa"
 		  ]
 	  },
     {
@@ -374,6 +374,6 @@
         "ca",
 	      "caa"
       ]
-    },
+    }
   ]
 }

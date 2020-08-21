@@ -2,7 +2,7 @@
   "courts": {
     "cass": {
       "name": "Cour de cassation",
-	"abbrev": "Cass."	    
+	"abbrev": "Cass."
     },
     "cass~civ.1": {
       "name": "< 1re Chambre civile",
@@ -35,7 +35,7 @@
 	  "cass~mixte": {
 		  "name": "< Chambre mixte",
 		  "abbrev": "< ch. mixte"
-
+    },
     "cc": {
       "name": "Conseil constitutionnel"
     },
@@ -58,10 +58,10 @@
       "name": "Cour nationale du droit d'asile",
 	    "abbrev": "C.N.D.A."
     },
-	  "ca": { 
+	  "ca": {
 		  "name": "Cour d'appel",
 		  "abbrev": "C.A. >"
-	  }, 
+	  },
 	  "tsa": {
 		  "name": "Tribunal supérieur d'appel",
 		  "abbrev": "T.S.A."
@@ -69,8 +69,8 @@
 	  "caa": {
 	  "name": "Cour administrative d'appel",
 		  "abbrev": "C.A.A. >"
-	  },
-	
+	  }
+
   },
   "jurisdictions": [
     {
@@ -89,7 +89,7 @@
         "ce",
 	"ce~reunies",
 	"ce~sect",
-	"ce~ass", 
+	"ce~ass",
         "cnda",
 	"ca",
 	"tsa",
@@ -149,7 +149,7 @@
       "path": "fr/bordeaux",
       "name": "Bordeaux",
       "courts": [
-        "ca", 
+        "ca",
 	"caa"
       ]
     },
@@ -228,7 +228,7 @@
       "path": "fr/lyon",
       "name": "Lyon",
       "courts": [
-        "ca", 
+        "ca",
 	      "caa"
       ]
     },

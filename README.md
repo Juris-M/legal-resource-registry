@@ -286,17 +286,17 @@ judgment.  The docket number of the case is “I ACa 2383/15,” and the
 date is rendered in English. The court name here, if translated into
 English, would be “Court of Appeals in Warsaw.” In Polish grammar, the
 place name following “w” (“in”) is set in locative case, and so is
-written “Warszawie” rather than in nominative case as “Warszaw.”
+written “Warszawie” rather than in nominative case as “Warszawa.”
 
 In the Jurism UI, the jurisdiction name should display as nominative
-“Warszaw,” but the form must be “w Warszawie” for citation purposes.
+“Warszawa,” but the form must be “w Warszawie” for citation purposes.
 This is accomplished with the following pattern in the
 `"jurisdiction"` object:
 
 ```javascript
 {
   "path": "pl/warsaw",
-  "name": "Warszaw",
+  "name": "Warszawa",
   "courts": [
     "sa",
     "wsa"

@@ -2632,7 +2632,7 @@
     },
     {
       "path": "pl/warsaw",
-      "name": "Warszaw",
+      "name": "Warszawa",
       "courts": [
         "sa",
         "wsa"
@@ -2697,7 +2697,7 @@
     },
     {
       "path": "pl/warsaw/warsaw",
-      "name": "Warszaw",
+      "name": "Warszawa",
       "courts": [
         "so"
       ],

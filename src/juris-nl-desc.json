@@ -43,7 +43,7 @@
     },
     {
       "path": "nl/gravenhage",
-      "name": "Gravenhage",
+      "name": "Den Haag",
       "courts": [
         "gerechtshof",
         "rechtbank",
@@ -87,7 +87,7 @@
     },
     {
       "path": "nl/hertogenbosch",
-      "name": "Hertogenbosch",
+      "name": "Den Bosch",
       "courts": [
         "gerechtshof",
         "rechtbank",

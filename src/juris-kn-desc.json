@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "kn",
-      "name": "Saint Kitts and Nevis",
-      "courts": []
+  "jurisdictions": {
+    "kn": {
+      "name": "Saint Kitts and Nevis"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ht",
-      "name": "Haiti",
-      "courts": []
+  "jurisdictions": {
+    "ht": {
+      "name": "Haiti"
     }
-  ]
+  }
 }

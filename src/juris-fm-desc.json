@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "fm",
-      "name": "Micronesia",
-      "courts": []
+  "jurisdictions": {
+    "fm": {
+      "name": "Micronesia"
     }
-  ]
+  }
 }

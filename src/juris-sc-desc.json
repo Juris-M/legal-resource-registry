@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "sc",
-      "name": "Seychelles",
-      "courts": []
+  "jurisdictions": {
+    "sc": {
+      "name": "Seychelles"
     }
-  ]
+  }
 }

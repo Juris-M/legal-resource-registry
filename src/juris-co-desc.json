@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "co",
-      "name": "Colombia",
-      "courts": []
+  "jurisdictions": {
+    "co": {
+      "name": "Colombia"
     }
-  ]
+  }
 }

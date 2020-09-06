@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bf",
-      "name": "Burkina Faso",
-      "courts": []
+  "jurisdictions": {
+    "bf": {
+      "name": "Burkina Faso"
     }
-  ]
+  }
 }

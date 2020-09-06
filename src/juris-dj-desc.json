@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "dj",
-      "name": "Djibouti",
-      "courts": []
+  "jurisdictions": {
+    "dj": {
+      "name": "Djibouti"
     }
-  ]
+  }
 }

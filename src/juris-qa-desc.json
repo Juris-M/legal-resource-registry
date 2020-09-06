@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "qa",
-      "name": "Qatar",
-      "courts": []
+  "jurisdictions": {
+    "qa": {
+      "name": "Qatar"
     }
-  ]
+  }
 }

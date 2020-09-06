@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "cr",
-      "name": "Costa Rica",
-      "courts": []
+  "jurisdictions": {
+    "cr": {
+      "name": "Costa Rica"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ng",
-      "name": "Nigeria",
-      "courts": []
+  "jurisdictions": {
+    "ng": {
+      "name": "Nigeria"
     }
-  ]
+  }
 }

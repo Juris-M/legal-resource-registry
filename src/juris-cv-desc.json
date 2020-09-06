@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "cv",
-      "name": "Cape Verde",
-      "courts": []
+  "jurisdictions": {
+    "cv": {
+      "name": "Cape Verde"
     }
-  ]
+  }
 }

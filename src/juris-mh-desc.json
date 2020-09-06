@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mh",
-      "name": "Marshall Islands",
-      "courts": []
+  "jurisdictions": {
+    "mh": {
+      "name": "Marshall Islands"
     }
-  ]
+  }
 }

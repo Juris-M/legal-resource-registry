@@ -1,4 +1,7 @@
 {
+	"langs": {
+		"fr": ["ui"]
+	},
   "courts": {
     "court.appeal": {
       "name": "Court of Appeal"
@@ -10,7 +13,12 @@
       "name": "Provincial Court"
     },
     "supreme.court": {
-      "name": "Supreme Court"
+		"name": "Supreme Court",
+		"variants": {
+			"fr": {
+				"name": "Cour Surpreme"
+			}
+		}
     },
     "court.queens.bench": {
       "name": "Supreme Court"
@@ -49,134 +57,120 @@
       "name": "Tax Court"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "ca",
+  "jurisdictions": {
+    "ca": {
       "name": "Canada",
-      "courts": [
-        "competition.tribunal",
-        "court.martial.appeal.court",
-        "federal.court",
-        "federal.court.appeal",
-        "human.rights.tribunal",
-        "supreme.court",
-        "tax.court"
-      ]
+      "courts": {
+        "competition.tribunal": {},
+        "court.martial.appeal.court": {},
+        "federal.court": {},
+        "federal.court.appeal": {},
+        "human.rights.tribunal": {},
+        "supreme.court": {},
+        "tax.court": {}
+      }
     },
-    {
-      "path": "ca/ab",
+    "ca:ab": {
       "name": "Alberta",
-      "courts": [
-        "court.appeal",
-        "court.queen.bench",
-        "provincial.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "court.queen.bench": {},
+        "provincial.court": {}
+      }
     },
-    {
-      "path": "ca/bc",
+    "ca:bc": {
       "name": "British Columbia",
-      "courts": [
-        "court.appeal",
-        "provincial.court",
-        "supreme.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "provincial.court": {},
+        "supreme.court": {}
+      }
     },
-    {
-      "path": "ca/mb",
+    "ca:mb": {
       "name": "Manitoba",
-      "courts": [
-        "court.appeal",
-        "court.queen.bench",
-        "provincial.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "court.queen.bench": {},
+        "provincial.court": {}
+      }
     },
-    {
-      "path": "ca/nb",
+    "ca:nb": {
       "name": "New Brunswick",
-      "courts": [
-        "court.appeal",
-        "court.queens.bench",
-        "provincial.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "court.queens.bench": {},
+        "provincial.court": {}
+      }
     },
-    {
-      "path": "ca/nl",
+    "ca:nl": {
       "name": "Newfoundland and Labrador",
-      "courts": [
-        "court.appeal",
-        "provincial.court",
-        "supreme.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "provincial.court": {},
+        "supreme.court": {}
+      }
     },
-    {
-      "path": "ca/ns",
+    "ca:ns": {
       "name": "Nova Scotia",
-      "courts": [
-        "court.appeal",
-        "provincial.court",
-        "supreme.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "provincial.court": {},
+        "supreme.court": {}
+      }
     },
-    {
-      "path": "ca/nt",
+    "ca:nt": {
       "name": "Northwest Territories",
-      "courts": [
-        "court.appeal",
-        "supreme.court",
-        "territorial.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "supreme.court": {},
+        "territorial.court": {}
+      }
     },
-    {
-      "path": "ca/nu",
+    "ca:nu": {
       "name": "Nunavut",
-      "courts": [
-        "court.justice"
-      ]
+      "courts": {
+        "court.justice": {}
+      }
     },
-    {
-      "path": "ca/on",
+    "ca:on": {
       "name": "Ontario",
-      "courts": [
-        "court.appeal",
-        "provincial.court",
-        "superior.court.justice"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "provincial.court": {},
+        "superior.court.justice": {}
+      }
     },
-    {
-      "path": "ca/pe",
+    "ca:pe": {
       "name": "Prince Edward Island",
-      "courts": [
-        "court.appeal.division.supreme.court",
-        "provincial.court",
-        "supreme.court"
-      ]
+      "courts": {
+        "court.appeal.division.supreme.court": {},
+        "provincial.court": {},
+        "supreme.court": {}
+      }
     },
-    {
-      "path": "ca/qc",
+    "ca:qc": {
       "name": "Quebec",
-      "courts": [
-        "court.appeal",
-        "provincial.court",
-        "superior.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "provincial.court": {},
+        "superior.court": {}
+      }
     },
-    {
-      "path": "ca/sk",
+    "ca:sk": {
       "name": "Saskatchewan",
-      "courts": [
-        "court.appeal",
-        "court.queens.bench",
-        "provincial.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "court.queens.bench": {},
+        "provincial.court": {}
+      }
     },
-    {
-      "path": "ca/yt",
+    "ca:yt": {
       "name": "Yukon",
-      "courts": [
-        "court.appeal",
-        "supreme.court",
-        "territorial.court"
-      ]
+      "courts": {
+        "court.appeal": {},
+        "supreme.court": {},
+        "territorial.court": {}
+      }
     }
-  ]
+  }
 }

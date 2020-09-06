@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "er",
-      "name": "Eritrea",
-      "courts": []
+  "jurisdictions": {
+    "er": {
+      "name": "Eritrea"
     }
-  ]
+  }
 }

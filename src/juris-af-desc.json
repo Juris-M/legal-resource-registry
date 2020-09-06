@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "af",
-      "name": "Afghanistan",
-      "courts": []
+  "jurisdictions": {
+    "af": {
+      "name": "Afghanistan"
     }
-  ]
+  }
 }

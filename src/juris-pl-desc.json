@@ -1,16 +1,17 @@
 {
+  "langs": {},
   "courts": {
     "sr": {
-      "name": "Sąd Rejonowy >"
+      "name": "Sąd Rejonowy %s"
     },
     "so": {
-      "name": "Sąd Okręgowy >"
+      "name": "Sąd Okręgowy %s"
     },
     "sa": {
-      "name": "Sąd Apelacyjny >"
+      "name": "Sąd Apelacyjny %s"
     },
     "wsa": {
-      "name": "Woj. Sąd Administracyjny >"
+      "name": "Woj. Sąd Administracyjny %s"
     },
     "nsa": {
       "name": "Najwyższy Sąd Administracyjny"
@@ -25,3076 +26,2694 @@
       "name": "Trybunał Konstytucyjny"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "pl",
+  "jurisdictions": {
+    "pl": {
       "name": "Poland",
-      "courts": [
-        "nsa",
-        "sn",
-        "sokik",
-        "tk"
-      ],
-      "abbrev": "Poland"
+      "abbrev": "Poland",
+      "courts": {
+        "nsa": {},
+        "sn": {},
+        "sokik": {},
+        "tk": {}
+      }
     },
-    {
-      "path": "pl/bialystok",
+    "pl:bialystok": {
       "name": "Białystok",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Białymstoku"
+      "abbrev": "w Białymstoku",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/bialystok/bialystok",
+    "pl:bialystok:bialystok": {
       "name": "Białystok",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Białymstoku"
+      "abbrev": "w Białymstoku",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/bialystok/bialystok/bialystok",
+    "pl:bialystok:bialystok:bialystok": {
       "name": "Białystok",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Białymstoku"
+      "abbrev": "w Białymstoku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/bialystok/bielsko.podlaski",
+    "pl:bialystok:bialystok:bielsko.podlaski": {
       "name": "Bielsko Podlaski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bielsku Podlaskim"
+      "abbrev": "w Bielsku Podlaskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/bialystok/sokolka",
+    "pl:bialystok:bialystok:sokolka": {
       "name": "Sokółka",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sokółce"
+      "abbrev": "w Sokółce",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/lomza",
+    "pl:bialystok:lomza": {
       "name": "Łomża",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Łomży"
+      "abbrev": "w Łomży",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/bialystok/lomza/grajewo",
+    "pl:bialystok:lomza:grajewo": {
       "name": "Grajewo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Grajewie"
+      "abbrev": "w Grajewie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/lomza/lomza",
+    "pl:bialystok:lomza:lomza": {
       "name": "Łomża",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Łomży"
+      "abbrev": "w Łomży",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/lomza/wysokie.mazowieckie",
+    "pl:bialystok:lomza:wysokie.mazowieckie": {
       "name": "Wysokie Mazowieckie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wysokiem Mazowieckiem"
+      "abbrev": "w Wysokiem Mazowieckiem",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/lomza/zambrow",
+    "pl:bialystok:lomza:zambrow": {
       "name": "Zambrow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zambrowie"
+      "abbrev": "w Zambrowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn",
+    "pl:bialystok:olsztyn": {
       "name": "Olsztyn",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Olsztynie"
+      "abbrev": "w Olsztynie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/bartoszyce",
+    "pl:bialystok:olsztyn:bartoszyce": {
       "name": "Bartoszyce",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bartoszycach"
+      "abbrev": "w Bartoszycach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/biskupiec",
+    "pl:bialystok:olsztyn:biskupiec": {
       "name": "Biskupiec",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Biskupcu"
+      "abbrev": "w Biskupcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/gizycko",
+    "pl:bialystok:olsztyn:gizycko": {
       "name": "Giżycko",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Giżycku"
+      "abbrev": "w Giżycku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/ketrzyn",
+    "pl:bialystok:olsztyn:ketrzyn": {
       "name": "Kętrzyn",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kętrzynie"
+      "abbrev": "w Kętrzynie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/lidzbark.warminski",
+    "pl:bialystok:olsztyn:lidzbark.warminski": {
       "name": "Lidzbark Warmiński",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lidzbarku Warmińskim"
+      "abbrev": "w Lidzbarku Warmińskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/mragowo",
+    "pl:bialystok:olsztyn:mragowo": {
       "name": "Mrągowo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Mrągowie"
+      "abbrev": "w Mrągowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/nidzica",
+    "pl:bialystok:olsztyn:nidzica": {
       "name": "Nidzica",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nidzicy"
+      "abbrev": "w Nidzicy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/olsztyn",
+    "pl:bialystok:olsztyn:olsztyn": {
       "name": "Olsztyn",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Olsztynie"
+      "abbrev": "w Olsztynie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/pisz",
+    "pl:bialystok:olsztyn:pisz": {
       "name": "Pisz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Piszu"
+      "abbrev": "w Piszu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/olsztyn/szczytno",
+    "pl:bialystok:olsztyn:szczytno": {
       "name": "Szczytno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Szczytnie"
+      "abbrev": "w Szczytnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/ostroleka",
+    "pl:bialystok:ostroleka": {
       "name": "Ostrołęka",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Ostrołęce"
+      "abbrev": "w Ostrołęce",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/bialystok/ostroleka/ostroleka",
+    "pl:bialystok:ostroleka:ostroleka": {
       "name": "Ostrołęka",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ostrołęce"
+      "abbrev": "w Ostrołęce",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/ostroleka/ostrow.mazowiecka",
+    "pl:bialystok:ostroleka:ostrow.mazowiecka": {
       "name": "Ostrowi Mazowiecka",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ostrowi Mazowieckiej"
+      "abbrev": "w Ostrowi Mazowieckiej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/ostroleka/przasnysz",
+    "pl:bialystok:ostroleka:przasnysz": {
       "name": "Przasnysz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Przasnyszu"
+      "abbrev": "w Przasnyszu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/ostroleka/pultusk",
+    "pl:bialystok:ostroleka:pultusk": {
       "name": "Pułtusk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Pułtusku"
+      "abbrev": "w Pułtusku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/ostroleka/wyszkow",
+    "pl:bialystok:ostroleka:wyszkow": {
       "name": "Wyszkow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wyszkowie"
+      "abbrev": "w Wyszkowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/suwalki",
+    "pl:bialystok:suwalki": {
       "name": "Suwałki",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Suwałkach"
+      "abbrev": "w Suwałkach",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/bialystok/suwalki/augustow",
+    "pl:bialystok:suwalki:augustow": {
       "name": "Augustow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Augustowie"
+      "abbrev": "w Augustowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/suwalki/elk",
+    "pl:bialystok:suwalki:elk": {
       "name": "Ełk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ełku"
+      "abbrev": "w Ełku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/suwalki/olecko",
+    "pl:bialystok:suwalki:olecko": {
       "name": "Olecko",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Olecku"
+      "abbrev": "w Olecku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bialystok/suwalki/suwalki",
+    "pl:bialystok:suwalki:suwalki": {
       "name": "Suwałki",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Suwałkach"
+      "abbrev": "w Suwałkach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/bydgoszcz",
+    "pl:bydgoszcz": {
       "name": "Bydgoszcz",
-      "courts": [
-        "wsa"
-      ],
-      "abbrev": "w Bydgoszczy"
+      "abbrev": "w Bydgoszczy",
+      "courts": {
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/gdansk",
+    "pl:gdansk": {
       "name": "Gdańsk",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Gdańsku"
+      "abbrev": "w Gdańsku",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz",
+    "pl:gdansk:bydgoszcz": {
       "name": "Bydgoszcz",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Bydgoszczy"
+      "abbrev": "w Bydgoszczy",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz/bydgoszcz",
+    "pl:gdansk:bydgoszcz:bydgoszcz": {
       "name": "Bydgoszcz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bydgoszczy"
+      "abbrev": "w Bydgoszczy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz/inowroclaw",
+    "pl:gdansk:bydgoszcz:inowroclaw": {
       "name": "Inowrocław",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Inowrocławiu"
+      "abbrev": "w Inowrocławiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz/mogilno",
+    "pl:gdansk:bydgoszcz:mogilno": {
       "name": "Mogilno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Mogilnie"
+      "abbrev": "w Mogilnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz/naklo.nad.notecia",
+    "pl:gdansk:bydgoszcz:naklo.nad.notecia": {
       "name": "Nakle nad Notecią",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nakle nad Notecią"
+      "abbrev": "w Nakle nad Notecią",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz/swiecie",
+    "pl:gdansk:bydgoszcz:swiecie": {
       "name": "Świecie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Świeciu"
+      "abbrev": "w Świeciu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz/szubinie",
+    "pl:gdansk:bydgoszcz:szubinie": {
       "name": "Szubinie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Szubinie"
+      "abbrev": "w Szubinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz/tucholi",
+    "pl:gdansk:bydgoszcz:tucholi": {
       "name": "Tucholi",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Tucholi"
+      "abbrev": "w Tucholi",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/bydgoszcz/zninie",
+    "pl:gdansk:bydgoszcz:zninie": {
       "name": "Żninie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Żninie"
+      "abbrev": "w Żninie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/elblag",
+    "pl:gdansk:elblag": {
       "name": "Elbląg",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Elblągu"
+      "abbrev": "w Elblągu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/gdansk/elblag/braniewo",
+    "pl:gdansk:elblag:braniewo": {
       "name": "Braniewo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Braniewie"
+      "abbrev": "w Braniewie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/elblag/dzialdowo",
+    "pl:gdansk:elblag:dzialdowo": {
       "name": "Działdowo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Działdowie"
+      "abbrev": "w Działdowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/elblag/elblag",
+    "pl:gdansk:elblag:elblag": {
       "name": "Elbląg",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Elblągu"
+      "abbrev": "w Elblągu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/elblag/ilawa",
+    "pl:gdansk:elblag:ilawa": {
       "name": "Iława",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Iławie"
+      "abbrev": "w Iławie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/elblag/nowe.miasto.lubawskie",
+    "pl:gdansk:elblag:nowe.miasto.lubawskie": {
       "name": "Nowe Mieście Lubawskie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nowym Mieście Lubawskim"
+      "abbrev": "w Nowym Mieście Lubawskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/elblag/ostroda",
+    "pl:gdansk:elblag:ostroda": {
       "name": "Ostróda",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ostródzie"
+      "abbrev": "w Ostródzie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk",
+    "pl:gdansk:gdansk": {
       "name": "Gdańsk",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Gdańsku"
+      "abbrev": "w Gdańsku",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/gdansk",
+    "pl:gdansk:gdansk:gdansk": {
       "name": "Gdańsk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gdańsku"
+      "abbrev": "w Gdańsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/gdynia",
+    "pl:gdansk:gdansk:gdynia": {
       "name": "Gdynia",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gdyni"
+      "abbrev": "w Gdyni",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/kartuzy",
+    "pl:gdansk:gdansk:kartuzy": {
       "name": "Kartuzy",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kartuzach"
+      "abbrev": "w Kartuzach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/koscierzyna",
+    "pl:gdansk:gdansk:koscierzyna": {
       "name": "Kościerzyna",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kościerzynie"
+      "abbrev": "w Kościerzynie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/kwidzyn",
+    "pl:gdansk:gdansk:kwidzyn": {
       "name": "Kwidzyn",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kwidzynie"
+      "abbrev": "w Kwidzynie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/malbork",
+    "pl:gdansk:gdansk:malbork": {
       "name": "Malbork",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Malborku"
+      "abbrev": "w Malborku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/polnoc",
+    "pl:gdansk:gdansk:polnoc": {
       "name": "Gdańsk-Północ",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Gdańsk-Północ w Gdańsku"
+      "abbrev": "Gdańsk-Północ w Gdańsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/poludnie",
+    "pl:gdansk:gdansk:poludnie": {
       "name": "Gdańsk-Południe",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Gdańsk-Południe w Gdańsku"
+      "abbrev": "Gdańsk-Południe w Gdańsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/sopot",
+    "pl:gdansk:gdansk:sopot": {
       "name": "Sopot",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sopocie"
+      "abbrev": "w Sopocie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/starogard.gdanski",
+    "pl:gdansk:gdansk:starogard.gdanski": {
       "name": "Starogardzie Gdański",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Starogardzie Gdańskim"
+      "abbrev": "w Starogardzie Gdańskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/tczew",
+    "pl:gdansk:gdansk:tczew": {
       "name": "Tczew",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Tczewie"
+      "abbrev": "w Tczewie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/gdansk/wejherowo",
+    "pl:gdansk:gdansk:wejherowo": {
       "name": "Wejherowo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wejherowie"
+      "abbrev": "w Wejherowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/slupsk",
+    "pl:gdansk:slupsk": {
       "name": "Słupsk",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Słupsku"
+      "abbrev": "w Słupsku",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/gdansk/slupsk/bytow",
+    "pl:gdansk:slupsk:bytow": {
       "name": "Bytow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bytowie"
+      "abbrev": "w Bytowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/slupsk/chojnice",
+    "pl:gdansk:slupsk:chojnice": {
       "name": "Chojnice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Chojnicach"
+      "abbrev": "w Chojnicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/slupsk/czluchow",
+    "pl:gdansk:slupsk:czluchow": {
       "name": "Człuchowo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Człuchowie"
+      "abbrev": "w Człuchowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/slupsk/lebork",
+    "pl:gdansk:slupsk:lebork": {
       "name": "Lębork",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lęborku"
+      "abbrev": "w Lęborku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/slupsk/miastko",
+    "pl:gdansk:slupsk:miastko": {
       "name": "Miastko",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Miastku"
+      "abbrev": "w Miastku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/slupsk/slupsk",
+    "pl:gdansk:slupsk:slupsk": {
       "name": "Słupsk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Słupsku"
+      "abbrev": "w Słupsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/torun",
+    "pl:gdansk:torun": {
       "name": "Torun",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Toruniu"
+      "abbrev": "w Toruniu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/gdansk/torun/brodnica",
+    "pl:gdansk:torun:brodnica": {
       "name": "Brodnica",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Brodnicy"
+      "abbrev": "w Brodnicy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/torun/chelmno",
+    "pl:gdansk:torun:chelmno": {
       "name": "Chełmno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Chełmnie"
+      "abbrev": "w Chełmnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/torun/golub.dobrzyn",
+    "pl:gdansk:torun:golub.dobrzyn": {
       "name": "Golub-Dobrzyn",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Golubiu-Dobrzyniu"
+      "abbrev": "w Golubiu-Dobrzyniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/torun/grudziadz",
+    "pl:gdansk:torun:grudziadz": {
       "name": "Grudziądz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Grudziądzu"
+      "abbrev": "w Grudziądzu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/torun/torun",
+    "pl:gdansk:torun:torun": {
       "name": "Torun",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Toruniu"
+      "abbrev": "w Toruniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/torun/wabrzezno",
+    "pl:gdansk:torun:wabrzezno": {
       "name": "Wąbrzeźno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wąbrzeźnie"
+      "abbrev": "w Wąbrzeźnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/wloclawek",
+    "pl:gdansk:wloclawek": {
       "name": "we Włocławk",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "we Włocławku"
+      "abbrev": "we Włocławku",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/gdansk/wloclawek/aleksandrow.kujawski",
+    "pl:gdansk:wloclawek:aleksandrow.kujawski": {
       "name": "Aleksandrowie Kujawski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Aleksandrowie Kujawskim"
+      "abbrev": "w Aleksandrowie Kujawskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/wloclawek/lipno",
+    "pl:gdansk:wloclawek:lipno": {
       "name": "Lipno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lipnie"
+      "abbrev": "w Lipnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/wloclawek/radziejow",
+    "pl:gdansk:wloclawek:radziejow": {
       "name": "Radziejow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Radziejowie"
+      "abbrev": "w Radziejowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/wloclawek/rypin",
+    "pl:gdansk:wloclawek:rypin": {
       "name": "Rypin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Rypinie"
+      "abbrev": "w Rypinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gdansk/wloclawek/wloclawek",
+    "pl:gdansk:wloclawek:wloclawek": {
       "name": "we Włocławk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "we Włocławku"
+      "abbrev": "we Włocławku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/gliwice",
+    "pl:gliwice": {
       "name": "Gliwice",
-      "courts": [
-        "wsa"
-      ],
-      "abbrev": "w Gliwicach"
+      "abbrev": "w Gliwicach",
+      "courts": {
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/gorzow.wielkopolski",
+    "pl:gorzow.wielkopolski": {
       "name": "Gorzowie Wielkopolski",
-      "courts": [
-        "wsa"
-      ],
-      "abbrev": "w Gorzowie Wielkopolskim"
+      "abbrev": "w Gorzowie Wielkopolskim",
+      "courts": {
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/katowice",
+    "pl:katowice": {
       "name": "Katowice",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Katowicach"
+      "abbrev": "w Katowicach",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/katowice/bielsko.biala",
+    "pl:katowice:bielsko.biala": {
       "name": "Bielsko-Biała",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Bielsku-Białej"
+      "abbrev": "w Bielsku-Białej",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/katowice/bielsko.biala/bielsko.biala",
+    "pl:katowice:bielsko.biala:bielsko.biala": {
       "name": "Bielsko-Biała",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bielsku-Białej"
+      "abbrev": "w Bielsku-Białej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/bielsko.biala/cieszyn",
+    "pl:katowice:bielsko.biala:cieszyn": {
       "name": "Cieszyn",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Cieszynie"
+      "abbrev": "w Cieszynie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/bielsko.biala/zywiec",
+    "pl:katowice:bielsko.biala:zywiec": {
       "name": "Żywc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Żywcu"
+      "abbrev": "w Żywcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/czestochowa",
+    "pl:katowice:czestochowa": {
       "name": "Częstochowa",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Częstochowie"
+      "abbrev": "w Częstochowie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/katowice/czestochowa/czestochowa",
+    "pl:katowice:czestochowa:czestochowa": {
       "name": "Częstochowa",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Częstochowie"
+      "abbrev": "w Częstochowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/czestochowa/lubliniec",
+    "pl:katowice:czestochowa:lubliniec": {
       "name": "Lublińc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lublińcu"
+      "abbrev": "w Lublińcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/czestochowa/myszkow",
+    "pl:katowice:czestochowa:myszkow": {
       "name": "Myszkow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Myszkowie"
+      "abbrev": "w Myszkowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/czestochowa/zawiercie",
+    "pl:katowice:czestochowa:zawiercie": {
       "name": "Zawiercie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zawierciu"
+      "abbrev": "w Zawierciu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice",
+    "pl:katowice:gliwice": {
       "name": "Gliwice",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Gliwicach"
+      "abbrev": "w Gliwicach",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/gliwice",
+    "pl:katowice:gliwice:gliwice": {
       "name": "Gliwice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gliwicach"
+      "abbrev": "w Gliwicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/jastrzebie.zdroj",
+    "pl:katowice:gliwice:jastrzebie.zdroj": {
       "name": "Jastrzębiu-Zdroj",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Jastrzębiu-Zdroju"
+      "abbrev": "w Jastrzębiu-Zdroju",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/raciborz",
+    "pl:katowice:gliwice:raciborz": {
       "name": "Raciborz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Raciborzu"
+      "abbrev": "w Raciborzu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/ruda.slaska",
+    "pl:katowice:gliwice:ruda.slaska": {
       "name": "Rudzie Śląska",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Rudzie Śląskiej"
+      "abbrev": "w Rudzie Śląskiej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/rybnik",
+    "pl:katowice:gliwice:rybnik": {
       "name": "Rybnik",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Rybniku"
+      "abbrev": "w Rybniku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/tarnowskie.gory",
+    "pl:katowice:gliwice:tarnowskie.gory": {
       "name": "Tarnowskie Góry",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Tarnowskich Górach"
+      "abbrev": "w Tarnowskich Górach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/wodzislaw.slaski",
+    "pl:katowice:gliwice:wodzislaw.slaski": {
       "name": "Wodzisławiu Śląski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wodzisławiu Śląskim"
+      "abbrev": "w Wodzisławiu Śląskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/zabrze",
+    "pl:katowice:gliwice:zabrze": {
       "name": "Zabrze",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zabrzu"
+      "abbrev": "w Zabrzu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/gliwice/zory",
+    "pl:katowice:gliwice:zory": {
       "name": "Żory",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Żorach"
+      "abbrev": "w Żorach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice",
+    "pl:katowice:katowice": {
       "name": "Katowice",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Katowicach"
+      "abbrev": "w Katowicach",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/bedzin",
+    "pl:katowice:katowice:bedzin": {
       "name": "Będzin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Będzinie"
+      "abbrev": "w Będzinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/bytom",
+    "pl:katowice:katowice:bytom": {
       "name": "Bytom",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bytomiu"
+      "abbrev": "w Bytomiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/chorzow",
+    "pl:katowice:katowice:chorzow": {
       "name": "Chorzow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Chorzowie"
+      "abbrev": "w Chorzowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/dabrowa.gornicza",
+    "pl:katowice:katowice:dabrowa.gornicza": {
       "name": "Dąbrowie Górnicza",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Dąbrowie Górniczej"
+      "abbrev": "w Dąbrowie Górniczej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/jaworzno",
+    "pl:katowice:katowice:jaworzno": {
       "name": "Jaworzno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Jaworznie"
+      "abbrev": "w Jaworznie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/mikolow",
+    "pl:katowice:katowice:mikolow": {
       "name": "Mikołow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Mikołowie"
+      "abbrev": "w Mikołowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/myslowice",
+    "pl:katowice:katowice:myslowice": {
       "name": "Mysłowice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Mysłowicach"
+      "abbrev": "w Mysłowicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/pszczyna",
+    "pl:katowice:katowice:pszczyna": {
       "name": "Pszczyna",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Pszczynie"
+      "abbrev": "w Pszczynie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/siemianowice.slaskie",
+    "pl:katowice:katowice:siemianowice.slaskie": {
       "name": "Siemianowice Śląskie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Siemianowicach Śląskich"
+      "abbrev": "w Siemianowicach Śląskich",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/sosnowiec",
+    "pl:katowice:katowice:sosnowiec": {
       "name": "Sosnowc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sosnowcu"
+      "abbrev": "w Sosnowcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/tychy",
+    "pl:katowice:katowice:tychy": {
       "name": "Tychy",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Tychach"
+      "abbrev": "w Tychach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/wschod.katowice",
+    "pl:katowice:katowice:wschod.katowice": {
       "name": "Katowice-Wschód",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Katowice-Wschód w Katowicach"
+      "abbrev": "Katowice-Wschód w Katowicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/katowice/katowice/zachod.katowice",
+    "pl:katowice:katowice:zachod.katowice": {
       "name": "Katowice-Zachód",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Katowice-Zachód w Katowicach"
+      "abbrev": "Katowice-Zachód w Katowicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/kielce",
+    "pl:kielce": {
       "name": "Kielce",
-      "courts": [
-        "wsa"
-      ],
-      "abbrev": "w Kielcach"
+      "abbrev": "w Kielcach",
+      "courts": {
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/krakow",
+    "pl:krakow": {
       "name": "Krakow",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Krakowie"
+      "abbrev": "w Krakowie",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce",
+    "pl:krakow:kielce": {
       "name": "Kielce",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Kielcach"
+      "abbrev": "w Kielcach",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/busku.zdroj",
+    "pl:krakow:kielce:busku.zdroj": {
       "name": "Busku-Zdroj",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Busku-Zdroju"
+      "abbrev": "w Busku-Zdroju",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/jedrzejow",
+    "pl:krakow:kielce:jedrzejow": {
       "name": "Jędrzejow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Jędrzejowie"
+      "abbrev": "w Jędrzejowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/kielce",
+    "pl:krakow:kielce:kielce": {
       "name": "Kielce",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kielcach"
+      "abbrev": "w Kielcach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/konskie",
+    "pl:krakow:kielce:konskie": {
       "name": "Końskie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Końskich"
+      "abbrev": "w Końskich",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/opatow",
+    "pl:krakow:kielce:opatow": {
       "name": "Opatow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Opatowie"
+      "abbrev": "w Opatowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/ostrowiec.swietokrzyski",
+    "pl:krakow:kielce:ostrowiec.swietokrzyski": {
       "name": "Ostrowcu Świętokrzyski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ostrowcu Świętokrzyskim"
+      "abbrev": "w Ostrowcu Świętokrzyskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/pinczow",
+    "pl:krakow:kielce:pinczow": {
       "name": "Pińczow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Pińczowie"
+      "abbrev": "w Pińczowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/sandomierz",
+    "pl:krakow:kielce:sandomierz": {
       "name": "Sandomierz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sandomierzu"
+      "abbrev": "w Sandomierzu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/skarzysko.kamienna",
+    "pl:krakow:kielce:skarzysko.kamienna": {
       "name": "Skarżysko-Kamienna",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Skarżysku-Kamiennej"
+      "abbrev": "w Skarżysku-Kamiennej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/starachowice",
+    "pl:krakow:kielce:starachowice": {
       "name": "Starachowice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Starachowicach"
+      "abbrev": "w Starachowicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/staszow",
+    "pl:krakow:kielce:staszow": {
       "name": "Staszow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Staszowie"
+      "abbrev": "w Staszowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/kielce/wloszczow",
+    "pl:krakow:kielce:wloszczow": {
       "name": "we Włoszczow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "we Włoszczowie"
+      "abbrev": "we Włoszczowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow",
+    "pl:krakow:krakow": {
       "name": "Krakow",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Krakowie"
+      "abbrev": "w Krakowie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/chrzanow",
+    "pl:krakow:krakow:chrzanow": {
       "name": "Chrzanow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Chrzanowie"
+      "abbrev": "w Chrzanowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/krowodrza",
+    "pl:krakow:krakow:krowodrza": {
       "name": "Krakow-Krowodrza",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Krakowa-Krowodrzy w Krakowie"
+      "abbrev": "dla Krakowa-Krowodrzy w Krakowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/miechow",
+    "pl:krakow:krakow:miechow": {
       "name": "Miechow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Miechowie"
+      "abbrev": "w Miechowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/myslenice",
+    "pl:krakow:krakow:myslenice": {
       "name": "Myślenice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Myślenicach"
+      "abbrev": "w Myślenicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/nowa.huta",
+    "pl:krakow:krakow:nowa.huta": {
       "name": "Nowa Huta",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Krakowa-Nowej Huty w Krakowie"
+      "abbrev": "dla Krakowa-Nowej Huty w Krakowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/olkusz",
+    "pl:krakow:krakow:olkusz": {
       "name": "Olkusz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Olkuszu"
+      "abbrev": "w Olkuszu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/oswiecim",
+    "pl:krakow:krakow:oswiecim": {
       "name": "Oświęcim",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Oświęcimiu"
+      "abbrev": "w Oświęcimiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/podgorze",
+    "pl:krakow:krakow:podgorze": {
       "name": "dla Krakowa-Podgórza w Krakowie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Krakowa-Podgórza w Krakowie"
+      "abbrev": "dla Krakowa-Podgórza w Krakowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/srodmiescie",
+    "pl:krakow:krakow:srodmiescie": {
       "name": "dla Krakowa-Śródmieścia w Krakowie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Krakowa-Śródmieścia w Krakowie"
+      "abbrev": "dla Krakowa-Śródmieścia w Krakowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/sucha.beskidzka",
+    "pl:krakow:krakow:sucha.beskidzka": {
       "name": "Suchej Beskidzka",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Suchej Beskidzkiej"
+      "abbrev": "w Suchej Beskidzkiej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/wadowice",
+    "pl:krakow:krakow:wadowice": {
       "name": "Wadowice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wadowicach"
+      "abbrev": "w Wadowicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/krakow/wieliczka",
+    "pl:krakow:krakow:wieliczka": {
       "name": "Wieliczka",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wieliczce"
+      "abbrev": "w Wieliczce",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/nowy.sacz",
+    "pl:krakow:nowy.sacz": {
       "name": "Nowy Sącz",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Nowym Sączu"
+      "abbrev": "w Nowym Sączu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/krakow/nowy.sacz/gorlice",
+    "pl:krakow:nowy.sacz:gorlice": {
       "name": "Gorlice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gorlicach"
+      "abbrev": "w Gorlicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/nowy.sacz/limanowa",
+    "pl:krakow:nowy.sacz:limanowa": {
       "name": "Limanowa",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Limanowej"
+      "abbrev": "w Limanowej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/nowy.sacz/nowy.sacz",
+    "pl:krakow:nowy.sacz:nowy.sacz": {
       "name": "Nowy Sącz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nowym Sączu"
+      "abbrev": "w Nowym Sączu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/nowy.sacz/nowy.targ",
+    "pl:krakow:nowy.sacz:nowy.targ": {
       "name": "Nowy Targ",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nowym Targu"
+      "abbrev": "w Nowym Targu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/nowy.sacz/zakopane",
+    "pl:krakow:nowy.sacz:zakopane": {
       "name": "Zakopane",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zakopanem"
+      "abbrev": "w Zakopanem",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/tarnow",
+    "pl:krakow:tarnow": {
       "name": "Tarnow",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Tarnowie"
+      "abbrev": "w Tarnowie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/krakow/tarnow/bochnia",
+    "pl:krakow:tarnow:bochnia": {
       "name": "Bochnia",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bochni"
+      "abbrev": "w Bochni",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/tarnow/brzesko",
+    "pl:krakow:tarnow:brzesko": {
       "name": "Brzesko",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Brzesku"
+      "abbrev": "w Brzesku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/tarnow/dabrowa.tarnowska",
+    "pl:krakow:tarnow:dabrowa.tarnowska": {
       "name": "Dąbrowa Tarnowska",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Dąbrowie Tarnowskiej"
+      "abbrev": "w Dąbrowie Tarnowskiej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/krakow/tarnow/tarnow",
+    "pl:krakow:tarnow:tarnow": {
       "name": "Tarnow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Tarnowie"
+      "abbrev": "w Tarnowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz",
+    "pl:lodz": {
       "name": "Łodz",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Łodzi"
+      "abbrev": "w Łodzi",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/lodz/kalisz",
+    "pl:lodz:kalisz": {
       "name": "Kalisz",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Kaliszu"
+      "abbrev": "w Kaliszu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lodz/kalisz/jarocin",
+    "pl:lodz:kalisz:jarocin": {
       "name": "Jarocin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Jarocinie"
+      "abbrev": "w Jarocinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/kalisz/kalisz",
+    "pl:lodz:kalisz:kalisz": {
       "name": "Kalisz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kaliszu"
+      "abbrev": "w Kaliszu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/kalisz/kepno",
+    "pl:lodz:kalisz:kepno": {
       "name": "Kępno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kępnie"
+      "abbrev": "w Kępnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/kalisz/krotoszyn",
+    "pl:lodz:kalisz:krotoszyn": {
       "name": "Krotoszyn",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Krotoszynie"
+      "abbrev": "w Krotoszynie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/kalisz/ostrow.wielkopolski",
+    "pl:lodz:kalisz:ostrow.wielkopolski": {
       "name": "Ostrowie Wielkopolski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ostrowie Wielkopolskim"
+      "abbrev": "w Ostrowie Wielkopolskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/kalisz/ostrzeszow",
+    "pl:lodz:kalisz:ostrzeszow": {
       "name": "Ostrzeszow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ostrzeszowie"
+      "abbrev": "w Ostrzeszowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/kalisz/pleszew",
+    "pl:lodz:kalisz:pleszew": {
       "name": "Pleszew",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Pleszewie"
+      "abbrev": "w Pleszewie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz",
+    "pl:lodz:lodz": {
       "name": "Łodz",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Łodzi"
+      "abbrev": "w Łodzi",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/brzeziny",
+    "pl:lodz:lodz:brzeziny": {
       "name": "Brzeziny",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Brzezinach"
+      "abbrev": "w Brzezinach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/kutno",
+    "pl:lodz:lodz:kutno": {
       "name": "Kutno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kutnie"
+      "abbrev": "w Kutnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/leczyca",
+    "pl:lodz:lodz:leczyca": {
       "name": "Łęczyca",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Łęczycy"
+      "abbrev": "w Łęczycy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/lowicz",
+    "pl:lodz:lodz:lowicz": {
       "name": "Łowicz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Łowiczu"
+      "abbrev": "w Łowiczu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/pabianice",
+    "pl:lodz:lodz:pabianice": {
       "name": "Pabianice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Pabianicach"
+      "abbrev": "w Pabianicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/rawa.mazowiecka",
+    "pl:lodz:lodz:rawa.mazowiecka": {
       "name": "Rawa Mazowiecka",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Rawie Mazowieckiej"
+      "abbrev": "w Rawie Mazowieckiej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/skierniewice",
+    "pl:lodz:lodz:skierniewice": {
       "name": "Skierniewice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Skierniewicach"
+      "abbrev": "w Skierniewicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/srodmiescie",
+    "pl:lodz:lodz:srodmiescie": {
       "name": "Łodz-Śródmieście",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Łodzi-Śródmieścia w Łodzi"
+      "abbrev": "dla Łodzi-Śródmieścia w Łodzi",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/widzew",
+    "pl:lodz:lodz:widzew": {
       "name": "Łodz-Widzew",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Łodzi-Widzewa w Łodzi"
+      "abbrev": "dla Łodzi-Widzewa w Łodzi",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/lodz/zgierz",
+    "pl:lodz:lodz:zgierz": {
       "name": "Zgierz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zgierzu"
+      "abbrev": "w Zgierzu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/piotrkow.trybunalski",
+    "pl:lodz:piotrkow.trybunalski": {
       "name": "Piotrkowie Trybunalski",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Piotrkowie Trybunalskim"
+      "abbrev": "w Piotrkowie Trybunalskim",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lodz/piotrkow.trybunalski/belchatow",
+    "pl:lodz:piotrkow.trybunalski:belchatow": {
       "name": "Bełchatow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bełchatowie"
+      "abbrev": "w Bełchatowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/piotrkow.trybunalski/opoczno",
+    "pl:lodz:piotrkow.trybunalski:opoczno": {
       "name": "Opoczno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Opocznie"
+      "abbrev": "w Opocznie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/piotrkow.trybunalski/piotrkow.trybunalski",
+    "pl:lodz:piotrkow.trybunalski:piotrkow.trybunalski": {
       "name": "Piotrkowie Trybunalski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Piotrkowie Trybunalskim"
+      "abbrev": "w Piotrkowie Trybunalskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/piotrkow.trybunalski/radomsko",
+    "pl:lodz:piotrkow.trybunalski:radomsko": {
       "name": "Radomsko",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Radomsku"
+      "abbrev": "w Radomsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/piotrkow.trybunalski/tomaszow.mazowiecki",
+    "pl:lodz:piotrkow.trybunalski:tomaszow.mazowiecki": {
       "name": "Tomaszowie Mazowiecki",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Tomaszowie Mazowieckim"
+      "abbrev": "w Tomaszowie Mazowieckim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock",
+    "pl:lodz:plock": {
       "name": "Płock",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Płocku"
+      "abbrev": "w Płocku",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock/ciechanow",
+    "pl:lodz:plock:ciechanow": {
       "name": "Ciechanow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ciechanowie"
+      "abbrev": "w Ciechanowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock/gostynin",
+    "pl:lodz:plock:gostynin": {
       "name": "Gostynin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gostyninie"
+      "abbrev": "w Gostyninie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock/mlawa",
+    "pl:lodz:plock:mlawa": {
       "name": "Mława",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Mławie"
+      "abbrev": "w Mławie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock/plock",
+    "pl:lodz:plock:plock": {
       "name": "Płock",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Płocku"
+      "abbrev": "w Płocku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock/plonsk",
+    "pl:lodz:plock:plonsk": {
       "name": "Płońsk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Płońsku"
+      "abbrev": "w Płońsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock/sierpc",
+    "pl:lodz:plock:sierpc": {
       "name": "Sierpc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sierpcu"
+      "abbrev": "w Sierpcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock/sochaczew",
+    "pl:lodz:plock:sochaczew": {
       "name": "Sochaczew",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sochaczewie"
+      "abbrev": "w Sochaczewie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/plock/zyrardow",
+    "pl:lodz:plock:zyrardow": {
       "name": "Żyrardow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Żyrardowie"
+      "abbrev": "w Żyrardowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/sieradz",
+    "pl:lodz:sieradz": {
       "name": "Sieradz",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Sieradzu"
+      "abbrev": "w Sieradzu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lodz/sieradz/lask",
+    "pl:lodz:sieradz:lask": {
       "name": "Łask",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Łasku"
+      "abbrev": "w Łasku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/sieradz/sieradz",
+    "pl:lodz:sieradz:sieradz": {
       "name": "Sieradz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sieradzu"
+      "abbrev": "w Sieradzu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/sieradz/wielun",
+    "pl:lodz:sieradz:wielun": {
       "name": "Wielun",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wieluniu"
+      "abbrev": "w Wieluniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lodz/sieradz/zdunska.wola",
+    "pl:lodz:sieradz:zdunska.wola": {
       "name": "Zduńska Wola",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zduńskiej Woli"
+      "abbrev": "w Zduńskiej Woli",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin",
+    "pl:lublin": {
       "name": "Lublin",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Lublinie"
+      "abbrev": "w Lublinie",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin",
+    "pl:lublin:lublin": {
       "name": "Lublin",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Lublinie"
+      "abbrev": "w Lublinie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/biala.podlaska",
+    "pl:lublin:lublin:biala.podlaska": {
       "name": "Biała Podlaska",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Białej Podlaskiej"
+      "abbrev": "w Białej Podlaskiej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/chelm",
+    "pl:lublin:lublin:chelm": {
       "name": "Chełm",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Chełmie"
+      "abbrev": "w Chełmie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/krasnik",
+    "pl:lublin:lublin:krasnik": {
       "name": "Kraśnik",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kraśniku"
+      "abbrev": "w Kraśniku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/lubartow",
+    "pl:lublin:lublin:lubartow": {
       "name": "Lubartow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lubartowie"
+      "abbrev": "w Lubartowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/lukow",
+    "pl:lublin:lublin:lukow": {
       "name": "Łukow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Łukowie"
+      "abbrev": "w Łukowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/opole.lubelskie",
+    "pl:lublin:lublin:opole.lubelskie": {
       "name": "Opolu Lubelskie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Opolu Lubelskim"
+      "abbrev": "w Opolu Lubelskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/pulawy",
+    "pl:lublin:lublin:pulawy": {
       "name": "Puławy",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Puławach"
+      "abbrev": "w Puławach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/radzyn.podlaski",
+    "pl:lublin:lublin:radzyn.podlaski": {
       "name": "Radzyniu Podlaski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Radzyniu Podlaskim"
+      "abbrev": "w Radzyniu Podlaskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/ryki",
+    "pl:lublin:lublin:ryki": {
       "name": "Ryki",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Rykach"
+      "abbrev": "w Rykach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/wlodawa",
+    "pl:lublin:lublin:wlodawa": {
       "name": "Włodawa",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "we Włodawie"
+      "abbrev": "we Włodawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/wschod.lublin",
+    "pl:lublin:lublin:wschod.lublin": {
       "name": "Lublin-Wschód",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Lublin-Wschód w Lublinie z siedzibą w Świdniku"
+      "abbrev": "Lublin-Wschód w Lublinie z siedzibą w Świdniku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/lublin/zachod.lublin",
+    "pl:lublin:lublin:zachod.lublin": {
       "name": "Lublin-Zachód",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Lublin-Zachód w Lublinie"
+      "abbrev": "Lublin-Zachód w Lublinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/radom",
+    "pl:lublin:radom": {
       "name": "Radom",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Radomiu"
+      "abbrev": "w Radomiu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lublin/radom/grojec",
+    "pl:lublin:radom:grojec": {
       "name": "Grójc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Grójcu"
+      "abbrev": "w Grójcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/radom/kozienice",
+    "pl:lublin:radom:kozienice": {
       "name": "Kozienice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kozienicach"
+      "abbrev": "w Kozienicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/radom/lipsk",
+    "pl:lublin:radom:lipsk": {
       "name": "Lipsk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lipsku"
+      "abbrev": "w Lipsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/radom/przysusze",
+    "pl:lublin:radom:przysusze": {
       "name": "Przysusze",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Przysusze"
+      "abbrev": "w Przysusze",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/radom/radom",
+    "pl:lublin:radom:radom": {
       "name": "Radom",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Radomiu"
+      "abbrev": "w Radomiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/radom/szydlowiec",
+    "pl:lublin:radom:szydlowiec": {
       "name": "Szydłowc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Szydłowcu"
+      "abbrev": "w Szydłowcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/radom/zwolen",
+    "pl:lublin:radom:zwolen": {
       "name": "Zwolen",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zwoleniu"
+      "abbrev": "w Zwoleniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/siedlce",
+    "pl:lublin:siedlce": {
       "name": "Siedlce",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Siedlcach"
+      "abbrev": "w Siedlcach",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lublin/siedlce/garwolin",
+    "pl:lublin:siedlce:garwolin": {
       "name": "Garwolin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Garwolinie"
+      "abbrev": "w Garwolinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/siedlce/minsk.mazowiecki",
+    "pl:lublin:siedlce:minsk.mazowiecki": {
       "name": "Mińsk Mazowiecki",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Mińsku Mazowieckim"
+      "abbrev": "w Mińsku Mazowieckim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/siedlce/siedlce",
+    "pl:lublin:siedlce:siedlce": {
       "name": "Siedlce",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Siedlcach"
+      "abbrev": "w Siedlcach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/siedlce/sokolow.podlaski",
+    "pl:lublin:siedlce:sokolow.podlaski": {
       "name": "Sokołowie Podlaski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sokołowie Podlaskim"
+      "abbrev": "w Sokołowie Podlaskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/siedlce/wegrow",
+    "pl:lublin:siedlce:wegrow": {
       "name": "Węgrow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Węgrowie"
+      "abbrev": "w Węgrowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/zamosc",
+    "pl:lublin:zamosc": {
       "name": "Zamośc",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Zamościu"
+      "abbrev": "w Zamościu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/lublin/zamosc/bilgoraju",
+    "pl:lublin:zamosc:bilgoraju": {
       "name": "Biłgoraju",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Biłgoraju"
+      "abbrev": "w Biłgoraju",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/zamosc/hrubieszow",
+    "pl:lublin:zamosc:hrubieszow": {
       "name": "Hrubieszow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Hrubieszowie"
+      "abbrev": "w Hrubieszowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/zamosc/janow.lubelski",
+    "pl:lublin:zamosc:janow.lubelski": {
       "name": "Janowie Lubelski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Janowie Lubelskim"
+      "abbrev": "w Janowie Lubelskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/zamosc/krasnystaw",
+    "pl:lublin:zamosc:krasnystaw": {
       "name": "Krasnystaw",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Krasnymstawie"
+      "abbrev": "w Krasnymstawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/zamosc/tomaszow.lubelski",
+    "pl:lublin:zamosc:tomaszow.lubelski": {
       "name": "Tomaszowie Lubelski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Tomaszowie Lubelskim"
+      "abbrev": "w Tomaszowie Lubelskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/lublin/zamosc/zamosc",
+    "pl:lublin:zamosc:zamosc": {
       "name": "Zamośc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zamościu"
+      "abbrev": "w Zamościu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/olsztyn",
+    "pl:olsztyn": {
       "name": "Olsztyn",
-      "courts": [
-        "wsa"
-      ],
-      "abbrev": "w Olsztynie"
+      "abbrev": "w Olsztynie",
+      "courts": {
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/opole",
+    "pl:opole": {
       "name": "Opole",
-      "courts": [
-        "wsa"
-      ],
-      "abbrev": "w Opolu"
+      "abbrev": "w Opolu",
+      "courts": {
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/poznan",
+    "pl:poznan": {
       "name": "Poznan",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Poznaniu"
+      "abbrev": "w Poznaniu",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/poznan/konin",
+    "pl:poznan:konin": {
       "name": "Konin",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Koninie"
+      "abbrev": "w Koninie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/poznan/konin/kole",
+    "pl:poznan:konin:kole": {
       "name": "Kole",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kole"
+      "abbrev": "w Kole",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/konin/konin",
+    "pl:poznan:konin:konin": {
       "name": "Konin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Koninie"
+      "abbrev": "w Koninie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/konin/slupcy",
+    "pl:poznan:konin:slupcy": {
       "name": "Słupcy",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Słupcy"
+      "abbrev": "w Słupcy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/konin/turku",
+    "pl:poznan:konin:turku": {
       "name": "Turku",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Turku"
+      "abbrev": "w Turku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan",
+    "pl:poznan:poznan": {
       "name": "Poznan",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Poznaniu"
+      "abbrev": "w Poznaniu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/chodziez",
+    "pl:poznan:poznan:chodziez": {
       "name": "Chodzież",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Chodzieży"
+      "abbrev": "w Chodzieży",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/gniezno",
+    "pl:poznan:poznan:gniezno": {
       "name": "Gnieźno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gnieźnie"
+      "abbrev": "w Gnieźnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/gostyn",
+    "pl:poznan:poznan:gostyn": {
       "name": "Gostyn",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gostyniu"
+      "abbrev": "w Gostyniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/grodzisk.wielkopolski",
+    "pl:poznan:poznan:grodzisk.wielkopolski": {
       "name": "Grodzisk Wielkopolski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Grodzisku Wielkopolskim"
+      "abbrev": "w Grodzisku Wielkopolskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/grunwald.jezyce",
+    "pl:poznan:poznan:grunwald.jezyce": {
       "name": "Grunwald i Jeżyce",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Poznań-Grunwald i Jeżyce w Poznaniu"
+      "abbrev": "Poznań-Grunwald i Jeżyce w Poznaniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/koscian",
+    "pl:poznan:poznan:koscian": {
       "name": "Kościan",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kościanie"
+      "abbrev": "w Kościanie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/leszno",
+    "pl:poznan:poznan:leszno": {
       "name": "Leszno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lesznie"
+      "abbrev": "w Lesznie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/nowe.miasto.wilda",
+    "pl:poznan:poznan:nowe.miasto.wilda": {
       "name": "Nowe Miasto i Wilda",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Poznań-Nowe Miasto i Wilda w Poznaniu"
+      "abbrev": "Poznań-Nowe Miasto i Wilda w Poznaniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/nowy.tomysl",
+    "pl:poznan:poznan:nowy.tomysl": {
       "name": "Nowy Tomyśl",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nowym Tomyślu"
+      "abbrev": "w Nowym Tomyślu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/oborniki",
+    "pl:poznan:poznan:oborniki": {
       "name": "Oborniki",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Obornikach"
+      "abbrev": "w Obornikach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/pile",
+    "pl:poznan:poznan:pile": {
       "name": "Pile",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Pile"
+      "abbrev": "w Pile",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/rawicz",
+    "pl:poznan:poznan:rawicz": {
       "name": "Rawicz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Rawiczu"
+      "abbrev": "w Rawiczu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/srem",
+    "pl:poznan:poznan:srem": {
       "name": "Śrem",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Śremie"
+      "abbrev": "w Śremie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/sroda.wielkopolska",
+    "pl:poznan:poznan:sroda.wielkopolska": {
       "name": "Środa Wielkopolska",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Środzie Wielkopolskiej"
+      "abbrev": "w Środzie Wielkopolskiej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/stare.miasto",
+    "pl:poznan:poznan:stare.miasto": {
       "name": "Stare Miasto",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Poznań-Stare Miasto w Poznaniu"
+      "abbrev": "Poznań-Stare Miasto w Poznaniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/szamotuly",
+    "pl:poznan:poznan:szamotuly": {
       "name": "Szamotuły",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Szamotułach"
+      "abbrev": "w Szamotułach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/trzcianka",
+    "pl:poznan:poznan:trzcianka": {
       "name": "Trzcianka",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Trzciance"
+      "abbrev": "w Trzciance",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/wagrowiec",
+    "pl:poznan:poznan:wagrowiec": {
       "name": "Wągrowc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wągrowcu"
+      "abbrev": "w Wągrowcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/wolsztyn",
+    "pl:poznan:poznan:wolsztyn": {
       "name": "Wolsztyn",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wolsztynie"
+      "abbrev": "w Wolsztynie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/wrzesnia",
+    "pl:poznan:poznan:wrzesnia": {
       "name": "Września",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "we Wrześni"
+      "abbrev": "we Wrześni",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/poznan/zlotow",
+    "pl:poznan:poznan:zlotow": {
       "name": "Złotow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Złotowie"
+      "abbrev": "w Złotowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/zielona.gora",
+    "pl:poznan:zielona.gora": {
       "name": "Zielona Góra",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Zielonej Górze"
+      "abbrev": "w Zielonej Górze",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/poznan/zielona.gora/krosno.odrzanskie",
+    "pl:poznan:zielona.gora:krosno.odrzanskie": {
       "name": "Krośnie Odrzańskie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Krośnie Odrzańskim"
+      "abbrev": "w Krośnie Odrzańskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/zielona.gora/nowa.sol",
+    "pl:poznan:zielona.gora:nowa.sol": {
       "name": "Nowa Sol",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nowej Soli"
+      "abbrev": "w Nowej Soli",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/zielona.gora/swiebodzin",
+    "pl:poznan:zielona.gora:swiebodzin": {
       "name": "Świebodzin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Świebodzinie"
+      "abbrev": "w Świebodzinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/zielona.gora/wschowa",
+    "pl:poznan:zielona.gora:wschowa": {
       "name": "Wschowa",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "we Wschowie"
+      "abbrev": "we Wschowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/zielona.gora/zagan",
+    "pl:poznan:zielona.gora:zagan": {
       "name": "Żagan",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Żaganiu"
+      "abbrev": "w Żaganiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/zielona.gora/zary",
+    "pl:poznan:zielona.gora:zary": {
       "name": "Żary",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Żarach"
+      "abbrev": "w Żarach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/poznan/zielona.gora/zielona.gora",
+    "pl:poznan:zielona.gora:zielona.gora": {
       "name": "Zielona Góra",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zielonej Górze"
+      "abbrev": "w Zielonej Górze",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow",
+    "pl:rzeszow": {
       "name": "Rzeszow",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Rzeszowie"
+      "abbrev": "w Rzeszowie",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/krosno",
+    "pl:rzeszow:krosno": {
       "name": "Krośno",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Krośnie"
+      "abbrev": "w Krośnie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/krosno/brzozow",
+    "pl:rzeszow:krosno:brzozow": {
       "name": "Brzozow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Brzozowie"
+      "abbrev": "w Brzozowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/krosno/jaslo",
+    "pl:rzeszow:krosno:jaslo": {
       "name": "Jaślo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Jaśle"
+      "abbrev": "w Jaśle",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/krosno/krosno",
+    "pl:rzeszow:krosno:krosno": {
       "name": "Krośno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Krośnie"
+      "abbrev": "w Krośnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/krosno/lesko",
+    "pl:rzeszow:krosno:lesko": {
       "name": "Lesko",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lesku"
+      "abbrev": "w Lesku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/krosno/sanok",
+    "pl:rzeszow:krosno:sanok": {
       "name": "Sanok",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sanoku"
+      "abbrev": "w Sanoku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/przemysl",
+    "pl:rzeszow:przemysl": {
       "name": "Przemyśl",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Przemyślu"
+      "abbrev": "w Przemyślu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/przemysl/jaroslaw",
+    "pl:rzeszow:przemysl:jaroslaw": {
       "name": "Jarosław",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Jarosławiu"
+      "abbrev": "w Jarosławiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/przemysl/lubaczow",
+    "pl:rzeszow:przemysl:lubaczow": {
       "name": "Lubaczow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lubaczowie"
+      "abbrev": "w Lubaczowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/przemysl/przemysl",
+    "pl:rzeszow:przemysl:przemysl": {
       "name": "Przemyśl",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Przemyślu"
+      "abbrev": "w Przemyślu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/przemysl/przeworsk",
+    "pl:rzeszow:przemysl:przeworsk": {
       "name": "Przeworsk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Przeworsku"
+      "abbrev": "w Przeworsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/rzeszow",
+    "pl:rzeszow:rzeszow": {
       "name": "Rzeszow",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Rzeszowie"
+      "abbrev": "w Rzeszowie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/rzeszow/debica",
+    "pl:rzeszow:rzeszow:debica": {
       "name": "Dębica",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Dębicy"
+      "abbrev": "w Dębicy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/rzeszow/lancut",
+    "pl:rzeszow:rzeszow:lancut": {
       "name": "Łańcut",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Łańcucie"
+      "abbrev": "w Łańcucie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/rzeszow/lezajsk",
+    "pl:rzeszow:rzeszow:lezajsk": {
       "name": "Leżajsk",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Leżajsku"
+      "abbrev": "w Leżajsku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/rzeszow/ropczyce",
+    "pl:rzeszow:rzeszow:ropczyce": {
       "name": "Ropczyce",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ropczycach"
+      "abbrev": "w Ropczycach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/rzeszow/rzeszow",
+    "pl:rzeszow:rzeszow:rzeszow": {
       "name": "Rzeszow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Rzeszowie"
+      "abbrev": "w Rzeszowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/rzeszow/strzyzow",
+    "pl:rzeszow:rzeszow:strzyzow": {
       "name": "Strzyżow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Strzyżowie"
+      "abbrev": "w Strzyżowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/tarnobrzeg",
+    "pl:rzeszow:tarnobrzeg": {
       "name": "Tarnobrzeg",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Tarnobrzegu"
+      "abbrev": "w Tarnobrzegu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/tarnobrzeg/kolbuszowa",
+    "pl:rzeszow:tarnobrzeg:kolbuszowa": {
       "name": "Kolbuszowa",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kolbuszowej"
+      "abbrev": "w Kolbuszowej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/tarnobrzeg/mielec",
+    "pl:rzeszow:tarnobrzeg:mielec": {
       "name": "Mielc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Mielcu"
+      "abbrev": "w Mielcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/tarnobrzeg/nisko",
+    "pl:rzeszow:tarnobrzeg:nisko": {
       "name": "Nisko",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nisku"
+      "abbrev": "w Nisku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/tarnobrzeg/stalowa.wola",
+    "pl:rzeszow:tarnobrzeg:stalowa.wola": {
       "name": "Stalowa Wola",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Stalowej Woli"
+      "abbrev": "w Stalowej Woli",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/rzeszow/tarnobrzeg/tarnobrzeg",
+    "pl:rzeszow:tarnobrzeg:tarnobrzeg": {
       "name": "Tarnobrzeg",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Tarnobrzegu"
+      "abbrev": "w Tarnobrzegu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin",
+    "pl:szczecin": {
       "name": "Szczecin",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Szczecinie"
+      "abbrev": "w Szczecinie",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/szczecin/gorzow.wielkopolski",
+    "pl:szczecin:gorzow.wielkopolski": {
       "name": "Gorzowie Wielkopolski",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Gorzowie Wielkopolskim"
+      "abbrev": "w Gorzowie Wielkopolskim",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/szczecin/gorzow.wielkopolski/gorzow.wielkopolski",
+    "pl:szczecin:gorzow.wielkopolski:gorzow.wielkopolski": {
       "name": "Gorzowie Wielkopolski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gorzowie Wielkopolskim"
+      "abbrev": "w Gorzowie Wielkopolskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/gorzow.wielkopolski/miedzyrzecz",
+    "pl:szczecin:gorzow.wielkopolski:miedzyrzecz": {
       "name": "Międzyrzecz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Międzyrzeczu"
+      "abbrev": "w Międzyrzeczu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/gorzow.wielkopolski/slubice",
+    "pl:szczecin:gorzow.wielkopolski:slubice": {
       "name": "Słubice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Słubicach"
+      "abbrev": "w Słubicach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/gorzow.wielkopolski/strzelce.krajenskie",
+    "pl:szczecin:gorzow.wielkopolski:strzelce.krajenskie": {
       "name": "Strzelce Krajeńskie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Strzelcach Krajeńskich"
+      "abbrev": "w Strzelcach Krajeńskich",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/gorzow.wielkopolski/sulecin",
+    "pl:szczecin:gorzow.wielkopolski:sulecin": {
       "name": "Sulęcin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sulęcinie"
+      "abbrev": "w Sulęcinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/koszalin",
+    "pl:szczecin:koszalin": {
       "name": "Koszalin",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Koszalinie"
+      "abbrev": "w Koszalinie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/szczecin/koszalin/bialogard",
+    "pl:szczecin:koszalin:bialogard": {
       "name": "Białogard",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Białogardzie"
+      "abbrev": "w Białogardzie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/koszalin/drawsko.pomorskie",
+    "pl:szczecin:koszalin:drawsko.pomorskie": {
       "name": "Drawsko Pomorskie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Drawsku Pomorskim"
+      "abbrev": "w Drawsku Pomorskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/koszalin/kolobrzeg",
+    "pl:szczecin:koszalin:kolobrzeg": {
       "name": "Kołobrzeg",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kołobrzegu"
+      "abbrev": "w Kołobrzegu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/koszalin/koszalin",
+    "pl:szczecin:koszalin:koszalin": {
       "name": "Koszalin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Koszalinie"
+      "abbrev": "w Koszalinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/koszalin/slawno",
+    "pl:szczecin:koszalin:slawno": {
       "name": "Sławno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Sławnie"
+      "abbrev": "w Sławnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/koszalin/szczecinek",
+    "pl:szczecin:koszalin:szczecinek": {
       "name": "Szczecink",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Szczecinku"
+      "abbrev": "w Szczecinku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/koszalin/walcz",
+    "pl:szczecin:koszalin:walcz": {
       "name": "Wałcz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wałczu"
+      "abbrev": "w Wałczu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin",
+    "pl:szczecin:szczecin": {
       "name": "Szczecin",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Szczecinie"
+      "abbrev": "w Szczecinie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/choszczno",
+    "pl:szczecin:szczecin:choszczno": {
       "name": "Choszczno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Choszcznie"
+      "abbrev": "w Choszcznie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/goleniow",
+    "pl:szczecin:szczecin:goleniow": {
       "name": "Goleniowo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Goleniowie"
+      "abbrev": "w Goleniowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/gryfice",
+    "pl:szczecin:szczecin:gryfice": {
       "name": "Gryfice",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gryficach"
+      "abbrev": "w Gryficach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/gryfino",
+    "pl:szczecin:szczecin:gryfino": {
       "name": "Gryfino",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Gryfinie"
+      "abbrev": "w Gryfinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/kamien.pomorski",
+    "pl:szczecin:szczecin:kamien.pomorski": {
       "name": "Kamieniu Pomorski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kamieniu Pomorskim"
+      "abbrev": "w Kamieniu Pomorskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/lobzie",
+    "pl:szczecin:szczecin:lobzie": {
       "name": "Łobzie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Łobzie"
+      "abbrev": "w Łobzie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/mysliborz",
+    "pl:szczecin:szczecin:mysliborz": {
       "name": "Myśliborz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Myśliborzu"
+      "abbrev": "w Myśliborzu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/prawobrzeze",
+    "pl:szczecin:szczecin:prawobrzeze": {
       "name": "Szczecin-Prawobrzeże i Zachód w Szczecinie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Szczecin-Prawobrzeże i Zachód w Szczecinie"
+      "abbrev": "Szczecin-Prawobrzeże i Zachód w Szczecinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/stargard",
+    "pl:szczecin:szczecin:stargard": {
       "name": "Stargard",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Stargardzie"
+      "abbrev": "w Stargardzie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/swinoujscie",
+    "pl:szczecin:szczecin:swinoujscie": {
       "name": "Świnoujście",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Świnoujściu"
+      "abbrev": "w Świnoujściu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/szczecin/szczecin/szczecin.centrum",
+    "pl:szczecin:szczecin:szczecin.centrum": {
       "name": "Szczecin-Centrum",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "Szczecin-Centrum w Szczecinie"
+      "abbrev": "Szczecin-Centrum w Szczecinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw",
+    "pl:warsaw": {
       "name": "Warszaw",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "w Warszawie"
+      "abbrev": "w Warszawie",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/warsaw/praga",
+    "pl:warsaw:praga": {
       "name": "Praga",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "Warszawa-Praga w Warszawie"
+      "abbrev": "Warszawa-Praga w Warszawie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/warsaw/praga/legionowo",
+    "pl:warsaw:praga:legionowo": {
       "name": "Legionowo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Legionowie"
+      "abbrev": "w Legionowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/praga/nowy.dwor.mazowiecki",
+    "pl:warsaw:praga:nowy.dwor.mazowiecki": {
       "name": "Nowy Dwor Mazowiecki",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nowym Dworze Mazowieckim"
+      "abbrev": "w Nowym Dworze Mazowieckim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/praga/otwock",
+    "pl:warsaw:praga:otwock": {
       "name": "Otwock",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Otwocku"
+      "abbrev": "w Otwocku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/praga/praga.polnoc",
+    "pl:warsaw:praga:praga.polnoc": {
       "name": "Praga-Północ",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Warszawy Pragi-Północ w Warszawie"
+      "abbrev": "dla Warszawy Pragi-Północ w Warszawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/praga/praga.poludnie",
+    "pl:warsaw:praga:praga.poludnie": {
       "name": "dla Warszawy Pragi-Południe w Warszawie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Warszawy Pragi-Południe w Warszawie"
+      "abbrev": "dla Warszawy Pragi-Południe w Warszawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/praga/wolomin",
+    "pl:warsaw:praga:wolomin": {
       "name": "Wołomin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wołominie"
+      "abbrev": "w Wołominie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw",
+    "pl:warsaw:warsaw": {
       "name": "Warszaw",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Warszawie"
+      "abbrev": "w Warszawie",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw/grodzisk.mazowiecki",
+    "pl:warsaw:warsaw:grodzisk.mazowiecki": {
       "name": "Grodzisk Mazowiecki",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Grodzisku Mazowieckim"
+      "abbrev": "w Grodzisku Mazowieckim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw/miasta.stolecznego",
+    "pl:warsaw:warsaw:miasta.stolecznego": {
       "name": "Miasta Stołecznego",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla miasta stołecznego Warszawy w Warszawie"
+      "abbrev": "dla miasta stołecznego Warszawy w Warszawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw/mokotow",
+    "pl:warsaw:warsaw:mokotow": {
       "name": "Mokotowa",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Warszawy-Mokotowa w Warszawie"
+      "abbrev": "dla Warszawy-Mokotowa w Warszawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw/piaseczno",
+    "pl:warsaw:warsaw:piaseczno": {
       "name": "Piaseczno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Piasecznie"
+      "abbrev": "w Piasecznie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw/pruszkow",
+    "pl:warsaw:warsaw:pruszkow": {
       "name": "Pruszkow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Pruszkowie"
+      "abbrev": "w Pruszkowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw/srodmiescie",
+    "pl:warsaw:warsaw:srodmiescie": {
       "name": "dla Warszawy-Śródmieścia w Warszawie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Warszawy-Śródmieścia w Warszawie"
+      "abbrev": "dla Warszawy-Śródmieścia w Warszawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw/wola",
+    "pl:warsaw:warsaw:wola": {
       "name": "Wola",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Warszawy-Woli w Warszawie"
+      "abbrev": "dla Warszawy-Woli w Warszawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/warsaw/warsaw/zoliborz",
+    "pl:warsaw:warsaw:zoliborz": {
       "name": "Żoliborz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Warszawy-Żoliborza w Warszawie"
+      "abbrev": "dla Warszawy-Żoliborza w Warszawie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw",
+    "pl:wroclaw": {
       "name": "Wrocław",
-      "courts": [
-        "sa",
-        "wsa"
-      ],
-      "abbrev": "we Wrocławiu"
+      "abbrev": "we Wrocławiu",
+      "courts": {
+        "sa": {},
+        "wsa": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/jelenia.gora",
+    "pl:wroclaw:jelenia.gora": {
       "name": "Jelenia Góra",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Jeleniej Górze"
+      "abbrev": "w Jeleniej Górze",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/jelenia.gora/boleslawiec",
+    "pl:wroclaw:jelenia.gora:boleslawiec": {
       "name": "Bolesławc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Bolesławcu"
+      "abbrev": "w Bolesławcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/jelenia.gora/jelenia.gora",
+    "pl:wroclaw:jelenia.gora:jelenia.gora": {
       "name": "Jelena Góra",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Jeleniej Górze"
+      "abbrev": "w Jeleniej Górze",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/jelenia.gora/kamienna.gora",
+    "pl:wroclaw:jelenia.gora:kamienna.gora": {
       "name": "Kamienna Góra",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kamiennej Górze"
+      "abbrev": "w Kamiennej Górze",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/jelenia.gora/lubanie",
+    "pl:wroclaw:jelenia.gora:lubanie": {
       "name": "Lubanie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lubaniu"
+      "abbrev": "w Lubaniu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/jelenia.gora/lwowek.slaski",
+    "pl:wroclaw:jelenia.gora:lwowek.slaski": {
       "name": "Lwówek Śląski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lwówku Śląskim"
+      "abbrev": "w Lwówku Śląskim",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/jelenia.gora/zgorzelec",
+    "pl:wroclaw:jelenia.gora:zgorzelec": {
       "name": "Zgorzelc",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Zgorzelcu"
+      "abbrev": "w Zgorzelcu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/legnica",
+    "pl:wroclaw:legnica": {
       "name": "Legnica",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Legnicy"
+      "abbrev": "w Legnicy",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/legnica/glogow",
+    "pl:wroclaw:legnica:glogow": {
       "name": "Głogow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Głogowie"
+      "abbrev": "w Głogowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/legnica/jaworze",
+    "pl:wroclaw:legnica:jaworze": {
       "name": "Jaworze",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Jaworze"
+      "abbrev": "w Jaworze",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/legnica/legnica",
+    "pl:wroclaw:legnica:legnica": {
       "name": "Legnica",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Legnicy"
+      "abbrev": "w Legnicy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/legnica/lubin",
+    "pl:wroclaw:legnica:lubin": {
       "name": "Lubin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Lubinie"
+      "abbrev": "w Lubinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/legnica/zlotor",
+    "pl:wroclaw:legnica:zlotor": {
       "name": "Złotor",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Złotoryi"
+      "abbrev": "w Złotoryi",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole",
+    "pl:wroclaw:opole": {
       "name": "Opole",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Opolu"
+      "abbrev": "w Opolu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/brzeg",
+    "pl:wroclaw:opole:brzeg": {
       "name": "Brzeg",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Brzegu"
+      "abbrev": "w Brzegu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/glubczyce",
+    "pl:wroclaw:opole:glubczyce": {
       "name": "Głubczyce",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Głubczycach"
+      "abbrev": "w Głubczycach",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/kedzierzyn.kozle",
+    "pl:wroclaw:opole:kedzierzyn.kozle": {
       "name": "Kędzierzyn-Koźle",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kędzierzynie-Koźlu"
+      "abbrev": "w Kędzierzynie-Koźlu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/kluczbork",
+    "pl:wroclaw:opole:kluczbork": {
       "name": "Kluczbork",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kluczborku"
+      "abbrev": "w Kluczborku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/nysa",
+    "pl:wroclaw:opole:nysa": {
       "name": "Nysa",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Nysie"
+      "abbrev": "w Nysie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/olesno",
+    "pl:wroclaw:opole:olesno": {
       "name": "Oleśno",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Oleśnie"
+      "abbrev": "w Oleśnie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/opole",
+    "pl:wroclaw:opole:opole": {
       "name": "Opole",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Opolu"
+      "abbrev": "w Opolu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/prudnik",
+    "pl:wroclaw:opole:prudnik": {
       "name": "Prudnik",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Prudniku"
+      "abbrev": "w Prudniku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/opole/strzelce.opolski",
+    "pl:wroclaw:opole:strzelce.opolski": {
       "name": "Strzelce Opolski",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Strzelcach Opolskich"
+      "abbrev": "w Strzelcach Opolskich",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/swidnica",
+    "pl:wroclaw:swidnica": {
       "name": "Świdnica",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "w Świdnicy"
+      "abbrev": "w Świdnicy",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/swidnica/dzierzoniow",
+    "pl:wroclaw:swidnica:dzierzoniow": {
       "name": "Dzierżoniowo",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Dzierżoniowie"
+      "abbrev": "w Dzierżoniowie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/swidnica/klodzko",
+    "pl:wroclaw:swidnica:klodzko": {
       "name": "Kłodzko",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Kłodzku"
+      "abbrev": "w Kłodzku",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/swidnica/swidnica",
+    "pl:wroclaw:swidnica:swidnica": {
       "name": "Świdnica",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Świdnicy"
+      "abbrev": "w Świdnicy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/swidnica/walbrzych",
+    "pl:wroclaw:swidnica:walbrzych": {
       "name": "Wałbrzych",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wałbrzychu"
+      "abbrev": "w Wałbrzychu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/swidnica/zabkowice.slaskie",
+    "pl:wroclaw:swidnica:zabkowice.slaskie": {
       "name": "Ząbkowice Śląskie",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Ząbkowicach Śląskich"
+      "abbrev": "w Ząbkowicach Śląskich",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw",
+    "pl:wroclaw:wroclaw": {
       "name": "Wrocław",
-      "courts": [
-        "so"
-      ],
-      "abbrev": "we Wrocławiu"
+      "abbrev": "we Wrocławiu",
+      "courts": {
+        "so": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/fabryczna",
+    "pl:wroclaw:wroclaw:fabryczna": {
       "name": "Fabryczna",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Wrocławia-Fabrycznej we Wrocławiu"
+      "abbrev": "dla Wrocławia-Fabrycznej we Wrocławiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/krzykow",
+    "pl:wroclaw:wroclaw:krzykow": {
       "name": "Krzyków",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Wrocławia-Krzyków we Wrocławiu"
+      "abbrev": "dla Wrocławia-Krzyków we Wrocławiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/milicz",
+    "pl:wroclaw:wroclaw:milicz": {
       "name": "Milicz",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Miliczu"
+      "abbrev": "w Miliczu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/olawa",
+    "pl:wroclaw:wroclaw:olawa": {
       "name": "Oława",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Oławie"
+      "abbrev": "w Oławie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/olesnica",
+    "pl:wroclaw:wroclaw:olesnica": {
       "name": "Oleśnica",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Oleśnicy"
+      "abbrev": "w Oleśnicy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/sroda.slaska",
+    "pl:wroclaw:wroclaw:sroda.slaska": {
       "name": "Środa Śląska",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Środzie Śląskiej"
+      "abbrev": "w Środzie Śląskiej",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/srodmiescie",
+    "pl:wroclaw:wroclaw:srodmiescie": {
       "name": "Śródmieście",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "dla Wrocławia-Śródmieścia we Wrocławiu"
+      "abbrev": "dla Wrocławia-Śródmieścia we Wrocławiu",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/strzelin",
+    "pl:wroclaw:wroclaw:strzelin": {
       "name": "Strzelin",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Strzelinie"
+      "abbrev": "w Strzelinie",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/trzebnica",
+    "pl:wroclaw:wroclaw:trzebnica": {
       "name": "Trzebnica",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Trzebnicy"
+      "abbrev": "w Trzebnicy",
+      "courts": {
+        "sr": {}
+      }
     },
-    {
-      "path": "pl/wroclaw/wroclaw/wolow",
+    "pl:wroclaw:wroclaw:wolow": {
       "name": "Wołow",
-      "courts": [
-        "sr"
-      ],
-      "abbrev": "w Wołowie"
+      "abbrev": "w Wołowie",
+      "courts": {
+        "sr": {}
+      }
     }
-  ]
+  }
 }

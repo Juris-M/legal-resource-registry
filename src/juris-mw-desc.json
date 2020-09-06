@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mw",
-      "name": "Malawi",
-      "courts": []
+  "jurisdictions": {
+    "mw": {
+      "name": "Malawi"
     }
-  ]
+  }
 }

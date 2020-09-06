@@ -139,6 +139,5 @@ if (opts.a && opts.j) {
 if (opts.c) {
 	abstractFromOldDescriptive(opts).catch(err => handleError(err));
 } else {
-	console.log("Converting description to compiled forms");
-	console.log("... oops, still need to implement this");
+	descriptiveToCompact(opts).catch(err => handleError(err));
 }

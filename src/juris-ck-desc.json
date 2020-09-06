@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ck",
-      "name": "Cook Islands",
-      "courts": []
+  "jurisdictions": {
+    "ck": {
+      "name": "Cook Islands"
     }
-  ]
+  }
 }

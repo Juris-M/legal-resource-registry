@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "gt",
-      "name": "Guatemala",
-      "courts": []
+  "jurisdictions": {
+    "gt": {
+      "name": "Guatemala"
     }
-  ]
+  }
 }

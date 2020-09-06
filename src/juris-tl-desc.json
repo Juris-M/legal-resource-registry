@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "tl",
-      "name": "Timor-Leste",
-      "courts": []
+  "jurisdictions": {
+    "tl": {
+      "name": "Timor-Leste"
     }
-  ]
+  }
 }

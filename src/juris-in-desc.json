@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "in",
-      "name": "India",
-      "courts": []
+  "jurisdictions": {
+    "in": {
+      "name": "India"
     }
-  ]
+  }
 }

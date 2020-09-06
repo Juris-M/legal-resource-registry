@@ -1,8 +1,9 @@
 {
+  "langs": {},
   "courts": {
     "ca": {
-		"name": "Cour d'appel",
-		"abbrev": "CA >"
+      "name": "Cour d'appel",
+      "abbrev": "CA %s"
     },
     "cass": {
       "name": "Cour de Cassation"
@@ -41,277 +42,240 @@
       "name": "Cour National du Droit d'Asile"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "fr",
+  "jurisdictions": {
+    "fr": {
       "name": "France",
-      "courts": [
-        "ca",
-        "cass",
-        "cass~civ1",
-        "cass~civ2",
-        "cass~civ3",
-        "cass~crim",
-        "cass~fin",
-        "cass~plen",
-        "cass~soc",
-        "cc",
-        "ce",
-		"ce~cont",  
-        "cnda"
-      ]
+      "courts": {
+        "ca": {},
+        "cass": {},
+        "cass~civ1": {},
+        "cass~civ2": {},
+        "cass~civ3": {},
+        "cass~crim": {},
+        "cass~fin": {},
+        "cass~plen": {},
+        "cass~soc": {},
+        "cc": {},
+        "ce": {},
+        "ce~cont": {},
+        "cnda": {}
+      }
     },
-    {
-      "path": "fr/agen",
+    "fr:agen": {
       "name": "Agen",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/aix.en.provence",
+    "fr:aix.en.provence": {
       "name": "Aix-en-Provence",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/amiens",
+    "fr:amiens": {
       "name": "Amiens",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/angers",
+    "fr:angers": {
       "name": "Angers",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/basse.terre",
+    "fr:basse.terre": {
       "name": "Basse-Terre",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/bastia",
+    "fr:bastia": {
       "name": "Bastia",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/besancon",
+    "fr:besancon": {
       "name": "Besançon",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/bordeaux",
+    "fr:bordeaux": {
       "name": "Bordeaux",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/bourges",
+    "fr:bourges": {
       "name": "Bourges",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/caen",
+    "fr:caen": {
       "name": "Caen",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/cayenne",
+    "fr:cayenne": {
       "name": "Cayenne",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/chambery",
+    "fr:chambery": {
       "name": "Chambéry",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/colmar",
+    "fr:colmar": {
       "name": "Colmar",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/dijon",
+    "fr:dijon": {
       "name": "Dijon",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/douai",
+    "fr:douai": {
       "name": "Douai",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/fort.france",
+    "fr:fort.france": {
       "name": "Fort-de-France",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/grenoble",
+    "fr:grenoble": {
       "name": "Grenoble",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/limoges",
+    "fr:limoges": {
       "name": "Limoges",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/lyon",
+    "fr:lyon": {
       "name": "Lyon",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/metz",
+    "fr:metz": {
       "name": "Metz",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/montpellier",
+    "fr:montpellier": {
       "name": "Montpellier",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/nancy",
+    "fr:nancy": {
       "name": "Nancy",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/nimes",
+    "fr:nimes": {
       "name": "Nîmes",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/noumea",
+    "fr:noumea": {
       "name": "Nouméa",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/orleans",
+    "fr:orleans": {
       "name": "Orléans",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/papeete",
+    "fr:papeete": {
       "name": "Papeete",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/paris",
+    "fr:paris": {
       "name": "Paris",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/pau",
+    "fr:pau": {
       "name": "Pau",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/poitiers",
+    "fr:poitiers": {
       "name": "Poitiers",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/reims",
+    "fr:reims": {
       "name": "Reims",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/rennes",
+    "fr:rennes": {
       "name": "Rennes",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/riom",
+    "fr:riom": {
       "name": "Riom",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/rouen",
+    "fr:rouen": {
       "name": "Rouen",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/saint.denis",
+    "fr:saint.denis": {
       "name": "Saint-Denis",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/toulouse",
+    "fr:toulouse": {
       "name": "Toulouse",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "fr/versailles",
+    "fr:versailles": {
       "name": "Versailles",
-      "courts": [
-        "ca"
-      ]
+      "courts": {
+        "ca": {}
+      }
     }
-  ]
+  }
 }

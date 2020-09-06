@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ly",
-      "name": "Libya",
-      "courts": []
+  "jurisdictions": {
+    "ly": {
+      "name": "Libya"
     }
-  ]
+  }
 }

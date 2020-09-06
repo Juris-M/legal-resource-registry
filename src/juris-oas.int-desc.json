@@ -1,16 +1,16 @@
 {
+  "langs": {},
   "courts": {
     "iachr": {
       "name": "Corte Interamericana de Derechos Humanos"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "oas.int",
+  "jurisdictions": {
+    "oas.int": {
       "name": "Organization of American States",
-      "courts": [
-        "iachr"
-      ]
+      "courts": {
+        "iachr": {}
+      }
     }
-  ]
+  }
 }

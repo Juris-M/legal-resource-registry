@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "na",
-      "name": "Namibia",
-      "courts": []
+  "jurisdictions": {
+    "na": {
+      "name": "Namibia"
     }
-  ]
+  }
 }

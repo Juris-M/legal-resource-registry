@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "sr",
-      "name": "Suriname",
-      "courts": []
+  "jurisdictions": {
+    "sr": {
+      "name": "Suriname"
     }
-  ]
+  }
 }

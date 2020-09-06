@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "sa",
-      "name": "Saudi Arabia",
-      "courts": []
+  "jurisdictions": {
+    "sa": {
+      "name": "Saudi Arabia"
     }
-  ]
+  }
 }

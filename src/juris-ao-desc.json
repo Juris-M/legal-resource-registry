@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ao",
-      "name": "Angola",
-      "courts": []
+  "jurisdictions": {
+    "ao": {
+      "name": "Angola"
     }
-  ]
+  }
 }

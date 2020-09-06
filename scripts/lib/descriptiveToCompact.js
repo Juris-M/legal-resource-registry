@@ -6,14 +6,153 @@ const util = require("./util");
 const handleError = require("./errors").handleError;
 const config = require("./config").config;
 
-// Okay, gotta do this from scratch.
-// 1. Return array of jurisdictions depending on -j or -a
+const processJurisAbbrevs = (jurisDesc) => {
+	
+}
 
+// OKAY
+// For courts, just harvest everything in a single array.
+// For jurisdictions, accept lang pref as optional arg,
+// set just one per key, and prefer matching variant by overwriting.
+
+const getCourtStrings = (jurisDesc) => {
+	var strings = [];
+	var stringIndex = {};
+	for (var cKey in jurisDesc.courts) {
+		var obj = jurisDesc.courts[cKey];
+		stringIndex[`${cKey}:default`] = strings.length;
+		//if (obj.name.indexOf("%s") > -1) {
+		//	console.log(`XXX ${obj.name}`);
+		//}
+		strings.push([cKey, obj.name]);
+		if (obj.variants) {
+			for (var lang in obj.variants) {
+				var objVariant = obj.variants[lang];
+				if (objVariant.name) {
+					stringIndex[`${cKey}:${lang}`] = strings.length;
+					strings.push([cKey, objVariant.name]);
+				}
+			}
+		}
+	}
+	return {
+		index: stringIndex,
+		vals: strings
+	};
+}
+
+const getJurisdictionData = (stringIndex, jurisDesc, langs) => {
+	var ret = {};
+	for (var lang of langs) {
+		var arr = [];
+		var parentIndex = {};
+		var parentPos = null;
+		var pos = 0;
+		for (var jKey in jurisDesc.jurisdictions) {
+			var obj = jurisDesc.jurisdictions[jKey];
+			if (!obj.name) {
+				throw new Error(`Missing name for ${jKey}`);
+			}
+			if (jKey.indexOf(":") === -1) {
+				parentPos = null;
+			} else {
+				parentPos = parentIndex[jKey.split(":").slice(0, -1).join(":")];
+			}
+			parentIndex[jKey] = arr.length;
+			arr.push([jKey.split(":").slice(-1)[0], obj.name, parentPos]);
+			if (jurisDesc.jurisdictions.variants && jurisDesc.jurisdictions.variants[lang]) {
+				if (jurisDesc.jurisdictions.variants[lang].name) {
+					arr[pos][1] = jurisDesc.jurisdictions.variants[lang].name;
+				}
+			}
+			arr[pos] = arr[pos].concat(getCourtsInContext(stringIndex, obj, lang));
+			pos++;
+		}
+		if (!lang) {
+			ret.default = arr;
+		} else {
+			ret[lang] = arr;
+		}
+	}
+	return ret;
+}
+
+const getCourtsInContext = (stringIndex, obj, lang) => {
+	var ret = [];
+	if (obj.courts) {
+		for (var cKey in obj.courts) {
+			if (!lang) {
+				ret.push(stringIndex[`${cKey}:default`]);
+			} else {
+				if (stringIndex[`${cKey}:${lang}`]) {
+					ret.push(stringIndex[`${cKey}:${lang}`]);
+				} else {
+					ret.push(stringIndex[`${cKey}:default`]);
+				}
+			}
+		}
+	}
+	return ret;
+}
+
+const getLangs = (jurisDesc) => {
+	var ret = [];
+	for (var lKey in jurisDesc.langs) {
+		var lang = jurisDesc.langs[lKey];
+		if (lang.indexOf("ui") > -1) {
+			ret.push(lKey);
+		}
+	}
+	return ret;
+}
+
+const processJurisMaps = (jurisID, jurisDesc) => {
+	// In Jurism DB
+	// 46964|at:innsbruck:innsbruck:silz|Austria|AT|Innsbruck|Innsbruck|Silz|5
+	//
+    // {
+    //     courts: ["Supreme Court", "Cours Supreme", "Court of Appeal", "Cour d'Appel"],
+    //     jurisdictions: {
+    //         "default": [
+    //             ["ca", "Canada", null, 0],
+    //             ["ca:nb", "New Brunswick", 0, 0, 2],
+    //             ["ca:qb", "Quebec", 0, 0, 2]
+    //         ],
+    //         "fr": [
+    //             ["ca", "Canada", null, 1],
+    //             ["ca:nb", "New Brunswick", 0, 0, 2],
+    //             ["ca:qb", "Quebec", 0, 1, 3]
+    //         ]
+    //     }
+    // };
+	
+	var langs = [""].concat(getLangs(jurisDesc));
+	var courtStrings = getCourtStrings(jurisDesc);
+	var jurisdictionData = getJurisdictionData(courtStrings.index, jurisDesc, langs);
+	var ret = {
+		courts: courtStrings.vals,
+		jurisdictions: jurisdictionData
+	};
+	fs.writeFileSync(path.join(config.path.jurisMapDir, `juris-${jurisID}-map.json`), JSON.stringify(ret));
+	var versions_json = fs.readFileSync(path.join(config.path.jurisMapDir, `versions.json`)).toString();
+	var versions = JSON.parse(versions_json);
+	var timestamp = util.getDateNow();
+	var rowcount = 0;
+	for (var lang in ret.jurisdictions) {
+		rowcount += Object.keys(ret.jurisdictions[lang]).length;
+	}
+	
+	versions[jurisID] = {
+		timestamp: timestamp,
+		rowcount: rowcount
+	};
+	fs.writeFileSync(path.join(config.path.jurisMapDir, `versions.json`), JSON.stringify(versions, null, 2));
+}
 
 async function descriptiveToCompact(opts) {
-	console.log("Reading descriptive jurisdiction files from: " + config.path.jurisSrcDir);
-	console.log("Writing abbreviation files to: " + config.path.jurisAbbrevsDir);
-	console.log("Writing compact jurisdiction files to: " + config.path.jurisMapDir);
+	console.log("Will read descriptive jurisdiction files from: " + config.path.jurisSrcDir);
+	console.log("Will write abbreviation files to: " + config.path.jurisAbbrevsDir);
+	console.log("Will write compact jurisdiction files to: " + config.path.jurisMapDir);
 	var jurisIDs = [];
 	if (opts.a) {
 		for (var fileName of fs.readdirSync(config.path.jurisSrcDir)) {
@@ -34,282 +173,17 @@ async function descriptiveToCompact(opts) {
 		}
 		handleError(e);
 	}
-	
 	for (var jurisID of jurisIDs) {
-		// Call working code for a single jurisdiction here
 		opts.j = jurisID;
 		var json = fs.readFileSync(path.join(config.path.jurisSrcDir, "juris-" + jurisID + "-desc.json")).toString();
 		var json = eol.lf(json);
 		var jurisDesc = JSON.parse(json);
-
-		// Abbreviation file(s)
-		var abbrevVariantNames = getAbbrevVariantKeys(jurisDesc);
-		for (var abbrevVariantName of abbrevVariantNames) {
-			var fileName = getAbbrevFilename(jurisID, abbrevVariantName);
-			var abbrevs = buildAbbrevs(jurisID, abbrevVariantName, jurisDesc);
-			// var label = abbrevVariantName ? jurisID + "/" + abbrevVariantName : jurisID;
-			// write each abbreviation file
-			util.writeAbbrevData(opts, jurisID, abbrevVariantName, abbrevs);
-		}
-		// Compact file
-		var compact = {
-			jurisdictions: [],
-			courtNames: [],
-			countryCourtLinks: [],
-			courts: [],
-			courtJurisdictionLinks: []
-		};
-		var jurisdictionMap = {};
-		for (var i=0,ilen=jurisDesc.jurisdictions.length; i<ilen; i++) {
-			var jurisdiction = jurisDesc.jurisdictions[i];
-			jurisdictionMap[getJurisdictionID(jurisdiction)] = i;
-		}
-		var hierarchyFail = false;
-		for (var jurisdiction of jurisDesc.jurisdictions) {
-			var info = [
-				getJurisdictionTail(jurisdiction),
-				jurisdiction.name
-			];
-			var parentID = getJurisdictionParent(jurisdictionMap, jurisdiction);
-			if (parentID !== false) {
-				info.push(parentID)
-			}
-			if ("undefined" === typeof info[2] && info[0] !== jurisID) {
-				console.log("No parent found for "+JSON.stringify(info[0]));
-				hierarchyFail = true;
-			}
-			compact.jurisdictions.push(info);
-		}
-		if (hierarchyFail) {
-			console.log("Aborting due to nesting errors in " + path.join(config.path.jurisMapDir, "juris-" + jurisID + "-desc.json"));
-			console.log("Rerun descriptive-to-compact after fixing the file");
-			process.exit();
-		}
-		var courtIdxToIdMap = {};
-		var courtIdToIdxMap = {};
-		for (var courtID in jurisDesc.courts) {
-			var court = jurisDesc.courts[courtID];
-			courtIdxToIdMap[compact.courtNames.length] = courtID;
-			courtIdToIdxMap[courtID] = compact.courtNames.length;
-			compact.courtNames.push(court.name);
-		}
-		var countryCourtLink = {};
-		var countryIdx = jurisdictionMap[getCountryNameOrID(jurisDesc, true)];
-		for (var courtNameIdx=0,ilen=compact.courtNames.length; courtNameIdx<ilen; courtNameIdx++) {
-			countryCourtLink[courtNameIdx + ":" + countryIdx] = compact.countryCourtLinks.length;
-			compact.countryCourtLinks.push([courtNameIdx, countryIdx]);
-		}
-		// This could be folded into the loop above, since we're processing for
-		// a single country in this function. But for clarity ...
-		for (var courtNameIdx=0,ilen=compact.courtNames.length; courtNameIdx<ilen; courtNameIdx++) {
-			var courtID = courtIdxToIdMap[courtNameIdx];
-			var countryCourtLinkIdx = countryCourtLink[courtNameIdx + ":" + countryIdx];
-			compact.courts.push([courtID, countryCourtLinkIdx]);
-		}
-		for (var jurisdiction of jurisDesc.jurisdictions) {
-			var jurisdictionIdx = jurisdictionMap[getJurisdictionID(jurisdiction)];
-			for (var courtID of jurisdiction.courts) {
-				courtID = courtID.split("::")[0];
-				if (["-", "+"].indexOf(courtID.slice(0, 1)) > -1) {
-					courtID = courtID.slice(1);
-				}
-				var courtIdx = courtIdToIdxMap[courtID];
-				compact.courtJurisdictionLinks.push([jurisdictionIdx, courtIdx]);
-			}
-		}
-		util.writeCompactData(opts, compact);
+		console.log(jurisID);
+		processJurisAbbrevs(jurisDesc);
+		processJurisMaps(jurisID, jurisDesc);
 	}
-	var plural = "s";
-	var count = jurisIDs.length;
-	if (count === 1) {
-		plural = "";
-	}
-	console.log("Converted " + count + " jurisdiction" + plural + ": " + jurisIDs.join(", "));
 }
 
-function getAbbrevVariantKeys(jurisDesc) {
-	var xtra = {};
-	for (var courtKey in jurisDesc.courts) {
-		var court = jurisDesc.courts[courtKey];
-		for (var key in court) {
-			if (key.slice(0, 7) === "abbrev:") {
-				xtra[key.slice(7)] = true;
-			}
-		}
-	}
-	for (var jurisdiction of jurisDesc.jurisdictions) {
-		for (var key in jurisdiction) {
-			if (key.slice(0, 7) === "abbrev:") {
-				xtra[key.slice(7)] = true;
-			}
-		}
-	}
-	return [false].concat(Object.keys(xtra));
-}
-
-function getAbbrevFilename(jurisID, abbrevVariantName) {
-	var lst = ["auto"];
-	lst.push(jurisID);
-	if (abbrevVariantName) {
-		lst.push(abbrevVariantName);
-	}
-	var fileName = lst.join("-") + ".json";
-	return fileName;
-}
-	
-function buildAbbrevs(jurisID, abbrevVariantName, jurisDesc) {
-	var abbrevs = {
-		filename: getAbbrevFilename(jurisID, abbrevVariantName),
-		name: getCountryNameOrID(jurisDesc),
-		version: util.getDateNow(),
-		xdata: {
-			"default": {
-				place: {}
-			}
-		}
-	}
-	// Jurisdiction abbrevs
-	var places = abbrevs.xdata["default"].place;
-	for (var jurisdiction of jurisDesc.jurisdictions) {
-		var id = getJurisdictionID(jurisdiction);
-		var jurisdictionAbbrevs = getBestAbbrevs(jurisdiction, abbrevVariantName);
-		places[id.toUpperCase()] = jurisdictionAbbrevs.normal.replace(/^<\s*/, "").replace(/\s*>$/, "");
-
-		// Court abbrevs
-		if (!abbrevs.xdata[id]) {
-			abbrevs.xdata[id] = {
-				"institution-part": {}
-			};
-		}
-		for (var courtID of jurisdiction.courts) {
-			[courtID, ABBREV] = courtID.split("::");
-			var myCourtID = courtID.replace(/^[-+]/, "");
-			if (ABBREV) {
-				if (!abbrevs.xdata[id]["institution-entire"]) {
-					abbrevs.xdata[id]["institution-entire"] = {};
-				}
-				abbrevs.xdata[id]["institution-entire"][myCourtID] = ABBREV;
-			}
-			if (!myCourtID.match(/^[\-\+]?[a-z]([\~\.a-z0-9]+)*$/)) {
-				var e = new Error("invalid court ID \"" + myCourtID + "\" in jurisdiction " + id);
-				handleError(e);
-			}
-			var ignoreCourt = false;
-			var ignoreJurisdiction = false;
-			if (courtID.slice(0, 1) === "-") {
-				courtID = courtID.slice(1);
-				ignoreCourt = true;
-			} else if (courtID.slice(0, 1) === "+") {
-				courtID = courtID.slice(1);
-				ignoreJurisdiction = true;
-			}
-			var court = jurisDesc.courts[courtID];
-			if (!court) {
-				throw new Error("no court registered for ID " + courtID);
-			}
-			var abbrev;
-			if (ignoreCourt) {
-				abbrev = jurisdictionAbbrevs.normal;
-			} else {
-				var courtAbbrev = getBestAbbrevs(court, abbrevVariantName);
-				if (!ignoreJurisdiction) {
-					if (jurisdictionAbbrevs.normal.slice(0, 1) === "<") {
-						abbrev = courtAbbrev.normal.replace(/^<\s*/, "").replace(/\s*>$/, "") + jurisdictionAbbrevs.normal.slice(1);
-					} else if (jurisdictionAbbrevs.normal.slice(-1) === ">") {
-						abbrev = jurisdictionAbbrevs.normal.slice(0, -1) + courtAbbrev.normal.replace(/^<\s*/, "").replace(/\s*>$/, "");
-					} else if (courtAbbrev.normal.slice(0, 1) === "<") {
-						abbrev = jurisdictionAbbrevs.normal + courtAbbrev.normal.slice(1);
-					} else if (courtAbbrev.normal.slice(-1) === ">") {
-						abbrev = courtAbbrev.normal.slice(0, -1) + jurisdictionAbbrevs.normal;
-					} else {
-						abbrev = courtAbbrev.normal.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
-					}
-				} else {
-					abbrev = courtAbbrev.normal.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
-				}
-			}
-			if (id === "us" && courtID.replace(/^[-+]*/, "") === "supreme.court") {
-				abbrev = "!here>>>";
-			}
-			abbrevs.xdata[id]["institution-part"][courtID] = abbrev;
-			if (court.ABBREV) {
-				if (!ABBREV) {
-					if (!abbrevs.xdata[id]["institution-entire"]) {
-						abbrevs.xdata[id]["institution-entire"] = {};
-					}
-					var code;
-					if (court.ABBREV.slice(0, 1) === "<") {
-						if (jurisdictionAbbrevs.code) {
-							code = jurisdictionAbbrevs.code + court.ABBREV.slice(1);
-						} else {
-							code = jurisdictionAbbrevs.normal + court.ABBREV.slice(1);
-						}
-					} else if (court.ABBREV.slice(-1) === ">") {
-						if (jurisdictionAbbrevs.code) {
-							code = court.ABBREV.slice(0, -1) + jurisdictionAbbrevs.code;
-						} else {
-							code = court.ABBREV.slice(0, -1) + jurisdictionAbbrevs.normal;
-						}
-					} else {
-						code = court.ABBREV.replace(/^\<\s*/, "").replace(/\s*\>$/, "");
-					}
-					abbrevs.xdata[id]["institution-entire"][courtID] = code;
-				}
-			}
-		}
-	}
-	return abbrevs;
-}
-
-function getBestAbbrevs(obj, abbrevVariantName) {
-	if (!obj) {
-		throw new Error("no object for getBestAbbrevs!");
-	}
-	var abbrev;
-	// Set name for abbrevVariantName key
-	var abbrevVariantKey = "abbrev:" + abbrevVariantName;
-	// and abbrev
-	// and name
-	// That's our fallback sequence.
-	if (abbrevVariantName && obj[abbrevVariantKey]) {
-		abbrev = obj[abbrevVariantKey];
-	} else if (obj.abbrev) {
-		abbrev = obj.abbrev;
-	} else {
-		abbrev = obj.name;
-	}
-	return {
-		normal: abbrev,
-		code: obj.ABBREV ? obj.ABBREV : ""
-	};
-}
-
-function getCountryNameOrID(jurisDesc, returnID) {
-	var name;
-	for (var jurisdiction of jurisDesc.jurisdictions) {
-		name = returnID ? jurisdiction.path : jurisdiction.name;
-		if (jurisdiction.path.indexOf("/") === -1) {
-			break;
-		}
-	}
-	return name;
-}
-
-function getJurisdictionID(jurisdiction) {
-	return jurisdiction.path.replace(/\//g, ":");
-}
-
-function getJurisdictionTail(jurisdiction) {
-	return jurisdiction.path.split("/").slice(-1)[0];
-}
-
-function getJurisdictionParent(jurisdictionMap, jurisdiction) {
-	if (jurisdiction.path.indexOf("/") === -1) {
-		return false;
-	}
-	var parentID = jurisdiction.path.split("/").slice(0, -1).join(":");
-	return jurisdictionMap[parentID];
-}
 
 module.exports = {
 	descriptiveToCompact: descriptiveToCompact

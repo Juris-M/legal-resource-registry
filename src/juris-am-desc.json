@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "am",
-      "name": "Armenia",
-      "courts": []
+  "jurisdictions": {
+    "am": {
+      "name": "Armenia"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mv",
-      "name": "Maldives",
-      "courts": []
+  "jurisdictions": {
+    "mv": {
+      "name": "Maldives"
     }
-  ]
+  }
 }

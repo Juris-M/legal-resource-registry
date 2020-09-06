@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "cd",
-      "name": "Dem. Rep. of the Congo",
-      "courts": []
+  "jurisdictions": {
+    "cd": {
+      "name": "Dem. Rep. of the Congo"
     }
-  ]
+  }
 }

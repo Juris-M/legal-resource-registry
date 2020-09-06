@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ki",
-      "name": "Kiribati",
-      "courts": []
+  "jurisdictions": {
+    "ki": {
+      "name": "Kiribati"
     }
-  ]
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "langs": {},
   "courts": {
     "dc": {
       "name": "Επαρχιακά Δικαστήρια"
@@ -31,91 +32,81 @@
       "name": "Ανώτατο Δικαστήριο"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "cy",
+  "jurisdictions": {
+    "cy": {
       "name": "Cyprus",
-      "courts": [
-        "ac",
-        "afc",
-        "fcrg",
-        "mc",
-        "sc"
-      ]
+      "courts": {
+        "ac": {},
+        "afc": {},
+        "fcrg": {},
+        "mc": {},
+        "sc": {}
+      }
     },
-    {
-      "path": "cy/famagusta",
+    "cy:famagusta": {
       "name": "Αμμοχώστου",
-      "courts": [
-        "dc"
-      ]
+      "courts": {
+        "dc": {}
+      }
     },
-    {
-      "path": "cy/kyrenia",
+    "cy:kyrenia": {
       "name": "Κερύνειας",
-      "courts": [
-        "dc"
-      ]
+      "courts": {
+        "dc": {}
+      }
     },
-    {
-      "path": "cy/larnaca",
+    "cy:larnaca": {
       "name": "Λάρνακας",
-      "courts": [
-        "assize",
-        "dc",
-        "lc",
-        "rcc"
-      ]
+      "courts": {
+        "assize": {},
+        "dc": {},
+        "lc": {},
+        "rcc": {}
+      }
     },
-    {
-      "path": "cy/larnaca.famagusta",
+    "cy:larnaca.famagusta": {
       "name": "Λάρνακας-Αμμοχώστου",
-      "courts": [
-        "fc"
-      ]
+      "courts": {
+        "fc": {}
+      }
     },
-    {
-      "path": "cy/limassol",
+    "cy:limassol": {
       "name": "Λεμεσού",
-      "courts": [
-        "assize",
-        "dc",
-        "lc",
-        "rcc"
-      ]
+      "courts": {
+        "assize": {},
+        "dc": {},
+        "lc": {},
+        "rcc": {}
+      }
     },
-    {
-      "path": "cy/limassol.paphos.",
+    "cy:limassol.paphos.": {
       "name": "Λεμεσού-Πάφου",
-      "courts": [
-        "fc"
-      ]
+      "courts": {
+        "fc": {}
+      }
     },
-    {
-      "path": "cy/nicosia",
+    "cy:nicosia": {
       "name": "Λευκωσίας",
-      "courts": [
-        "assize",
-        "dc",
-        "lc",
-        "rcc"
-      ]
+      "courts": {
+        "assize": {},
+        "dc": {},
+        "lc": {},
+        "rcc": {}
+      }
     },
-    {
-      "path": "cy/nicosia.kyrenia",
+    "cy:nicosia.kyrenia": {
       "name": "Λευκωσίας-Κερύνειας",
-      "courts": [
-        "fc"
-      ]
+      "courts": {
+        "fc": {}
+      }
     },
-    {
-      "path": "cy/paphos",
+    "cy:paphos": {
       "name": "Πάφου",
-      "courts": [
-        "assize",
-        "dc",
-        "rcc"
-      ]
+      "courts": {
+        "assize": {},
+        "dc": {},
+        "rcc": {}
+      }
     }
-  ]
+  }
 }

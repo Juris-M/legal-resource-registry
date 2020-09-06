@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ussr",
-      "name": "Union of Soviet Socialist Republics",
-      "courts": []
+  "jurisdictions": {
+    "ussr": {
+      "name": "Union of Soviet Socialist Republics"
     }
-  ]
+  }
 }

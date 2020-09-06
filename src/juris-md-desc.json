@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "md",
-      "name": "Moldova",
-      "courts": []
+  "jurisdictions": {
+    "md": {
+      "name": "Moldova"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "eg",
-      "name": "Egypt",
-      "courts": []
+  "jurisdictions": {
+    "eg": {
+      "name": "Egypt"
     }
-  ]
+  }
 }

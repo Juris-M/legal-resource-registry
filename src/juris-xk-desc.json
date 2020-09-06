@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "xk",
-      "name": "Kosovo",
-      "courts": []
+  "jurisdictions": {
+    "xk": {
+      "name": "Kosovo"
     }
-  ]
+  }
 }

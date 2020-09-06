@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "lr",
-      "name": "Liberia",
-      "courts": []
+  "jurisdictions": {
+    "lr": {
+      "name": "Liberia"
     }
-  ]
+  }
 }

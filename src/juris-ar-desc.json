@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ar",
-      "name": "Argentina",
-      "courts": []
+  "jurisdictions": {
+    "ar": {
+      "name": "Argentina"
     }
-  ]
+  }
 }

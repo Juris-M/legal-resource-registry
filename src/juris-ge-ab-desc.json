@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ge-ab",
-      "name": "Abkhazia",
-      "courts": []
+  "jurisdictions": {
+    "ge-ab": {
+      "name": "Abkhazia"
     }
-  ]
+  }
 }

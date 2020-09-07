@@ -126,13 +126,13 @@ const setObj = (fileObj, type, jKey, cKey, lang) => {
 		}
 		
 	} else {
-		throw new Error(`Not sure what you're trying to do here`);
-	}
-	return obj;
+		throw new Error(`Not sure what you\'re trying to do here`);
+    }
+    return obj;
 }
 
 const setCourt = (fileObj, cKey, lang) => {
-	return setObj(fileObj, "court", null, cKey, lang);
+    return setObj(fileObj, "court", null, cKey, lang);
 }
 
 const setJurisdiction = (fileObj, jKey, lang) => {
@@ -158,7 +158,7 @@ const extractLangs = (jurisDesc) => {
 			var m = key.match(/([^:]+):(.*)/);
 			if (m) {
 				langs[m[2]] = true;
-			}
+            }
 		}
 	}
 	return Object.keys(langs);
@@ -246,7 +246,7 @@ async function abstractFromOldDescriptive(opts) {
 						// If lang, strip key for match
 						matchKey = key.replace(`:${lang}`, "");
 					}
-					if (segments.indexOf(matchKey) > -1) {
+                    if (segments.indexOf(matchKey) > -1) {
 						obj[matchKey] = jurisdiction[key].replace("<", "%s").replace(">", "%s");
 					}
 				}
@@ -284,23 +284,24 @@ async function abstractFromOldDescriptive(opts) {
 				abbrevsFileName = `auto-${jurisID}.json`;
 			}
 			var abbrevsPathName = path.join(config.path.jurisAbbrevsDir, abbrevsFileName);
-			var objTxt = fs.readFileSync(abbrevsPathName).toString();
-			var obj = JSON.parse(objTxt);
-			for (var jKey in obj.xdata) {
-				if (jKey === "default") continue;
-				var jurisdiction = obj.xdata[jKey];
-				if (jurisdiction["container-title"]) {
-					if (!fileObj.jurisdictions[jKey]) {
-						throw new Error(`Adding container-title to non-existent jurisdiction ${jKey}`);
-					}
-					fileObj.jurisdictions[jKey]["container-title"] = jurisdiction["container-title"];
-				}
-				
-			}
-		}
-		stripObj(fileObj);
-		fs.writeFileSync(path.join(config.path.jurisSrcDir, `juris-${jurisID}-desc.json`), JSON.stringify(fileObj, null, 2));	
-	}
+            if (fs.existsSync(abbrevsPathName)) {
+			    var objTxt = fs.readFileSync(abbrevsPathName).toString();
+                var obj = JSON.parse(objTxt);
+                for (var jKey in obj.xdata) {
+				    if (jKey === "default") continue;
+				    var jurisdiction = obj.xdata[jKey];
+				    if (jurisdiction["container-title"]) {
+					    if (!fileObj.jurisdictions[jKey]) {
+						    throw new Error(`Adding container-title to non-existent jurisdiction ${jKey}`);
+					    }
+					    fileObj.jurisdictions[jKey]["container-title"] = jurisdiction["container-title"];
+				    }
+			    }
+		    }
+		    stripObj(fileObj);
+		    fs.writeFileSync(path.join(config.path.jurisSrcDir, `juris-${jurisID}-desc.json`), JSON.stringify(fileObj, null, 2));	
+	    }
+    }
 }
 module.exports = {
 	abstractFromOldDescriptive: abstractFromOldDescriptive 

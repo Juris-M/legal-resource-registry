@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "sd",
-      "name": "Sudan",
-      "courts": []
+  "jurisdictions": {
+    "sd": {
+      "name": "Sudan"
     }
-  ]
+  }
 }

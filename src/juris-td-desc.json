@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "td",
-      "name": "Chad",
-      "courts": []
+  "jurisdictions": {
+    "td": {
+      "name": "Chad"
     }
-  ]
+  }
 }

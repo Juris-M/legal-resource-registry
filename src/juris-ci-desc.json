@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ci",
-      "name": "Côte d'Ivoire",
-      "courts": []
+  "jurisdictions": {
+    "ci": {
+      "name": "Côte d'Ivoire"
     }
-  ]
+  }
 }

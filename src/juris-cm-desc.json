@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "cm",
-      "name": "Cameroon",
-      "courts": []
+  "jurisdictions": {
+    "cm": {
+      "name": "Cameroon"
     }
-  ]
+  }
 }

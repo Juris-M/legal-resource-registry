@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "my",
-      "name": "Malaysia",
-      "courts": []
+  "jurisdictions": {
+    "my": {
+      "name": "Malaysia"
     }
-  ]
+  }
 }

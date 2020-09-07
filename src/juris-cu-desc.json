@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "cu",
-      "name": "Cuba",
-      "courts": []
+  "jurisdictions": {
+    "cu": {
+      "name": "Cuba"
     }
-  ]
+  }
 }

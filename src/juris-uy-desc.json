@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "uy",
-      "name": "Uruguay",
-      "courts": []
+  "jurisdictions": {
+    "uy": {
+      "name": "Uruguay"
     }
-  ]
+  }
 }

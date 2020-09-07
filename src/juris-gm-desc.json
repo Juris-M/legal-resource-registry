@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "gm",
-      "name": "The Gambia",
-      "courts": []
+  "jurisdictions": {
+    "gm": {
+      "name": "The Gambia"
     }
-  ]
+  }
 }

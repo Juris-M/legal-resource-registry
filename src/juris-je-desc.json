@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "je",
-      "name": "Jersey",
-      "courts": []
+  "jurisdictions": {
+    "je": {
+      "name": "Jersey"
     }
-  ]
+  }
 }

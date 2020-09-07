@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "do",
-      "name": "Dominican Republic",
-      "courts": []
+  "jurisdictions": {
+    "do": {
+      "name": "Dominican Republic"
     }
-  ]
+  }
 }

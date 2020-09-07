@@ -1,482 +1,436 @@
 {
+  "langs": {},
   "courts": {
     "elc": {
       "name": "Environment & Land Court",
-      "abbrev": "Env. & Land Ct. >"
+      "abbrev": "Env. & Land Ct. %s"
     },
     "elrc": {
       "name": "Employment & Labor Relations Court",
-      "abbrev": "Emp. & Lab. Rel. Ct. >"
+      "abbrev": "Emp. & Lab. Rel. Ct. %s"
     },
     "hc": {
       "name": "High Court",
-      "abbrev": "High Ct. >"
+      "abbrev": "High Ct. %s"
     },
     "ca": {
       "name": "Court of Appeal",
-      "abbrev": "Ct. App. >"
+      "abbrev": "Ct. App. %s"
     },
     "sc": {
       "name": "Supreme Court",
       "abbrev": "Supreme Court"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "ke",
+  "jurisdictions": {
+    "ke": {
       "name": "Kenya",
-      "courts": [
-        "sc"
-      ],
-      "abbrev": "Kenya"
+      "abbrev": "Kenya",
+      "courts": {
+        "sc": {}
+      }
     },
-    {
-      "path": "ke/eldoret",
+    "ke:eldoret": {
       "name": "Eldoret",
-      "courts": [
-        "ca"
-      ],
-      "abbrev": "Eldoret"
+      "abbrev": "Eldoret",
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "ke/eldoret/bomet",
+    "ke:eldoret:bomet": {
       "name": "Bomet",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Bomet"
+      "abbrev": "Bomet",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/eldoret/eldoret",
+    "ke:eldoret:eldoret": {
       "name": "Eldoret",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Eldoret"
+      "abbrev": "Eldoret",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/eldoret/kabarnet",
+    "ke:eldoret:kabarnet": {
       "name": "Kabarnet",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kabarnet"
+      "abbrev": "Kabarnet",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/eldoret/kapenguria",
+    "ke:eldoret:kapenguria": {
       "name": "Kapenguria",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kapenguria"
+      "abbrev": "Kapenguria",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/eldoret/turkana",
+    "ke:eldoret:turkana": {
       "name": "Turkana",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Turkana"
+      "abbrev": "Turkana",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu",
+    "ke:kisumu": {
       "name": "Kisumu",
-      "courts": [
-        "ca"
-      ],
-      "abbrev": "Kisumu"
+      "abbrev": "Kisumu",
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "ke/kisumu/bungoma",
+    "ke:kisumu:bungoma": {
       "name": "Bungoma",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Bungoma"
+      "abbrev": "Bungoma",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/busia",
+    "ke:kisumu:busia": {
       "name": "Busia",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Busia"
+      "abbrev": "Busia",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/homabay",
+    "ke:kisumu:homabay": {
       "name": "Homabay",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Homabay"
+      "abbrev": "Homabay",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/kakamega",
+    "ke:kisumu:kakamega": {
       "name": "Kakamega",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kakamega"
+      "abbrev": "Kakamega",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/kericho",
+    "ke:kisumu:kericho": {
       "name": "Kericho",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kericho"
+      "abbrev": "Kericho",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/kisii",
+    "ke:kisumu:kisii": {
       "name": "Kisii",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kisii"
+      "abbrev": "Kisii",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/kisumu",
+    "ke:kisumu:kisumu": {
       "name": "Kisumu",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kisumu"
+      "abbrev": "Kisumu",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/kitale",
+    "ke:kisumu:kitale": {
       "name": "Kitale",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kitale"
+      "abbrev": "Kitale",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/migori",
+    "ke:kisumu:migori": {
       "name": "Migori",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Migori"
+      "abbrev": "Migori",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/nyamira",
+    "ke:kisumu:nyamira": {
       "name": "Nyamira",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Nyamira"
+      "abbrev": "Nyamira",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/kisumu/siaya",
+    "ke:kisumu:siaya": {
       "name": "Siaya",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Siaya"
+      "abbrev": "Siaya",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/mombasa",
+    "ke:mombasa": {
       "name": "Mombasa",
-      "courts": [
-        "ca"
-      ],
-      "abbrev": "Mombasa"
+      "abbrev": "Mombasa",
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "ke/mombasa/garsen",
+    "ke:mombasa:garsen": {
       "name": "Garsen",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Garsen"
+      "abbrev": "Garsen",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/mombasa/kwale",
+    "ke:mombasa:kwale": {
       "name": "Kwale",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kwale"
+      "abbrev": "Kwale",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/mombasa/malindi",
+    "ke:mombasa:malindi": {
       "name": "Malindi",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Malindi"
+      "abbrev": "Malindi",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/mombasa/mombasa",
+    "ke:mombasa:mombasa": {
       "name": "Mombasa",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Mombasa"
+      "abbrev": "Mombasa",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/mombasa/voi",
+    "ke:mombasa:voi": {
       "name": "Voi",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Voi"
+      "abbrev": "Voi",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nairobi",
+    "ke:nairobi": {
       "name": "Nairobi",
-      "courts": [
-        "ca"
-      ],
-      "abbrev": "Nairobi"
+      "abbrev": "Nairobi",
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "ke/nairobi/garissa",
+    "ke:nairobi:garissa": {
       "name": "Garissa",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Garissa"
+      "abbrev": "Garissa",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nairobi/kajiado",
+    "ke:nairobi:kajiado": {
       "name": "Kajiado",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kajiado"
+      "abbrev": "Kajiado",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nairobi/kiambu",
+    "ke:nairobi:kiambu": {
       "name": "Kiambu",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kiambu"
+      "abbrev": "Kiambu",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nairobi/kitui",
+    "ke:nairobi:kitui": {
       "name": "Kitui",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kitui"
+      "abbrev": "Kitui",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nairobi/machakos",
+    "ke:nairobi:machakos": {
       "name": "Machakos",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Machakos"
+      "abbrev": "Machakos",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nairobi/makueni",
+    "ke:nairobi:makueni": {
       "name": "Makueni",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Makueni"
+      "abbrev": "Makueni",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nairobi/nairobi",
+    "ke:nairobi:nairobi": {
       "name": "Nairobi",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Nairobi"
+      "abbrev": "Nairobi",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nakuru",
+    "ke:nakuru": {
       "name": "Nakuru",
-      "courts": [
-        "ca"
-      ],
-      "abbrev": "Nakuru"
+      "abbrev": "Nakuru",
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "ke/nakuru/naivasha",
+    "ke:nakuru:naivasha": {
       "name": "Naivasha",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Naivasha"
+      "abbrev": "Naivasha",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nakuru/nakuru",
+    "ke:nakuru:nakuru": {
       "name": "Nakuru",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Nakuru"
+      "abbrev": "Nakuru",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nakuru/narok",
+    "ke:nakuru:narok": {
       "name": "Narok",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Narok"
+      "abbrev": "Narok",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri",
+    "ke:nyeri": {
       "name": "Nyeri",
-      "courts": [
-        "ca"
-      ],
-      "abbrev": "Nyeri"
+      "abbrev": "Nyeri",
+      "courts": {
+        "ca": {}
+      }
     },
-    {
-      "path": "ke/nyeri/chuka",
+    "ke:nyeri:chuka": {
       "name": "Chuka",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Chuka"
+      "abbrev": "Chuka",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri/embu",
+    "ke:nyeri:embu": {
       "name": "Embu",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Embu"
+      "abbrev": "Embu",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri/kerugoya",
+    "ke:nyeri:kerugoya": {
       "name": "Kerugoya",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Kerugoya"
+      "abbrev": "Kerugoya",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri/marsabit",
+    "ke:nyeri:marsabit": {
       "name": "Marsabit",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Marsabit"
+      "abbrev": "Marsabit",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri/meru",
+    "ke:nyeri:meru": {
       "name": "Meru",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Meru"
+      "abbrev": "Meru",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri/murang.a",
+    "ke:nyeri:murang.a": {
       "name": "Murang’a",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Murang’a"
+      "abbrev": "Murang’a",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri/nanyuki",
+    "ke:nyeri:nanyuki": {
       "name": "Nanyuki",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Nanyuki"
+      "abbrev": "Nanyuki",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri/nyahururu",
+    "ke:nyeri:nyahururu": {
       "name": "Nyahururu",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Nyahururu"
+      "abbrev": "Nyahururu",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     },
-    {
-      "path": "ke/nyeri/nyeri",
+    "ke:nyeri:nyeri": {
       "name": "Nyeri",
-      "courts": [
-        "elc",
-        "elrc",
-        "hc"
-      ],
-      "abbrev": "Nyeri"
+      "abbrev": "Nyeri",
+      "courts": {
+        "elc": {},
+        "elrc": {},
+        "hc": {}
+      }
     }
-  ]
+  }
 }

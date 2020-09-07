@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "gu",
-      "name": "Guam",
-      "courts": []
+  "jurisdictions": {
+    "gu": {
+      "name": "Guam"
     }
-  ]
+  }
 }

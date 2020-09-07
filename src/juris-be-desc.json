@@ -1,1909 +1,4223 @@
 {
+  "langs": {
+    "francais": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "dc": {
       "name": "Vredegerecht",
-      "abbrev": "<Vred.",
-      "abbrev:francais": "Vred. Anvers"
+      "abbrev": "%sVred.",
+      "variants": {
+        "francais": {
+          "abbrev": "Vred. Anvers"
+        }
+      }
     },
     "br": {
       "name": "Beslagrechter",
-      "abbrev": "<Beslagr.",
-      "abbrev:francais": "Beslagr. Anvers"
+      "abbrev": "%sBeslagr.",
+      "variants": {
+        "francais": {
+          "abbrev": "Beslagr. Anvers"
+        }
+      }
     },
     "cc": {
       "name": "Rechtbank van Koophandel",
-      "abbrev": "<Kh.",
-      "abbrev:francais": "Kh. Anvers"
+      "abbrev": "%sKh.",
+      "variants": {
+        "francais": {
+          "abbrev": "Kh. Anvers"
+        }
+      }
     },
     "cfi": {
       "name": "Rechtbank van eerste aanleg",
-      "abbrev": "<Rb.",
-      "abbrev:francais": "Rb. Anvers"
+      "abbrev": "%sRb.",
+      "variants": {
+        "francais": {
+          "abbrev": "Rb. Anvers"
+        }
+      }
     },
     "corrc": {
       "name": "Correctionele rechtbank",
-      "abbrev": "<Corr.",
-      "abbrev:francais": "Corr. Anvers"
+      "abbrev": "%sCorr.",
+      "variants": {
+        "francais": {
+          "abbrev": "Corr. Anvers"
+        }
+      }
     },
     "famc": {
       "name": "Familierechtbank",
-      "abbrev": "<Famrb.",
-      "abbrev:francais": "Famrb. Anvers"
+      "abbrev": "%sFamrb.",
+      "variants": {
+        "francais": {
+          "abbrev": "Famrb. Anvers"
+        }
+      }
     },
     "juvc": {
       "name": "Jeugdrechtbank",
-      "abbrev": "<Jeugdrb.",
-      "abbrev:francais": "Jeugdrb. Anvers"
+      "abbrev": "%sJeugdrb.",
+      "variants": {
+        "francais": {
+          "abbrev": "Jeugdrb. Anvers"
+        }
+      }
     },
     "lc": {
       "name": "Arbeidsrechtbank",
-      "abbrev": "<Arbrb.",
-      "abbrev:francais": "Arbrb. Anvers"
+      "abbrev": "%sArbrb.",
+      "variants": {
+        "francais": {
+          "abbrev": "Arbrb. Anvers"
+        }
+      }
     },
     "pc": {
       "name": "Politierechtbank",
-      "abbrev": "<Pol.",
-      "abbrev:francais": "Pol. Anvers"
+      "abbrev": "%sPol.",
+      "variants": {
+        "francais": {
+          "abbrev": "Pol. Anvers"
+        }
+      }
     },
     "pres": {
       "name": "Voorzitter",
-      "abbrev": "<Voorz.",
-      "abbrev:francais": "Voorz. Anvers"
+      "abbrev": "%sVoorz.",
+      "variants": {
+        "francais": {
+          "abbrev": "Voorz. Anvers"
+        }
+      }
     },
     "sentc": {
       "name": "Strafuitvoeringsrechtbank",
-      "abbrev": "<Surb.",
-      "abbrev:francais": "Surb. Anvers"
+      "abbrev": "%sSurb.",
+      "variants": {
+        "francais": {
+          "abbrev": "Surb. Anvers"
+        }
+      }
     },
     "coass": {
       "name": "Hof van assisen",
-      "abbrev": "<Assisen",
-      "abbrev:francais": "Assisen Anvers"
+      "abbrev": "%sAssisen",
+      "variants": {
+        "francais": {
+          "abbrev": "Assisen Anvers"
+        }
+      }
     },
     "lca": {
       "name": "Arbeidshof",
-      "abbrev": "<Arbh.",
-      "abbrev:francais": "Arbh. Anvers"
+      "abbrev": "%sArbh.",
+      "variants": {
+        "francais": {
+          "abbrev": "Arbh. Anvers"
+        }
+      }
     },
     "cc.fr": {
       "name": "Franstalige rechtbank van koophandel",
-      "abbrev": "<Kh. Brussel (Fr.)",
-      "abbrev:francais": "Kh. Brussel (Fr.) Bruxelles"
+      "abbrev": "%sKh. Brussel (Fr.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Kh. Brussel (Fr.) Bruxelles"
+        }
+      }
     },
     "cc.nl": {
       "name": "Nederlandstalige rechtbank van koophandel",
-      "abbrev": "<Kh. Brussel (Nl.)",
-      "abbrev:francais": "Kh. Brussel (Nl.) Bruxelles"
+      "abbrev": "%sKh. Brussel (Nl.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Kh. Brussel (Nl.) Bruxelles"
+        }
+      }
     },
     "lc.fr": {
       "name": "Franstalige arbeidsrechtbank Brussel",
-      "abbrev": "<Arbrb. Brussel (Fr.)",
-      "abbrev:francais": "Arbrb. Brussel (Fr.) Bruxelles"
+      "abbrev": "%sArbrb. Brussel (Fr.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Arbrb. Brussel (Fr.) Bruxelles"
+        }
+      }
     },
     "lc.nl": {
       "name": "Nederlandstalige arbeidsrechtbank Brussel",
-      "abbrev": "<Arbrb. Brussel (Nl.)",
-      "abbrev:francais": "Arbrb. Brussel (Nl.) Bruxelles"
+      "abbrev": "%sArbrb. Brussel (Nl.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Arbrb. Brussel (Nl.) Bruxelles"
+        }
+      }
     },
     "pc.fr": {
       "name": "Franstalige politierechtbank",
-      "abbrev": "<Pol. Brussel (Fr.)",
-      "abbrev:francais": "Pol. Brussel (Fr.) Bruxelles"
+      "abbrev": "%sPol. Brussel (Fr.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Pol. Brussel (Fr.) Bruxelles"
+        }
+      }
     },
     "pc.nl": {
       "name": "Nederlandstalige politierechtbank Brussel",
-      "abbrev": "<Pol. Brussel (Nl.)",
-      "abbrev:francais": "Pol. Brussel (Nl.) Bruxelles"
+      "abbrev": "%sPol. Brussel (Nl.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Pol. Brussel (Nl.) Bruxelles"
+        }
+      }
     },
     "ca": {
       "name": "Hof van Beroep",
-      "abbrev": "<Hof van Beroep",
-      "abbrev:francais": "Court of Appeal Gand"
+      "abbrev": "%sHof van Beroep",
+      "variants": {
+        "francais": {
+          "abbrev": "Court of Appeal Gand"
+        }
+      }
     },
     "bma": {
       "name": "Belgische Mededingingsautoriteit",
       "abbrev": "Belgische Mededingingsautoriteit",
-      "abbrev:francais": "BMA"
+      "variants": {
+        "francais": {
+          "abbrev": "BMA"
+        }
+      }
     },
     "const": {
       "name": "Grondwettelijk Hof",
       "abbrev": "Grondwettelijk Hof",
-      "abbrev:francais": "GwH"
+      "variants": {
+        "francais": {
+          "abbrev": "GwH"
+        }
+      }
     },
     "cs": {
       "name": "Raad van State",
       "abbrev": "Raad van State",
-      "abbrev:francais": "RvS"
+      "variants": {
+        "francais": {
+          "abbrev": "RvS"
+        }
+      }
     },
     "educ": {
       "name": "Raad voor betwistingen inzake studievoortgangsbeslissingen",
       "abbrev": "Raad voor betwistingen inzake studievoortgangsbeslissingen",
-      "abbrev:francais": "R.Stvb"
+      "variants": {
+        "francais": {
+          "abbrev": "R.Stvb"
+        }
+      }
     },
     "electionc": {
       "name": "Raad voor Verkiezingsbetwistingen",
       "abbrev": "Raad voor Verkiezingsbetwistingen",
-      "abbrev:francais": "R.Verkb."
+      "variants": {
+        "francais": {
+          "abbrev": "R.Verkb."
+        }
+      }
     },
     "envc": {
       "name": "Milieuhandhavingscollege",
       "abbrev": "Milieuhandhavingscollege",
-      "abbrev:francais": "MHHC"
+      "variants": {
+        "francais": {
+          "abbrev": "MHHC"
+        }
+      }
     },
     "mc": {
       "name": "Krijgsraad",
       "abbrev": "Krijgsraad",
-      "abbrev:francais": "Kr."
+      "variants": {
+        "francais": {
+          "abbrev": "Kr."
+        }
+      }
     },
     "migc": {
       "name": "Raad voor Vreemdelingenbetwistingen",
       "abbrev": "Raad voor Vreemdelingenbetwistingen",
-      "abbrev:francais": "RvV"
+      "variants": {
+        "francais": {
+          "abbrev": "RvV"
+        }
+      }
     },
     "milc": {
       "name": "Militair Gerechtshof",
       "abbrev": "Militair Gerechtshof",
-      "abbrev:francais": "Mil.Ger."
+      "variants": {
+        "francais": {
+          "abbrev": "Mil.Ger."
+        }
+      }
     },
     "permitc": {
       "name": "Raad voor Vergunningsbetwistingen",
       "abbrev": "Raad voor Vergunningsbetwistingen",
-      "abbrev:francais": "RvVb"
+      "variants": {
+        "francais": {
+          "abbrev": "RvVb"
+        }
+      }
     },
     "sc": {
       "name": "Hof van Cassatie",
       "abbrev": "Hof van Cassatie",
-      "abbrev:francais": "Cass."
+      "variants": {
+        "francais": {
+          "abbrev": "Cass."
+        }
+      }
     }
   },
-  "jurisdictions": [
-    {
-      "path": "be",
+  "jurisdictions": {
+    "be": {
       "name": "België",
-      "courts": [
-        "bma",
-        "const",
-        "cs",
-        "educ",
-        "electionc",
-        "envc",
-        "mc",
-        "migc",
-        "milc",
-        "permitc",
-        "sc"
-      ],
       "abbrev": "België",
-      "abbrev:francais": "Belgium"
+      "courts": {
+        "bma": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "const": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cs": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "educ": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "electionc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "envc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "mc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "migc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "milc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "permitc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Belgium"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen",
+    "be:antwerpen": {
       "name": "Antwerpen",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "lca",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Antwerpen",
-      "abbrev:francais": "Antwerp"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Antwerp"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen",
+    "be:antwerpen:antwerpen": {
       "name": "Antwerpen",
-      "courts": [
-        "coass",
-        "dc",
-        "lca"
-      ],
       "abbrev": "Antwerpen",
-      "abbrev:francais": "Antwerp"
+      "courts": {
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Antwerp"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/arendonk",
+    "be:antwerpen:antwerpen:arendonk": {
       "name": "Arendonk",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Arendonk",
-      "abbrev:francais": "Arendonk"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Arendonk"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/boom",
+    "be:antwerpen:antwerpen:boom": {
       "name": "Boom",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Boom",
-      "abbrev:francais": "Boom"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Boom"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/brasschaat",
+    "be:antwerpen:antwerpen:brasschaat": {
       "name": "Brasschaat",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Brasschaat",
-      "abbrev:francais": "Brasschaat"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Brasschaat"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/geel",
+    "be:antwerpen:antwerpen:geel": {
       "name": "Geel",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Geel",
-      "abbrev:francais": "Geel"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Geel"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/heist.op.den.berg",
+    "be:antwerpen:antwerpen:heist.op.den.berg": {
       "name": "Heist-op-den-Berg",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Heist-op-den-Berg",
-      "abbrev:francais": "Heist-op-den-Berg"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Heist-op-den-Berg"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/herentals",
+    "be:antwerpen:antwerpen:herentals": {
       "name": "Herentals",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Herentals",
-      "abbrev:francais": "Herentals"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Herentals"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/hoogstraten",
+    "be:antwerpen:antwerpen:hoogstraten": {
       "name": "Hoogstraten",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Hoogstraten",
-      "abbrev:francais": "Hoogstraten"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Hoogstraten"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/kapellen",
+    "be:antwerpen:antwerpen:kapellen": {
       "name": "Kapellen",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Kapellen",
-      "abbrev:francais": "Kapellen"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Kapellen"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/kontich",
+    "be:antwerpen:antwerpen:kontich": {
       "name": "Kontich",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Kontich",
-      "abbrev:francais": "Kontich"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Kontich"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/lier",
+    "be:antwerpen:antwerpen:lier": {
       "name": "Lier",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Lier",
-      "abbrev:francais": "Lier"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Lier"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/mechelen",
+    "be:antwerpen:antwerpen:mechelen": {
       "name": "Mechelen",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Mechelen",
-      "abbrev:francais": "Mechelen"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Mechelen"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/mol",
+    "be:antwerpen:antwerpen:mol": {
       "name": "Mol",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Mol",
-      "abbrev:francais": "Mol"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Mol"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/schilde",
+    "be:antwerpen:antwerpen:schilde": {
       "name": "Schilde",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Schilde",
-      "abbrev:francais": "Schilde"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Schilde"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/turnhout",
+    "be:antwerpen:antwerpen:turnhout": {
       "name": "Turnhout",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Turnhout",
-      "abbrev:francais": "Turnhout"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Turnhout"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/westerlo",
+    "be:antwerpen:antwerpen:westerlo": {
       "name": "Westerlo",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Westerlo",
-      "abbrev:francais": "Westerlo"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Westerlo"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/willebroek",
+    "be:antwerpen:antwerpen:willebroek": {
       "name": "Willebroek",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Willebroek",
-      "abbrev:francais": "Willebroek"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Willebroek"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/antwerpen/zandhoven",
+    "be:antwerpen:antwerpen:zandhoven": {
       "name": "Zandhoven",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Zandhoven",
-      "abbrev:francais": "Zandhoven"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Zandhoven"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg",
+    "be:antwerpen:limburg": {
       "name": "Limburg",
-      "courts": [
-        "coass",
-        "dc",
-        "pc"
-      ]
+      "courts": {
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {}
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/beringen",
+    "be:antwerpen:limburg:beringen": {
       "name": "Beringen",
-      "courts": [
-        "dc",
-        "pc"
-      ],
       "abbrev": "Beringen",
-      "abbrev:francais": "Beringen"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Beringen"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/bilzen",
+    "be:antwerpen:limburg:bilzen": {
       "name": "Bilzen",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Bilzen",
-      "abbrev:francais": "Bilzen"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Bilzen"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/borgloon",
+    "be:antwerpen:limburg:borgloon": {
       "name": "Borgloon",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Borgloon",
-      "abbrev:francais": "Borgloon"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Borgloon"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/bree",
+    "be:antwerpen:limburg:bree": {
       "name": "Bree",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Bree",
-      "abbrev:francais": "Bree"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Bree"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/genk",
+    "be:antwerpen:limburg:genk": {
       "name": "Genk",
-      "courts": [
-        "dc",
-        "pc"
-      ],
       "abbrev": "Genk",
-      "abbrev:francais": "Genk"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Genk"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/hasselt",
+    "be:antwerpen:limburg:hasselt": {
       "name": "Hasselt",
-      "courts": [
-        "br",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lca",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Hasselt",
-      "abbrev:francais": "Hasselt"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Hasselt"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/houthalen.helchteren",
+    "be:antwerpen:limburg:houthalen.helchteren": {
       "name": "Houthalen-Helchteren",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Houthalen-Helchteren",
-      "abbrev:francais": "Houthalen-Helchteren"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Houthalen-Helchteren"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/limburg.aubel",
+    "be:antwerpen:limburg:limburg.aubel": {
       "name": "Limburg-Aubel",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Limburg-Aubel",
-      "abbrev:francais": "Limburg-Aubel"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Limburg-Aubel"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/maaseik",
+    "be:antwerpen:limburg:maaseik": {
       "name": "Maaseik",
-      "courts": [
-        "dc",
-        "pc"
-      ],
       "abbrev": "Maaseik",
-      "abbrev:francais": "Maaseik"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Maaseik"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/maasmechelen",
+    "be:antwerpen:limburg:maasmechelen": {
       "name": "Maasmechelen",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Maasmechelen",
-      "abbrev:francais": "Maasmechelen"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Maasmechelen"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/neerpelt.lommel",
+    "be:antwerpen:limburg:neerpelt.lommel": {
       "name": "Neerpelt-Lommel",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Neerpelt-Lommel",
-      "abbrev:francais": "Neerpelt-Lommel"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Neerpelt-Lommel"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/sint.truiden",
+    "be:antwerpen:limburg:sint.truiden": {
       "name": "Sint-Truiden",
-      "courts": [
-        "dc",
-        "pc"
-      ],
       "abbrev": "Sint-Truiden",
-      "abbrev:francais": "Sint-Truiden"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Sint-Truiden"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/tongeren",
+    "be:antwerpen:limburg:tongeren": {
       "name": "Tongeren",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Tongeren",
-      "abbrev:francais": "Tongeren"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Tongeren"
+        }
+      }
     },
-    {
-      "path": "be/antwerpen/limburg/tongeren.voeren",
+    "be:antwerpen:limburg:tongeren.voeren": {
       "name": "Tongeren-Voeren",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Tongeren-Voeren",
-      "abbrev:francais": "Tongeren-Voeren"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Tongeren-Voeren"
+        }
+      }
     },
-    {
-      "path": "be/bergen",
+    "be:bergen": {
       "name": "Bergen",
-      "courts": [
-        "dc",
-        "lca"
-      ],
       "abbrev": "Bergen",
-      "abbrev:francais": "Mons"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Mons"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen",
+    "be:bergen:henegouwen": {
       "name": "Henegouwen",
-      "courts": [
-        "coass"
-      ],
       "abbrev": "Henegouwen",
-      "abbrev:francais": "Hainault"
+      "courts": {
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Hainault"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/aat.lessen",
+    "be:bergen:henegouwen:aat.lessen": {
       "name": "Aat-Lessen",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Aat-Lessen",
-      "abbrev:francais": "Aat-Lessen"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Aat-Lessen"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/beaumont.chimay.merbes.le.chateau",
+    "be:bergen:henegouwen:beaumont.chimay.merbes.le.chateau": {
       "name": "Beaumont-Chimay-Merbes-le-Château",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Beaumont-Chimay-Merbes-le-Château",
-      "abbrev:francais": "Beaumont-Chimay-Merbes-le-Château"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Beaumont-Chimay-Merbes-le-Château"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/bergen",
+    "be:bergen:henegouwen:bergen": {
       "name": "Bergen",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "famc",
-        "juvc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Bergen",
-      "abbrev:francais": "Bergen"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Bergen"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/binche",
+    "be:bergen:henegouwen:binche": {
       "name": "Binche",
-      "courts": [
-        "dc",
-        "lc"
-      ],
       "abbrev": "Binche",
-      "abbrev:francais": "Binche"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Binche"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/boussu",
+    "be:bergen:henegouwen:boussu": {
       "name": "Boussu",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Boussu",
-      "abbrev:francais": "Boussu"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Boussu"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/charleroi",
+    "be:bergen:henegouwen:charleroi": {
       "name": "Charleroi",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Charleroi",
-      "abbrev:francais": "Charleroi"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Charleroi"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/chatelet",
+    "be:bergen:henegouwen:chatelet": {
       "name": "Châtelet",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Châtelet",
-      "abbrev:francais": "Châtelet"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Châtelet"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/doornik",
+    "be:bergen:henegouwen:doornik": {
       "name": "Doornik",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Doornik",
-      "abbrev:francais": "Doornik"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Doornik"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/dour.colfontaine",
+    "be:bergen:henegouwen:dour.colfontaine": {
       "name": "Dour-Colfontaine",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Dour-Colfontaine",
-      "abbrev:francais": "Dour-Colfontaine"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Dour-Colfontaine"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/enghien.lens",
+    "be:bergen:henegouwen:enghien.lens": {
       "name": "Enghien-Lens",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Enghien-Lens",
-      "abbrev:francais": "Enghien-Lens"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Enghien-Lens"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/fontaine.l.eveque",
+    "be:bergen:henegouwen:fontaine.l.eveque": {
       "name": "Fontaine-l'Evêque",
-      "courts": [
-        "dc",
-        "lc"
-      ],
       "abbrev": "Fontaine-l'Evêque",
-      "abbrev:francais": "Fontaine-l'Evêque"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Fontaine-l'Evêque"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/la.louvière",
+    "be:bergen:henegouwen:la.louvière": {
       "name": "La Louvière",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "La Louvière",
-      "abbrev:francais": "La Louvière"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "La Louvière"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/moeskroen",
+    "be:bergen:henegouwen:moeskroen": {
       "name": "Moeskroen",
-      "courts": [
-        "lc"
-      ],
       "abbrev": "Moeskroen",
-      "abbrev:francais": "Moeskroen"
+      "courts": {
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Moeskroen"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/moeskroen.komen.waasten",
+    "be:bergen:henegouwen:moeskroen.komen.waasten": {
       "name": "Moeskroen-Komen-Waasten",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Moeskroen-Komen-Waasten",
-      "abbrev:francais": "Moeskroen-Komen-Waasten"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Moeskroen-Komen-Waasten"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/peruwelz.leuze.en.hainaut",
+    "be:bergen:henegouwen:peruwelz.leuze.en.hainaut": {
       "name": "Péruwelz-Leuze en Hainaut",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Péruwelz-Leuze en Hainaut",
-      "abbrev:francais": "Péruwelz-Leuze en Hainaut"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Péruwelz-Leuze en Hainaut"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/seneffe",
+    "be:bergen:henegouwen:seneffe": {
       "name": "Seneffe",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Seneffe",
-      "abbrev:francais": "Seneffe"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Seneffe"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/thuin",
+    "be:bergen:henegouwen:thuin": {
       "name": "Thuin",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Thuin",
-      "abbrev:francais": "Thuin"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Thuin"
+        }
+      }
     },
-    {
-      "path": "be/bergen/henegouwen/zinnik",
+    "be:bergen:henegouwen:zinnik": {
       "name": "Zinnik",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Zinnik",
-      "abbrev:francais": "Zinnik"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Zinnik"
+        }
+      }
     },
-    {
-      "path": "be/brussel",
+    "be:brussel": {
       "name": "Brussel",
-      "courts": [
-        "cc.fr",
-        "cc.nl",
-        "coass",
-        "dc",
-        "lc.fr",
-        "lc.nl",
-        "lca",
-        "pc.fr",
-        "pc.nl"
-      ],
       "abbrev": "Brussel",
-      "abbrev:francais": "Brussels"
+      "courts": {
+        "cc.fr": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc.nl": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc.fr": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc.nl": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc.fr": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc.nl": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Brussels"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel",
+    "be:brussel:brussel": {
       "name": "Brussel",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Brussel",
-      "abbrev:francais": "Brussels"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Brussels"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/anderlecht",
+    "be:brussel:brussel:anderlecht": {
       "name": "Anderlecht",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Anderlecht",
-      "abbrev:francais": "Anderlecht"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Anderlecht"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/elsene",
+    "be:brussel:brussel:elsene": {
       "name": "Elsene",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Elsene",
-      "abbrev:francais": "Elsene"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Elsene"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/etterbeek",
+    "be:brussel:brussel:etterbeek": {
       "name": "Etterbeek",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Etterbeek",
-      "abbrev:francais": "Etterbeek"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Etterbeek"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/jette",
+    "be:brussel:brussel:jette": {
       "name": "Jette",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Jette",
-      "abbrev:francais": "Jette"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Jette"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/ouderghem",
+    "be:brussel:brussel:ouderghem": {
       "name": "Ouderghem",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Ouderghem",
-      "abbrev:francais": "Ouderghem"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ouderghem"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/schaarbeek",
+    "be:brussel:brussel:schaarbeek": {
       "name": "Schaarbeek",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Schaarbeek",
-      "abbrev:francais": "Schaarbeek"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Schaarbeek"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/sint.gillis",
+    "be:brussel:brussel:sint.gillis": {
       "name": "Sint-Gillis",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Sint-Gillis",
-      "abbrev:francais": "Sint-Gillis"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Sint-Gillis"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/sint.jans.molenbeek",
+    "be:brussel:brussel:sint.jans.molenbeek": {
       "name": "Sint-Jans-Molenbeek",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Sint-Jans-Molenbeek",
-      "abbrev:francais": "Sint-Jans-Molenbeek"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Sint-Jans-Molenbeek"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/sint.joost.ten.node",
+    "be:brussel:brussel:sint.joost.ten.node": {
       "name": "Sint-Joost-ten-Node",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Sint-Joost-ten-Node",
-      "abbrev:francais": "Sint-Joost-ten-Node"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Sint-Joost-ten-Node"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/sint.pieters.woluwe",
+    "be:brussel:brussel:sint.pieters.woluwe": {
       "name": "Sint-Pieters-Woluwe",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Sint-Pieters-Woluwe",
-      "abbrev:francais": "Sint-Pieters-Woluwe"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Sint-Pieters-Woluwe"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/ukkel",
+    "be:brussel:brussel:ukkel": {
       "name": "Ukkel",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Ukkel",
-      "abbrev:francais": "Ukkel"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ukkel"
+        }
+      }
     },
-    {
-      "path": "be/brussel/brussel/vorst",
+    "be:brussel:brussel:vorst": {
       "name": "Vorst",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Vorst",
-      "abbrev:francais": "Vorst"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Vorst"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant",
+    "be:brussel:vlaams.brabant": {
       "name": "Asse",
-      "courts": [
-        "coass"
-      ],
       "abbrev": "Vlaams-Brabant",
-      "abbrev:francais": "Flemish-Brabant"
+      "courts": {
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Flemish-Brabant"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/aarschot",
+    "be:brussel:vlaams.brabant:aarschot": {
       "name": "Aarschot",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Aarschot",
-      "abbrev:francais": "Aarschot"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Aarschot"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/asse",
+    "be:brussel:vlaams.brabant:asse": {
       "name": "Asse",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Asse",
-      "abbrev:francais": "Asse"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Asse"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/diest",
+    "be:brussel:vlaams.brabant:diest": {
       "name": "Diest",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Diest",
-      "abbrev:francais": "Diest"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Diest"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/grimbergen",
+    "be:brussel:vlaams.brabant:grimbergen": {
       "name": "Grimbergen",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Grimbergen",
-      "abbrev:francais": "Grimbergen"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Grimbergen"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/haacht",
+    "be:brussel:vlaams.brabant:haacht": {
       "name": "Haacht",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Haacht",
-      "abbrev:francais": "Haacht"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Haacht"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/halle",
+    "be:brussel:vlaams.brabant:halle": {
       "name": "Halle",
-      "courts": [
-        "dc",
-        "pc"
-      ],
       "abbrev": "Halle",
-      "abbrev:francais": "Halle"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Halle"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/herne.sint.pieters.leeuw",
+    "be:brussel:vlaams.brabant:herne.sint.pieters.leeuw": {
       "name": "Herne-Sint-Pieters-Leeuw",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Herne-Sint-Pieters-Leeuw",
-      "abbrev:francais": "Herne-Sint-Pieters-Leeuw"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Herne-Sint-Pieters-Leeuw"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/kraainem.sint.genesius.rode",
+    "be:brussel:vlaams.brabant:kraainem.sint.genesius.rode": {
       "name": "Kraainem-Sint-Genesius-Rode",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Kraainem-Sint-Genesius-Rode",
-      "abbrev:francais": "Kraainem-Sint-Genesius-Rode"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Kraainem-Sint-Genesius-Rode"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/landen.zoutleeuw",
+    "be:brussel:vlaams.brabant:landen.zoutleeuw": {
       "name": "Landen-Zoutleeuw",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Landen-Zoutleeuw",
-      "abbrev:francais": "Landen-Zoutleeuw"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Landen-Zoutleeuw"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/lennik",
+    "be:brussel:vlaams.brabant:lennik": {
       "name": "Lennik",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Lennik",
-      "abbrev:francais": "Lennik"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Lennik"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/leuven",
+    "be:brussel:vlaams.brabant:leuven": {
       "name": "Leuven",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Leuven",
-      "abbrev:francais": "Leuven"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Leuven"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/meise",
+    "be:brussel:vlaams.brabant:meise": {
       "name": "Meise",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Meise",
-      "abbrev:francais": "Meise"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Meise"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/overijse.zaventem",
+    "be:brussel:vlaams.brabant:overijse.zaventem": {
       "name": "Overijse-Zaventem",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Overijse-Zaventem",
-      "abbrev:francais": "Overijse-Zaventem"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Overijse-Zaventem"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/tienen",
+    "be:brussel:vlaams.brabant:tienen": {
       "name": "Tienen",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Tienen",
-      "abbrev:francais": "Tienen"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Tienen"
+        }
+      }
     },
-    {
-      "path": "be/brussel/vlaams.brabant/vilvoorde",
+    "be:brussel:vlaams.brabant:vilvoorde": {
       "name": "Vilvoorde",
-      "courts": [
-        "dc",
-        "pc"
-      ],
       "abbrev": "Vilvoorde",
-      "abbrev:francais": "Vilvoorde"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Vilvoorde"
+        }
+      }
     },
-    {
-      "path": "be/brussel/waals.brabant",
+    "be:brussel:waals.brabant": {
       "name": "Waals-Brabant",
-      "courts": [
-        "cfi",
-        "coass"
-      ],
       "abbrev": "Waals-Brabant",
-      "abbrev:francais": "Waals-Brabant"
+      "courts": {
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Waals-Brabant"
+        }
+      }
     },
-    {
-      "path": "be/brussel/waals.brabant/eigenbrakel",
+    "be:brussel:waals.brabant:eigenbrakel": {
       "name": "Eigenbrakel",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Eigenbrakel",
-      "abbrev:francais": "Eigenbrakel"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Eigenbrakel"
+        }
+      }
     },
-    {
-      "path": "be/brussel/waals.brabant/geldenaken.perwijs",
+    "be:brussel:waals.brabant:geldenaken.perwijs": {
       "name": "Geldenaken-Perwijs",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Geldenaken-Perwijs",
-      "abbrev:francais": "Geldenaken-Perwijs"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Geldenaken-Perwijs"
+        }
+      }
     },
-    {
-      "path": "be/brussel/waals.brabant/nijvel",
+    "be:brussel:waals.brabant:nijvel": {
       "name": "Nijvel",
-      "courts": [
-        "cc",
-        "dc",
-        "lc",
-        "pc"
-      ],
       "abbrev": "Nijvel",
-      "abbrev:francais": "Nijvel"
+      "courts": {
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Nijvel"
+        }
+      }
     },
-    {
-      "path": "be/brussel/waals.brabant/tubeke",
+    "be:brussel:waals.brabant:tubeke": {
       "name": "Tubeke",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Tubeke",
-      "abbrev:francais": "Tubeke"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Tubeke"
+        }
+      }
     },
-    {
-      "path": "be/brussel/waals.brabant/waver",
+    "be:brussel:waals.brabant:waver": {
       "name": "Waver",
-      "courts": [
-        "dc",
-        "lc",
-        "pc"
-      ],
       "abbrev": "Waver",
-      "abbrev:francais": "Waver"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Waver"
+        }
+      }
     },
-    {
-      "path": "be/gent",
+    "be:gent": {
       "name": "Gent",
-      "courts": [
-        "ca"
-      ],
       "abbrev": "Gent",
-      "abbrev:francais": "Ghent"
+      "courts": {
+        "ca": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ghent"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen",
+    "be:gent:oost.vlaanderen": {
       "name": "Gent",
-      "courts": [
-        "ca",
-        "coass"
-      ],
       "abbrev": "Oost-Vlaanderen",
-      "abbrev:francais": "East Flanders"
+      "courts": {
+        "ca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "East Flanders"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/aalst",
+    "be:gent:oost.vlaanderen:aalst": {
       "name": "Aalst",
-      "courts": [
-        "dc",
-        "lc",
-        "pc"
-      ],
       "abbrev": "Aalst",
-      "abbrev:francais": "Aalst"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Aalst"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/beveren",
+    "be:gent:oost.vlaanderen:beveren": {
       "name": "Beveren",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Beveren",
-      "abbrev:francais": "Beveren"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Beveren"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/deinze",
+    "be:gent:oost.vlaanderen:deinze": {
       "name": "Deinze",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Deinze",
-      "abbrev:francais": "Deinze"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Deinze"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/dendermonde",
+    "be:gent:oost.vlaanderen:dendermonde": {
       "name": "Dendermonde",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Dendermonde",
-      "abbrev:francais": "Dendermonde"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Dendermonde"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/dendermonde.hamme",
+    "be:gent:oost.vlaanderen:dendermonde.hamme": {
       "name": "Dendermonde-Hamme",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Dendermonde-Hamme",
-      "abbrev:francais": "Dendermonde-Hamme"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Dendermonde-Hamme"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/eeklo",
+    "be:gent:oost.vlaanderen:eeklo": {
       "name": "Eeklo",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Eeklo",
-      "abbrev:francais": "Eeklo"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Eeklo"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/gent",
+    "be:gent:oost.vlaanderen:gent": {
       "name": "Gent",
-      "courts": [
-        "cc",
-        "cfi",
-        "dc",
-        "lc",
-        "lca",
-        "pc"
-      ],
       "abbrev": "Gent",
-      "abbrev:francais": "Ghent"
+      "courts": {
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ghent"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/geraardsbergen.brakel",
+    "be:gent:oost.vlaanderen:geraardsbergen.brakel": {
       "name": "Geraardsbergen-Brakel",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Geraardsbergen-Brakel",
-      "abbrev:francais": "Geraardsbergen-Brakel"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Geraardsbergen-Brakel"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/lokeren",
+    "be:gent:oost.vlaanderen:lokeren": {
       "name": "Lokeren",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Lokeren",
-      "abbrev:francais": "Lokeren"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Lokeren"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/merelbeke",
+    "be:gent:oost.vlaanderen:merelbeke": {
       "name": "Merelbeke",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Merelbeke",
-      "abbrev:francais": "Merelbeke"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Merelbeke"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/ninove",
+    "be:gent:oost.vlaanderen:ninove": {
       "name": "Ninove",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Ninove",
-      "abbrev:francais": "Ninove"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ninove"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/oudenaarde",
+    "be:gent:oost.vlaanderen:oudenaarde": {
       "name": "Oudenaarde",
-      "courts": [
-        "cc",
-        "cfi",
-        "lc",
-        "pc"
-      ],
       "abbrev": "Oudenaarde",
-      "abbrev:francais": "Oudenaarde"
+      "courts": {
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Oudenaarde"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/oudenaarde.kruishoutem",
+    "be:gent:oost.vlaanderen:oudenaarde.kruishoutem": {
       "name": "Oudenaarde-Kruishoutem",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Oudenaarde-Kruishoutem",
-      "abbrev:francais": "Oudenaarde-Kruishoutem"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Oudenaarde-Kruishoutem"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/ronse",
+    "be:gent:oost.vlaanderen:ronse": {
       "name": "Ronse",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Ronse",
-      "abbrev:francais": "Ronse"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ronse"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/sint.niklaas",
+    "be:gent:oost.vlaanderen:sint.niklaas": {
       "name": "Sint-Niklaas",
-      "courts": [
-        "dc",
-        "lc",
-        "pc"
-      ],
       "abbrev": "Sint-Niklaas",
-      "abbrev:francais": "Sint-Niklaas"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Sint-Niklaas"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/wetteren.zele",
+    "be:gent:oost.vlaanderen:wetteren.zele": {
       "name": "Wetteren-Zele",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Wetteren-Zele",
-      "abbrev:francais": "Wetteren-Zele"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Wetteren-Zele"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/zelzate",
+    "be:gent:oost.vlaanderen:zelzate": {
       "name": "Zelzate",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Zelzate",
-      "abbrev:francais": "Zelzate"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Zelzate"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/zomergem",
+    "be:gent:oost.vlaanderen:zomergem": {
       "name": "Zomergem",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Zomergem",
-      "abbrev:francais": "Zomergem"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Zomergem"
+        }
+      }
     },
-    {
-      "path": "be/gent/oost.vlaanderen/zottegem.herzele",
+    "be:gent:oost.vlaanderen:zottegem.herzele": {
       "name": "Zottegem-Herzele",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Zottegem-Herzele",
-      "abbrev:francais": "Zottegem-Herzele"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Zottegem-Herzele"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen",
+    "be:gent:west.vlaanderen": {
       "name": "Gent",
-      "courts": [
-        "ca",
-        "coass"
-      ],
       "abbrev": "West-Vlaanderen",
-      "abbrev:francais": "West Flanders"
+      "courts": {
+        "ca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "West Flanders"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/brugge",
+    "be:gent:west.vlaanderen:brugge": {
       "name": "Brugge",
-      "courts": [
-        "cc",
-        "cfi",
-        "dc",
-        "lc",
-        "lca",
-        "pc"
-      ],
       "abbrev": "Brugge",
-      "abbrev:francais": "Brugge"
+      "courts": {
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Brugge"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/diksmuide",
+    "be:gent:west.vlaanderen:diksmuide": {
       "name": "Diksmuide",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Diksmuide",
-      "abbrev:francais": "Diksmuide"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Diksmuide"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/harelbeke",
+    "be:gent:west.vlaanderen:harelbeke": {
       "name": "Harelbeke",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Harelbeke",
-      "abbrev:francais": "Harelbeke"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Harelbeke"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/ieper",
+    "be:gent:west.vlaanderen:ieper": {
       "name": "Ieper",
-      "courts": [
-        "cc",
-        "cfi",
-        "dc",
-        "lc",
-        "pc"
-      ],
       "abbrev": "Ieper",
-      "abbrev:francais": "Ieper"
+      "courts": {
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ieper"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/ieper.poperinge",
+    "be:gent:west.vlaanderen:ieper.poperinge": {
       "name": "Ieper-Poperinge",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Ieper-Poperinge",
-      "abbrev:francais": "Ieper-Poperinge"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ieper-Poperinge"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/izegem",
+    "be:gent:west.vlaanderen:izegem": {
       "name": "Izegem",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Izegem",
-      "abbrev:francais": "Izegem"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Izegem"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/kortrijk",
+    "be:gent:west.vlaanderen:kortrijk": {
       "name": "Kortrijk",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Kortrijk",
-      "abbrev:francais": "Kortrijk"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Kortrijk"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/menen",
+    "be:gent:west.vlaanderen:menen": {
       "name": "Menen",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Menen",
-      "abbrev:francais": "Menen"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Menen"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/oostende",
+    "be:gent:west.vlaanderen:oostende": {
       "name": "Oostende",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Oostende",
-      "abbrev:francais": "Oostende"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Oostende"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/roeselare",
+    "be:gent:west.vlaanderen:roeselare": {
       "name": "Roeselare",
-      "courts": [
-        "dc",
-        "lc"
-      ],
       "abbrev": "Roeselare",
-      "abbrev:francais": "Roeselare"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Roeselare"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/tielt",
+    "be:gent:west.vlaanderen:tielt": {
       "name": "Tielt",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Tielt",
-      "abbrev:francais": "Tielt"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Tielt"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/torhout",
+    "be:gent:west.vlaanderen:torhout": {
       "name": "Torhout",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Torhout",
-      "abbrev:francais": "Torhout"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Torhout"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/veurne",
+    "be:gent:west.vlaanderen:veurne": {
       "name": "Veurne",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Veurne",
-      "abbrev:francais": "Veurne"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Veurne"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/veurne.nieuwpoort",
+    "be:gent:west.vlaanderen:veurne.nieuwpoort": {
       "name": "Veurne-Nieuwpoort",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Veurne-Nieuwpoort",
-      "abbrev:francais": "Veurne-Nieuwpoort"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Veurne-Nieuwpoort"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/waregem",
+    "be:gent:west.vlaanderen:waregem": {
       "name": "Waregem",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Waregem",
-      "abbrev:francais": "Waregem"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Waregem"
+        }
+      }
     },
-    {
-      "path": "be/gent/west.vlaanderen/wervik",
+    "be:gent:west.vlaanderen:wervik": {
       "name": "Wervik",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Wervik",
-      "abbrev:francais": "Wervik"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Wervik"
+        }
+      }
     },
-    {
-      "path": "be/luik",
+    "be:luik": {
       "name": "Luik",
-      "courts": [
-        "ca"
-      ],
       "abbrev": "Luik",
-      "abbrev:francais": "Liege"
+      "courts": {
+        "ca": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Liege"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik",
+    "be:luik:luik": {
       "name": "Luik",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "coass",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "lca",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Luik",
-      "abbrev:francais": "Liege"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Liege"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/borgworm",
+    "be:luik:luik:borgworm": {
       "name": "Borgworm",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Borgworm",
-      "abbrev:francais": "Borgworm"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Borgworm"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/eupen",
+    "be:luik:luik:eupen": {
       "name": "Eupen",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Eupen",
-      "abbrev:francais": "Eupen"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Eupen"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/eupen/sankt.vith",
+    "be:luik:luik:eupen:sankt.vith": {
       "name": "Sankt-Vith",
-      "courts": [
-        "dc",
-        "pc"
-      ],
       "abbrev": "Sankt-Vith",
-      "abbrev:francais": "Sankt-Vith"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Sankt-Vith"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/fleron",
+    "be:luik:luik:fleron": {
       "name": "Fléron",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Fléron",
-      "abbrev:francais": "Fléron"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Fléron"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/grace.hollogne",
+    "be:luik:luik:grace.hollogne": {
       "name": "Grâce-Hollogne",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Grâce-Hollogne",
-      "abbrev:francais": "Grâce-Hollogne"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Grâce-Hollogne"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/hamoir",
+    "be:luik:luik:hamoir": {
       "name": "Hamoir",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Hamoir",
-      "abbrev:francais": "Hamoir"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Hamoir"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/herstal",
+    "be:luik:luik:herstal": {
       "name": "Herstal",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Herstal",
-      "abbrev:francais": "Herstal"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Herstal"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/hoei",
+    "be:luik:luik:hoei": {
       "name": "Hoei",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Hoei",
-      "abbrev:francais": "Hoei"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Hoei"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/hoei.hannuit",
+    "be:luik:luik:hoei.hannuit": {
       "name": "Hoei-Hannuit",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Hoei-Hannuit",
-      "abbrev:francais": "Hoei-Hannuit"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Hoei-Hannuit"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/malmedy.spa.stavelot",
+    "be:luik:luik:malmedy.spa.stavelot": {
       "name": "Malmédy-Spa-Stavelot",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Malmédy-Spa-Stavelot",
-      "abbrev:francais": "Malmédy-Spa-Stavelot"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Malmédy-Spa-Stavelot"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/saint.nicolas.lez.liege",
+    "be:luik:luik:saint.nicolas.lez.liege": {
       "name": "Saint-Nicolas-lez-Liège",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Saint-Nicolas-lez-Liège",
-      "abbrev:francais": "Saint-Nicolas-lez-Liège"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Saint-Nicolas-lez-Liège"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/seraing",
+    "be:luik:luik:seraing": {
       "name": "Seraing",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Seraing",
-      "abbrev:francais": "Seraing"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Seraing"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/sprimont",
+    "be:luik:luik:sprimont": {
       "name": "Sprimont",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Sprimont",
-      "abbrev:francais": "Sprimont"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Sprimont"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/verviers",
+    "be:luik:luik:verviers": {
       "name": "Verviers",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Verviers",
-      "abbrev:francais": "Verviers"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Verviers"
+        }
+      }
     },
-    {
-      "path": "be/luik/luik/wezet",
+    "be:luik:luik:wezet": {
       "name": "Wezet",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Wezet",
-      "abbrev:francais": "Wezet"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Wezet"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg",
+    "be:luik:luxumburg": {
       "name": "Luxumburg",
-      "courts": [
-        "coass",
-        "lc",
-        "lca"
-      ],
       "abbrev": "Luxumburg",
-      "abbrev:francais": "Luxumbourg"
+      "courts": {
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Luxumbourg"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/aarlen",
+    "be:luik:luxumburg:aarlen": {
       "name": "Aarlen",
-      "courts": [
-        "cc",
-        "cfi",
-        "lc",
-        "pc"
-      ],
       "abbrev": "Aarlen",
-      "abbrev:francais": "Aarlen"
+      "courts": {
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Aarlen"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/aarlen.messancy",
+    "be:luik:luxumburg:aarlen.messancy": {
       "name": "Aarlen-Messancy",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Aarlen-Messancy",
-      "abbrev:francais": "Aarlen-Messancy"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Aarlen-Messancy"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/bastenaken.neufchateau",
+    "be:luik:luxumburg:bastenaken.neufchateau": {
       "name": "Bastenaken-Neufchâteau",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Bastenaken-Neufchâteau",
-      "abbrev:francais": "Bastenaken-Neufchâteau"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Bastenaken-Neufchâteau"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/marche.en.famenne",
+    "be:luik:luxumburg:marche.en.famenne": {
       "name": "Marche-en-Famenne",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Marche-en-Famenne",
-      "abbrev:francais": "Marche-en-Famenne"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Marche-en-Famenne"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/marche.en.famenne.durbuy",
+    "be:luik:luxumburg:marche.en.famenne.durbuy": {
       "name": "Marche-en-Famenne-Durbuy",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Marche-en-Famenne-Durbuy",
-      "abbrev:francais": "Marche-en-Famenne-Durbuy"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Marche-en-Famenne-Durbuy"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/neufchateau",
+    "be:luik:luxumburg:neufchateau": {
       "name": "Neufchâteau",
-      "courts": [
-        "cc",
-        "cfi",
-        "lc",
-        "lca",
-        "pc"
-      ],
       "abbrev": "Neufchâteau",
-      "abbrev:francais": "Neufchâteau"
+      "courts": {
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Neufchâteau"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/saint.hubert.bouillon.paliseul",
+    "be:luik:luxumburg:saint.hubert.bouillon.paliseul": {
       "name": "Saint-Hubert-Bouillon-Paliseul",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Saint-Hubert-Bouillon-Paliseul",
-      "abbrev:francais": "Saint-Hubert-Bouillon-Paliseul"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Saint-Hubert-Bouillon-Paliseul"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/vielsalm.la.roche.en.ardenne.houffalize",
+    "be:luik:luxumburg:vielsalm.la.roche.en.ardenne.houffalize": {
       "name": "Vielsalm-La Roche en Ardenne-Houffalize",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Vielsalm-La Roche en Ardenne-Houffalize",
-      "abbrev:francais": "Vielsalm-La Roche en Ardenne-Houffalize"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Vielsalm-La Roche en Ardenne-Houffalize"
+        }
+      }
     },
-    {
-      "path": "be/luik/luxumburg/virton.florenville.etalle",
+    "be:luik:luxumburg:virton.florenville.etalle": {
       "name": "Virton-Florenville-Etalle",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Virton-Florenville-Etalle",
-      "abbrev:francais": "Virton-Florenville-Etalle"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Virton-Florenville-Etalle"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen",
+    "be:luik:namen": {
       "name": "Namen",
-      "courts": [
-        "coass",
-        "lc",
-        "lca"
-      ],
       "abbrev": "Namen",
-      "abbrev:francais": "Namen"
+      "courts": {
+        "coass": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lca": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Namen"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/andenne",
+    "be:luik:namen:andenne": {
       "name": "Andenne",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Andenne",
-      "abbrev:francais": "Andenne"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Andenne"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/beauraing.dinant.gedinne",
+    "be:luik:namen:beauraing.dinant.gedinne": {
       "name": "Beauraing-Dinant-Gedinne",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Beauraing-Dinant-Gedinne",
-      "abbrev:francais": "Beauraing-Dinant-Gedinne"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Beauraing-Dinant-Gedinne"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/ciney.rochefort",
+    "be:luik:namen:ciney.rochefort": {
       "name": "Ciney-Rochefort",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Ciney-Rochefort",
-      "abbrev:francais": "Ciney-Rochefort"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Ciney-Rochefort"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/dinant",
+    "be:luik:namen:dinant": {
       "name": "Dinant",
-      "courts": [
-        "br",
-        "cc",
-        "cfi",
-        "corrc",
-        "famc",
-        "juvc",
-        "lc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Dinant",
-      "abbrev:francais": "Dinant"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "lc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Dinant"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/fosses.la.ville",
+    "be:luik:namen:fosses.la.ville": {
       "name": "Fosses-la-Ville",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Fosses-la-Ville",
-      "abbrev:francais": "Fosses-la-Ville"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Fosses-la-Ville"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/gembloux.eghezee",
+    "be:luik:namen:gembloux.eghezee": {
       "name": "Gembloux-Eghezée",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Gembloux-Eghezée",
-      "abbrev:francais": "Gembloux-Eghezée"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Gembloux-Eghezée"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/namen",
+    "be:luik:namen:namen": {
       "name": "Namen",
-      "courts": [
-        "br",
-        "cfi",
-        "corrc",
-        "dc",
-        "famc",
-        "juvc",
-        "pc",
-        "pres",
-        "sentc"
-      ],
       "abbrev": "Namen",
-      "abbrev:francais": "Namen"
+      "courts": {
+        "br": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "cfi": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "corrc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "famc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "juvc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "pres": {
+          "variants": {
+            "francais": {}
+          }
+        },
+        "sentc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Namen"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/philippeville.couvin",
+    "be:luik:namen:philippeville.couvin": {
       "name": "Philippeville-Couvin",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Philippeville-Couvin",
-      "abbrev:francais": "Philippeville-Couvin"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Philippeville-Couvin"
+        }
+      }
     },
-    {
-      "path": "be/luik/namen/walcourt.florennes",
+    "be:luik:namen:walcourt.florennes": {
       "name": "Walcourt-Florennes",
-      "courts": [
-        "dc"
-      ],
       "abbrev": "Walcourt-Florennes",
-      "abbrev:francais": "Walcourt-Florennes"
+      "courts": {
+        "dc": {
+          "variants": {
+            "francais": {}
+          }
+        }
+      },
+      "variants": {
+        "francais": {
+          "abbrev": "Walcourt-Florennes"
+        }
+      }
     }
-  ]
+  }
 }

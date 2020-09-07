@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "tt",
-      "name": "Trinidad and Tobago",
-      "courts": []
+  "jurisdictions": {
+    "tt": {
+      "name": "Trinidad and Tobago"
     }
-  ]
+  }
 }

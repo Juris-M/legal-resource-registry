@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "iq",
-      "name": "Iraq",
-      "courts": []
+  "jurisdictions": {
+    "iq": {
+      "name": "Iraq"
     }
-  ]
+  }
 }

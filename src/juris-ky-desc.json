@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ky",
-      "name": "Cayman Islands",
-      "courts": []
+  "jurisdictions": {
+    "ky": {
+      "name": "Cayman Islands"
     }
-  ]
+  }
 }

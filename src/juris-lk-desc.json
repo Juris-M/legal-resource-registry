@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "lk",
-      "name": "Sri Lanka",
-      "courts": []
+  "jurisdictions": {
+    "lk": {
+      "name": "Sri Lanka"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bt",
-      "name": "Bhutan",
-      "courts": []
+  "jurisdictions": {
+    "bt": {
+      "name": "Bhutan"
     }
-  ]
+  }
 }

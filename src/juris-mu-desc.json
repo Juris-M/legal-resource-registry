@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mu",
-      "name": "Mauritius",
-      "courts": []
+  "jurisdictions": {
+    "mu": {
+      "name": "Mauritius"
     }
-  ]
+  }
 }

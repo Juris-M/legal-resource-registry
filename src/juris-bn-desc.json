@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bn",
-      "name": "Brunei",
-      "courts": []
+  "jurisdictions": {
+    "bn": {
+      "name": "Brunei"
     }
-  ]
+  }
 }

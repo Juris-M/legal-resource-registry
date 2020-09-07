@@ -1,345 +1,310 @@
 {
-	"courts": {
-		"hao": {
-			"name": "Hallinto-oikeus",
-			"abbrev": "< hallinto-oikeus",
-			"ABBREV": "HAO"
-		},
-		"ko": {
-			"name": "Käräjäoikeus",
-			"abbrev": "< käräjäoikeus",
-			"ABBREV": "KO"
-		},
-		"ho": {
-			"name": "Hovioikeus",
-			"abbrev": "< hovioikeus",
-			"ABBREV": "HO"
-		},
-		"vako": {
-			"name": "Vakuutusoikeus",
-			"abbrev": "Vakuutusoikeus",
-			"ABBREV": "VakO"
-		},
-		"tt": {
-			"name": "Työtuomioisuin",
-			"abbrev": "Työtuomioisuin",
-			"ABBREV": "TT"
-		},
-		"impeachment": {
-			"name": "Valtakunnanoikeus",
-			"abbrev": "Valtakunnanoikeus"
-		},
-		"mao": {
-			"name": "Markkinaoikeus",
-			"abbrev": "Markkinaoikeus",
-			"ABBREV": "MAO"
-		},
-		"kho": {
-			"name": "Korkein hallinto-oikeus",
-			"abbrev": "Korkein hallinto-oikeus",
-			"ABBREV": "KHO"
-		},
-		"kko": {
-			"name": "Korkein oikeus",
-			"abbrev": "Korkein oikeus",
-			"ABBREV": "KKO"
-		}
-	},
-	"jurisdictions": [
-		{
-			"path": "fi",
-			"name": "Finland",
-			"courts": [
-				"vako",
-				"tt",
-				"impeachment",
-				"mao",
-				"kho",
-				"kko"
-			]
-		},
-		{
-			"path": "fi/ahvenanmaa",
-			"name": "Ahvenanmaa",
-			"abbrev": "Ahvenanmaan",
-			"courts": [
-				"hao"
-			]
-		},
-		{
-			"path": "fi/hameenlinna",
-			"name": "Kanta-Häme, Keski-Suomi, Pirkanmaa and Päijät-Häme",
-			"abbrev": "Hämeenlinnan",
-			"courts": [
-				"hao"
-			]
-		},
-		{
-			"path": "fi/helsinki",
-			"name": "Uusimaa",
-			"abbrev": "Helsingin",
-			"courts": [
-				"hao",
-				"ho"
-			]
-		},
-		{
-			"path": "fi/helsinki/helsinki",
-			"name": "Helsinki",
-			"abbrev": "Helsingin",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/helsinki/ita.uusimaa",
-			"name": "Itä-Uusimaa",
-			"abbrev": "Itä-Uudenmaan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/helsinki/vantaa",
-			"name": "Vantaa",
-			"abbrev": "Vantaan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/helsinki/hyvinkaa",
-			"name": "Hyvinkää",
-			"abbrev": "Hyvinkään",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/helsinki/lansi.uusimaa",
-			"name": "Länsi-Uusimaa",
-			"abbrev": "Länsi-Uudenmaan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/helsinki/espoo",
-			"name": "Espoo",
-			"abbrev": "Espoon",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/ita.suomi",
-			"name": "Itä-Suomi",
-			"abbrev": "Itä-Suomen",
-			"courts": [
-				"hao",
-				"ho"
-			]
-		},
-		{
-			"path": "fi/ita.suomi/etela.karjala",
-			"name": "Etelä-Karjala",
-			"abbrev": "Etelä-Karjalan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/ita.suomi/etela.savo",
-			"name": "Etelä-Savo",
-			"abbrev": "Etelä-Savon",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/ita.suomi/kymenlaakso",
-			"name": "Kymenlaakso",
-			"abbrev": "Kymenlaakson",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/ita.suomi/paijat.hame",
-			"name": "Päijät-Häme",
-			"abbrev": "Päijät-Hämeen",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/ita.suomi/pohjois.karjala",
-			"name": "Pohjois-Karjala",
-			"abbrev": "Pohjois-Karjalan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/ita.suomi/pohjois.savo",
-			"name": "Pohjois-Savo",
-			"abbrev": "Pohjois-Savon",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/pohjois.suomi",
-			"name": "Pohjois-Suomi",
-			"abbrev": "Pohjois-Suomen",
-			"courts": [
-				"hao"
-			]
-		},
-		{
-			"path": "fi/rovaniemi",
-			"name": "Pohjois-Suomi",
-			"abbrev": "Rovaniemen",
-			"courts": [
-				"ho"
-			]
-		},
-		{
-			"path": "fi/rovaniemi/kemi.tornio",
-			"name": "Kemi-Tornio",
-			"abbrev": "Kemi-Tornion",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/rovaniemi/kainuu",
-			"name": "Kainuu",
-			"abbrev": "Kainuun",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/rovaniemi/lappi",
-			"name": "Lappi",
-			"abbrev": "Lapin",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/rovaniemi/oulu",
-			"name": "Oulu",
-			"abbrev": "Oulun",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/rovaniemi/ylivieska.raahe",
-			"name": "Ylivieska-Raahe",
-			"abbrev": "Ylivieska-Raahen",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/turku",
-			"name": "Lounais-Suomi",
-			"abbrev": "Turun",
-			"courts": [
-				"hao",
-				"ho"
-			]
-		},
-		{
-			"path": "fi/turku/kanta.hame",
-			"name": "Kanta-Häme",
-			"abbrev": "Kanta-Hämeen",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/turku/pirkanmaa",
-			"name": "Pirkanmaa",
-			"abbrev": "Pirkanmaan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/turku/varsinais.suomi",
-			"name": "Varsinais-Suomi",
-			"abbrev": "Varsinais-Suomen",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/turku/ahvenanmaa",
-			"name": "Ahvenanmaa",
-			"abbrev": "Ahvenanmaan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/pohjanmaa",
-			"name": "Pohjanmaa",
-			"abbrev": "Vaasan",
-			"courts": [
-				"hao"
-			]
-		},
-		{
-			"path": "fi/vaasa",
-			"name": "Keski-Suomi, Pohjanmaa",
-			"abbrev": "Vaasan",
-			"courts": [
-				"ho"
-			]
-		},
-		{
-			"path": "fi/vaasa/etela.pohjanmaa",
-			"name": "Etelä-Pohjanmaa",
-			"abbrev": "Etelä-Pohjanmaan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/vaasa/keski.suomi",
-			"name": "Keski-Suomi",
-			"abbrev": "Keski-Suomen",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/vaasa/pohjanmaa",
-			"name": "Pohjanmaa",
-			"abbrev": "Pohjanmaan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/vaasa/keski.pohjanmaa",
-			"name": "Keski-Pohjanmaa",
-			"abbrev": "Keski-Pohjanmaan",
-			"courts": [
-				"ko"
-			]
-		},
-		{
-			"path": "fi/vaasa/satakunta",
-			"name": "Satakunta",
-			"abbrev": "Satakunnan",
-			"courts": [
-				"ko"
-			]
-		}
-	]
+  "langs": {},
+  "courts": {
+    "hao": {
+      "name": "Hallinto-oikeus",
+      "abbrev": "%s hallinto-oikeus",
+      "ABBREV": "HAO"
+    },
+    "ko": {
+      "name": "Käräjäoikeus",
+      "abbrev": "%s käräjäoikeus",
+      "ABBREV": "KO"
+    },
+    "ho": {
+      "name": "Hovioikeus",
+      "abbrev": "%s hovioikeus",
+      "ABBREV": "HO"
+    },
+    "vako": {
+      "name": "Vakuutusoikeus",
+      "abbrev": "Vakuutusoikeus",
+      "ABBREV": "VakO"
+    },
+    "tt": {
+      "name": "Työtuomioisuin",
+      "abbrev": "Työtuomioisuin",
+      "ABBREV": "TT"
+    },
+    "impeachment": {
+      "name": "Valtakunnanoikeus",
+      "abbrev": "Valtakunnanoikeus"
+    },
+    "mao": {
+      "name": "Markkinaoikeus",
+      "abbrev": "Markkinaoikeus",
+      "ABBREV": "MAO"
+    },
+    "kho": {
+      "name": "Korkein hallinto-oikeus",
+      "abbrev": "Korkein hallinto-oikeus",
+      "ABBREV": "KHO"
+    },
+    "kko": {
+      "name": "Korkein oikeus",
+      "abbrev": "Korkein oikeus",
+      "ABBREV": "KKO"
+    }
+  },
+  "jurisdictions": {
+    "fi": {
+      "name": "Finland",
+      "courts": {
+        "vako": {},
+        "tt": {},
+        "impeachment": {},
+        "mao": {},
+        "kho": {},
+        "kko": {}
+      }
+    },
+    "fi:ahvenanmaa": {
+      "name": "Ahvenanmaa",
+      "abbrev": "Ahvenanmaan",
+      "courts": {
+        "hao": {}
+      }
+    },
+    "fi:hameenlinna": {
+      "name": "Kanta-Häme, Keski-Suomi, Pirkanmaa and Päijät-Häme",
+      "abbrev": "Hämeenlinnan",
+      "courts": {
+        "hao": {}
+      }
+    },
+    "fi:helsinki": {
+      "name": "Uusimaa",
+      "abbrev": "Helsingin",
+      "courts": {
+        "hao": {},
+        "ho": {}
+      }
+    },
+    "fi:helsinki:helsinki": {
+      "name": "Helsinki",
+      "abbrev": "Helsingin",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:helsinki:ita.uusimaa": {
+      "name": "Itä-Uusimaa",
+      "abbrev": "Itä-Uudenmaan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:helsinki:vantaa": {
+      "name": "Vantaa",
+      "abbrev": "Vantaan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:helsinki:hyvinkaa": {
+      "name": "Hyvinkää",
+      "abbrev": "Hyvinkään",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:helsinki:lansi.uusimaa": {
+      "name": "Länsi-Uusimaa",
+      "abbrev": "Länsi-Uudenmaan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:helsinki:espoo": {
+      "name": "Espoo",
+      "abbrev": "Espoon",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:ita.suomi": {
+      "name": "Itä-Suomi",
+      "abbrev": "Itä-Suomen",
+      "courts": {
+        "hao": {},
+        "ho": {}
+      }
+    },
+    "fi:ita.suomi:etela.karjala": {
+      "name": "Etelä-Karjala",
+      "abbrev": "Etelä-Karjalan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:ita.suomi:etela.savo": {
+      "name": "Etelä-Savo",
+      "abbrev": "Etelä-Savon",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:ita.suomi:kymenlaakso": {
+      "name": "Kymenlaakso",
+      "abbrev": "Kymenlaakson",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:ita.suomi:paijat.hame": {
+      "name": "Päijät-Häme",
+      "abbrev": "Päijät-Hämeen",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:ita.suomi:pohjois.karjala": {
+      "name": "Pohjois-Karjala",
+      "abbrev": "Pohjois-Karjalan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:ita.suomi:pohjois.savo": {
+      "name": "Pohjois-Savo",
+      "abbrev": "Pohjois-Savon",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:pohjois.suomi": {
+      "name": "Pohjois-Suomi",
+      "abbrev": "Pohjois-Suomen",
+      "courts": {
+        "hao": {}
+      }
+    },
+    "fi:rovaniemi": {
+      "name": "Pohjois-Suomi",
+      "abbrev": "Rovaniemen",
+      "courts": {
+        "ho": {}
+      }
+    },
+    "fi:rovaniemi:kemi.tornio": {
+      "name": "Kemi-Tornio",
+      "abbrev": "Kemi-Tornion",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:rovaniemi:kainuu": {
+      "name": "Kainuu",
+      "abbrev": "Kainuun",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:rovaniemi:lappi": {
+      "name": "Lappi",
+      "abbrev": "Lapin",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:rovaniemi:oulu": {
+      "name": "Oulu",
+      "abbrev": "Oulun",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:rovaniemi:ylivieska.raahe": {
+      "name": "Ylivieska-Raahe",
+      "abbrev": "Ylivieska-Raahen",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:turku": {
+      "name": "Lounais-Suomi",
+      "abbrev": "Turun",
+      "courts": {
+        "hao": {},
+        "ho": {}
+      }
+    },
+    "fi:turku:kanta.hame": {
+      "name": "Kanta-Häme",
+      "abbrev": "Kanta-Hämeen",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:turku:pirkanmaa": {
+      "name": "Pirkanmaa",
+      "abbrev": "Pirkanmaan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:turku:varsinais.suomi": {
+      "name": "Varsinais-Suomi",
+      "abbrev": "Varsinais-Suomen",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:turku:ahvenanmaa": {
+      "name": "Ahvenanmaa",
+      "abbrev": "Ahvenanmaan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:pohjanmaa": {
+      "name": "Pohjanmaa",
+      "abbrev": "Vaasan",
+      "courts": {
+        "hao": {}
+      }
+    },
+    "fi:vaasa": {
+      "name": "Keski-Suomi, Pohjanmaa",
+      "abbrev": "Vaasan",
+      "courts": {
+        "ho": {}
+      }
+    },
+    "fi:vaasa:etela.pohjanmaa": {
+      "name": "Etelä-Pohjanmaa",
+      "abbrev": "Etelä-Pohjanmaan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:vaasa:keski.suomi": {
+      "name": "Keski-Suomi",
+      "abbrev": "Keski-Suomen",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:vaasa:pohjanmaa": {
+      "name": "Pohjanmaa",
+      "abbrev": "Pohjanmaan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:vaasa:keski.pohjanmaa": {
+      "name": "Keski-Pohjanmaa",
+      "abbrev": "Keski-Pohjanmaan",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:vaasa:satakunta": {
+      "name": "Satakunta",
+      "abbrev": "Satakunnan",
+      "courts": {
+        "ko": {}
+      }
+    }
+  }
 }

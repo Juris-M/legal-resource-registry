@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ge",
-      "name": "Georgia",
-      "courts": []
+  "jurisdictions": {
+    "ge": {
+      "name": "Georgia"
     }
-  ]
+  }
 }

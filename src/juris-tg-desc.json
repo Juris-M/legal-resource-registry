@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "tg",
-      "name": "Togo",
-      "courts": []
+  "jurisdictions": {
+    "tg": {
+      "name": "Togo"
     }
-  ]
+  }
 }

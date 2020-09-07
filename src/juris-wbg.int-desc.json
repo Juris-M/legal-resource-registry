@@ -1,16 +1,16 @@
 {
+  "langs": {},
   "courts": {
     "icsid": {
       "name": "International Centre for Settlement of Investment Disputes"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "wbg.int",
+  "jurisdictions": {
+    "wbg.int": {
       "name": "World Bank Group",
-      "courts": [
-        "icsid"
-      ]
+      "courts": {
+        "icsid": {}
+      }
     }
-  ]
+  }
 }

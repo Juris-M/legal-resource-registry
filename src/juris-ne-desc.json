@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ne",
-      "name": "Niger",
-      "courts": []
+  "jurisdictions": {
+    "ne": {
+      "name": "Niger"
     }
-  ]
+  }
 }

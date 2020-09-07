@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ro",
-      "name": "Romania",
-      "courts": []
+  "jurisdictions": {
+    "ro": {
+      "name": "Romania"
     }
-  ]
+  }
 }

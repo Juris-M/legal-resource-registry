@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mk",
-      "name": "Macedonia",
-      "courts": []
+  "jurisdictions": {
+    "mk": {
+      "name": "Macedonia"
     }
-  ]
+  }
 }

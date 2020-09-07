@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ug",
-      "name": "Uganda",
-      "courts": []
+  "jurisdictions": {
+    "ug": {
+      "name": "Uganda"
     }
-  ]
+  }
 }

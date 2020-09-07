@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ag",
-      "name": "Antigua and Barbuda",
-      "courts": []
+  "jurisdictions": {
+    "ag": {
+      "name": "Antigua and Barbuda"
     }
-  ]
+  }
 }

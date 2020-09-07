@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "py",
-      "name": "Paraguay",
-      "courts": []
+  "jurisdictions": {
+    "py": {
+      "name": "Paraguay"
     }
-  ]
+  }
 }

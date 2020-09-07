@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "sn",
-      "name": "Senegal",
-      "courts": []
+  "jurisdictions": {
+    "sn": {
+      "name": "Senegal"
     }
-  ]
+  }
 }

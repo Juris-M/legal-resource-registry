@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "kg",
-      "name": "Kyrgyzstan",
-      "courts": []
+  "jurisdictions": {
+    "kg": {
+      "name": "Kyrgyzstan"
     }
-  ]
+  }
 }

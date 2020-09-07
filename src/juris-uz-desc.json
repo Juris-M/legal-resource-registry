@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "uz",
-      "name": "Uzbekistan",
-      "courts": []
+  "jurisdictions": {
+    "uz": {
+      "name": "Uzbekistan"
     }
-  ]
+  }
 }

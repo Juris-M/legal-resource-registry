@@ -1,458 +1,401 @@
 {
-    "courts": {
-        "hoge": {
-            "name": "Hoge Raad"
-	    },	
-        "gerechtshof": {
-            "name": "Gerechtshof"
-        },
-	    "rechtbank": {
-            "name": "Rechtbank"
-	    },
-	    "sector.kanton": {
-            "name": "Sector Kanton"
-        },
-	    "rekenkamer": {
-            "name": "Rekenkamer"
-	    },
-	    "centrale.beroep": {
-            "name": "Centrale Raad van Beroep"
-	    },
-	    "college.beroep.bedrijfsleven": {
-            "name": "College van Beroep voor het bedrijfsleven"
-        }
+  "langs": {},
+  "courts": {
+    "hoge": {
+      "name": "Hoge Raad"
     },
-    "jurisdictions": [
-        {
-            "path": "nl",
-            "name": "Netherlands",
-            "courts": [
-                "hoge",
-		        "rekenkamer",
-		        "centrale.beroep",
-		        "college.beroep.bedrijfsleven"
-            ]
-        },
-        {
-            "path": "nl/gravenhage",
-            "name": "Gravenhage",
-            "courts": [
-                "gerechtshof",
-		        "rechtbank",
-		        "sector.kanton"
-            ]
-        },
-        {
-            "path": "nl/gravenhage/alphen.rijn",
-            "name": "Alphen aan den Rijn",
-            "courts": [
-                "sector.kanton"
-            ]
-        },
-        {
-            "path": "nl/gravenhage/delft",
-            "name": "Delft",
-            "courts": [
-                "sector.kanton"
-            ]
-        },
-        {
-            "path": "nl/gravenhage/gouda",
-            "name": "Gouda",
-            "courts": [
-                "sector.kanton"
-            ]
-        },
-        {
-            "path": "nl/gravenhage/leiden",
-            "name": "Leiden",
-            "courts": [
-                "sector.kanton"
-            ]
-        },
-        {
-            "path": "nl/gravenhage/winschoten",
-            "name": "Winschoten",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/hertogenbosch",
-            "name": "Hertogenbosch",
-            "courts": [
-                "gerechtshof",
-		        "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/hertogenbosch/boxmeer",
-            "name": "Boxmeer",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/hertogenbosch/eindhoven",
-            "name": "Eindhoven",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/helmond",
-            "name": "Helmond",
-            "courts": [
-                "sector.kanton"
-            ]
-        },
-        {
-            "path": "nl/amsterdam",
-            "name": "Amsterdam",
-            "courts": [
-                "gerechtshof",
-		        "rechtbank",
-		        "sector.kanton"
-            ]
-        },
-        {
-            "path": "nl/amsterdam/hilversum",
-            "name": "Hilversum",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/arnhem",
-            "name": "Arnhem",
-            "courts": [
-                "gerechtshof",
-		        "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/arnhem/nijmegen",
-            "name": "Nijmegen",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/arnhem/tiel",
-            "name": "Tiel",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/arnhem/wageningen",
-            "name": "Wageningen",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/leeuwarden",
-            "name": "Leeuwarden",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/leeuwarden/heerenveen",
-            "name": "Heerenveen",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/leeuwarden/sneek",
-            "name": "Sneek",
-            "courts": [
-                "gerechtshof",
-		        "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/alkmaar",
-            "name": "Alkmaar",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/alkmaar/den.helder",
-            "name": "Den Helder",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/alkmaar/hoorn",
-            "name": "Hoorn",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/almelo",
-            "name": "Almelo",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/assen",
-            "name": "Assen",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/assen/emmen",
-            "name": "Emmen",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/assen/enschede",
-            "name": "Enschede",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/assen/meppel",
-            "name": "Meppel",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/breda",
-            "name": "Breda",
-            "courts": [
-                "rechtbank"
-	        ]
-        },
-        {
-            "path": "nl/breda/bergen.zoom",
-            "name": "Bergen op Zoom",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/breda/tilburg",
-            "name": "Tilburg",
-            "courts": [
-                "sector.kanton"		
-	        ]
-        },
-        {
-            "path": "nl/dordrecht",
-            "name": "Dordrecht",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"		
-	        ]
-        },
-        {
-            "path": "nl/gorinchem",
-            "name": "Gorinchem",
-            "courts": [
-                "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/groningen",
-            "name": "Groningen",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/haarlem",
-            "name": "Haarlem",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/haarlem/zaanstad",
-            "name": "Zaanstad",
-            "courts": [
-                "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/maastricht",
-            "name": "Maastricht",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/maastricht/heerlen",
-            "name": "Heerlen",
-            "courts": [
-                "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/maastricht/sittard.geleen",
-            "name": "Sittard-Geleen",
-            "courts": [
-                "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/middelburg",
-            "name": "Middelburg",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/middelburg/terneuzen",
-            "name": "Terneuzen",
-            "courts": [
-                "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/roermond",
-            "name": "Roermond",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/roermond/venlo",
-            "name": "Venlo",
-            "courts": [
-                "sector.kanton"	
-	        ]
-        },
-        {
-            "path": "nl/rotterdam",
-            "name": "Rotterdam",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/rotterdam/brielle",
-            "name": "Brielle",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/rotterdam/middelharnis",
-            "name": "Middelharnis",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/rotterdam/schiedam",
-            "name": "Schiedam",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/utrecht",
-            "name": "Utrecht",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/utrecht/amersfoort",
-            "name": "Amersfoort",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/zutphen",
-            "name": "Zutphen",
-            "courts": [
-                "rechtbank",
-		        "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/zutphen/apeldoorn",
-            "name": "Apeldoorn",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/zutphen/harderwijk",
-            "name": "Harderwijk",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/zutphen/oost.gelre",
-            "name": "Oost-Gelre",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/zutphen/oude.ijsselstreek",
-            "name": "Oude IJsselstreek",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/zwolle.lelystad",
-            "name": "Zwolle-Lelystad",
-            "courts": [
-                "rechtbank"
-	        ]
-        },
-        {
-            "path": "nl/zwolle.lelystad/zwolle",
-            "name": "Zwolle",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/zwolle.lelystad/deventer",
-            "name": "Deventer",
-            "courts": [
-                "sector.kanton"
-	        ]
-        },
-        {
-            "path": "nl/zwolle.lelystad/lelystad",
-            "name": "Lelystad",
-            "courts": [
-                "sector.kanton"
-            ]
-        }
-    ]
+    "gerechtshof": {
+      "name": "Gerechtshof"
+    },
+    "rechtbank": {
+      "name": "Rechtbank"
+    },
+    "sector.kanton": {
+      "name": "Sector Kanton"
+    },
+    "rekenkamer": {
+      "name": "Rekenkamer"
+    },
+    "centrale.beroep": {
+      "name": "Centrale Raad van Beroep"
+    },
+    "college.beroep.bedrijfsleven": {
+      "name": "College van Beroep voor het bedrijfsleven"
+    }
+  },
+  "jurisdictions": {
+    "nl": {
+      "name": "Netherlands",
+      "courts": {
+        "hoge": {},
+        "rekenkamer": {},
+        "centrale.beroep": {},
+        "college.beroep.bedrijfsleven": {}
+      }
+    },
+    "nl:gravenhage": {
+      "name": "Den Haag",
+      "courts": {
+        "gerechtshof": {},
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:gravenhage:alphen.rijn": {
+      "name": "Alphen aan den Rijn",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:gravenhage:delft": {
+      "name": "Delft",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:gravenhage:gouda": {
+      "name": "Gouda",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:gravenhage:leiden": {
+      "name": "Leiden",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:gravenhage:winschoten": {
+      "name": "Winschoten",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:hertogenbosch": {
+      "name": "Den Bosch",
+      "courts": {
+        "gerechtshof": {},
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:hertogenbosch:boxmeer": {
+      "name": "Boxmeer",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:hertogenbosch:eindhoven": {
+      "name": "Eindhoven",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:helmond": {
+      "name": "Helmond",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:amsterdam": {
+      "name": "Amsterdam",
+      "courts": {
+        "gerechtshof": {},
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:amsterdam:hilversum": {
+      "name": "Hilversum",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:arnhem": {
+      "name": "Arnhem",
+      "courts": {
+        "gerechtshof": {},
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:arnhem:nijmegen": {
+      "name": "Nijmegen",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:arnhem:tiel": {
+      "name": "Tiel",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:arnhem:wageningen": {
+      "name": "Wageningen",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:leeuwarden": {
+      "name": "Leeuwarden",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:leeuwarden:heerenveen": {
+      "name": "Heerenveen",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:leeuwarden:sneek": {
+      "name": "Sneek",
+      "courts": {
+        "gerechtshof": {},
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:alkmaar": {
+      "name": "Alkmaar",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:alkmaar:den.helder": {
+      "name": "Den Helder",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:alkmaar:hoorn": {
+      "name": "Hoorn",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:almelo": {
+      "name": "Almelo",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:assen": {
+      "name": "Assen",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:assen:emmen": {
+      "name": "Emmen",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:assen:enschede": {
+      "name": "Enschede",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:assen:meppel": {
+      "name": "Meppel",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:breda": {
+      "name": "Breda",
+      "courts": {
+        "rechtbank": {}
+      }
+    },
+    "nl:breda:bergen.zoom": {
+      "name": "Bergen op Zoom",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:breda:tilburg": {
+      "name": "Tilburg",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:dordrecht": {
+      "name": "Dordrecht",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:gorinchem": {
+      "name": "Gorinchem",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:groningen": {
+      "name": "Groningen",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:haarlem": {
+      "name": "Haarlem",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:haarlem:zaanstad": {
+      "name": "Zaanstad",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:maastricht": {
+      "name": "Maastricht",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:maastricht:heerlen": {
+      "name": "Heerlen",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:maastricht:sittard.geleen": {
+      "name": "Sittard-Geleen",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:middelburg": {
+      "name": "Middelburg",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:middelburg:terneuzen": {
+      "name": "Terneuzen",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:roermond": {
+      "name": "Roermond",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:roermond:venlo": {
+      "name": "Venlo",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:rotterdam": {
+      "name": "Rotterdam",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:rotterdam:brielle": {
+      "name": "Brielle",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:rotterdam:middelharnis": {
+      "name": "Middelharnis",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:rotterdam:schiedam": {
+      "name": "Schiedam",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:utrecht": {
+      "name": "Utrecht",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:utrecht:amersfoort": {
+      "name": "Amersfoort",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:zutphen": {
+      "name": "Zutphen",
+      "courts": {
+        "rechtbank": {},
+        "sector.kanton": {}
+      }
+    },
+    "nl:zutphen:apeldoorn": {
+      "name": "Apeldoorn",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:zutphen:harderwijk": {
+      "name": "Harderwijk",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:zutphen:oost.gelre": {
+      "name": "Oost-Gelre",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:zutphen:oude.ijsselstreek": {
+      "name": "Oude IJsselstreek",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:zwolle.lelystad": {
+      "name": "Zwolle-Lelystad",
+      "courts": {
+        "rechtbank": {}
+      }
+    },
+    "nl:zwolle.lelystad:zwolle": {
+      "name": "Zwolle",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:zwolle.lelystad:deventer": {
+      "name": "Deventer",
+      "courts": {
+        "sector.kanton": {}
+      }
+    },
+    "nl:zwolle.lelystad:lelystad": {
+      "name": "Lelystad",
+      "courts": {
+        "sector.kanton": {}
+      }
+    }
+  }
 }

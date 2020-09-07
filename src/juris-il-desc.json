@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "il",
-      "name": "Israel",
-      "courts": []
+  "jurisdictions": {
+    "il": {
+      "name": "Israel"
     }
-  ]
+  }
 }

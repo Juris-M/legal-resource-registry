@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "me",
-      "name": "Montenegro",
-      "courts": []
+  "jurisdictions": {
+    "me": {
+      "name": "Montenegro"
     }
-  ]
+  }
 }

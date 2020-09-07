@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "sb",
-      "name": "Solomon Islands",
-      "courts": []
+  "jurisdictions": {
+    "sb": {
+      "name": "Solomon Islands"
     }
-  ]
+  }
 }

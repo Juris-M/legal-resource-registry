@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "za",
-      "name": "South Africa",
-      "courts": []
+  "jurisdictions": {
+    "za": {
+      "name": "South Africa"
     }
-  ]
+  }
 }

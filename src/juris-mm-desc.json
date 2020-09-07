@@ -1,16 +1,16 @@
 {
+  "langs": {},
   "courts": {
     "supreme.court": {
       "name": "Supreme Court"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "mm",
+  "jurisdictions": {
+    "mm": {
       "name": "Republic of the Union of Myanmar",
-      "courts": [
-        "supreme.court"
-      ]
+      "courts": {
+        "supreme.court": {}
+      }
     }
-  ]
+  }
 }

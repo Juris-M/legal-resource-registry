@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ls",
-      "name": "Lesotho",
-      "courts": []
+  "jurisdictions": {
+    "ls": {
+      "name": "Lesotho"
     }
-  ]
+  }
 }

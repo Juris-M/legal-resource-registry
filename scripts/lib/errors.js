@@ -3,7 +3,6 @@ function handleError(e, verbose) {
 		console.log(e);
 	} else {
 		console.log("ERROR: " + e.message);
-		console.log(e);
 	}
 	process.exit();
 }

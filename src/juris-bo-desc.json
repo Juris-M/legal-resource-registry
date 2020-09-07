@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bo",
-      "name": "Bolivia",
-      "courts": []
+  "jurisdictions": {
+    "bo": {
+      "name": "Bolivia"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mg",
-      "name": "Madagascar",
-      "courts": []
+  "jurisdictions": {
+    "mg": {
+      "name": "Madagascar"
     }
-  ]
+  }
 }

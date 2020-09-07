@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "pw",
-      "name": "Palau",
-      "courts": []
+  "jurisdictions": {
+    "pw": {
+      "name": "Palau"
     }
-  ]
+  }
 }

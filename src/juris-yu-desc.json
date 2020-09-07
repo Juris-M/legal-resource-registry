@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "yu",
-      "name": "Yugoslavia",
-      "courts": []
+  "jurisdictions": {
+    "yu": {
+      "name": "Yugoslavia"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "hu",
-      "name": "Hungary",
-      "courts": []
+  "jurisdictions": {
+    "hu": {
+      "name": "Hungary"
     }
-  ]
+  }
 }

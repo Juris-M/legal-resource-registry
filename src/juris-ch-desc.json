@@ -1,4 +1,5 @@
 {
+  "langs": {},
   "courts": {
     "obergericht": {
       "name": "Obergericht"
@@ -40,185 +41,160 @@
       "name": "Sweizerisches Bundesgericht"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "ch",
+  "jurisdictions": {
+    "ch": {
       "name": "Switzerland",
-      "courts": [
-        "fcc",
-        "fsc"
-      ]
+      "courts": {
+        "fcc": {},
+        "fsc": {}
+      }
     },
-    {
-      "path": "ch/aargau",
+    "ch:aargau": {
       "name": "Aargau",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/appenzell.ausserrhoden",
+    "ch:appenzell.ausserrhoden": {
       "name": "Appenzell-Ausserrhoden",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/basel.landschaft",
+    "ch:basel.landschaft": {
       "name": "Basel-Landschaft",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/basel.stadt",
+    "ch:basel.stadt": {
       "name": "Basel-Stadt",
-      "courts": [
-        "appellationsgericht"
-      ]
+      "courts": {
+        "appellationsgericht": {}
+      }
     },
-    {
-      "path": "ch/bern",
+    "ch:bern": {
       "name": "Bern",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/fribourg",
+    "ch:fribourg": {
       "name": "Fribourg",
-      "courts": [
-        "tribunal.cantonal"
-      ]
+      "courts": {
+        "tribunal.cantonal": {}
+      }
     },
-    {
-      "path": "ch/geneva",
+    "ch:geneva": {
       "name": "Geneva",
-      "courts": [
-        "cour.de.cassation"
-      ]
+      "courts": {
+        "cour.de.cassation": {}
+      }
     },
-    {
-      "path": "ch/glarus",
+    "ch:glarus": {
       "name": "Glarus",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/jura",
+    "ch:jura": {
       "name": "Jura",
-      "courts": [
-        "trubunal.cantonal"
-      ]
+      "courts": {
+        "trubunal.cantonal": {}
+      }
     },
-    {
-      "path": "ch/luzern",
+    "ch:luzern": {
       "name": "Luzern",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/neuchatel",
+    "ch:neuchatel": {
       "name": "Neuchatel",
-      "courts": [
-        "cour.de.cassation.civile",
-        "cour.de.cassation.penale"
-      ]
+      "courts": {
+        "cour.de.cassation.civile": {},
+        "cour.de.cassation.penale": {}
+      }
     },
-    {
-      "path": "ch/nidwalden",
+    "ch:nidwalden": {
       "name": "Nidwalden",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/obwalden",
+    "ch:obwalden": {
       "name": "Obwalden",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/schaffhausen",
+    "ch:schaffhausen": {
       "name": "Schaffhausen",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/schwyz",
+    "ch:schwyz": {
       "name": "Schwyz",
-      "courts": [
-        "kantonsgericht"
-      ]
+      "courts": {
+        "kantonsgericht": {}
+      }
     },
-    {
-      "path": "ch/solothurn",
+    "ch:solothurn": {
       "name": "Solothurn",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/st.gallen",
+    "ch:st.gallen": {
       "name": "St-Gallen",
-      "courts": [
-        "kantonsgericht",
-        "kassationsgericht"
-      ]
+      "courts": {
+        "kantonsgericht": {},
+        "kassationsgericht": {}
+      }
     },
-    {
-      "path": "ch/thurgau",
+    "ch:thurgau": {
       "name": "Thurgau",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/ticino",
+    "ch:ticino": {
       "name": "Ticino",
-      "courts": [
-        "tribunale.d.appello"
-      ]
+      "courts": {
+        "tribunale.d.appello": {}
+      }
     },
-    {
-      "path": "ch/uri",
+    "ch:uri": {
       "name": "Uri",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/valais",
+    "ch:valais": {
       "name": "Valais",
-      "courts": [
-        "tribunal.cantonal"
-      ]
+      "courts": {
+        "tribunal.cantonal": {}
+      }
     },
-    {
-      "path": "ch/vaud",
+    "ch:vaud": {
       "name": "Vaud",
-      "courts": [
-        "tribunal.cantonal"
-      ]
+      "courts": {
+        "tribunal.cantonal": {}
+      }
     },
-    {
-      "path": "ch/zug",
+    "ch:zug": {
       "name": "Zug",
-      "courts": [
-        "obergericht"
-      ]
+      "courts": {
+        "obergericht": {}
+      }
     },
-    {
-      "path": "ch/zurich",
+    "ch:zurich": {
       "name": "Zurich",
-      "courts": [
-        "kassationssgericht",
-        "obergericht"
-      ]
+      "courts": {
+        "kassationssgericht": {},
+        "obergericht": {}
+      }
     }
-  ]
+  }
 }

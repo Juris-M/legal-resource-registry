@@ -2308,7 +2308,7 @@
       }
     },
     "pl:warsaw": {
-      "name": "Warszaw",
+      "name": "Warszawa",
       "abbrev": "w Warszawie",
       "courts": {
         "sa": {},
@@ -2365,7 +2365,7 @@
       }
     },
     "pl:warsaw:warsaw": {
-      "name": "Warszaw",
+      "name": "Warszawa",
       "abbrev": "w Warszawie",
       "courts": {
         "so": {}

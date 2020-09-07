@@ -2,7 +2,8 @@
   "langs": {},
   "courts": {
     "hoge": {
-      "name": "Hoge Raad"
+      "name": "Hoge Raad",
+      "abbrev": "HR"
     },
     "gerechtshof": {
       "name": "Gerechtshof"
@@ -17,10 +18,16 @@
       "name": "Rekenkamer"
     },
     "centrale.beroep": {
-      "name": "Centrale Raad van Beroep"
+      "name": "Centrale Raad van Beroep",
+      "abbrev": "CRvB"
     },
     "college.beroep.bedrijfsleven": {
-      "name": "College van Beroep voor het bedrijfsleven"
+      "name": "College van Beroep voor het bedrijfsleven",
+      "abbrev": "CBb"
+    },
+    "raad.state": {
+      "name": "Raad van State",
+      "abbrev": "RvS"
     }
   },
   "jurisdictions": {
@@ -30,7 +37,8 @@
         "hoge": {},
         "rekenkamer": {},
         "centrale.beroep": {},
-        "college.beroep.bedrijfsleven": {}
+        "college.beroep.bedrijfsleven": {},
+        "raad.state": {}
       }
     },
     "nl:gravenhage": {

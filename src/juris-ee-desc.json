@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ee",
-      "name": "Estonia",
-      "courts": []
+  "jurisdictions": {
+    "ee": {
+      "name": "Estonia"
     }
-  ]
+  }
 }

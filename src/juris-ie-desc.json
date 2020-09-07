@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ie",
-      "name": "Ireland",
-      "courts": []
+  "jurisdictions": {
+    "ie": {
+      "name": "Ireland"
     }
-  ]
+  }
 }

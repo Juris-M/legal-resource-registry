@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "jm",
-      "name": "Jamaica",
-      "courts": []
+  "jurisdictions": {
+    "jm": {
+      "name": "Jamaica"
     }
-  ]
+  }
 }

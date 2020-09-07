@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "tj",
-      "name": "Tajikistan",
-      "courts": []
+  "jurisdictions": {
+    "tj": {
+      "name": "Tajikistan"
     }
-  ]
+  }
 }

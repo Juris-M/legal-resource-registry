@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "et",
-      "name": "Ethiopia",
-      "courts": []
+  "jurisdictions": {
+    "et": {
+      "name": "Ethiopia"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "tv",
-      "name": "Tuvalu",
-      "courts": []
+  "jurisdictions": {
+    "tv": {
+      "name": "Tuvalu"
     }
-  ]
+  }
 }

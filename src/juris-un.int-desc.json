@@ -1,4 +1,5 @@
 {
+  "langs": {},
   "courts": {
     "icj": {
       "name": "International Court of Justice"
@@ -16,17 +17,16 @@
       "name": "Permanent Court of Arbitration"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "un.int",
+  "jurisdictions": {
+    "un.int": {
       "name": "United Nations",
-      "courts": [
-        "icj",
-        "ictr",
-        "icty",
-        "itlos",
-        "pca"
-      ]
+      "courts": {
+        "icj": {},
+        "ictr": {},
+        "icty": {},
+        "itlos": {},
+        "pca": {}
+      }
     }
-  ]
+  }
 }

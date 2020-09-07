@@ -1,562 +1,502 @@
 {
-    "courts": {
-        "hogsta": {
-            "name": "Högsta domstolen"
-	    },	
-        "hovratten": {
-            "name": "Hovrätten"
-        },
-	    "tingsratt": {
-            "name": "Tingsrätt"
-        },
-	    "regeringsratten": {
-            "name": "Regeringsrätten"
-        },
-	    "kammarratten": {
-            "name": "Kammarrätten"
-        },
-	    "forvaltningsraetten": {
-            "name": "Förvaltningsrätten"
-        },
-        "arbetsdomstolen": {
-            "name": "Arbetsdomstolen"
-        },
-	    "mark.miljodomstol": {
-            "name": "Mark och miljödomstol"
-        },
-        "migrationsdomstol": {
-            "name": "Migrationsdomstol"
-        },
-        "hyresnamnd": {
-            "name": "Hyresnämnd"
-        },
-        "arrendenamnd": {
-            "name": "Arrendenämnd"
-        },
-	    "patent.marknadsdomstolen": {
-            "name": "Patent och marknadsdomstolen"
-        },
-	    "tryckfrihetsdomstol": {
-            "name": "Tryckfrihetsdomstol"
-        },
-	    "fosvarsunderrattelsedomstolen": {
-            "name": "Försvarsunderrättelsedomstolen"
-	    }
+  "langs": {},
+  "courts": {
+    "hogsta": {
+      "name": "Högsta domstolen"
     },
-    "jurisdictions": [
-        {
-            "path": "se",
-            "name": "Sweden",
-            "courts": [
-                "hogsta",
-                "regeringsratten",
-                "arbetsdomstolen",
-                "patent.marknadsdomstolen",
-		        "fosvarsunderrattelsedomstolen"
-            ]
-        },
-        {
-            "path": "se/skane.blekinge",
-            "name": "Skane Blekinge",
-            "courts": [
-                "hovratten"
-	        ]
-        },
-        {
-            "path": "se/skane.blekinge/blekinge",
-            "name": "Blekinge",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-            ]
-        },
-        {
-            "path": "se/skane.blekinge/helsingborgs",
-            "name": "Helsingborgs",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-            ]
-        },
-        {
-            "path": "se/skane.blekinge/hassleholms",
-            "name": "Hässleholms",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/skane.blekinge/kristianstad",
-            "name": "Kristianstad",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/skane.blekinge/lunds",
-            "name": "Lunds",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/skane.blekinge/malmo",
-            "name": "Malmö",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "forvaltningsraetten",
-		        "migrationsdomstol",
-		        "hyresnamnd",
-		        "arrendenamnd"		
-	        ]
-        },
-        {
-            "path": "se/skane.blekinge/ystads",
-            "name": "Ystads",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige",
-	        "name": "Västra Sverige",
-	        "courts": [
-                "hovratten"
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige/alingsas",
-            "name": "Alingsås",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige/boras",
-            "name": "Boras",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige/goteborgs",
-            "name": "Göteborgs",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "kammarratten",
-		        "forvaltningsraetten",
-		        "migrationsdomstol",
-		        "hyresnamnd",
-		        "arrendenamnd"
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige/halmstads",
-            "name": "Halmstads",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige/uddevalla",
-            "name": "Uddevalla",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige/varbergs",
-            "name": "Varbergs",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige/vanersborgs",
-            "name": "Vanersborgs",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "mark.miljodomstol"		
-	        ]
-        },
-        {
-            "path": "se/vastra.sverige/varmlands",
-            "name": "Värmlands",
-            "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/gota",
-	        "name": "Göta",
-	        "courts": [
-                "hovratten"
-	        ]
-        },
-        {
-            "path": "se/gota/eksjo",
-	        "name": "Eksjö",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/gota/jonkopings",
-	        "name": "Jönköpings",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "kammarratten",
-		        "forvaltningsraetten",
-		        "hyresnamnd",
-		        "arrendenamnd"
-	        ]
-        },
-        {
-            "path": "se/gota/jonkopings/linkopings",
-	        "name": "Linköpings",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "forvaltningsraetten",
-		        "hyresnamnd",
-		        "arrendenamnd"
-	        ]
-        },
-        {
-            "path": "se/gota/jonkopings/vaxjo",
-	        "name": "Växjö",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "forvaltningsraetten",
-		        "mark.miljodomstol"
-	        ]
-        },
-        {
-            "path": "se/gota/kalmar",
-	        "name": "Kalmar",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/gota/norrkopings",
-	        "name": "Norrköpings",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/gota/skaraborgs",
-	        "name": "Skaraborgs",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/gota/orebro",
-	        "name": "Örebro",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-	        "path": "se/svea",
-	        "name": "Svea",
-	        "courts": [
-                "hovratten"
-	        ]
-        },
-        {
-            "path": "se/svea/attunda",
-	        "name": "Attunda",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/eskilstuna",
-	        "name": "Eskilstuna",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/falun",
-	        "name": "Falun",
-	        "courts": [
-                "forvaltningsraetten"
-	        ]
-        },
-        {
-            "path": "se/svea/gotlands",
-	        "name": "Gotlands",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/mora",
-	        "name": "Mora",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/nacka",
-	        "name": "Nacka",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "mark.miljodomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/norrtalje",
-	        "name": "Norrtälje",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/nykopings",
-	        "name": "Nyköpings",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/solna",
-	        "name": "Solna",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/stockholm",
-	        "name": "Stockholms",
-	        "courts": [
-                "tingsratt",
-		        "kammarratten",
-		        "forvaltningsraetten",
-		        "migrationsdomstol",
-		        "hyresnamnd",
-		        "arrendenamnd"
-	        ]
-        },
-        {
-            "path": "se/svea/stockholm/uppsala",
-	        "name": "Uppsala",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "forvaltningsraetten"
-	        ]
-        },
-        {
-            "path": "se/svea/sodertalje",
-	        "name": "Södertälje",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/sodertorns",
-	        "name": " Södertörns",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/svea/uppsala",
-	        "name": "Uppsala",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "forvaltningsraetten"		
-	        ]
-        },
-        {
-            "path": "se/svea/vastmanlands",
-	        "name": "Västmanlands",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {"path": "se/svea/vasteras",
-	     "name": "Vasteras",
-	     "courts": [
-             "hyresnamnd",
-		     "arrendenamnd"
-	     ]
-        },
-        {
-            "path": "se/nedre.norrland",
-	        "name": "Nedre Norrland",
-	        "courts": [
-                "hovratten"
-	        ]
-        },
-        {
-            "path": "se/nedre.norrland/gavle",
-	        "name": "Gävle",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/nedre.norrland/hudiksvalls",
-	        "name": "Hudiksvalls",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol"
-	        ]
-        },
-        {
-            "path": "se/nedre.norrland/sundsvalls",
-	        "name": "Sundsvalls",
-	        "courts": [
-                "tingsratt",
-		        "tryckfrihetsdomstol",
-		        "kammarratten",
-		        "hyresnamnd",
-		        "arrendenamnd"
-            ]
-        },
-        {
-            "path": "se/nedre.norrland/sundsvalls/fallun",
-            "name": "Fallun",
-            "courts": [
-                "forvaltningsraetten"
-            ]
-        },
-        {
-            "path": "se/nedre.norrland/sundsvalls/umea",
-            "name": "Umeå",
-            "courts": [
-                "forvaltningsraetten"
-            ]
-        },
-        {
-            "path": "se/nedre.norrland/sundsvalls/lulea",
-            "name": "Luleå",
-            "courts": [
-                "forvaltningsraetten"
-            ]
-        },
-        {
-            "path": "se/nedre.norrland/sundsvalls/harnosand",
-            "name": "Härnösand",
-            "courts": [
-                "forvaltningsraetten"
-            ]
-        },
-        {
-            "path": "se/nedre.norrland/angermanlands",
-            "name": "Ångermanlands",
-            "courts": [
-                "tingsratt",
-                "tryckfrihetsdomstol"
-            ]
-        },
-        {
-            "path": "se/nedre.norrland/ostersunds",
-            "name": "Östersunds",
-            "courts": [
-                "tingsratt",
-                "tryckfrihetsdomstol",
-                "mark.miljodomstol"
-            ]
-        },
-        {
-            "path": "se/oevre.norrland",
-            "name": "Övre Norrland",
-            "courts": [
-                "hovratten"
-            ]
-        },
-        {
-            "path": "se/oevre.norrland/gallivare",
-            "name": "Gällivare",
-            "courts": [
-                "tingsratt",
-                "tryckfrihetsdomstol"
-            ]
-        },
-        {
-            "path": "se/oevre.norrland/haparanda",
-            "name": "Haparanda",
-            "courts": [
-                "tingsratt",
-                "tryckfrihetsdomstol"
-            ]
-        },
-        {
-            "path": "se/oevre.norrland/lulea",
-            "name": "Luleå",
-            "courts": [
-                "tingsratt",
-                "tryckfrihetsdomstol",
-                "forvaltningsraetten"
-            ]
-        },
-        {
-            "path": "se/oevre.norrland/lycksele",
-            "name": "Lycksele",
-            "courts": [
-                "tingsratt",
-                "tryckfrihetsdomstol"
-            ]
-        },
-        {
-            "path": "se/oevre.norrland/skelleftea",
-            "name": "Skelleftea",
-            "courts": [
-                "tingsratt",
-                "tryckfrihetsdomstol"
-            ]
-        },
-        {
-            "path": "se/oevre.norrland/umea",
-            "name": "Umeå",
-            "courts": [
-                "tingsratt",
-                "tryckfrihetsdomstol",
-                "mark.miljodomstol",
-                "hyresnamnd",
-                "arrendenamnd"
-            ]
-        }
-    ]
+    "hovratten": {
+      "name": "Hovrätten"
+    },
+    "tingsratt": {
+      "name": "Tingsrätt"
+    },
+    "regeringsratten": {
+      "name": "Regeringsrätten"
+    },
+    "kammarratten": {
+      "name": "Kammarrätten"
+    },
+    "forvaltningsraetten": {
+      "name": "Förvaltningsrätten"
+    },
+    "arbetsdomstolen": {
+      "name": "Arbetsdomstolen"
+    },
+    "mark.miljodomstol": {
+      "name": "Mark och miljödomstol"
+    },
+    "migrationsdomstol": {
+      "name": "Migrationsdomstol"
+    },
+    "hyresnamnd": {
+      "name": "Hyresnämnd"
+    },
+    "arrendenamnd": {
+      "name": "Arrendenämnd"
+    },
+    "patent.marknadsdomstolen": {
+      "name": "Patent och marknadsdomstolen"
+    },
+    "tryckfrihetsdomstol": {
+      "name": "Tryckfrihetsdomstol"
+    },
+    "fosvarsunderrattelsedomstolen": {
+      "name": "Försvarsunderrättelsedomstolen"
+    }
+  },
+  "jurisdictions": {
+    "se": {
+      "name": "Sweden",
+      "courts": {
+        "hogsta": {},
+        "regeringsratten": {},
+        "arbetsdomstolen": {},
+        "patent.marknadsdomstolen": {},
+        "fosvarsunderrattelsedomstolen": {}
+      }
+    },
+    "se:skane.blekinge": {
+      "name": "Skane Blekinge",
+      "courts": {
+        "hovratten": {}
+      }
+    },
+    "se:skane.blekinge:blekinge": {
+      "name": "Blekinge",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:skane.blekinge:helsingborgs": {
+      "name": "Helsingborgs",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:skane.blekinge:hassleholms": {
+      "name": "Hässleholms",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:skane.blekinge:kristianstad": {
+      "name": "Kristianstad",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:skane.blekinge:lunds": {
+      "name": "Lunds",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:skane.blekinge:malmo": {
+      "name": "Malmö",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "forvaltningsraetten": {},
+        "migrationsdomstol": {},
+        "hyresnamnd": {},
+        "arrendenamnd": {}
+      }
+    },
+    "se:skane.blekinge:ystads": {
+      "name": "Ystads",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:vastra.sverige": {
+      "name": "Västra Sverige",
+      "courts": {
+        "hovratten": {}
+      }
+    },
+    "se:vastra.sverige:alingsas": {
+      "name": "Alingsås",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:vastra.sverige:boras": {
+      "name": "Boras",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:vastra.sverige:goteborgs": {
+      "name": "Göteborgs",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "kammarratten": {},
+        "forvaltningsraetten": {},
+        "migrationsdomstol": {},
+        "hyresnamnd": {},
+        "arrendenamnd": {}
+      }
+    },
+    "se:vastra.sverige:halmstads": {
+      "name": "Halmstads",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:vastra.sverige:uddevalla": {
+      "name": "Uddevalla",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:vastra.sverige:varbergs": {
+      "name": "Varbergs",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:vastra.sverige:vanersborgs": {
+      "name": "Vanersborgs",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "mark.miljodomstol": {}
+      }
+    },
+    "se:vastra.sverige:varmlands": {
+      "name": "Värmlands",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:gota": {
+      "name": "Göta",
+      "courts": {
+        "hovratten": {}
+      }
+    },
+    "se:gota:eksjo": {
+      "name": "Eksjö",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:gota:jonkopings": {
+      "name": "Jönköpings",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "kammarratten": {},
+        "forvaltningsraetten": {},
+        "hyresnamnd": {},
+        "arrendenamnd": {}
+      }
+    },
+    "se:gota:jonkopings:linkopings": {
+      "name": "Linköpings",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "forvaltningsraetten": {},
+        "hyresnamnd": {},
+        "arrendenamnd": {}
+      }
+    },
+    "se:gota:jonkopings:vaxjo": {
+      "name": "Växjö",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "forvaltningsraetten": {},
+        "mark.miljodomstol": {}
+      }
+    },
+    "se:gota:kalmar": {
+      "name": "Kalmar",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:gota:norrkopings": {
+      "name": "Norrköpings",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:gota:skaraborgs": {
+      "name": "Skaraborgs",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:gota:orebro": {
+      "name": "Örebro",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea": {
+      "name": "Svea",
+      "courts": {
+        "hovratten": {}
+      }
+    },
+    "se:svea:attunda": {
+      "name": "Attunda",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:eskilstuna": {
+      "name": "Eskilstuna",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:falun": {
+      "name": "Falun",
+      "courts": {
+        "forvaltningsraetten": {}
+      }
+    },
+    "se:svea:gotlands": {
+      "name": "Gotlands",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:mora": {
+      "name": "Mora",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:nacka": {
+      "name": "Nacka",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "mark.miljodomstol": {}
+      }
+    },
+    "se:svea:norrtalje": {
+      "name": "Norrtälje",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:nykopings": {
+      "name": "Nyköpings",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:solna": {
+      "name": "Solna",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:stockholm": {
+      "name": "Stockholms",
+      "courts": {
+        "tingsratt": {},
+        "kammarratten": {},
+        "forvaltningsraetten": {},
+        "migrationsdomstol": {},
+        "hyresnamnd": {},
+        "arrendenamnd": {}
+      }
+    },
+    "se:svea:stockholm:uppsala": {
+      "name": "Uppsala",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "forvaltningsraetten": {}
+      }
+    },
+    "se:svea:sodertalje": {
+      "name": "Södertälje",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:sodertorns": {
+      "name": " Södertörns",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:uppsala": {
+      "name": "Uppsala",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "forvaltningsraetten": {}
+      }
+    },
+    "se:svea:vastmanlands": {
+      "name": "Västmanlands",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:svea:vasteras": {
+      "name": "Vasteras",
+      "courts": {
+        "hyresnamnd": {},
+        "arrendenamnd": {}
+      }
+    },
+    "se:nedre.norrland": {
+      "name": "Nedre Norrland",
+      "courts": {
+        "hovratten": {}
+      }
+    },
+    "se:nedre.norrland:gavle": {
+      "name": "Gävle",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:nedre.norrland:hudiksvalls": {
+      "name": "Hudiksvalls",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:nedre.norrland:sundsvalls": {
+      "name": "Sundsvalls",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "kammarratten": {},
+        "hyresnamnd": {},
+        "arrendenamnd": {}
+      }
+    },
+    "se:nedre.norrland:sundsvalls:fallun": {
+      "name": "Fallun",
+      "courts": {
+        "forvaltningsraetten": {}
+      }
+    },
+    "se:nedre.norrland:sundsvalls:umea": {
+      "name": "Umeå",
+      "courts": {
+        "forvaltningsraetten": {}
+      }
+    },
+    "se:nedre.norrland:sundsvalls:lulea": {
+      "name": "Luleå",
+      "courts": {
+        "forvaltningsraetten": {}
+      }
+    },
+    "se:nedre.norrland:sundsvalls:harnosand": {
+      "name": "Härnösand",
+      "courts": {
+        "forvaltningsraetten": {}
+      }
+    },
+    "se:nedre.norrland:angermanlands": {
+      "name": "Ångermanlands",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:nedre.norrland:ostersunds": {
+      "name": "Östersunds",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "mark.miljodomstol": {}
+      }
+    },
+    "se:oevre.norrland": {
+      "name": "Övre Norrland",
+      "courts": {
+        "hovratten": {}
+      }
+    },
+    "se:oevre.norrland:gallivare": {
+      "name": "Gällivare",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:oevre.norrland:haparanda": {
+      "name": "Haparanda",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:oevre.norrland:lulea": {
+      "name": "Luleå",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "forvaltningsraetten": {}
+      }
+    },
+    "se:oevre.norrland:lycksele": {
+      "name": "Lycksele",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:oevre.norrland:skelleftea": {
+      "name": "Skelleftea",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {}
+      }
+    },
+    "se:oevre.norrland:umea": {
+      "name": "Umeå",
+      "courts": {
+        "tingsratt": {},
+        "tryckfrihetsdomstol": {},
+        "mark.miljodomstol": {},
+        "hyresnamnd": {},
+        "arrendenamnd": {}
+      }
+    }
+  }
 }
-

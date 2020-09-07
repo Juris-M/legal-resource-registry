@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "kw",
-      "name": "Kuwait",
-      "courts": []
+  "jurisdictions": {
+    "kw": {
+      "name": "Kuwait"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "tm",
-      "name": "Turkmenistan",
-      "courts": []
+  "jurisdictions": {
+    "tm": {
+      "name": "Turkmenistan"
     }
-  ]
+  }
 }

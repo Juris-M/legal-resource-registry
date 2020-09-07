@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "vu",
-      "name": "Vanuatu",
-      "courts": []
+  "jurisdictions": {
+    "vu": {
+      "name": "Vanuatu"
     }
-  ]
+  }
 }

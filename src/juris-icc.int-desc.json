@@ -1,4 +1,5 @@
 {
+  "langs": {},
   "courts": {
     "appeals.chamber": {
       "name": "Appeals Chamber"
@@ -10,15 +11,14 @@
       "name": "Trial Chamber"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "icc.int",
+  "jurisdictions": {
+    "icc.int": {
       "name": "International Criminal Court",
-      "courts": [
-        "appeals.chamber",
-        "pre.trial.chamber",
-        "trial.chamber"
-      ]
+      "courts": {
+        "appeals.chamber": {},
+        "pre.trial.chamber": {},
+        "trial.chamber": {}
+      }
     }
-  ]
+  }
 }

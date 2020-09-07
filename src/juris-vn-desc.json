@@ -1,4 +1,5 @@
 {
+  "langs": {},
   "courts": {
     "toa.an.nhan.dan": {
       "name": "Tòa án nhân dân"
@@ -7,5235 +8,4488 @@
       "name": "Tòa án Nhân dân Tối cao"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "vn",
+  "jurisdictions": {
+    "vn": {
       "name": "Vietnam",
-      "courts": [
-        "toa.an.nhan.dan.toi.cao"
-      ]
+      "courts": {
+        "toa.an.nhan.dan.toi.cao": {}
+      }
     },
-    {
-      "path": "vn/an.giang",
+    "vn:an.giang": {
       "name": "An Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/an.phu",
+    "vn:an.giang:an.phu": {
       "name": "An Phú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/chau.doc",
+    "vn:an.giang:chau.doc": {
       "name": "Châu Đốc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/chau.phu",
+    "vn:an.giang:chau.phu": {
       "name": "Châu Phú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/chau.thanh",
+    "vn:an.giang:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/cho.moi",
+    "vn:an.giang:cho.moi": {
       "name": "Chợ Mới",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/long.xuyen",
+    "vn:an.giang:long.xuyen": {
       "name": "Long Xuyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/phu.tan",
+    "vn:an.giang:phu.tan": {
       "name": "Phú Tân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/tan.chau",
+    "vn:an.giang:tan.chau": {
       "name": "Tân Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/thoai.son",
+    "vn:an.giang:thoai.son": {
       "name": "Thoại Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/tinh.bien",
+    "vn:an.giang:tinh.bien": {
       "name": "Tịnh Biên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/an.giang/tri.ton",
+    "vn:an.giang:tri.ton": {
       "name": "Tri Tôn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau",
+    "vn:ba.ria.vung.tau": {
       "name": "Bà Rịa–Vũng Tàu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau/ba.ria",
+    "vn:ba.ria.vung.tau:ba.ria": {
       "name": "Bà Rịa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau/chau.duc",
+    "vn:ba.ria.vung.tau:chau.duc": {
       "name": "Châu Đức",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau/con.dao",
+    "vn:ba.ria.vung.tau:con.dao": {
       "name": "Côn Đảo",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau/dat.do",
+    "vn:ba.ria.vung.tau:dat.do": {
       "name": "Đất Đỏ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau/long.dien",
+    "vn:ba.ria.vung.tau:long.dien": {
       "name": "Long Điền",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau/tan.thanh",
+    "vn:ba.ria.vung.tau:tan.thanh": {
       "name": "Tân Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau/vung.tau",
+    "vn:ba.ria.vung.tau:vung.tau": {
       "name": "Vũng Tàu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ba.ria.vung.tau/xuyen.moc",
+    "vn:ba.ria.vung.tau:xuyen.moc": {
       "name": "Xuyên Mộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang",
+    "vn:bac.giang": {
       "name": "Bắc Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/bac.giang",
+    "vn:bac.giang:bac.giang": {
       "name": "Bắc Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/hiep.hoa",
+    "vn:bac.giang:hiep.hoa": {
       "name": "Hiệp Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/lang.giang",
+    "vn:bac.giang:lang.giang": {
       "name": "Lạng Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/luc.nam",
+    "vn:bac.giang:luc.nam": {
       "name": "Lục Nam",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/luc.ngan",
+    "vn:bac.giang:luc.ngan": {
       "name": "Lục Ngạn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/son.dong",
+    "vn:bac.giang:son.dong": {
       "name": "Sơn Động",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/tan.yen",
+    "vn:bac.giang:tan.yen": {
       "name": "Tân Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/viet.yen",
+    "vn:bac.giang:viet.yen": {
       "name": "Việt Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/yen.dung",
+    "vn:bac.giang:yen.dung": {
       "name": "Yên Dũng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.giang/yen.the",
+    "vn:bac.giang:yen.the": {
       "name": "Yên Thế",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan",
+    "vn:bac.kan": {
       "name": "Bắc Kạn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan/ba.be",
+    "vn:bac.kan:ba.be": {
       "name": "Ba Bể",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan/bac.kan",
+    "vn:bac.kan:bac.kan": {
       "name": "Bắc Kạn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan/bach.thong",
+    "vn:bac.kan:bach.thong": {
       "name": "Bạch Thông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan/cho.don",
+    "vn:bac.kan:cho.don": {
       "name": "Chợ Đồn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan/cho.moi",
+    "vn:bac.kan:cho.moi": {
       "name": "Chợ Mới",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan/na.ri",
+    "vn:bac.kan:na.ri": {
       "name": "Na Rì",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan/ngan.son",
+    "vn:bac.kan:ngan.son": {
       "name": "Ngân Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.kan/pac.nam",
+    "vn:bac.kan:pac.nam": {
       "name": "Pác Nặm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.lieu",
+    "vn:bac.lieu": {
       "name": "Bạc Liêu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.lieu/bac.lieu",
+    "vn:bac.lieu:bac.lieu": {
       "name": "Bạc Liêu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.lieu/dong.hai",
+    "vn:bac.lieu:dong.hai": {
       "name": "Đông Hải",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.lieu/gia.rai",
+    "vn:bac.lieu:gia.rai": {
       "name": "Giá Rai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.lieu/hoa.binh",
+    "vn:bac.lieu:hoa.binh": {
       "name": "Hòa Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.lieu/hong.dan",
+    "vn:bac.lieu:hong.dan": {
       "name": "Hồng Dân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.lieu/phuoc.long",
+    "vn:bac.lieu:phuoc.long": {
       "name": "Phước Long",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.lieu/vinh.loi",
+    "vn:bac.lieu:vinh.loi": {
       "name": "Vĩnh Lợi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh",
+    "vn:bac.ninh": {
       "name": "Bắc Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh/bac.ninh",
+    "vn:bac.ninh:bac.ninh": {
       "name": "Bắc Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh/gia.binh",
+    "vn:bac.ninh:gia.binh": {
       "name": "Gia Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh/luong.tai",
+    "vn:bac.ninh:luong.tai": {
       "name": "Lương Tài",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh/que.vo",
+    "vn:bac.ninh:que.vo": {
       "name": "Quế Võ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh/thuan.thanh",
+    "vn:bac.ninh:thuan.thanh": {
       "name": "Thuận Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh/tien.du",
+    "vn:bac.ninh:tien.du": {
       "name": "Tiên Du",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh/tu.son",
+    "vn:bac.ninh:tu.son": {
       "name": "Từ Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/bac.ninh/yen.phong",
+    "vn:bac.ninh:yen.phong": {
       "name": "Yên Phong",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre",
+    "vn:ben.tre": {
       "name": "Bến Tre",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre/ba.tri",
+    "vn:ben.tre:ba.tri": {
       "name": "Ba Tri",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre/ben.tre",
+    "vn:ben.tre:ben.tre": {
       "name": "Bến Tre",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre/binh.dai",
+    "vn:ben.tre:binh.dai": {
       "name": "Bình Đại",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre/chau.thanh",
+    "vn:ben.tre:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre/cho.lach",
+    "vn:ben.tre:cho.lach": {
       "name": "Chợ Lách",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre/giong.trom",
+    "vn:ben.tre:giong.trom": {
       "name": "Giồng Trôm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre/mo.cay",
+    "vn:ben.tre:mo.cay": {
       "name": "Mỏ Cày",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ben.tre/thanh.phu",
+    "vn:ben.tre:thanh.phu": {
       "name": "Thạnh Phú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh",
+    "vn:binh.dinh": {
       "name": "Bình Định",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/an.lao",
+    "vn:binh.dinh:an.lao": {
       "name": "An Lão",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/an.nhon",
+    "vn:binh.dinh:an.nhon": {
       "name": "An Nhơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/hoai.an",
+    "vn:binh.dinh:hoai.an": {
       "name": "Hoài Ân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/hoai.nhon",
+    "vn:binh.dinh:hoai.nhon": {
       "name": "Hoài Nhơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/phu.cat",
+    "vn:binh.dinh:phu.cat": {
       "name": "Phù Cát",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/phu.my",
+    "vn:binh.dinh:phu.my": {
       "name": "Phù Mỹ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/qui.nhon",
+    "vn:binh.dinh:qui.nhon": {
       "name": "Qui Nhơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/tay.son",
+    "vn:binh.dinh:tay.son": {
       "name": "Tây Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/tuy.phuoc",
+    "vn:binh.dinh:tuy.phuoc": {
       "name": "Tuy Phước",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/van.canh",
+    "vn:binh.dinh:van.canh": {
       "name": "Vân Canh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.dinh/vinh.thanh",
+    "vn:binh.dinh:vinh.thanh": {
       "name": "Vĩnh Thạnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.duong",
+    "vn:binh.duong": {
       "name": "Bình Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.duong/ben.cat",
+    "vn:binh.duong:ben.cat": {
       "name": "Bến Cát",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.duong/dau.tieng",
+    "vn:binh.duong:dau.tieng": {
       "name": "Dầu Tiếng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.duong/di.an",
+    "vn:binh.duong:di.an": {
       "name": "Dĩ An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.duong/phu.giao",
+    "vn:binh.duong:phu.giao": {
       "name": "Phú Giáo",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.duong/tan.uyen",
+    "vn:binh.duong:tan.uyen": {
       "name": "Tân Uyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.duong/thu.dau.mot",
+    "vn:binh.duong:thu.dau.mot": {
       "name": "Thủ Dầu Một",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.duong/thuan.an",
+    "vn:binh.duong:thuan.an": {
       "name": "Thuận An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc",
+    "vn:binh.phuoc": {
       "name": "Bình Phước",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/binh.long",
+    "vn:binh.phuoc:binh.long": {
       "name": "Bình Long",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/bu.dang",
+    "vn:binh.phuoc:bu.dang": {
       "name": "Bù Đăng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/bu.dop",
+    "vn:binh.phuoc:bu.dop": {
       "name": "Bù Đốp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/bu.gia.map",
+    "vn:binh.phuoc:bu.gia.map": {
       "name": "Bù Gia Mập",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/chon.thanh",
+    "vn:binh.phuoc:chon.thanh": {
       "name": "Chơn Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/dong.phu",
+    "vn:binh.phuoc:dong.phu": {
       "name": "Đồng Phú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/dong.xoai",
+    "vn:binh.phuoc:dong.xoai": {
       "name": "Đồng Xoài",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/hon.quan",
+    "vn:binh.phuoc:hon.quan": {
       "name": "Hớn Quản",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/loc.ninh",
+    "vn:binh.phuoc:loc.ninh": {
       "name": "Lộc Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.phuoc/phuoc.long",
+    "vn:binh.phuoc:phuoc.long": {
       "name": "Phước Long",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan",
+    "vn:binh.thuan": {
       "name": "Bình Thuận",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/bac.binh",
+    "vn:binh.thuan:bac.binh": {
       "name": "Bắc Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/duc.linh",
+    "vn:binh.thuan:duc.linh": {
       "name": "Đức Linh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/ham.tan",
+    "vn:binh.thuan:ham.tan": {
       "name": "Hàm Tân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/ham.thuan.bac",
+    "vn:binh.thuan:ham.thuan.bac": {
       "name": "Hàm Thuận Bắc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/ham.thuan.nam",
+    "vn:binh.thuan:ham.thuan.nam": {
       "name": "Hàm Thuận Nam",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/la.gi",
+    "vn:binh.thuan:la.gi": {
       "name": "La Gi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/phan.thiet",
+    "vn:binh.thuan:phan.thiet": {
       "name": "Phan Thiết",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/phu.quy",
+    "vn:binh.thuan:phu.quy": {
       "name": "Phú Quý",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/tanh.linh",
+    "vn:binh.thuan:tanh.linh": {
       "name": "Tánh Linh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/binh.thuan/tuy.phong",
+    "vn:binh.thuan:tuy.phong": {
       "name": "Tuy Phong",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau",
+    "vn:ca.mau": {
       "name": "Cà Mau",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/ca.mau",
+    "vn:ca.mau:ca.mau": {
       "name": "Cà Mau",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/cai.nuoc",
+    "vn:ca.mau:cai.nuoc": {
       "name": "Cái Nước",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/dam.doi",
+    "vn:ca.mau:dam.doi": {
       "name": "Đầm Dơi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/nam.can",
+    "vn:ca.mau:nam.can": {
       "name": "Năm Căn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/ngoc.hien",
+    "vn:ca.mau:ngoc.hien": {
       "name": "Ngọc Hiển",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/phu.tan",
+    "vn:ca.mau:phu.tan": {
       "name": "Phú Tân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/thoi.binh",
+    "vn:ca.mau:thoi.binh": {
       "name": "Thới Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/tran.van.thoi",
+    "vn:ca.mau:tran.van.thoi": {
       "name": "Trần Văn Thời",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ca.mau/u.minh",
+    "vn:ca.mau:u.minh": {
       "name": "U Minh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho",
+    "vn:can.tho": {
       "name": "Cần Thơ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/binh.thuy",
+    "vn:can.tho:binh.thuy": {
       "name": "Bình Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/cai.rang",
+    "vn:can.tho:cai.rang": {
       "name": "Cái Răng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/can.tho",
+    "vn:can.tho:can.tho": {
       "name": "Cần Thơ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/co.do",
+    "vn:can.tho:co.do": {
       "name": "Cờ Đỏ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/ninh.kieu",
+    "vn:can.tho:ninh.kieu": {
       "name": "Ninh Kiều",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/o.mon",
+    "vn:can.tho:o.mon": {
       "name": "Ô Môn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/phong.dien",
+    "vn:can.tho:phong.dien": {
       "name": "Phong Điền",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/thoi.lai",
+    "vn:can.tho:thoi.lai": {
       "name": "Thới Lai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/thot.not",
+    "vn:can.tho:thot.not": {
       "name": "Thốt Nốt",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/can.tho/vinh.thanh",
+    "vn:can.tho:vinh.thanh": {
       "name": "Vĩnh Thạnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang",
+    "vn:cao.bang": {
       "name": "Cao Bằng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/bao.lac",
+    "vn:cao.bang:bao.lac": {
       "name": "Bảo Lạc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/bao.lam",
+    "vn:cao.bang:bao.lam": {
       "name": "Bảo Lâm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/cao.bang",
+    "vn:cao.bang:cao.bang": {
       "name": "Cao Bằng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/ha.lang",
+    "vn:cao.bang:ha.lang": {
       "name": "Hạ Lang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/ha.quang",
+    "vn:cao.bang:ha.quang": {
       "name": "Hà Quảng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/hoa.an",
+    "vn:cao.bang:hoa.an": {
       "name": "Hòa An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/nguyen.binh",
+    "vn:cao.bang:nguyen.binh": {
       "name": "Nguyên Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/phuc.hoa",
+    "vn:cao.bang:phuc.hoa": {
       "name": "Phục Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/quang.uyen",
+    "vn:cao.bang:quang.uyen": {
       "name": "Quảng Uyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/thach.an",
+    "vn:cao.bang:thach.an": {
       "name": "Thạch An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/thong.nong",
+    "vn:cao.bang:thong.nong": {
       "name": "Thông Nông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/tra.linh",
+    "vn:cao.bang:tra.linh": {
       "name": "Trà Lĩnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/cao.bang/trung.khanh",
+    "vn:cao.bang:trung.khanh": {
       "name": "Trùng Khánh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang",
+    "vn:da.nang": {
       "name": "Đà Nẵng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang/cam.le",
+    "vn:da.nang:cam.le": {
       "name": "Cẩm Lệ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang/hai.chau",
+    "vn:da.nang:hai.chau": {
       "name": "Hải Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang/hoa.vang",
+    "vn:da.nang:hoa.vang": {
       "name": "Hòa Vang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang/hoang.sa",
+    "vn:da.nang:hoang.sa": {
       "name": "Hoàng Sa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang/lien.chieu",
+    "vn:da.nang:lien.chieu": {
       "name": "Liên Chiểu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang/ngu.hanh.son",
+    "vn:da.nang:ngu.hanh.son": {
       "name": "Ngũ Hành Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang/son.tra",
+    "vn:da.nang:son.tra": {
       "name": "Sơn Trà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/da.nang/thanh.khe",
+    "vn:da.nang:thanh.khe": {
       "name": "Thanh Khê",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak",
+    "vn:dak.lak": {
       "name": "Đắk Lắk",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/buon.don",
+    "vn:dak.lak:buon.don": {
       "name": "Buôn Đôn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/buon.ho",
+    "vn:dak.lak:buon.ho": {
       "name": "Buôn Hồ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/buon.ma.thuot",
+    "vn:dak.lak:buon.ma.thuot": {
       "name": "Buôn Ma Thuột",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/cu.kuin",
+    "vn:dak.lak:cu.kuin": {
       "name": "Cư Kuin",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/cu.m'gar",
+    "vn:dak.lak:cu.m'gar": {
       "name": "Cư M'gar",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/ea.h'leo",
+    "vn:dak.lak:ea.h'leo": {
       "name": "Ea H'leo",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/ea.kar",
+    "vn:dak.lak:ea.kar": {
       "name": "Ea Kar",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/ea.sup",
+    "vn:dak.lak:ea.sup": {
       "name": "Ea Súp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/krong.ana",
+    "vn:dak.lak:krong.ana": {
       "name": "Krông Ana",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/krong.bong",
+    "vn:dak.lak:krong.bong": {
       "name": "Krông Bông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/krong.buk",
+    "vn:dak.lak:krong.buk": {
       "name": "Krông Buk",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/krong.nang",
+    "vn:dak.lak:krong.nang": {
       "name": "Krông Năng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/krong.pak",
+    "vn:dak.lak:krong.pak": {
       "name": "Krông Pắk",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/lak",
+    "vn:dak.lak:lak": {
       "name": "Lắk",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.lak/m'drak",
+    "vn:dak.lak:m'drak": {
       "name": "M'Đrăk",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong",
+    "vn:dak.nong": {
       "name": "Đắk Nông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong/cu.jut",
+    "vn:dak.nong:cu.jut": {
       "name": "Cư Jút",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong/dak.glong",
+    "vn:dak.nong:dak.glong": {
       "name": "Đắk Glong",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong/dak.mil",
+    "vn:dak.nong:dak.mil": {
       "name": "Đắk Mil",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong/dak.r'lap",
+    "vn:dak.nong:dak.r'lap": {
       "name": "Đắk R'Lấp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong/dak.song",
+    "vn:dak.nong:dak.song": {
       "name": "Đắk Song",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong/gia.nghia",
+    "vn:dak.nong:gia.nghia": {
       "name": "Gia Nghĩa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong/krong.no",
+    "vn:dak.nong:krong.no": {
       "name": "Krông Nô",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dak.nong/tuy.duc",
+    "vn:dak.nong:tuy.duc": {
       "name": "Tuy Đức",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dien.bien",
+    "vn:dien.bien": {
       "name": "Điện Biên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dien.bien/dien.bien",
+    "vn:dien.bien:dien.bien": {
       "name": "Điện Biên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dien.bien/dien.bien.dong",
+    "vn:dien.bien:dien.bien.dong": {
       "name": "Điện Biên Đông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dien.bien/dien.bien.phu",
+    "vn:dien.bien:dien.bien.phu": {
       "name": "Điện Biên Phủ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dien.bien/muong.cha",
+    "vn:dien.bien:muong.cha": {
       "name": "Mường Chà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dien.bien/muong.nhe",
+    "vn:dien.bien:muong.nhe": {
       "name": "Mường Nhé",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dien.bien/tua.chua",
+    "vn:dien.bien:tua.chua": {
       "name": "Tủa Chùa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dien.bien/tuan.giao",
+    "vn:dien.bien:tuan.giao": {
       "name": "Tuần Giáo",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai",
+    "vn:dong.nai": {
       "name": "Đồng Nai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/bien.hoa",
+    "vn:dong.nai:bien.hoa": {
       "name": "Biên Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/cam.my",
+    "vn:dong.nai:cam.my": {
       "name": "Cẩm Mỹ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/dinh.quan",
+    "vn:dong.nai:dinh.quan": {
       "name": "Định Quán",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/long.khanh",
+    "vn:dong.nai:long.khanh": {
       "name": "Long Khánh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/long.thanh",
+    "vn:dong.nai:long.thanh": {
       "name": "Long Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/nhon.trach",
+    "vn:dong.nai:nhon.trach": {
       "name": "Nhơn Trạch",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/tan.phu",
+    "vn:dong.nai:tan.phu": {
       "name": "Tân Phú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/thong.nhat",
+    "vn:dong.nai:thong.nhat": {
       "name": "Thống Nhất",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/trang.bom",
+    "vn:dong.nai:trang.bom": {
       "name": "Trảng Bom",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/vinh.cuu",
+    "vn:dong.nai:vinh.cuu": {
       "name": "Vĩnh Cữu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.nai/xuan.loc",
+    "vn:dong.nai:xuan.loc": {
       "name": "Xuân Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap",
+    "vn:dong.thap": {
       "name": "Đồng Tháp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/cao.lanh",
+    "vn:dong.thap:cao.lanh": {
       "name": "Cao Lãnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/chau.thanh",
+    "vn:dong.thap:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/hong.ngu",
+    "vn:dong.thap:hong.ngu": {
       "name": "Hồng Ngự",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/lai.vung",
+    "vn:dong.thap:lai.vung": {
       "name": "Lai Vung",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/lap.vo",
+    "vn:dong.thap:lap.vo": {
       "name": "Lấp Vò",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/sa.dec",
+    "vn:dong.thap:sa.dec": {
       "name": "Sa Đéc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/tam.nong",
+    "vn:dong.thap:tam.nong": {
       "name": "Tam Nông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/tan.hong",
+    "vn:dong.thap:tan.hong": {
       "name": "Tân Hồng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/thanh.binh",
+    "vn:dong.thap:thanh.binh": {
       "name": "Thanh Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/dong.thap/thap.muoi",
+    "vn:dong.thap:thap.muoi": {
       "name": "Tháp Mười",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai",
+    "vn:gia.lai": {
       "name": "Gia Lai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/an.khe",
+    "vn:gia.lai:an.khe": {
       "name": "An Khê",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/ayun.pa",
+    "vn:gia.lai:ayun.pa": {
       "name": "Ayun Pa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/chu.pah",
+    "vn:gia.lai:chu.pah": {
       "name": "Chư Păh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/chu.prong",
+    "vn:gia.lai:chu.prong": {
       "name": "Chư Prông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/chu.puh",
+    "vn:gia.lai:chu.puh": {
       "name": "Chư Pưh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/chu.se",
+    "vn:gia.lai:chu.se": {
       "name": "Chư Sê",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/dak.doa",
+    "vn:gia.lai:dak.doa": {
       "name": "Đắk Đoa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/dak.po",
+    "vn:gia.lai:dak.po": {
       "name": "Đắk Pơ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/duc.co",
+    "vn:gia.lai:duc.co": {
       "name": "Đức Cơ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/ia.grai",
+    "vn:gia.lai:ia.grai": {
       "name": "Ia Grai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/ia.pa",
+    "vn:gia.lai:ia.pa": {
       "name": "Ia Pa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/k'bang",
+    "vn:gia.lai:k'bang": {
       "name": "K'Bang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/kong.chro",
+    "vn:gia.lai:kong.chro": {
       "name": "Kông Chro",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/krong.pa",
+    "vn:gia.lai:krong.pa": {
       "name": "Krông Pa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/mang.yang",
+    "vn:gia.lai:mang.yang": {
       "name": "Mang Yang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/phu.thien",
+    "vn:gia.lai:phu.thien": {
       "name": "Phú Thiện",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/gia.lai/pleiku",
+    "vn:gia.lai:pleiku": {
       "name": "Pleiku",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang",
+    "vn:ha.giang": {
       "name": "Hà Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/bac.me",
+    "vn:ha.giang:bac.me": {
       "name": "Bắc Mê",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/bac.quang",
+    "vn:ha.giang:bac.quang": {
       "name": "Bắc Quang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/dong.van",
+    "vn:ha.giang:dong.van": {
       "name": "Đồng Văn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/ha.giang",
+    "vn:ha.giang:ha.giang": {
       "name": "Hà Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/hoang.su.phi",
+    "vn:ha.giang:hoang.su.phi": {
       "name": "Hoàng Su Phì",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/meo.vac",
+    "vn:ha.giang:meo.vac": {
       "name": "Mèo Vạc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/quan.ba",
+    "vn:ha.giang:quan.ba": {
       "name": "Quản Bạ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/quang.binh",
+    "vn:ha.giang:quang.binh": {
       "name": "Quảng Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/vi.xuyen",
+    "vn:ha.giang:vi.xuyen": {
       "name": "Vị Xuyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/xin.man",
+    "vn:ha.giang:xin.man": {
       "name": "Xín Mần",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.giang/yen.minh",
+    "vn:ha.giang:yen.minh": {
       "name": "Yên Minh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.nam",
+    "vn:ha.nam": {
       "name": "Hà Nam",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.nam/binh.luc",
+    "vn:ha.nam:binh.luc": {
       "name": "Bình Lục",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.nam/duy.tien",
+    "vn:ha.nam:duy.tien": {
       "name": "Duy Tiên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.nam/kim.bang",
+    "vn:ha.nam:kim.bang": {
       "name": "Kim Bảng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.nam/ly.nhan",
+    "vn:ha.nam:ly.nhan": {
       "name": "Lý Nhân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.nam/phu.ly",
+    "vn:ha.nam:phu.ly": {
       "name": "Phủ Lý",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.nam/thanh.liem",
+    "vn:ha.nam:thanh.liem": {
       "name": "Thanh Liêm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi",
+    "vn:ha.noi": {
       "name": "Hà Nội",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/ba.dinh",
+    "vn:ha.noi:ba.dinh": {
       "name": "Ba Đình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/ba.vi",
+    "vn:ha.noi:ba.vi": {
       "name": "Ba Vì",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/cau.giay",
+    "vn:ha.noi:cau.giay": {
       "name": "Cầu Giấy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/chuong.my",
+    "vn:ha.noi:chuong.my": {
       "name": "Chương Mỹ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/dan.phuong",
+    "vn:ha.noi:dan.phuong": {
       "name": "Đan Phượng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/dong.anh",
+    "vn:ha.noi:dong.anh": {
       "name": "Đông Anh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/dong.da",
+    "vn:ha.noi:dong.da": {
       "name": "Đống Đa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/gia.lam",
+    "vn:ha.noi:gia.lam": {
       "name": "Gia Lâm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/ha.dong",
+    "vn:ha.noi:ha.dong": {
       "name": "Hà Đông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/hai.ba.trung",
+    "vn:ha.noi:hai.ba.trung": {
       "name": "Hai Bà Trưng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/hoai.duc",
+    "vn:ha.noi:hoai.duc": {
       "name": "Hoài Đức",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/hoan.kiem",
+    "vn:ha.noi:hoan.kiem": {
       "name": "Hoàn Kiếm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/hoang.mai",
+    "vn:ha.noi:hoang.mai": {
       "name": "Hoàng Mai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/long.bien",
+    "vn:ha.noi:long.bien": {
       "name": "Long Biên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/my.duc",
+    "vn:ha.noi:my.duc": {
       "name": "Mỹ Đức",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/phu.xuyen",
+    "vn:ha.noi:phu.xuyen": {
       "name": "Phú Xuyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/phuc.tho",
+    "vn:ha.noi:phuc.tho": {
       "name": "Phúc Thọ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/quoc.oai",
+    "vn:ha.noi:quoc.oai": {
       "name": "Quốc Oai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/soc.son",
+    "vn:ha.noi:soc.son": {
       "name": "Sóc Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/son.tay",
+    "vn:ha.noi:son.tay": {
       "name": "Sơn Tây",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/tay.ho",
+    "vn:ha.noi:tay.ho": {
       "name": "Tây Hồ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/thach.that",
+    "vn:ha.noi:thach.that": {
       "name": "Thạch Thất",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/thanh.oai",
+    "vn:ha.noi:thanh.oai": {
       "name": "Thanh Oai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/thanh.tri",
+    "vn:ha.noi:thanh.tri": {
       "name": "Thanh Trì",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/thanh.xuan",
+    "vn:ha.noi:thanh.xuan": {
       "name": "Thanh Xuân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/thuong.tin",
+    "vn:ha.noi:thuong.tin": {
       "name": "Thường Tín",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/tu.liem",
+    "vn:ha.noi:tu.liem": {
       "name": "Từ Liêm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.noi/ung.hoa",
+    "vn:ha.noi:ung.hoa": {
       "name": "Ứng Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh",
+    "vn:ha.tinh": {
       "name": "Hà Tĩnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/cam.xuyen",
+    "vn:ha.tinh:cam.xuyen": {
       "name": "Cẩm Xuyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/can.loc",
+    "vn:ha.tinh:can.loc": {
       "name": "Can Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/duc.tho",
+    "vn:ha.tinh:duc.tho": {
       "name": "Đức Thọ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/ha.tinh",
+    "vn:ha.tinh:ha.tinh": {
       "name": "Hà Tĩnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/hong.linh",
+    "vn:ha.tinh:hong.linh": {
       "name": "Hồng Lĩnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/huong.khe",
+    "vn:ha.tinh:huong.khe": {
       "name": "Hương Khê",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/huong.son",
+    "vn:ha.tinh:huong.son": {
       "name": "Hương Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/ky.anh",
+    "vn:ha.tinh:ky.anh": {
       "name": "Kỳ Anh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/nghi.xuan",
+    "vn:ha.tinh:nghi.xuan": {
       "name": "Nghi Xuân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/thach.ha",
+    "vn:ha.tinh:thach.ha": {
       "name": "Thạch Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ha.tinh/vu.quang",
+    "vn:ha.tinh:vu.quang": {
       "name": "Vũ Quang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong",
+    "vn:hai.duong": {
       "name": "Hải Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/binh.giang",
+    "vn:hai.duong:binh.giang": {
       "name": "Bình Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/cam.giang",
+    "vn:hai.duong:cam.giang": {
       "name": "Cẩm Giàng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/chi.linh",
+    "vn:hai.duong:chi.linh": {
       "name": "Chí Linh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/gia.loc",
+    "vn:hai.duong:gia.loc": {
       "name": "Gia Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/hai.duong",
+    "vn:hai.duong:hai.duong": {
       "name": "Hải Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/kim.thanh",
+    "vn:hai.duong:kim.thanh": {
       "name": "Kim Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/kinh.mon",
+    "vn:hai.duong:kinh.mon": {
       "name": "Kinh Môn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/nam.sach",
+    "vn:hai.duong:nam.sach": {
       "name": "Nam Sách",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/ninh.giang",
+    "vn:hai.duong:ninh.giang": {
       "name": "Ninh Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/thanh.ha",
+    "vn:hai.duong:thanh.ha": {
       "name": "Thanh Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/thanh.mien",
+    "vn:hai.duong:thanh.mien": {
       "name": "Thanh Miện",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.duong/tu.ky",
+    "vn:hai.duong:tu.ky": {
       "name": "Tứ Kỳ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong",
+    "vn:hai.phong": {
       "name": "Hải Phòng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/an.duong",
+    "vn:hai.phong:an.duong": {
       "name": "An Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/an.lao",
+    "vn:hai.phong:an.lao": {
       "name": "An Lão",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/bach.long.vi",
+    "vn:hai.phong:bach.long.vi": {
       "name": "Bạch Long Vĩ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/cat.hai",
+    "vn:hai.phong:cat.hai": {
       "name": "Cát Hải",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/do.son",
+    "vn:hai.phong:do.son": {
       "name": "Đồ Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/duong.kinh",
+    "vn:hai.phong:duong.kinh": {
       "name": "Dương Kinh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/hai.an",
+    "vn:hai.phong:hai.an": {
       "name": "Hải An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/hong.bang",
+    "vn:hai.phong:hong.bang": {
       "name": "Hồng Bàng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/kien.an",
+    "vn:hai.phong:kien.an": {
       "name": "Kiến An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/kien.thuy",
+    "vn:hai.phong:kien.thuy": {
       "name": "Kiến Thuỵ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/le.chan",
+    "vn:hai.phong:le.chan": {
       "name": "Lê Chân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/ngo.quyen",
+    "vn:hai.phong:ngo.quyen": {
       "name": "Ngô Quyền",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/thuy.nguyen",
+    "vn:hai.phong:thuy.nguyen": {
       "name": "Thủy Nguyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/tien.lang",
+    "vn:hai.phong:tien.lang": {
       "name": "Tiên Lãng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hai.phong/vinh.bao",
+    "vn:hai.phong:vinh.bao": {
       "name": "Vĩnh Bảo",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hau.giang",
+    "vn:hau.giang": {
       "name": "Hậu Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hau.giang/chau.thanh",
+    "vn:hau.giang:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hau.giang/chau.thanh.a",
+    "vn:hau.giang:chau.thanh.a": {
       "name": "Châu Thành A",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hau.giang/long.my",
+    "vn:hau.giang:long.my": {
       "name": "Long Mỹ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hau.giang/nga.bay",
+    "vn:hau.giang:nga.bay": {
       "name": "Ngã Bảy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hau.giang/phung.hiep",
+    "vn:hau.giang:phung.hiep": {
       "name": "Phụng Hiệp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hau.giang/vi.thanh",
+    "vn:hau.giang:vi.thanh": {
       "name": "Vị Thanh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hau.giang/vi.thuy",
+    "vn:hau.giang:vi.thuy": {
       "name": "Vị Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh",
+    "vn:ho.chi.minh": {
       "name": "Hồ Chí Minh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/binh.chanh",
+    "vn:ho.chi.minh:binh.chanh": {
       "name": "Bình Chánh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/binh.tan",
+    "vn:ho.chi.minh:binh.tan": {
       "name": "Bình Tân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/binh.thanh",
+    "vn:ho.chi.minh:binh.thanh": {
       "name": "Bình Thạnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/can.gio",
+    "vn:ho.chi.minh:can.gio": {
       "name": "Cần Giờ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/cu.chi",
+    "vn:ho.chi.minh:cu.chi": {
       "name": "Củ Chi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.1",
+    "vn:ho.chi.minh:district.1": {
       "name": "District 1",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.10",
+    "vn:ho.chi.minh:district.10": {
       "name": "District 10",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.11",
+    "vn:ho.chi.minh:district.11": {
       "name": "District 11",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.12",
+    "vn:ho.chi.minh:district.12": {
       "name": "District 12",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.2",
+    "vn:ho.chi.minh:district.2": {
       "name": "District 2",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.3",
+    "vn:ho.chi.minh:district.3": {
       "name": "District 3",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.4",
+    "vn:ho.chi.minh:district.4": {
       "name": "District 4",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.5",
+    "vn:ho.chi.minh:district.5": {
       "name": "District 5",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.6",
+    "vn:ho.chi.minh:district.6": {
       "name": "District 6",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.7",
+    "vn:ho.chi.minh:district.7": {
       "name": "District 7",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.8",
+    "vn:ho.chi.minh:district.8": {
       "name": "District 8",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/district.9",
+    "vn:ho.chi.minh:district.9": {
       "name": "District 9",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/go.vap",
+    "vn:ho.chi.minh:go.vap": {
       "name": "Gò Vấp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/hoc.mon",
+    "vn:ho.chi.minh:hoc.mon": {
       "name": "Hóc Môn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/nha.be",
+    "vn:ho.chi.minh:nha.be": {
       "name": "Nhà Bè",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/phu.nhuan",
+    "vn:ho.chi.minh:phu.nhuan": {
       "name": "Phú Nhuận",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/tan.binh",
+    "vn:ho.chi.minh:tan.binh": {
       "name": "Tân Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/tan.phu",
+    "vn:ho.chi.minh:tan.phu": {
       "name": "Tân Phú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ho.chi.minh/thu.duc",
+    "vn:ho.chi.minh:thu.duc": {
       "name": "Thủ Đức",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh",
+    "vn:hoa.binh": {
       "name": "Hòa Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/cao.phong",
+    "vn:hoa.binh:cao.phong": {
       "name": "Cao Phong",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/da.bac",
+    "vn:hoa.binh:da.bac": {
       "name": "Đà Bắc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/hoa.binh",
+    "vn:hoa.binh:hoa.binh": {
       "name": "Hòa Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/kim.boi",
+    "vn:hoa.binh:kim.boi": {
       "name": "Kim Bôi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/ky.son",
+    "vn:hoa.binh:ky.son": {
       "name": "Kỳ Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/lac.son",
+    "vn:hoa.binh:lac.son": {
       "name": "Lạc Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/lac.thuy",
+    "vn:hoa.binh:lac.thuy": {
       "name": "Lạc Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/luong.son",
+    "vn:hoa.binh:luong.son": {
       "name": "Lương Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/mai.chau",
+    "vn:hoa.binh:mai.chau": {
       "name": "Mai Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/tan.lac",
+    "vn:hoa.binh:tan.lac": {
       "name": "Tân Lạc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hoa.binh/yen.thuy",
+    "vn:hoa.binh:yen.thuy": {
       "name": "Yên Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen",
+    "vn:hung.yen": {
       "name": "Hưng Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/an.thi",
+    "vn:hung.yen:an.thi": {
       "name": "Ân Thi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/hung.yen",
+    "vn:hung.yen:hung.yen": {
       "name": "Hưng Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/khoai.chau",
+    "vn:hung.yen:khoai.chau": {
       "name": "Khoái Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/kim.dong",
+    "vn:hung.yen:kim.dong": {
       "name": "Kim Động",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/my.hao",
+    "vn:hung.yen:my.hao": {
       "name": "Mỹ Hào",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/phu.cu",
+    "vn:hung.yen:phu.cu": {
       "name": "Phù Cừ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/tien.lu",
+    "vn:hung.yen:tien.lu": {
       "name": "Tiên Lữ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/van.giang",
+    "vn:hung.yen:van.giang": {
       "name": "Văn Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/van.lam",
+    "vn:hung.yen:van.lam": {
       "name": "Văn Lâm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/hung.yen/yen.my",
+    "vn:hung.yen:yen.my": {
       "name": "Yên Mỹ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa",
+    "vn:khanh.hoa": {
       "name": "Khánh Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/cam.lam",
+    "vn:khanh.hoa:cam.lam": {
       "name": "Cam Lâm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/cam.ranh",
+    "vn:khanh.hoa:cam.ranh": {
       "name": "Cam Ranh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/dien.khanh",
+    "vn:khanh.hoa:dien.khanh": {
       "name": "Diên Khánh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/khanh.son",
+    "vn:khanh.hoa:khanh.son": {
       "name": "Khánh Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/khanh.vinh",
+    "vn:khanh.hoa:khanh.vinh": {
       "name": "Khánh Vĩnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/nha.trang",
+    "vn:khanh.hoa:nha.trang": {
       "name": "Nha Trang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/ninh.hoa",
+    "vn:khanh.hoa:ninh.hoa": {
       "name": "Ninh Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/truong.sa",
+    "vn:khanh.hoa:truong.sa": {
       "name": "Trường Sa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/khanh.hoa/van.ninh",
+    "vn:khanh.hoa:van.ninh": {
       "name": "Vạn Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang",
+    "vn:kien.giang": {
       "name": "Kiên Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/an.bien",
+    "vn:kien.giang:an.bien": {
       "name": "An Biên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/an.minh",
+    "vn:kien.giang:an.minh": {
       "name": "An Minh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/chau.thanh",
+    "vn:kien.giang:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/giang.thanh",
+    "vn:kien.giang:giang.thanh": {
       "name": "Giang Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/giong.rieng",
+    "vn:kien.giang:giong.rieng": {
       "name": "Giồng Riềng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/go.quao",
+    "vn:kien.giang:go.quao": {
       "name": "Gò Quao",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/ha.tien",
+    "vn:kien.giang:ha.tien": {
       "name": "Hà Tiên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/hon.dat",
+    "vn:kien.giang:hon.dat": {
       "name": "Hòn Đất",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/kien.hai",
+    "vn:kien.giang:kien.hai": {
       "name": "Kiên Hải",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/kien.luong",
+    "vn:kien.giang:kien.luong": {
       "name": "Kiên Lương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/phu.quoc",
+    "vn:kien.giang:phu.quoc": {
       "name": "Phú Quốc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/rach.gia",
+    "vn:kien.giang:rach.gia": {
       "name": "Rạch Giá",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/tan.hiep",
+    "vn:kien.giang:tan.hiep": {
       "name": "Tân Hiệp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/u.minh.thuong",
+    "vn:kien.giang:u.minh.thuong": {
       "name": "U Minh Thượng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kien.giang/vinh.thuan",
+    "vn:kien.giang:vinh.thuan": {
       "name": "Vĩnh Thuận",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum",
+    "vn:kon.tum": {
       "name": "Kon Tum",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/dak.glei",
+    "vn:kon.tum:dak.glei": {
       "name": "Đắk Glei",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/dak.ha",
+    "vn:kon.tum:dak.ha": {
       "name": "Đắk Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/dak.to",
+    "vn:kon.tum:dak.to": {
       "name": "Đắk Tô",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/kon.plong",
+    "vn:kon.tum:kon.plong": {
       "name": "Kon Plông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/kon.ray",
+    "vn:kon.tum:kon.ray": {
       "name": "Kon Rẫy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/kon.tum",
+    "vn:kon.tum:kon.tum": {
       "name": "Kon Tum",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/ngoc.hoi",
+    "vn:kon.tum:ngoc.hoi": {
       "name": "Ngọc Hồi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/sa.thay",
+    "vn:kon.tum:sa.thay": {
       "name": "Sa Thầy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/kon.tum/tu.mo.rong",
+    "vn:kon.tum:tu.mo.rong": {
       "name": "Tu Mơ Rông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lai.chau",
+    "vn:lai.chau": {
       "name": "Lai Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lai.chau/lai.chau",
+    "vn:lai.chau:lai.chau": {
       "name": "Lai Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lai.chau/muong.te",
+    "vn:lai.chau:muong.te": {
       "name": "Mường Tè",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lai.chau/phong.tho",
+    "vn:lai.chau:phong.tho": {
       "name": "Phong Thổ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lai.chau/sin.ho",
+    "vn:lai.chau:sin.ho": {
       "name": "Sìn Hồ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lai.chau/tam.duong",
+    "vn:lai.chau:tam.duong": {
       "name": "Tam Đường",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lai.chau/tan.uyen",
+    "vn:lai.chau:tan.uyen": {
       "name": "Tân Uyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lai.chau/than.uyen",
+    "vn:lai.chau:than.uyen": {
       "name": "Than Uyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong",
+    "vn:lam.dong": {
       "name": "Lâm Đồng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/bao.lam",
+    "vn:lam.dong:bao.lam": {
       "name": "Bảo Lâm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/bao.loc",
+    "vn:lam.dong:bao.loc": {
       "name": "Bảo Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/cat.tien",
+    "vn:lam.dong:cat.tien": {
       "name": "Cát Tiên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/da.huoai",
+    "vn:lam.dong:da.huoai": {
       "name": "Đạ Huoai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/da.lat",
+    "vn:lam.dong:da.lat": {
       "name": "Đà Lạt",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/da.teh",
+    "vn:lam.dong:da.teh": {
       "name": "Đạ Tẻh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/dam.rong",
+    "vn:lam.dong:dam.rong": {
       "name": "Đam Rông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/di.linh",
+    "vn:lam.dong:di.linh": {
       "name": "Di Linh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/don.duong",
+    "vn:lam.dong:don.duong": {
       "name": "Đơn Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/duc.trong",
+    "vn:lam.dong:duc.trong": {
       "name": "Đức Trọng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/lac.duong",
+    "vn:lam.dong:lac.duong": {
       "name": "Lạc Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lam.dong/lam.ha",
+    "vn:lam.dong:lam.ha": {
       "name": "Lâm Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son",
+    "vn:lang.son": {
       "name": "Lạng Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/bac.son",
+    "vn:lang.son:bac.son": {
       "name": "Bắc Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/binh.gia",
+    "vn:lang.son:binh.gia": {
       "name": "Bình Gia",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/cao.loc",
+    "vn:lang.son:cao.loc": {
       "name": "Cao Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/chi.lang",
+    "vn:lang.son:chi.lang": {
       "name": "Chi Lăng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/dinh.lap",
+    "vn:lang.son:dinh.lap": {
       "name": "Đình Lập",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/huu.lung",
+    "vn:lang.son:huu.lung": {
       "name": "Hữu Lũng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/lang.son",
+    "vn:lang.son:lang.son": {
       "name": "Lạng Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/loc.binh",
+    "vn:lang.son:loc.binh": {
       "name": "Lộc Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/trang.dinh",
+    "vn:lang.son:trang.dinh": {
       "name": "Tràng Định",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/van.lang",
+    "vn:lang.son:van.lang": {
       "name": "Văn Lãng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lang.son/van.quan",
+    "vn:lang.son:van.quan": {
       "name": "Văn Quân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai",
+    "vn:lao.cai": {
       "name": "Lào Cai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/bac.ha",
+    "vn:lao.cai:bac.ha": {
       "name": "Bắc Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/bao.thang",
+    "vn:lao.cai:bao.thang": {
       "name": "Bảo Thắng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/bao.yen",
+    "vn:lao.cai:bao.yen": {
       "name": "Bảo Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/bat.xat",
+    "vn:lao.cai:bat.xat": {
       "name": "Bát Xát",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/lao.cai",
+    "vn:lao.cai:lao.cai": {
       "name": "Lào Cai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/muong.khuong",
+    "vn:lao.cai:muong.khuong": {
       "name": "Mường Khương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/sa.pa",
+    "vn:lao.cai:sa.pa": {
       "name": "Sa Pa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/si.ma.cai",
+    "vn:lao.cai:si.ma.cai": {
       "name": "Si Ma Cai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/lao.cai/van.ban",
+    "vn:lao.cai:van.ban": {
       "name": "Văn Bàn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an",
+    "vn:long.an": {
       "name": "Long An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/ben.luc",
+    "vn:long.an:ben.luc": {
       "name": "Bến Lức",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/can.duoc",
+    "vn:long.an:can.duoc": {
       "name": "Cần Đước",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/can.giuoc",
+    "vn:long.an:can.giuoc": {
       "name": "Cần Giuộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/chau.thanh",
+    "vn:long.an:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/duc.hoa",
+    "vn:long.an:duc.hoa": {
       "name": "Đức Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/duc.hue",
+    "vn:long.an:duc.hue": {
       "name": "Đức Huệ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/moc.hoa",
+    "vn:long.an:moc.hoa": {
       "name": "Mộc Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/tan.an",
+    "vn:long.an:tan.an": {
       "name": "Tân An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/tan.hung",
+    "vn:long.an:tan.hung": {
       "name": "Tân Hưng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/tan.thanh",
+    "vn:long.an:tan.thanh": {
       "name": "Tân Thạnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/tan.tru",
+    "vn:long.an:tan.tru": {
       "name": "Tân Trụ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/thanh.hoa",
+    "vn:long.an:thanh.hoa": {
       "name": "Thạnh Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/thu.thua",
+    "vn:long.an:thu.thua": {
       "name": "Thủ Thừa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/long.an/vinh.hung",
+    "vn:long.an:vinh.hung": {
       "name": "Vĩnh Hưng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh",
+    "vn:nam.dinh": {
       "name": "Nam Định",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/giao.thuy",
+    "vn:nam.dinh:giao.thuy": {
       "name": "Giao Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/hai.hau",
+    "vn:nam.dinh:hai.hau": {
       "name": "Hải Hậu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/my.loc",
+    "vn:nam.dinh:my.loc": {
       "name": "Mỹ Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/nam.dinh",
+    "vn:nam.dinh:nam.dinh": {
       "name": "Nam Định",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/nam.truc",
+    "vn:nam.dinh:nam.truc": {
       "name": "Nam Trực",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/nghia.hung",
+    "vn:nam.dinh:nghia.hung": {
       "name": "Nghĩa Hưng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/truc.ninh",
+    "vn:nam.dinh:truc.ninh": {
       "name": "Trực Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/vu.ban",
+    "vn:nam.dinh:vu.ban": {
       "name": "Vụ Bản",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/xuan.truong",
+    "vn:nam.dinh:xuan.truong": {
       "name": "Xuân Trường",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nam.dinh/y.yen",
+    "vn:nam.dinh:y.yen": {
       "name": "Ý Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an",
+    "vn:nghe.an": {
       "name": "Nghệ An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/anh.son",
+    "vn:nghe.an:anh.son": {
       "name": "Anh Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/con.cuong",
+    "vn:nghe.an:con.cuong": {
       "name": "Con Cuông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/cua.lo",
+    "vn:nghe.an:cua.lo": {
       "name": "Cửa Lò",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/dien.chau",
+    "vn:nghe.an:dien.chau": {
       "name": "Diễn Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/do.luong",
+    "vn:nghe.an:do.luong": {
       "name": "Đô Lương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/hung.nguyen",
+    "vn:nghe.an:hung.nguyen": {
       "name": "Hưng Nguyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/ky.son",
+    "vn:nghe.an:ky.son": {
       "name": "Kỳ Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/nam.dan",
+    "vn:nghe.an:nam.dan": {
       "name": "Nam Đàn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/nghi.loc",
+    "vn:nghe.an:nghi.loc": {
       "name": "Nghi Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/nghia.dan",
+    "vn:nghe.an:nghia.dan": {
       "name": "Nghĩa Đàn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/que.phong",
+    "vn:nghe.an:que.phong": {
       "name": "Quế Phong",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/quy.chau",
+    "vn:nghe.an:quy.chau": {
       "name": "Quỳ Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/quy.hop",
+    "vn:nghe.an:quy.hop": {
       "name": "Quỳ Hợp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/quynh.luu",
+    "vn:nghe.an:quynh.luu": {
       "name": "Quỳnh Lưu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/tan.ky",
+    "vn:nghe.an:tan.ky": {
       "name": "Tân Kỳ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/thai.hoa",
+    "vn:nghe.an:thai.hoa": {
       "name": "Thái Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/thanh.chuong",
+    "vn:nghe.an:thanh.chuong": {
       "name": "Thanh Chương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/tuong.duong",
+    "vn:nghe.an:tuong.duong": {
       "name": "Tương Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/vinh",
+    "vn:nghe.an:vinh": {
       "name": "Vinh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/nghe.an/yen.thanh",
+    "vn:nghe.an:yen.thanh": {
       "name": "Yên Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh",
+    "vn:ninh.binh": {
       "name": "Ninh Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh/gia.vien",
+    "vn:ninh.binh:gia.vien": {
       "name": "Gia Viễn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh/hoa.lu",
+    "vn:ninh.binh:hoa.lu": {
       "name": "Hoa Lư",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh/kim.son",
+    "vn:ninh.binh:kim.son": {
       "name": "Kim Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh/nho.quan",
+    "vn:ninh.binh:nho.quan": {
       "name": "Nho Quan",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh/ninh.binh",
+    "vn:ninh.binh:ninh.binh": {
       "name": "Ninh Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh/tam.diep",
+    "vn:ninh.binh:tam.diep": {
       "name": "Tam Diệp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh/yen.khanh",
+    "vn:ninh.binh:yen.khanh": {
       "name": "Yên Khánh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.binh/yen.mo",
+    "vn:ninh.binh:yen.mo": {
       "name": "Yên Mô",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.thuan",
+    "vn:ninh.thuan": {
       "name": "Ninh Thuận",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.thuan/ninh.hai",
+    "vn:ninh.thuan:ninh.hai": {
       "name": "Ninh Hải",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.thuan/ninh.phuoc",
+    "vn:ninh.thuan:ninh.phuoc": {
       "name": "Ninh Phước",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.thuan/ninh.son",
+    "vn:ninh.thuan:ninh.son": {
       "name": "Ninh Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.thuan/phan.rang.thap.cham",
+    "vn:ninh.thuan:phan.rang.thap.cham": {
       "name": "Phan Rang–Tháp Chàm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.thuan/thuan.bac",
+    "vn:ninh.thuan:thuan.bac": {
       "name": "Thuận Bắc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/ninh.thuan/thuan.nam",
+    "vn:ninh.thuan:thuan.nam": {
       "name": "Thuận Nam",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho",
+    "vn:phu.tho": {
       "name": "Phú Thọ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/cam.khe",
+    "vn:phu.tho:cam.khe": {
       "name": "Cẩm Khê",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/doan.hung",
+    "vn:phu.tho:doan.hung": {
       "name": "Đoan Hùng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/ha.hoa",
+    "vn:phu.tho:ha.hoa": {
       "name": "Hạ Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/lam.thao",
+    "vn:phu.tho:lam.thao": {
       "name": "Lâm Thao",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/phu.ninh",
+    "vn:phu.tho:phu.ninh": {
       "name": "Phù Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/phu.tho",
+    "vn:phu.tho:phu.tho": {
       "name": "Phú Thọ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/tam.nong",
+    "vn:phu.tho:tam.nong": {
       "name": "Tam Nông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/tan.son",
+    "vn:phu.tho:tan.son": {
       "name": "Tân Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/thanh.ba",
+    "vn:phu.tho:thanh.ba": {
       "name": "Thanh Ba",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/thanh.son",
+    "vn:phu.tho:thanh.son": {
       "name": "Thanh Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/thanh.thuy",
+    "vn:phu.tho:thanh.thuy": {
       "name": "Thanh Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/viet.tri",
+    "vn:phu.tho:viet.tri": {
       "name": "Việt Trì",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.tho/yen.lap",
+    "vn:phu.tho:yen.lap": {
       "name": "Yên Lập",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen",
+    "vn:phu.yen": {
       "name": "Phú Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/dong.hoa",
+    "vn:phu.yen:dong.hoa": {
       "name": "Đông Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/dong.xuan",
+    "vn:phu.yen:dong.xuan": {
       "name": "Đồng Xuân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/phu.hoa",
+    "vn:phu.yen:phu.hoa": {
       "name": "Phú Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/son.hoa",
+    "vn:phu.yen:son.hoa": {
       "name": "Sơn Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/song.cau",
+    "vn:phu.yen:song.cau": {
       "name": "Sông Cầu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/song.hinh",
+    "vn:phu.yen:song.hinh": {
       "name": "Sông Hinh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/tay.hoa",
+    "vn:phu.yen:tay.hoa": {
       "name": "Tây Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/tuy.an",
+    "vn:phu.yen:tuy.an": {
       "name": "Tuy An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/phu.yen/tuy.hoa",
+    "vn:phu.yen:tuy.hoa": {
       "name": "Tuy Hòa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.binh",
+    "vn:quang.binh": {
       "name": "Quảng Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.binh/bo.trach",
+    "vn:quang.binh:bo.trach": {
       "name": "Bố Trạch",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.binh/dong.hoi",
+    "vn:quang.binh:dong.hoi": {
       "name": "Đồng Hới",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.binh/le.thuy",
+    "vn:quang.binh:le.thuy": {
       "name": "Lệ Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.binh/minh.hoa",
+    "vn:quang.binh:minh.hoa": {
       "name": "Minh Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.binh/quang.ninh",
+    "vn:quang.binh:quang.ninh": {
       "name": "Quảng Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.binh/quang.trach",
+    "vn:quang.binh:quang.trach": {
       "name": "Quảng Trạch",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.binh/tuyen.hoa",
+    "vn:quang.binh:tuyen.hoa": {
       "name": "Tuyên Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam",
+    "vn:quang.nam": {
       "name": "Quảng Nam",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/bac.tra.my",
+    "vn:quang.nam:bac.tra.my": {
       "name": "Bắc Trà My",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/dai.loc",
+    "vn:quang.nam:dai.loc": {
       "name": "Đại Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/dien.ban",
+    "vn:quang.nam:dien.ban": {
       "name": "Điện Bàn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/dong.giang",
+    "vn:quang.nam:dong.giang": {
       "name": "Đông Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/duy.xuyen",
+    "vn:quang.nam:duy.xuyen": {
       "name": "Duy Xuyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/hiep.duc",
+    "vn:quang.nam:hiep.duc": {
       "name": "Hiệp Đức",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/hoi.an",
+    "vn:quang.nam:hoi.an": {
       "name": "Hội An",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/nam.giang",
+    "vn:quang.nam:nam.giang": {
       "name": "Nam Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/nam.tra.my",
+    "vn:quang.nam:nam.tra.my": {
       "name": "Nam Trà My",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/nong.son",
+    "vn:quang.nam:nong.son": {
       "name": "Nông Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/nui.thanh",
+    "vn:quang.nam:nui.thanh": {
       "name": "Núi Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/phuoc.son",
+    "vn:quang.nam:phuoc.son": {
       "name": "Phước Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/que.son",
+    "vn:quang.nam:que.son": {
       "name": "Quế Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/tam.ky",
+    "vn:quang.nam:tam.ky": {
       "name": "Tam Kỳ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/tay.giang",
+    "vn:quang.nam:tay.giang": {
       "name": "Tây Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/thang.binh",
+    "vn:quang.nam:thang.binh": {
       "name": "Thăng Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.nam/tien.phuoc",
+    "vn:quang.nam:tien.phuoc": {
       "name": "Tiên Phước",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai",
+    "vn:quang.ngai": {
       "name": "Quảng Ngãi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/ba.to",
+    "vn:quang.ngai:ba.to": {
       "name": "Ba Tơ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/binh.son",
+    "vn:quang.ngai:binh.son": {
       "name": "Bình Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/duc.pho",
+    "vn:quang.ngai:duc.pho": {
       "name": "Đức Phổ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/ly.son",
+    "vn:quang.ngai:ly.son": {
       "name": "Lý Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/minh.long",
+    "vn:quang.ngai:minh.long": {
       "name": "Minh Long",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/nghia.hanh",
+    "vn:quang.ngai:nghia.hanh": {
       "name": "Nghĩa Hành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/quang.ngai",
+    "vn:quang.ngai:quang.ngai": {
       "name": "Quảng Ngãi",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/son.ha",
+    "vn:quang.ngai:son.ha": {
       "name": "Sơn Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/son.tay",
+    "vn:quang.ngai:son.tay": {
       "name": "Sơn Tây",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/son.tinh",
+    "vn:quang.ngai:son.tinh": {
       "name": "Sơn Tịnh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/tay.tra",
+    "vn:quang.ngai:tay.tra": {
       "name": "Tây Trà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/tra.bong",
+    "vn:quang.ngai:tra.bong": {
       "name": "Trà Bồng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ngai/tu.nghia",
+    "vn:quang.ngai:tu.nghia": {
       "name": "Tư Nghĩa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh",
+    "vn:quang.ninh": {
       "name": "Quảng Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/ba.che",
+    "vn:quang.ninh:ba.che": {
       "name": "Ba Chẽ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/binh.lieu",
+    "vn:quang.ninh:binh.lieu": {
       "name": "Bình Liêu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/cam.pha",
+    "vn:quang.ninh:cam.pha": {
       "name": "Cẩm Phả",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/co.to",
+    "vn:quang.ninh:co.to": {
       "name": "Cô Tô",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/dam.ha",
+    "vn:quang.ninh:dam.ha": {
       "name": "Đầm Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/dong.trieu",
+    "vn:quang.ninh:dong.trieu": {
       "name": "Đông Triều",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/ha.long",
+    "vn:quang.ninh:ha.long": {
       "name": "Hạ Long",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/hai.ha",
+    "vn:quang.ninh:hai.ha": {
       "name": "Hải Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/hoanh.bo",
+    "vn:quang.ninh:hoanh.bo": {
       "name": "Hoành Bồ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/mong.cai",
+    "vn:quang.ninh:mong.cai": {
       "name": "Móng Cái",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/tien.yen",
+    "vn:quang.ninh:tien.yen": {
       "name": "Tiên Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/uong.bi",
+    "vn:quang.ninh:uong.bi": {
       "name": "Uông Bí",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/van.don",
+    "vn:quang.ninh:van.don": {
       "name": "Vân Đồn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.ninh/yen.hung",
+    "vn:quang.ninh:yen.hung": {
       "name": "Yên Hưng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri",
+    "vn:quang.tri": {
       "name": "Quảng Trị",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/cam.lo",
+    "vn:quang.tri:cam.lo": {
       "name": "Cam Lộ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/con.co",
+    "vn:quang.tri:con.co": {
       "name": "Cồn Cỏ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/da.krong",
+    "vn:quang.tri:da.krong": {
       "name": "Đa Krông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/dong.ha",
+    "vn:quang.tri:dong.ha": {
       "name": "Đông Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/gio.linh",
+    "vn:quang.tri:gio.linh": {
       "name": "Gio Linh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/hai.lang",
+    "vn:quang.tri:hai.lang": {
       "name": "Hải Lăng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/huong.hoa",
+    "vn:quang.tri:huong.hoa": {
       "name": "Hướng Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/quang.tri",
+    "vn:quang.tri:quang.tri": {
       "name": "Quảng Trị",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/trieu.phong",
+    "vn:quang.tri:trieu.phong": {
       "name": "Triệu Phong",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/quang.tri/vinh.linh",
+    "vn:quang.tri:vinh.linh": {
       "name": "Vĩnh Linh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang",
+    "vn:soc.trang": {
       "name": "Sóc Trăng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/chau.thanh",
+    "vn:soc.trang:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/cu.lao.dung",
+    "vn:soc.trang:cu.lao.dung": {
       "name": "Cù Lao Dung",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/ke.sach",
+    "vn:soc.trang:ke.sach": {
       "name": "Kế Sách",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/long.phu",
+    "vn:soc.trang:long.phu": {
       "name": "Long Phú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/my.tu",
+    "vn:soc.trang:my.tu": {
       "name": "Mỹ Tú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/my.xuyen",
+    "vn:soc.trang:my.xuyen": {
       "name": "Mỹ Xuyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/soc.trang",
+    "vn:soc.trang:soc.trang": {
       "name": "Sóc Trăng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/thanh.tri",
+    "vn:soc.trang:thanh.tri": {
       "name": "Thạnh Trị",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/soc.trang/vinh.chau",
+    "vn:soc.trang:vinh.chau": {
       "name": "Vĩnh Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la",
+    "vn:son.la": {
       "name": "Sơn La",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/bac.yen",
+    "vn:son.la:bac.yen": {
       "name": "Bắc Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/mai.son",
+    "vn:son.la:mai.son": {
       "name": "Mai Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/moc.chau",
+    "vn:son.la:moc.chau": {
       "name": "Mộc Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/muong.la",
+    "vn:son.la:muong.la": {
       "name": "Mường La",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/phu.yen",
+    "vn:son.la:phu.yen": {
       "name": "Phù Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/quynh.nhai",
+    "vn:son.la:quynh.nhai": {
       "name": "Quỳnh Nhai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/son.la",
+    "vn:son.la:son.la": {
       "name": "Sơn La",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/song.ma",
+    "vn:son.la:song.ma": {
       "name": "Sông Mã",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/sop.cop",
+    "vn:son.la:sop.cop": {
       "name": "Sốp Cộp",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/thuan.chau",
+    "vn:son.la:thuan.chau": {
       "name": "Thuận Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/son.la/yen.chau",
+    "vn:son.la:yen.chau": {
       "name": "Yên Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh",
+    "vn:tay.ninh": {
       "name": "Tây Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/ben.cau",
+    "vn:tay.ninh:ben.cau": {
       "name": "Bến Cầu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/chau.thanh",
+    "vn:tay.ninh:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/duong.minh.chau",
+    "vn:tay.ninh:duong.minh.chau": {
       "name": "Dương Minh Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/go.dau",
+    "vn:tay.ninh:go.dau": {
       "name": "Gò Dầu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/hoa.thanh",
+    "vn:tay.ninh:hoa.thanh": {
       "name": "Hòa Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/tan.bien",
+    "vn:tay.ninh:tan.bien": {
       "name": "Tân Biên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/tan.chau",
+    "vn:tay.ninh:tan.chau": {
       "name": "Tân Châu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/tay.ninh",
+    "vn:tay.ninh:tay.ninh": {
       "name": "Tây Ninh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tay.ninh/trang.bang",
+    "vn:tay.ninh:trang.bang": {
       "name": "Trảng Bàng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh",
+    "vn:thai.binh": {
       "name": "Thái Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh/dong.hung",
+    "vn:thai.binh:dong.hung": {
       "name": "Đông Hưng",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh/hung.ha",
+    "vn:thai.binh:hung.ha": {
       "name": "Hưng Hà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh/kien.xuong",
+    "vn:thai.binh:kien.xuong": {
       "name": "Kiến Xương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh/quynh.phu",
+    "vn:thai.binh:quynh.phu": {
       "name": "Quỳnh Phụ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh/thai.binh",
+    "vn:thai.binh:thai.binh": {
       "name": "Thái Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh/thai.thuy",
+    "vn:thai.binh:thai.thuy": {
       "name": "Thái Thụy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh/tien.hai",
+    "vn:thai.binh:tien.hai": {
       "name": "Tiền Hải",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.binh/vu.thu",
+    "vn:thai.binh:vu.thu": {
       "name": "Vũ Thư",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen",
+    "vn:thai.nguyen": {
       "name": "Thái Nguyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/dai.tu",
+    "vn:thai.nguyen:dai.tu": {
       "name": "Đại Từ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/dinh.hoa",
+    "vn:thai.nguyen:dinh.hoa": {
       "name": "Định Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/dong.hy",
+    "vn:thai.nguyen:dong.hy": {
       "name": "Đồng Hỷ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/pho.yen",
+    "vn:thai.nguyen:pho.yen": {
       "name": "Phổ Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/phu.binh",
+    "vn:thai.nguyen:phu.binh": {
       "name": "Phú Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/phu.luong",
+    "vn:thai.nguyen:phu.luong": {
       "name": "Phú Lương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/song.cong",
+    "vn:thai.nguyen:song.cong": {
       "name": "Sông Công",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/thai.nguyen",
+    "vn:thai.nguyen:thai.nguyen": {
       "name": "Thái Nguyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thai.nguyen/vo.nhai",
+    "vn:thai.nguyen:vo.nhai": {
       "name": "Võ Nhai",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa",
+    "vn:thanh.hoa": {
       "name": "Thanh Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/ba.thuoc",
+    "vn:thanh.hoa:ba.thuoc": {
       "name": "Bá Thước",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/bim.son",
+    "vn:thanh.hoa:bim.son": {
       "name": "Bỉm Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/cam.thuy",
+    "vn:thanh.hoa:cam.thuy": {
       "name": "Cẩm Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/dong.son",
+    "vn:thanh.hoa:dong.son": {
       "name": "Đông Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/ha.trung",
+    "vn:thanh.hoa:ha.trung": {
       "name": "Hà Trung",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/hau.loc",
+    "vn:thanh.hoa:hau.loc": {
       "name": "Hậu Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/hoang.hoa",
+    "vn:thanh.hoa:hoang.hoa": {
       "name": "Hoằng Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/lang.chanh",
+    "vn:thanh.hoa:lang.chanh": {
       "name": "Lang Chánh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/muong.lat",
+    "vn:thanh.hoa:muong.lat": {
       "name": "Mường Lát",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/ngoc.lac",
+    "vn:thanh.hoa:ngoc.lac": {
       "name": "Ngọc Lặc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/nhu.thanh",
+    "vn:thanh.hoa:nhu.thanh": {
       "name": "Như Thanh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/nhu.xuan",
+    "vn:thanh.hoa:nhu.xuan": {
       "name": "Như Xuân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/nong.cong",
+    "vn:thanh.hoa:nong.cong": {
       "name": "Nông Cống",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/quan.hoa",
+    "vn:thanh.hoa:quan.hoa": {
       "name": "Quan Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/quan.son",
+    "vn:thanh.hoa:quan.son": {
       "name": "Quan Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/quang.xuong",
+    "vn:thanh.hoa:quang.xuong": {
       "name": "Quảng Xương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/sam.son",
+    "vn:thanh.hoa:sam.son": {
       "name": "Sầm Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/thach.thanh",
+    "vn:thanh.hoa:thach.thanh": {
       "name": "Thạch Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/thanh.hoa",
+    "vn:thanh.hoa:thanh.hoa": {
       "name": "Thanh Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/thieu.hoa",
+    "vn:thanh.hoa:thieu.hoa": {
       "name": "Thiệu Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/tho.xuan",
+    "vn:thanh.hoa:tho.xuan": {
       "name": "Thọ Xuân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/thuong.xuan",
+    "vn:thanh.hoa:thuong.xuan": {
       "name": "Thường Xuân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/tinh.gia",
+    "vn:thanh.hoa:tinh.gia": {
       "name": "Tĩnh Gia",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/trieu.son",
+    "vn:thanh.hoa:trieu.son": {
       "name": "Triệu Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/vinh.loc",
+    "vn:thanh.hoa:vinh.loc": {
       "name": "Vĩnh Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thanh.hoa/yen.dinh",
+    "vn:thanh.hoa:yen.dinh": {
       "name": "Yên Định",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue",
+    "vn:thua.thien.hue": {
       "name": "Thừa Thiên–Huế",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/a.luoi",
+    "vn:thua.thien.hue:a.luoi": {
       "name": "A Lưới",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/hue",
+    "vn:thua.thien.hue:hue": {
       "name": "Huế",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/huong.thuy",
+    "vn:thua.thien.hue:huong.thuy": {
       "name": "Hương Thủy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/huong.tra",
+    "vn:thua.thien.hue:huong.tra": {
       "name": "Hương Trà",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/nam.dong",
+    "vn:thua.thien.hue:nam.dong": {
       "name": "Nam Đông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/phong.dien",
+    "vn:thua.thien.hue:phong.dien": {
       "name": "Phong Điền",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/phu.loc",
+    "vn:thua.thien.hue:phu.loc": {
       "name": "Phú Lộc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/phu.vang",
+    "vn:thua.thien.hue:phu.vang": {
       "name": "Phú Vang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/thua.thien.hue/quang.dien",
+    "vn:thua.thien.hue:quang.dien": {
       "name": "Quảng Điền",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang",
+    "vn:tien.giang": {
       "name": "Tiền Giang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/cai.be",
+    "vn:tien.giang:cai.be": {
       "name": "Cái Bè",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/cai.lay",
+    "vn:tien.giang:cai.lay": {
       "name": "Cai Lậy",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/chau.thanh",
+    "vn:tien.giang:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/cho.gao",
+    "vn:tien.giang:cho.gao": {
       "name": "Chợ Gạo",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/go.cong",
+    "vn:tien.giang:go.cong": {
       "name": "Gò Công",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/go.cong.dong",
+    "vn:tien.giang:go.cong.dong": {
       "name": "Gò Công Dông",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/go.cong.tay",
+    "vn:tien.giang:go.cong.tay": {
       "name": "Gò Công Tây",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/my.tho",
+    "vn:tien.giang:my.tho": {
       "name": "Mỹ Tho",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tien.giang/tan.phuoc",
+    "vn:tien.giang:tan.phuoc": {
       "name": "Tân Phước",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh",
+    "vn:tra.vinh": {
       "name": "Trà Vinh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh/cang.long",
+    "vn:tra.vinh:cang.long": {
       "name": "Càng Long",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh/cau.ke",
+    "vn:tra.vinh:cau.ke": {
       "name": "Cầu Kè",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh/cau.ngang",
+    "vn:tra.vinh:cau.ngang": {
       "name": "Cầu Ngang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh/chau.thanh",
+    "vn:tra.vinh:chau.thanh": {
       "name": "Châu Thành",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh/duyen.hai",
+    "vn:tra.vinh:duyen.hai": {
       "name": "Duyên Hải",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh/tieu.can",
+    "vn:tra.vinh:tieu.can": {
       "name": "Tiểu Cần",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh/tra.cu",
+    "vn:tra.vinh:tra.cu": {
       "name": "Trà Cú",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tra.vinh/tra.vinh",
+    "vn:tra.vinh:tra.vinh": {
       "name": "Trà Vinh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tuyen.quang",
+    "vn:tuyen.quang": {
       "name": "Tuyên Quang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tuyen.quang/chiem.hoa",
+    "vn:tuyen.quang:chiem.hoa": {
       "name": "Chiêm Hóa",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tuyen.quang/ham.yen",
+    "vn:tuyen.quang:ham.yen": {
       "name": "Hàm Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tuyen.quang/na.hang",
+    "vn:tuyen.quang:na.hang": {
       "name": "Nà Hang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tuyen.quang/son.duong",
+    "vn:tuyen.quang:son.duong": {
       "name": "Sơn Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tuyen.quang/tuyen.quang",
+    "vn:tuyen.quang:tuyen.quang": {
       "name": "Tuyên Quang",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/tuyen.quang/yen.son",
+    "vn:tuyen.quang:yen.son": {
       "name": "Yên Sơn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long",
+    "vn:vinh.long": {
       "name": "Vĩnh Long",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long/binh.minh",
+    "vn:vinh.long:binh.minh": {
       "name": "Bình Minh",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long/binh.tan",
+    "vn:vinh.long:binh.tan": {
       "name": "Bình Tân",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long/long.ho",
+    "vn:vinh.long:long.ho": {
       "name": "Long Hồ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long/mang.thit",
+    "vn:vinh.long:mang.thit": {
       "name": "Mang Thít",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long/tam.binh",
+    "vn:vinh.long:tam.binh": {
       "name": "Tâm Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long/tra.on",
+    "vn:vinh.long:tra.on": {
       "name": "Trà Ôn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long/vinh.long",
+    "vn:vinh.long:vinh.long": {
       "name": "Vĩnh Long",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.long/vung.liem",
+    "vn:vinh.long:vung.liem": {
       "name": "Vũng Liêm",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc",
+    "vn:vinh.phuc": {
       "name": "Vĩnh Phúc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc/binh.xuyen",
+    "vn:vinh.phuc:binh.xuyen": {
       "name": "Bình Xuyên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc/lap.thach",
+    "vn:vinh.phuc:lap.thach": {
       "name": "Lập Thạch",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc/phuc.yen",
+    "vn:vinh.phuc:phuc.yen": {
       "name": "Phúc Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc/tam.dao",
+    "vn:vinh.phuc:tam.dao": {
       "name": "Tam Đảo",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc/tam.duong",
+    "vn:vinh.phuc:tam.duong": {
       "name": "Tam Dương",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc/vinh.tuong",
+    "vn:vinh.phuc:vinh.tuong": {
       "name": "Vĩnh Tường",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc/vinh.yen",
+    "vn:vinh.phuc:vinh.yen": {
       "name": "Vĩnh Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/vinh.phuc/yen.lac",
+    "vn:vinh.phuc:yen.lac": {
       "name": "Yên Lạc",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai",
+    "vn:yen.bai": {
       "name": "Yên Bái",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/luc.yen",
+    "vn:yen.bai:luc.yen": {
       "name": "Lục Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/mu.cang.chai",
+    "vn:yen.bai:mu.cang.chai": {
       "name": "Mù Cang Chải",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/nghia.lo",
+    "vn:yen.bai:nghia.lo": {
       "name": "Nghĩa Lộ",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/tram.tau",
+    "vn:yen.bai:tram.tau": {
       "name": "Trạm Tấu",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/tran.yen",
+    "vn:yen.bai:tran.yen": {
       "name": "Trấn Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/van.chan",
+    "vn:yen.bai:van.chan": {
       "name": "Văn Chấn",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/van.yen",
+    "vn:yen.bai:van.yen": {
       "name": "Văn Yên",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/yen.bai",
+    "vn:yen.bai:yen.bai": {
       "name": "Yên Bái",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     },
-    {
-      "path": "vn/yen.bai/yen.binh",
+    "vn:yen.bai:yen.binh": {
       "name": "Yên Bình",
-      "courts": [
-        "toa.an.nhan.dan"
-      ]
+      "courts": {
+        "toa.an.nhan.dan": {}
+      }
     }
-  ]
+  }
 }

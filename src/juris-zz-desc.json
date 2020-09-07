@@ -1,14 +1,16 @@
 {
-	"courts": {
-		"sc": {
-			"name": "Supreme Court"
-		}
-	},
-	"jurisdictions": [
-		{
-			"path": "zz",
-			"name": "Atlantis",
-			"courts": ["sc"]
-		}
-	]
+  "langs": {},
+  "courts": {
+    "sc": {
+      "name": "Supreme Court"
+    }
+  },
+  "jurisdictions": {
+    "zz": {
+      "name": "Atlantis",
+      "courts": {
+        "sc": {}
+      }
+    }
+  }
 }

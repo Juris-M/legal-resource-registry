@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ba",
-      "name": "Sprska",
-      "courts": []
+  "jurisdictions": {
+    "ba": {
+      "name": "Sprska"
     }
-  ]
+  }
 }

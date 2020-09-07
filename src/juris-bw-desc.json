@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bw",
-      "name": "Botswana",
-      "courts": []
+  "jurisdictions": {
+    "bw": {
+      "name": "Botswana"
     }
-  ]
+  }
 }

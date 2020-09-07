@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ni",
-      "name": "Nicaragua",
-      "courts": []
+  "jurisdictions": {
+    "ni": {
+      "name": "Nicaragua"
     }
-  ]
+  }
 }

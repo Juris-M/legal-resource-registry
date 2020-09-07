@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bb",
-      "name": "Barbados",
-      "courts": []
+  "jurisdictions": {
+    "bb": {
+      "name": "Barbados"
     }
-  ]
+  }
 }

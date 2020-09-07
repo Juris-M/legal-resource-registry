@@ -1,16 +1,16 @@
 {
+  "langs": {},
   "courts": {
     "hc": {
       "name": "High Court"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "sg",
+  "jurisdictions": {
+    "sg": {
       "name": "Singapore",
-      "courts": [
-        "hc"
-      ]
+      "courts": {
+        "hc": {}
+      }
     }
-  ]
+  }
 }

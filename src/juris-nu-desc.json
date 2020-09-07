@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "nu",
-      "name": "Niue",
-      "courts": []
+  "jurisdictions": {
+    "nu": {
+      "name": "Niue"
     }
-  ]
+  }
 }

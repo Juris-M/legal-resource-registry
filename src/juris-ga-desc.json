@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ga",
-      "name": "Gabon",
-      "courts": []
+  "jurisdictions": {
+    "ga": {
+      "name": "Gabon"
     }
-  ]
+  }
 }

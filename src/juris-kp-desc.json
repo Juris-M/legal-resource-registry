@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "kp",
-      "name": "North Korea",
-      "courts": []
+  "jurisdictions": {
+    "kp": {
+      "name": "North Korea"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "sl",
-      "name": "Sierra Leone",
-      "courts": []
+  "jurisdictions": {
+    "sl": {
+      "name": "Sierra Leone"
     }
-  ]
+  }
 }

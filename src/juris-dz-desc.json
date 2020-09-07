@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "dz",
-      "name": "Algeria",
-      "courts": []
+  "jurisdictions": {
+    "dz": {
+      "name": "Algeria"
     }
-  ]
+  }
 }

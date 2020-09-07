@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "no",
-      "name": "Norway",
-      "courts": []
+  "jurisdictions": {
+    "no": {
+      "name": "Norway"
     }
-  ]
+  }
 }

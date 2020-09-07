@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bi",
-      "name": "Burundi",
-      "courts": []
+  "jurisdictions": {
+    "bi": {
+      "name": "Burundi"
     }
-  ]
+  }
 }

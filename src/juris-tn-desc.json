@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "tn",
-      "name": "Tunisia",
-      "courts": []
+  "jurisdictions": {
+    "tn": {
+      "name": "Tunisia"
     }
-  ]
+  }
 }

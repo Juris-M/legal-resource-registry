@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "tw",
-      "name": "Republic of China",
-      "courts": []
+  "jurisdictions": {
+    "tw": {
+      "name": "Republic of China"
     }
-  ]
+  }
 }

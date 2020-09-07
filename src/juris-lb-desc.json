@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "lb",
-      "name": "Lebanon",
-      "courts": []
+  "jurisdictions": {
+    "lb": {
+      "name": "Lebanon"
     }
-  ]
+  }
 }

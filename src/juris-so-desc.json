@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "so",
-      "name": "Somalia",
-      "courts": []
+  "jurisdictions": {
+    "so": {
+      "name": "Somalia"
     }
-  ]
+  }
 }

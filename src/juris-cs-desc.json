@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "cs",
-      "name": "Czechoslovakia",
-      "courts": []
+  "jurisdictions": {
+    "cs": {
+      "name": "Czechoslovakia"
     }
-  ]
+  }
 }

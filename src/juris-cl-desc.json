@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "cl",
-      "name": "Chile",
-      "courts": []
+  "jurisdictions": {
+    "cl": {
+      "name": "Chile"
     }
-  ]
+  }
 }

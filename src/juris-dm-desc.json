@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "dm",
-      "name": "Commonwealth of Dominica",
-      "courts": []
+  "jurisdictions": {
+    "dm": {
+      "name": "Commonwealth of Dominica"
     }
-  ]
+  }
 }

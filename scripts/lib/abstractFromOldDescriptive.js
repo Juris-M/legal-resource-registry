@@ -177,8 +177,7 @@ const stripObj = (obj) => {
 
 async function abstractFromOldDescriptive(opts) {
 	console.log("Will read descriptive jurisdiction files from: " + config.path.jurisSrcDir);
-	console.log("Will write abbreviation files to: " + config.path.jurisAbbrevsDir);
-	console.log("Will write compact jurisdiction files to: " + config.path.jurisMapDir);
+	console.log("Will OVERWRITE old-form descriptive jurisdiction files in new format");
 	var jurisIDs = [];
 	if (opts.a) {
 		for (var fileName of fs.readdirSync(config.path.jurisSrcDir)) {
@@ -205,6 +204,7 @@ async function abstractFromOldDescriptive(opts) {
 		opts.j = jurisID;
 		var json = fs.readFileSync(path.join(config.path.jurisSrcDir, `juris-${jurisID}-desc.json`)).toString();
 		var jurisDesc = JSON.parse(json);
+		if (jurisDesc.langs) continue;
 
 		// Yay! So now we have the raw original.
 		// Ah! We will also need the associated abbreviation files for this. So one pass to figure out the variants.
@@ -298,9 +298,9 @@ async function abstractFromOldDescriptive(opts) {
 				
 			}
 		}
+		stripObj(fileObj);
+		fs.writeFileSync(path.join(config.path.jurisSrcDir, `juris-${jurisID}-desc.json`), JSON.stringify(fileObj, null, 2));	
 	}
-	stripObj(fileObj);
-	console.log(JSON.stringify(fileObj, null, 2));
 }
 module.exports = {
 	abstractFromOldDescriptive: abstractFromOldDescriptive 

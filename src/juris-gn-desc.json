@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "gn",
-      "name": "Guinea",
-      "courts": []
+  "jurisdictions": {
+    "gn": {
+      "name": "Guinea"
     }
-  ]
+  }
 }

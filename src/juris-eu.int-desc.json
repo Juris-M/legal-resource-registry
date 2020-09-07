@@ -1,86 +1,199 @@
 {
+  "langs": {
+    "de": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "ag": {
       "name": "Attorney General",
-      "abbrev:de": "GA"
+      "variants": {
+        "de": {
+          "abbrev": "GA"
+        }
+      }
     },
     "ecj": {
       "name": "European Court of Justice",
       "abbrev": "ECJ",
-      "abbrev:de": "EuGH"
+      "variants": {
+        "de": {
+          "abbrev": "EuGH"
+        }
+      }
     },
     "ecj~chamber.1": {
-      "name": "< First Chamber"
+      "name": "%s First Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ecj~chamber.2": {
-      "name": "< Second Chamber"
+      "name": "%s Second Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ecj~chamber.3": {
-      "name": "< Third Chamber"
+      "name": "%s Third Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ecj~chamber.4": {
-      "name": "< Fourth Chamber"
+      "name": "%s Fourth Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ecj~chamber.5": {
-      "name": "< Fifth Chamber"
+      "name": "%s Fifth Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ecj~chamber.6": {
-      "name": "< Sixth Chamber"
+      "name": "%s Sixth Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ecj~chamber.7": {
-      "name": "< Seventh Chamber"
+      "name": "%s Seventh Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ecj~chamber.8": {
-      "name": "< Eighth Chamber"
+      "name": "%s Eighth Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ecj~chamber.9": {
-      "name": "< Ninth Chamber"
+      "name": "%s Ninth Chamber",
+      "variants": {
+        "de": {}
+      }
     },
     "ec": {
       "name": "European Commission",
-      "abbrev:de": "Kom"
+      "variants": {
+        "de": {
+          "abbrev": "Kom"
+        }
+      }
     },
     "egc": {
       "name": "General Court",
       "abbrev": "EGC",
-      "abbrev:de": "EuG"
+      "variants": {
+        "de": {
+          "abbrev": "EuG"
+        }
+      }
     },
     "cst": {
       "name": "European Union Civil Service Tribunal",
-      "abbrev:de": "EuGöD"
+      "variants": {
+        "de": {
+          "abbrev": "EuGöD"
+        }
+      }
     }
   },
-  "jurisdictions": [
-    {
-      "path": "eu.int",
+  "jurisdictions": {
+    "eu.int": {
       "name": "European Union",
-      "courts": [
-        "ec"
-      ]
+      "courts": {
+        "ec": {
+          "variants": {
+            "de": {}
+          }
+        }
+      },
+      "variants": {
+        "de": {}
+      }
     },
-    {
-      "path": "eu.int/cjeu",
+    "eu.int:cjeu": {
       "name": "Court of Justice",
-      "courts": [
-        "ag",
-        "ecj",
-        "ecj~chamber.1",
-        "ecj~chamber.2",
-        "ecj~chamber.3",
-        "ecj~chamber.4",
-        "ecj~chamber.5",
-        "ecj~chamber.6",
-        "ecj~chamber.7",
-        "ecj~chamber.8",
-        "ecj~chamber.9",
-        "egc",
-        "cst"
-      ]
+      "courts": {
+        "ag": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.1": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.2": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.3": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.4": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.5": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.6": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.7": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.8": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "ecj~chamber.9": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "egc": {
+          "variants": {
+            "de": {}
+          }
+        },
+        "cst": {
+          "variants": {
+            "de": {}
+          }
+        }
+      },
+      "variants": {
+        "de": {}
+      }
     },
-    {
-      "path": "eu.int/encj",
+    "eu.int:encj": {
       "name": "European Network of Councils for the Judiciary",
-      "courts": []
+      "variants": {
+        "de": {}
+      }
     }
-  ]
+  }
 }

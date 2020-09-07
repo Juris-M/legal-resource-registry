@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "gd",
-      "name": "Grenada",
-      "courts": []
+  "jurisdictions": {
+    "gd": {
+      "name": "Grenada"
     }
-  ]
+  }
 }

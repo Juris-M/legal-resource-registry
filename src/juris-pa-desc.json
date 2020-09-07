@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "pa",
-      "name": "Panama",
-      "courts": []
+  "jurisdictions": {
+    "pa": {
+      "name": "Panama"
     }
-  ]
+  }
 }

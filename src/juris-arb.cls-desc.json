@@ -1,4 +1,5 @@
 {
+  "langs": {},
   "courts": {
     "cietac": {
       "name": "China International Economic and Trade Arbitration Commission"
@@ -16,17 +17,16 @@
       "name": "Stockholm Chamber of Commerce"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "arb.cls",
+  "jurisdictions": {
+    "arb.cls": {
       "name": "Arbitrations",
-      "courts": [
-        "cietac",
-        "crcica",
-        "icc",
-        "lcia",
-        "scc"
-      ]
+      "courts": {
+        "cietac": {},
+        "crcica": {},
+        "icc": {},
+        "lcia": {},
+        "scc": {}
+      }
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ec",
-      "name": "Ecuador",
-      "courts": []
+  "jurisdictions": {
+    "ec": {
+      "name": "Ecuador"
     }
-  ]
+  }
 }

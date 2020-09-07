@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "lu",
-      "name": "Luxembourg",
-      "courts": []
+  "jurisdictions": {
+    "lu": {
+      "name": "Luxembourg"
     }
-  ]
+  }
 }

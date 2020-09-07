@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "nr",
-      "name": "Nauru",
-      "courts": []
+  "jurisdictions": {
+    "nr": {
+      "name": "Nauru"
     }
-  ]
+  }
 }

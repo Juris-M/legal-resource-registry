@@ -1824,11 +1824,15 @@
     },
     "us:gu": {
       "name": "Guam",
-      "abbrev": "%s Guam",
       "courts": {
-        "small.claims.court": {},
-        "superior.court": {},
+        "small.claims.court": {
+          "abbrev": "Small Cl. Ct. Guam"
+		},
+        "superior.court": {
+          "abbrev": "Super. Ct. Guam"
+		},
         "supreme.court": {
+			"abbrev": "Sup. Ct. Guam",  
           "ABBREV": "Guam"
         }
       }
@@ -2073,10 +2077,11 @@
       }
     },
     "us:mp": {
-      "name": "N. Mar. I.",
-      "abbrev": "%s N. Mar. I.",
+      "name": "Northern Mariana Islands",
+      "abbrev": "N. Mar. I.",
       "courts": {
-        "supreme.court": {
+          "supreme.court": {
+          "abbrev": "Sup. Ct. N. Mar. I.",
           "ABBREV": "MP"
         }
       }

@@ -2,61 +2,80 @@
   "langs": {},
   "courts": {
     "arbg": {
-      "name": "Arbeitsgericht"
+      "name": "Arbeitsgericht",
+      "ABBREV": "ArbG"
     },
     "sg": {
-      "name": "Sozialgericht"
+      "name": "Sozialgericht",
+      "ABBREV": "SG"
     },
     "vg": {
-      "name": "Verwaltungsgericht"
+      "name": "Verwaltungsgericht",
+      "ABBREV": "VG"
     },
     "ag": {
-      "name": "Amtsgericht"
+      "name": "Amtsgericht",
+      "ABBREV": "AG"
     },
     "lg": {
-      "name": "Landgericht"
+      "name": "Landgericht",
+      "ABBREV": "LG"
     },
     "olg": {
-      "name": "Oberlandesgericht"
+      "name": "Oberlandesgericht",
+      "ABBREV": "OLG"
     },
     "fg": {
-      "name": "Finanzgericht"
+      "name": "Finanzgericht",
+      "ABBREV": "FG"
     },
     "lag": {
-      "name": "Landesarbeitsgericht"
+      "name": "Landesarbeitsgericht",
+      "ABBREV": "LAG"
     },
     "lsg": {
-      "name": "Landessozialgericht"
+      "name": "Landessozialgericht",
+      "ABBREV": "LSG"
     },
     "verfgh": {
-      "name": "Verfassungsgerichtshof"
+      "name": "Verfassungsgerichtshof",
+      "ABBREV": "VerfGH"
     },
     "vgh": {
-      "name": "Verwaltungsgerichtshof"
+      "name": "Verwaltungsgerichtshof",
+      "ABBREV": "VGH"
     },
     "bayoblg": {
-      "name": "Oberstes Landesgericht"
+      "name": "Oberstes Landesgericht",
+      "ABBREV": "OLG"
     },
     "ovg": {
-      "name": "Oberverwaltungsgericht"
+      "name": "Oberverwaltungsgericht",
+      "ABBREV": "OVG"
     },
     "kg": {
-      "name": "Kammergericht"
+      "name": "Kammergericht",
+      "ABBREV": "KG"
     },
     "verfg": {
-      "name": "Verfassungsgericht"
+      "name": "Verfassungsgericht",
+      "ABBREV": "VerfG"
     },
     "stgh": {
-      "name": "Staatsgerichtshof"
+      "name": "Staatsgerichtshof",
+      "ABBREV": "StGH"
     },
     "lverfg": {
-      "name": "Landesverfassungsgericht"
+      "name": "Landesverfassungsgericht",
+      "ABBREV": "LVerfG"
     },
     "bag": {
-      "name": "Bundesarbeitsgericht"
+      "name": "Bundesarbeitsgericht",
+      "ABBREV": "BAG"
     },
     "bfh": {
-      "name": "Bundesfinanzhof"
+      "name": "Bundesfinanzhof",
+      "ABBREV": "BFH"
     },
     "bgh": {
       "name": "Bundesgerichtshof",
@@ -123,14 +142,16 @@
       "ABBREV": "3 "
     },
     "bpatg": {
-      "name": "Bundespatentgericht"
+      "name": "Bundespatentgericht",
+      "ABBREV": "BPatG"
     },
     "bsg": {
-      "name": "Bundessozialgericht"
+      "name": "Bundessozialgericht",
+      "ABBREV": "BSG"
     },
     "bverfg": {
       "name": "Bundesverfassungsgericht",
-      "ABBREV": "Bv"
+      "ABBREV": "BVerfG"
     },
     "bverfg~1": {
       "name": "Bundesverfassungsgericht|Erster Senat",
@@ -184,11 +205,17 @@
       "name": "Bundesverwaltungsgericht|10. Revisionssenat",
       "ABBREV": "BVerwG 10"
     },
+    "gms-ogb": {
+      "name": "Gemeinsamer Senat der obersten Gerichtshöfe des Bundes",
+      "ABBREV": "GmS-OGB"
+    },
     "trdg.nord": {
-      "name": "Truppendienstgericht Nord"
+      "name": "Truppendienstgericht Nord",
+      "ABBREV": "TDG Nord"
     },
     "trdg.sud": {
-      "name": "Truppendienstgericht Süd"
+      "name": "Truppendienstgericht Süd",
+      "ABBREV": "TDG Süd"
     }
   },
   "jurisdictions": {
@@ -229,6 +256,7 @@
         "bverwg~8": {},
         "bverwg~9": {},
         "bverwg~10": {},
+        "gms-ogb": {},
         "trdg.nord": {},
         "trdg.sud": {}
       }

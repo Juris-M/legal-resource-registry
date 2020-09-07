@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ws",
-      "name": "Samoa",
-      "courts": []
+  "jurisdictions": {
+    "ws": {
+      "name": "Samoa"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "vg",
-      "name": "British Virgin Islands",
-      "courts": []
+  "jurisdictions": {
+    "vg": {
+      "name": "British Virgin Islands"
     }
-  ]
+  }
 }

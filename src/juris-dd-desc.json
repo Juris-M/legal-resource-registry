@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "dd",
-      "name": "German Democratic Republic",
-      "courts": []
+  "jurisdictions": {
+    "dd": {
+      "name": "German Democratic Republic"
     }
-  ]
+  }
 }

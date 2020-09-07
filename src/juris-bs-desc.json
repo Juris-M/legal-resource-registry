@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bs",
-      "name": "The Bahamas",
-      "courts": []
+  "jurisdictions": {
+    "bs": {
+      "name": "The Bahamas"
     }
-  ]
+  }
 }

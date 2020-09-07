@@ -1,637 +1,1311 @@
 {
+  "langs": {
+    "englished": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "chiho.saibansho": {
       "name": "地方裁判所",
-      "abbrev": "<地方裁判所",
-      "abbrev:englished": "< District Court"
+      "abbrev": "%s地方裁判所",
+      "variants": {
+        "englished": {
+          "abbrev": "%s District Court"
+        }
+      }
     },
     "katei.saibansho": {
       "name": "家庭裁判所",
-      "abbrev": "<福岡家庭裁判所",
-      "abbrev:englished": "< Family Court"
+      "abbrev": "%s福岡家庭裁判所",
+      "variants": {
+        "englished": {
+          "abbrev": "%s Family Court"
+        }
+      }
     },
     "koto.saibansho": {
       "name": "高等裁判所",
-      "abbrev": "<高等裁判所",
-      "abbrev:englished": "< High Court"
+      "abbrev": "%s高等裁判所",
+      "variants": {
+        "englished": {
+          "abbrev": "%s High Court"
+        }
+      }
     },
     "chiteki.zaisan.koto.saibansho": {
       "name": "知的財産高等裁判所",
       "abbrev": "知的財産高等裁判所",
-      "abbrev:englished": "Intellectual Property Appeals Court"
+      "variants": {
+        "englished": {
+          "abbrev": "Intellectual Property Appeals Court"
+        }
+      }
     },
     "saiko.saibansho": {
       "name": "最高裁判所",
       "abbrev": "最高裁判所",
-      "abbrev:englished": "Supreme Court"
+      "variants": {
+        "englished": {
+          "abbrev": "Supreme Court"
+        }
+      }
     },
     "saiko.saibansho.dai": {
       "name": "最高裁判所大法廷",
       "abbrev": "最高裁判所大法廷",
-      "abbrev:englished": "Supreme Court Grand Bench"
+      "variants": {
+        "englished": {
+          "abbrev": "Supreme Court Grand Bench"
+        }
+      }
     },
     "saiko.saibansho.ichi": {
       "name": "最高裁判所第一小法廷",
       "abbrev": "最高裁判所第一小法廷",
-      "abbrev:englished": "Supreme Court First Petty Bench"
+      "variants": {
+        "englished": {
+          "abbrev": "Supreme Court First Petty Bench"
+        }
+      }
     },
     "saiko.saibansho.ni": {
       "name": "最高裁判所第二小法廷",
       "abbrev": "最高裁判所第二小法廷",
-      "abbrev:englished": "Supreme Court Second Petty Bench"
+      "variants": {
+        "englished": {
+          "abbrev": "Supreme Court Second Petty Bench"
+        }
+      }
     },
     "saiko.saibansho.san": {
       "name": "最高裁判所第三小法廷",
       "abbrev": "最高裁判所第三小法廷",
-      "abbrev:englished": "Supreme Court Third Petty Bench"
+      "variants": {
+        "englished": {
+          "abbrev": "Supreme Court Third Petty Bench"
+        }
+      }
     }
   },
-  "jurisdictions": [
-    {
-      "path": "jp",
+  "jurisdictions": {
+    "jp": {
       "name": "Japan",
-      "courts": [
-        "chiteki.zaisan.koto.saibansho",
-        "saiko.saibansho",
-        "saiko.saibansho.dai",
-        "saiko.saibansho.ichi",
-        "saiko.saibansho.ni",
-        "saiko.saibansho.san"
-      ],
       "abbrev": "",
-      "abbrev:englished": ""
+      "courts": {
+        "chiteki.zaisan.koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "saiko.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "saiko.saibansho.dai": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "saiko.saibansho.ichi": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "saiko.saibansho.ni": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "saiko.saibansho.san": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": ""
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka",
+    "jp:fukuoka": {
       "name": "福岡",
-      "courts": [
-        "koto.saibansho"
-      ],
       "abbrev": "福岡",
-      "abbrev:englished": "Fukuoka"
+      "courts": {
+        "koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Fukuoka"
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka/fukuoka",
+    "jp:fukuoka:fukuoka": {
       "name": "福岡",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "福岡",
-      "abbrev:englished": "Fukuoka"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Fukuoka"
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka/kagoshima",
+    "jp:fukuoka:kagoshima": {
       "name": "鹿児島",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "鹿児島",
-      "abbrev:englished": "Kagoshima"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Kagoshima"
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka/kumamoto",
+    "jp:fukuoka:kumamoto": {
       "name": "熊本",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "熊本",
-      "abbrev:englished": "Kumamoto"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Kumamoto"
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka/miyazaki",
+    "jp:fukuoka:miyazaki": {
       "name": "宮崎",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "宮崎",
-      "abbrev:englished": "Miyazaki"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Miyazaki"
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka/nagasaki",
+    "jp:fukuoka:nagasaki": {
       "name": "長崎",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "長崎",
-      "abbrev:englished": "Nagasaki"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Nagasaki"
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka/naha",
+    "jp:fukuoka:naha": {
       "name": "那覇",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "那覇",
-      "abbrev:englished": "Naha"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Naha"
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka/oita",
+    "jp:fukuoka:oita": {
       "name": "大分",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "大分",
-      "abbrev:englished": "Oita"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Oita"
+        }
+      }
     },
-    {
-      "path": "jp/fukuoka/saga",
+    "jp:fukuoka:saga": {
       "name": "佐賀",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "佐賀",
-      "abbrev:englished": "Saga"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Saga"
+        }
+      }
     },
-    {
-      "path": "jp/hiroshima",
+    "jp:hiroshima": {
       "name": "広島",
-      "courts": [
-        "koto.saibansho"
-      ],
       "abbrev": "広島",
-      "abbrev:englished": "Hiroshima"
+      "courts": {
+        "koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Hiroshima"
+        }
+      }
     },
-    {
-      "path": "jp/hiroshima/hiroshima",
+    "jp:hiroshima:hiroshima": {
       "name": "広島",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "広島",
-      "abbrev:englished": "Hiroshima"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Hiroshima"
+        }
+      }
     },
-    {
-      "path": "jp/hiroshima/matsue",
+    "jp:hiroshima:matsue": {
       "name": "松江",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "松江",
-      "abbrev:englished": "Matsue"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Matsue"
+        }
+      }
     },
-    {
-      "path": "jp/hiroshima/okayama",
+    "jp:hiroshima:okayama": {
       "name": "岡山",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "岡山",
-      "abbrev:englished": "Okayama"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Okayama"
+        }
+      }
     },
-    {
-      "path": "jp/hiroshima/tottori",
+    "jp:hiroshima:tottori": {
       "name": "鳥取",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "鳥取",
-      "abbrev:englished": "Tottori"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Tottori"
+        }
+      }
     },
-    {
-      "path": "jp/hiroshima/yamaguchi",
+    "jp:hiroshima:yamaguchi": {
       "name": "山口",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "山口",
-      "abbrev:englished": "Yamaguchi"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Yamaguchi"
+        }
+      }
     },
-    {
-      "path": "jp/nagoya",
+    "jp:nagoya": {
       "name": "名古屋",
-      "courts": [
-        "koto.saibansho"
-      ],
       "abbrev": "名古屋",
-      "abbrev:englished": "Nagoya"
+      "courts": {
+        "koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Nagoya"
+        }
+      }
     },
-    {
-      "path": "jp/nagoya/fukui",
+    "jp:nagoya:fukui": {
       "name": "福井",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "福井",
-      "abbrev:englished": "Fukui"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Fukui"
+        }
+      }
     },
-    {
-      "path": "jp/nagoya/gifu",
+    "jp:nagoya:gifu": {
       "name": "岐阜",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "岐阜",
-      "abbrev:englished": "Gifu"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Gifu"
+        }
+      }
     },
-    {
-      "path": "jp/nagoya/kanazawa",
+    "jp:nagoya:kanazawa": {
       "name": "金沢",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "金沢",
-      "abbrev:englished": "Kanazawa"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Kanazawa"
+        }
+      }
     },
-    {
-      "path": "jp/nagoya/nagoya",
+    "jp:nagoya:nagoya": {
       "name": "名古屋",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "名古屋",
-      "abbrev:englished": "Nagoya"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Nagoya"
+        }
+      }
     },
-    {
-      "path": "jp/nagoya/toyama",
+    "jp:nagoya:toyama": {
       "name": "富山",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "富山",
-      "abbrev:englished": "Toyama"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Toyama"
+        }
+      }
     },
-    {
-      "path": "jp/nagoya/tsu",
+    "jp:nagoya:tsu": {
       "name": "津",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "津",
-      "abbrev:englished": "Tsu"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Tsu"
+        }
+      }
     },
-    {
-      "path": "jp/osaka",
+    "jp:osaka": {
       "name": "大阪",
-      "courts": [
-        "koto.saibansho"
-      ],
       "abbrev": "大阪",
-      "abbrev:englished": "Osaka"
+      "courts": {
+        "koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Osaka"
+        }
+      }
     },
-    {
-      "path": "jp/osaka/kobe",
+    "jp:osaka:kobe": {
       "name": "神戸",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "神戸",
-      "abbrev:englished": "Kobe"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Kobe"
+        }
+      }
     },
-    {
-      "path": "jp/osaka/kyoto",
+    "jp:osaka:kyoto": {
       "name": "京都",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "京都",
-      "abbrev:englished": "Kyoto"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Kyoto"
+        }
+      }
     },
-    {
-      "path": "jp/osaka/nara",
+    "jp:osaka:nara": {
       "name": "奈良",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "奈良",
-      "abbrev:englished": "Nara"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Nara"
+        }
+      }
     },
-    {
-      "path": "jp/osaka/osaka",
+    "jp:osaka:osaka": {
       "name": "大阪",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "大阪",
-      "abbrev:englished": "Osaka"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Osaka"
+        }
+      }
     },
-    {
-      "path": "jp/osaka/otsu",
+    "jp:osaka:otsu": {
       "name": "大津",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "大津",
-      "abbrev:englished": "Otsu"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Otsu"
+        }
+      }
     },
-    {
-      "path": "jp/osaka/wakayama",
+    "jp:osaka:wakayama": {
       "name": "和歌山",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "和歌山",
-      "abbrev:englished": "Wakayama"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Wakayama"
+        }
+      }
     },
-    {
-      "path": "jp/sapporo",
+    "jp:sapporo": {
       "name": "札幌",
-      "courts": [
-        "koto.saibansho"
-      ],
       "abbrev": "札幌",
-      "abbrev:englished": "Sapporo"
+      "courts": {
+        "koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Sapporo"
+        }
+      }
     },
-    {
-      "path": "jp/sapporo/asahikawa",
+    "jp:sapporo:asahikawa": {
       "name": "旭川",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "旭川",
-      "abbrev:englished": "Asahikawa"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Asahikawa"
+        }
+      }
     },
-    {
-      "path": "jp/sapporo/hakodate",
+    "jp:sapporo:hakodate": {
       "name": "函館",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "函館",
-      "abbrev:englished": "Hakodate"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Hakodate"
+        }
+      }
     },
-    {
-      "path": "jp/sapporo/kushiro",
+    "jp:sapporo:kushiro": {
       "name": "釧路",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "釧路",
-      "abbrev:englished": "Kushiro"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Kushiro"
+        }
+      }
     },
-    {
-      "path": "jp/sapporo/sapporo",
+    "jp:sapporo:sapporo": {
       "name": "札幌",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "札幌",
-      "abbrev:englished": "Sapporo"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Sapporo"
+        }
+      }
     },
-    {
-      "path": "jp/sendai",
+    "jp:sendai": {
       "name": "仙台",
-      "courts": [
-        "koto.saibansho"
-      ],
       "abbrev": "仙台",
-      "abbrev:englished": "Sendai"
+      "courts": {
+        "koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Sendai"
+        }
+      }
     },
-    {
-      "path": "jp/sendai/akita",
+    "jp:sendai:akita": {
       "name": "秋田",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "秋田",
-      "abbrev:englished": "Akita"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Akita"
+        }
+      }
     },
-    {
-      "path": "jp/sendai/aomori",
+    "jp:sendai:aomori": {
       "name": "青森",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "青森",
-      "abbrev:englished": "Aomori"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Aomori"
+        }
+      }
     },
-    {
-      "path": "jp/sendai/fukushima",
+    "jp:sendai:fukushima": {
       "name": "福島",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "福島",
-      "abbrev:englished": "Fukushima"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Fukushima"
+        }
+      }
     },
-    {
-      "path": "jp/sendai/morioka",
+    "jp:sendai:morioka": {
       "name": "盛岡",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "盛岡",
-      "abbrev:englished": "Morioka"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Morioka"
+        }
+      }
     },
-    {
-      "path": "jp/sendai/sendai",
+    "jp:sendai:sendai": {
       "name": "仙台",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "仙台",
-      "abbrev:englished": "Sendai"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Sendai"
+        }
+      }
     },
-    {
-      "path": "jp/sendai/yamagata",
+    "jp:sendai:yamagata": {
       "name": "山形",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "山形",
-      "abbrev:englished": "Yamagata"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Yamagata"
+        }
+      }
     },
-    {
-      "path": "jp/takamatsu",
+    "jp:takamatsu": {
       "name": "高松",
-      "courts": [
-        "koto.saibansho"
-      ],
       "abbrev": "高松",
-      "abbrev:englished": "Takamatsu"
+      "courts": {
+        "koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Takamatsu"
+        }
+      }
     },
-    {
-      "path": "jp/takamatsu/kochi",
+    "jp:takamatsu:kochi": {
       "name": "高知",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "高知",
-      "abbrev:englished": "Kochi"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Kochi"
+        }
+      }
     },
-    {
-      "path": "jp/takamatsu/matsuyama",
+    "jp:takamatsu:matsuyama": {
       "name": "松山",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "松山",
-      "abbrev:englished": "Matsuyama"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Matsuyama"
+        }
+      }
     },
-    {
-      "path": "jp/takamatsu/takamatsu",
+    "jp:takamatsu:takamatsu": {
       "name": "高松",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "高松",
-      "abbrev:englished": "Takamatsu"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Takamatsu"
+        }
+      }
     },
-    {
-      "path": "jp/takamatsu/tokushima",
+    "jp:takamatsu:tokushima": {
       "name": "徳島",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "徳島",
-      "abbrev:englished": "Tokushima"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Tokushima"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo",
+    "jp:tokyo": {
       "name": "東京",
-      "courts": [
-        "koto.saibansho"
-      ],
       "abbrev": "東京",
-      "abbrev:englished": "Tokyo"
+      "courts": {
+        "koto.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Tokyo"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/chiba",
+    "jp:tokyo:chiba": {
       "name": "千葉",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "千葉",
-      "abbrev:englished": "Chiba"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Chiba"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/kofu",
+    "jp:tokyo:kofu": {
       "name": "甲府",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "甲府",
-      "abbrev:englished": "Kofu"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Kofu"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/maebashi",
+    "jp:tokyo:maebashi": {
       "name": "前橋",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "前橋",
-      "abbrev:englished": "Maebashi"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Maebashi"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/mito",
+    "jp:tokyo:mito": {
       "name": "水戸",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "水戸",
-      "abbrev:englished": "Mito"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Mito"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/nagano",
+    "jp:tokyo:nagano": {
       "name": "長野",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "長野",
-      "abbrev:englished": "Nagano"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Nagano"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/niigata",
+    "jp:tokyo:niigata": {
       "name": "新潟",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "新潟",
-      "abbrev:englished": "Niigata"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Niigata"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/saitama",
+    "jp:tokyo:saitama": {
       "name": "埼玉",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "埼玉",
-      "abbrev:englished": "Saitama"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Saitama"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/shizuoka",
+    "jp:tokyo:shizuoka": {
       "name": "静岡",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "静岡",
-      "abbrev:englished": "Shizuoka"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Shizuoka"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/tokyo",
+    "jp:tokyo:tokyo": {
       "name": "東京",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "東京",
-      "abbrev:englished": "Tokyo"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Tokyo"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/utsunomiya",
+    "jp:tokyo:utsunomiya": {
       "name": "宇都宮",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "宇都宮",
-      "abbrev:englished": "Utsunomiya"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Utsunomiya"
+        }
+      }
     },
-    {
-      "path": "jp/tokyo/yokohama",
+    "jp:tokyo:yokohama": {
       "name": "横浜",
-      "courts": [
-        "chiho.saibansho",
-        "katei.saibansho"
-      ],
       "abbrev": "横浜",
-      "abbrev:englished": "Yokohama"
+      "courts": {
+        "chiho.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        },
+        "katei.saibansho": {
+          "variants": {
+            "englished": {}
+          }
+        }
+      },
+      "variants": {
+        "englished": {
+          "abbrev": "Yokohama"
+        }
+      }
     }
-  ]
+  }
 }

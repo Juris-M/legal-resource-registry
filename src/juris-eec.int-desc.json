@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "eec.int",
-      "name": "European Economic Community",
-      "courts": []
+  "jurisdictions": {
+    "eec.int": {
+      "name": "European Economic Community"
     }
-  ]
+  }
 }

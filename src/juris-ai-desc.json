@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ai",
-      "name": "Anguilla",
-      "courts": []
+  "jurisdictions": {
+    "ai": {
+      "name": "Anguilla"
     }
-  ]
+  }
 }

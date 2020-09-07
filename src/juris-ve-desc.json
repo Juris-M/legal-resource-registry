@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ve",
-      "name": "Venezuela",
-      "courts": []
+  "jurisdictions": {
+    "ve": {
+      "name": "Venezuela"
     }
-  ]
+  }
 }

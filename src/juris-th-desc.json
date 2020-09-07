@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "th",
-      "name": "Thailand",
-      "courts": []
+  "jurisdictions": {
+    "th": {
+      "name": "Thailand"
     }
-  ]
+  }
 }

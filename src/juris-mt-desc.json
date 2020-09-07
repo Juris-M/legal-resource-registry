@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mt",
-      "name": "Malta",
-      "courts": []
+  "jurisdictions": {
+    "mt": {
+      "name": "Malta"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ad",
-      "name": "Andorra",
-      "courts": []
+  "jurisdictions": {
+    "ad": {
+      "name": "Andorra"
     }
-  ]
+  }
 }

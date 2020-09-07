@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "jo",
-      "name": "Jordan",
-      "courts": []
+  "jurisdictions": {
+    "jo": {
+      "name": "Jordan"
     }
-  ]
+  }
 }

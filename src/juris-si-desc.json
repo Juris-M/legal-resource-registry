@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "si",
-      "name": "Slovenia",
-      "courts": []
+  "jurisdictions": {
+    "si": {
+      "name": "Slovenia"
     }
-  ]
+  }
 }

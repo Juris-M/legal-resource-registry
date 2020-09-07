@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "gw",
-      "name": "Guinea-Bissau",
-      "courts": []
+  "jurisdictions": {
+    "gw": {
+      "name": "Guinea-Bissau"
     }
-  ]
+  }
 }

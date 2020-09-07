@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "rw",
-      "name": "Rwanda",
-      "courts": []
+  "jurisdictions": {
+    "rw": {
+      "name": "Rwanda"
     }
-  ]
+  }
 }

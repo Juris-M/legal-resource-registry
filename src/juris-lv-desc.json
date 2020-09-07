@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "lv",
-      "name": "Latvia",
-      "courts": []
+  "jurisdictions": {
+    "lv": {
+      "name": "Latvia"
     }
-  ]
+  }
 }

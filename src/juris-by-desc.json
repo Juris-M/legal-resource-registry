@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "by",
-      "name": "Belarus",
-      "courts": []
+  "jurisdictions": {
+    "by": {
+      "name": "Belarus"
     }
-  ]
+  }
 }

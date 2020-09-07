@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "zm",
-      "name": "Zambia",
-      "courts": []
+  "jurisdictions": {
+    "zm": {
+      "name": "Zambia"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "gh",
-      "name": "Ghana",
-      "courts": []
+  "jurisdictions": {
+    "gh": {
+      "name": "Ghana"
     }
-  ]
+  }
 }

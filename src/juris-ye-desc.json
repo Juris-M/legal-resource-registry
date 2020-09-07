@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ye",
-      "name": "Yemen",
-      "courts": []
+  "jurisdictions": {
+    "ye": {
+      "name": "Yemen"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ps",
-      "name": "Palestinian Territory",
-      "courts": []
+  "jurisdictions": {
+    "ps": {
+      "name": "Palestinian Territory"
     }
-  ]
+  }
 }

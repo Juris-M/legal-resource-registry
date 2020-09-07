@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "to",
-      "name": "Tonga",
-      "courts": []
+  "jurisdictions": {
+    "to": {
+      "name": "Tonga"
     }
-  ]
+  }
 }

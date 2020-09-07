@@ -1,16 +1,16 @@
 {
+  "langs": {},
   "courts": {
     "ccj": {
       "name": "Corte Centroamericana de Justicia"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "sica.int",
+  "jurisdictions": {
+    "sica.int": {
       "name": "Sistema de la Integración Centroamericana",
-      "courts": [
-        "ccj"
-      ]
+      "courts": {
+        "ccj": {}
+      }
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mx",
-      "name": "Mexico",
-      "courts": []
+  "jurisdictions": {
+    "mx": {
+      "name": "Mexico"
     }
-  ]
+  }
 }

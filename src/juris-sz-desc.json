@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "sz",
-      "name": "Swaziland",
-      "courts": []
+  "jurisdictions": {
+    "sz": {
+      "name": "Swaziland"
     }
-  ]
+  }
 }

@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ir",
-      "name": "Iran",
-      "courts": []
+  "jurisdictions": {
+    "ir": {
+      "name": "Iran"
     }
-  ]
+  }
 }

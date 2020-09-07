@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "om",
-      "name": "Oman",
-      "courts": []
+  "jurisdictions": {
+    "om": {
+      "name": "Oman"
     }
-  ]
+  }
 }

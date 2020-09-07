@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ma",
-      "name": "Morocco",
-      "courts": []
+  "jurisdictions": {
+    "ma": {
+      "name": "Morocco"
     }
-  ]
+  }
 }

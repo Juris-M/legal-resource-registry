@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "ua",
-      "name": "Ukraine",
-      "courts": []
+  "jurisdictions": {
+    "ua": {
+      "name": "Ukraine"
     }
-  ]
+  }
 }

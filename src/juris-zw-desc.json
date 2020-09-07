@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "zw",
-      "name": "Zimbabwe",
-      "courts": []
+  "jurisdictions": {
+    "zw": {
+      "name": "Zimbabwe"
     }
-  ]
+  }
 }

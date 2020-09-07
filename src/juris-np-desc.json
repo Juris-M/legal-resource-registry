@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "np",
-      "name": "Nepal",
-      "courts": []
+  "jurisdictions": {
+    "np": {
+      "name": "Nepal"
     }
-  ]
+  }
 }

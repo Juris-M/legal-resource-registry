@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "gq",
-      "name": "Equatorial Guinea",
-      "courts": []
+  "jurisdictions": {
+    "gq": {
+      "name": "Equatorial Guinea"
     }
-  ]
+  }
 }

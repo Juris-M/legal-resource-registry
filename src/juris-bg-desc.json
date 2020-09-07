@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "bg",
-      "name": "Bulgaria",
-      "courts": []
+  "jurisdictions": {
+    "bg": {
+      "name": "Bulgaria"
     }
-  ]
+  }
 }

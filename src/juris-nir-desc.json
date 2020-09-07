@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "nir",
-      "name": "Northern Ireland",
-      "courts": []
+  "jurisdictions": {
+    "nir": {
+      "name": "Northern Ireland"
     }
-  ]
+  }
 }

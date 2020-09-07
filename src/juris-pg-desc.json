@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "pg",
-      "name": "Papua New Guinea",
-      "courts": []
+  "jurisdictions": {
+    "pg": {
+      "name": "Papua New Guinea"
     }
-  ]
+  }
 }

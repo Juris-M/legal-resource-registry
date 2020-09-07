@@ -1,55 +1,36 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "au",
-      "name": "Australia",
-      "courts": []
+  "jurisdictions": {
+    "au": {
+      "name": "Australia"
     },
-    {
-      "path": "au/act",
-      "name": "Australian Capital Territory",
-      "courts": []
+    "au:act": {
+      "name": "Australian Capital Territory"
     },
-    {
-      "path": "au/norfolk.island",
-      "name": "Norfolk Island",
-      "courts": []
+    "au:norfolk.island": {
+      "name": "Norfolk Island"
     },
-    {
-      "path": "au/nsw",
-      "name": "New South Wales",
-      "courts": []
+    "au:nsw": {
+      "name": "New South Wales"
     },
-    {
-      "path": "au/nt",
-      "name": "Northern Territory",
-      "courts": []
+    "au:nt": {
+      "name": "Northern Territory"
     },
-    {
-      "path": "au/qld",
-      "name": "Queensland",
-      "courts": []
+    "au:qld": {
+      "name": "Queensland"
     },
-    {
-      "path": "au/sa",
-      "name": "South Australia",
-      "courts": []
+    "au:sa": {
+      "name": "South Australia"
     },
-    {
-      "path": "au/tas",
-      "name": "Tasmania",
-      "courts": []
+    "au:tas": {
+      "name": "Tasmania"
     },
-    {
-      "path": "au/vic",
-      "name": "Victoria",
-      "courts": []
+    "au:vic": {
+      "name": "Victoria"
     },
-    {
-      "path": "au/wa",
-      "name": "Western Australia",
-      "courts": []
+    "au:wa": {
+      "name": "Western Australia"
     }
-  ]
+  }
 }

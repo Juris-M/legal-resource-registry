@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "vc",
-      "name": "Saint Vincent and the Grenadines",
-      "courts": []
+  "jurisdictions": {
+    "vc": {
+      "name": "Saint Vincent and the Grenadines"
     }
-  ]
+  }
 }

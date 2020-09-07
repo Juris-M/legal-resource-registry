@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mz",
-      "name": "Mozambique",
-      "courts": []
+  "jurisdictions": {
+    "mz": {
+      "name": "Mozambique"
     }
-  ]
+  }
 }

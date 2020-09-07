@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "hr",
-      "name": "Croatia",
-      "courts": []
+  "jurisdictions": {
+    "hr": {
+      "name": "Croatia"
     }
-  ]
+  }
 }

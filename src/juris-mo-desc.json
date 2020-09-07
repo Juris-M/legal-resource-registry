@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "mo",
-      "name": "Macau",
-      "courts": []
+  "jurisdictions": {
+    "mo": {
+      "name": "Macau"
     }
-  ]
+  }
 }

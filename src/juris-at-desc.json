@@ -1,36 +1,37 @@
 {
+  "langs": {},
   "courts": {
     "lvwg": {
       "name": "Landesverwaltungsgericht",
-      "abbrev": "LVwG >"
+      "abbrev": "LVwG %s"
     },
     "bg": {
       "name": "Bezirksgericht",
-      "abbrev": "BG >"
+      "abbrev": "BG %s"
     },
     "lgs": {
       "name": "Landesgericht für Strafsachen",
-      "abbrev": "LGS >"
+      "abbrev": "LGS %s"
     },
     "lgzrs": {
       "name": "Landesgericht für Zivilrechtssachen",
-      "abbrev": "LGZ >"
+      "abbrev": "LGZ %s"
     },
     "lg": {
       "name": "Landesgericht",
-      "abbrev": "LG >"
+      "abbrev": "LG %s"
     },
     "olg": {
       "name": "Oberlandesgericht",
-      "abbrev": "OLG >"
+      "abbrev": "OLG %s"
     },
     "asg": {
       "name": "Arbeits und Sozialgericht",
-      "abbrev": "ASG >"
+      "abbrev": "ASG %s"
     },
     "hg": {
       "name": "Handelsgericht",
-      "abbrev": "HG >"
+      "abbrev": "HG %s"
     },
     "vgw": {
       "name": "Verwaltungsgericht",
@@ -62,7 +63,7 @@
     },
     "uvs": {
       "name": "Unabhängiger Verwaltungssenat",
-      "abbrev": "UVS >"
+      "abbrev": "UVS %s"
     },
     "ubas": {
       "name": "Unabhängiger Bundesasylsenat",
@@ -92,1177 +93,1033 @@
       "name": "Bundeswettbewerbsbehörde",
       "abbrev": "BWB"
     }
-
   },
-  "jurisdictions": [
-    {
-      "path": "at",
+  "jurisdictions": {
+    "at": {
       "name": "Austria",
-      "courts": [
-        "bfg",
-        "bvwg",
-        "ogh",
-        "vfgh",
-        "vwgh",
-        "asylgh",
-        "ubas",
-        "ufs",
-        "dsk",
-        "dsb",
-        "bvga",
-        "opms",
-        "bwb"
-      ]
+      "courts": {
+        "bfg": {},
+        "bvwg": {},
+        "ogh": {},
+        "vfgh": {},
+        "vwgh": {},
+        "asylgh": {},
+        "ubas": {},
+        "ufs": {},
+        "dsk": {},
+        "dsb": {},
+        "bvga": {},
+        "opms": {},
+        "bwb": {}
+      }
     },
-    {
-      "path": "at/burgenland",
+    "at:burgenland": {
       "name": "Burgenland",
-      "courts": [
-        "lvwg",
-        "uvs"
-      ],
-      "abbrev": "Burgenland"
+      "abbrev": "Burgenland",
+      "courts": {
+        "lvwg": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/graz",
+    "at:graz": {
       "name": "Graz",
-      "courts": [
-        "olg"
-      ],
-      "abbrev": "Graz"
+      "abbrev": "Graz",
+      "courts": {
+        "olg": {}
+      }
     },
-    {
-      "path": "at/graz/graz",
+    "at:graz:graz": {
       "name": "Graz",
-      "courts": [
-        "lgs",
-        "lgzrs"
-      ],
-      "abbrev": "Graz"
+      "abbrev": "Graz",
+      "courts": {
+        "lgs": {},
+        "lgzrs": {}
+      }
     },
-    {
-      "path": "at/graz/graz/deutschlandsberg",
+    "at:graz:graz:deutschlandsberg": {
       "name": "Deutschlandsberg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Deutschlandsberg"
+      "abbrev": "Deutschlandsberg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/graz/feldbach",
+    "at:graz:graz:feldbach": {
       "name": "Feldbach",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Feldbach"
+      "abbrev": "Feldbach",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/graz/furstenfeld",
+    "at:graz:graz:furstenfeld": {
       "name": "Fürstenfeld",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Fürstenfeld"
+      "abbrev": "Fürstenfeld",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/graz/graz-ost",
+    "at:graz:graz:graz-ost": {
       "name": "Graz-Ost",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Graz-Ost"
+      "abbrev": "Graz-Ost",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/graz/graz-west",
+    "at:graz:graz:graz-west": {
       "name": "Graz-West",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Graz-West"
+      "abbrev": "Graz-West",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/graz/leibnitz",
+    "at:graz:graz:leibnitz": {
       "name": "Leibnitz",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Leibnitz"
+      "abbrev": "Leibnitz",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/graz/voitsberg",
+    "at:graz:graz:voitsberg": {
       "name": "Voitsberg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Voitsberg"
+      "abbrev": "Voitsberg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/graz/weiz",
+    "at:graz:graz:weiz": {
       "name": "Weiz",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Weiz"
+      "abbrev": "Weiz",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt",
+    "at:graz:klagenfurt": {
       "name": "Klagenfurt",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Klagenfurt"
+      "abbrev": "Klagenfurt",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/bleiburg",
+    "at:graz:klagenfurt:bleiburg": {
       "name": "Bleiburg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Bleiburg"
+      "abbrev": "Bleiburg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/eisenkappel",
+    "at:graz:klagenfurt:eisenkappel": {
       "name": "Eisenkappel",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Eisenkappel"
+      "abbrev": "Eisenkappel",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/feldkirchen",
+    "at:graz:klagenfurt:feldkirchen": {
       "name": "Feldkirchen",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Feldkirchen"
+      "abbrev": "Feldkirchen",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/ferlach",
+    "at:graz:klagenfurt:ferlach": {
       "name": "Ferlach",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Ferlach"
+      "abbrev": "Ferlach",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/hermagor",
+    "at:graz:klagenfurt:hermagor": {
       "name": "Hermagor",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Hermagor"
+      "abbrev": "Hermagor",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/klagenfurt",
+    "at:graz:klagenfurt:klagenfurt": {
       "name": "Klagenfurt",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Klagenfurt"
+      "abbrev": "Klagenfurt",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/sankt.veit.an.der.glan",
+    "at:graz:klagenfurt:sankt.veit.an.der.glan": {
       "name": "Sankt Veit an der Glan",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Sankt Veit an der Glan"
+      "abbrev": "Sankt Veit an der Glan",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/spittal.an.der.drau",
+    "at:graz:klagenfurt:spittal.an.der.drau": {
       "name": "Spittal an der Drau",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Spittal an der Drau"
+      "abbrev": "Spittal an der Drau",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/villach",
+    "at:graz:klagenfurt:villach": {
       "name": "Villach",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Villach"
+      "abbrev": "Villach",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/volkermarkt",
+    "at:graz:klagenfurt:volkermarkt": {
       "name": "Völkermarkt",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Völkermarkt"
+      "abbrev": "Völkermarkt",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/klagenfurt/wolfsberg",
+    "at:graz:klagenfurt:wolfsberg": {
       "name": "Wolfsberg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Wolfsberg"
+      "abbrev": "Wolfsberg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/leoben",
+    "at:graz:leoben": {
       "name": "Leoben",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Leoben"
+      "abbrev": "Leoben",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/graz/leoben/bruck.an.der.mur",
+    "at:graz:leoben:bruck.an.der.mur": {
       "name": "Bruck an der Mur",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Bruck an der Mur"
+      "abbrev": "Bruck an der Mur",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/leoben/judenburg",
+    "at:graz:leoben:judenburg": {
       "name": "Judenburg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Judenburg"
+      "abbrev": "Judenburg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/leoben/leoben",
+    "at:graz:leoben:leoben": {
       "name": "Leoben",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Leoben"
+      "abbrev": "Leoben",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/leoben/liezen",
+    "at:graz:leoben:liezen": {
       "name": "Liezen",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Liezen"
+      "abbrev": "Liezen",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/leoben/murau",
+    "at:graz:leoben:murau": {
       "name": "Murau",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Murau"
+      "abbrev": "Murau",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/leoben/murzzuschlag",
+    "at:graz:leoben:murzzuschlag": {
       "name": "Mürzzuschlag",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Mürzzuschlag"
+      "abbrev": "Mürzzuschlag",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/graz/leoben/schladming",
+    "at:graz:leoben:schladming": {
       "name": "Schladming",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Schladming"
+      "abbrev": "Schladming",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck",
+    "at:innsbruck": {
       "name": "Innsbruck",
-      "courts": [
-        "olg"
-      ],
-      "abbrev": "Innsbruck"
+      "abbrev": "Innsbruck",
+      "courts": {
+        "olg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/feldkirch",
+    "at:innsbruck:feldkirch": {
       "name": "Feldkirch",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Feldkirch"
+      "abbrev": "Feldkirch",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/feldkirch/bezau",
+    "at:innsbruck:feldkirch:bezau": {
       "name": "Bezau",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Bezau"
+      "abbrev": "Bezau",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/feldkirch/bludenz",
+    "at:innsbruck:feldkirch:bludenz": {
       "name": "Bludenz",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Bludenz"
+      "abbrev": "Bludenz",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/feldkirch/bregenz",
+    "at:innsbruck:feldkirch:bregenz": {
       "name": "Bregenz",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Bregenz"
+      "abbrev": "Bregenz",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/feldkirch/dornbirn",
+    "at:innsbruck:feldkirch:dornbirn": {
       "name": "Dornbirn",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Dornbirn"
+      "abbrev": "Dornbirn",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/feldkirch/feldkirch",
+    "at:innsbruck:feldkirch:feldkirch": {
       "name": "Feldkirch",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Feldkirch"
+      "abbrev": "Feldkirch",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck",
+    "at:innsbruck:innsbruck": {
       "name": "Innsbruck",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Innsbruck"
+      "abbrev": "Innsbruck",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/hall.in.tirol",
+    "at:innsbruck:innsbruck:hall.in.tirol": {
       "name": "Hall in Tirol",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Hall in Tirol"
+      "abbrev": "Hall in Tirol",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/imst",
+    "at:innsbruck:innsbruck:imst": {
       "name": "Imst",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Imst"
+      "abbrev": "Imst",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/innsbruck",
+    "at:innsbruck:innsbruck:innsbruck": {
       "name": "Innsbruck",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Innsbruck"
+      "abbrev": "Innsbruck",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/kitzbuhel",
+    "at:innsbruck:innsbruck:kitzbuhel": {
       "name": "Kitzbühel",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Kitzbühel"
+      "abbrev": "Kitzbühel",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/kufstein",
+    "at:innsbruck:innsbruck:kufstein": {
       "name": "Kufstein",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Kufstein"
+      "abbrev": "Kufstein",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/landeck",
+    "at:innsbruck:innsbruck:landeck": {
       "name": "Landeck",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Landeck"
+      "abbrev": "Landeck",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/lienz",
+    "at:innsbruck:innsbruck:lienz": {
       "name": "Lienz",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Lienz"
+      "abbrev": "Lienz",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/rattenberg",
+    "at:innsbruck:innsbruck:rattenberg": {
       "name": "Rattenberg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Rattenberg"
+      "abbrev": "Rattenberg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/reutte",
+    "at:innsbruck:innsbruck:reutte": {
       "name": "Reutte",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Reutte"
+      "abbrev": "Reutte",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/schwaz",
+    "at:innsbruck:innsbruck:schwaz": {
       "name": "Schwaz",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Schwaz"
+      "abbrev": "Schwaz",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/silz",
+    "at:innsbruck:innsbruck:silz": {
       "name": "Silz",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Silz"
+      "abbrev": "Silz",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/telfs",
+    "at:innsbruck:innsbruck:telfs": {
       "name": "Telfs",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Telfs"
+      "abbrev": "Telfs",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/innsbruck/innsbruck/zell.am.ziller",
+    "at:innsbruck:innsbruck:zell.am.ziller": {
       "name": "Zell am Ziller",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Zell am Ziller"
+      "abbrev": "Zell am Ziller",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/karnten",
+    "at:karnten": {
       "name": "Kärnten",
-      "courts": [
-        "lvwg",
-        "uvs"
-      ],
-      "abbrev": "Kärnten"
+      "abbrev": "Kärnten",
+      "courts": {
+        "lvwg": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/linz",
+    "at:linz": {
       "name": "Linz",
-      "courts": [
-        "olg"
-      ],
-      "abbrev": "Linz"
+      "abbrev": "Linz",
+      "courts": {
+        "olg": {}
+      }
     },
-    {
-      "path": "at/linz/linz",
+    "at:linz:linz": {
       "name": "Linz",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Linz"
+      "abbrev": "Linz",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/linz/linz/freistadt",
+    "at:linz:linz:freistadt": {
       "name": "Freistadt",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Freistadt"
+      "abbrev": "Freistadt",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/linz/linz",
+    "at:linz:linz:linz": {
       "name": "Linz",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Linz"
+      "abbrev": "Linz",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/linz/perg",
+    "at:linz:linz:perg": {
       "name": "Perg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Perg"
+      "abbrev": "Perg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/linz/rohrbach",
+    "at:linz:linz:rohrbach": {
       "name": "Rohrbach",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Rohrbach"
+      "abbrev": "Rohrbach",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/linz/traun",
+    "at:linz:linz:traun": {
       "name": "Traun",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Traun"
+      "abbrev": "Traun",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/linz/urfahr",
+    "at:linz:linz:urfahr": {
       "name": "Urfahr",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Urfahr"
+      "abbrev": "Urfahr",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/ried.im.innkreis",
+    "at:linz:ried.im.innkreis": {
       "name": "Ried im Innkreis",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Ried im Innkreis"
+      "abbrev": "Ried im Innkreis",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/linz/ried.im.innkreis/braunau.am.inn",
+    "at:linz:ried.im.innkreis:braunau.am.inn": {
       "name": "Braunau am Inn",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Braunau am Inn"
+      "abbrev": "Braunau am Inn",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/ried.im.innkreis/mattighofen",
+    "at:linz:ried.im.innkreis:mattighofen": {
       "name": "Mattighofen",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Mattighofen"
+      "abbrev": "Mattighofen",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/ried.im.innkreis/ried.im.innkreis",
+    "at:linz:ried.im.innkreis:ried.im.innkreis": {
       "name": "Ried im Innkreis",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Ried im Innkreis"
+      "abbrev": "Ried im Innkreis",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/ried.im.innkreis/scharding",
+    "at:linz:ried.im.innkreis:scharding": {
       "name": "Schärding",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Schärding"
+      "abbrev": "Schärding",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg",
+    "at:linz:salzburg": {
       "name": "Salzburg",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Salzburg"
+      "abbrev": "Salzburg",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg/hallein",
+    "at:linz:salzburg:hallein": {
       "name": "Hallein",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Hallein"
+      "abbrev": "Hallein",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg/neumarkt.bei.salzburg",
+    "at:linz:salzburg:neumarkt.bei.salzburg": {
       "name": "Neumarkt bei Salzburg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Neumarkt bei Salzburg"
+      "abbrev": "Neumarkt bei Salzburg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg/oberndorf",
+    "at:linz:salzburg:oberndorf": {
       "name": "Oberndorf",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Oberndorf"
+      "abbrev": "Oberndorf",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg/salzburg",
+    "at:linz:salzburg:salzburg": {
       "name": "Salzburg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Salzburg"
+      "abbrev": "Salzburg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg/sankt.johann.im.pongau",
+    "at:linz:salzburg:sankt.johann.im.pongau": {
       "name": "Sankt Johann im Pongau",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Sankt Johann im Pongau"
+      "abbrev": "Sankt Johann im Pongau",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg/tamsweg",
+    "at:linz:salzburg:tamsweg": {
       "name": "Tamsweg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Tamsweg"
+      "abbrev": "Tamsweg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg/thalgau",
+    "at:linz:salzburg:thalgau": {
       "name": "Thalgau",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Thalgau"
+      "abbrev": "Thalgau",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/salzburg/zell.am.see",
+    "at:linz:salzburg:zell.am.see": {
       "name": "Zell am See",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Zell am See"
+      "abbrev": "Zell am See",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/steyr",
+    "at:linz:steyr": {
       "name": "Steyr",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Steyr"
+      "abbrev": "Steyr",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/linz/steyr/kirchdorf.an.der.krems",
+    "at:linz:steyr:kirchdorf.an.der.krems": {
       "name": "Kirchdorf an der Krems",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Kirchdorf an der Krems"
+      "abbrev": "Kirchdorf an der Krems",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/steyr/steyr",
+    "at:linz:steyr:steyr": {
       "name": "Steyr",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Steyr"
+      "abbrev": "Steyr",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/wels",
+    "at:linz:wels": {
       "name": "Wels",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Wels"
+      "abbrev": "Wels",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/linz/wels/bad.ischl",
+    "at:linz:wels:bad.ischl": {
       "name": "Bad Ischl",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Bad Ischl"
+      "abbrev": "Bad Ischl",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/wels/eferding",
+    "at:linz:wels:eferding": {
       "name": "Eferding",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Eferding"
+      "abbrev": "Eferding",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/wels/gmunden",
+    "at:linz:wels:gmunden": {
       "name": "Gmunden",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Gmunden"
+      "abbrev": "Gmunden",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/wels/grieskirchen",
+    "at:linz:wels:grieskirchen": {
       "name": "Grieskirchen",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Grieskirchen"
+      "abbrev": "Grieskirchen",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/wels/vocklabruck",
+    "at:linz:wels:vocklabruck": {
       "name": "Vöcklabruck",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Vöcklabruck"
+      "abbrev": "Vöcklabruck",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/linz/wels/wels",
+    "at:linz:wels:wels": {
       "name": "Wels",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Wels"
+      "abbrev": "Wels",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/niederosterreich",
+    "at:niederosterreich": {
       "name": "Niederösterreich",
-      "courts": [
-        "lvwg",
-        "uvs"
-      ],
-      "abbrev": "Niederösterreich"
+      "abbrev": "Niederösterreich",
+      "courts": {
+        "lvwg": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/oberosterreich",
+    "at:oberosterreich": {
       "name": "Oberösterreich",
-      "courts": [
-        "lvwg",
-        "uvs"
-      ],
-      "abbrev": "Oberösterreich"
+      "abbrev": "Oberösterreich",
+      "courts": {
+        "lvwg": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/salzburg",
+    "at:salzburg": {
       "name": "Salzburg",
-      "courts": [
-        "lvwg",
-        "uvs"
-      ],
-      "abbrev": "Salzburg"
+      "abbrev": "Salzburg",
+      "courts": {
+        "lvwg": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/steiermark",
+    "at:steiermark": {
       "name": "Steiermark",
-      "courts": [
-        "lvwg",
-        "uvs"
-      ],
-      "abbrev": "Steiermark"
+      "abbrev": "Steiermark",
+      "courts": {
+        "lvwg": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/tirol",
+    "at:tirol": {
       "name": "Tirol",
-      "courts": [
-        "lvwg",
-        "uvs"
-      ],
-      "abbrev": "Tirol"
+      "abbrev": "Tirol",
+      "courts": {
+        "lvwg": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/vorarlberg",
+    "at:vorarlberg": {
       "name": "Vorarlberg",
-      "courts": [
-        "lvwg",
-        "uvs"
-      ],
-      "abbrev": "Vorarlberg"
+      "abbrev": "Vorarlberg",
+      "courts": {
+        "lvwg": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/wien",
+    "at:wien": {
       "name": "Wien",
-      "courts": [
-        "olg",
-        "vgw",
-        "uvs"
-      ],
-      "abbrev": "Wien"
+      "abbrev": "Wien",
+      "courts": {
+        "olg": {},
+        "vgw": {},
+        "uvs": {}
+      }
     },
-    {
-      "path": "at/wien/eisenstadt",
+    "at:wien:eisenstadt": {
       "name": "Eisenstadt",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Eisenstadt"
+      "abbrev": "Eisenstadt",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/wien/eisenstadt/eisenstadt",
+    "at:wien:eisenstadt:eisenstadt": {
       "name": "Eisenstadt",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Eisenstadt"
+      "abbrev": "Eisenstadt",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/eisenstadt/gussing",
+    "at:wien:eisenstadt:gussing": {
       "name": "Güssing",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Güssing"
+      "abbrev": "Güssing",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/eisenstadt/mattersburg",
+    "at:wien:eisenstadt:mattersburg": {
       "name": "Mattersburg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Mattersburg"
+      "abbrev": "Mattersburg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/eisenstadt/neusiedl.am.see",
+    "at:wien:eisenstadt:neusiedl.am.see": {
       "name": "Neusiedl am See",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Neusiedl am See"
+      "abbrev": "Neusiedl am See",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/eisenstadt/oberpullendorf",
+    "at:wien:eisenstadt:oberpullendorf": {
       "name": "Oberpullendorf",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Oberpullendorf"
+      "abbrev": "Oberpullendorf",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/eisenstadt/oberwart",
+    "at:wien:eisenstadt:oberwart": {
       "name": "Oberwart",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Oberwart"
+      "abbrev": "Oberwart",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/korneuburg",
+    "at:wien:korneuburg": {
       "name": "Korneuburg",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Korneuburg"
+      "abbrev": "Korneuburg",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/wien/korneuburg/bruck.an.der.leitha",
+    "at:wien:korneuburg:bruck.an.der.leitha": {
       "name": "Bruck an der Leitha",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Bruck an der Leitha"
+      "abbrev": "Bruck an der Leitha",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/korneuburg/ganserndorf",
+    "at:wien:korneuburg:ganserndorf": {
       "name": "Gänserndorf",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Gänserndorf"
+      "abbrev": "Gänserndorf",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/korneuburg/hollabrunn",
+    "at:wien:korneuburg:hollabrunn": {
       "name": "Hollabrunn",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Hollabrunn"
+      "abbrev": "Hollabrunn",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/korneuburg/klosterneuburg",
+    "at:wien:korneuburg:klosterneuburg": {
       "name": "Klosterneuburg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Klosterneuburg"
+      "abbrev": "Klosterneuburg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/korneuburg/korneuburg",
+    "at:wien:korneuburg:korneuburg": {
       "name": "Korneuburg",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Korneuburg"
+      "abbrev": "Korneuburg",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/korneuburg/mistelbach",
+    "at:wien:korneuburg:mistelbach": {
       "name": "Mistelbach",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Mistelbach"
+      "abbrev": "Mistelbach",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/korneuburg/schwechat",
+    "at:wien:korneuburg:schwechat": {
       "name": "Schwechat",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Schwechat"
+      "abbrev": "Schwechat",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/krems.an.der.donau",
+    "at:wien:krems.an.der.donau": {
       "name": "Krems an der Donau",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Krems an der Donau"
+      "abbrev": "Krems an der Donau",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/wien/krems.an.der.donau/gmund.in.niederosterreich",
+    "at:wien:krems.an.der.donau:gmund.in.niederosterreich": {
       "name": "Gmünd in Niederösterreich",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Gmünd in Niederösterreich"
+      "abbrev": "Gmünd in Niederösterreich",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/krems.an.der.donau/horn",
+    "at:wien:krems.an.der.donau:horn": {
       "name": "Horn",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Horn"
+      "abbrev": "Horn",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/krems.an.der.donau/krems.an.der.donau",
+    "at:wien:krems.an.der.donau:krems.an.der.donau": {
       "name": "Krems an der Donau",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Krems an der Donau"
+      "abbrev": "Krems an der Donau",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/krems.an.der.donau/waidhofen.an.der.thaya",
+    "at:wien:krems.an.der.donau:waidhofen.an.der.thaya": {
       "name": "Waidhofen an der Thaya",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Waidhofen an der Thaya"
+      "abbrev": "Waidhofen an der Thaya",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/krems.an.der.donau/zwettl",
+    "at:wien:krems.an.der.donau:zwettl": {
       "name": "Zwettl",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Zwettl"
+      "abbrev": "Zwettl",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten",
+    "at:wien:st.polten": {
       "name": "St. Pölten",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "St. Pölten"
+      "abbrev": "St. Pölten",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/amstetten",
+    "at:wien:st.polten:amstetten": {
       "name": "Amstetten",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Amstetten"
+      "abbrev": "Amstetten",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/haag",
+    "at:wien:st.polten:haag": {
       "name": "Haag",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Haag"
+      "abbrev": "Haag",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/lilienfeld",
+    "at:wien:st.polten:lilienfeld": {
       "name": "Lilienfeld",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Lilienfeld"
+      "abbrev": "Lilienfeld",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/melk",
+    "at:wien:st.polten:melk": {
       "name": "Melk",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Melk"
+      "abbrev": "Melk",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/neulengbach",
+    "at:wien:st.polten:neulengbach": {
       "name": "Neulengbach",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Neulengbach"
+      "abbrev": "Neulengbach",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/purkersdorf",
+    "at:wien:st.polten:purkersdorf": {
       "name": "Purkersdorf",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Purkersdorf"
+      "abbrev": "Purkersdorf",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/scheibbs",
+    "at:wien:st.polten:scheibbs": {
       "name": "Scheibbs",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Scheibbs"
+      "abbrev": "Scheibbs",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/st.polten",
+    "at:wien:st.polten:st.polten": {
       "name": "St. Pölten",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "St. Pölten"
+      "abbrev": "St. Pölten",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/tulln",
+    "at:wien:st.polten:tulln": {
       "name": "Tulln",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Tulln"
+      "abbrev": "Tulln",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/st.polten/waidhofen.an.der.ybbs",
+    "at:wien:st.polten:waidhofen.an.der.ybbs": {
       "name": "Waidhofen an der Ybbs",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Waidhofen an der Ybbs"
+      "abbrev": "Waidhofen an der Ybbs",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien",
+    "at:wien:wien": {
       "name": "Wien",
-      "courts": [
-        "asg",
-        "hg",
-        "lgs",
-        "lgzrs"
-      ],
-      "abbrev": "Wien"
+      "abbrev": "Wien",
+      "courts": {
+        "asg": {},
+        "hg": {},
+        "lgs": {},
+        "lgzrs": {}
+      }
     },
-    {
-      "path": "at/wien/wien/dobling",
+    "at:wien:wien:dobling": {
       "name": "Döbling",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Döbling"
+      "abbrev": "Döbling",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/donaustadt",
+    "at:wien:wien:donaustadt": {
       "name": "Donaustadt",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Donaustadt"
+      "abbrev": "Donaustadt",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/favoriten",
+    "at:wien:wien:favoriten": {
       "name": "Favoriten",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Favoriten"
+      "abbrev": "Favoriten",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/floridsdorf",
+    "at:wien:wien:floridsdorf": {
       "name": "Floridsdorf",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Floridsdorf"
+      "abbrev": "Floridsdorf",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/funfhaus",
+    "at:wien:wien:funfhaus": {
       "name": "Fünfhaus",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Fünfhaus"
+      "abbrev": "Fünfhaus",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/hernals",
+    "at:wien:wien:hernals": {
       "name": "Hernals",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Hernals"
+      "abbrev": "Hernals",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/hietzing",
+    "at:wien:wien:hietzing": {
       "name": "Hietzing",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Hietzing"
+      "abbrev": "Hietzing",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/innere.stadt.wien",
+    "at:wien:wien:innere.stadt.wien": {
       "name": "Innere Stadt Wien",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Innere Stadt Wien"
+      "abbrev": "Innere Stadt Wien",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/josefstadt",
+    "at:wien:wien:josefstadt": {
       "name": "Josefstadt",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Josefstadt"
+      "abbrev": "Josefstadt",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/leopoldstadt",
+    "at:wien:wien:leopoldstadt": {
       "name": "Leopoldstadt",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Leopoldstadt"
+      "abbrev": "Leopoldstadt",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/liesing",
+    "at:wien:wien:liesing": {
       "name": "Liesing",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Liesing"
+      "abbrev": "Liesing",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wien/meidling",
+    "at:wien:wien:meidling": {
       "name": "Meidling",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Meidling"
+      "abbrev": "Meidling",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wiener.neustadt",
+    "at:wien:wiener.neustadt": {
       "name": "Wiener Neustadt",
-      "courts": [
-        "lg"
-      ],
-      "abbrev": "Wiener Neustadt"
+      "abbrev": "Wiener Neustadt",
+      "courts": {
+        "lg": {}
+      }
     },
-    {
-      "path": "at/wien/wiener.neustadt/baden",
+    "at:wien:wiener.neustadt:baden": {
       "name": "Baden",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Baden"
+      "abbrev": "Baden",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wiener.neustadt/modling",
+    "at:wien:wiener.neustadt:modling": {
       "name": "Mödling",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Mödling"
+      "abbrev": "Mödling",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wiener.neustadt/neunkirchen",
+    "at:wien:wiener.neustadt:neunkirchen": {
       "name": "Neunkirchen",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Neunkirchen"
+      "abbrev": "Neunkirchen",
+      "courts": {
+        "bg": {}
+      }
     },
-    {
-      "path": "at/wien/wiener.neustadt/wiener.neustadt",
+    "at:wien:wiener.neustadt:wiener.neustadt": {
       "name": "Wiener Neustadt",
-      "courts": [
-        "bg"
-      ],
-      "abbrev": "Wiener Neustadt"
+      "abbrev": "Wiener Neustadt",
+      "courts": {
+        "bg": {}
+      }
     }
-  ]
+  }
 }

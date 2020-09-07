@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "lc",
-      "name": "Saint Lucia",
-      "courts": []
+  "jurisdictions": {
+    "lc": {
+      "name": "Saint Lucia"
     }
-  ]
+  }
 }

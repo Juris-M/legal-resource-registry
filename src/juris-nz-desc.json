@@ -1,4 +1,5 @@
 {
+  "langs": {},
   "courts": {
     "high.court": {
       "name": "High Court"
@@ -79,238 +80,208 @@
       "name": "Taxation Review Authority"
     }
   },
-  "jurisdictions": [
-    {
-      "path": "nz",
+  "jurisdictions": {
+    "nz": {
       "name": "New Zealand",
-      "courts": [
-        "aca",
-        "bsa",
-        "ca",
-        "caa",
-        "cc",
-        "cop",
-        "drt",
-        "hrrt",
-        "iacdt",
-        "ieaa",
-        "ipt",
-        "lat",
-        "lcdt",
-        "lla",
-        "lvt",
-        "mvdt",
-        "pspla",
-        "readt",
-        "saaa",
-        "sc",
-        "shd",
-        "ssaa",
-        "tra"
-      ]
+      "courts": {
+        "aca": {},
+        "bsa": {},
+        "ca": {},
+        "caa": {},
+        "cc": {},
+        "cop": {},
+        "drt": {},
+        "hrrt": {},
+        "iacdt": {},
+        "ieaa": {},
+        "ipt": {},
+        "lat": {},
+        "lcdt": {},
+        "lla": {},
+        "lvt": {},
+        "mvdt": {},
+        "pspla": {},
+        "readt": {},
+        "saaa": {},
+        "sc": {},
+        "shd": {},
+        "ssaa": {},
+        "tra": {}
+      }
     },
-    {
-      "path": "nz/auckland",
+    "nz:auckland": {
       "name": "Auckland",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/blenheim",
+    "nz:blenheim": {
       "name": "Blenheim",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/christchurch",
+    "nz:christchurch": {
       "name": "Christchurch",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/dunedin",
+    "nz:dunedin": {
       "name": "Dunedin",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/gisborne",
+    "nz:gisborne": {
       "name": "Gisborne",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/greymouth",
+    "nz:greymouth": {
       "name": "Greymouth",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/hamilton",
+    "nz:hamilton": {
       "name": "Hamilton",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/invercargill",
+    "nz:invercargill": {
       "name": "Invercargill",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/maori",
+    "nz:maori": {
       "name": "Maori Land Court Jurisdiction",
-      "courts": [
-        "mac"
-      ]
+      "courts": {
+        "mac": {}
+      }
     },
-    {
-      "path": "nz/maori/christchurch",
+    "nz:maori:christchurch": {
       "name": "Christchurch",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/maori/ellerslie",
+    "nz:maori:ellerslie": {
       "name": "Ellerslie",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/maori/gisborne",
+    "nz:maori:gisborne": {
       "name": "Gisborne",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/maori/hamilton",
+    "nz:maori:hamilton": {
       "name": "Hamilton",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/maori/hastings",
+    "nz:maori:hastings": {
       "name": "Hastings",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/maori/rotorua",
+    "nz:maori:rotorua": {
       "name": "Rotorua",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/maori/wellington",
+    "nz:maori:wellington": {
       "name": "Wellington",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/maori/whanganui",
+    "nz:maori:whanganui": {
       "name": "Whanganui",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/maori/whangarei",
+    "nz:maori:whangarei": {
       "name": "Whangarei",
-      "courts": [
-        "land.court"
-      ]
+      "courts": {
+        "land.court": {}
+      }
     },
-    {
-      "path": "nz/masterton",
+    "nz:masterton": {
       "name": "Masterton",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/napier",
+    "nz:napier": {
       "name": "Napier",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/nelson",
+    "nz:nelson": {
       "name": "Nelson",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/new.plymouth",
+    "nz:new.plymouth": {
       "name": "New Plymouth",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/palmerston.north",
+    "nz:palmerston.north": {
       "name": "Palmerston North",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/rotorua",
+    "nz:rotorua": {
       "name": "Rotorua",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/tauranga",
+    "nz:tauranga": {
       "name": "Tauranga",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/timaru",
+    "nz:timaru": {
       "name": "Timaru",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/wellington",
+    "nz:wellington": {
       "name": "Wellington",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/whanganui",
+    "nz:whanganui": {
       "name": "Whanganui",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     },
-    {
-      "path": "nz/whangarei",
+    "nz:whangarei": {
       "name": "Whangarei",
-      "courts": [
-        "high.court"
-      ]
+      "courts": {
+        "high.court": {}
+      }
     }
-  ]
+  }
 }

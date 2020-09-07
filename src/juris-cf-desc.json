@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "cf",
-      "name": "Central African Republic",
-      "courts": []
+  "jurisdictions": {
+    "cf": {
+      "name": "Central African Republic"
     }
-  ]
+  }
 }

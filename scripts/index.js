@@ -3,12 +3,18 @@
 const getopts = require("getopts");
 const fs = require("fs");
 const path = require("path");
-const dbToCompact = require("./lib/dbToCompact").dbToCompact;
-const compactToDescriptive = require("./lib/compactToDescriptive").compactToDescriptive;
 const descriptiveToCompact = require("./lib/descriptiveToCompact").descriptiveToCompact;
+const abstractFromOldDescriptive = require("./lib/abstractFromOldDescriptive").abstractFromOldDescriptive;
 
 const config = require("./lib/config").config;
 const handleError = require("./lib/errors").handleError;
+
+
+// OKAY!
+// Need to run in three modes:
+// * Convert from old to new file format. This should be idempotent.
+// * Compile from new file format.
+// * Info mode, telling which languages to be created in each country.
 
 /*
  * Options
@@ -16,10 +22,9 @@ const handleError = require("./lib/errors").handleError;
 
 const optParams = {
     alias: {
-		t: "transform",
-		t: "to",
 		a: "all",
 		j: "jurisdiction",
+		c: "convert",
 		F: "force",
 		l: "list",
         h: "help"
@@ -34,9 +39,11 @@ const usage = "Usage: " + path.basename(process.argv[1]) + " <options>\n"
       + "    -a, --all\n"
       + "       Perform requested operation on all jurisdictions.\n"
       + "    -j <jurisdictionID>, --jurisdiction=<jurisdictionID>\n"
-      + "       Perform requested operation on the specified jurisdiction.\n"
+	  + "       Perform requested operation on the specified jurisdiction.\n"
+      + "    -c, --convert\n"
+      + "       Convert from old descriptive format to new descriptive format"
 	  + "    -l, --list\n"
-	  + "       List codes for all international organizations and countries\n"
+	  + "       List codes for all international organizations and countries [with their languages]\n"
       + "    -F --force\n"
       + "       Force overwrite of same data for descriptive-to-compact.\n";
 
@@ -50,29 +57,47 @@ if (opts.h) {
 if (opts.l) {
 	var lst = [];
 	var maxlen = 0;
+	var obj = null;
+	var langs = null;
 	for (var fn of fs.readdirSync(config.path.jurisSrcDir)) {
+		var m = fn.match(/^juris-(.*)-desc\.json$/);
+		if (!m) continue;
+		if (opts.j) {
+			var optsJ = opts.j.split(",");
+			if (optsJ.indexOf(m[1]) === -1) continue;
+		}
 		try {
+			var foundOne = false;
 			try {
-				var obj = JSON.parse(fs.readFileSync(path.join(config.path.jurisSrcDir, fn)));
+				obj = JSON.parse(fs.readFileSync(path.join(config.path.jurisSrcDir, fn)));
 			} catch (e) {
 				throw new Error("JSON parse error in " + path.join(config.path.jurisSrcDir, fn));
 			}
+			langs = obj.langs;
 			for (var info of obj.jurisdictions) {
-				if (info.path.indexOf("/") === -1) {
+				if (info.path.indexOf("/") === -1 && info.path.indexOf(":") === -1) {
 					if (!info.name) {
 						throw new Error("no country/organization name found in " + path.join(config.path.jurisSrcDir, fn));
 					}
+					foundOne = true;
 					lst.push(info);
 					if (maxlen < info.path.length) {
 						maxlen = info.path.length;
 					}
 					break;
 				}
+			}
+			if (!foundOne) {
 				throw new Error("no country/organization code entry found in " + path.join(config.path.jurisSrcDir, fn));
 			}
 		} catch (e) {
 			handleError(e);
 		}
+	}
+	if (langs) {
+		langs = `[${langs.join(", ")}]`;
+	} else {
+		langs = "";
 	}
 	lst.sort(function(a,b){
 		if (a.name > b.name) {
@@ -92,7 +117,7 @@ if (opts.l) {
 		while (padding.length < offset) {
 			padding = padding + " ";
 		}
-		console.log(" "+ padding + info.path + " : " + info.name);
+		console.log(`  ${padding}${info.path} : ${info.name} ${langs}`);
 	}
 	process.exit();
 }
@@ -111,6 +136,8 @@ if (opts.a && opts.j) {
  * Run
  */
 
-console.log("Converting description to compiled forms");
-
-descriptiveToCompact(opts).catch(err => handleError(err));
+if (opts.c) {
+	abstractFromOldDescriptive(opts).catch(err => handleError(err));
+} else {
+	descriptiveToCompact(opts).catch(err => handleError(err));
+}

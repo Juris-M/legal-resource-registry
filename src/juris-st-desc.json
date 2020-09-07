@@ -1,10 +1,9 @@
 {
+  "langs": {},
   "courts": {},
-  "jurisdictions": [
-    {
-      "path": "st",
-      "name": "São Tomé and Príncipe",
-      "courts": []
+  "jurisdictions": {
+    "st": {
+      "name": "São Tomé and Príncipe"
     }
-  ]
+  }
 }

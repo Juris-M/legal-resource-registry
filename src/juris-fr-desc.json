@@ -1,64 +1,98 @@
 {
   "langs": {},
   "courts": {
-    "ca": {
-      "name": "Cour d'appel",
-      "abbrev": "CA %s"
-    },
     "cass": {
-      "name": "Cour de Cassation"
+      "name": "Cour de cassation",
+      "abbrev": "Cass."
     },
-    "cass~civ1": {
-      "name": "Cour de Cassation|1re chambre civile"
+    "cass~civ.1": {
+      "name": "%s 1re Chambre civile",
+      "abbrev": "%s civ. 1re"
     },
-    "cass~civ2": {
-      "name": "Cour de Cassation|2e chambre civile"
+    "cass~civ.2": {
+      "name": "%s 2e Chambre civile",
+      "abbrev": "%s civ. 2e"
     },
-    "cass~civ3": {
-      "name": "Cour de Cassation|3e chambre civile"
+    "cass~civ.3": {
+      "name": "%s 3e Chambre civile",
+      "abbrev": "civ. 2e"
     },
     "cass~crim": {
-      "name": "Cour de Cassation|Chambre criminelle"
+      "name": "%s Chambre criminelle",
+      "abbrev": "crim."
     },
-    "cass~fin": {
-      "name": "Cour de Cassation|Chambre commerciale, financière et économique"
-    },
-    "cass~plen": {
-      "name": "Cour de Cassation|Assemblée plénière"
+    "cass~com": {
+      "name": "%s Chambre commerciale, économique et financière",
+      "abbrev": "com."
     },
     "cass~soc": {
-      "name": "Cour de Cassation|Chambre sociale"
+      "name": "%s Chambre sociale",
+      "abbrev": "soc."
+    },
+    "cass~plen": {
+      "name": "%s Assemblée plénière",
+      "abbrev": "Ass. plen."
+    },
+    "cass~mixte": {
+      "name": "%s Chambre mixte",
+      "abbrev": "%s ch. mixte"
     },
     "cc": {
-      "name": "Conseil Constitutionelle"
+      "name": "Conseil constitutionnel"
     },
     "ce": {
-      "name": "Conseil d'Etat"
+      "name": "Conseil d'État"
     },
-    "ce~cont": {
-      "name": "Conseil d'Etat|Section Contentieux"
+    "ce~reunies": {
+      "name": "%s Chambres réunies",
+      "abbrev": "%s Ch. réunies"
+    },
+    "ce~sect": {
+      "name": "%s Section du contentieux",
+      "abbrev": "%s Sect."
+    },
+    "ce~ass": {
+      "name": "%s Assemblée du contentieux",
+      "abbrev": "%s Ass."
     },
     "cnda": {
-      "name": "Cour National du Droit d'Asile"
+      "name": "Cour nationale du droit d'asile",
+      "abbrev": "C.N.D.A."
+    },
+    "ca": {
+      "name": "Cour d'appel",
+      "abbrev": "C.A. %s"
+    },
+    "tsa": {
+      "name": "Tribunal supérieur d'appel",
+      "abbrev": "T.S.A."
+    },
+    "caa": {
+      "name": "Cour administrative d'appel",
+      "abbrev": "C.A.A. %s"
     }
   },
   "jurisdictions": {
     "fr": {
       "name": "France",
       "courts": {
-        "ca": {},
         "cass": {},
-        "cass~civ1": {},
-        "cass~civ2": {},
-        "cass~civ3": {},
+        "cass~civ.1": {},
+        "cass~civ.2": {},
+        "cass~civ.3": {},
         "cass~crim": {},
-        "cass~fin": {},
-        "cass~plen": {},
+        "cass~com": {},
         "cass~soc": {},
+        "cass~plen": {},
         "cc": {},
         "ce": {},
-        "ce~cont": {},
-        "cnda": {}
+        "ce~reunies": {},
+        "ce~sect": {},
+        "ce~ass": {},
+        "cnda": {},
+        "ca": {},
+        "tsa": {},
+        "caa": {}
       }
     },
     "fr:agen": {
@@ -106,7 +140,8 @@
     "fr:bordeaux": {
       "name": "Bordeaux",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "caa": {}
       }
     },
     "fr:bourges": {
@@ -148,7 +183,8 @@
     "fr:douai": {
       "name": "Douai",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "caa": {}
       }
     },
     "fr:fort.france": {
@@ -172,13 +208,20 @@
     "fr:lyon": {
       "name": "Lyon",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "caa": {}
       }
     },
     "fr:metz": {
       "name": "Metz",
       "courts": {
         "ca": {}
+      }
+    },
+    "fr:marseille": {
+      "name": "Marseille",
+      "courts": {
+        "caa": {}
       }
     },
     "fr:montpellier": {
@@ -190,7 +233,14 @@
     "fr:nancy": {
       "name": "Nancy",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "caa": {}
+      }
+    },
+    "fr:nantes": {
+      "name": "Nantes",
+      "courts": {
+        "caa": {}
       }
     },
     "fr:nimes": {
@@ -220,7 +270,8 @@
     "fr:paris": {
       "name": "Paris",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "caa": {}
       }
     },
     "fr:pau": {
@@ -265,6 +316,12 @@
         "ca": {}
       }
     },
+    "fr:saint.pierre.et.miquelon": {
+      "name": "Saint-Pierre-et-Miquelon",
+      "courts": {
+        "tsa": {}
+      }
+    },
     "fr:toulouse": {
       "name": "Toulouse",
       "courts": {
@@ -274,7 +331,8 @@
     "fr:versailles": {
       "name": "Versailles",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "caa": {}
       }
     }
   }

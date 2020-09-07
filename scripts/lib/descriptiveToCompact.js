@@ -18,10 +18,6 @@ var abbrevTemplate = {
 	}
 }
 
-const writeIfChanges = (pth, obj) => {
-	
-}
-
 const setAbbrevData = (obj, lang, passthroughs) => {
 	if (!passthroughs) {
 		passthroughs = [];
@@ -92,7 +88,7 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 		// jurisdictions
 		for (var jKey in jurisDesc.jurisdictions) {
 			var jObj = jurisDesc.jurisdictions[jKey];
-			data.jurisdictions[jKey] = setAbbrevData(jObj, lang);
+			data.jurisdictions[jKey] = setAbbrevData(jObj, lang, ["container-title"]);
 		}
 		// for jurisdictionCourts
 		for (var jKey in jurisDesc.jurisdictions) {
@@ -101,7 +97,7 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 				data.jurisdictions[jKey].courts = {};
 				for (var cKey in jurisdiction.courts) {
 					var cObj = jurisdiction.courts[cKey];
-					data.jurisdictions[jKey].courts[cKey] = setAbbrevData(cObj, lang, ["abbrev-select", "container-title"]);
+					data.jurisdictions[jKey].courts[cKey] = setAbbrevData(cObj, lang, ["abbrev_select"]);
 				}
 			}
 		}
@@ -112,9 +108,6 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 			var jObj = data.jurisdictions[jKey];
 			jabbrev = jObj.abbrev;
 			jABBREV = jObj.ABBREV;
-			if (jObj["container-title"]) {
- 				ret.xdata[jKey]["container-title"] = jObj["container-title"];
-			}
 			if (jObj.courts) {
 				for (var cKey in jObj.courts) {
 					cabbrev = data.courts[cKey].abbrev;
@@ -137,7 +130,7 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 					}
 					if (cObj.abbrev_select === "jurisdiction") {
 						val = jabbrev;
-					} else if (cObj.abbrev_select === "abbrev") {
+					} else if (cObj.abbrev_select === "court") {
 						val = cabbrev.replace(/^%s\s*/, "").replace(/\s*%s$/, "").replace(/%s\s*/g, "");
 					} else {
 						val = cabbrev.replace("%s", jabbrev);
@@ -157,6 +150,9 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 						ret.xdata[jKey]["institution-entire"][cKey] = val;
 					}
 				}
+			}
+			if (jObj["container-title"]) {
+ 				ret.xdata[jKey]["container-title"] = jObj["container-title"];
 			}
 		}
 		// console.log(JSON.stringify(ret, null, 2));
@@ -178,7 +174,7 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 		var newXdata = JSON.stringify(ret.xdata).trim();
 		if (newXdata !== oldXdata) {
 			console.log(`Writing ${pathName}`);
-			fs.writeFileSync(pathName, JSON.stringify(ret));
+			fs.writeFileSync(pathName, JSON.stringify(ret, null, 2));
 		}
 		// The DIRECTORY_LISTING file seems not to be used? How are abbrevs loaded anyhow?
 	}

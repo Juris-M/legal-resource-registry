@@ -73,16 +73,24 @@ if (opts.l) {
 			} catch (e) {
 				throw new Error("JSON parse error in " + path.join(config.path.jurisSrcDir, fn));
 			}
-			langs = obj.langs;
-			for (var info of obj.jurisdictions) {
-				if (info.path.indexOf("/") === -1 && info.path.indexOf(":") === -1) {
+			langs = Object.keys(obj.langs);
+			for (var key in obj.jurisdictions) {
+				var info = obj.jurisdictions[key];
+				if (key.indexOf(":") === -1) {
 					if (!info.name) {
 						throw new Error("no country/organization name found in " + path.join(config.path.jurisSrcDir, fn));
 					}
 					foundOne = true;
+					info.path = key;
+					if (langs.length) {
+						langs = `[${langs.join(", ")}]`;
+					} else {
+						langs = "";
+					}
+					info.langs = langs;
 					lst.push(info);
-					if (maxlen < info.path.length) {
-						maxlen = info.path.length;
+					if (maxlen < key.length) {
+						maxlen = key.length;
 					}
 					break;
 				}
@@ -93,11 +101,6 @@ if (opts.l) {
 		} catch (e) {
 			handleError(e);
 		}
-	}
-	if (langs) {
-		langs = `[${langs.join(", ")}]`;
-	} else {
-		langs = "";
 	}
 	lst.sort(function(a,b){
 		if (a.name > b.name) {
@@ -117,7 +120,7 @@ if (opts.l) {
 		while (padding.length < offset) {
 			padding = padding + " ";
 		}
-		console.log(`  ${padding}${info.path} : ${info.name} ${langs}`);
+		console.log(`  ${padding}${info.path} : ${info.name} ${info.langs}`);
 	}
 	process.exit();
 }

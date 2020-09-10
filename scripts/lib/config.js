@@ -20,14 +20,15 @@ function getConfig() {
 	} else {
 		config = {
 			path: {
-				dataDir: null,
 				jurisSrcDir: null,
-				jurisAbbrevsDir: null,
-				configFile: configFile
+				dataDir: null,
+				jurisMapDir: null,
+				jurisAbbrevsDir: null
 			}
-		}
+		};
 		fs.writeFileSync(configFile, JSON.stringify(config, null, 2));
 	}
+	config.path.configFile = configFile;
 	
 	if (!config.path.jurisSrcDir) {
 		var e = new Error("path.jurisSrcDir is undefined in " + configFile);
@@ -40,18 +41,20 @@ function getConfig() {
 	//	var e = new Error("path.dataDir is undefined in " + configFile);
 	//	handleError(e);
 	//}
-
-	if (!config.path.jurisMapDir) {
-		config.path.jurisAbbrevsDir = path.join(config.path.dataDir, "juris-abbrevs");
-	}
-	if (!config.path.jurisMapDir) {
-		config.path.jurisMapDir = path.join(config.path.dataDir, "juris-maps");
-	}
-	config.path.jurisVersionFile = path.join(config.path.jurisMapDir, "versions.json");
 	
+	if (!config.path.dataDir && (!config.path.jurisAbbrevsDir || !config.path.jurisMapDir)) {
+		var e = new Error(`path.dataDir is undefined in ${configFile}`);
+	}
+
 	if (!config.path.jurisAbbrevsDir) {
 		config.path.jurisAbbrevsDir = path.join(config.path.dataDir, "juris-abbrevs");
 	}
+	
+	if (!config.path.jurisMapDir) {
+		config.path.jurisMapDir = path.join(config.path.dataDir, "juris-maps");
+	}
+	
+	config.path.jurisVersionFile = path.join(config.path.jurisMapDir, "versions.json");
 	
 	console.log("Using " +config.path.jurisSrcDir + " as path for descriptive jurisdiction files");
 	

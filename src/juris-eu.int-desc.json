@@ -6,7 +6,8 @@
   },
   "courts": {
     "ag": {
-      "name": "Attorney General",
+      "name": "Advocate General",
+      "abbrev": "AG",
       "variants": {
         "de": {
           "abbrev": "GA"

@@ -6,10 +6,10 @@
 			"abbrev": "HR"
 		},
 		"gerechtshof": {
-			"name": "Gerechtshof"
+			"name": "%s Gerechtshof"
 		},
 		"rechtbank": {
-			"name": "Rechtbank"
+			"name": "%s Rechtbank"
 		},
 		"rekenkamer": {
 			"name": "Rekenkamer"

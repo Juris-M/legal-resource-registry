@@ -1,11 +1,29 @@
 {
-  "langs": {},
+  "langs": {
+    "de": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "commission.human.rights": {
-      "name": "Commission on Human Rights"
+      "name": "Commission on Human Rights",
+      "comment": "< 1998",
+      "variants": {
+        "de": {
+          "abbrev": "EKMR",
+          "name": "Europäische Kommission für Menschenrechte"
+        }
+      }
     },
     "echr": {
-      "name": "European Court of Human Rights"
+      "name": "European Court of Human Rights",
+      "variants": {
+        "de": {
+          "abbrev": "EGMR",
+          "name": "Europäischer Gerichtshof für Menschenrechte"
+        }
+      }
+
     },
     "echr~section.1": {
       "name": "European Court of Human Rights|Section I"
@@ -38,6 +56,11 @@
         "echr~section.4": {},
         "echr~section.5": {},
         "echr~section.filtrage": {}
+      },
+      "variants": {
+        "de": {
+          "name": "Europarat"
+        }
       }
     }
   }

@@ -1,5 +1,9 @@
 {
-  "langs": {},
+  "langs": {
+    "de": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "appeals.chamber": {
       "name": "Appeals Chamber"
@@ -18,6 +22,11 @@
         "appeals.chamber": {},
         "pre.trial.chamber": {},
         "trial.chamber": {}
+      },
+      "variants": {
+        "de": {
+          "abbrev": "ICC, %s"
+        }
       }
     }
   }

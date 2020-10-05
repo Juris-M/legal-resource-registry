@@ -1,29 +1,63 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "lvwg": {
       "name": "Landesverwaltungsgericht",
-      "abbrev": "LVwG %s"
+      "abbrev": "LVwG %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Regional Administrative Court %s"
+        }
+      }
     },
     "bg": {
       "name": "Bezirksgericht",
-      "abbrev": "BG %s"
+      "abbrev": "BG %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "District Court %s"
+        }
+      }
     },
     "lgs": {
       "name": "Landesgericht für Strafsachen",
-      "abbrev": "LGS %s"
+      "abbrev": "LGS %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Regional Criminal Court %s"
+        }
+      }
     },
     "lgzrs": {
       "name": "Landesgericht für Zivilrechtssachen",
-      "abbrev": "LGZ %s"
+      "abbrev": "LGZ %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Regional Civil Court %s"
+        }
+      }
     },
     "lg": {
       "name": "Landesgericht",
-      "abbrev": "LG %s"
+      "abbrev": "LG %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Regional Court %s"
+        }
+      }
     },
     "olg": {
       "name": "Oberlandesgericht",
-      "abbrev": "OLG %s"
+      "abbrev": "OLG %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Higher Regional Court %s"
+        }
+      }
     },
     "asg": {
       "name": "Arbeits und Sozialgericht",
@@ -35,27 +69,57 @@
     },
     "vgw": {
       "name": "Verwaltungsgericht",
-      "abbrev": "VGW"
+      "abbrev": "VGW",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Regional Administrative Court %s"
+        }
+      }
     },
     "bfg": {
       "name": "Bundesfinanzgericht",
-      "abbrev": "BFG"
+      "abbrev": "BFG",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Federal Tax Court"
+        }
+      }
     },
     "bvwg": {
       "name": "Bundesverwaltungsgericht",
-      "abbrev": "BVwG"
+      "abbrev": "BVwG",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Federal Administrative Court"
+        }
+      }
     },
     "ogh": {
       "name": "Oberster Gerichtshof",
-      "abbrev": "OGH"
+      "abbrev": "OGH",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Court"
+        }
+      }
     },
     "vfgh": {
       "name": "Verfassungsgerichtshof",
-      "abbrev": "VfGH"
+      "abbrev": "VfGH",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Constitutional Court"
+        }
+      }
     },
     "vwgh": {
       "name": "Verwaltungsgerichtshof",
-      "abbrev": "VwGH"
+      "abbrev": "VwGH",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Administrative Court"
+        }
+      }
     },
     "asylgh": {
       "name": "Asylgerichtshof",
@@ -63,7 +127,12 @@
     },
     "uvs": {
       "name": "Unabhängiger Verwaltungssenat",
-      "abbrev": "UVS %s"
+      "abbrev": "UVS %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Independent Administrative Senate"
+        }
+      }
     },
     "ubas": {
       "name": "Unabhängiger Bundesasylsenat",
@@ -71,7 +140,12 @@
     },
     "ufs": {
       "name": "Unabhängiger Finanzsenat",
-      "abbrev": "UFS"
+      "abbrev": "UFS",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Independent Finance Senate"
+        }
+      }
     },
     "dsk": {
       "name": "Datenschutzkommission",

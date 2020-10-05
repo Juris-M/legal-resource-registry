@@ -1,5 +1,9 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "cietac": {
       "name": "China International Economic and Trade Arbitration Commission"
@@ -8,7 +12,12 @@
       "name": "Cairo Regional Centre for International Commercial Arbitration"
     },
     "icc": {
-      "name": "International Chamber of Commerce"
+      "name": "International Chamber of Commerce",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "ICC"
+        }
+      }
     },
     "lcia": {
       "name": "London Court of International Arbitration"

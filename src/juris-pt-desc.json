@@ -1,5 +1,9 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "constitucional": {
       "name": "Tribunal Constitucional"
@@ -23,15 +27,30 @@
     },
     "supremo.administrativo": {
       "name": "Supremo Tribunal Administrativo",
-      "ABBREV": "STA"
+      "ABBREV": "STA",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Administrative Court"
+        }
+      }
     },
     "central.administrativo.norte": {
       "name": "TCA Norte",
-      "ABBREV": "TCAN"
+      "ABBREV": "TCAN",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Central Administrative Courts – North"
+        }
+      }
     },
     "central.administrativo.sul": {
       "name": "TCA Sul",
-      "ABBREV": "TCAS"
+      "ABBREV": "TCAS",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Central Administrative Courts – South"
+        }
+      }
     },
     "administrativo.de.circulo": {
       "name": "Tribunal Administrativo de Círculo"
@@ -40,13 +59,23 @@
       "name": "Tribunal Tributário"
     },
     "administrativo.fiscal.sul": {
-      "name": "Administrativo e Fiscal"
+      "name": "Administrativo e Fiscal",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Administrative Court of First Instance %s"
+        }
+      }
     },
     "supremo.militar": {
       "name": "Supremo Tribunal Militar"
     },
     "administrativo.fiscal.norte": {
-      "name": "Administrativo e Fiscal"
+      "name": "Administrativo e Fiscal",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Administrative Court of First Instance %s"
+        }
+      }
     },
     "paz": {
       "name": "Julgados de Paz"

@@ -1,9 +1,18 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "ks": {
       "name": "Krajský soud",
-      "abbrev": "Krajský soud %s"
+      "abbrev": "Krajský soud %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Regional Court %s"
+        }
+      }
     },
     "oks": {
       "name": "Okresní soud",
@@ -23,15 +32,30 @@
     },
     "ns": {
       "name": "Nejvyšší soud",
-      "abbrev": "Nejvyšší soud"
+      "abbrev": "Nejvyšší soud",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Court"
+        }
+      }
     },
     "nss": {
       "name": "Nejvyšší správní soud",
-      "abbrev": "Nejvyšší správní soud"
+      "abbrev": "Nejvyšší správní soud",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Administrative Court"
+        }
+      }
     },
     "us": {
       "name": "Ústavní soud",
-      "abbrev": "Ústavní soud"
+      "abbrev": "Ústavní soud",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Constitutional Court"
+        }
+      }
     }
   },
   "jurisdictions": {

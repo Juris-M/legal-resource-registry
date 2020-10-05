@@ -1,5 +1,9 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "otc": {
       "name": "ΠΡΩΤΟΔΙΚΕΙΟ"
@@ -8,10 +12,20 @@
       "name": "ΕΦΕΤΕΙΟ"
     },
     "atc": {
-      "name": "ΔΙΟΙΚΗΤΙΚΑ ΠΡΩΤΟΔΙΚΕΙΑ"
+      "name": "ΔΙΟΙΚΗΤΙΚΑ ΠΡΩΤΟΔΙΚΕΙΑ",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Administrative Court of First Instance %s"
+        }
+      }
     },
     "aca": {
-      "name": "ΔΙΟΙΚΗΤΙΚΑ ΕΦΕΤΕΙΑ"
+      "name": "ΔΙΟΙΚΗΤΙΚΑ ΕΦΕΤΕΙΑ",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Administrative Court of Appeal %s"
+        }
+      }
     },
     "coa": {
       "name": "Ελεγκτικό Συνέδριο"
@@ -20,7 +34,12 @@
       "name": "Άρειος Πάγος"
     },
     "cos": {
-      "name": "Συμβούλιο της Επικρατείας"
+      "name": "Συμβούλιο της Επικρατείας",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Administrative Court"
+        }
+      }
     },
     "ssc": {
       "name": "Ανώτατο Ειδικό Δικαστήριο"

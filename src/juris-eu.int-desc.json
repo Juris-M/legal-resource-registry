@@ -1,15 +1,18 @@
 {
   "langs": {
     "de": [
-      "abbrevs"
+      "abbrevs",
+      "ui"
     ]
   },
   "courts": {
     "ag": {
-      "name": "Attorney General",
+      "name": "Advocate General",
+      "abbrev": "AG",
       "variants": {
         "de": {
-          "abbrev": "GA"
+          "abbrev": "GA",
+          "name": "Generalanwalt"
         }
       }
     },
@@ -18,7 +21,8 @@
       "abbrev": "ECJ",
       "variants": {
         "de": {
-          "abbrev": "EuGH"
+          "abbrev": "EuGH",
+          "name": "Europäischer Gerichtshof"
         }
       }
     },
@@ -80,7 +84,8 @@
       "name": "European Commission",
       "variants": {
         "de": {
-          "abbrev": "Kom"
+          "abbrev": "Kom",
+          "name": "Europäische Kommission"
         }
       }
     },
@@ -89,7 +94,8 @@
       "abbrev": "EGC",
       "variants": {
         "de": {
-          "abbrev": "EuG"
+          "abbrev": "EuG",
+          "name": "Gericht der Europäischen Union"
         }
       }
     },
@@ -97,7 +103,8 @@
       "name": "European Union Civil Service Tribunal",
       "variants": {
         "de": {
-          "abbrev": "EuGöD"
+          "abbrev": "EuGöD",
+          "name": "Gericht für den öffentlichen Dienst"
         }
       }
     }
@@ -113,7 +120,9 @@
         }
       },
       "variants": {
-        "de": {}
+        "de": {
+          "name": "Europäische Union"
+        }
       }
     },
     "eu.int:cjeu": {
@@ -186,7 +195,9 @@
         }
       },
       "variants": {
-        "de": {}
+        "de": {
+          "name": "Gerichtshof der Europäischen Union"
+        }
       }
     },
     "eu.int:encj": {

@@ -1,8 +1,18 @@
 {
-  "langs": {},
+  "langs": {
+    "de": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "icj": {
-      "name": "International Court of Justice"
+      "name": "International Court of Justice",
+      "variants": {
+        "de": {
+          "abbrev": "IGH",
+          "name": "Internationaler Gerichtshof"
+        }
+      }
     },
     "ictr": {
       "name": "International Criminal Tribunal for Rwanda"
@@ -11,10 +21,31 @@
       "name": "International Criminal Tribunal for the Former Yugoslavia"
     },
     "itlos": {
-      "name": "International Tribunal for the Law of the Sea"
+      "name": "International Tribunal for the Law of the Sea",
+      "variants": {
+        "de": {
+          "abbrev": "ISGH",
+          "name": "Internationaler Seegerichtshof"
+        }
+      }
     },
     "pca": {
-      "name": "Permanent Court of Arbitration"
+      "name": "Permanent Court of Arbitration",
+      "variants": {
+        "de": {
+          "abbrev": "PCA"
+        }
+      }
+    },
+    "pcij": {
+      "comment": "< 1946",
+      "name": "Permanent Court of International Justice",
+      "variants": {
+        "de": {
+          "abbrev": "StIGH",
+          "name": "Ständiger Internationaler Gerichtshof"
+        }
+      }
     }
   },
   "jurisdictions": {

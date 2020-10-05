@@ -13,9 +13,6 @@
     "cour.de.cassation": {
       "name": "Cour de cassation"
     },
-    "trubunal.cantonal": {
-      "name": "Trubunal cantonal"
-    },
     "cour.de.cassation.civile": {
       "name": "Cour de cassation civile"
     },
@@ -100,7 +97,7 @@
     "ch:jura": {
       "name": "Jura",
       "courts": {
-        "trubunal.cantonal": {}
+        "tribunal.cantonal": {}
       }
     },
     "ch:luzern": {

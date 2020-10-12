@@ -1,5 +1,9 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "tc": {
       "name": "Tribunal Constitucional",
@@ -9,7 +13,12 @@
     "ts": {
       "name": "Tribunal Supremo",
       "abbrev": "Tribunal Supremo",
-      "ABBREV": "TS"
+      "ABBREV": "TS",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Court"
+        }
+      }
     },
     "rmc": {
       "name": "Registro Mercantil Central",
@@ -24,12 +33,32 @@
     "tsj": {
       "name": "Tribunal Superior de Justicia",
       "abbrev": "Tribunal Superior de Justicia de %s",
-      "ABBREV": "TSJ %s"
+      "ABBREV": "TSJ %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "High Court of Justice %s"
+        }
+      }
+    },
+    "an": {
+      "name": "Audiencia Nacional",
+      "abbrev": "Audiencia Nacional",
+      "ABBREV": "AN",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "National Court"
+        }
+      }
     },
     "ap": {
       "name": "Audiencia Provincial",
       "abbrev": "Audiencia Provincial de %s",
-      "ABBREV": "AP %s"
+      "ABBREV": "AP %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Provincial Court %s"
+        }
+      }
     },
     "jpi": {
       "name": "Juzgado de 1a Instancia",

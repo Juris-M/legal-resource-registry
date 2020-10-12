@@ -1,5 +1,9 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "arbg": {
       "name": "Arbeitsgericht",
@@ -27,7 +31,12 @@
     },
     "fg": {
       "name": "Finanzgericht",
-      "ABBREV": "FG"
+      "ABBREV": "FG",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Tax Court"
+        }
+      }
     },
     "lag": {
       "name": "Landesarbeitsgericht",
@@ -75,7 +84,12 @@
     },
     "bfh": {
       "name": "Bundesfinanzhof",
-      "ABBREV": "BFH"
+      "ABBREV": "BFH",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Federal Tax Court"
+        }
+      }
     },
     "bgh": {
       "name": "Bundesgerichtshof",

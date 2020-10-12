@@ -1,10 +1,19 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "hao": {
       "name": "Hallinto-oikeus",
       "abbrev": "%s hallinto-oikeus",
-      "ABBREV": "HAO"
+      "ABBREV": "HAO",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "%s Regional Administrative Court"
+        }
+      }
     },
     "ko": {
       "name": "Käräjäoikeus",
@@ -38,7 +47,12 @@
     "kho": {
       "name": "Korkein hallinto-oikeus",
       "abbrev": "Korkein hallinto-oikeus",
-      "ABBREV": "KHO"
+      "ABBREV": "KHO",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Administrative Court"
+        }
+      }
     },
     "kko": {
       "name": "Korkein oikeus",

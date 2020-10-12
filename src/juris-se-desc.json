@@ -1,5 +1,9 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "hogsta": {
       "name": "Högsta domstolen"
@@ -14,10 +18,20 @@
       "name": "Regeringsrätten"
     },
     "kammarratten": {
-      "name": "Kammarrätten"
+      "name": "Kammarrätten",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Administrative Court of Appeal %s"
+        }
+      }
     },
     "forvaltningsraetten": {
-      "name": "Förvaltningsrätten"
+      "name": "Förvaltningsrätten",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Administrative Court %s"
+        }
+      }
     },
     "arbetsdomstolen": {
       "name": "Arbetsdomstolen"

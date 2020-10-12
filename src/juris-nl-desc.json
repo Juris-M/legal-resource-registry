@@ -1,22 +1,46 @@
 {
-	"langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
 	"courts": {
 		"hoge": {
 			"name": "Hoge Raad",
-			"abbrev": "HR"
+			"abbrev": "HR",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Supreme Court"
+        }
+      }
 		},
 		"gerechtshof": {
-			"name": "%s Gerechtshof"
+			"name": "%s Gerechtshof",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Court of Appeal %s"
+        }
+      }
 		},
 		"rechtbank": {
-			"name": "%s Rechtbank"
+			"name": "%s Rechtbank",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "District Court %s"
+        }
+      }
 		},
 		"rekenkamer": {
 			"name": "Rekenkamer"
 		},
 		"centrale.beroep": {
 			"name": "Centrale Raad van Beroep",
-			"abbrev": "CRvB"
+			"abbrev": "CRvB",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Central Board of Appeal"
+        }
+      }
 		},
 		"college.beroep.bedrijfsleven": {
 			"name": "College van Beroep voor het bedrijfsleven",
@@ -24,7 +48,12 @@
 		},
 		"raad.state": {
 			"name": "Raad van State",
-			"abbrev": "RvS"
+			"abbrev": "RvS",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "Council of State"
+        }
+      }
 		}
 	},
 	"jurisdictions": {

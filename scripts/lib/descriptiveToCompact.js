@@ -230,9 +230,9 @@ const getJurisdictionData = (stringIndex, jurisDesc, langs) => {
 			}
 			parentIndex[jKey] = arr.length;
 			arr.push([jKey.split(":").slice(-1)[0], obj.name, parentPos]);
-			if (jurisDesc.jurisdictions.variants && jurisDesc.jurisdictions.variants[lang]) {
-				if (jurisDesc.jurisdictions.variants[lang].name) {
-					arr[pos][1] = jurisDesc.jurisdictions.variants[lang].name;
+			if (jurisDesc.jurisdictions[jKey].variants && jurisDesc.jurisdictions[jKey].variants[lang]) {
+				if (jurisDesc.jurisdictions[jKey].variants[lang].name) {
+					arr[pos][1] = jurisDesc.jurisdictions[jKey].variants[lang].name;
 				}
 			}
 			arr[pos] = arr[pos].concat(getCourtsInContext(stringIndex, obj, lang));

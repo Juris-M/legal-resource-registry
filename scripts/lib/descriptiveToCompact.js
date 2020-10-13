@@ -53,7 +53,7 @@ const setAbbrevData = (obj, lang, passthroughs) => {
 	return ret;
 }
 	
-const processJurisAbbrevs = (jurisID, jurisDesc) => {
+const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 	var langs = [""].concat(getLangs(jurisDesc, "abbrevs"));
 	for (var lang of langs) {
 		var ret = JSON.parse(JSON.stringify(abbrevTemplate));
@@ -172,7 +172,7 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 			var oldXdata = JSON.stringify(JSON.parse(fs.readFileSync(pathName).toString()).xdata).trim();
 		}
 		var newXdata = JSON.stringify(ret.xdata).trim();
-		if (newXdata !== oldXdata) {
+		if (newXdata !== oldXdata || opts.force) {
 			console.log(`Writing ${pathName}`);
 			fs.writeFileSync(pathName, JSON.stringify(ret, null, 2));
 		}
@@ -276,7 +276,7 @@ const getLangs = (jurisDesc, key) => {
 	return ret;
 }
 
-const processJurisMaps = (jurisID, jurisDesc) => {
+const processJurisMaps = (opts, jurisID, jurisDesc) => {
 	// In Jurism DB
 	// 46964|at:innsbruck:innsbruck:silz|Austria|AT|Innsbruck|Innsbruck|Silz|5
 	//
@@ -309,7 +309,7 @@ const processJurisMaps = (jurisID, jurisDesc) => {
 		var curTxt = fs.readFileSync(pathName).toString().trim();
 	}
 	var newTxt = JSON.stringify(ret).trim();
-	if (newTxt !== curTxt) {
+	if (newTxt !== curTxt || opts.force) {
 		fs.writeFileSync(pathName, newTxt);
 		var versions_json = fs.readFileSync(path.join(config.path.jurisMapDir, `versions.json`)).toString();
 		var versions = JSON.parse(versions_json);
@@ -356,8 +356,8 @@ async function descriptiveToCompact(opts) {
 		var json = eol.lf(json);
 		var jurisDesc = JSON.parse(json);
 		console.log(jurisID);
-		processJurisAbbrevs(jurisID, jurisDesc);
-		processJurisMaps(jurisID, jurisDesc);
+		processJurisAbbrevs(opts, jurisID, jurisDesc);
+		processJurisMaps(opts, jurisID, jurisDesc);
 	}
 	rewriteAbbrevsDirectoryListing();
 }

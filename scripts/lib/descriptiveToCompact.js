@@ -65,11 +65,15 @@ const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 			}
 			var allcapsJurisdictionKey = jKey.toUpperCase();
 			ret.xdata.default.place[allcapsJurisdictionKey] = jObj.name;
+			var setAbbrev = false;
 			if (jObj.abbrev) {
+				setAbbrev = true;
 				ret.xdata.default.place[allcapsJurisdictionKey] = jObj.abbrev;
 			}
 			if (jObj.variants && jObj.variants[lang]) {
-				ret.xdata.default.place[allcapsJurisdictionKey] = jObj.variants[lang].name;
+				if (!setAbbrev) {
+					ret.xdata.default.place[allcapsJurisdictionKey] = jObj.variants[lang].name;
+				}
 				if (jObj.variants[lang].abbrev) {
 					ret.xdata.default.place[allcapsJurisdictionKey] = jObj.variants[lang].abbrev;
 				}

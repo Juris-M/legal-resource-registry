@@ -7,60 +7,60 @@
   "courts": {
     "arbg": {
       "name": "Arbeitsgericht",
-      "ABBREV": "ArbG"
+      "ABBREV": "ArbG %s"
     },
     "sg": {
       "name": "Sozialgericht",
-      "ABBREV": "SG"
+      "ABBREV": "SG %s"
     },
     "vg": {
       "name": "Verwaltungsgericht",
-      "ABBREV": "VG"
+      "ABBREV": "VG %s"
     },
     "ag": {
       "name": "Amtsgericht",
-      "ABBREV": "AG"
+      "ABBREV": "AG %s"
     },
     "lg": {
       "name": "Landgericht",
-      "ABBREV": "LG"
+      "ABBREV": "LG %s"
     },
     "olg": {
       "name": "Oberlandesgericht",
-      "ABBREV": "OLG"
+      "ABBREV": "OLG %s"
     },
     "fg": {
       "name": "Finanzgericht",
-      "ABBREV": "FG",
+      "ABBREV": "FG %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Tax Court"
+          "abbrev": "Tax Court %s"
         }
       }
     },
     "lag": {
       "name": "Landesarbeitsgericht",
-      "ABBREV": "LAG"
+      "ABBREV": "LAG %s"
     },
     "lsg": {
       "name": "Landessozialgericht",
-      "ABBREV": "LSG"
+      "ABBREV": "LSG %s"
     },
     "verfgh": {
       "name": "Verfassungsgerichtshof",
-      "ABBREV": "VerfGH"
+      "ABBREV": "VerfGH %s"
     },
     "vgh": {
       "name": "Verwaltungsgerichtshof",
-      "ABBREV": "VGH"
+      "ABBREV": "VGH %s"
     },
     "bayoblg": {
       "name": "Oberstes Landesgericht",
-      "ABBREV": "OLG"
+      "ABBREV": "ObLG %s"
     },
     "ovg": {
       "name": "Oberverwaltungsgericht",
-      "ABBREV": "OVG"
+      "ABBREV": "OVG %s"
     },
     "kg": {
       "name": "Kammergericht",
@@ -68,15 +68,15 @@
     },
     "verfg": {
       "name": "Verfassungsgericht",
-      "ABBREV": "VerfG"
+      "ABBREV": "VerfG %s"
     },
     "stgh": {
       "name": "Staatsgerichtshof",
-      "ABBREV": "StGH"
+      "ABBREV": "StGH %s"
     },
     "lverfg": {
       "name": "Landesverfassungsgericht",
-      "ABBREV": "LVerfG"
+      "ABBREV": "LVerfG %s"
     },
     "bag": {
       "name": "Bundesarbeitsgericht",
@@ -1116,7 +1116,10 @@
     "de:bayern": {
       "name": "Bayern",
       "courts": {
-        "bayoblg": {},
+        "bayoblg": {
+          "name": "Bayrisches Oberstes Landesgericht",
+          "ABBREV": "BayObLG"
+        },
         "lsg": {},
         "verfgh": {},
         "vgh": {}

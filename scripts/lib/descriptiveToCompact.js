@@ -23,6 +23,9 @@ const setAbbrevData = (obj, lang, passthroughs) => {
 		passthroughs = [];
 	}
 	var ret = {};
+	if ("undefined" === typeof obj) {
+		throw new Error(`Undefined object in setAbbrevData()`);
+	}
 	if (obj.name) {
 		ret.abbrev = obj.name;
 	}
@@ -60,6 +63,9 @@ const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 		// Add jurisdiction abbrevs to return object
 		for (var jKey in jurisDesc.jurisdictions) {
 			var jObj = jurisDesc.jurisdictions[jKey];
+			if ("undefined" === typeof jObj) {
+				throw new Error(`Undefined jObj from ${jKey} in processJurisAbbrevs()`);
+			}
 			if (jKey.indexOf(":") === -1) {
 				ret.name = jObj.name;
 			}
@@ -110,13 +116,22 @@ const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 		// Resolve courts in context into ret.jurisdictions
 		for (var jKey in data.jurisdictions) {
 			var jObj = data.jurisdictions[jKey];
+			if ("undefined" === typeof jObj) {
+				throw new Error(`Undefined jObj from ${jKey} in data.jurisdictions loop of processJurisAbbrevs`);
+			}
 			jabbrev = jObj.abbrev;
 			jABBREV = jObj.ABBREV;
 			if (jObj.courts) {
 				for (var cKey in jObj.courts) {
+					if ("undefined" === typeof data.courts[cKey]) {
+						throw new Error(`Undefined data.courts[cKey] from cKey=${cKey} in processJurisAbbrevs`);
+					}
 					cabbrev = data.courts[cKey].abbrev;
 					cABBREV = data.courts[cKey].ABBREV;
 					var cObj = jObj.courts[cKey];
+					if ("undefined" === typeof cObj) {
+						throw new Error(`Undefined cObj from cKey=${cKey} in processJurisAbbrevs`);
+					}
 					if (cObj.abbrev) {
 						cabbrev = cObj.abbrev;
 					}

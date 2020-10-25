@@ -368,8 +368,21 @@ async function descriptiveToCompact(opts) {
 
 const rewriteAbbrevsDirectoryListing = () => {
 	var outPath = path.join(config.path.jurisAbbrevsDir, "DIRECTORY_LISTING.json");
+	// Three passes. One to pick up the importable files, another to pick up the parent auto files, and a third to add variants.
+	var ret = [];
+	for (var filename of fs.readdirSync(config.path.jurisAbbrevsDir)) {
+		var m = filename.match(/(.*).json/);
+		if (!m) continue;
+		if (m[1].slice(0, 5) === "auto-" || m[1].slice(0, 3) === "DIR") {
+			continue;
+		}
+		var obj = JSON.parse(fs.readFileSync(path.join(config.path.jurisAbbrevsDir, filename)).toString());
+		ret.push({
+			filename: filename,
+			name: obj.name
+		});
+	}
 	var acc = {};
-	// Two passes. One to pick up the main files, and a second to add variants.
 	for (var filename of fs.readdirSync(config.path.jurisAbbrevsDir)) {
 		var m = filename.match(/^auto-([^-]+).json/);
 		if (!m) continue;
@@ -395,7 +408,6 @@ const rewriteAbbrevsDirectoryListing = () => {
 		acc[jurisdiction].variants[variant] = obj.version;
 	}
 	// Compose as array and write
-	var ret = [];
 	for (var key in acc) {
 		ret.push(acc[key]);
 	}

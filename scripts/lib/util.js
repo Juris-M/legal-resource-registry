@@ -112,7 +112,7 @@ function writeAbbrevData(opts, jurisID, abbrevVariantName, abbrevs) {
 				}
 			}
 		}
-		fs.writeFileSync(dirlistPath, JSON.stringify(allinfo, null, 2));
+		// fs.writeFileSync(dirlistPath, JSON.stringify(allinfo, null, 2));
 		fs.writeFileSync(path.join(config.path.jurisAbbrevsDir, fileName), JSON.stringify(abbrevs, null, 2));
 	}
 }

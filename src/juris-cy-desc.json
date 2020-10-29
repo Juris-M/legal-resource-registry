@@ -9,7 +9,7 @@
       "name": "Επαρχιακά Δικαστήρια",
       "variants": {
         "enIBFD": {
-          "abbrev": "District Court %s"
+          "abbrev": "DC %s [District Court]"
         }
       }
     },
@@ -41,7 +41,7 @@
       "name": "Ανώτατο Δικαστήριο",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Court"
+          "abbrev": "SC [Supreme Court]"
         }
       }
     }

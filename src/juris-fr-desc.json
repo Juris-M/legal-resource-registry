@@ -10,7 +10,7 @@
       "abbrev": "Cass.",
       "variants": {
         "enIBFD": {
-          "abbrev": "Court of Cassation"
+          "abbrev": "CC [Court of Cassation]"
         }
       }
     },
@@ -53,7 +53,7 @@
       "name": "Conseil d'État",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Administrative Court"
+          "abbrev": "CE [Supreme Administrative Court]"
         }
       }
     },
@@ -86,16 +86,16 @@
       "abbrev": "C.A.A. %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Administrative Court of Appeals %s"
+          "abbrev": "CAA %s [Administrative Court of Appeals]"
         }
       }
     },
     "ta": {
       "name": "Tribunal administratif",
-      "abbrev": "TA %",
+      "abbrev": "TA %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Administrative Tribunal %s"
+          "abbrev": "TA %s [Administrative Tribunal]"
         }
       }
     }

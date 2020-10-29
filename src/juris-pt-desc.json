@@ -30,7 +30,7 @@
       "ABBREV": "STA",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Administrative Court"
+          "abbrev": "STA [Supreme Administrative Court]"
         }
       }
     },
@@ -39,7 +39,7 @@
       "ABBREV": "TCAN",
       "variants": {
         "enIBFD": {
-          "abbrev": "Central Administrative Courts – North"
+          "abbrev": "TCA %s [Central Administrative Courts – North]"
         }
       }
     },
@@ -48,7 +48,7 @@
       "ABBREV": "TCAS",
       "variants": {
         "enIBFD": {
-          "abbrev": "Central Administrative Courts – South"
+          "abbrev": "TCA %s [Central Administrative Courts – South]"
         }
       }
     },
@@ -62,7 +62,7 @@
       "name": "Administrativo e Fiscal",
       "variants": {
         "enIBFD": {
-          "abbrev": "Administrative Court of First Instance %s"
+          "abbrev": "TAF %s [Administrative Court of First Instance]"
         }
       }
     },
@@ -73,7 +73,7 @@
       "name": "Administrativo e Fiscal",
       "variants": {
         "enIBFD": {
-          "abbrev": "Administrative Court of First Instance %s"
+          "abbrev": "TAF %s [Administrative Court of First Instance]"
         }
       }
     },

@@ -15,7 +15,7 @@
       "name": "ΔΙΟΙΚΗΤΙΚΑ ΠΡΩΤΟΔΙΚΕΙΑ",
       "variants": {
         "enIBFD": {
-          "abbrev": "Administrative Court of First Instance %s"
+          "abbrev": "DP %s [Administrative Court of First Instance]"
         }
       }
     },
@@ -23,7 +23,7 @@
       "name": "ΔΙΟΙΚΗΤΙΚΑ ΕΦΕΤΕΙΑ",
       "variants": {
         "enIBFD": {
-          "abbrev": "Administrative Court of Appeal %s"
+          "abbrev": "DE %s [Administrative Court of Appeal]"
         }
       }
     },
@@ -37,7 +37,7 @@
       "name": "Συμβούλιο της Επικρατείας",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Administrative Court"
+          "abbrev": "SE [Supreme Administrative Court]"
         }
       }
     },

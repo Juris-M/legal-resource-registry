@@ -15,13 +15,26 @@
       "name": "Tingsrätt"
     },
     "regeringsratten": {
-      "name": "Regeringsrätten"
+      "name": "Regeringsrätten",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "RÅ [Supreme Administrative Court]"
+        }
+      }
+    },
+    "hogsta.forvaltningsdomstolen": {
+      "name": "Högsta förvaltningsdomstolen",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "HFD [Supreme Administrative Court]"
+        }
+      }
     },
     "kammarratten": {
       "name": "Kammarrätten",
       "variants": {
         "enIBFD": {
-          "abbrev": "Administrative Court of Appeal %s"
+          "abbrev": "KR %s [Administrative Court of Appeal]"
         }
       }
     },
@@ -29,7 +42,7 @@
       "name": "Förvaltningsrätten",
       "variants": {
         "enIBFD": {
-          "abbrev": "Administrative Court %s"
+          "abbrev": "FR %s [Administrative Court]"
         }
       }
     },
@@ -64,6 +77,7 @@
       "courts": {
         "hogsta": {},
         "regeringsratten": {},
+        "hogsta.forvaltningsdomstolen": {},
         "arbetsdomstolen": {},
         "patent.marknadsdomstolen": {},
         "fosvarsunderrattelsedomstolen": {}

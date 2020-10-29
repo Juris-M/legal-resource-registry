@@ -9,7 +9,7 @@
       "name": "Byret %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "District Court %s"
+          "abbrev": "BR %s [District Court]"
         }
       }
     },
@@ -17,7 +17,7 @@
       "name": "Vestre Landsret",
       "variants": {
         "enIBFD": {
-          "abbrev": "High Court of Western Denmark"
+          "abbrev": "VLR [High Court of Western Denmark]"
         }
       }
     },
@@ -25,7 +25,7 @@
       "name": "Østre Landsret",
       "variants": {
         "enIBFD": {
-          "abbrev": "High Court of Eastern Denmark"
+          "abbrev": "ØLR [High Court of Eastern Denmark]"
         }
       }
     },
@@ -46,7 +46,7 @@
       "abbrev": "H",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Court"
+          "abbrev": "HR [Supreme Court]"
         }
       }
     },
@@ -60,7 +60,7 @@
       "name": "Skatterådet",
       "variants": {
         "enIBFD": {
-          "abbrev": "National Tax Board"
+          "abbrev": "SR [National Tax Board]"
         }
       }
     },
@@ -68,7 +68,7 @@
       "name": "Landsskatteretten",
       "variants": {
         "enIBFD": {
-          "abbrev": "National Tax Tribunal"
+          "abbrev": "LSR [National Tax Tribunal]"
         }
       }
     }

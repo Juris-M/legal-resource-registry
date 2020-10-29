@@ -1,8 +1,17 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "high.court": {
-      "name": "High Court"
+      "name": "High Court",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "NZHC %s"
+        }
+      }
     },
     "land.court": {
       "name": "Land Court"
@@ -17,7 +26,12 @@
       "name": "Broadcasting Standards Authority"
     },
     "ca": {
-      "name": "Court Appeal"
+      "name": "Court Appeal",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "NZCA"
+        }
+      }
     },
     "caa": {
       "name": "Customs Appeal Authority"
@@ -68,7 +82,12 @@
       "name": "Student Allowance Appeal Authority"
     },
     "sc": {
-      "name": "Supreme Court"
+      "name": "Supreme Court",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "NZSC"
+        }
+      }
     },
     "shd": {
       "name": "Licensing Authority Of Secondhand Dealers And Pawnbrokers"
@@ -77,7 +96,12 @@
       "name": "Social Security Appeal Authority"
     },
     "tra": {
-      "name": "Taxation Review Authority"
+      "name": "Taxation Review Authority",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "NZTRA"
+        }
+      }
     }
   },
   "jurisdictions": {

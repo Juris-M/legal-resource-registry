@@ -18,7 +18,7 @@
       "name": "Woj. Sąd Administracyjny %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Regional Administrative Court %s"
+          "abbrev": "WSA %s [Regional Administrative Court]"
         }
       }
     },
@@ -26,7 +26,7 @@
       "name": "Najwyższy Sąd Administracyjny",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Administrative Court"
+          "abbrev": "NSA [Supreme Administrative Court]"
         }
       }
     },

@@ -16,7 +16,7 @@
       "ABBREV": "TS",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Court"
+          "abbrev": "TS [Supreme Court]"
         }
       }
     },
@@ -36,7 +36,7 @@
       "ABBREV": "TSJ %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "High Court of Justice %s"
+          "abbrev": "TSJ %s [High Court of Justice]"
         }
       }
     },
@@ -46,7 +46,7 @@
       "ABBREV": "AN",
       "variants": {
         "enIBFD": {
-          "abbrev": "National Court"
+          "abbrev": "AN [National Court]"
         }
       }
     },
@@ -56,7 +56,7 @@
       "ABBREV": "AP %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Provincial Court %s"
+          "abbrev": "AP %s [Provincial Court]"
         }
       }
     },
@@ -69,6 +69,16 @@
       "name": "Juzgado de lo Mercantil",
       "abbrev": "Juzgado de lo Mercantil de %s",
       "ABBREV": "JM %s"
+    },
+    "teac": {
+      "name": "Tribunal económico administrativo central",
+      "abbrev": "Tribunal económico administrativo central",
+      "ABBREV": "TEAC",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "TEAC [Central Economic-Administrative Court]"
+        }
+      }
     }
   },
   "jurisdictions": {
@@ -79,7 +89,8 @@
         "ts": {},
         "rmc": {},
         "dgrn": {},
-        "tc": {}
+        "tc": {},
+        "teac": {}
       }
     },
     "es:andalucia": {

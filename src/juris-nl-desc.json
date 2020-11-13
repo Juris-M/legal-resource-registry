@@ -10,7 +10,7 @@
 			"abbrev": "HR",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Court"
+          "abbrev": "HR [Supreme Court]"
         }
       }
 		},
@@ -18,7 +18,7 @@
 			"name": "%s Gerechtshof",
       "variants": {
         "enIBFD": {
-          "abbrev": "Court of Appeal %s"
+          "abbrev": "Hof %s [Court of Appeal]"
         }
       }
 		},
@@ -26,7 +26,7 @@
 			"name": "%s Rechtbank",
       "variants": {
         "enIBFD": {
-          "abbrev": "District Court %s"
+          "abbrev": "Rb %s [District Court]"
         }
       }
 		},
@@ -38,7 +38,7 @@
 			"abbrev": "CRvB",
       "variants": {
         "enIBFD": {
-          "abbrev": "Central Board of Appeal"
+          "abbrev": "CRB [Central Board of Appeal]"
         }
       }
 		},
@@ -51,7 +51,7 @@
 			"abbrev": "RvS",
       "variants": {
         "enIBFD": {
-          "abbrev": "Council of State"
+          "abbrev": "RvS [Council of State]"
         }
       }
 		}
@@ -73,14 +73,24 @@
 			"comment": "< 2013 >",
 			"courts": {
 				"gerechtshof": {}
-			}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "A"
+        }
+      }
 		},
 		"nl:amsterdam:amsterdam": {
 			"name": "Amsterdam",
 			"comment": "< 2013 >",
 			"courts": {
 				"rechtbank": {}
-			}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "A"
+        }
+      }
 		},
 		"nl:amsterdam:haarlem": {
 			"name": "Haarlem",
@@ -108,7 +118,12 @@
 			"comment": "2013 >",
 			"courts": {
 				"rechtbank": {}
-			}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "NH"
+        }
+      }
 		},
 		"nl:arnhem": {
 			"name": "Arnhem",
@@ -178,20 +193,35 @@
 			"comment": "2013 >",
 			"courts": {
 				"gerechtshof": {}
-			}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "A-L"
+        }
+      }
 		},
 		"nl:arnhem.leeuwarden:gelderland": {
 			"name": "Gelderland",
 			"comment": "2013 >",
 			"courts": {
 				"rechtbank": {}
-			}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "GLD"
+        }
+      }
 		},
 		"nl:arnhem.leeuwarden:midden.nederland": {
 			"name": "Midden-Nederland",
 			"comment": "2013 >",
 			"courts": {
 				"rechtbank": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "MN"
+        }
 			}
 		},
 		"nl:arnhem.leeuwarden:noord.nederland": {
@@ -199,6 +229,11 @@
 			"comment": "2013 >",
 			"courts": {
 				"rechtbank": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "NN"
+        }
 			}
 		},
 		"nl:arnhem.leeuwarden:overijssel": {
@@ -206,6 +241,11 @@
 			"comment": "2013 >",
 			"courts": {
 				"rechtbank": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "OV"
+        }
 			}
 		},
 		"nl:gravenhage": {
@@ -213,6 +253,11 @@
 			"comment": "< 2013 >",
 			"courts": {
 				"gerechtshof": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "DH"
+        }
 			}
 		},
 		"nl:gravenhage:gravenhage": {
@@ -220,6 +265,11 @@
 			"comment": "< 2013 >",
 			"courts": {
 				"rechtbank": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "DH"
+        }
 			}
 		},
 		"nl:gravenhage:rotterdam": {
@@ -227,6 +277,11 @@
 			"comment": "< 2013 >",
 			"courts": {
 				"rechtbank": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "R."
+        }
 			}
 		},
 		"nl:gravenhage:dordrecht": {
@@ -241,6 +296,11 @@
 			"comment": "< 2013 >",
 			"courts": {
 				"gerechtshof": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "DB"
+        }
 			}
 		},
 		"nl:hertogenbosch:hertogenbosch": {
@@ -276,6 +336,11 @@
 			"comment": "2013 >",
 			"courts": {
 				"rechtbank": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "L"
+        }
 			}
 		},
 		"nl:hertogenbosch:oost.brabant": {
@@ -283,6 +348,11 @@
 			"comment": "2013 >",
 			"courts": {
 				"rechtbank": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "OB"
+        }
 			}
 		},
 		"nl:hertogenbosch:zeeland-west-brabant": {
@@ -290,6 +360,11 @@
 			"comment": "2013 >",
 			"courts": {
 				"rechtbank": {}
+			},
+			"variants": {
+        "enIBFD": {
+          "abbrev": "ZWB"
+        }
 			}
 		}
 	}

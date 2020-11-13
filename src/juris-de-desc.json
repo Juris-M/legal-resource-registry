@@ -34,7 +34,7 @@
       "ABBREV": "FG %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Tax Court %s"
+          "abbrev": "FG %s [Tax Court]"
         }
       }
     },
@@ -87,7 +87,7 @@
       "ABBREV": "BFH",
       "variants": {
         "enIBFD": {
-          "abbrev": "Federal Tax Court"
+          "abbrev": "BFH [Federal Tax Court]"
         }
       }
     },

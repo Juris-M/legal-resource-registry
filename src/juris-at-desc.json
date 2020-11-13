@@ -10,7 +10,7 @@
       "abbrev": "LVwG %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Regional Administrative Court %s"
+          "abbrev": "LVwG %s [Regional Administrative Court]"
         }
       }
     },
@@ -19,7 +19,7 @@
       "abbrev": "BG %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "District Court %s"
+          "abbrev": "BG %s [District Court]"
         }
       }
     },
@@ -28,7 +28,7 @@
       "abbrev": "LGS %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Regional Criminal Court %s"
+          "abbrev": "LGS %s [Regional Criminal Court]"
         }
       }
     },
@@ -37,7 +37,7 @@
       "abbrev": "LGZ %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Regional Civil Court %s"
+          "abbrev": "LGZ %s [Regional Civil Court]"
         }
       }
     },
@@ -46,7 +46,7 @@
       "abbrev": "LG %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Regional Court %s"
+          "abbrev": "LG %s [Regional Court]"
         }
       }
     },
@@ -55,24 +55,34 @@
       "abbrev": "OLG %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Higher Regional Court %s"
+          "abbrev": "OLG %s [Higher Regional Court]"
         }
       }
     },
     "asg": {
       "name": "Arbeits und Sozialgericht",
-      "abbrev": "ASG %s"
+      "abbrev": "ASG %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "ASG %s [Labour and Social Court]"
+        }
+      }
     },
     "hg": {
       "name": "Handelsgericht",
-      "abbrev": "HG %s"
+      "abbrev": "HG %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "HG %s [Commercial Court]"
+        }
+      }
     },
     "vgw": {
       "name": "Verwaltungsgericht",
       "abbrev": "VGW",
       "variants": {
         "enIBFD": {
-          "abbrev": "Regional Administrative Court %s"
+          "abbrev": "VGW [Regional Administrative Court]"
         }
       }
     },
@@ -81,7 +91,7 @@
       "abbrev": "BFG",
       "variants": {
         "enIBFD": {
-          "abbrev": "Federal Tax Court"
+          "abbrev": "BFG [Federal Tax Court]"
         }
       }
     },
@@ -90,7 +100,7 @@
       "abbrev": "BVwG",
       "variants": {
         "enIBFD": {
-          "abbrev": "Federal Administrative Court"
+          "abbrev": "BVwG [Federal Administrative Court]"
         }
       }
     },
@@ -99,7 +109,7 @@
       "abbrev": "OGH",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Court"
+          "abbrev": "OGH [Supreme Court]"
         }
       }
     },
@@ -108,7 +118,7 @@
       "abbrev": "VfGH",
       "variants": {
         "enIBFD": {
-          "abbrev": "Constitutional Court"
+          "abbrev": "VfGH [Constitutional Court]"
         }
       }
     },
@@ -117,7 +127,7 @@
       "abbrev": "VwGH",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Administrative Court"
+          "abbrev": "VwGH [Supreme Administrative Court]"
         }
       }
     },
@@ -130,7 +140,7 @@
       "abbrev": "UVS %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Independent Administrative Senate"
+          "abbrev": "UVS %s [Independent Administrative Senate]"
         }
       }
     },
@@ -143,7 +153,7 @@
       "abbrev": "UFS",
       "variants": {
         "enIBFD": {
-          "abbrev": "Independent Finance Senate"
+          "abbrev": "UFS [Independent Finance Senate]"
         }
       }
     },

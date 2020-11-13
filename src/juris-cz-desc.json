@@ -10,7 +10,7 @@
       "abbrev": "Krajský soud %s",
       "variants": {
         "enIBFD": {
-          "abbrev": "Regional Court %s"
+          "abbrev": "KS %s [Regional Court]"
         }
       }
     },
@@ -35,7 +35,7 @@
       "abbrev": "Nejvyšší soud",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Court"
+          "abbrev": "NS [Supreme Court]"
         }
       }
     },
@@ -44,7 +44,7 @@
       "abbrev": "Nejvyšší správní soud",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Administrative Court"
+          "abbrev": "NSS [Supreme Administrative Court]"
         }
       }
     },
@@ -53,7 +53,7 @@
       "abbrev": "Ústavní soud",
       "variants": {
         "enIBFD": {
-          "abbrev": "Constitutional Court"
+          "abbrev": "US [Constitutional Court]"
         }
       }
     }

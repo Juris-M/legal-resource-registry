@@ -9,7 +9,7 @@
       "name": "Corte Suprema di Cassazione",
       "variants": {
         "enIBFD": {
-          "abbrev": "Supreme Court"
+          "abbrev": " Cass. [Supreme Court]"
         }
       }
     },
@@ -20,7 +20,7 @@
       "name": "Corte Costituzionale",
       "variants": {
         "enIBFD": {
-          "abbrev": "Constitutional Court"
+          "abbrev": "C. Cost. [Constitutional Court]"
         }
       }
     },
@@ -37,15 +37,25 @@
       "name": "Commissione Tributaria Centrale",
       "variants": {
         "enIBFD": {
-          "abbrev": "Central Tax Court"
+          "abbrev": "CTC [Central Tax Court]"
         }
       }
     },
     "ctp": {
-      "name": "Commissione Tributaria Provinciale di %s"
+      "name": "Commissione Tributaria Provinciale di %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "CTP %s [First Instance Tax Court]"
+        }
+      }
     },
     "ctr": {
-      "name": "Commissione Tributaria Regionale di %s"
+      "name": "Commissione Tributaria Regionale di %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "CTR %s [Tax Court of Appeal]"
+        }
+      }
     },
     "tar": {
       "name": "Tribunale Administrativo Regionale di %s"

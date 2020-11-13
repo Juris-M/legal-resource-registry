@@ -99,7 +99,8 @@
 					"name": "UK Supreme Court",
 					"abbrev": "UKSC"
 				},
-				"uksiac": {}
+				"uksiac": {},
+				"ukut.iac": {}
 			}
 		},
 		"gb:bermuda": {

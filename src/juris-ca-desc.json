@@ -115,7 +115,7 @@
     "municipal.courts": {
       "name": "Municipal Courts",
       "abbrev": "%s Mun Ct",
-      "ABBREV": "%sCCM",
+      "ABBREV": "%sCM",
       "variants": {
         "fr": {
           "name": "Cours municipales",

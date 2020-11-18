@@ -115,10 +115,11 @@
     "municipal.courts": {
       "name": "Municipal Courts",
       "abbrev": "%s Mun Ct",
+      "ABBREV": "%sCM",
       "variants": {
         "fr": {
           "name": "Cours municipales",
-          "abbrev": "CM %s"
+          "abbrev": "CM %s"          
         }
       }
     },
@@ -507,13 +508,7 @@
             }
           }
         },
-        "municipal.courts": {
-          "variants": {
-            "fr": {
-              "ABBREV": "%sCM"
-            }
-          }
-        }
+        "municipal.courts": {}
       },
       "variants": {
         "fr": {

@@ -1,6 +1,16 @@
 {
   "langs": {},
   "courts": {
+      "cwcc": {
+		  "name": "Court of Workers' Compensation Claims",
+		  "abbrev": "%s Ct. Work. Comp. Cl.",
+		  "ABBREV": "%s WC"
+	  },
+      "wcab": {
+		  "name": "Workers' Compensation Appeals Board",
+		  "abbrev": "%s Work. Comp. App. Bd.",
+		  "ABBREV": "%s WC App."
+	  },
     "tribunal.supremo": {
       "name": "Tribunal Supremo",
       "abbrev": "%s Tr. Sup."
@@ -2468,13 +2478,16 @@
     "us:tn": {
       "name": "Tennessee",
       "abbrev": "Tenn.",
+      "ABBREV": "TN",
       "courts": {
         "court.appeals": {},
         "court.criminal.appeals": {},
         "superior.court.law.equity": {},
         "supreme.court": {
           "abbrev_select": "jurisdiction"
-        }
+        },
+        "cwcc": {},
+        "wcab": {}
       }
     },
     "us:tn.d": {

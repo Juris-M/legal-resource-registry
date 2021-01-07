@@ -85,6 +85,10 @@
       "name": "Bundesarbeitsgericht",
       "ABBREV": "BAG"
     },
+    "bdig": {
+      "name": "Bundesdisziplinargericht",
+      "ABBREV": "BDiG"
+    },
     "bfh": {
       "name": "Bundesfinanzhof",
       "ABBREV": "BFH",
@@ -250,6 +254,7 @@
       "name": "Germany",
       "courts": {
         "bag": {},
+        "bdig": {},
         "bfh": {},
         "bgh": {},
         "bgh~zs1": {},

@@ -83,7 +83,8 @@
     },
     "bag": {
       "name": "Bundesarbeitsgericht",
-      "ABBREV": "BAG"
+      "ABBREV": "BAG",
+      "abbrev": "BAGE"
     },
     "bdig": {
       "name": "Bundesdisziplinargericht",
@@ -92,6 +93,7 @@
     "bfh": {
       "name": "Bundesfinanzhof",
       "ABBREV": "BFH",
+      "abbrev": "BFHE",
       "variants": {
         "enIBFD": {
           "abbrev": "BFH [Federal Tax Court]"
@@ -169,15 +171,18 @@
     },
     "bpatg": {
       "name": "Bundespatentgericht",
-      "ABBREV": "BPatG"
+      "ABBREV": "BPatG",
+      "abbrev": "BPatGE"
     },
     "bsg": {
       "name": "Bundessozialgericht",
-      "ABBREV": "BSG"
+      "ABBREV": "BSG",
+      "abbrev": "BSGE"
     },
     "bverfg": {
       "name": "Bundesverfassungsgericht",
       "ABBREV": "BVerfG",
+      "abbrev": "BVerfGE",
       "variants": {
         "enIBFD": {
           "abbrev": "BVerfG [Federal Constitutional Court]"
@@ -194,7 +199,8 @@
     },
     "bverwg": {
       "name": "Bundesverwaltungsgericht",
-      "ABBREV": "BVerwG"
+      "ABBREV": "BVerwG",
+      "abbrev": "BVerwGE"
     },
     "bverwg~1": {
       "name": "Bundesverwaltungsgericht|1. Revisionssenat",
@@ -291,6 +297,17 @@
         "gms-ogb": {},
         "trdg.nord": {},
         "trdg.sud": {}
+      },
+      "container-title": {
+        "BAGE": "#1!authority>>>BAGE",
+        "BFHE": "#1!authority>>>BFHE",
+        "BGHZ": "#1!authority>>>BGHZ",
+        "BGHSt": "#1!authority>>>BGHSt",
+        "BPatGE": "#1!authority>>>BPatGE",
+        "BSGE": "#1!authority>>>BSGE",
+        "BVerfGE": "#1!authority>>>BVerfGE",
+        "BVerwGE": "#1!authority>>>BVerwGE",
+        "Buchholz": "#2>>>Buchholz"
       }
     },
     "de:baden.wurttemberg": {

@@ -1,5 +1,8 @@
 {
   "langs": {
+    "deAlt": [
+      "abbrevs"
+    ],
     "enIBFD": [
       "abbrevs"
     ]
@@ -277,12 +280,29 @@
     },
     "de:baden.wurttemberg": {
       "name": "Baden-Württemberg",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "BW"
+        }
+      },
       "courts": {
         "fg": {},
         "lag": {},
         "lsg": {},
-        "verfgh": {},
-        "vgh": {}
+        "stgh": {
+          "comment": "< 2015"
+        },
+        "verfgh": {
+          "comment": "> 2015"
+        },
+        "vgh": {
+          "ABBREV": "VGH Mannheim",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "VGH BW"
+            }
+          }
+        }
       }
     },
     "de:baden.wurttemberg:freiburg": {
@@ -1120,9 +1140,28 @@
           "name": "Bayrisches Oberstes Landesgericht",
           "ABBREV": "BayObLG"
         },
-        "lsg": {},
-        "verfgh": {},
-        "vgh": {}
+        "lsg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "BayLSG"
+            }
+          }
+        },
+        "verfgh": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "BayVerfGH"
+            }
+          }
+        },
+        "vgh": {
+          "ABBREV": "VGH München",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "BayVGH"
+            }
+          }
+        }
       }
     },
     "de:bayern:ansbach": {
@@ -1687,7 +1726,9 @@
       "name": "Nürnberg",
       "courts": {
         "arbg": {},
-        "lg": {}
+        "lg": {
+          "ABBREV": "LG Nürnberg-Fürth"
+        }
       }
     },
     "de:bayern:nurnberg:nurnberg:erlangen": {
@@ -1803,19 +1844,49 @@
     },
     "de:berlin": {
       "name": "Berlin",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Bln"
+        }
+      },
       "courts": {
+        "fg": {
+          "comment": "< 2007"
+        },
         "kg": {},
+        "lag": {
+          "comment": "< 2007"
+        },
         "lg": {},
+        "lsg": {
+          "comment": "< 2005"
+        },
+        "ovg": {
+          "comment": "< 2005"
+        },
         "verfgh": {}
       }
     },
     "de:berlin.brandenburg": {
       "name": "Berlin-Brandenburg",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Bln-Bbg"
+        }
+      },
       "courts": {
-        "fg": {},
-        "lag": {},
-        "lsg": {},
-        "ovg": {}
+        "fg": {
+          "comment": "> 2007"
+        },
+        "lag": {
+          "comment": "> 2007"
+        },
+        "lsg": {
+          "comment": "> 2005"
+        },
+        "ovg": {
+          "comment": "> 2005"
+        }
       }
     },
     "de:berlin.brandenburg:berlin": {
@@ -1937,8 +2008,31 @@
     },
     "de:brandenburg": {
       "name": "Brandenburg",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Bbg"
+        }
+      },
       "courts": {
+        "fg": {
+          "comment": "< 2007"
+        },
+        "lag": {
+          "comment": "< 2007"
+        },
+        "lsg": {
+          "comment": "< 2005"
+        },
         "olg": {},
+        "ovg": {
+          "ABBREV": "OVG Frankfurt (Oder)",
+          "comment": "< 2005",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "OVG Bbg"
+            }
+          }
+        },
         "verfg": {}
       }
     },
@@ -2112,11 +2206,19 @@
     },
     "de:bremen": {
       "name": "Bremen",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Brem"
+        }
+      },
       "courts": {
         "arbg": {},
         "fg": {},
         "lag": {},
         "lg": {},
+        "lsg": {
+          "comment": "< 2005"
+        },
         "olg": {},
         "ovg": {},
         "stgh": {},
@@ -2143,6 +2245,11 @@
     },
     "de:hamburg": {
       "name": "Hamburg",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Hmb"
+        }
+      },
       "courts": {
         "arbg": {},
         "fg": {},
@@ -2150,9 +2257,21 @@
         "lg": {},
         "lsg": {},
         "olg": {},
-        "ovg": {},
+        "ovg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "HmbOVG"
+            }
+          }
+        },
         "sg": {},
-        "verfg": {},
+        "verfg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "HmbVerfG"
+            }
+          }
+        },
         "vg": {}
       }
     },
@@ -2206,13 +2325,45 @@
     },
     "de:hessen": {
       "name": "Hessen",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Hess"
+        }
+      },
       "courts": {
-        "fg": {},
-        "lag": {},
-        "lsg": {},
-        "olg": {},
+        "fg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "HessFG"
+            }
+          }
+        },
+        "lag": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "HessLAG"
+            }
+          }
+        },
+        "lsg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "HessLSG"
+            }
+          }
+        },
+        "olg": {
+          "ABBREV": "OLG Frankfurt a. M."
+        },
         "stgh": {},
-        "vgh": {}
+        "vgh": {
+          "ABBREV": "VGH Kassel",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "HessVGH"
+            }
+          }
+        }
       }
     },
     "de:hessen:darmstadt": {
@@ -2292,6 +2443,7 @@
     },
     "de:hessen:frankfurt.am.main": {
       "name": "Frankfurt am Main",
+      "ABBREV": "Frankfurt a. M.",
       "courts": {
         "arbg": {},
         "lg": {},
@@ -2541,13 +2693,27 @@
     },
     "de:mecklenburg.vorpommern": {
       "name": "Mecklenburg-Vorpommern",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "MV"
+        }
+      },
       "courts": {
         "fg": {},
         "lag": {},
         "lsg": {},
         "lverfg": {},
-        "olg": {},
-        "ovg": {}
+        "olg": {
+          "ABBREV": "OLG Rostock"
+        },
+        "ovg": {
+          "ABBREV": "OVG Greifswald",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "OVG MV"
+            }
+          }
+        }
       }
     },
     "de:mecklenburg.vorpommern:greifswald": {
@@ -2650,17 +2816,51 @@
     },
     "de:niedersachsen": {
       "name": "Niedersachsen",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Nds"
+        }
+      },
       "courts": {
-        "fg": {},
+        "fg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "NdsFG"
+            }
+          }
+        },
         "lag": {},
-        "ovg": {},
-        "stgh": {}
+        "lsg": {
+          "comment": "< 2005"
+        },
+        "ovg": {
+          "ABBREV": "OVG Lüneburg",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "NdsOVG"
+            }
+          }
+        },
+        "stgh": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "NdsStGH"
+            }
+          }
+        }
       }
     },
     "de:niedersachsen.bremen": {
       "name": "Niedersachsen-Bremen",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Nds-Brem"
+        }
+      },
       "courts": {
-        "lsg": {}
+        "lsg": {
+          "comment": "> 2005"
+        }
       }
     },
     "de:niedersachsen.bremen:aurich": {
@@ -3365,9 +3565,21 @@
     },
     "de:nordrhein.westfalen": {
       "name": "Nordrhein-Westfalen",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "NRW"
+        }
+      },
       "courts": {
         "lsg": {},
-        "ovg": {},
+        "ovg": {
+          "ABBREV": "OVG Münster",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "OVG NRW"
+            }
+          }
+        },
         "verfgh": {}
       }
     },
@@ -4435,11 +4647,23 @@
     },
     "de:rheinland.pfalz": {
       "name": "Rheinland-Pfalz",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "RhPf"
+        }
+      },
       "courts": {
         "fg": {},
         "lag": {},
         "lsg": {},
-        "ovg": {},
+        "ovg": {
+          "ABBREV": "OVG Koblenz",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "OVG RhPf"
+            }
+          }
+        },
         "verfgh": {}
       }
     },
@@ -4823,75 +5047,94 @@
       }
     },
     "de:saarland": {
-      "name": "Saarbrücken",
+      "name": "Saarland",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Saarl"
+        }
+      },
       "courts": {
-        "arbg": {},
         "fg": {},
         "lag": {},
-        "lg": {},
         "lsg": {},
-        "olg": {},
-        "ovg": {},
-        "sg": {},
-        "verfgh": {},
-        "vg": {}
-      }
-    },
-    "de:saarland:homburg": {
-      "name": "Homburg",
-      "courts": {
-        "ag": {}
-      }
-    },
-    "de:saarland:ingbert": {
-      "name": "Ingbert",
-      "courts": {
-        "ag": {}
-      }
-    },
-    "de:saarland:lebach": {
-      "name": "Lebach",
-      "courts": {
-        "ag": {}
-      }
-    },
-    "de:saarland:merzig": {
-      "name": "Merzig",
-      "courts": {
-        "ag": {}
-      }
-    },
-    "de:saarland:neunkirchen": {
-      "name": "Neunkirchen",
-      "courts": {
-        "ag": {}
-      }
-    },
-    "de:saarland:ottweiler": {
-      "name": "Ottweiler",
-      "courts": {
-        "ag": {}
+        "olg": {
+          "ABBREV": "OLG Saarbrücken"
+        },
+        "ovg": {
+          "ABBREV": "OVG Saarlouis",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "OVG Saarl"
+            }
+          }
+        },
+        "verfgh": {}
       }
     },
     "de:saarland:saarbrucken": {
       "name": "Saarbrücken",
       "courts": {
+        "arbg": {},
+        "lg": {},
+        "sg": {},
+        "vg": {}
+      }
+    },
+    "de:saarland:saarbrucken:homburg": {
+      "name": "Homburg",
+      "courts": {
         "ag": {}
       }
     },
-    "de:saarland:saarlouis": {
+    "de:saarland:saarbrucken:ingbert": {
+      "name": "Ingbert",
+      "courts": {
+        "ag": {}
+      }
+    },
+    "de:saarland:saarbrucken:lebach": {
+      "name": "Lebach",
+      "courts": {
+        "ag": {}
+      }
+    },
+    "de:saarland:saarbrucken:merzig": {
+      "name": "Merzig",
+      "courts": {
+        "ag": {}
+      }
+    },
+    "de:saarland:saarbrucken:neunkirchen": {
+      "name": "Neunkirchen",
+      "courts": {
+        "ag": {}
+      }
+    },
+    "de:saarland:saarbrucken:ottweiler": {
+      "name": "Ottweiler",
+      "courts": {
+        "ag": {}
+      }
+    },
+    "de:saarland:saarbrucken:saarbrucken": {
+      "name": "Saarbrücken",
+      "courts": {
+        "ag": {}
+      }
+    },
+    "de:saarland:saarbrucken:saarlouis": {
       "name": "Saarlouis",
       "courts": {
         "ag": {}
       }
     },
-    "de:saarland:volklingen": {
+    "de:saarland:saarbrucken:volklingen": {
       "name": "Völklingen",
       "courts": {
         "ag": {}
       }
     },
-    "de:saarland:wendel": {
+    "de:saarland:saarbrucken:wendel": {
       "name": "Wendel",
       "courts": {
         "ag": {}
@@ -4899,24 +5142,70 @@
     },
     "de:sachsen": {
       "name": "Sachsen",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "Sachs"
+        }
+      },
       "courts": {
-        "fg": {},
-        "lag": {},
-        "lsg": {},
-        "olg": {},
-        "ovg": {},
+        "fg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "SächsFG"
+            }
+          }
+        },
+        "lag": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "SächsLAG"
+            }
+          }
+        },
+        "lsg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "SächsLSG"
+            }
+          }
+        },
+        "olg": {
+          "ABBREV": "OLG Dresden"
+        },
+        "ovg": {
+          "ABBREV": "OVG Bautzen",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "SächsOVG"
+            }
+          }
+        },
         "verfgh": {}
       }
     },
     "de:sachsen.anhalt": {
       "name": "Sachsen-Anhalt",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "LSA"
+        }
+      },
       "courts": {
         "fg": {},
         "lag": {},
         "lsg": {},
         "lverfg": {},
-        "olg": {},
-        "ovg": {}
+        "olg": {
+          "ABBREV": "OLG Naumburg"
+        },
+        "ovg": {
+          "ABBREV": "OVG Magdeburg",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "OVG LSA"
+            }
+          }
+        }
       }
     },
     "de:sachsen.anhalt:dessau.rosslau": {
@@ -5300,13 +5589,45 @@
     },
     "de:schleswig.holstein": {
       "name": "Schleswig-Holstein",
+      "variants": {
+        "deAlt": {
+          "ABBREV": "SchlH"
+        }
+      },
       "courts": {
-        "fg": {},
+        "fg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "SchlHFG"
+            }
+          }
+        },
         "lag": {},
-        "lsg": {},
-        "lverfg": {},
-        "olg": {},
-        "ovg": {}
+        "lsg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "SchlHLSG"
+            }
+          }
+        },
+        "lverfg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "SchlHLVerfG"
+            }
+          }
+        },
+        "olg": {
+          "ABBREV": "OLG Schleswig"
+        },
+        "ovg": {
+          "ABBREV": "OVG Schleswig",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "SchlHOVG"
+            }
+          }
+        }
       }
     },
     "de:schleswig.holstein:elmshorn": {
@@ -5493,12 +5814,45 @@
     "de:thuringen": {
       "name": "Thüringen",
       "courts": {
-        "fg": {},
-        "lag": {},
-        "lsg": {},
-        "olg": {},
-        "ovg": {},
-        "verfgh": {}
+        "fg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "ThürFG"
+            }
+          }
+        },
+        "lag": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "ThürLAG"
+            }
+          }
+        },
+        "lsg": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "ThürLSG"
+            }
+          }
+        },
+        "olg": {
+          "ABBREV": "OLG Jena"
+        },
+        "ovg": {
+          "ABBREV": "OVG Weimar",
+          "variants": {
+            "deAlt": {
+              "ABBREV": "ThürOVG"
+            }
+          }
+        },
+        "verfgh": {
+          "variants": {
+            "deAlt": {
+              "ABBREV": "ThürVerfGH"
+            }
+          }
+        }
       }
     },
     "de:thuringen:altenburg": {

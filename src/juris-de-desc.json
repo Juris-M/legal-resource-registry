@@ -96,7 +96,12 @@
     },
     "bgh": {
       "name": "Bundesgerichtshof",
-      "ABBREV": "BGH"
+      "ABBREV": "BGH",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "BGH [Federal Court of Justice]"
+        }
+      }
     },
     "bgh~zs1": {
       "name": "Bundesgerichtshof|Zivilsenate I",
@@ -168,7 +173,12 @@
     },
     "bverfg": {
       "name": "Bundesverfassungsgericht",
-      "ABBREV": "BVerfG"
+      "ABBREV": "BVerfG",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "BVerfG [Federal Constitutional Court]"
+        }
+      }
     },
     "bverfg~1": {
       "name": "Bundesverfassungsgericht|Erster Senat",

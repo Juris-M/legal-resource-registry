@@ -307,7 +307,9 @@
         "BSGE": "#1!authority>>>BSGE",
         "BVerfGE": "#1!authority>>>BVerfGE",
         "BVerwGE": "#1!authority>>>BVerwGE",
-        "Buchholz": "#2>>>Buchholz"
+        "AP": "#2>>>AP",
+        "Buchholz": "#2>>>Buchholz",
+        "LM": "#2>>>LM"
       }
     },
     "de:baden.wurttemberg": {

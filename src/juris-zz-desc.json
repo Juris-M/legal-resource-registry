@@ -1,16 +1,57 @@
 {
-  "langs": {},
-  "courts": {
-    "sc": {
-      "name": "Supreme Court"
+    "langs": {
+        "fr": [
+            "ui",
+            "abbrevs"
+        ]
+    },
+    "courts": {
+        "ca": {
+            "name": "Court of Appeal",
+            "abbrev": "%s Ct. App.",
+            "ABBREV": "%sCA"
+        },
+        "sc": {
+            "name": "Supreme Court",
+            "abbrev": "Sup. Ct.",
+            "ABBREV": "SC",
+            "variants": {
+                "fr": {
+                    "name": "Cour suprême",
+                    "abbrev": "Cour sup.",
+                    "ABBREV": "CS"
+                }
+            }
+        }
+    },
+    "jurisdictions": {
+        "zz": {
+            "name": "Laputa",
+            "abbrev": "Lap.",
+            "variants": {
+                "fr": {}
+            },
+            "courts": {
+                "sc": {
+                    "variants": {
+                        "fr": {}
+                    }
+                }
+            }
+        },
+        "zz:atl": {
+            "name": "Atlantis",
+            "abbrev": "Atl.",
+            "ABBREV": "ATL",
+            "courts": {
+                "ca": {
+					"variants": {
+                        "fr": {
+                            "abbrev": "Cour d'app. Atlantienne"
+                        }
+                    }
+                }
+            }
+        }
     }
-  },
-  "jurisdictions": {
-    "zz": {
-      "name": "Atlantis",
-      "courts": {
-        "sc": {}
-      }
-    }
-  }
 }

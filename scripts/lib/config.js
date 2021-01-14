@@ -7,7 +7,6 @@ var handleError = require("./errors").handleError;
 var configFile = path.join(os.homedir(), ".jurisUpdate");
 
 var dirNames = [
-	"dataDir",
 	"jurisMapDir",
 	"jurisSrcDir",
 	"jurisAbbrevsDir"
@@ -21,7 +20,6 @@ function getConfig() {
 		config = {
 			path: {
 				jurisSrcDir: null,
-				dataDir: null,
 				jurisMapDir: null,
 				jurisAbbrevsDir: null
 			}
@@ -35,23 +33,14 @@ function getConfig() {
 		handleError(e);
 	}
 	
-	// TOO SLEEPY TO WORK!
-	
-	//if (!config.path.dataDir) {
-	//	var e = new Error("path.dataDir is undefined in " + configFile);
-	//	handleError(e);
-	//}
-	
-	if (!config.path.dataDir && (!config.path.jurisAbbrevsDir || !config.path.jurisMapDir)) {
-		var e = new Error(`path.dataDir is undefined in ${configFile}`);
-	}
-
 	if (!config.path.jurisAbbrevsDir) {
-		config.path.jurisAbbrevsDir = path.join(config.path.dataDir, "juris-abbrevs");
+		var e = new Error("path.jurisAbbrevsDir is undefined in " + configFile);
+		handleError(e);
 	}
 	
 	if (!config.path.jurisMapDir) {
-		config.path.jurisMapDir = path.join(config.path.dataDir, "juris-maps");
+		var e = new Error("path.jurisMapDir is undefined in " + configFile);
+		handleError(e);
 	}
 	
 	config.path.jurisVersionFile = path.join(config.path.jurisMapDir, "versions.json");

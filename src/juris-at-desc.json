@@ -7,7 +7,7 @@
   "courts": {
     "lvwg": {
       "name": "Landesverwaltungsgericht",
-      "abbrev": "LVwG %s",
+      "ABBREV": "LVwG %s",
       "variants": {
         "enIBFD": {
           "abbrev": "LVwG %s [Regional Administrative Court]"
@@ -16,7 +16,7 @@
     },
     "bg": {
       "name": "Bezirksgericht",
-      "abbrev": "BG %s",
+      "ABBREV": "BG %s",
       "variants": {
         "enIBFD": {
           "abbrev": "BG %s [District Court]"
@@ -25,7 +25,7 @@
     },
     "lgs": {
       "name": "Landesgericht für Strafsachen",
-      "abbrev": "LGS %s",
+      "ABBREV": "LGS %s",
       "variants": {
         "enIBFD": {
           "abbrev": "LGS %s [Regional Criminal Court]"
@@ -34,7 +34,7 @@
     },
     "lgzrs": {
       "name": "Landesgericht für Zivilrechtssachen",
-      "abbrev": "LGZ %s",
+      "ABBREV": "LGZ %s",
       "variants": {
         "enIBFD": {
           "abbrev": "LGZ %s [Regional Civil Court]"
@@ -43,7 +43,7 @@
     },
     "lg": {
       "name": "Landesgericht",
-      "abbrev": "LG %s",
+      "ABBREV": "LG %s",
       "variants": {
         "enIBFD": {
           "abbrev": "LG %s [Regional Court]"
@@ -52,7 +52,7 @@
     },
     "olg": {
       "name": "Oberlandesgericht",
-      "abbrev": "OLG %s",
+      "ABBREV": "OLG %s",
       "variants": {
         "enIBFD": {
           "abbrev": "OLG %s [Higher Regional Court]"
@@ -61,7 +61,7 @@
     },
     "asg": {
       "name": "Arbeits und Sozialgericht",
-      "abbrev": "ASG %s",
+      "ABBREV": "ASG %s",
       "variants": {
         "enIBFD": {
           "abbrev": "ASG %s [Labour and Social Court]"
@@ -70,7 +70,7 @@
     },
     "hg": {
       "name": "Handelsgericht",
-      "abbrev": "HG %s",
+      "ABBREV": "HG %s",
       "variants": {
         "enIBFD": {
           "abbrev": "HG %s [Commercial Court]"
@@ -79,7 +79,7 @@
     },
     "vgw": {
       "name": "Verwaltungsgericht",
-      "abbrev": "VGW",
+      "ABBREV": "VGW",
       "variants": {
         "enIBFD": {
           "abbrev": "VGW [Regional Administrative Court]"
@@ -88,7 +88,7 @@
     },
     "bfg": {
       "name": "Bundesfinanzgericht",
-      "abbrev": "BFG",
+      "ABBREV": "BFG",
       "variants": {
         "enIBFD": {
           "abbrev": "BFG [Federal Tax Court]"
@@ -97,7 +97,7 @@
     },
     "bvwg": {
       "name": "Bundesverwaltungsgericht",
-      "abbrev": "BVwG",
+      "ABBREV": "BVwG",
       "variants": {
         "enIBFD": {
           "abbrev": "BVwG [Federal Administrative Court]"
@@ -106,7 +106,7 @@
     },
     "ogh": {
       "name": "Oberster Gerichtshof",
-      "abbrev": "OGH",
+      "ABBREV": "OGH",
       "variants": {
         "enIBFD": {
           "abbrev": "OGH [Supreme Court]"
@@ -115,7 +115,8 @@
     },
     "vfgh": {
       "name": "Verfassungsgerichtshof",
-      "abbrev": "VfGH",
+      "ABBREV": "VfGH",
+      "abbrev": "VfSlg",
       "variants": {
         "enIBFD": {
           "abbrev": "VfGH [Constitutional Court]"
@@ -124,7 +125,8 @@
     },
     "vwgh": {
       "name": "Verwaltungsgerichtshof",
-      "abbrev": "VwGH",
+      "ABBREV": "VwGH",
+      "abbrev": "VwSlg",
       "variants": {
         "enIBFD": {
           "abbrev": "VwGH [Supreme Administrative Court]"
@@ -133,11 +135,11 @@
     },
     "asylgh": {
       "name": "Asylgerichtshof",
-      "abbrev": "AsylGH"
+      "ABBREV": "AsylGH"
     },
     "uvs": {
       "name": "Unabhängiger Verwaltungssenat",
-      "abbrev": "UVS %s",
+      "ABBREV": "UVS %s",
       "variants": {
         "enIBFD": {
           "abbrev": "UVS %s [Independent Administrative Senate]"
@@ -146,11 +148,11 @@
     },
     "ubas": {
       "name": "Unabhängiger Bundesasylsenat",
-      "abbrev": "UBAS"
+      "ABBREV": "UBAS"
     },
     "ufs": {
       "name": "Unabhängiger Finanzsenat",
-      "abbrev": "UFS",
+      "ABBREV": "UFS",
       "variants": {
         "enIBFD": {
           "abbrev": "UFS [Independent Finance Senate]"
@@ -159,23 +161,23 @@
     },
     "dsk": {
       "name": "Datenschutzkommission",
-      "abbrev": "DSK"
+      "ABBREV": "DSK"
     },
     "dsb": {
       "name": "Datenschutzbehörde",
-      "abbrev": "DSB"
+      "ABBREV": "DSB"
     },
     "bvga": {
       "name": "Bundesvergabeamt",
-      "abbrev": "BVA"
+      "ABBREV": "BVA"
     },
     "opms": {
       "name": "Oberster Patent- und Markensenat",
-      "abbrev": "OPMS"
+      "ABBREV": "OPMS"
     },
     "bwb": {
       "name": "Bundeswettbewerbsbehörde",
-      "abbrev": "BWB"
+      "ABBREV": "BWB"
     }
   },
   "jurisdictions": {

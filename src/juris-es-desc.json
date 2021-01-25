@@ -1,3590 +1,3589 @@
 {
-  "langs": {
-    "enIBFD": [
-      "abbrevs"
-    ]
-  },
-  "courts": {
-    "tc": {
-      "name": "Tribunal Constitucional",
-      "abbrev": "Tribunal Constitucional",
-      "ABBREV": "TC"
-    },
-    "ts": {
-      "name": "Tribunal Supremo",
-      "abbrev": "Tribunal Supremo",
-      "ABBREV": "TS",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "TS [Supreme Court]"
-        }
-      }
-    },
-    "rmc": {
-      "name": "Registro Mercantil Central",
-      "abbrev": "Registro Mercantil Central",
-      "ABBREV": "RMC"
-    },
-    "dgrn": {
-      "name": "Direccion General de los Registros y del Notariado",
-      "abbrev": "Dirección General de los Registros y del Notariado",
-      "ABBREV": "DGRN"
-    },
-    "tsj": {
-      "name": "Tribunal Superior de Justicia",
-      "abbrev": "Tribunal Superior de Justicia de %s",
-      "ABBREV": "TSJ %s",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "TSJ %s [High Court of Justice]"
-        }
-      }
-    },
-    "an": {
-      "name": "Audiencia Nacional",
-      "abbrev": "Audiencia Nacional",
-      "ABBREV": "AN",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "AN [National Court]"
-        }
-      }
-    },
-    "ap": {
-      "name": "Audiencia Provincial",
-      "abbrev": "Audiencia Provincial de %s",
-      "ABBREV": "AP %s",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "AP %s [Provincial Court]"
-        }
-      }
-    },
-    "jpi": {
-      "name": "Juzgado de 1a Instancia",
-      "abbrev": "Juzgado de 1ª Instancia de %s",
-      "ABBREV": "JPI %s"
-    },
-    "jm": {
-      "name": "Juzgado de lo Mercantil",
-      "abbrev": "Juzgado de lo Mercantil de %s",
-      "ABBREV": "JM %s"
-    },
-    "teac": {
-      "name": "Tribunal económico administrativo central",
-      "abbrev": "Tribunal económico administrativo central",
-      "ABBREV": "TEAC",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "TEAC [Central Economic-Administrative Court]"
-        }
-      }
-    }
-  },
-  "jurisdictions": {
-    "es": {
-      "name": "Spain",
-      "abbrev": "Spain",
-      "courts": {
-        "ts": {},
-        "rmc": {},
-        "dgrn": {},
-        "tc": {},
-        "teac": {}
-      }
-    },
-    "es:andalucia": {
-      "name": "Andalucia, Ceuta y Melilla",
-      "abbrev": "Andalucía",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:andalucia:almeria": {
-      "name": "Almeria",
-      "abbrev": "Almería",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:andalucia:almeria:almeria": {
-      "name": "Almeria",
-      "abbrev": "Almería",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:andalucia:almeria:berja": {
-      "name": "Berja",
-      "abbrev": "Berja",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:almeria:purchena": {
-      "name": "Purchena",
-      "abbrev": "Purchena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:almeria:vera": {
-      "name": "Vera",
-      "abbrev": "Vera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:almeria:ejido": {
-      "name": "El Ejido",
-      "abbrev": "El Ejido",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:almeria:roquetas.mar": {
-      "name": "Roquetas de Mar",
-      "abbrev": "Roquetas de Mar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:almeria:huercal.overa": {
-      "name": "Huercal Overa",
-      "abbrev": "Huercal Overa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:almeria:velez.rubio": {
-      "name": "Velez Rubio",
-      "abbrev": "Vélez Rubio",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz": {
-      "name": "Cadiz",
-      "abbrev": "Cádiz",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:andalucia:cadiz:algeciras": {
-      "name": "Algeciras",
-      "abbrev": "Algeciras",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:jerez.frontera": {
-      "name": "Jerez de la Frontera",
-      "abbrev": "Jeréz de la Frontera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:puerto.santa.maria": {
-      "name": "El puerto de Santa Maria",
-      "abbrev": "El puerto de Santa María",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:arcos.frontera": {
-      "name": "Arcos de la Frontera",
-      "abbrev": "Arcos de la Frontera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:barbate": {
-      "name": "Barbate",
-      "abbrev": "Barbate",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:puerto.real": {
-      "name": "Puerto Real",
-      "abbrev": "Puerto Real",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:san.roque": {
-      "name": "San Roque",
-      "abbrev": "San Roque",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:chiclana.frontera": {
-      "name": "Chiclana de la Frontera",
-      "abbrev": "Chiclana de la Frontera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:rota": {
-      "name": "Rota",
-      "abbrev": "Rota",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:sanlucar.barrameda": {
-      "name": "Sanlucar de Barrameda",
-      "abbrev": "Sanlúcar de Barrameda",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:linea.concepcion": {
-      "name": "La linea de la Concepcion",
-      "abbrev": "La línea de la Concepción",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:san.fernando": {
-      "name": "San Fernando",
-      "abbrev": "San Fernándo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cadiz:ubrique": {
-      "name": "Ubrique",
-      "abbrev": "Ubrique",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba": {
-      "name": "Cordoba",
-      "abbrev": "Córdoba",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:andalucia:cordoba:cordoba": {
-      "name": "Cordoba",
-      "abbrev": "Córdoba",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:aguilar.frontera": {
-      "name": "Aguilar de la Frontera",
-      "abbrev": "Aguilar de la Frontera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:lucena": {
-      "name": "Lucena",
-      "abbrev": "Lucena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:penarroya.pueblonuevo": {
-      "name": "Penarroya Pueblonuevo",
-      "abbrev": "Peñarroya Pueblonuevo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:priego.cordoba": {
-      "name": "Priego de Cordoba",
-      "abbrev": "Priego de Córdoba",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:baena": {
-      "name": "Baena",
-      "abbrev": "Baena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:montilla": {
-      "name": "Montilla",
-      "abbrev": "Montilla",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:posadas": {
-      "name": "Posadas",
-      "abbrev": "Posadas",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:puente.genil": {
-      "name": "Puente Genil",
-      "abbrev": "Puente Genil",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:cabra": {
-      "name": "Cabra",
-      "abbrev": "Cabra",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:montoro": {
-      "name": "Montoro",
-      "abbrev": "Montoro",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:cordoba:pozoblanco": {
-      "name": "Pozoblanco",
-      "abbrev": "Pozoblanco",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada": {
-      "name": "Granada",
-      "abbrev": "Granada",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:andalucia:granada:granada": {
-      "name": "Granada",
-      "abbrev": "Granada",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada:motril": {
-      "name": "Motril",
-      "abbrev": "Motril",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada:almunecar": {
-      "name": "Almunecar",
-      "abbrev": "Almuñecar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada:baza": {
-      "name": "Baza",
-      "abbrev": "Baza",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada:loja": {
-      "name": "Loja",
-      "abbrev": "Loja",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada:guadix": {
-      "name": "Guadix",
-      "abbrev": "Guadix",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada:orgiva": {
-      "name": "Orgiva",
-      "abbrev": "Orgiva",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada:huescar": {
-      "name": "Huescar",
-      "abbrev": "Huéscar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:granada:santa.fe": {
-      "name": "Santa Fe",
-      "abbrev": "Santa Fé",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:huelva": {
-      "name": "Huelva",
-      "abbrev": "Huelva",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:andalucia:huelva:huelva": {
-      "name": "Huelva",
-      "abbrev": "Huelva",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:huelva:aracena": {
-      "name": "Aracena",
-      "abbrev": "Aracena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:huelva:moguer": {
-      "name": "Moguer",
-      "abbrev": "Moguer",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:huelva:ayamonte": {
-      "name": "Ayamonte",
-      "abbrev": "Ayamonte",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:huelva:valverde.camino": {
-      "name": "Valverde del Camino",
-      "abbrev": "Valverde del Camino",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:huelva:palma.condado": {
-      "name": "La Palma del Condado",
-      "abbrev": "La Palma del Condado",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen": {
-      "name": "Jaen",
-      "abbrev": "Jaén",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:andalucia:jaen:jaen": {
-      "name": "Jaen",
-      "abbrev": "Jaén",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:alcala.real": {
-      "name": "Alcala la Real",
-      "abbrev": "Alcalá la Real",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:cazorla": {
-      "name": "Cazorla",
-      "abbrev": "Cazorla",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:martos": {
-      "name": "Martos",
-      "abbrev": "Martos",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:andujar": {
-      "name": "Andujar",
-      "abbrev": "Andújar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:carolina": {
-      "name": "La Carolina",
-      "abbrev": "La Carolina",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:ubeda": {
-      "name": "Ubeda ",
-      "abbrev": "Úbeda ",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:baeza": {
-      "name": "Baeza",
-      "abbrev": "Baeza",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:linares": {
-      "name": "Linares",
-      "abbrev": "Linares",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:jaen:villacarrillo": {
-      "name": "Villacarrillo ",
-      "abbrev": "Villacarrillo ",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga": {
-      "name": "Malaga",
-      "abbrev": "Málaga",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:andalucia:malaga:malaga": {
-      "name": "Malaga",
-      "abbrev": "Málaga",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:fuengirola": {
-      "name": "Fuengirola",
-      "abbrev": "Fuengirola",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:marbella": {
-      "name": "Marbella",
-      "abbrev": "Marbella",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:torremolinos": {
-      "name": "Torremolinos",
-      "abbrev": "Torremolinos",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:antequerra": {
-      "name": "Antequerra",
-      "abbrev": "Antequerra",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:estepona": {
-      "name": "Estepona",
-      "abbrev": "Estepona",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:velez.malaga": {
-      "name": "Velez Malaga",
-      "abbrev": "Vélez Málaga",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:archidona": {
-      "name": "Archidona",
-      "abbrev": "Archidona",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:ronda": {
-      "name": "Ronda",
-      "abbrev": "Ronda",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:coin": {
-      "name": "Coin",
-      "abbrev": "Coín",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:malaga:torrox": {
-      "name": "Torrox",
-      "abbrev": "Torrox",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla": {
-      "name": "Sevilla",
-      "abbrev": "Sevilla",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:andalucia:sevilla:sevilla": {
-      "name": "Sevilla",
-      "abbrev": "Sevilla",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:alcala.guadaira": {
-      "name": "Alcala de Guadaira",
-      "abbrev": "Alcalá de Guadaíra",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:coria.rio": {
-      "name": "Coria del Rio",
-      "abbrev": "Coria del Río",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:carmona": {
-      "name": "Carmona",
-      "abbrev": "Carmona",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:dos.hermanas": {
-      "name": "Dos Hermanas",
-      "abbrev": "Dos Hermanas",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:cazalla.sierra": {
-      "name": "Cazalla de la Sierra",
-      "abbrev": "Cazalla de la Sierra",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:ezija": {
-      "name": "Ezija",
-      "abbrev": "Ézija",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:estepa": {
-      "name": "Estepa",
-      "abbrev": "Estepa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:marchena": {
-      "name": "Marchena",
-      "abbrev": "Marchena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:sanlucar.mayor": {
-      "name": "Sanlucar la Mayor",
-      "abbrev": "Sanlúcar la Mayor",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:lebrija": {
-      "name": "Lebrija",
-      "abbrev": "Lebrija",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:moron.frontera": {
-      "name": "Moron de la Frontera",
-      "abbrev": "Morón de la Frontera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:utrera": {
-      "name": "Utrera",
-      "abbrev": "Utrera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:lora.rio": {
-      "name": "Lora del Rio",
-      "abbrev": "Lora del Río",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:ceuta": {
-      "name": "Ceuta",
-      "abbrev": "Ceuta",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:andalucia:sevilla:melilla": {
-      "name": "Melilla",
-      "abbrev": "Melilla",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza": {
-      "name": "Zaragoza",
-      "abbrev": "Zaragoza",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:zaragoza:huesca": {
-      "name": "Huesca",
-      "abbrev": "Huesca",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:zaragoza:huesca:huesca": {
-      "name": "Huesca",
-      "abbrev": "Huesca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:huesca:barbastro": {
-      "name": "Barbastro",
-      "abbrev": "Barbastro",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:huesca:jaca": {
-      "name": "Jaca",
-      "abbrev": "Jaca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:huesca:boltana": {
-      "name": "Boltana",
-      "abbrev": "Boltaña",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:huesca:monzon": {
-      "name": "Monzon",
-      "abbrev": "Monzón",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:huesca:fraga": {
-      "name": "Fraga",
-      "abbrev": "Fraga",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:teruel": {
-      "name": "Teruel",
-      "abbrev": "Teruel",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:zaragoza:teruel:teruel": {
-      "name": "Teruel",
-      "abbrev": "Teruel",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:teruel:alcaniz": {
-      "name": "Alcaniz",
-      "abbrev": "Alcañiz",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:teruel:calamocha": {
-      "name": "Calamocha",
-      "abbrev": "Calamocha",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:zaragoza": {
-      "name": "Zaragoza",
-      "abbrev": "Zaragoza",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:zaragoza:zaragoza:zaragoza": {
-      "name": "Zaragoza",
-      "abbrev": "Zaragoza",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:zaragoza:calatayud": {
-      "name": "Calatayud",
-      "abbrev": "Calatayud",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:zaragoza:ejea.caballeros": {
-      "name": "Ejea de los Caballeros",
-      "abbrev": "Ejea de los Caballeros",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:zaragoza:caspe": {
-      "name": "Caspe",
-      "abbrev": "Caspe",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:zaragoza:almunia.dona.godina": {
-      "name": "La Almunia de Dona Godina",
-      "abbrev": "La Almunia de Doña Godina",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:zaragoza:daroca": {
-      "name": "Daroca",
-      "abbrev": "Daroca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:zaragoza:zaragoza:tarazona": {
-      "name": "Tarazona",
-      "abbrev": "Tarazona",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias": {
-      "name": "Principado de Asturias",
-      "abbrev": "Principado de Asturias",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:asturias:oviedo": {
-      "name": "Oviedo",
-      "abbrev": "Oviedo",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:asturias:oviedo:oviedo": {
-      "name": "Oviedo",
-      "abbrev": "Oviedo",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:gijon": {
-      "name": "Gijon",
-      "abbrev": "Gijón",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:aviles": {
-      "name": "Aviles",
-      "abbrev": "Avilés",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:langreo": {
-      "name": "Langreo",
-      "abbrev": "Langreo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:mieres": {
-      "name": "Mieres",
-      "abbrev": "Mieres",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:cangas.onis": {
-      "name": "Cangas de Onis",
-      "abbrev": "Cangas de Onís",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:grado": {
-      "name": "Grado",
-      "abbrev": "Grado",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:llanes": {
-      "name": "Llanes",
-      "abbrev": "Llanes",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:siero": {
-      "name": "Siero",
-      "abbrev": "Siero",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:villaviciosa": {
-      "name": "Villaviciosa",
-      "abbrev": "Villaviciosa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:cangas.narcea": {
-      "name": "Cangas del Narcea",
-      "abbrev": "Cangas del Narcea",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:laviana": {
-      "name": "Laviana",
-      "abbrev": "Laviana",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:pilona": {
-      "name": "Pilona",
-      "abbrev": "Piloña",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:tineo": {
-      "name": "Tineo",
-      "abbrev": "Tineo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:castropol": {
-      "name": "Castropol",
-      "abbrev": "Castropol",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:lena": {
-      "name": "Lena",
-      "abbrev": "Lena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:pravia": {
-      "name": "Pravia",
-      "abbrev": "Pravia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:asturias:oviedo:valdes": {
-      "name": "Valdes",
-      "abbrev": "Valdés",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:islas.baleares": {
-      "name": "Islas Baleares",
-      "abbrev": "Islas Baleares",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:islas.baleares:palma.mallorca": {
-      "name": "Palma de Mallorca",
-      "abbrev": "Palma de Mallorca",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:islas.baleares:palma.mallorca:palma.mallorca": {
-      "name": "Palma de Mallorca",
-      "abbrev": "Palma de Mallorca",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:islas.baleares:palma.mallorca:eivissa": {
-      "name": "Eivissa",
-      "abbrev": "Eivissa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:islas.baleares:palma.mallorca:ciutadella.menorca": {
-      "name": "Ciutadella de Menorca",
-      "abbrev": "Ciutadella de Menorca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:islas.baleares:palma.mallorca:inca": {
-      "name": "Inca",
-      "abbrev": "Inca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:islas.baleares:palma.mallorca:manacor": {
-      "name": "Manacor",
-      "abbrev": "Manacor",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:islas.baleares:palma.mallorca:mao.mahon": {
-      "name": "Mao-Mahon",
-      "abbrev": "Maó-Mahón",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias": {
-      "name": "Canarias",
-      "abbrev": "Canarias",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:canarias:palmas": {
-      "name": "Las Palmas",
-      "abbrev": "Las Palmas",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:canarias:palmas:palmas": {
-      "name": "Las Palmas",
-      "abbrev": "Las Palmas",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:canarias:palmas:arrecife": {
-      "name": "Arrecife",
-      "abbrev": "Arrecife",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:palmas:telde": {
-      "name": "Telde",
-      "abbrev": "Telde",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:palmas:puerto.rosario": {
-      "name": "Puerto del Rosario",
-      "abbrev": "Puerto del Rosario",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:palmas:san.bartolome.tirajana": {
-      "name": "San Bartolome de Tirajana",
-      "abbrev": "San Bartolomé de Tirajana",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:palmas:galdar": {
-      "name": "Galdar",
-      "abbrev": "Gáldar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:palmas:santa.maria.guia": {
-      "name": "Santa Maria de Guia de Gran Canaria",
-      "abbrev": "Santa María de Guía de Gran Canaria",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:palmas:arucas": {
-      "name": "Arucas",
-      "abbrev": "Arucas",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife": {
-      "name": "Santa Cruz de Tenerife",
-      "abbrev": "Santa Cruz de Tenerife",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:santa.cruz.tenerife": {
-      "name": "Santa Cruz de Tenerife",
-      "abbrev": "Santa Cruz de Tenerife",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:arona": {
-      "name": "Arona",
-      "abbrev": "Arona",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:san.cristobal.laguna": {
-      "name": "San Cristobal de La Laguna",
-      "abbrev": "San Cristóbal de La Laguna",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:granadilla.abona": {
-      "name": "Granadilla de Abona",
-      "abbrev": "Granadilla de Abona",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:guimar": {
-      "name": "Guimar",
-      "abbrev": "Güimar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:icod.vinos": {
-      "name": "Icod de los Vinos",
-      "abbrev": "Icod de los Vinos",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:orotafa": {
-      "name": "La Orotafa",
-      "abbrev": "La Orotafa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:llanos.aridane": {
-      "name": "Los Llanos de Aridane",
-      "abbrev": "Los Llanos de Aridane",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:puerto.cruz": {
-      "name": "Puerto de la Cruz",
-      "abbrev": "Puerto de la Cruz",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:san.sebastian.gomera": {
-      "name": "San Sebastian de La Gomera",
-      "abbrev": "San Sebastián de La Gomera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:canarias:santa.cruz.tenerife:valverde": {
-      "name": "Valverde",
-      "abbrev": "Valverde",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cantabria": {
-      "name": "Cantabria",
-      "abbrev": "Cantabria",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:cantabria:santander": {
-      "name": "Santander",
-      "abbrev": "Santander",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:cantabria:santander:santander": {
-      "name": "Santander",
-      "abbrev": "Santander",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:cantabria:santander:castro.urdiales": {
-      "name": "Castro Urdiales",
-      "abbrev": "Castro Urdiales",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cantabria:santander:reinosa": {
-      "name": "Reinosa",
-      "abbrev": "Reinosa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cantabria:santander:torrelavega": {
-      "name": "Torrelavega",
-      "abbrev": "Torrelavega",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cantabria:santander:laredo": {
-      "name": "Laredo",
-      "abbrev": "Laredo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cantabria:santander:san.vicente.barquera": {
-      "name": "San Vicente de la Barquera",
-      "abbrev": "San Vicente de la Barquera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cantabria:santander:medio.cudeyo": {
-      "name": "Medio Cudeyo",
-      "abbrev": "Medio Cudeyo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cantabria:santander:santona": {
-      "name": "Santona",
-      "abbrev": "Santoña",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon": {
-      "name": "Castilla y Leon",
-      "abbrev": "Castilla y León",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:castilla.y.leon:avila": {
-      "name": "Avila",
-      "abbrev": "Ávila",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:avila:arenas.san.pedro": {
-      "name": "Arenas de San Pedro",
-      "abbrev": "Arenas de San Pedro",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:avila:arevalo": {
-      "name": "Arevalo",
-      "abbrev": "Arévalo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:avila:piedrahita": {
-      "name": "Piedrahita",
-      "abbrev": "Piedrahita",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:burgos": {
-      "name": "Burgos",
-      "abbrev": "Burgos",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:burgos:burgos": {
-      "name": "Burgos",
-      "abbrev": "Burgos",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:burgos:aranda.duero": {
-      "name": "Aranda de Duero",
-      "abbrev": "Aranda de Duero",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:burgos:miranda.ebro": {
-      "name": "Miranda de Ebro",
-      "abbrev": "Miranda de Ebro",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:burgos:briviesca": {
-      "name": "Briviesca",
-      "abbrev": "Briviesca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:burgos:salas.infantes": {
-      "name": "Salas de los Infantes",
-      "abbrev": "Salas de los Infantes",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:burgos:lerma": {
-      "name": "Lerma",
-      "abbrev": "Lerma",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:burgos:villarcayo": {
-      "name": "Villarcayo",
-      "abbrev": "Villarcayo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:leon": {
-      "name": "Leon",
-      "abbrev": "León",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:leon:leon": {
-      "name": "Leon",
-      "abbrev": "León",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:leon:ponferrada": {
-      "name": "Ponferrada",
-      "abbrev": "Ponferrada",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:leon:astorga": {
-      "name": "Astorga",
-      "abbrev": "Astorga",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:leon:sahagun": {
-      "name": "Sahagun",
-      "abbrev": "Sahagún",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:leon:cistierna": {
-      "name": "Cistierna",
-      "abbrev": "Cistierna",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:leon:villablino": {
-      "name": "Villablino",
-      "abbrev": "Villablino",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:leon:baneza": {
-      "name": "La Baneza",
-      "abbrev": "La Bañeza",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:palencia": {
-      "name": "Palencia",
-      "abbrev": "Palencia",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:palencia:palencia": {
-      "name": "Palencia",
-      "abbrev": "Palencia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:palencia:carrion.condes": {
-      "name": "Carrion de los Condes",
-      "abbrev": "Carrión de los Condes",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:palencia:cervera.pisuerga": {
-      "name": "Cervera de Pisuerga",
-      "abbrev": "Cervera de Pisuerga",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:salamanca": {
-      "name": "Salamanca",
-      "abbrev": "Salamanca",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:salamanca:salamanca": {
-      "name": "Salamanca",
-      "abbrev": "Salamanca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:salamanca:bejar": {
-      "name": "Bejar",
-      "abbrev": "Béjar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:salamanca:penaranda.bracamonte": {
-      "name": "Penaranda de Bracamonte",
-      "abbrev": "Peñaranda de Bracamonte",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:salamanca:ciudad.rodrigo": {
-      "name": "Ciudad Rodrigo",
-      "abbrev": "Ciudad Rodrigo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:salamanca:vitigudino": {
-      "name": "Vitigudino",
-      "abbrev": "Vitigudino",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:segovia": {
-      "name": "Segovia",
-      "abbrev": "Segovia",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:segovia:segovia": {
-      "name": "Segovia",
-      "abbrev": "Segovia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:segovia:cuellar": {
-      "name": "Cuellar",
-      "abbrev": "Cuéllar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:segovia:santa.maria.real.nieva": {
-      "name": "Santa Maria la Real de Nieva",
-      "abbrev": "Santa María la Real de Nieva",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:segovia:sepulveda": {
-      "name": "Sepulveda",
-      "abbrev": "Sepúlveda",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:soria": {
-      "name": "Soria",
-      "abbrev": "Soria",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:soria:soria": {
-      "name": "Soria",
-      "abbrev": "Soria",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:soria:almazan": {
-      "name": "Almazan",
-      "abbrev": "Almazán",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:soria:burgo.osma": {
-      "name": "Burgo de Osma",
-      "abbrev": "Burgo de Osma",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:valladolid": {
-      "name": "Valladolid",
-      "abbrev": "Valladolid",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:valladolid:valladolid": {
-      "name": "Valladolid",
-      "abbrev": "Valladolid",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:valladolid:medina.rioseco": {
-      "name": "Medina de Rioseco",
-      "abbrev": "Medina de Ríoseco",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:valladolid:medina.campo": {
-      "name": "Medina del campo",
-      "abbrev": "Medina del campo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:zamora": {
-      "name": "Zamora",
-      "abbrev": "Zamora",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.y.leon:zamora:zamora": {
-      "name": "Zamora",
-      "abbrev": "Zamora",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:zamora:benavente": {
-      "name": "Benavente",
-      "abbrev": "Benavente",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:zamora:toro": {
-      "name": "Toro",
-      "abbrev": "Toro",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:zamora:puebla.sanabria": {
-      "name": "Puebla de Sanabria",
-      "abbrev": "Puebla de Sanabria",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.y.leon:zamora:villalpando": {
-      "name": "Villalpando",
-      "abbrev": "Villalpando",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha": {
-      "name": "Castilla-La Mancha",
-      "abbrev": "Castilla-La Mancha",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:castilla.la.mancha:albacete": {
-      "name": "Albacete",
-      "abbrev": "Albacete",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.la.mancha:albacete:albacete": {
-      "name": "Albacete",
-      "abbrev": "Albacete",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:albacete:alcaraz": {
-      "name": "Alcaraz",
-      "abbrev": "Alcaraz",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:albacete:hellin": {
-      "name": "Hellin",
-      "abbrev": "Hellín",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:albacete:almansa": {
-      "name": "Almansa",
-      "abbrev": "Almansa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:albacete:roda": {
-      "name": "La Roda",
-      "abbrev": "La Roda",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:albacete:casas.ibanez": {
-      "name": "Casas-Ibanez",
-      "abbrev": "Casas-Ibáñez",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:albacete:villarrobledo": {
-      "name": "Villarrobledo",
-      "abbrev": "Villarrobledo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real": {
-      "name": "Ciudad Real",
-      "abbrev": "Ciudad Real",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:ciudad.real": {
-      "name": "Ciudad Real",
-      "abbrev": "Ciudad Real",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:alcazar.san.juan": {
-      "name": "Alcazar de San Juan",
-      "abbrev": "Alcázar de San Juan",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:daimiel": {
-      "name": "Daimiel",
-      "abbrev": "Daimiel",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:tomelloso": {
-      "name": "Tomelloso",
-      "abbrev": "Tomelloso",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:almaden": {
-      "name": "Almaden",
-      "abbrev": "Almadén",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:manzanares": {
-      "name": "Manzanares",
-      "abbrev": "Manzanares",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:valdepenas": {
-      "name": "Valdepenas",
-      "abbrev": "Valdepeñas",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:almagro": {
-      "name": "Almagro",
-      "abbrev": "Almagro",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:puertollano": {
-      "name": "Puertollano",
-      "abbrev": "Puertollano",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:ciudad.real:villanueva.infantes": {
-      "name": "Villanueva de los Infantes",
-      "abbrev": "Villanueva de los Infantes",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:cuenca": {
-      "name": "Cuenca",
-      "abbrev": "Cuenca",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.la.mancha:cuenca:cuenca": {
-      "name": "Cuenca",
-      "abbrev": "Cuenca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:cuenca:motilla.palancar": {
-      "name": "Motilla del Palancar",
-      "abbrev": "Motilla del Palancar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:cuenca:san.clemente": {
-      "name": "San Clemente",
-      "abbrev": "San Clemente",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:cuenca:tarancon": {
-      "name": "Tarancon",
-      "abbrev": "Tarancón",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:guadalaraja": {
-      "name": "Guadalaraja",
-      "abbrev": "Guadalaraja",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.la.mancha:guadalaraja:guadalaraja": {
-      "name": "Guadalaraja",
-      "abbrev": "Guadalaraja",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:guadalaraja:molina.aragon": {
-      "name": "Molina de Aragon",
-      "abbrev": "Molina de Aragón",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:guadalaraja:siguenza": {
-      "name": "Siguenza",
-      "abbrev": "Sigüenza",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:toledo": {
-      "name": "Toledo",
-      "abbrev": "Toledo",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:castilla.la.mancha:toledo:toledo": {
-      "name": "Toledo",
-      "abbrev": "Toledo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:toledo:talavera.reina": {
-      "name": "Talavera de la Reina",
-      "abbrev": "Talavera de la Reina",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:toledo:ocana": {
-      "name": "Ocana",
-      "abbrev": "Ocaña",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:toledo:illescas": {
-      "name": "Illescas",
-      "abbrev": "Illescas",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:toledo:quintanar.orden": {
-      "name": "Quintanar de la Orden",
-      "abbrev": "Quintanar de la Orden",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:toledo:orgaz": {
-      "name": "Orgaz",
-      "abbrev": "Orgaz",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:castilla.la.mancha:toledo:torrijos": {
-      "name": "Torrijos",
-      "abbrev": "Torrijos",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna": {
-      "name": "Cataluna",
-      "abbrev": "Cataluña",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:cataluna:barcelona": {
-      "name": "Barcelona",
-      "abbrev": "Barcelona",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:cataluna:barcelona:barcelona": {
-      "name": "Barcelona",
-      "abbrev": "Barcelona",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:granollers": {
-      "name": "Granollers",
-      "abbrev": "Granollers",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:mataro": {
-      "name": "Mataro",
-      "abbrev": "Mataró",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:sabadell": {
-      "name": "Sabadell",
-      "abbrev": "Sabadell",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:terrassa": {
-      "name": "Terrassa",
-      "abbrev": "Terrassa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:manresa": {
-      "name": "Manresa",
-      "abbrev": "Manresa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:badalona": {
-      "name": "Badalona",
-      "abbrev": "Badalona",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:hospitalet.llobregat": {
-      "name": "Hospitalet de Llobregat",
-      "abbrev": "Hospitalet de Llobregat",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:arenys.mar": {
-      "name": "Arenys de Mar",
-      "abbrev": "Arenys de Mar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:vilanova.geltru": {
-      "name": "Vilanova i la Geltru",
-      "abbrev": "Vilanova i la Geltrú",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:san.feliu.llobregat": {
-      "name": "San Feliu de Llobregat",
-      "abbrev": "San Feliú de Llobregat",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:gava": {
-      "name": "Gava",
-      "abbrev": "Gavà",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:berga": {
-      "name": "Berga",
-      "abbrev": "Berga",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:cerdanyola.valles": {
-      "name": "Cerdanyola del Valles",
-      "abbrev": "Cerdanyola del Vallès",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:cornella.llobregat": {
-      "name": "Cornella de Llobregat",
-      "abbrev": "Cornellá de Llobregat",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:prat.llobregat": {
-      "name": "El Prat de Llobregat",
-      "abbrev": "El Prat de Llobregat",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:martorell": {
-      "name": "Martorell",
-      "abbrev": "Martorell",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:sant.boi.llobregat": {
-      "name": "Sant Boi de Llobregat",
-      "abbrev": "Sant Boi de Llobregat",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:vilafranca.penedes": {
-      "name": "Vilafranca del Penedes",
-      "abbrev": "Vilafranca del Penedés",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:esplugues.llobregat": {
-      "name": "Esplugues de Llobregat",
-      "abbrev": "Esplugues de Llobregat",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:mollet.valles": {
-      "name": "Mollet del Valles",
-      "abbrev": "Mollet del Vallés",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:santa.coloma.gramanet": {
-      "name": "Santa Coloma de Gramanet",
-      "abbrev": "Santa Coloma de Gramanet",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:igualada": {
-      "name": "Igualada",
-      "abbrev": "Igualada",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:rubi": {
-      "name": "Rubi",
-      "abbrev": "Rubí",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:barcelona:vic": {
-      "name": "Vic",
-      "abbrev": "Vic",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona": {
-      "name": "Girona",
-      "abbrev": "Girona",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:cataluna:girona:girona": {
-      "name": "Girona",
-      "abbrev": "Girona",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona:figueres": {
-      "name": "Figueres",
-      "abbrev": "Figueres",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona:blanes": {
-      "name": "Blanes",
-      "abbrev": "Blanes",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona:bisbal.emporda": {
-      "name": "La Bisbal d'Emporda",
-      "abbrev": "La Bisbal d'Empordà",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona:ripoll": {
-      "name": "Ripoll",
-      "abbrev": "Ripoll",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona:olot": {
-      "name": "Olot",
-      "abbrev": "Olot",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona:sant.feliu.guixols": {
-      "name": "Sant Feliu de Guixols",
-      "abbrev": "Sant Feliu de Guíxols",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona:puigcerda": {
-      "name": "Puigcerda",
-      "abbrev": "Puigcerdá",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:girona:santa.coloma.farners": {
-      "name": "Santa Coloma de Farners",
-      "abbrev": "Santa Coloma de Farners",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:lleida": {
-      "name": "Lleida",
-      "abbrev": "Lleida",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:cataluna:lleida:lleida": {
-      "name": "Lleida",
-      "abbrev": "Lleida",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:lleida:balaguer": {
-      "name": "Balaguer",
-      "abbrev": "Balaguer",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:lleida:solsona": {
-      "name": "Solsona",
-      "abbrev": "Solsona",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:lleida:cervera": {
-      "name": "Cervera",
-      "abbrev": "Cervera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:lleida:tremp": {
-      "name": "Tremp",
-      "abbrev": "Tremp",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:lleida:seu.urgell": {
-      "name": "La Seu d'Urgell",
-      "abbrev": "La Seu d'Urgell",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:lleida:vielha.e.mijaran": {
-      "name": "Vielha e Mijaran",
-      "abbrev": "Vielha e Mijaran",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:tarragona": {
-      "name": "Tarragona",
-      "abbrev": "Tarragona",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:cataluna:tarragona:tarragona": {
-      "name": "Tarragona",
-      "abbrev": "Tarragona",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:cataluna:tarragona:reus": {
-      "name": "Reus",
-      "abbrev": "Reus",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:tarragona:tortosa": {
-      "name": "Tortosa",
-      "abbrev": "Tortosa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:tarragona:vendrell": {
-      "name": "El Vendrell",
-      "abbrev": "El Vendrell",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:tarragona:amposta": {
-      "name": "Amposta",
-      "abbrev": "Amposta",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:tarragona:falset": {
-      "name": "Falset",
-      "abbrev": "Falset",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:tarragona:gandesa": {
-      "name": "Gandesa",
-      "abbrev": "Gandesa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:cataluna:tarragona:valls": {
-      "name": "Valls",
-      "abbrev": "Valls",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia": {
-      "name": "Comunidad Valenciana",
-      "abbrev": "Comunidad Valenciana",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:valencia:alicante": {
-      "name": "Alicante",
-      "abbrev": "Alicante",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:valencia:alicante:alicante": {
-      "name": "Alicante",
-      "abbrev": "Alicante",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:elche": {
-      "name": "Elche",
-      "abbrev": "Elche",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:benidorm": {
-      "name": "Benidorm",
-      "abbrev": "Benidorm",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:orihuela": {
-      "name": "Orihuela",
-      "abbrev": "Orihuela",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:torrevieja": {
-      "name": "Torrevieja",
-      "abbrev": "Torrevieja",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:denia": {
-      "name": "Denia",
-      "abbrev": "Denia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:villena": {
-      "name": "Villena",
-      "abbrev": "Villena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:alcoy": {
-      "name": "Alcoy",
-      "abbrev": "Alcoy",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:novelda": {
-      "name": "Novelda",
-      "abbrev": "Novelda",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:elda": {
-      "name": "Elda",
-      "abbrev": "Elda",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:san.vicente.raspeig": {
-      "name": "San Vicente del Raspeig",
-      "abbrev": "San Vicente del Raspeig",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:ibi": {
-      "name": "Ibi",
-      "abbrev": "Ibi",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:alicante:villajoyosa": {
-      "name": "Villajoyosa",
-      "abbrev": "Villajoyosa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:castellon": {
-      "name": "Castellon",
-      "abbrev": "Castellón",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:valencia:castellon:castellon": {
-      "name": "Castellon",
-      "abbrev": "Castellón",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:valencia:castellon:vila.real": {
-      "name": "Vila-real",
-      "abbrev": "Vila-real",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:castellon:vinaros": {
-      "name": "Vinaros",
-      "abbrev": "Vinarós",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:castellon:nules": {
-      "name": "Nules",
-      "abbrev": "Nules",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:castellon:segorbe": {
-      "name": "Segorbe",
-      "abbrev": "Segorbe",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia": {
-      "name": "Valencia",
-      "abbrev": "Valencia",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:valencia:valencia:valencia": {
-      "name": "Valencia",
-      "abbrev": "Valencia",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:gandia": {
-      "name": "Gandia",
-      "abbrev": "Gandía",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:torrent": {
-      "name": "Torrent",
-      "abbrev": "Torrent",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:paterna": {
-      "name": "Paterna",
-      "abbrev": "Paterna",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:alzira": {
-      "name": "Alzira",
-      "abbrev": "Alzira",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:lliria": {
-      "name": "Lliria",
-      "abbrev": "Llíria",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:moncada": {
-      "name": "Moncada",
-      "abbrev": "Moncada",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:quart.poblet": {
-      "name": "Quart de Poblet",
-      "abbrev": "Quart de Poblet",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:sueca": {
-      "name": "Sueca",
-      "abbrev": "Sueca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:carlet": {
-      "name": "Carlet",
-      "abbrev": "Carlet",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:massamagrell": {
-      "name": "Massamagrell",
-      "abbrev": "Massamagrell",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:ontinyent": {
-      "name": "Ontinyent",
-      "abbrev": "Ontinyent",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:requena": {
-      "name": "Requena",
-      "abbrev": "Requena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:xativa": {
-      "name": "Xativa",
-      "abbrev": "Xátiva",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:catarroja": {
-      "name": "Catarroja",
-      "abbrev": "Catarroja",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:mislata": {
-      "name": "Mislata",
-      "abbrev": "Mislata",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:picassent": {
-      "name": "Picassent",
-      "abbrev": "Picassent",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:valencia:valencia:sagunto": {
-      "name": "Sagunto",
-      "abbrev": "Sagunto",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura": {
-      "name": "Extremadura",
-      "abbrev": "Extremadura",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:extremadura:badajoz": {
-      "name": "Badajoz",
-      "abbrev": "Badajoz",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:extremadura:badajoz:badajoz": {
-      "name": "Badajoz",
-      "abbrev": "Badajoz",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:merida": {
-      "name": "Merida",
-      "abbrev": "Mérida",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:don.benito": {
-      "name": "Don Benito",
-      "abbrev": "Don Benito",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:almendralejo": {
-      "name": "Almendralejo",
-      "abbrev": "Almendralejo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:herrera.duque": {
-      "name": "Herrera del Duque",
-      "abbrev": "Herrera del Duque",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:montijo": {
-      "name": "Montijo",
-      "abbrev": "Montijo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:villanueva.serena": {
-      "name": "Villanueva de la Serena",
-      "abbrev": "Villanueva de la Serena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:castuera": {
-      "name": "Castuera",
-      "abbrev": "Castuera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:jerez.caballeros": {
-      "name": "Jerez de los Caballeros",
-      "abbrev": "Jerez de los Caballeros",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:olivenza": {
-      "name": "Olivenza",
-      "abbrev": "Olivenza",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:zafra": {
-      "name": "Zafra",
-      "abbrev": "Zafra",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:fregenal.sierra": {
-      "name": "Fregenal de la Sierra",
-      "abbrev": "Fregenal de la Sierra",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:llerena": {
-      "name": "Llerena",
-      "abbrev": "Llerena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:badajoz:villafranca.barros": {
-      "name": "Villafranca de los Barros",
-      "abbrev": "Villafranca de los Barros",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:caceres": {
-      "name": "Caceres",
-      "abbrev": "Cáceres",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:extremadura:caceres:caceres": {
-      "name": "Caceres",
-      "abbrev": "Cáceres",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:caceres:plasencia": {
-      "name": "Plasencia",
-      "abbrev": "Plasencia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:caceres:coria": {
-      "name": "Coria",
-      "abbrev": "Coria",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:caceres:trujillo": {
-      "name": "Trujillo",
-      "abbrev": "Trujillo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:caceres:logrosan": {
-      "name": "Logrosan",
-      "abbrev": "Logrosán",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:caceres:valencia.alcantara": {
-      "name": "Valencia de Alcantara",
-      "abbrev": "Valencia de Alcántara",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:extremadura:caceres:navalmoral.mata": {
-      "name": "Navalmoral de la Mata",
-      "abbrev": "Navalmoral de la Mata",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia": {
-      "name": "Galicia",
-      "abbrev": "Galicia",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:galicia:coruna": {
-      "name": "A Coruna",
-      "abbrev": "A Coruña",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:galicia:coruna:coruna": {
-      "name": "A Coruna",
-      "abbrev": "A Coruña",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:santiago.compostela": {
-      "name": "Santiago de Compostela",
-      "abbrev": "Santiago de Compostela",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:ferrol": {
-      "name": "Ferrol",
-      "abbrev": "Ferrol",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:arzua": {
-      "name": "Arzua",
-      "abbrev": "Arzua",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:corcubion": {
-      "name": "Corcubion",
-      "abbrev": "Corcubión",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:noia": {
-      "name": "Noia",
-      "abbrev": "Noia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:padron": {
-      "name": "Padron",
-      "abbrev": "Padrón",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:betanzos": {
-      "name": "Betanzos",
-      "abbrev": "Betanzos",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:muros": {
-      "name": "Muros",
-      "abbrev": "Muros",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:ordes": {
-      "name": "Ordes",
-      "abbrev": "Ordes",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:ribeira": {
-      "name": "Ribeira",
-      "abbrev": "Ribeira",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:carballo": {
-      "name": "Carballo",
-      "abbrev": "Carballo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:negreira": {
-      "name": "Negreira",
-      "abbrev": "Negreira",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:coruna:ortiguiera": {
-      "name": "Ortiguiera",
-      "abbrev": "Ortiguiera",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo": {
-      "name": "Lugo",
-      "abbrev": "Lugo",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:galicia:lugo:lugo": {
-      "name": "Lugo",
-      "abbrev": "Lugo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo:a.fonsagrada": {
-      "name": "A Fonsagrada",
-      "abbrev": "A Fonsagrada",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo:mondonedo": {
-      "name": "Mondonedo",
-      "abbrev": "Mondoñedo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo:vilalba": {
-      "name": "Vilalba",
-      "abbrev": "Vilalba",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo:becerrea": {
-      "name": "Becerrea",
-      "abbrev": "Becerreá",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo:monforte.lemos": {
-      "name": "Monforte de Lemos",
-      "abbrev": "Monforte de Lemos",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo:viveiro": {
-      "name": "Viveiro",
-      "abbrev": "Viveiro",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo:chantada": {
-      "name": "Chantada",
-      "abbrev": "Chantada",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:lugo:sarria": {
-      "name": "Sarria",
-      "abbrev": "Sarria",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense": {
-      "name": "Ourense",
-      "abbrev": "Ourense",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:galicia:ourense:ourense": {
-      "name": "Ourense",
-      "abbrev": "Ourense",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense:proba.trives": {
-      "name": "A Proba de Trives",
-      "abbrev": "A Proba de Trives",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense:barco.valdeorras": {
-      "name": "O Barco de Valdeorras",
-      "abbrev": "O Barco de Valdeorras",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense:verin": {
-      "name": "Verin",
-      "abbrev": "Verín",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense:bande": {
-      "name": "Bande",
-      "abbrev": "Bande",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense:carballino": {
-      "name": "O Carballino",
-      "abbrev": "O Carballiño",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense:xinzo.limia": {
-      "name": "Xinzo de Limia",
-      "abbrev": "Xinzo de Limia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense:celanova": {
-      "name": "Celanova",
-      "abbrev": "Celanova",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:ourense:ribadavia": {
-      "name": "Ribadavia",
-      "abbrev": "Ribadavia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra": {
-      "name": "Pontevedra",
-      "abbrev": "Pontevedra",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:galicia:pontevedra:pontevedra": {
-      "name": "Pontevedra",
-      "abbrev": "Pontevedra",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:vigo": {
-      "name": "Vigo",
-      "abbrev": "Vigo",
-      "courts": {
-        "jpi": {},
-        "jm": {}
-      }
-    },
-    "es:galicia:pontevedra:estrada": {
-      "name": "A Estrada",
-      "abbrev": "A Estrada",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:cangas": {
-      "name": "Cangas",
-      "abbrev": "Cangas",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:porrino": {
-      "name": "O Porrino",
-      "abbrev": "O Porriño",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:tui": {
-      "name": "Tui",
-      "abbrev": "Tui",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:caldas.reis": {
-      "name": "Caldas de Reis",
-      "abbrev": "Caldas de Reis",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:lalin": {
-      "name": "Lalin",
-      "abbrev": "Lalín",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:ponteareas": {
-      "name": "Ponteareas",
-      "abbrev": "Ponteareas",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:vilagarcia.arousa": {
-      "name": "Vilagarcia de Arousa",
-      "abbrev": "Vilagarcía de Arousa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:cambados": {
-      "name": "Cambados",
-      "abbrev": "Cambados",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:marin": {
-      "name": "Marin",
-      "abbrev": "Marín",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:galicia:pontevedra:redondela": {
-      "name": "Redondela",
-      "abbrev": "Redondela",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid": {
-      "name": "Madrid",
-      "abbrev": "Madrid",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:madrid:madrid": {
-      "name": "Madrid",
-      "abbrev": "Madrid",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:madrid:madrid:madrid": {
-      "name": "Madrid",
-      "abbrev": "Madrid",
-      "courts": {
-        "jpi": {},
-        "jm": {}
-      }
-    },
-    "es:madrid:madrid:mostoles": {
-      "name": "Mostoles",
-      "abbrev": "Móstoles",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:alcala.henares": {
-      "name": "Alcala de Henares",
-      "abbrev": "Alcalá de Henares",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:alcobendas": {
-      "name": "Alcobendas",
-      "abbrev": "Alcobendas",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:fuenlabrada": {
-      "name": "Fuenlabrada",
-      "abbrev": "Fuenlabrada",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:getafe": {
-      "name": "Getafe",
-      "abbrev": "Getafe",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:alcorcon": {
-      "name": "Alcorcon",
-      "abbrev": "Alcorcón",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:arganda.rey": {
-      "name": "Arganda del Rey",
-      "abbrev": "Arganda del Rey",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:coslada": {
-      "name": "Coslada",
-      "abbrev": "Coslada",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:collado.villalba": {
-      "name": "Collado Villalba",
-      "abbrev": "Collado Villalba",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:leganes": {
-      "name": "Leganes",
-      "abbrev": "Leganés",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:parla": {
-      "name": "Parla",
-      "abbrev": "Parla",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:torrejon.ardoz": {
-      "name": "Torrejon de Ardoz",
-      "abbrev": "Torrejón de Ardoz",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:aranjuez": {
-      "name": "Aranjuez",
-      "abbrev": "Aranjuez",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:navalcarnero": {
-      "name": "Navalcarnero",
-      "abbrev": "Navalcarnero",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:torrelaguna": {
-      "name": "Torrelaguna",
-      "abbrev": "Torrelaguna",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:colmenar.viejo": {
-      "name": "Colmenar Viejo",
-      "abbrev": "Colmenar Viejo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:pozuelo.alarcon": {
-      "name": "Pozuelo de Alarcon",
-      "abbrev": "Pozuelo de Alarcón",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:valdemoro": {
-      "name": "Valdemoro",
-      "abbrev": "Valdemoro",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:majadahonda": {
-      "name": "Majadahonda",
-      "abbrev": "Majadahonda",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:madrid:madrid:san.lorenzo.escorial": {
-      "name": "San Lorenzo de El Escorial",
-      "abbrev": "San Lorenzo de El Escorial",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia": {
-      "name": "Murcia",
-      "abbrev": "Murcia",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:murcia:murcia": {
-      "name": "Murcia",
-      "abbrev": "Murcia",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:murcia:murcia:murcia": {
-      "name": "Murcia",
-      "abbrev": "Murcia",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:cartagena": {
-      "name": "Cartagena",
-      "abbrev": "Cartagena",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:lorca": {
-      "name": "Lorca",
-      "abbrev": "Lorca",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:caravaca.cruz": {
-      "name": "Caravaca de la Cruz",
-      "abbrev": "Caravaca de la Cruz",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:molina.segura": {
-      "name": "Molina de Segura",
-      "abbrev": "Molina de Segura",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:totana": {
-      "name": "Totana",
-      "abbrev": "Totana",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:cieza": {
-      "name": "Cieza",
-      "abbrev": "Cieza",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:mula": {
-      "name": "Mula",
-      "abbrev": "Mula",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:yecla": {
-      "name": "Yecla",
-      "abbrev": "Yecla",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:jumilla": {
-      "name": "Jumilla",
-      "abbrev": "Jumilla",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:murcia:murcia:san.javier": {
-      "name": "San Javier",
-      "abbrev": "San Javier",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:navarra": {
-      "name": "Navarra",
-      "abbrev": "Navarra",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:navarra:pamplona": {
-      "name": "Pamplona",
-      "abbrev": "Pamplona",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:navarra:pamplona:pamplona": {
-      "name": "Pamplona",
-      "abbrev": "Pamplona",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:navarra:pamplona:aoiz": {
-      "name": "Aoiz",
-      "abbrev": "Aoiz",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:navarra:pamplona:tudela": {
-      "name": "Tudela",
-      "abbrev": "Tudela",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:navarra:pamplona:estella": {
-      "name": "Estella",
-      "abbrev": "Estella",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:navarra:pamplona:tafalla": {
-      "name": "Tafalla",
-      "abbrev": "Tafalla",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco": {
-      "name": "Pais Vasco",
-      "abbrev": "País Vasco",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:pais.vasco:araba.alava": {
-      "name": "Vitoria Gasteiz",
-      "abbrev": "Vitoria Gasteiz",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:pais.vasco:araba.alava:vitoria.gasteiz": {
-      "name": "Vitoria Gasteiz",
-      "abbrev": "Vitoria Gasteiz",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:araba.alava:amurrio": {
-      "name": "Amurrio",
-      "abbrev": "Amurrio",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:bizkaia": {
-      "name": "Bilbao",
-      "abbrev": "Bilbao",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:pais.vasco:bizkaia:bilbao": {
-      "name": "Bilbao",
-      "abbrev": "Bilbao",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:bizkaia:barakaldo": {
-      "name": "Barakaldo",
-      "abbrev": "Barakaldo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:bizkaia:balmaseda": {
-      "name": "Balmaseda",
-      "abbrev": "Balmaseda",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:bizkaia:durango": {
-      "name": "Durango",
-      "abbrev": "Durango",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:bizkaia:gernika.lumo": {
-      "name": "Gernika-Lumo",
-      "abbrev": "Gernika-Lumo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:bizkaia:getxo": {
-      "name": "Getxo",
-      "abbrev": "Getxo",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:gipuzkoa": {
-      "name": "San Sebastian",
-      "abbrev": "San Sebastián",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:pais.vasco:gipuzkoa:san.sebastian": {
-      "name": "San Sebastian",
-      "abbrev": "San Sebastián",
-      "courts": {
-        "jm": {},
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:gipuzkoa:eibar": {
-      "name": "Eibar",
-      "abbrev": "Eibar",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:gipuzkoa:azpeitia": {
-      "name": "Azpeitia",
-      "abbrev": "Azpeitia",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:gipuzkoa:bergara": {
-      "name": "Bergara",
-      "abbrev": "Bergara",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:gipuzkoa:irun": {
-      "name": "Irun",
-      "abbrev": "Irun",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:pais.vasco:gipuzkoa:tolosa": {
-      "name": "Tolosa",
-      "abbrev": "Tolosa",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:rioja": {
-      "name": "La Rioja",
-      "abbrev": "La Rioja",
-      "courts": {
-        "tsj": {}
-      }
-    },
-    "es:rioja:logrono": {
-      "name": "Logrono",
-      "abbrev": "Logroño",
-      "courts": {
-        "ap": {}
-      }
-    },
-    "es:rioja:logrono:logrono": {
-      "name": "Logrono",
-      "abbrev": "Logroño",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:rioja:logrono:calahorra": {
-      "name": "Calahorra",
-      "abbrev": "Calahorra",
-      "courts": {
-        "jpi": {}
-      }
-    },
-    "es:rioja:logrono:haro": {
-      "name": "Haro",
-      "abbrev": "Haro",
-      "courts": {
-        "jpi": {}
-      }
-    }
-  }
+	"langs": {
+		"enIBFD": [
+			"abbrevs"
+		]
+	},
+	"courts": {
+		"tc": {
+			"name": "Tribunal Constitucional",
+			"abbrev": "Tribunal Constitucional",
+			"ABBREV": "TC"
+		},
+		"ts": {
+			"name": "Tribunal Supremo",
+			"abbrev": "Tribunal Supremo",
+			"ABBREV": "TS",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "TS [Supreme Court]"
+				}
+			}
+		},
+		"rmc": {
+			"name": "Registro Mercantil Central",
+			"abbrev": "Registro Mercantil Central",
+			"ABBREV": "RMC"
+		},
+		"dgrn": {
+			"name": "Direccion General de los Registros y del Notariado",
+			"abbrev": "Dirección General de los Registros y del Notariado",
+			"ABBREV": "DGRN"
+		},
+		"tsj": {
+			"name": "Tribunal Superior de Justicia",
+			"abbrev": "Tribunal Superior de Justicia de %s",
+			"ABBREV": "TSJ %s",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "TSJ %s [High Court of Justice]"
+				}
+			}
+		},
+		"an": {
+			"name": "Audiencia Nacional",
+			"abbrev": "Audiencia Nacional",
+			"ABBREV": "AN",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "AN [National Court]"
+				}
+			}
+		},
+		"ap": {
+			"name": "Audiencia Provincial",
+			"abbrev": "Audiencia Provincial de %s",
+			"ABBREV": "AP %s",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "AP %s [Provincial Court]"
+				}
+			}
+		},
+		"jpi": {
+			"name": "Juzgado de 1a Instancia",
+			"abbrev": "Juzgado de 1ª Instancia de %s",
+			"ABBREV": "JPI %s"
+		},
+		"jm": {
+			"name": "Juzgado de lo Mercantil",
+			"abbrev": "Juzgado de lo Mercantil de %s",
+			"ABBREV": "JM %s"
+		},
+		"teac": {
+			"name": "Tribunal económico administrativo central",
+			"abbrev": "Tribunal económico administrativo central",
+			"ABBREV": "TEAC",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "TEAC [Central Economic-Administrative Court]"
+				}
+			}
+		},
+		"tmc": {
+			"name": "Tribunal MiIitar Central",
+			"ABBREV": "TMC"
+		}
+	},
+	"jurisdictions": {
+		"es": {
+			"name": "Spain",
+			"abbrev": "Spain",
+			"courts": {
+				"ts": {},
+				"rmc": {},
+				"dgrn": {},
+				"tc": {},
+				"teac": {},
+				"an": {}
+			}
+		},
+		"es:andalucia": {
+			"name": "Andalucia, Ceuta y Melilla",
+			"abbrev": "Andalucía",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:andalucia:almeria": {
+			"name": "Almeria",
+			"abbrev": "Almería",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:andalucia:almeria:almeria": {
+			"name": "Almeria",
+			"abbrev": "Almería",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:andalucia:almeria:berja": {
+			"name": "Berja",
+			"abbrev": "Berja",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:almeria:purchena": {
+			"name": "Purchena",
+			"abbrev": "Purchena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:almeria:vera": {
+			"name": "Vera",
+			"abbrev": "Vera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:almeria:ejido": {
+			"name": "El Ejido",
+			"abbrev": "El Ejido",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:almeria:roquetas.mar": {
+			"name": "Roquetas de Mar",
+			"abbrev": "Roquetas de Mar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:almeria:huercal.overa": {
+			"name": "Huercal Overa",
+			"abbrev": "Huercal Overa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:almeria:velez.rubio": {
+			"name": "Velez Rubio",
+			"abbrev": "Vélez Rubio",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz": {
+			"name": "Cadiz",
+			"abbrev": "Cádiz",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:andalucia:cadiz:algeciras": {
+			"name": "Algeciras",
+			"abbrev": "Algeciras",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:jerez.frontera": {
+			"name": "Jerez de la Frontera",
+			"abbrev": "Jeréz de la Frontera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:puerto.santa.maria": {
+			"name": "El puerto de Santa Maria",
+			"abbrev": "El puerto de Santa María",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:arcos.frontera": {
+			"name": "Arcos de la Frontera",
+			"abbrev": "Arcos de la Frontera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:barbate": {
+			"name": "Barbate",
+			"abbrev": "Barbate",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:puerto.real": {
+			"name": "Puerto Real",
+			"abbrev": "Puerto Real",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:san.roque": {
+			"name": "San Roque",
+			"abbrev": "San Roque",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:chiclana.frontera": {
+			"name": "Chiclana de la Frontera",
+			"abbrev": "Chiclana de la Frontera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:rota": {
+			"name": "Rota",
+			"abbrev": "Rota",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:sanlucar.barrameda": {
+			"name": "Sanlucar de Barrameda",
+			"abbrev": "Sanlúcar de Barrameda",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:linea.concepcion": {
+			"name": "La linea de la Concepcion",
+			"abbrev": "La línea de la Concepción",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:san.fernando": {
+			"name": "San Fernando",
+			"abbrev": "San Fernándo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cadiz:ubrique": {
+			"name": "Ubrique",
+			"abbrev": "Ubrique",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba": {
+			"name": "Cordoba",
+			"abbrev": "Córdoba",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:andalucia:cordoba:cordoba": {
+			"name": "Cordoba",
+			"abbrev": "Córdoba",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:aguilar.frontera": {
+			"name": "Aguilar de la Frontera",
+			"abbrev": "Aguilar de la Frontera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:lucena": {
+			"name": "Lucena",
+			"abbrev": "Lucena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:penarroya.pueblonuevo": {
+			"name": "Penarroya Pueblonuevo",
+			"abbrev": "Peñarroya Pueblonuevo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:priego.cordoba": {
+			"name": "Priego de Cordoba",
+			"abbrev": "Priego de Córdoba",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:baena": {
+			"name": "Baena",
+			"abbrev": "Baena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:montilla": {
+			"name": "Montilla",
+			"abbrev": "Montilla",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:posadas": {
+			"name": "Posadas",
+			"abbrev": "Posadas",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:puente.genil": {
+			"name": "Puente Genil",
+			"abbrev": "Puente Genil",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:cabra": {
+			"name": "Cabra",
+			"abbrev": "Cabra",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:montoro": {
+			"name": "Montoro",
+			"abbrev": "Montoro",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:cordoba:pozoblanco": {
+			"name": "Pozoblanco",
+			"abbrev": "Pozoblanco",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada": {
+			"name": "Granada",
+			"abbrev": "Granada",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:andalucia:granada:granada": {
+			"name": "Granada",
+			"abbrev": "Granada",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada:motril": {
+			"name": "Motril",
+			"abbrev": "Motril",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada:almunecar": {
+			"name": "Almunecar",
+			"abbrev": "Almuñecar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada:baza": {
+			"name": "Baza",
+			"abbrev": "Baza",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada:loja": {
+			"name": "Loja",
+			"abbrev": "Loja",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada:guadix": {
+			"name": "Guadix",
+			"abbrev": "Guadix",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada:orgiva": {
+			"name": "Orgiva",
+			"abbrev": "Orgiva",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada:huescar": {
+			"name": "Huescar",
+			"abbrev": "Huéscar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:granada:santa.fe": {
+			"name": "Santa Fe",
+			"abbrev": "Santa Fé",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:huelva": {
+			"name": "Huelva",
+			"abbrev": "Huelva",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:andalucia:huelva:huelva": {
+			"name": "Huelva",
+			"abbrev": "Huelva",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:huelva:aracena": {
+			"name": "Aracena",
+			"abbrev": "Aracena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:huelva:moguer": {
+			"name": "Moguer",
+			"abbrev": "Moguer",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:huelva:ayamonte": {
+			"name": "Ayamonte",
+			"abbrev": "Ayamonte",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:huelva:valverde.camino": {
+			"name": "Valverde del Camino",
+			"abbrev": "Valverde del Camino",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:huelva:palma.condado": {
+			"name": "La Palma del Condado",
+			"abbrev": "La Palma del Condado",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen": {
+			"name": "Jaen",
+			"abbrev": "Jaén",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:andalucia:jaen:jaen": {
+			"name": "Jaen",
+			"abbrev": "Jaén",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:alcala.real": {
+			"name": "Alcala la Real",
+			"abbrev": "Alcalá la Real",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:cazorla": {
+			"name": "Cazorla",
+			"abbrev": "Cazorla",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:martos": {
+			"name": "Martos",
+			"abbrev": "Martos",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:andujar": {
+			"name": "Andujar",
+			"abbrev": "Andújar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:carolina": {
+			"name": "La Carolina",
+			"abbrev": "La Carolina",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:ubeda": {
+			"name": "Ubeda ",
+			"abbrev": "Úbeda ",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:baeza": {
+			"name": "Baeza",
+			"abbrev": "Baeza",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:linares": {
+			"name": "Linares",
+			"abbrev": "Linares",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:jaen:villacarrillo": {
+			"name": "Villacarrillo ",
+			"abbrev": "Villacarrillo ",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga": {
+			"name": "Malaga",
+			"abbrev": "Málaga",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:andalucia:malaga:malaga": {
+			"name": "Malaga",
+			"abbrev": "Málaga",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:fuengirola": {
+			"name": "Fuengirola",
+			"abbrev": "Fuengirola",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:marbella": {
+			"name": "Marbella",
+			"abbrev": "Marbella",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:torremolinos": {
+			"name": "Torremolinos",
+			"abbrev": "Torremolinos",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:antequerra": {
+			"name": "Antequerra",
+			"abbrev": "Antequerra",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:estepona": {
+			"name": "Estepona",
+			"abbrev": "Estepona",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:velez.malaga": {
+			"name": "Velez Malaga",
+			"abbrev": "Vélez Málaga",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:archidona": {
+			"name": "Archidona",
+			"abbrev": "Archidona",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:ronda": {
+			"name": "Ronda",
+			"abbrev": "Ronda",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:coin": {
+			"name": "Coin",
+			"abbrev": "Coín",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:malaga:torrox": {
+			"name": "Torrox",
+			"abbrev": "Torrox",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla": {
+			"name": "Sevilla",
+			"abbrev": "Sevilla",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:andalucia:sevilla:sevilla": {
+			"name": "Sevilla",
+			"abbrev": "Sevilla",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:alcala.guadaira": {
+			"name": "Alcala de Guadaira",
+			"abbrev": "Alcalá de Guadaíra",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:coria.rio": {
+			"name": "Coria del Rio",
+			"abbrev": "Coria del Río",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:carmona": {
+			"name": "Carmona",
+			"abbrev": "Carmona",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:dos.hermanas": {
+			"name": "Dos Hermanas",
+			"abbrev": "Dos Hermanas",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:cazalla.sierra": {
+			"name": "Cazalla de la Sierra",
+			"abbrev": "Cazalla de la Sierra",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:ezija": {
+			"name": "Ezija",
+			"abbrev": "Ézija",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:estepa": {
+			"name": "Estepa",
+			"abbrev": "Estepa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:marchena": {
+			"name": "Marchena",
+			"abbrev": "Marchena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:sanlucar.mayor": {
+			"name": "Sanlucar la Mayor",
+			"abbrev": "Sanlúcar la Mayor",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:lebrija": {
+			"name": "Lebrija",
+			"abbrev": "Lebrija",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:moron.frontera": {
+			"name": "Moron de la Frontera",
+			"abbrev": "Morón de la Frontera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:utrera": {
+			"name": "Utrera",
+			"abbrev": "Utrera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:lora.rio": {
+			"name": "Lora del Rio",
+			"abbrev": "Lora del Río",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:ceuta": {
+			"name": "Ceuta",
+			"abbrev": "Ceuta",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:andalucia:sevilla:melilla": {
+			"name": "Melilla",
+			"abbrev": "Melilla",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza": {
+			"name": "Zaragoza",
+			"abbrev": "Zaragoza",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:zaragoza:huesca": {
+			"name": "Huesca",
+			"abbrev": "Huesca",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:zaragoza:huesca:huesca": {
+			"name": "Huesca",
+			"abbrev": "Huesca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:huesca:barbastro": {
+			"name": "Barbastro",
+			"abbrev": "Barbastro",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:huesca:jaca": {
+			"name": "Jaca",
+			"abbrev": "Jaca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:huesca:boltana": {
+			"name": "Boltana",
+			"abbrev": "Boltaña",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:huesca:monzon": {
+			"name": "Monzon",
+			"abbrev": "Monzón",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:huesca:fraga": {
+			"name": "Fraga",
+			"abbrev": "Fraga",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:teruel": {
+			"name": "Teruel",
+			"abbrev": "Teruel",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:zaragoza:teruel:teruel": {
+			"name": "Teruel",
+			"abbrev": "Teruel",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:teruel:alcaniz": {
+			"name": "Alcaniz",
+			"abbrev": "Alcañiz",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:teruel:calamocha": {
+			"name": "Calamocha",
+			"abbrev": "Calamocha",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:zaragoza": {
+			"name": "Zaragoza",
+			"abbrev": "Zaragoza",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:zaragoza:zaragoza:zaragoza": {
+			"name": "Zaragoza",
+			"abbrev": "Zaragoza",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:zaragoza:calatayud": {
+			"name": "Calatayud",
+			"abbrev": "Calatayud",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:zaragoza:ejea.caballeros": {
+			"name": "Ejea de los Caballeros",
+			"abbrev": "Ejea de los Caballeros",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:zaragoza:caspe": {
+			"name": "Caspe",
+			"abbrev": "Caspe",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:zaragoza:almunia.dona.godina": {
+			"name": "La Almunia de Dona Godina",
+			"abbrev": "La Almunia de Doña Godina",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:zaragoza:daroca": {
+			"name": "Daroca",
+			"abbrev": "Daroca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:zaragoza:zaragoza:tarazona": {
+			"name": "Tarazona",
+			"abbrev": "Tarazona",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias": {
+			"name": "Principado de Asturias",
+			"abbrev": "Principado de Asturias",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:asturias:oviedo": {
+			"name": "Oviedo",
+			"abbrev": "Oviedo",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:asturias:oviedo:oviedo": {
+			"name": "Oviedo",
+			"abbrev": "Oviedo",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:gijon": {
+			"name": "Gijon",
+			"abbrev": "Gijón",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:aviles": {
+			"name": "Aviles",
+			"abbrev": "Avilés",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:langreo": {
+			"name": "Langreo",
+			"abbrev": "Langreo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:mieres": {
+			"name": "Mieres",
+			"abbrev": "Mieres",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:cangas.onis": {
+			"name": "Cangas de Onis",
+			"abbrev": "Cangas de Onís",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:grado": {
+			"name": "Grado",
+			"abbrev": "Grado",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:llanes": {
+			"name": "Llanes",
+			"abbrev": "Llanes",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:siero": {
+			"name": "Siero",
+			"abbrev": "Siero",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:villaviciosa": {
+			"name": "Villaviciosa",
+			"abbrev": "Villaviciosa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:cangas.narcea": {
+			"name": "Cangas del Narcea",
+			"abbrev": "Cangas del Narcea",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:laviana": {
+			"name": "Laviana",
+			"abbrev": "Laviana",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:pilona": {
+			"name": "Pilona",
+			"abbrev": "Piloña",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:tineo": {
+			"name": "Tineo",
+			"abbrev": "Tineo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:castropol": {
+			"name": "Castropol",
+			"abbrev": "Castropol",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:lena": {
+			"name": "Lena",
+			"abbrev": "Lena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:pravia": {
+			"name": "Pravia",
+			"abbrev": "Pravia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:asturias:oviedo:valdes": {
+			"name": "Valdes",
+			"abbrev": "Valdés",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:islas.baleares": {
+			"name": "Islas Baleares",
+			"abbrev": "Islas Baleares",
+			"courts": {
+				"tsj": {},
+				"ap": {}
+			}
+		},
+		"es:islas.baleares:palma.mallorca": {
+			"name": "Palma de Mallorca",
+			"abbrev": "Palma de Mallorca",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:islas.baleares:eivissa": {
+			"name": "Eivissa",
+			"abbrev": "Eivissa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:islas.baleares:ciutadella.menorca": {
+			"name": "Ciutadella de Menorca",
+			"abbrev": "Ciutadella de Menorca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:islas.baleares:inca": {
+			"name": "Inca",
+			"abbrev": "Inca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:islas.baleares:manacor": {
+			"name": "Manacor",
+			"abbrev": "Manacor",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:islas.baleares:mao.mahon": {
+			"name": "Mao-Mahon",
+			"abbrev": "Maó-Mahón",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias": {
+			"name": "Canarias",
+			"abbrev": "Canarias",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:canarias:palmas": {
+			"name": "Las Palmas",
+			"abbrev": "Las Palmas",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:canarias:palmas:palmas": {
+			"name": "Las Palmas",
+			"abbrev": "Las Palmas",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:canarias:palmas:arrecife": {
+			"name": "Arrecife",
+			"abbrev": "Arrecife",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:palmas:telde": {
+			"name": "Telde",
+			"abbrev": "Telde",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:palmas:puerto.rosario": {
+			"name": "Puerto del Rosario",
+			"abbrev": "Puerto del Rosario",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:palmas:san.bartolome.tirajana": {
+			"name": "San Bartolome de Tirajana",
+			"abbrev": "San Bartolomé de Tirajana",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:palmas:galdar": {
+			"name": "Galdar",
+			"abbrev": "Gáldar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:palmas:santa.maria.guia": {
+			"name": "Santa Maria de Guia de Gran Canaria",
+			"abbrev": "Santa María de Guía de Gran Canaria",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:palmas:arucas": {
+			"name": "Arucas",
+			"abbrev": "Arucas",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife": {
+			"name": "Santa Cruz de Tenerife",
+			"abbrev": "Santa Cruz de Tenerife",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:santa.cruz.tenerife": {
+			"name": "Santa Cruz de Tenerife",
+			"abbrev": "Santa Cruz de Tenerife",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:arona": {
+			"name": "Arona",
+			"abbrev": "Arona",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:san.cristobal.laguna": {
+			"name": "San Cristobal de La Laguna",
+			"abbrev": "San Cristóbal de La Laguna",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:granadilla.abona": {
+			"name": "Granadilla de Abona",
+			"abbrev": "Granadilla de Abona",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:guimar": {
+			"name": "Guimar",
+			"abbrev": "Güimar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:icod.vinos": {
+			"name": "Icod de los Vinos",
+			"abbrev": "Icod de los Vinos",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:orotafa": {
+			"name": "La Orotafa",
+			"abbrev": "La Orotafa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:llanos.aridane": {
+			"name": "Los Llanos de Aridane",
+			"abbrev": "Los Llanos de Aridane",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:puerto.cruz": {
+			"name": "Puerto de la Cruz",
+			"abbrev": "Puerto de la Cruz",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:san.sebastian.gomera": {
+			"name": "San Sebastian de La Gomera",
+			"abbrev": "San Sebastián de La Gomera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:canarias:santa.cruz.tenerife:valverde": {
+			"name": "Valverde",
+			"abbrev": "Valverde",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cantabria": {
+			"name": "Cantabria",
+			"abbrev": "Cantabria",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:cantabria:santander": {
+			"name": "Santander",
+			"abbrev": "Santander",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:cantabria:santander:santander": {
+			"name": "Santander",
+			"abbrev": "Santander",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:cantabria:santander:castro.urdiales": {
+			"name": "Castro Urdiales",
+			"abbrev": "Castro Urdiales",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cantabria:santander:reinosa": {
+			"name": "Reinosa",
+			"abbrev": "Reinosa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cantabria:santander:torrelavega": {
+			"name": "Torrelavega",
+			"abbrev": "Torrelavega",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cantabria:santander:laredo": {
+			"name": "Laredo",
+			"abbrev": "Laredo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cantabria:santander:san.vicente.barquera": {
+			"name": "San Vicente de la Barquera",
+			"abbrev": "San Vicente de la Barquera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cantabria:santander:medio.cudeyo": {
+			"name": "Medio Cudeyo",
+			"abbrev": "Medio Cudeyo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cantabria:santander:santona": {
+			"name": "Santona",
+			"abbrev": "Santoña",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon": {
+			"name": "Castilla y Leon",
+			"abbrev": "Castilla y León",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:castilla.y.leon:avila": {
+			"name": "Avila",
+			"abbrev": "Ávila",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:avila:arenas.san.pedro": {
+			"name": "Arenas de San Pedro",
+			"abbrev": "Arenas de San Pedro",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:avila:arevalo": {
+			"name": "Arevalo",
+			"abbrev": "Arévalo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:avila:piedrahita": {
+			"name": "Piedrahita",
+			"abbrev": "Piedrahita",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:burgos": {
+			"name": "Burgos",
+			"abbrev": "Burgos",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:burgos:burgos": {
+			"name": "Burgos",
+			"abbrev": "Burgos",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:burgos:aranda.duero": {
+			"name": "Aranda de Duero",
+			"abbrev": "Aranda de Duero",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:burgos:miranda.ebro": {
+			"name": "Miranda de Ebro",
+			"abbrev": "Miranda de Ebro",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:burgos:briviesca": {
+			"name": "Briviesca",
+			"abbrev": "Briviesca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:burgos:salas.infantes": {
+			"name": "Salas de los Infantes",
+			"abbrev": "Salas de los Infantes",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:burgos:lerma": {
+			"name": "Lerma",
+			"abbrev": "Lerma",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:burgos:villarcayo": {
+			"name": "Villarcayo",
+			"abbrev": "Villarcayo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:leon": {
+			"name": "Leon",es:castilla.y.leon:leon
+			"abbrev": "León",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:leon:leon": {
+			"name": "Leon",
+			"abbrev": "León",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:leon:ponferrada": {
+			"name": "Ponferrada",
+			"abbrev": "Ponferrada",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:leon:astorga": {
+			"name": "Astorga",
+			"abbrev": "Astorga",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:leon:sahagun": {
+			"name": "Sahagun",
+			"abbrev": "Sahagún",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:leon:cistierna": {
+			"name": "Cistierna",
+			"abbrev": "Cistierna",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:leon:villablino": {
+			"name": "Villablino",
+			"abbrev": "Villablino",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:leon:baneza": {
+			"name": "La Baneza",
+			"abbrev": "La Bañeza",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:palencia": {
+			"name": "Palencia",
+			"abbrev": "Palencia",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:palencia:palencia": {
+			"name": "Palencia",
+			"abbrev": "Palencia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:palencia:carrion.condes": {
+			"name": "Carrion de los Condes",
+			"abbrev": "Carrión de los Condes",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:palencia:cervera.pisuerga": {
+			"name": "Cervera de Pisuerga",
+			"abbrev": "Cervera de Pisuerga",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:salamanca": {
+			"name": "Salamanca",
+			"abbrev": "Salamanca",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:salamanca:salamanca": {
+			"name": "Salamanca",
+			"abbrev": "Salamanca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:salamanca:bejar": {
+			"name": "Bejar",
+			"abbrev": "Béjar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:salamanca:penaranda.bracamonte": {
+			"name": "Penaranda de Bracamonte",
+			"abbrev": "Peñaranda de Bracamonte",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:salamanca:ciudad.rodrigo": {
+			"name": "Ciudad Rodrigo",
+			"abbrev": "Ciudad Rodrigo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:salamanca:vitigudino": {
+			"name": "Vitigudino",
+			"abbrev": "Vitigudino",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:segovia": {
+			"name": "Segovia",
+			"abbrev": "Segovia",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:segovia:segovia": {
+			"name": "Segovia",
+			"abbrev": "Segovia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:segovia:cuellar": {
+			"name": "Cuellar",
+			"abbrev": "Cuéllar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:segovia:santa.maria.real.nieva": {
+			"name": "Santa Maria la Real de Nieva",
+			"abbrev": "Santa María la Real de Nieva",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:segovia:sepulveda": {
+			"name": "Sepulveda",
+			"abbrev": "Sepúlveda",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:soria": {
+			"name": "Soria",
+			"abbrev": "Soria",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:soria:soria": {
+			"name": "Soria",
+			"abbrev": "Soria",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:soria:almazan": {
+			"name": "Almazan",
+			"abbrev": "Almazán",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:soria:burgo.osma": {
+			"name": "Burgo de Osma",
+			"abbrev": "Burgo de Osma",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:valladolid": {
+			"name": "Valladolid",
+			"abbrev": "Valladolid",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:valladolid:valladolid": {
+			"name": "Valladolid",
+			"abbrev": "Valladolid",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:valladolid:medina.rioseco": {
+			"name": "Medina de Rioseco",
+			"abbrev": "Medina de Ríoseco",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:valladolid:medina.campo": {
+			"name": "Medina del campo",
+			"abbrev": "Medina del campo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:zamora": {
+			"name": "Zamora",
+			"abbrev": "Zamora",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.y.leon:zamora:zamora": {
+			"name": "Zamora",
+			"abbrev": "Zamora",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:zamora:benavente": {
+			"name": "Benavente",
+			"abbrev": "Benavente",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:zamora:toro": {
+			"name": "Toro",
+			"abbrev": "Toro",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:zamora:puebla.sanabria": {
+			"name": "Puebla de Sanabria",
+			"abbrev": "Puebla de Sanabria",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.y.leon:zamora:villalpando": {
+			"name": "Villalpando",
+			"abbrev": "Villalpando",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha": {
+			"name": "Castilla-La Mancha",
+			"abbrev": "Castilla-La Mancha",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:castilla.la.mancha:albacete": {
+			"name": "Albacete",
+			"abbrev": "Albacete",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.la.mancha:albacete:albacete": {
+			"name": "Albacete",
+			"abbrev": "Albacete",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:albacete:alcaraz": {
+			"name": "Alcaraz",
+			"abbrev": "Alcaraz",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:albacete:hellin": {
+			"name": "Hellin",
+			"abbrev": "Hellín",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:albacete:almansa": {
+			"name": "Almansa",
+			"abbrev": "Almansa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:albacete:roda": {
+			"name": "La Roda",
+			"abbrev": "La Roda",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:albacete:casas.ibanez": {
+			"name": "Casas-Ibanez",
+			"abbrev": "Casas-Ibáñez",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:albacete:villarrobledo": {
+			"name": "Villarrobledo",
+			"abbrev": "Villarrobledo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real": {
+			"name": "Ciudad Real",
+			"abbrev": "Ciudad Real",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:ciudad.real": {
+			"name": "Ciudad Real",
+			"abbrev": "Ciudad Real",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:alcazar.san.juan": {
+			"name": "Alcazar de San Juan",
+			"abbrev": "Alcázar de San Juan",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:daimiel": {
+			"name": "Daimiel",
+			"abbrev": "Daimiel",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:tomelloso": {
+			"name": "Tomelloso",
+			"abbrev": "Tomelloso",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:almaden": {
+			"name": "Almaden",
+			"abbrev": "Almadén",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:manzanares": {
+			"name": "Manzanares",
+			"abbrev": "Manzanares",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:valdepenas": {
+			"name": "Valdepenas",
+			"abbrev": "Valdepeñas",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:almagro": {
+			"name": "Almagro",
+			"abbrev": "Almagro",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:puertollano": {
+			"name": "Puertollano",
+			"abbrev": "Puertollano",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:ciudad.real:villanueva.infantes": {
+			"name": "Villanueva de los Infantes",
+			"abbrev": "Villanueva de los Infantes",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:cuenca": {
+			"name": "Cuenca",
+			"abbrev": "Cuenca",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.la.mancha:cuenca:cuenca": {
+			"name": "Cuenca",
+			"abbrev": "Cuenca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:cuenca:motilla.palancar": {
+			"name": "Motilla del Palancar",
+			"abbrev": "Motilla del Palancar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:cuenca:san.clemente": {
+			"name": "San Clemente",
+			"abbrev": "San Clemente",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:cuenca:tarancon": {
+			"name": "Tarancon",
+			"abbrev": "Tarancón",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:guadalaraja": {
+			"name": "Guadalaraja",
+			"abbrev": "Guadalaraja",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.la.mancha:guadalaraja:guadalaraja": {
+			"name": "Guadalaraja",
+			"abbrev": "Guadalaraja",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:guadalaraja:molina.aragon": {
+			"name": "Molina de Aragon",
+			"abbrev": "Molina de Aragón",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:guadalaraja:siguenza": {
+			"name": "Siguenza",
+			"abbrev": "Sigüenza",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:toledo": {
+			"name": "Toledo",
+			"abbrev": "Toledo",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:castilla.la.mancha:toledo:toledo": {
+			"name": "Toledo",
+			"abbrev": "Toledo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:toledo:talavera.reina": {
+			"name": "Talavera de la Reina",
+			"abbrev": "Talavera de la Reina",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:toledo:ocana": {
+			"name": "Ocana",
+			"abbrev": "Ocaña",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:toledo:illescas": {
+			"name": "Illescas",
+			"abbrev": "Illescas",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:toledo:quintanar.orden": {
+			"name": "Quintanar de la Orden",
+			"abbrev": "Quintanar de la Orden",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:toledo:orgaz": {
+			"name": "Orgaz",
+			"abbrev": "Orgaz",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:castilla.la.mancha:toledo:torrijos": {
+			"name": "Torrijos",
+			"abbrev": "Torrijos",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna": {
+			"name": "Cataluna",
+			"abbrev": "Cataluña",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:cataluna:barcelona": {
+			"name": "Barcelona",
+			"abbrev": "Barcelona",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:cataluna:barcelona:barcelona": {
+			"name": "Barcelona",
+			"abbrev": "Barcelona",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:granollers": {
+			"name": "Granollers",
+			"abbrev": "Granollers",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:mataro": {
+			"name": "Mataro",
+			"abbrev": "Mataró",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:sabadell": {
+			"name": "Sabadell",
+			"abbrev": "Sabadell",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:terrassa": {
+			"name": "Terrassa",
+			"abbrev": "Terrassa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:manresa": {
+			"name": "Manresa",
+			"abbrev": "Manresa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:badalona": {
+			"name": "Badalona",
+			"abbrev": "Badalona",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:hospitalet.llobregat": {
+			"name": "Hospitalet de Llobregat",
+			"abbrev": "Hospitalet de Llobregat",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:arenys.mar": {
+			"name": "Arenys de Mar",
+			"abbrev": "Arenys de Mar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:vilanova.geltru": {
+			"name": "Vilanova i la Geltru",
+			"abbrev": "Vilanova i la Geltrú",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:san.feliu.llobregat": {
+			"name": "San Feliu de Llobregat",
+			"abbrev": "San Feliú de Llobregat",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:gava": {
+			"name": "Gava",
+			"abbrev": "Gavà",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:berga": {
+			"name": "Berga",
+			"abbrev": "Berga",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:cerdanyola.valles": {
+			"name": "Cerdanyola del Valles",
+			"abbrev": "Cerdanyola del Vallès",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:cornella.llobregat": {
+			"name": "Cornella de Llobregat",
+			"abbrev": "Cornellá de Llobregat",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:prat.llobregat": {
+			"name": "El Prat de Llobregat",
+			"abbrev": "El Prat de Llobregat",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:martorell": {
+			"name": "Martorell",
+			"abbrev": "Martorell",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:sant.boi.llobregat": {
+			"name": "Sant Boi de Llobregat",
+			"abbrev": "Sant Boi de Llobregat",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:vilafranca.penedes": {
+			"name": "Vilafranca del Penedes",
+			"abbrev": "Vilafranca del Penedés",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:esplugues.llobregat": {
+			"name": "Esplugues de Llobregat",
+			"abbrev": "Esplugues de Llobregat",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:mollet.valles": {
+			"name": "Mollet del Valles",
+			"abbrev": "Mollet del Vallés",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:santa.coloma.gramanet": {
+			"name": "Santa Coloma de Gramanet",
+			"abbrev": "Santa Coloma de Gramanet",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:igualada": {
+			"name": "Igualada",
+			"abbrev": "Igualada",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:rubi": {
+			"name": "Rubi",
+			"abbrev": "Rubí",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:barcelona:vic": {
+			"name": "Vic",
+			"abbrev": "Vic",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona": {
+			"name": "Girona",
+			"abbrev": "Girona",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:cataluna:girona:girona": {
+			"name": "Girona",
+			"abbrev": "Girona",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona:figueres": {
+			"name": "Figueres",
+			"abbrev": "Figueres",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona:blanes": {
+			"name": "Blanes",
+			"abbrev": "Blanes",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona:bisbal.emporda": {
+			"name": "La Bisbal d'Emporda",
+			"abbrev": "La Bisbal d'Empordà",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona:ripoll": {
+			"name": "Ripoll",
+			"abbrev": "Ripoll",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona:olot": {
+			"name": "Olot",
+			"abbrev": "Olot",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona:sant.feliu.guixols": {
+			"name": "Sant Feliu de Guixols",
+			"abbrev": "Sant Feliu de Guíxols",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona:puigcerda": {
+			"name": "Puigcerda",
+			"abbrev": "Puigcerdá",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:girona:santa.coloma.farners": {
+			"name": "Santa Coloma de Farners",
+			"abbrev": "Santa Coloma de Farners",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:lleida": {
+			"name": "Lleida",
+			"abbrev": "Lleida",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:cataluna:lleida:lleida": {
+			"name": "Lleida",
+			"abbrev": "Lleida",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:lleida:balaguer": {
+			"name": "Balaguer",
+			"abbrev": "Balaguer",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:lleida:solsona": {
+			"name": "Solsona",
+			"abbrev": "Solsona",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:lleida:cervera": {
+			"name": "Cervera",
+			"abbrev": "Cervera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:lleida:tremp": {
+			"name": "Tremp",
+			"abbrev": "Tremp",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:lleida:seu.urgell": {
+			"name": "La Seu d'Urgell",
+			"abbrev": "La Seu d'Urgell",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:lleida:vielha.e.mijaran": {
+			"name": "Vielha e Mijaran",
+			"abbrev": "Vielha e Mijaran",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:tarragona": {
+			"name": "Tarragona",
+			"abbrev": "Tarragona",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:cataluna:tarragona:tarragona": {
+			"name": "Tarragona",
+			"abbrev": "Tarragona",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:cataluna:tarragona:reus": {
+			"name": "Reus",
+			"abbrev": "Reus",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:tarragona:tortosa": {
+			"name": "Tortosa",
+			"abbrev": "Tortosa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:tarragona:vendrell": {
+			"name": "El Vendrell",
+			"abbrev": "El Vendrell",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:tarragona:amposta": {
+			"name": "Amposta",
+			"abbrev": "Amposta",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:tarragona:falset": {
+			"name": "Falset",
+			"abbrev": "Falset",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:tarragona:gandesa": {
+			"name": "Gandesa",
+			"abbrev": "Gandesa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:cataluna:tarragona:valls": {
+			"name": "Valls",
+			"abbrev": "Valls",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia": {
+			"name": "Comunidad Valenciana",
+			"abbrev": "Comunidad Valenciana",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:valencia:alicante": {
+			"name": "Alicante",
+			"abbrev": "Alicante",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:valencia:alicante:alicante": {
+			"name": "Alicante",
+			"abbrev": "Alicante",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:elche": {
+			"name": "Elche",
+			"abbrev": "Elche",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:benidorm": {
+			"name": "Benidorm",
+			"abbrev": "Benidorm",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:orihuela": {
+			"name": "Orihuela",
+			"abbrev": "Orihuela",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:torrevieja": {
+			"name": "Torrevieja",
+			"abbrev": "Torrevieja",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:denia": {
+			"name": "Denia",
+			"abbrev": "Denia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:villena": {
+			"name": "Villena",
+			"abbrev": "Villena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:alcoy": {
+			"name": "Alcoy",
+			"abbrev": "Alcoy",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:novelda": {
+			"name": "Novelda",
+			"abbrev": "Novelda",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:elda": {
+			"name": "Elda",
+			"abbrev": "Elda",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:san.vicente.raspeig": {
+			"name": "San Vicente del Raspeig",
+			"abbrev": "San Vicente del Raspeig",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:ibi": {
+			"name": "Ibi",
+			"abbrev": "Ibi",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:alicante:villajoyosa": {
+			"name": "Villajoyosa",
+			"abbrev": "Villajoyosa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:castellon": {
+			"name": "Castellon",
+			"abbrev": "Castellón",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:valencia:castellon:castellon": {
+			"name": "Castellon",
+			"abbrev": "Castellón",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:valencia:castellon:vila.real": {
+			"name": "Vila-real",
+			"abbrev": "Vila-real",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:castellon:vinaros": {
+			"name": "Vinaros",
+			"abbrev": "Vinarós",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:castellon:nules": {
+			"name": "Nules",
+			"abbrev": "Nules",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:castellon:segorbe": {
+			"name": "Segorbe",
+			"abbrev": "Segorbe",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia": {
+			"name": "Valencia",
+			"abbrev": "Valencia",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:valencia:valencia:valencia": {
+			"name": "Valencia",
+			"abbrev": "Valencia",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:gandia": {
+			"name": "Gandia",
+			"abbrev": "Gandía",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:torrent": {
+			"name": "Torrent",
+			"abbrev": "Torrent",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:paterna": {
+			"name": "Paterna",
+			"abbrev": "Paterna",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:alzira": {
+			"name": "Alzira",
+			"abbrev": "Alzira",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:lliria": {
+			"name": "Lliria",
+			"abbrev": "Llíria",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:moncada": {
+			"name": "Moncada",
+			"abbrev": "Moncada",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:quart.poblet": {
+			"name": "Quart de Poblet",
+			"abbrev": "Quart de Poblet",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:sueca": {
+			"name": "Sueca",
+			"abbrev": "Sueca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:carlet": {
+			"name": "Carlet",
+			"abbrev": "Carlet",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:massamagrell": {
+			"name": "Massamagrell",
+			"abbrev": "Massamagrell",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:ontinyent": {
+			"name": "Ontinyent",
+			"abbrev": "Ontinyent",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:requena": {
+			"name": "Requena",
+			"abbrev": "Requena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:xativa": {
+			"name": "Xativa",
+			"abbrev": "Xátiva",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:catarroja": {
+			"name": "Catarroja",
+			"abbrev": "Catarroja",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:mislata": {
+			"name": "Mislata",
+			"abbrev": "Mislata",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:picassent": {
+			"name": "Picassent",
+			"abbrev": "Picassent",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:valencia:valencia:sagunto": {
+			"name": "Sagunto",
+			"abbrev": "Sagunto",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura": {
+			"name": "Extremadura",
+			"abbrev": "Extremadura",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:extremadura:badajoz": {
+			"name": "Badajoz",
+			"abbrev": "Badajoz",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:extremadura:badajoz:badajoz": {
+			"name": "Badajoz",
+			"abbrev": "Badajoz",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:merida": {
+			"name": "Merida",
+			"abbrev": "Mérida",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:don.benito": {
+			"name": "Don Benito",
+			"abbrev": "Don Benito",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:almendralejo": {
+			"name": "Almendralejo",
+			"abbrev": "Almendralejo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:herrera.duque": {
+			"name": "Herrera del Duque",
+			"abbrev": "Herrera del Duque",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:montijo": {
+			"name": "Montijo",
+			"abbrev": "Montijo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:villanueva.serena": {
+			"name": "Villanueva de la Serena",
+			"abbrev": "Villanueva de la Serena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:castuera": {
+			"name": "Castuera",
+			"abbrev": "Castuera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:jerez.caballeros": {
+			"name": "Jerez de los Caballeros",
+			"abbrev": "Jerez de los Caballeros",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:olivenza": {
+			"name": "Olivenza",
+			"abbrev": "Olivenza",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:zafra": {
+			"name": "Zafra",
+			"abbrev": "Zafra",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:fregenal.sierra": {
+			"name": "Fregenal de la Sierra",
+			"abbrev": "Fregenal de la Sierra",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:llerena": {
+			"name": "Llerena",
+			"abbrev": "Llerena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:badajoz:villafranca.barros": {
+			"name": "Villafranca de los Barros",
+			"abbrev": "Villafranca de los Barros",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:caceres": {
+			"name": "Caceres",
+			"abbrev": "Cáceres",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:extremadura:caceres:caceres": {
+			"name": "Caceres",
+			"abbrev": "Cáceres",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:caceres:plasencia": {
+			"name": "Plasencia",
+			"abbrev": "Plasencia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:caceres:coria": {
+			"name": "Coria",
+			"abbrev": "Coria",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:caceres:trujillo": {
+			"name": "Trujillo",
+			"abbrev": "Trujillo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:caceres:logrosan": {
+			"name": "Logrosan",
+			"abbrev": "Logrosán",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:caceres:valencia.alcantara": {
+			"name": "Valencia de Alcantara",
+			"abbrev": "Valencia de Alcántara",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:extremadura:caceres:navalmoral.mata": {
+			"name": "Navalmoral de la Mata",
+			"abbrev": "Navalmoral de la Mata",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia": {
+			"name": "Galicia",
+			"abbrev": "Galicia",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:galicia:coruna": {
+			"name": "A Coruna",
+			"abbrev": "A Coruña",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:galicia:coruna:coruna": {
+			"name": "A Coruna",
+			"abbrev": "A Coruña",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:santiago.compostela": {
+			"name": "Santiago de Compostela",
+			"abbrev": "Santiago de Compostela",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:ferrol": {
+			"name": "Ferrol",
+			"abbrev": "Ferrol",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:arzua": {
+			"name": "Arzua",
+			"abbrev": "Arzua",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:corcubion": {
+			"name": "Corcubion",
+			"abbrev": "Corcubión",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:noia": {
+			"name": "Noia",
+			"abbrev": "Noia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:padron": {
+			"name": "Padron",
+			"abbrev": "Padrón",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:betanzos": {
+			"name": "Betanzos",
+			"abbrev": "Betanzos",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:muros": {
+			"name": "Muros",
+			"abbrev": "Muros",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:ordes": {
+			"name": "Ordes",
+			"abbrev": "Ordes",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:ribeira": {
+			"name": "Ribeira",
+			"abbrev": "Ribeira",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:carballo": {
+			"name": "Carballo",
+			"abbrev": "Carballo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:negreira": {
+			"name": "Negreira",
+			"abbrev": "Negreira",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:coruna:ortiguiera": {
+			"name": "Ortiguiera",
+			"abbrev": "Ortiguiera",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo": {
+			"name": "Lugo",
+			"abbrev": "Lugo",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:galicia:lugo:lugo": {
+			"name": "Lugo",
+			"abbrev": "Lugo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo:a.fonsagrada": {
+			"name": "A Fonsagrada",
+			"abbrev": "A Fonsagrada",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo:mondonedo": {
+			"name": "Mondonedo",
+			"abbrev": "Mondoñedo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo:vilalba": {
+			"name": "Vilalba",
+			"abbrev": "Vilalba",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo:becerrea": {
+			"name": "Becerrea",
+			"abbrev": "Becerreá",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo:monforte.lemos": {
+			"name": "Monforte de Lemos",
+			"abbrev": "Monforte de Lemos",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo:viveiro": {
+			"name": "Viveiro",
+			"abbrev": "Viveiro",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo:chantada": {
+			"name": "Chantada",
+			"abbrev": "Chantada",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:lugo:sarria": {
+			"name": "Sarria",
+			"abbrev": "Sarria",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense": {
+			"name": "Ourense",
+			"abbrev": "Ourense",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:galicia:ourense:ourense": {
+			"name": "Ourense",
+			"abbrev": "Ourense",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense:proba.trives": {
+			"name": "A Proba de Trives",
+			"abbrev": "A Proba de Trives",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense:barco.valdeorras": {
+			"name": "O Barco de Valdeorras",
+			"abbrev": "O Barco de Valdeorras",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense:verin": {
+			"name": "Verin",
+			"abbrev": "Verín",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense:bande": {
+			"name": "Bande",
+			"abbrev": "Bande",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense:carballino": {
+			"name": "O Carballino",
+			"abbrev": "O Carballiño",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense:xinzo.limia": {
+			"name": "Xinzo de Limia",
+			"abbrev": "Xinzo de Limia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense:celanova": {
+			"name": "Celanova",
+			"abbrev": "Celanova",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:ourense:ribadavia": {
+			"name": "Ribadavia",
+			"abbrev": "Ribadavia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra": {
+			"name": "Pontevedra",
+			"abbrev": "Pontevedra",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:galicia:pontevedra:pontevedra": {
+			"name": "Pontevedra",
+			"abbrev": "Pontevedra",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:vigo": {
+			"name": "Vigo",
+			"abbrev": "Vigo",
+			"courts": {
+				"jpi": {},
+				"jm": {}
+			}
+		},
+		"es:galicia:pontevedra:estrada": {
+			"name": "A Estrada",
+			"abbrev": "A Estrada",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:cangas": {
+			"name": "Cangas",
+			"abbrev": "Cangas",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:porrino": {
+			"name": "O Porrino",
+			"abbrev": "O Porriño",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:tui": {
+			"name": "Tui",
+			"abbrev": "Tui",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:caldas.reis": {
+			"name": "Caldas de Reis",
+			"abbrev": "Caldas de Reis",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:lalin": {
+			"name": "Lalin",
+			"abbrev": "Lalín",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:ponteareas": {
+			"name": "Ponteareas",
+			"abbrev": "Ponteareas",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:vilagarcia.arousa": {
+			"name": "Vilagarcia de Arousa",
+			"abbrev": "Vilagarcía de Arousa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:cambados": {
+			"name": "Cambados",
+			"abbrev": "Cambados",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:marin": {
+			"name": "Marin",
+			"abbrev": "Marín",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:galicia:pontevedra:redondela": {
+			"name": "Redondela",
+			"abbrev": "Redondela",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid": {
+			"name": "Madrid",
+			"abbrev": "Madrid",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:madrid:madrid": {
+			"name": "Madrid",
+			"abbrev": "Madrid",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:madrid:madrid:madrid": {
+			"name": "Madrid",
+			"abbrev": "Madrid",
+			"courts": {
+				"jpi": {},
+				"jm": {}
+			}
+		},
+		"es:madrid:madrid:mostoles": {
+			"name": "Mostoles",
+			"abbrev": "Móstoles",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:alcala.henares": {
+			"name": "Alcala de Henares",
+			"abbrev": "Alcalá de Henares",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:alcobendas": {
+			"name": "Alcobendas",
+			"abbrev": "Alcobendas",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:fuenlabrada": {
+			"name": "Fuenlabrada",
+			"abbrev": "Fuenlabrada",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:getafe": {
+			"name": "Getafe",
+			"abbrev": "Getafe",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:alcorcon": {
+			"name": "Alcorcon",
+			"abbrev": "Alcorcón",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:arganda.rey": {
+			"name": "Arganda del Rey",
+			"abbrev": "Arganda del Rey",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:coslada": {
+			"name": "Coslada",
+			"abbrev": "Coslada",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:collado.villalba": {
+			"name": "Collado Villalba",
+			"abbrev": "Collado Villalba",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:leganes": {
+			"name": "Leganes",
+			"abbrev": "Leganés",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:parla": {
+			"name": "Parla",
+			"abbrev": "Parla",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:torrejon.ardoz": {
+			"name": "Torrejon de Ardoz",
+			"abbrev": "Torrejón de Ardoz",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:aranjuez": {
+			"name": "Aranjuez",
+			"abbrev": "Aranjuez",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:navalcarnero": {
+			"name": "Navalcarnero",
+			"abbrev": "Navalcarnero",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:torrelaguna": {
+			"name": "Torrelaguna",
+			"abbrev": "Torrelaguna",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:colmenar.viejo": {
+			"name": "Colmenar Viejo",
+			"abbrev": "Colmenar Viejo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:pozuelo.alarcon": {
+			"name": "Pozuelo de Alarcon",
+			"abbrev": "Pozuelo de Alarcón",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:valdemoro": {
+			"name": "Valdemoro",
+			"abbrev": "Valdemoro",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:majadahonda": {
+			"name": "Majadahonda",
+			"abbrev": "Majadahonda",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:madrid:madrid:san.lorenzo.escorial": {
+			"name": "San Lorenzo de El Escorial",
+			"abbrev": "San Lorenzo de El Escorial",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia": {
+			"name": "Murcia",
+			"abbrev": "Murcia",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:murcia:murcia": {
+			"name": "Murcia",
+			"abbrev": "Murcia",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:murcia:murcia:murcia": {
+			"name": "Murcia",
+			"abbrev": "Murcia",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:cartagena": {
+			"name": "Cartagena",
+			"abbrev": "Cartagena",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:lorca": {
+			"name": "Lorca",
+			"abbrev": "Lorca",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:caravaca.cruz": {
+			"name": "Caravaca de la Cruz",
+			"abbrev": "Caravaca de la Cruz",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:molina.segura": {
+			"name": "Molina de Segura",
+			"abbrev": "Molina de Segura",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:totana": {
+			"name": "Totana",
+			"abbrev": "Totana",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:cieza": {
+			"name": "Cieza",
+			"abbrev": "Cieza",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:mula": {
+			"name": "Mula",
+			"abbrev": "Mula",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:yecla": {
+			"name": "Yecla",
+			"abbrev": "Yecla",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:jumilla": {
+			"name": "Jumilla",
+			"abbrev": "Jumilla",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:murcia:murcia:san.javier": {
+			"name": "San Javier",
+			"abbrev": "San Javier",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:navarra": {
+			"name": "Navarra",
+			"abbrev": "Navarra",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:navarra:pamplona": {
+			"name": "Pamplona",
+			"abbrev": "Pamplona",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:navarra:pamplona:pamplona": {
+			"name": "Pamplona",
+			"abbrev": "Pamplona",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:navarra:pamplona:aoiz": {
+			"name": "Aoiz",
+			"abbrev": "Aoiz",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:navarra:pamplona:tudela": {
+			"name": "Tudela",
+			"abbrev": "Tudela",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:navarra:pamplona:estella": {
+			"name": "Estella",
+			"abbrev": "Estella",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:navarra:pamplona:tafalla": {
+			"name": "Tafalla",
+			"abbrev": "Tafalla",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco": {
+			"name": "Pais Vasco",
+			"abbrev": "País Vasco",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:pais.vasco:araba.alava": {
+			"name": "Vitoria Gasteiz",
+			"abbrev": "Vitoria Gasteiz",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:pais.vasco:araba.alava:vitoria.gasteiz": {
+			"name": "Vitoria Gasteiz",
+			"abbrev": "Vitoria Gasteiz",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:araba.alava:amurrio": {
+			"name": "Amurrio",
+			"abbrev": "Amurrio",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:bizkaia": {
+			"name": "Bilbao",
+			"abbrev": "Bilbao",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:pais.vasco:bizkaia:bilbao": {
+			"name": "Bilbao",
+			"abbrev": "Bilbao",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:bizkaia:barakaldo": {
+			"name": "Barakaldo",
+			"abbrev": "Barakaldo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:bizkaia:balmaseda": {
+			"name": "Balmaseda",
+			"abbrev": "Balmaseda",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:bizkaia:durango": {
+			"name": "Durango",
+			"abbrev": "Durango",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:bizkaia:gernika.lumo": {
+			"name": "Gernika-Lumo",
+			"abbrev": "Gernika-Lumo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:bizkaia:getxo": {
+			"name": "Getxo",
+			"abbrev": "Getxo",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:gipuzkoa": {
+			"name": "San Sebastian",
+			"abbrev": "San Sebastián",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:pais.vasco:gipuzkoa:san.sebastian": {
+			"name": "San Sebastian",
+			"abbrev": "San Sebastián",
+			"courts": {
+				"jm": {},
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:gipuzkoa:eibar": {
+			"name": "Eibar",
+			"abbrev": "Eibar",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:gipuzkoa:azpeitia": {
+			"name": "Azpeitia",
+			"abbrev": "Azpeitia",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:gipuzkoa:bergara": {
+			"name": "Bergara",
+			"abbrev": "Bergara",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:gipuzkoa:irun": {
+			"name": "Irun",
+			"abbrev": "Irun",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:pais.vasco:gipuzkoa:tolosa": {
+			"name": "Tolosa",
+			"abbrev": "Tolosa",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:rioja": {
+			"name": "La Rioja",
+			"abbrev": "La Rioja",
+			"courts": {
+				"tsj": {}
+			}
+		},
+		"es:rioja:logrono": {
+			"name": "Logrono",
+			"abbrev": "Logroño",
+			"courts": {
+				"ap": {}
+			}
+		},
+		"es:rioja:logrono:logrono": {
+			"name": "Logrono",
+			"abbrev": "Logroño",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:rioja:logrono:calahorra": {
+			"name": "Calahorra",
+			"abbrev": "Calahorra",
+			"courts": {
+				"jpi": {}
+			}
+		},
+		"es:rioja:logrono:haro": {
+			"name": "Haro",
+			"abbrev": "Haro",
+			"courts": {
+				"jpi": {}
+			}
+		}
+	}
 }

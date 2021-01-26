@@ -2,13 +2,21 @@
 	"langs": {
 		"enIBFD": [
 			"abbrevs"
+		],
+		"en": [
+			"abbrevs"
 		]
 	},
 	"courts": {
 		"tc": {
 			"name": "Tribunal Constitucional",
 			"abbrev": "Tribunal Constitucional",
-			"ABBREV": "TC"
+			"ABBREV": "TC",
+			"variants": {
+				"en": {
+					"abbrev": "Constitutional Court"
+				}
+			}
 		},
 		"ts": {
 			"name": "Tribunal Supremo",
@@ -17,6 +25,9 @@
 			"variants": {
 				"enIBFD": {
 					"abbrev": "TS [Supreme Court]"
+				},
+				"en": {
+					"abbrev": "Supreme Court"
 				}
 			}
 		},
@@ -37,6 +48,9 @@
 			"variants": {
 				"enIBFD": {
 					"abbrev": "TSJ %s [High Court of Justice]"
+				},
+				"en": {
+					"abbrev": "High Court of Justice in %s"
 				}
 			}
 		},
@@ -47,6 +61,9 @@
 			"variants": {
 				"enIBFD": {
 					"abbrev": "AN [National Court]"
+				},
+				"en": {
+					"abbrev": "National Court"
 				}
 			}
 		},
@@ -57,6 +74,9 @@
 			"variants": {
 				"enIBFD": {
 					"abbrev": "AP %s [Provincial Court]"
+				},
+				"en": {
+					"abbrev": "Provincial Court of %s"
 				}
 			}
 		},
@@ -77,12 +97,20 @@
 			"variants": {
 				"enIBFD": {
 					"abbrev": "TEAC [Central Economic-Administrative Court]"
+				},
+				"en": {
+					"abbrev": "Central Economic-Administrative Court"
 				}
 			}
 		},
 		"tmc": {
-			"name": "Tribunal MiIitar Central",
-			"ABBREV": "TMC"
+			"name": "Tribunal Militar Central",
+			"ABBREV": "TMC",
+			"variants": {
+				"en": {
+					"abbrev": "Central Military Court"
+				}
+			}
 		}
 	},
 	"jurisdictions": {
@@ -95,7 +123,8 @@
 				"dgrn": {},
 				"tc": {},
 				"teac": {},
-				"an": {}
+				"an": {},
+				"tmc": {}
 			}
 		},
 		"es:andalucia": {
@@ -1414,7 +1443,7 @@
 			}
 		},
 		"es:castilla.y.leon:leon": {
-			"name": "Leon",es:castilla.y.leon:leon
+			"name": "Leon",
 			"abbrev": "León",
 			"courts": {
 				"ap": {}

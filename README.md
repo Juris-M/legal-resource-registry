@@ -441,10 +441,10 @@ set there, for clarity.)
                     }
                 }
             }
-        }
+        },
         "zz:east": {
             "name": "East",
-            "abbrev": "E. Atl.","
+            "abbrev": "E. Atl.",
             "courts": {
                 "court.appeal": {}
             },

@@ -307,22 +307,43 @@ const buildMapVersion = (jurisObj) => {
 	};
 }
 
-const _buildMapVersions = (versions, jurisID) => {
-	var pth = config.path.jurisMapDir;
-	if (!versions) {
-		versions = {};
+const buildMapVersions = (jurisID) => {
+	var versions_path = path.join(config.path.jurisMapDir, `versions.json`);
+	var versions;
+	console.log(`Reading ${versions_path}`);
+	var versions_json = fs.readFileSync(versions_path).toString();
+	try {
+		versions = JSON.parse(versions_json);
+	} catch(e) {
+		e = new Error(`Error while reading ${versions_path}\n       \"${e.message}\"\n       Either fix the JSON syntax of the file, or remove it to refresh all jurisdiction maps`);
+		handleError(e);
 	}
+	var map_path = path.join(config.path.jurisMapDir, `juris-${jurisID}-map.json`);
+	var map_json = fs.readFileSync(map_path).toString();
+	var jurisObj = JSON.parse(map_json);
+	versions[jurisID] = buildMapVersion(jurisObj);
+	return versions;
+};
+
+const validateAllMapJSON = () => {
+	var newVersionsObj = false;
+	var versions_path = path.join(config.path.jurisMapDir, `versions.json`);
+	if (!fs.existsSync(versions_path)) {
+		newVersionsObj = {};
+	}
+	var pth = config.path.jurisMapDir;
 	var filenames = fs.readdirSync(pth);
 	for (var fn of filenames) {
 		var m = fn.match(/^juris-(.*)-map.json$/);
 		if (m) {
-			var fnJurisID = m[1];
+			var jurisID = m[1];
 			var map_path = path.join(config.path.jurisMapDir, fn);
-			var map_json = fs.readFileSync(map_path);
+			var map_json = fs.readFileSync(map_path).toString();
 			try {
+				// Just check that parsing works.
 				var jurisObj = JSON.parse(map_json);
-				if (!jurisID || jurisID === fnJurisID) {
-					versions[fnJurisID] = buildMapVersion(jurisObj);
+				if (newVersionsObj) {
+					newVersionsObj[jurisID] = buildMapVersion(jurisObj);
 				}
 			} catch(e) {
 				e = new Error(`ERROR: error parsing file at ${map_path}\n       \"${e.message}\"\n       Map files must be valid JSON.`);
@@ -330,31 +351,13 @@ const _buildMapVersions = (versions, jurisID) => {
 			}
 		}
 	}
-	return versions;
-}
-
-const buildMapVersions = (jurisID) => {
-	var versions_path = path.join(config.path.jurisMapDir, `versions.json`);
-	var versions;
-	if (!fs.existsSync(versions_path)) {
+	if (newVersionsObj) {
 		console.log(`Creating ${versions_path}`);
-		versions = _buildMapVersions();
-	} else {
-		console.log(`Reading ${versions_path}`);
-		var versions_json = fs.readFileSync(versions_path).toString();
-		try {
-			versions = JSON.parse(versions_json);
-		} catch(e) {
-			e = new Error(`Error while reading ${versions_path}\n       \"${e.message}\"\n       Either fix the JSON syntax of the file, or remove it to refresh all jurisdiction maps`);
-			handleError(e);
-		}
-		versions = _buildMapVersions(versions, jurisID);	
-}
-	return versions;
+		fs.writeFileSync(versions_path, JSON.stringify(newVersionsObj, null, 2));
+	}
 };
 
-
-const processJurisMaps = (opts, jurisID, jurisDesc) => {
+const processJurisMap = (opts, jurisID, jurisDesc) => {
 	// In Jurism DB
 	// 46964|at:innsbruck:innsbruck:silz|Austria|AT|Innsbruck|Innsbruck|Silz|5
 	//
@@ -373,7 +376,6 @@ const processJurisMaps = (opts, jurisID, jurisDesc) => {
     //         ]
     //     }
     // };
-	
 	var langs = [""].concat(getLangs(jurisDesc, "ui"));
 	var courtStrings = getCourtStrings(jurisDesc);
 	var jurisdictionData = getJurisdictionData(courtStrings.index, jurisDesc, langs);
@@ -418,16 +420,17 @@ async function descriptiveToCompact(opts) {
 		}
 		handleError(e);
 	}
+	console.log(`Processing: ${jurisIDs.join(", ")}`);
+	validateAllMapJSON();
 	for (var jurisID of jurisIDs) {
 		opts.j = jurisID;
 		var json = fs.readFileSync(path.join(config.path.jurisSrcDir, "juris-" + jurisID + "-desc.json")).toString();
 		var json = eol.lf(json);
 		var jurisDesc = JSON.parse(json);
-		console.log(jurisID);
 		processJurisAbbrevs(opts, jurisID, jurisDesc);
-		processJurisMaps(opts, jurisID, jurisDesc);
+		processJurisMap(opts, jurisID, jurisDesc);
 	}
-	rewriteAbbrevsDirectoryListing();
+	// rewriteAbbrevsDirectoryListing();
 }
 
 const rewriteAbbrevsDirectoryListing = () => {

@@ -460,7 +460,7 @@ set there, for clarity.)
             "abbrev": "W. Atl.",
             "courts": {
                 "court.appeal": {}
-            }
+            },
             "variants": {
                 "sd": {
                     "name": "Kulon",
@@ -505,7 +505,7 @@ With the sample below, the following abbreviations would be generated:
         }
         "zz:east": {
             "name": "East",
-            "abbrev": "E.","
+            "abbrev": "E.",
             "courts": {
                 "court.appeal": {}
             }

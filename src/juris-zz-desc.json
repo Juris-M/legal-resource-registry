@@ -9,7 +9,12 @@
         "ca": {
             "name": "Court of Appeal",
             "abbrev": "%s Ct. App.",
-            "ABBREV": "%sCA"
+            "ABBREV": "%sCA",
+			"variants": {
+				"fr": {
+					"name": "Cour d'appel"
+				}
+			}
         },
         "sc": {
             "name": "Supreme Court",
@@ -29,14 +34,16 @@
             "name": "Laputa",
             "abbrev": "Lap.",
             "variants": {
-                "fr": {}
+                "fr": {
+                    "name": "Láputa",
+                    "abbrev": "Láp."
+                }
             },
             "courts": {
-                "sc": {
-                    "variants": {
-                        "fr": {}
-                    }
-                }
+                "sc": {}
+            },
+            "container-title": {
+                "Laputa Reports": "!authority>>>Lap. Rep."
             }
         },
         "zz:atl": {
@@ -51,6 +58,10 @@
                         }
                     }
                 }
+            },
+            "container-title": {
+                "Atlantis Decisions": "!authority:Atl.>>>Atl. Dec.",
+                "Poseidon Service": "#1>>>Poseidon Serv."
             }
         }
     }

@@ -295,6 +295,65 @@ const getLangs = (jurisDesc, key) => {
 	return ret;
 }
 
+const buildMapVersion = (jurisObj) => {
+	var rowcount = 0;
+	for (var lang in jurisObj.jurisdictions) {
+		rowcount += Object.keys(jurisObj.jurisdictions[lang]).length;
+	}
+	var timestamp = util.getDateNow();
+	return {
+		timestamp: timestamp,
+		rowcount: rowcount
+	};
+}
+
+const _buildMapVersions = (versions, jurisID) => {
+	var pth = config.path.jurisMapDir;
+	if (!versions) {
+		versions = {};
+	}
+	var filenames = fs.readdirSync(pth);
+	for (var fn of filenames) {
+		var m = fn.match(/^juris-(.*)-map.json$/);
+		if (m) {
+			var fnJurisID = m[1];
+			var map_path = path.join(config.path.jurisMapDir, fn);
+			var map_json = fs.readFileSync(map_path);
+			try {
+				var jurisObj = JSON.parse(map_json);
+				if (!jurisID || jurisID === fnJurisID) {
+					versions[fnJurisID] = buildMapVersion(jurisObj);
+				}
+			} catch(e) {
+				e = new Error(`ERROR: error parsing file at ${map_path}\n       \"${e.message}\"\n       Map files must be valid JSON.`);
+				handleError(e);
+			}
+		}
+	}
+	return versions;
+}
+
+const buildMapVersions = (jurisID) => {
+	var versions_path = path.join(config.path.jurisMapDir, `versions.json`);
+	var versions;
+	if (!fs.existsSync(versions_path)) {
+		console.log(`Creating ${versions_path}`);
+		versions = _buildMapVersions();
+	} else {
+		console.log(`Reading ${versions_path}`);
+		var versions_json = fs.readFileSync(versions_path).toString();
+		try {
+			versions = JSON.parse(versions_json);
+		} catch(e) {
+			e = new Error(`Error while reading ${versions_path}\n       \"${e.message}\"\n       Either fix the JSON syntax of the file, or remove it to refresh all jurisdiction maps`);
+			handleError(e);
+		}
+		versions = _buildMapVersions(versions, jurisID);	
+}
+	return versions;
+};
+
+
 const processJurisMaps = (opts, jurisID, jurisDesc) => {
 	// In Jurism DB
 	// 46964|at:innsbruck:innsbruck:silz|Austria|AT|Innsbruck|Innsbruck|Silz|5
@@ -330,17 +389,7 @@ const processJurisMaps = (opts, jurisID, jurisDesc) => {
 	var newTxt = JSON.stringify(ret).trim();
 	if (newTxt !== curTxt || opts.force) {
 		fs.writeFileSync(pathName, newTxt);
-		var versions_json = fs.readFileSync(path.join(config.path.jurisMapDir, `versions.json`)).toString();
-		var versions = JSON.parse(versions_json);
-		var timestamp = util.getDateNow();
-		var rowcount = 0;
-		for (var lang in ret.jurisdictions) {
-			rowcount += Object.keys(ret.jurisdictions[lang]).length;
-		}
-		versions[jurisID] = {
-			timestamp: timestamp,
-			rowcount: rowcount
-		};
+		var versions = buildMapVersions(jurisID);
 		fs.writeFileSync(path.join(config.path.jurisMapDir, `versions.json`), JSON.stringify(versions, null, 2));
 	}
 }

@@ -46,8 +46,13 @@
           "name": "Ständiger Internationaler Gerichtshof"
         }
       }
-    }
+    },
+	"unhrc": {
+		"name": "United Nations Human Rights Committee",
+		"abbrev": "UNHRC"
+	  }
   },
+
   "jurisdictions": {
     "un.int": {
       "name": "United Nations",
@@ -58,6 +63,12 @@
         "itlos": {},
         "pca": {}
       }
-    }
+    },
+	  "un.int:unhrc": {
+		  "name": "Human Rights Committee",
+		  "courts": {
+			  "unhrc": {}
+		  }
+	  }
   }
 }

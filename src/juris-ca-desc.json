@@ -428,8 +428,10 @@
       "ABBREV": "ON",
       "courts": {
         "court.appeal": {
+          "name": "Court of Appeal for Ontario",
           "variants": {
             "fr": {
+              "name": "Court d'appel de l'Ontario",
               "abbrev": "CA %s"
             }
           }

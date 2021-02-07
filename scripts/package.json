@@ -1,6 +1,6 @@
 {
   "name": "juris-update",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Conversion scripts for Jurism LRR jurisdiction data",
   "main": "index.js",
   "bin": {

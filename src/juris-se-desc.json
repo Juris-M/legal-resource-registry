@@ -7,29 +7,29 @@
   "courts": {
     "hogsta": {
 		"name": "Högsta domstolen",
-		"ABBREV": "HD"
+		"ABBREV": "HD (Supreme Court)"
     },
     "hogsta.forvaltningsdomstolen": {
       "name": "Högsta förvaltningsdomstolen",
-      "ABBREV": "HFD",
+      "ABBREV": "HFD (Supreme Administrative Court)",
       "variants": {
         "enIBFD": {
-          "abbrev": "HFD [Supreme Administrative Court]"
+          "abbrev": "HFD (Supreme Administrative Court)"
         }
       }
     },
     "regeringsratten": {
       "name": "Regeringsrätten",
-      "ABBREV": "RR",
+      "ABBREV": "RR (Supreme Administrative Court)",
       "variants": {
         "enIBFD": {
-          "abbrev": "RÅ [Supreme Administrative Court]"
+          "abbrev": "RÅ (Supreme Administrative Court)"
         }
       }
     },
     "arbetsdomstolen": {
       "name": "Arbetsdomstolen",
-      "ABBREV": "AR"
+      "ABBREV": "AR (Labor Court)"
     },
     "fosvarsunderrattelsedomstolen": {
       "name": "Försvarsunderrättelsedomstolen",
@@ -37,70 +37,70 @@
     },
     "hovratten": {
 		"name": "Hovrätten",
-		"abbrev": "Hovrätten %s",
-		"ABBREV": "HovR"
+		"abbrev": "Hovrätten i %s",
+		"ABBREV": "HovR (Court of Appeal)"
     },
     "patent.marknadsdomstolen": {
       "name": "Patent och marknadsdomstolen",
-      "ABBREV": "MD"
+      "ABBREV": "MD (Market Court)"
     },
     "patent": {
       "name": "Patentbesvärsrätten",
-      "ABBREV": "PBR"
+      "ABBREV": "PBR (Patent Court)"
     },
     "tingsratt": {
       "name": "Tingsrätt",
-      "abbrev": "Tingsrätt %s",
-      "ABBREV": "TR"
+      "abbrev": "Tingsrätt i %s",
+      "ABBREV": "TR (District Court)"
     },
     "kammarratten": {
       "name": "Kammarrätten",
-      "abbrev": "Kammarrätten %s",
-      "ABBREV": "KR",
+      "abbrev": "Kammarrätten i %s",
+      "ABBREV": "KR (Administrative Court of Appeal)",
       "variants": {
         "enIBFD": {
-          "abbrev": "KR %s [Administrative Court of Appeal]"
+          "abbrev": "KR %s (Administrative Court of Appeal)"
         }
       }
     },
     "forvaltningsraetten": {
       "name": "Förvaltningsrätten",
-      "abbrev": "Förvaltningsrätten %s",
-      "ABBREV": "FR",
+      "abbrev": "Förvaltningsrätten i %s",
+      "ABBREV": "FR (Administrative Court)",
       "variants": {
         "enIBFD": {
-          "abbrev": "FR %s [Administrative Court]"
+          "abbrev": "FR %s (Administrative Court)"
         }
       }
     },
     "mark.miljodomstol": {
       "name": "Mark och miljödomstolen",
-      "abbrev": "Mark och miljödomstolen %s",
+      "abbrev": "Mark och miljödomstolen i %s",
       "ABBREV": "!here>>>"
     },
     "migrationsdomstol": {
       "name": "Migrationsdomstolen",
-      "abbrev": "Migrationsdomstolen %s",
+      "abbrev": "Migrationsdomstolen i %s",
       "ABBREV": "UM"
     },
     "migrationsoverdomstol": {
 		"name": "Migrationsöverdomstolen",
-		"abbrev": "Migrationsöverdomstolen %s",
+		"abbrev": "Migrationsöverdomstolen i %s",
         "ABBREV": "MIG"
     },
     "hyresnamnd": {
       "name": "Hyresnämnd",
-      "abbrev": "Hyresnämnd %s",
+      "abbrev": "Hyresnämnd i %s",
       "ABBREV": "!here>>>"
     },
     "arrendenamnd": {
       "name": "Arrendenämnd",
-      "abbrev": "Arrendenämnd %s",
+      "abbrev": "Arrendenämnd i %s",
       "ABBREV": "!here>>>"
     },
     "tryckfrihetsdomstol": {
       "name": "Tryckfrihetsdomstol",
-      "abbrev": "Tryckfrihetsdomstol %s",
+      "abbrev": "Tryckfrihetsdomstol i %s",
       "ABBREV": "!here>>>"
     }
   },
@@ -391,7 +391,7 @@
       }
     },
     "se:svea:stockholm": {
-      "name": "Stockholms",
+      "name": "Stockholm",
       "courts": {
         "tingsratt": {},
         "kammarratten": {},

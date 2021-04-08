@@ -201,7 +201,8 @@
     },
     "at:burgenland": {
       "name": "Burgenland",
-      "abbrev": "Burgenland",
+      "ABBREV": "Bgld",
+      "abbrev": "Bgld",
       "courts": {
         "lvwg": {},
         "uvs": {}
@@ -567,7 +568,8 @@
     },
     "at:karnten": {
       "name": "Kärnten",
-      "abbrev": "Kärnten",
+      "ABBREV": "Krnt",
+      "abbrev": "Krnt",
       "courts": {
         "lvwg": {},
         "uvs": {}
@@ -799,7 +801,8 @@
     },
     "at:niederosterreich": {
       "name": "Niederösterreich",
-      "abbrev": "Niederösterreich",
+      "ABBREV": "NÖ",
+      "abbrev": "NÖ",
       "courts": {
         "lvwg": {},
         "uvs": {}
@@ -807,7 +810,8 @@
     },
     "at:oberosterreich": {
       "name": "Oberösterreich",
-      "abbrev": "Oberösterreich",
+      "ABBREV": "OÖ",
+      "abbrev": "OÖ",
       "courts": {
         "lvwg": {},
         "uvs": {}
@@ -815,7 +819,8 @@
     },
     "at:salzburg": {
       "name": "Salzburg",
-      "abbrev": "Salzburg",
+      "ABBREV": "Sbg",
+      "abbrev": "Sbg",
       "courts": {
         "lvwg": {},
         "uvs": {}
@@ -823,7 +828,8 @@
     },
     "at:steiermark": {
       "name": "Steiermark",
-      "abbrev": "Steiermark",
+      "ABBREV": "Stmk",
+      "abbrev": "Stmk",
       "courts": {
         "lvwg": {},
         "uvs": {}
@@ -831,7 +837,8 @@
     },
     "at:tirol": {
       "name": "Tirol",
-      "abbrev": "Tirol",
+      "ABBREV": "Tir",
+      "abbrev": "Tir",
       "courts": {
         "lvwg": {},
         "uvs": {}
@@ -839,7 +846,8 @@
     },
     "at:vorarlberg": {
       "name": "Vorarlberg",
-      "abbrev": "Vorarlberg",
+      "ABBREV": "Vlbg",
+      "abbrev": "Vlbg",
       "courts": {
         "lvwg": {},
         "uvs": {}

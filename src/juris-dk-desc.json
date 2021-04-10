@@ -1,14 +1,33 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "dc": {
-      "name": "Byret %s"
+      "name": "Byret %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "BR %s [District Court]"
+        }
+      }
     },
     "whc": {
-      "name": "Vestre Landsret"
+      "name": "Vestre Landsret",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "VLR [High Court of Western Denmark]"
+        }
+      }
     },
     "ehc": {
-      "name": "Østre Landsret"
+      "name": "Østre Landsret",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "ØLR [High Court of Eastern Denmark]"
+        }
+      }
     },
     "ghc": {
       "name": "Grønlands Landsret"
@@ -24,7 +43,12 @@
     },
     "sc": {
       "name": "Højesteret",
-      "abbrev": "H"
+      "abbrev": "H",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "HR [Supreme Court]"
+        }
+      }
     },
     "om": {
       "name": "Ombudsmanden"
@@ -32,8 +56,21 @@
     "neab": {
       "name": "Natur-og Miljøklagenævnet"
     },
+    "tb": {
+      "name": "Skatterådet",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "SR [National Tax Board]"
+        }
+      }
+    },
     "tc": {
-      "name": "Landsskatteretten"
+      "name": "Landsskatteretten",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "LSR [National Tax Tribunal]"
+        }
+      }
     }
   },
   "jurisdictions": {

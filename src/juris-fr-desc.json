@@ -1,9 +1,18 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "cass": {
       "name": "Cour de cassation",
-      "abbrev": "Cass."
+      "abbrev": "Cass.",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "CC [Court of Cassation]"
+        }
+      }
     },
     "cass~civ.1": {
       "name": "%s 1re Chambre civile",
@@ -41,7 +50,12 @@
       "name": "Conseil constitutionnel"
     },
     "ce": {
-      "name": "Conseil d'État"
+      "name": "Conseil d'État",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "CE [Supreme Administrative Court]"
+        }
+      }
     },
     "ce~reunies": {
       "name": "%s Chambres réunies",
@@ -69,7 +83,21 @@
     },
     "caa": {
       "name": "Cour administrative d'appel",
-      "abbrev": "C.A.A. %s"
+      "abbrev": "C.A.A. %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "CAA %s [Administrative Court of Appeals]"
+        }
+      }
+    },
+    "ta": {
+      "name": "Tribunal administratif",
+      "abbrev": "TA %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "TA %s [Administrative Tribunal]"
+        }
+      }
     }
   },
   "jurisdictions": {
@@ -110,7 +138,8 @@
     "fr:amiens": {
       "name": "Amiens",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:angers": {
@@ -122,26 +151,30 @@
     "fr:basse.terre": {
       "name": "Basse-Terre",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:bastia": {
       "name": "Bastia",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:besancon": {
       "name": "Besançon",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:bordeaux": {
       "name": "Bordeaux",
       "courts": {
         "ca": {},
-        "caa": {}
+        "caa": {},
+        "ta": {}
       }
     },
     "fr:bourges": {
@@ -153,19 +186,39 @@
     "fr:caen": {
       "name": "Caen",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:cayenne": {
       "name": "Cayenne",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
+      }
+    },
+    "fr:cergy.pontoise": {
+      "name": "Cergy-Pontoise",
+      "courts": {
+        "ta": {}
+      }
+    },
+    "fr:chalons.champagne": {
+      "name": "Châlons-en-Champagne",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:chambery": {
       "name": "Chambéry",
       "courts": {
         "ca": {}
+      }
+    },
+    "fr:clermont.ferrand": {
+      "name": "Clermont-Ferrand",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:colmar": {
@@ -177,7 +230,8 @@
     "fr:dijon": {
       "name": "Dijon",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:douai": {
@@ -190,26 +244,48 @@
     "fr:fort.france": {
       "name": "Fort-de-France",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:grenoble": {
       "name": "Grenoble",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
+      }
+    },
+    "fr:lille": {
+      "name": "Lille",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:limoges": {
       "name": "Limoges",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:lyon": {
       "name": "Lyon",
       "courts": {
         "ca": {},
-        "caa": {}
+        "caa": {},
+        "ta": {}
+      }
+    },
+    "fr:mamoudzou": {
+      "name": "Mamoudzou",
+      "courts": {
+        "ta": {}
+      }
+    },
+    "fr:mata.utu": {
+      "name": "Mata-Utu",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:metz": {
@@ -221,69 +297,98 @@
     "fr:marseille": {
       "name": "Marseille",
       "courts": {
-        "caa": {}
+        "caa": {},
+        "ta": {}
+      }
+    },
+    "fr:melun": {
+      "name": "Melun",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:montpellier": {
       "name": "Montpellier",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
+      }
+    },
+    "fr:montreuil": {
+      "name": "Montreuil",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:nancy": {
       "name": "Nancy",
       "courts": {
         "ca": {},
-        "caa": {}
+        "caa": {},
+        "ta": {}
       }
     },
     "fr:nantes": {
       "name": "Nantes",
       "courts": {
-        "caa": {}
+        "caa": {},
+        "ta": {}
+      }
+    },
+    "fr:nice": {
+      "name": "Nice",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:nimes": {
       "name": "Nîmes",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:noumea": {
       "name": "Nouméa",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:orleans": {
       "name": "Orléans",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:papeete": {
       "name": "Papeete",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:paris": {
       "name": "Paris",
       "courts": {
         "ca": {},
-        "caa": {}
+        "caa": {},
+        "ta": {}
       }
     },
     "fr:pau": {
       "name": "Pau",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:poitiers": {
       "name": "Poitiers",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:reims": {
@@ -295,7 +400,8 @@
     "fr:rennes": {
       "name": "Rennes",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:riom": {
@@ -307,32 +413,61 @@
     "fr:rouen": {
       "name": "Rouen",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
+      }
+    },
+    "fr:saint.barthelemy": {
+      "name": "Saint-Barthélemy",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:saint.denis": {
       "name": "Saint-Denis",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
+      }
+    },
+    "fr:saint.martin": {
+      "name": "Saint-Martin",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:saint.pierre.et.miquelon": {
       "name": "Saint-Pierre-et-Miquelon",
       "courts": {
+        "ta": {},
         "tsa": {}
+      }
+    },
+    "fr:strasbourg": {
+      "name": "Strasbourg",
+      "courts": {
+        "ta": {}
+      }
+    },
+    "fr:toulon": {
+      "name": "Toulon",
+      "courts": {
+        "ta": {}
       }
     },
     "fr:toulouse": {
       "name": "Toulouse",
       "courts": {
-        "ca": {}
+        "ca": {},
+        "ta": {}
       }
     },
     "fr:versailles": {
       "name": "Versailles",
       "courts": {
         "ca": {},
-        "caa": {}
+        "caa": {},
+        "ta": {}
       }
     }
   }

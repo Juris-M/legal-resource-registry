@@ -1,120 +1,490 @@
 {
-  "langs": {},
-  "courts": {
-    "ewca.civ": {
-      "name": "Court of Appeal|Civil Division",
-      "ABBREV": "EWCA"
-    },
-    "ewhc.ch.bankruptcy": {
-      "name": "High Court|Chancery Division|Bankruptcy and Companies Court"
-    },
-    "ewhc.ch.masters": {
-      "name": "High Court|Chancery Division|Masters"
-    },
-    "ewhc.ch.patent": {
-      "name": "High Court|Chancery Division|Patents Court"
-    },
-    "ewhc.family": {
-      "name": "High Court|Family Division"
-    },
-    "ewhc.qb.admin": {
-      "name": "High Court|Queen's Bench Division|Administrative Court"
-    },
-    "ewhc.qb.admiralty": {
-      "name": "High Court|Queen's Bench Division|Admiralty Court"
-    },
-    "ewhc.qb.comm": {
-      "name": "High Court|Queen's Bench Division|Commercial Court"
-    },
-    "ewhc.qb.mercantile": {
-      "name": "High Court|Queen's Bench Division|Mercantile Court"
-    },
-    "ewhc.qb.tcc": {
-      "name": "High Court|Queen's Bench Division|Technology and Construction Court"
-    },
-    "kb": {
-      "name": "King's Bench"
-    },
-    "house.of.lords": {
-      "name": "House of Lords"
-    },
-    "privy.council": {
-      "name": "Privy Council"
-    },
-    "supreme.court": {
-      "name": "Supreme Court"
-    }
-  },
-  "jurisdictions": {
-    "gb": {
-      "name": "United Kingdom",
-      "abbrev": "United Kingdom",
-      "courts": {
-        "house.of.lords": {},
-        "privy.council": {},
-        "supreme.court": {}
-      }
-    },
-    "gb:bermuda": {
-      "name": "Bermuda",
-      "abbrev": "Bermuda"
-    },
-    "gb:england.and.wales": {
-      "name": "England and Wales",
-      "abbrev": "England and Wales",
-      "courts": {
-        "ewca.civ": {},
-        "ewhc.ch.bankruptcy": {},
-        "ewhc.ch.masters": {},
-        "ewhc.ch.patent": {},
-        "ewhc.family": {},
-        "ewhc.qb.admin": {},
-        "ewhc.qb.admiralty": {},
-        "ewhc.qb.comm": {},
-        "ewhc.qb.mercantile": {},
-        "ewhc.qb.tcc": {},
-        "kb": {}
-      }
-    },
-    "gb:falkland.islands": {
-      "name": "Falkland Islands",
-      "abbrev": "Falkland Islands"
-    },
-    "gb:gibraltar": {
-      "name": "Gibraltar",
-      "abbrev": "Gibraltar"
-    },
-    "gb:guernsey": {
-      "name": "Guernsey",
-      "abbrev": "Guernsey"
-    },
-    "gb:hong.kong": {
-      "name": "Hong Kong",
-      "abbrev": "Hong Kong"
-    },
-    "gb:isle.man": {
-      "name": "Isle of Man",
-      "abbrev": "Isle of Man"
-    },
-    "gb:montserrat": {
-      "name": "Montserrat",
-      "abbrev": "Montserrat"
-    },
-    "gb:northern.ireland": {
-      "name": "Northern Ireland",
-      "abbrev": "Northern Ireland"
-    },
-    "gb:pitcairn.islands": {
-      "name": "Pitcairn Islands",
-      "abbrev": "Pitcairn Islands"
-    },
-    "gb:scotland": {
-      "name": "Scotland",
-      "abbrev": "Scotland"
-    },
-    "gb:turks.caicos.islands": {
-      "name": "Turks and Caicos Islands",
-      "abbrev": "Turks and Caicos Islands"
-    }
-  }
+	"langs": {},
+	"courts": {
+		"uksiac": {
+			"name": "Special Immigration Appeals Commission",
+			"abbrev": "UKSIAC"
+		},
+		"ukut.iac": {
+			"name": "Upper Tribunal|Immigration and Asylum Chamber",
+			"abbrev": "UKUT|IAC"
+		},
+		"ewca.civ": {
+			"name": "Court of Appeal|Civil Division",
+			"abbrev": "EWCA Civ"
+		},
+		"ewca.crim": {
+			"name": "Court of Appeal|Criminal Division",
+			"abbrev": "EWCA Crim"
+		},
+		"ewhc.ch": {
+			"name": "High Court|Chancery Division",
+			"abbrev": "EWHC|Ch"
+		},
+		"ewhc.qb": {
+			"name": "High Court|Queen's Bench",
+			"abbrev": "EWHC|QB"
+		},
+		"ewhc.bankruptcy": {
+			"name": "High Court|Chancery Division|Bankruptcy and Companies Court"
+		},
+		"ewhc.masters": {
+			"name": "High Court|Masters",
+			"abbrev": "EWHC"
+		},
+		"ewhc.patent": {
+			"name": "High Court|Patents Court",
+			"abbrev": "EWHC|Pat"
+		},
+		"ewhc.family": {
+			"name": "High Court|Family Division",
+			"abbrev": "EWHC|Fam"
+		},
+		"ewhc.admin": {
+			"name": "High Court|Administrative Court",
+			"abbrev": "EWHC|Admin"
+		},
+		"ewhc.admiralty": {
+			"name": "High Court|Admiralty Court",
+			"abbrev": "EWHC|Admlty"
+		},
+		"ewhc.comm": {
+			"name": "High Court|Commercial Court",
+			"abbrev": "EWHC|Comm"
+		},
+		"ewhc.mercantile": {
+			"name": "High Court|Queen's Bench Division|Mercantile Court"
+		},
+		"ewhc.tcc": {
+			"name": "High Court|Technology and Construction Court",
+			"abbrev": "EWHC|TCC"
+		},
+		"ewcop": {
+			"name": "Court of Protection",
+			"abbrev": "EWCOP"
+		},
+		"kb": {
+			"name": "King's Bench"
+		},
+		"house.of.lords": {
+			"name": "House of Lords"
+		},
+		"privy.council": {
+			"name": "Privy Council"
+		},
+		"supreme.court": {
+			"name": "Supreme Court",
+			"abbrev": "SC"
+		},
+		"sheriff": {
+			"name": "Sheriff Court %s"
+		},
+		"csih": {
+			"name": "Court of Session, Inner House",
+			"abbrev": "CSIH"
+		},
+		"csoh": {
+			"name": "Court of Session, Outer House",
+			"abbrev": "CSOH"
+		}
+	},
+	"jurisdictions": {
+		"gb": {
+			"name": "United Kingdom",
+			"abbrev": "UK",
+			"courts": {
+				"house.of.lords": {},
+				"privy.council": {},
+				"supreme.court": {
+					"name": "UK Supreme Court",
+					"abbrev": "UKSC"
+				},
+				"uksiac": {},
+				"ukut.iac": {}
+			}
+		},
+		"gb:bermuda": {
+			"name": "Bermuda",
+			"abbrev": "Bermuda"
+		},
+		"gb:england.and.wales": {
+			"name": "England and Wales",
+			"abbrev": "England and Wales",
+			"courts": {
+				"ewca.civ": {},
+				"ewca.crim": {},
+				"ewhc.ch": {},
+				"ewhc.qb": {},
+				"ewhc.bankruptcy": {},
+				"ewhc.masters": {},
+				"ewhc.patent": {},
+				"ewhc.family": {},
+				"ewhc.admin": {},
+				"ewhc.admiralty": {},
+				"ewhc.comm": {},
+				"ewhc.mercantile": {},
+				"ewhc.tcc": {},
+				"ewcop": {},
+				"kb": {}
+			}
+		},
+		"gb:falkland.islands": {
+			"name": "Falkland Islands",
+			"abbrev": "Falkland Islands"
+		},
+		"gb:gibraltar": {
+			"name": "Gibraltar",
+			"abbrev": "Gibraltar"
+		},
+		"gb:guernsey": {
+			"name": "Guernsey",
+			"abbrev": "Guernsey"
+		},
+		"gb:hong.kong": {
+			"name": "Hong Kong",
+			"abbrev": "Hong Kong"
+		},
+		"gb:isle.man": {
+			"name": "Isle of Man",
+			"abbrev": "Isle of Man"
+		},
+		"gb:montserrat": {
+			"name": "Montserrat",
+			"abbrev": "Montserrat"
+		},
+		"gb:northern.ireland": {
+			"name": "Northern Ireland",
+			"abbrev": "Northern Ireland"
+		},
+		"gb:pitcairn.islands": {
+			"name": "Pitcairn Islands",
+			"abbrev": "Pitcairn Islands"
+		},
+		"gb:scotland": {
+			"name": "Scotland",
+			"abbrev": "Scotland",
+			"courts": {
+				"csih": {},
+				"csoh": {}
+			}
+		},
+		"gb:scotland:glasgow.strathkelvin": {
+			"name": "Glasgow and Stathkelvin"
+		},
+		"gb:scotland:glasgow.strathkelvin:glasgow": {
+			"name": "Glasgow",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands": {
+			"name": "Grampian Highland and Islands"
+		},
+		"gb:scotland:grampian.highland.islands:aberdeen": {
+			"name": "Aberdeen",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:banff": {
+			"name": "Banff",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:dingwall": {
+			"name": "Dingwall",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:dornoch": {
+			"name": "Dornoch",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:elgin": {
+			"name": "Elgin",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:fort.william": {
+			"name": "Fort William",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:inverness": {
+			"name": "Inverness",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:kirkwall": {
+			"name": "Kirkwall",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:lerwick": {
+			"name": "Lerwick",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:lochmaddy": {
+			"name": "Lochmaddy",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:peterhead": {
+			"name": "Peterhead",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:portree": {
+			"name": "Portree",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:stonehaven": {
+			"name": "Stonehaven",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:stornoway": {
+			"name": "Stornoway",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:tain": {
+			"name": "Tain",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:grampian.highland.islands:wick": {
+			"name": "Wick",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:lothian.borders": {
+			"name": "Lothian and Borders"
+		},
+		"gb:scotland:lothian.borders:duns": {
+			"name": "Duns",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:lothian.borders:edinburgh": {
+			"name": "Edinburgh",
+			"courts": {
+				"sheriff": {
+					"abbrev": "SC EDIN"
+				}
+			}
+		},
+		"gb:scotland:lothian.borders:haddington": {
+			"name": "Haddington",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:lothian.borders:jedburgh": {
+			"name": "Jedburgh",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:lothian.borders:lenlithgow": {
+			"name": "Linlithgow",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:lothian.borders:peebles": {
+			"name": "Peebles",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:lothian.borders:selkirk": {
+			"name": "Selkirk",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:north.strathclyde": {
+			"name": "North Strathclyde"
+		},
+		"gb:scotland:north.strathclyde:campbeltown": {
+			"name": "Campbeltown",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:north.strathclyde:dumbarton": {
+			"name": "Dumbarton",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:north.strathclyde:dunoon": {
+			"name": "Dunoon",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:north.strathclyde:greenock": {
+			"name": "Greenock",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:north.strathclyde:kilmarnock": {
+			"name": "Kilmarnock",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:north.strathclyde:oban": {
+			"name": "Oban",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:north.strathclyde:paisley": {
+			"name": "Paisley",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:north.strathclyde:rothesay": {
+			"name": "Rothesay",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:south.strathclyde.dumbries.galloway": {
+			"name": "South Strathclyde, Dumfries and Galloway"
+		},
+		"gb:scotland:south.strathclyde.dumbries.galloway:airdrie": {
+			"name": "Airdrie",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:south.strathclyde.dumbries.galloway:ayr": {
+			"name": "Ayr",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:south.strathclyde.dumbries.galloway:dumfries": {
+			"name": "Dumfries",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:south.strathclyde.dumbries.galloway:hamilton": {
+			"name": "Hamilton",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:south.strathclyde.dumbries.galloway:kirkcudbright": {
+			"name": "Kirkcudbright",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:south.strathclyde.dumbries.galloway:lanark": {
+			"name": "Lanark",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:south.strathclyde.dumbries.galloway:stranraer": {
+			"name": "Stranraer",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife": {
+			"name": "Tayside, Central and Fife"
+		},
+		"gb:scotland:tayside.central.fife:alloa": {
+			"name": "Alloa",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:arbroath": {
+			"name": "Arbroath",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:cupar": {
+			"name": "Cupar",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:dundee": {
+			"name": "Dundee",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:dunfermline": {
+			"name": "Dunfermline",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:falkirk": {
+			"name": "Falkirk",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:forfar": {
+			"name": "Forfar",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:kirkaldy": {
+			"name": "Kirkaldy",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:perth": {
+			"name": "Perth",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:scotland:tayside.central.fife:stirling": {
+			"name": "Stirling",
+			"courts": {
+				"sheriff": {}
+			}
+		},
+		"gb:turks.caicos.islands": {
+			"name": "Turks and Caicos Islands",
+			"abbrev": "Turks and Caicos Islands"
+		}
+	}
 }

@@ -1,5 +1,9 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "sr": {
       "name": "Sąd Rejonowy %s"
@@ -11,10 +15,20 @@
       "name": "Sąd Apelacyjny %s"
     },
     "wsa": {
-      "name": "Woj. Sąd Administracyjny %s"
+      "name": "Woj. Sąd Administracyjny %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "WSA %s [Regional Administrative Court]"
+        }
+      }
     },
     "nsa": {
-      "name": "Najwyższy Sąd Administracyjny"
+      "name": "Najwyższy Sąd Administracyjny",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "NSA [Supreme Administrative Court]"
+        }
+      }
     },
     "sn": {
       "name": "Sąd Najwyższy"

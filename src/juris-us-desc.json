@@ -1,6 +1,16 @@
 {
   "langs": {},
   "courts": {
+      "cwcc": {
+		  "name": "Court of Workers' Compensation Claims",
+		  "abbrev": "%s Ct. Work. Comp. Cl.",
+		  "ABBREV": "%s WC"
+	  },
+      "wcab": {
+		  "name": "Workers' Compensation Appeals Board",
+		  "abbrev": "%s Work. Comp. App. Bd.",
+		  "ABBREV": "%s WC App."
+	  },
     "tribunal.supremo": {
       "name": "Tribunal Supremo",
       "abbrev": "%s Tr. Sup."
@@ -50,7 +60,7 @@
       "abbrev": "T.C."
     },
     "bankruptcy.court": {
-      "name": "Bankruptcy Appellate Panel",
+      "name": "Bankruptcy Court",
       "abbrev": "Bankr. %s"
     },
     "district.court": {
@@ -1879,14 +1889,16 @@
       "container-title": {
         "Ill. App.": "!authority>>>Ill. App.",
         "Ill. App. 2d": "!authority>>>Ill. App. 2d",
-        "Ill. App. 3d": "!authority>>>Ill. App. 3d"
+        "Ill. App. 3d": "!authority>>>Ill. App. 3d",
+        "Ill. Dec.": "!authority:Ill.>>>Ill. Dec."
       }
     },
     "us:il:d1": {
       "name": "First District",
       "courts": {
         "appellate.court": {
-          "ABBREV": "IL App (1st)"
+			"ABBREV": "IL App (1st)",
+			"abbrev": "Ill. App. Ct."
         }
       }
     },
@@ -1894,7 +1906,8 @@
       "name": "Second District",
       "courts": {
         "appellate.court": {
-          "ABBREV": "Il App (2d)"
+          "ABBREV": "Il App (2d)",
+			"abbrev": "Ill. App. Ct."
         }
       }
     },
@@ -1902,7 +1915,8 @@
       "name": "Third District",
       "courts": {
         "appellate.court": {
-          "ABBREV": "IL App (3d)"
+          "ABBREV": "IL App (3d)",
+			"abbrev": "Ill. App. Ct."
         }
       }
     },
@@ -1910,7 +1924,8 @@
       "name": "Fourth District",
       "courts": {
         "appellate.court": {
-          "ABBREV": "IL App (4th)"
+          "ABBREV": "IL App (4th)",
+			"abbrev": "Ill. App. Ct."
         }
       }
     },
@@ -1918,7 +1933,8 @@
       "name": "Fifth District",
       "courts": {
         "appellate.court": {
-          "ABBREV": "IL App (5th)"
+          "ABBREV": "IL App (5th)",
+			"abbrev": "Ill. App. Ct."
         }
       }
     },
@@ -2420,10 +2436,11 @@
         "court.judicial.discipline": {},
         "special.tribunal": {},
         "superior.court": {
-          "ABBREV": "PA Super",
-          "abbrev_select": "jurisdiction"
+          "ABBREV": "PA Super"
         },
-        "supreme.court": {}
+        "supreme.court": {
+          "abbrev_select": "jurisdiction"
+		}
       }
     },
     "us:pr": {
@@ -2468,13 +2485,16 @@
     "us:tn": {
       "name": "Tennessee",
       "abbrev": "Tenn.",
+      "ABBREV": "TN",
       "courts": {
         "court.appeals": {},
         "court.criminal.appeals": {},
         "superior.court.law.equity": {},
         "supreme.court": {
           "abbrev_select": "jurisdiction"
-        }
+        },
+        "cwcc": {},
+        "wcab": {}
       }
     },
     "us:tn.d": {

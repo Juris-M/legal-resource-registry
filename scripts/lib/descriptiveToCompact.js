@@ -23,6 +23,9 @@ const setAbbrevData = (obj, lang, passthroughs) => {
 		passthroughs = [];
 	}
 	var ret = {};
+	if ("undefined" === typeof obj) {
+		throw new Error(`Undefined object in setAbbrevData()`);
+	}
 	if (obj.name) {
 		ret.abbrev = obj.name;
 	}
@@ -53,23 +56,30 @@ const setAbbrevData = (obj, lang, passthroughs) => {
 	return ret;
 }
 	
-const processJurisAbbrevs = (jurisID, jurisDesc) => {
+const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 	var langs = [""].concat(getLangs(jurisDesc, "abbrevs"));
 	for (var lang of langs) {
 		var ret = JSON.parse(JSON.stringify(abbrevTemplate));
 		// Add jurisdiction abbrevs to return object
 		for (var jKey in jurisDesc.jurisdictions) {
 			var jObj = jurisDesc.jurisdictions[jKey];
+			if ("undefined" === typeof jObj) {
+				throw new Error(`Undefined jObj from ${jKey} in processJurisAbbrevs()`);
+			}
 			if (jKey.indexOf(":") === -1) {
 				ret.name = jObj.name;
 			}
 			var allcapsJurisdictionKey = jKey.toUpperCase();
 			ret.xdata.default.place[allcapsJurisdictionKey] = jObj.name;
+			var setAbbrev = false;
 			if (jObj.abbrev) {
+				setAbbrev = true;
 				ret.xdata.default.place[allcapsJurisdictionKey] = jObj.abbrev;
 			}
 			if (jObj.variants && jObj.variants[lang]) {
-				ret.xdata.default.place[allcapsJurisdictionKey] = jObj.variants[lang].name;
+				if (!setAbbrev) {
+					ret.xdata.default.place[allcapsJurisdictionKey] = jObj.variants[lang].name;
+				}
 				if (jObj.variants[lang].abbrev) {
 					ret.xdata.default.place[allcapsJurisdictionKey] = jObj.variants[lang].abbrev;
 				}
@@ -106,13 +116,22 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 		// Resolve courts in context into ret.jurisdictions
 		for (var jKey in data.jurisdictions) {
 			var jObj = data.jurisdictions[jKey];
+			if ("undefined" === typeof jObj) {
+				throw new Error(`Undefined jObj from ${jKey} in data.jurisdictions loop of processJurisAbbrevs`);
+			}
 			jabbrev = jObj.abbrev;
 			jABBREV = jObj.ABBREV;
 			if (jObj.courts) {
 				for (var cKey in jObj.courts) {
+					if ("undefined" === typeof data.courts[cKey]) {
+						throw new Error(`Undefined data.courts[cKey] from cKey=${cKey} in processJurisAbbrevs`);
+					}
 					cabbrev = data.courts[cKey].abbrev;
 					cABBREV = data.courts[cKey].ABBREV;
 					var cObj = jObj.courts[cKey];
+					if ("undefined" === typeof cObj) {
+						throw new Error(`Undefined cObj from cKey=${cKey} in processJurisAbbrevs`);
+					}
 					if (cObj.abbrev) {
 						cabbrev = cObj.abbrev;
 					}
@@ -172,7 +191,7 @@ const processJurisAbbrevs = (jurisID, jurisDesc) => {
 			var oldXdata = JSON.stringify(JSON.parse(fs.readFileSync(pathName).toString()).xdata).trim();
 		}
 		var newXdata = JSON.stringify(ret.xdata).trim();
-		if (newXdata !== oldXdata) {
+		if (newXdata !== oldXdata || opts.force) {
 			console.log(`Writing ${pathName}`);
 			fs.writeFileSync(pathName, JSON.stringify(ret, null, 2));
 		}
@@ -230,9 +249,9 @@ const getJurisdictionData = (stringIndex, jurisDesc, langs) => {
 			}
 			parentIndex[jKey] = arr.length;
 			arr.push([jKey.split(":").slice(-1)[0], obj.name, parentPos]);
-			if (jurisDesc.jurisdictions.variants && jurisDesc.jurisdictions.variants[lang]) {
-				if (jurisDesc.jurisdictions.variants[lang].name) {
-					arr[pos][1] = jurisDesc.jurisdictions.variants[lang].name;
+			if (jurisDesc.jurisdictions[jKey].variants && jurisDesc.jurisdictions[jKey].variants[lang]) {
+				if (jurisDesc.jurisdictions[jKey].variants[lang].name) {
+					arr[pos][1] = jurisDesc.jurisdictions[jKey].variants[lang].name;
 				}
 			}
 			arr[pos] = arr[pos].concat(getCourtsInContext(stringIndex, obj, lang));
@@ -276,7 +295,69 @@ const getLangs = (jurisDesc, key) => {
 	return ret;
 }
 
-const processJurisMaps = (jurisID, jurisDesc) => {
+const buildMapVersion = (jurisObj) => {
+	var rowcount = 0;
+	for (var lang in jurisObj.jurisdictions) {
+		rowcount += Object.keys(jurisObj.jurisdictions[lang]).length;
+	}
+	var timestamp = util.getDateNow();
+	return {
+		timestamp: timestamp,
+		rowcount: rowcount
+	};
+}
+
+const buildMapVersions = (jurisID) => {
+	var versions_path = path.join(config.path.jurisMapDir, `versions.json`);
+	var versions;
+	console.log(`Reading ${versions_path}`);
+	var versions_json = fs.readFileSync(versions_path).toString();
+	try {
+		versions = JSON.parse(versions_json);
+	} catch(e) {
+		e = new Error(`Error while reading ${versions_path}\n       \"${e.message}\"\n       Either fix the JSON syntax of the file, or remove it to refresh all jurisdiction maps`);
+		handleError(e);
+	}
+	var map_path = path.join(config.path.jurisMapDir, `juris-${jurisID}-map.json`);
+	var map_json = fs.readFileSync(map_path).toString();
+	var jurisObj = JSON.parse(map_json);
+	versions[jurisID] = buildMapVersion(jurisObj);
+	return versions;
+};
+
+const validateAllMapJSON = () => {
+	var newVersionsObj = false;
+	var versions_path = path.join(config.path.jurisMapDir, `versions.json`);
+	if (!fs.existsSync(versions_path)) {
+		newVersionsObj = {};
+	}
+	var pth = config.path.jurisMapDir;
+	var filenames = fs.readdirSync(pth);
+	for (var fn of filenames) {
+		var m = fn.match(/^juris-(.*)-map.json$/);
+		if (m) {
+			var jurisID = m[1];
+			var map_path = path.join(config.path.jurisMapDir, fn);
+			var map_json = fs.readFileSync(map_path).toString();
+			try {
+				// Just check that parsing works.
+				var jurisObj = JSON.parse(map_json);
+				if (newVersionsObj) {
+					newVersionsObj[jurisID] = buildMapVersion(jurisObj);
+				}
+			} catch(e) {
+				e = new Error(`ERROR: error parsing file at ${map_path}\n       \"${e.message}\"\n       Map files must be valid JSON.`);
+				handleError(e);
+			}
+		}
+	}
+	if (newVersionsObj) {
+		console.log(`Creating ${versions_path}`);
+		fs.writeFileSync(versions_path, JSON.stringify(newVersionsObj, null, 2));
+	}
+};
+
+const processJurisMap = (opts, jurisID, jurisDesc) => {
 	// In Jurism DB
 	// 46964|at:innsbruck:innsbruck:silz|Austria|AT|Innsbruck|Innsbruck|Silz|5
 	//
@@ -295,7 +376,6 @@ const processJurisMaps = (jurisID, jurisDesc) => {
     //         ]
     //     }
     // };
-	
 	var langs = [""].concat(getLangs(jurisDesc, "ui"));
 	var courtStrings = getCourtStrings(jurisDesc);
 	var jurisdictionData = getJurisdictionData(courtStrings.index, jurisDesc, langs);
@@ -309,19 +389,9 @@ const processJurisMaps = (jurisID, jurisDesc) => {
 		var curTxt = fs.readFileSync(pathName).toString().trim();
 	}
 	var newTxt = JSON.stringify(ret).trim();
-	if (newTxt !== curTxt) {
+	if (newTxt !== curTxt || opts.force) {
 		fs.writeFileSync(pathName, newTxt);
-		var versions_json = fs.readFileSync(path.join(config.path.jurisMapDir, `versions.json`)).toString();
-		var versions = JSON.parse(versions_json);
-		var timestamp = util.getDateNow();
-		var rowcount = 0;
-		for (var lang in ret.jurisdictions) {
-			rowcount += Object.keys(ret.jurisdictions[lang]).length;
-		}
-		versions[jurisID] = {
-			timestamp: timestamp,
-			rowcount: rowcount
-		};
+		var versions = buildMapVersions(jurisID);
 		fs.writeFileSync(path.join(config.path.jurisMapDir, `versions.json`), JSON.stringify(versions, null, 2));
 	}
 }
@@ -350,22 +420,36 @@ async function descriptiveToCompact(opts) {
 		}
 		handleError(e);
 	}
+	console.log(`Processing: ${jurisIDs.join(", ")}`);
+	validateAllMapJSON();
 	for (var jurisID of jurisIDs) {
 		opts.j = jurisID;
 		var json = fs.readFileSync(path.join(config.path.jurisSrcDir, "juris-" + jurisID + "-desc.json")).toString();
 		var json = eol.lf(json);
 		var jurisDesc = JSON.parse(json);
-		console.log(jurisID);
-		processJurisAbbrevs(jurisID, jurisDesc);
-		processJurisMaps(jurisID, jurisDesc);
+		processJurisAbbrevs(opts, jurisID, jurisDesc);
+		processJurisMap(opts, jurisID, jurisDesc);
 	}
-	rewriteAbbrevsDirectoryListing();
+	// rewriteAbbrevsDirectoryListing();
 }
 
 const rewriteAbbrevsDirectoryListing = () => {
 	var outPath = path.join(config.path.jurisAbbrevsDir, "DIRECTORY_LISTING.json");
+	// Three passes. One to pick up the importable files, another to pick up the parent auto files, and a third to add variants.
+	var ret = [];
+	for (var filename of fs.readdirSync(config.path.jurisAbbrevsDir)) {
+		var m = filename.match(/(.*).json/);
+		if (!m) continue;
+		if (m[1].slice(0, 5) === "auto-" || m[1].slice(0, 3) === "DIR") {
+			continue;
+		}
+		var obj = JSON.parse(fs.readFileSync(path.join(config.path.jurisAbbrevsDir, filename)).toString());
+		ret.push({
+			filename: filename,
+			name: obj.name
+		});
+	}
 	var acc = {};
-	// Two passes. One to pick up the main files, and a second to add variants.
 	for (var filename of fs.readdirSync(config.path.jurisAbbrevsDir)) {
 		var m = filename.match(/^auto-([^-]+).json/);
 		if (!m) continue;
@@ -391,7 +475,6 @@ const rewriteAbbrevsDirectoryListing = () => {
 		acc[jurisdiction].variants[variant] = obj.version;
 	}
 	// Compose as array and write
-	var ret = [];
 	for (var key in acc) {
 		ret.push(acc[key]);
 	}

@@ -1,8 +1,17 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "dc": {
-      "name": "Επαρχιακά Δικαστήρια"
+      "name": "Επαρχιακά Δικαστήρια",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "DC %s [District Court]"
+        }
+      }
     },
     "fc": {
       "name": "Δικαστήριο Έλεγχου Ενοικιάσεων"
@@ -29,7 +38,12 @@
       "name": "Στρατιωτικό Δικαστήριο"
     },
     "sc": {
-      "name": "Ανώτατο Δικαστήριο"
+      "name": "Ανώτατο Δικαστήριο",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "SC [Supreme Court]"
+        }
+      }
     }
   },
   "jurisdictions": {

@@ -100,7 +100,6 @@ like this, with `null` values for the paths:
 ```javascript
 {
   "path": {
-    "dataDir": null,
     "jurisSrcDir": null,
     "jurisMapDir": null,
     "jurisAbbrevsDir": null
@@ -109,10 +108,6 @@ like this, with `null` values for the paths:
 ```
 
 The paths should be set as follows:
-
-> **dataDir**
-> * Set `dataDir` as the path to your Jurism data directory. You can find the
->   directory path in the Jurism client via Preferences﻿→Advanced﻿→Files & Folders.
 
 > **jurisSrcDir**
 > * Set `jurisSrcDir` to the path of the `src` subdirectory of your cloned copy

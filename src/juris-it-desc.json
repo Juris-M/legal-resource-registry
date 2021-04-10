@@ -1,14 +1,28 @@
 {
-  "langs": {},
+  "langs": {
+    "enIBFD": [
+      "abbrevs"
+    ]
+  },
   "courts": {
     "csdc": {
-      "name": "Corte Suprema di Cassazione"
+      "name": "Corte Suprema di Cassazione",
+      "variants": {
+        "enIBFD": {
+          "abbrev": " Cass. [Supreme Court]"
+        }
+      }
     },
     "cs": {
       "name": "Consiglio di Stato"
     },
     "cc": {
-      "name": "Corte Costituzionale"
+      "name": "Corte Costituzionale",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "C. Cost. [Constitutional Court]"
+        }
+      }
     },
     "cdapp": {
       "name": "Corte d’Appello di %s"
@@ -18,6 +32,30 @@
     },
     "ct": {
       "name": "Commissione Territoriale di %s"
+    },
+    "ctc": {
+      "name": "Commissione Tributaria Centrale",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "CTC [Central Tax Court]"
+        }
+      }
+    },
+    "ctp": {
+      "name": "Commissione Tributaria Provinciale di %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "CTP %s [First Instance Tax Court]"
+        }
+      }
+    },
+    "ctr": {
+      "name": "Commissione Tributaria Regionale di %s",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "CTR %s [Tax Court of Appeal]"
+        }
+      }
     },
     "tar": {
       "name": "Tribunale Administrativo Regionale di %s"
@@ -44,7 +82,8 @@
       "courts": {
         "csdc": {},
         "cs": {},
-        "cc": {}
+        "cc": {},
+        "ctc": {}
       }
     },
     "it:abruzzo": {

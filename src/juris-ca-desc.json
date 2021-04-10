@@ -6,192 +6,258 @@
     ]
   },
   "courts": {
-    "supreme.court": {
-      "name": "Supreme Court of Canada",
-      "abbrev": "SC%s",
+    "court.appeal": {
+      "name": "Court of Appeal",
+      "abbrev": "%s CA",
+      "ABBREV": "%sCA",
       "variants": {
         "fr": {
-          "abbrev": "CS%s"
+          "name": "Cour d'appel"
         }
       }
+    },
+    "court.martial.appeal.court": {
+      "name": "Court Martial Appeal Court of Canada",
+      "abbrev": "Ct Martial App Ct %s",
+      "ABBREV": "CMAC",
+      "variants": {
+        "fr": {
+          "name": "Cour d'appel de la cour martiale du Canada",
+          "abbrev": "CACM %s",
+          "ABBREV": "CACM"
+        }
+      }
+    },
+    "court.queens.bench": {
+      "name": "Court of Queen's Bench",
+      "abbrev": "%s QB",
+      "ABBREV": "%sQB",
+      "variants": {
+        "fr": {
+          "name": "Cour du Banc de la Reine"
+        }
+      }
+    },
+    "court.justice": {
+      "name": "Court of Justice",
+      "abbrev": "%s Ct J",
+      "ABBREV": "%sCJ",
+      "variants": {
+        "fr": {
+          "name": "Cour de justice",
+          "abbrev": "%s CJ"
+        }
+      }
+    },
+    "court.quebec": {
+      "name": "Court of Quebec",
+      "abbrev": "%s CQ",
+      "ABBREV": "%sCQ",
+      "variants": {
+        "fr": {
+          "name": "Cour du Québec"
+        }
+      }
+    },
+    "courts.martial": {
+      "name": "Courts Martial",
+      "abbrev": "Ct Martial %s",
+      "ABBREV": "CM",
+      "variants": {
+        "fr": {
+          "name": "Cours martiales",
+          "abbrev": "CM %s",
+          "ABBREV": "CM"
+        }
+      }
+    },
+    "family.court": {
+      "name": "Family Court",
+      "abbrev": "%s FC",
+      "ABBREV": "%sFC"
     },
     "federal.court": {
       "name": "Federal Court",
       "abbrev": "FC",
+      "ABBREV": "FC",
       "variants": {
         "fr": {
-          "abbrev": "CF"
+          "name": "Cour fédérale",
+          "abbrev": "CF",
+          "ABBREV": "CF"
         }
       }
     },
     "federal.court.appeal": {
       "name": "Federal Court of Appeal",
       "abbrev": "FCA",
+      "ABBREV": "FCA",
       "variants": {
         "fr": {
-          "abbrev": "CAF"
+          "name": "Cour d'appel fédérale",
+          "abbrev": "CAF",
+          "ABBREV": "CAF"
         }
       }
     },
-    "tax.court": {
-      "name": "Tax Court of Canada",
-      "abbrev": "TC%s",
+    "human.rights.tribunal": {
+      "name": "Human Rights Tribunal",
+      "abbrev": "%s HRT",
+      "ABBREV": "HRT",
       "variants": {
         "fr": {
-          "abbrev": "CCI"
+          "name": "Tribunal des droits de la personne",
+          "abbrev": "HRT %s",
+          "ABBREV": "TDP"
         }
       }
     },
-    "court.martial.appeal.court": {
-      "name": "Court Martial Appeal Court of Canada",
-      "abbrev": "CMA%s",
+    "municipal.courts": {
+      "name": "Municipal Courts",
+      "abbrev": "%s Mun Ct",
+      "ABBREV": "%sCM",
       "variants": {
         "fr": {
-          "abbrev": "CAM%s"
+          "name": "Cours municipales",
+          "abbrev": "CM %s"          
         }
       }
     },
-    "court.appeal": {
-      "name": "Court of Appeal",
-      "abbrev": "%sCA",
-      "ABBREV": "%sCA",
-      "variants": {
-        "fr": {}
-      }
+    "probate.court": {
+      "name": "Probate Court",
+      "abbrev": "Prob Ct %s",
+      "ABBREV": "%sPB"
     },
-    "court.queens.bench": {
-      "name": "Court of Queen's Bench",
-      "abbrev": "%sQB",
-      "ABBREV": "%sQB",
+    "professions.tribunal": {
+      "name": "Professionals Tribunal",
+      "ABBREV": "%sTP",
       "variants": {
-        "fr": {}
+        "fr": {
+          "name": "Tribunal des professions"
+        }
       }
     },
     "provincial.court": {
       "name": "Provincial Court",
-      "abbrev": "%sPC",
+      "abbrev": "%s PC",
       "ABBREV": "%sPC",
       "variants": {
-        "fr": {}
-      }
-    },
-    "supreme.court.prov": {
-      "name": "Supreme Court",
-      "abbrev": "%sSC",
-      "ABBREV": "%sSC",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "supreme.court.court.appeal": {
-      "name": "Supreme Court, Court of Appeal",
-      "abbrev": "%sCA",
-      "ABBREV": "%sCA",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "supreme.court.trial.division.nl": {
-      "name": "Supreme Court Trial Division",
-      "abbrev": "%sTD",
-      "ABBREV": "%sTD",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "territorial.court": {
-      "name": "Territorial Court",
-      "abbrev": "%sTC",
-      "ABBREV": "%sTC",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "family.court": {
-      "name": "Family Court",
-      "abbrev": "%sFC",
-      "ABBREV": "%sFC",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "court.justice": {
-      "name": "Court of Justice",
-      "abbrev": "%sCJ",
-      "ABBREV": "%sCJ",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "superior.court.justice": {
-      "name": "Superior Court of Justice",
-      "abbrev": "%sSC",
-      "ABBREV": "%sSC",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "supreme.court.appeal.division": {
-      "name": "Supreme Court, Appeal Divison",
-      "abbrev": "%sCA",
-      "ABBREV": "%sCA",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "supreme.court.trial.division.pe": {
-      "name": "Supreme Court, Trial Divison",
-      "abbrev": "%sSC",
-      "ABBREV": "%sSC",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "court.quebec": {
-      "name": "Court of Québec",
-      "abbrev": "%sCQ",
-      "ABBREV": "%sCQ",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "tribunal.professions": {
-      "name": "Tribunal des professions",
-      "abbrev": "%sTP",
-      "ABBREV": "%sTP",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "small.claims.court": {
-      "name": "Small Claims Court",
-      "abbrev": "%sSM",
-      "ABBREV": "%sSM",
-      "variants": {
-        "fr": {}
-      }
-    },
-    "superior.court": {
-      "name": "Superior Court",
-      "abbrev": "%sCS",
-      "ABBREV": "%sCS",
-      "variants": {
-        "fr": {}
+        "fr": {
+          "name": "Cour provinciale",
+          "abbrev": "%s CP"
+        }
       }
     },
     "quebec.admin.tribunal": {
       "name": "Tribunal administratif du Québec",
-      "abbrev": "%sTAQ",
-      "ABBREV": "%sTAQ",
+      "abbrev": "TAQ",
+      "ABBREV": "TAQ"
+    },
+    "small.claims.court": {
+      "name": "Small Claims Court",
+      "abbrev": "%s Sm Cl Ct",
+      "ABBREV": "%sSM",
       "variants": {
-        "fr": {}
+        "fr": {
+          "name": "Cour des petites créances",
+          "abbrev": "%s C pet cré"
+        }
+      }
+    },
+    "superior.court": {
+      "name": "Superior Court",
+      "abbrev": "%s Sup Ct",
+      "ABBREV": "%sSC",
+      "variants": {
+        "fr": {
+          "name": "Cour supérieur",
+          "abbrev": "%s CS"
+        }
+      }
+    },
+    "supreme.court": {
+      "name": "Supreme Court of Canada",
+      "abbrev": "SCC",
+      "ABBREV": "SCC",
+      "variants": {
+        "fr": {
+          "name": "Cour suprême du Canada",
+          "abbrev": "CSC",
+          "ABBREV": "CSC"
+        }
+      }
+    },
+    "supreme.court.family": {
+      "name": "Supreme Court (Family Division)",
+      "abbrev": "%s SC (Fam Div)",
+      "ABBREV": "%sSF"
+    },
+    "supreme.court.prov": {
+      "name": "Supreme Court",
+      "abbrev": "%s SC",
+      "ABBREV": "%sSC",
+      "variants": {
+        "fr": {
+          "name": "Cour suprême",
+          "abbrev": "%s C Supr"
+        }
+      }
+    },
+    "supreme.court.trial.division.nl": {
+      "name": "Supreme Court Trial Division (2004 - 2018)",
+      "abbrev": "%s SC (TD)",
+      "ABBREV": "%sTD"
+    },
+    "tax.court": {
+      "name": "Tax Court of Canada",
+      "abbrev": "TCC",
+      "ABBREV": "TCC",
+      "variants": {
+        "fr": {
+          "name": "Cour canadienne de l'impôt",
+          "abbrev": "CCI",
+          "ABBREV": "CCI"
+        }
+      }
+    },
+    "territorial.court": {
+      "name": "Territorial Court",
+      "abbrev": "%s Terr Ct",
+      "ABBREV": "%sTC",
+      "variants": {
+        "fr": {
+          "name": "Cour territoriale",
+          "abbrev": "%s CT"
+        }
+      }
+    },
+    "tribunal.professions": {
+      "name": "Professions Tribunal",
+      "abbrev": "%s TP",
+      "ABBREV": "%sTP",
+      "variants": {
+        "fr": {
+          "name": "Tribunal des professions",
+          "abbrev": "TP %s"
+        }
+      }
+    },
+    "youth.court": {
+      "name": "Youth Justice Court",
+      "abbrev": "%s Youth Ct",
+      "ABBREV": "%sCN",
+      "variants": {
+        "fr": {
+          "name": "Tribunal de la jeunesse",
+          "abbrev": "%s Trib jeun"
+        }
       }
     }
   },
   "jurisdictions": {
     "ca": {
       "name": "Canada",
-      "abbrev": "C",
+      "abbrev": "Can",
       "ABBREV": "C",
       "courts": {
         "supreme.court": {
@@ -229,24 +295,9 @@
       "abbrev": "Alta",
       "ABBREV": "AB",
       "courts": {
-        "court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "court.queens.bench": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "provincial.court": {
-          "variants": {
-            "fr": {}
-          }
-        }
-      },
-      "variants": {
-        "fr": {}
+        "court.appeal": {},
+        "court.queens.bench": {},
+        "provincial.court": {}
       }
     },
     "ca:bc": {
@@ -254,24 +305,14 @@
       "abbrev": "BC",
       "ABBREV": "BC",
       "courts": {
-        "court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "supreme.court.prov": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "provincial.court": {
-          "variants": {
-            "fr": {}
-          }
-        }
+        "court.appeal": {},
+        "supreme.court.prov": {},
+        "provincial.court": {}
       },
       "variants": {
-        "fr": {}
+        "fr": {
+          "name": "Colombie-Britannique"
+        }
       }
     },
     "ca:mb": {
@@ -279,24 +320,9 @@
       "abbrev": "Man",
       "ABBREV": "MB",
       "courts": {
-        "court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "court.queens.bench": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "provincial.court": {
-          "variants": {
-            "fr": {}
-          }
-        }
-      },
-      "variants": {
-        "fr": {}
+        "court.appeal": {},
+        "court.queens.bench": {},
+        "provincial.court": {}
       }
     },
     "ca:nb": {
@@ -306,22 +332,31 @@
       "courts": {
         "court.appeal": {
           "variants": {
-            "fr": {}
+            "fr": {
+              "abbrev": "CA %s"
+            }
           }
         },
         "court.queens.bench": {
           "variants": {
-            "fr": {}
+            "fr": {
+              "abbrev": "BR %s",
+              "ABBREV": "NBBR"
+            }
           }
         },
         "provincial.court": {
           "variants": {
-            "fr": {}
+            "fr": {
+              "abbrev": "CP %s",
+              "ABBREV": "NBCP"
+            }
           }
         }
       },
       "variants": {
         "fr": {
+          "name": "Nouveau-Brunswick",
           "abbrev": "N-B"
         }
       }
@@ -331,19 +366,15 @@
       "abbrev": "NL",
       "ABBREV": "NL",
       "courts": {
-        "supreme.court.court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "supreme.court.trial.division.nl": {
-          "variants": {
-            "fr": {}
-          }
-        }
+        "court.appeal": {},
+        "supreme.court.prov": {},
+        "provincial.court": {},
+        "supreme.court.trial.division.nl": {}
       },
       "variants": {
-        "fr": {}
+        "fr": {
+          "name": "Terre-Neuve-et-Labrador"
+        }
       }
     },
     "ca:ns": {
@@ -351,29 +382,18 @@
       "abbrev": "NS",
       "ABBREV": "NS",
       "courts": {
-        "court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "supreme.court.prov": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "family.court": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "provincial.court": {
-          "variants": {
-            "fr": {}
-          }
-        }
+        "court.appeal": {},
+        "supreme.court.prov": {},
+        "supreme.court.family": {},
+        "provincial.court": {},
+        "small.claims.court": {},
+        "probate.court": {},
+        "family.court": {}
       },
       "variants": {
-        "fr": {}
+        "fr": {
+          "name": "Nouvelle-Écosse"
+        }
       }
     },
     "ca:nt": {
@@ -381,24 +401,13 @@
       "abbrev": "NWT",
       "ABBREV": "NWT",
       "courts": {
-        "court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "supreme.court.prov": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "territorial.court": {
-          "variants": {
-            "fr": {}
-          }
-        }
+        "court.appeal": {},
+        "supreme.court.prov": {},
+        "territorial.court": {}
       },
       "variants": {
         "fr": {
+          "name": "Territoires du Nord-Ouest",
           "abbrev": "TN-O"
         }
       }
@@ -408,19 +417,9 @@
       "abbrev": "NU",
       "ABBREV": "NU",
       "courts": {
-        "court.justice": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        }
-      },
-      "variants": {
-        "fr": {}
+        "court.appeal": {},
+        "court.justice": {},
+        "youth.court": {}
       }
     },
     "ca:on": {
@@ -430,22 +429,25 @@
       "courts": {
         "court.appeal": {
           "variants": {
-            "fr": {}
+            "fr": {
+              "abbrev": "CA %s"
+            }
           }
         },
-        "superior.court.justice": {
+        "superior.court": {
           "variants": {
-            "fr": {}
+            "fr": {
+              "abbrev": "CS %s"
+            }
           }
         },
         "court.justice": {
           "variants": {
-            "fr": {}
+            "fr": {
+              "abbrev": "CJ %s"
+            }
           }
         }
-      },
-      "variants": {
-        "fr": {}
       }
     },
     "ca:pe": {
@@ -453,34 +455,34 @@
       "abbrev": "PEI",
       "ABBREV": "PE",
       "courts": {
-        "supreme.court.appeal.division": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "supreme.court.trial.division.pe": {
-          "variants": {
-            "fr": {}
-          }
-        }
+        "court.appeal": {},
+        "supreme.court.prov": {},
+        "provincial.court": {}
       },
       "variants": {
-        "fr": {}
+        "fr": {
+          "name": "Île-du-Prince-Édouard"
+        }
       }
     },
     "ca:qc": {
-      "name": "Québec",
+      "name": "Quebec",
       "abbrev": "Qc",
       "ABBREV": "QC",
       "courts": {
         "court.appeal": {
           "variants": {
-            "fr": {}
+            "fr": {
+              "abbrev": "CA %s"
+            }
           }
         },
         "superior.court": {
+          "ABBREV": "%sCS",
           "variants": {
-            "fr": {}
+            "fr": {
+              "abbrev": "CS %s"
+            }
           }
         },
         "court.quebec": {
@@ -497,10 +499,21 @@
           "variants": {
             "fr": {}
           }
-        }
+        },
+        "human.rights.tribunal": {
+          "ABBREV": "TDP",
+          "variants": {
+            "fr": {
+              "abbrev": "TDP %s"
+            }
+          }
+        },
+        "municipal.courts": {}
       },
       "variants": {
-        "fr": {}
+        "fr": {
+          "name": "Québec"
+        }
       }
     },
     "ca:sk": {
@@ -508,24 +521,9 @@
       "abbrev": "Sask",
       "ABBREV": "SK",
       "courts": {
-        "court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "court.queens.bench": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "provincial.court": {
-          "variants": {
-            "fr": {}
-          }
-        }
-      },
-      "variants": {
-        "fr": {}
+        "court.appeal": {},
+        "court.queens.bench": {},
+        "provincial.court": {}
       }
     },
     "ca:yk": {
@@ -533,29 +531,10 @@
       "abbrev": "Y",
       "ABBREV": "YK",
       "courts": {
-        "court.appeal": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "supreme.court.prov": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "territorial.court": {
-          "variants": {
-            "fr": {}
-          }
-        },
-        "small.claims.court": {
-          "variants": {
-            "fr": {}
-          }
-        }
-      },
-      "variants": {
-        "fr": {}
+        "court.appeal": {},
+        "supreme.court.prov": {},
+        "territorial.court": {},
+        "small.claims.court": {}
       }
     }
   }

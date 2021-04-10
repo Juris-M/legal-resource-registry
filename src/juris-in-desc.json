@@ -1,9 +1,235 @@
 {
-  "langs": {},
-  "courts": {},
-  "jurisdictions": {
-    "in": {
-      "name": "India"
+    "langs": {},
+    "courts": {
+        "sc": {
+            "name": "Supreme Court"
+        },
+        "hc": {
+            "name": "%s High Court"
+        }
+    },
+    "jurisdictions": {
+        "in": {
+            "name": "India",
+            "courts": {
+                "sc": {}
+            }
+        },
+        "in:andaman.nicobar": {
+            "name": "Andaman and Nicobar Islands",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:arunachal.pradesh": {
+            "name": "Arunachal Pradesh",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:andhra.pradesh": {
+            "name": "Andhra Pradesh",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:assam": {
+            "name": "Assam",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:bihar": {
+            "name": "Bihar",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:chandigarh": {
+            "name": "Chandigarh",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:chhattisgarh": {
+            "name": "Chhattisgarh",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:dadra.nagar.haveli.daman.diu": {
+            "name": "Dadra and Nagar Haveli and Daman and Diu",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:delhi": {
+            "name": "National Capital Territory of Delhi",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:goa": {
+            "name": "Goa",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:gujarat": {
+            "name": "Gujarat",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:haryana": {
+            "name": "Haryana",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:himachal.pradesh": {
+            "name": "Himachal Pradesh",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:jammu.and.kashmir": {
+            "name": "Jammu and Kashmir",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:jharkhand": {
+            "name": "Jharkhand",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:karnataka": {
+            "name": "Karnataka",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:kerala": {
+            "name": "Kerala",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:ladakh": {
+            "name": "Ladakh",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:lakshadweep": {
+            "name": "Lakshadweep",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:madhya.pradesh": {
+            "name": "Madhya Pradesh",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:maharashtra": {
+            "name": "Maharashtra",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:manipur": {
+            "name": "Manipur",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:meghalaya": {
+            "name": "Meghalaya",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:mizoram": {
+            "name": "Mizoram",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:nagaland": {
+            "name": "Nagaland",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:odisha": {
+            "name": "Odisha",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:puducherry": {
+            "name": "Puducherry",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:punjab": {
+            "name": "Punjab",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:rajasthan": {
+            "name": "Rajasthan",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:sikkim": {
+            "name": "Sikkim",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:tamil.nadu": {
+            "name": "Tamil Nadu",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:telangana": {
+            "name": "Telangana",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:tripura": {
+            "name": "Tripura",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:uttar.pradesh": {
+            "name": "Uttar Pradesh",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:uttarakhand": {
+            "name": "Uttarakhand",
+            "courts": {
+                "hc": {}
+            }
+        },
+        "in:west.bengal": {
+            "name": "West Bengal",
+            "courts": {
+                "hc": {}
+            }
+        }
     }
-  }
 }

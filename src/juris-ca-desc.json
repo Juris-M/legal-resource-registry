@@ -150,8 +150,8 @@
     },
     "quebec.admin.tribunal": {
       "name": "Tribunal administratif du Québec",
-      "abbrev": "TAQ",
-      "ABBREV": "TAQ"
+      "abbrev": "QC TAQ",
+      "ABBREV": "QCTAQ"
     },
     "small.claims.court": {
       "name": "Small Claims Court",
@@ -408,7 +408,8 @@
       "variants": {
         "fr": {
           "name": "Territoires du Nord-Ouest",
-          "abbrev": "TN-O"
+          "abbrev": "TN-O",
+          "ABBREV": "TNO"
         }
       }
     },
@@ -428,8 +429,10 @@
       "ABBREV": "ON",
       "courts": {
         "court.appeal": {
+          "name": "Court of Appeal for Ontario",
           "variants": {
             "fr": {
+              "name": "Court d'appel de l'Ontario",
               "abbrev": "CA %s"
             }
           }

@@ -16,7 +16,9 @@
       }
     },
     "echr": {
-      "name": "European Court of Human Rights",
+		"name": "European Court of Human Rights",
+		"abbrev": "Eur. Ct. Hum. Rts.",
+		"ABBREV": "ECHR",
       "variants": {
         "de": {
           "abbrev": "EGMR",
@@ -26,22 +28,28 @@
 
     },
     "echr~section.1": {
-      "name": "European Court of Human Rights|Section I"
+		"name": "European Court of Human Rights|Section I",
+		"ABBREV": "ECHR"
     },
     "echr~section.2": {
-      "name": "European Court of Human Rights|Section II"
+      "name": "European Court of Human Rights|Section II",
+		"ABBREV": "ECHR"
     },
     "echr~section.3": {
-      "name": "European Court of Human Rights|Section III"
+      "name": "European Court of Human Rights|Section III",
+		"ABBREV": "ECHR"
     },
     "echr~section.4": {
-      "name": "European Court of Human Rights|Section IV"
+      "name": "European Court of Human Rights|Section IV",
+		"ABBREV": "ECHR"
     },
     "echr~section.5": {
-      "name": "European Court of Human Rights|Section V"
+      "name": "European Court of Human Rights|Section V",
+		"ABBREV": "ECHR"
     },
     "echr~section.filtrage": {
-      "name": "European Court of Human Rights|Filtering Section"
+      "name": "European Court of Human Rights|Filtering Section",
+		"ABBREV": "ECHR"
     }
   },
   "jurisdictions": {

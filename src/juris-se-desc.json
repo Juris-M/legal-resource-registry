@@ -6,69 +6,102 @@
   },
   "courts": {
     "hogsta": {
-      "name": "Högsta domstolen"
-    },
-    "hovratten": {
-      "name": "Hovrätten"
-    },
-    "tingsratt": {
-      "name": "Tingsrätt"
-    },
-    "regeringsratten": {
-      "name": "Regeringsrätten",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "RÅ [Supreme Administrative Court]"
-        }
-      }
+		"name": "Högsta domstolen",
+		"ABBREV": "HD (Supreme Court)"
     },
     "hogsta.forvaltningsdomstolen": {
       "name": "Högsta förvaltningsdomstolen",
+      "ABBREV": "HFD (Supreme Administrative Court)",
       "variants": {
         "enIBFD": {
-          "abbrev": "HFD [Supreme Administrative Court]"
+          "abbrev": "HFD (Supreme Administrative Court)"
         }
       }
     },
-    "kammarratten": {
-      "name": "Kammarrätten",
+    "regeringsratten": {
+      "name": "Regeringsrätten",
+      "ABBREV": "RR (Supreme Administrative Court)",
       "variants": {
         "enIBFD": {
-          "abbrev": "KR %s [Administrative Court of Appeal]"
+          "abbrev": "RÅ (Supreme Administrative Court)"
+        }
+      }
+    },
+    "arbetsdomstolen": {
+      "name": "Arbetsdomstolen",
+      "ABBREV": "AR (Labor Court)"
+    },
+    "fosvarsunderrattelsedomstolen": {
+      "name": "Försvarsunderrättelsedomstolen",
+      "ABBREV": "!here>>>"
+    },
+    "hovratten": {
+		"name": "Hovrätten",
+		"abbrev": "Hovrätten i %s",
+		"ABBREV": "HovR (Court of Appeal)"
+    },
+    "patent.marknadsdomstolen": {
+      "name": "Patent och marknadsdomstolen",
+      "ABBREV": "MD (Market Court)"
+    },
+    "patent": {
+      "name": "Patentbesvärsrätten",
+      "ABBREV": "PBR (Patent Court)"
+    },
+    "tingsratt": {
+      "name": "Tingsrätt",
+      "abbrev": "Tingsrätt i %s",
+      "ABBREV": "TR (District Court)"
+    },
+    "kammarratten": {
+      "name": "Kammarrätten",
+      "abbrev": "Kammarrätten i %s",
+      "ABBREV": "KR (Administrative Court of Appeal)",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "KR %s (Administrative Court of Appeal)"
         }
       }
     },
     "forvaltningsraetten": {
       "name": "Förvaltningsrätten",
+      "abbrev": "Förvaltningsrätten i %s",
+      "ABBREV": "FR (Administrative Court)",
       "variants": {
         "enIBFD": {
-          "abbrev": "FR %s [Administrative Court]"
+          "abbrev": "FR %s (Administrative Court)"
         }
       }
     },
-    "arbetsdomstolen": {
-      "name": "Arbetsdomstolen"
-    },
     "mark.miljodomstol": {
-      "name": "Mark och miljödomstol"
+      "name": "Mark och miljödomstolen",
+      "abbrev": "Mark och miljödomstolen i %s",
+      "ABBREV": "!here>>>"
     },
     "migrationsdomstol": {
-      "name": "Migrationsdomstol"
+      "name": "Migrationsdomstolen",
+      "abbrev": "Migrationsdomstolen i %s",
+      "ABBREV": "UM"
+    },
+    "migrationsoverdomstol": {
+		"name": "Migrationsöverdomstolen",
+		"abbrev": "Migrationsöverdomstolen i %s",
+        "ABBREV": "MIG"
     },
     "hyresnamnd": {
-      "name": "Hyresnämnd"
+      "name": "Hyresnämnd",
+      "abbrev": "Hyresnämnd i %s",
+      "ABBREV": "!here>>>"
     },
     "arrendenamnd": {
-      "name": "Arrendenämnd"
-    },
-    "patent.marknadsdomstolen": {
-      "name": "Patent och marknadsdomstolen"
+      "name": "Arrendenämnd",
+      "abbrev": "Arrendenämnd i %s",
+      "ABBREV": "!here>>>"
     },
     "tryckfrihetsdomstol": {
-      "name": "Tryckfrihetsdomstol"
-    },
-    "fosvarsunderrattelsedomstolen": {
-      "name": "Försvarsunderrättelsedomstolen"
+      "name": "Tryckfrihetsdomstol",
+      "abbrev": "Tryckfrihetsdomstol i %s",
+      "ABBREV": "!here>>>"
     }
   },
   "jurisdictions": {
@@ -80,6 +113,7 @@
         "hogsta.forvaltningsdomstolen": {},
         "arbetsdomstolen": {},
         "patent.marknadsdomstolen": {},
+        "patent": {},
         "fosvarsunderrattelsedomstolen": {}
       }
     },
@@ -174,6 +208,12 @@
         "arrendenamnd": {}
       }
     },
+    "se:vastra.sverige:karlstad": {
+      "name": "Karlstad",
+      "courts": {
+        "forvaltningsraetten": {}
+      }
+	},
     "se:vastra.sverige:halmstads": {
       "name": "Halmstads",
       "courts": {
@@ -351,12 +391,13 @@
       }
     },
     "se:svea:stockholm": {
-      "name": "Stockholms",
+      "name": "Stockholm",
       "courts": {
         "tingsratt": {},
         "kammarratten": {},
         "forvaltningsraetten": {},
         "migrationsdomstol": {},
+        "migrationsoverdomstol": {},
         "hyresnamnd": {},
         "arrendenamnd": {}
       }

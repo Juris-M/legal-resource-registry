@@ -34,6 +34,13 @@
     "zwangsmassnahmengericht": {
       "name": "Zwangsmassnahmengericht"
     },
+    "schkk": {
+      "name": "Schuldbetreibungs- und Konkurskommission",
+      "ABBREV": "SchKK %s"
+    },
+    "anwaltskommission": {
+      "name": "Anwaltskommission"
+    },
     "kassationsgericht": {
       "name": "Kassationsgericht"
     },
@@ -126,10 +133,79 @@
     },
     "ch:aargau": {
       "name": "Aargau",
+      "ABBREV": "AG",
       "courts": {
         "oger": {},
         "spezialverwaltungsgericht": {},
-        "zwangsmassnahmengericht": {}
+        "zwangsmassnahmengericht": {},
+        "schkk": {},
+        "anwaltskommission": {}
+      }
+    },
+    "ch:aargau:aarau": {
+      "name": "Aarau",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:baden": {
+      "name": "Baden",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:bremgarten": {
+      "name": "Bremgarten",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:brugg": {
+      "name": "Brugg",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:kulm": {
+      "name": "Kulm",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:laufenburg": {
+      "name": "Laufenburg",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:lenzburg": {
+      "name": "Lenzburg",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:muri": {
+      "name": "Muri",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:rheinfelden": {
+      "name": "Rheinfelden",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:zofingen": {
+      "name": "Zofingen",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:aargau:zurzach": {
+      "name": "Zurzach",
+      "courts": {
+        "bezger": {}
       }
     },
     "ch:appenzell.ausserrhoden": {

@@ -1,11 +1,44 @@
 {
-  "langs": {},
+  "langs": {
+    "abbr": [
+      "abbrevs"
+    ],
+    "fr": [
+      "abbrevs"
+    ],
+    "it": [
+      "abbrevs"
+    ]
+  },
   "courts": {
-    "obergericht": {
-      "name": "Obergericht"
+    "oger": {
+      "name": "Obergericht",
+      "ABBREV": "OGer %s"
     },
-    "appellationsgericht": {
-      "name": "Appellationsgericht"
+    "kger": {
+      "name": "Kantonsgericht",
+      "ABBREV": "KGer %s"
+    },
+    "appger": {
+      "name": "Appellationsgericht",
+      "ABBREV": "AppGer %s"
+    },
+    "ager": {
+      "name": "Arbeitsgericht",
+      "ABBREV": "AGer %s"
+    },
+    "bezger": {
+      "name": "Bezirksgericht",
+      "ABBREV": "BezGer %s"
+    },
+    "spezialverwaltungsgericht": {
+      "name": "Spezialverwaltungsgericht"
+    },
+    "zwangsmassnahmengericht": {
+      "name": "Zwangsmassnahmengericht"
+    },
+    "kassationsgericht": {
+      "name": "Kassationsgericht"
     },
     "tribunal.cantonal": {
       "name": "Tribunal cantonal"
@@ -19,61 +52,111 @@
     "cour.de.cassation.penale": {
       "name": "Cour de cassation pénale"
     },
-    "kantonsgericht": {
-      "name": "Kantonsgericht"
-    },
-    "kassationsgericht": {
-      "name": "Kassationsgericht"
-    },
     "tribunale.d.appello": {
       "name": "Tribunale d'appello"
     },
-    "kassationssgericht": {
-      "name": "Kassationssgericht"
+    "bger": {
+      "name": "Schweizerisches Bundesgericht",
+      "ABBREV": "BGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TF"
+        },
+        "it": {
+          "abbrev": "TF"
+        }
+      }
     },
-    "fcc": {
-      "name": "Bundesstrafgericht"
+    "bstger": {
+      "name": "Schweizerisches Bundesstrafgericht",
+      "ABBREV": "BStGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TPF"
+        },
+        "it": {
+          "abbrev": "TPF"
+        }
+      }
     },
-    "fsc": {
-      "name": "Sweizerisches Bundesgericht"
+    "bvger": {
+      "name": "Schweizerisches Bundesverwaltungsgericht",
+      "ABBREV": "BVGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TAF"
+        },
+        "it": {
+          "abbrev": "TAF"
+        }
+      }
+    },
+    "bpatger": {
+      "name": "Schweizerisches Bundespatentgericht",
+      "ABBREV": "BPatGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TFB"
+        },
+        "it": {
+          "abbrev": "TFB"
+        }
+      }
+    },
+    "evg": {
+      "name": "Eidgenössisches Versicherungsgericht",
+      "ABBREV": "EVG",
+      "variants": {
+        "fr": {
+          "abbrev": "TFA"
+        },
+        "it": {
+          "abbrev": "TFA"
+        }
+      }
     }
   },
   "jurisdictions": {
     "ch": {
       "name": "Switzerland",
       "courts": {
-        "fcc": {},
-        "fsc": {}
+        "bger": {},
+        "bstger": {},
+        "bvger": {},
+        "bpatger": {},
+        "evg": {}
       }
     },
     "ch:aargau": {
       "name": "Aargau",
       "courts": {
-        "obergericht": {}
+        "oger": {},
+        "spezialverwaltungsgericht": {},
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:appenzell.ausserrhoden": {
       "name": "Appenzell-Ausserrhoden",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:basel.landschaft": {
       "name": "Basel-Landschaft",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:basel.stadt": {
       "name": "Basel-Stadt",
       "courts": {
-        "appellationsgericht": {}
+        "appger": {}
       }
     },
     "ch:bern": {
       "name": "Bern",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:fribourg": {
@@ -91,7 +174,7 @@
     "ch:glarus": {
       "name": "Glarus",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:jura": {
@@ -103,7 +186,7 @@
     "ch:luzern": {
       "name": "Luzern",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:neuchatel": {
@@ -116,44 +199,44 @@
     "ch:nidwalden": {
       "name": "Nidwalden",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:obwalden": {
       "name": "Obwalden",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:schaffhausen": {
       "name": "Schaffhausen",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:schwyz": {
       "name": "Schwyz",
       "courts": {
-        "kantonsgericht": {}
+        "kger": {}
       }
     },
     "ch:solothurn": {
       "name": "Solothurn",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:st.gallen": {
       "name": "St-Gallen",
       "courts": {
-        "kantonsgericht": {},
+        "kger": {},
         "kassationsgericht": {}
       }
     },
     "ch:thurgau": {
       "name": "Thurgau",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:ticino": {
@@ -165,7 +248,7 @@
     "ch:uri": {
       "name": "Uri",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:valais": {
@@ -183,14 +266,14 @@
     "ch:zug": {
       "name": "Zug",
       "courts": {
-        "obergericht": {}
+        "oger": {}
       }
     },
     "ch:zurich": {
       "name": "Zurich",
       "courts": {
-        "kassationssgericht": {},
-        "obergericht": {}
+        "kassationsgericht": {},
+        "oger": {}
       }
     }
   }

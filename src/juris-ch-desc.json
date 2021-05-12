@@ -1,51 +1,41 @@
 {
   "langs": {
     "fr": [
+      "ui",
       "abbrevs"
     ],
     "it": [
+      "ui",
       "abbrevs"
     ]
   },
   "courts": {
-    "oger": {
-      "name": "Obergericht",
-      "ABBREV": "OGer %s"
+    "ager": {
+      "name": "Arbeitsgericht",
+      "ABBREV": "AGer %s"
     },
-    "kger": {
-      "name": "Kantonsgericht",
-      "ABBREV": "KGer %s"
+    "anwaltsaufsichtsbehörde": {
+      "name": "Anwaltsaufsichtsbehörde"
+    },
+    "anwaltsaufsichtskommission": {
+      "name": "Anwaltsaufsichtskommission"
+    },
+    "anwaltskammer": {
+      "name": "Anwaltskammer"
+    },
+    "anwaltskommission": {
+      "name": "Anwaltskommission"
     },
     "appger": {
       "name": "Appellationsgericht",
       "ABBREV": "AppGer %s"
     },
-    "ager": {
-      "name": "Arbeitsgericht",
-      "ABBREV": "AGer %s"
-    },
     "bezger": {
       "name": "Bezirksgericht",
       "ABBREV": "BezGer %s"
     },
-    "spezialverwaltungsgericht": {
-      "name": "Spezialverwaltungsgericht"
-    },
-    "zwangsmassnahmengericht": {
-      "name": "Zwangsmassnahmengericht"
-    },
-    "schkk": {
-      "name": "Schuldbetreibungs- und Konkurskommission",
-      "ABBREV": "SchKK %s"
-    },
-    "anwaltskommission": {
-      "name": "Anwaltskommission"
-    },
-    "kassationsgericht": {
-      "name": "Kassationsgericht"
-    },
-    "tribunal.cantonal": {
-      "name": "Tribunal cantonal"
+    "bodenverbesserungskommission": {
+      "name": "Bodenverbesserungskommission"
     },
     "cour.de.cassation": {
       "name": "Cour de cassation"
@@ -56,8 +46,58 @@
     "cour.de.cassation.penale": {
       "name": "Cour de cassation pénale"
     },
+    "enteignungsschätzungskommission": {
+      "name": "Enteignungsschätzungskommission"
+    },
+    "kassationsgericht": {
+      "name": "Kassationsgericht"
+    },
+    "kger": {
+      "name": "Kantonsgericht",
+      "ABBREV": "KGer %s"
+    },
+    "jugendgericht": {
+      "name": "Jugendgericht"
+    },
+    "oger": {
+      "name": "Obergericht",
+      "ABBREV": "OGer %s"
+    },
+    "regionalgericht": {
+      "name": "Regionalgericht"
+    },
+    "rkmf": {
+      "name": "Rekurskommission für Massnahmen gegenüber Fahrzeugführerinnen und Fahrzeugführern",
+      "ABBREV": "RKMF %s"
+    },
+    "schkk": {
+      "name": "Schuldbetreibungs- und Konkurskommission",
+      "ABBREV": "SchKK %s"
+    },
+    "spezialverwaltungsgericht": {
+      "name": "Spezialverwaltungsgericht"
+    },
+    "steuerrekurskommission": {
+      "name": "Steuerrekurskommission"
+    },
+    "tribunal.cantonal": {
+      "name": "Tribunal cantonal"
+    },
     "tribunale.d.appello": {
       "name": "Tribunale d'appello"
+    },
+    "vger": {
+      "name": "Verwaltungsgericht",
+      "ABBREV": "VGer %s"
+    },
+    "wirtschaftsstrafgericht": {
+      "name": "Wirtschaftsstrafgericht"
+    },
+    "zivilkreisgericht": {
+      "name": "Zivilkreisgericht"
+    },
+    "zwangsmassnahmengericht": {
+      "name": "Zwangsmassnahmengericht"
     },
     "bger": {
       "name": "Schweizerisches Bundesgericht",
@@ -68,6 +108,18 @@
         },
         "it": {
           "abbrev": "TF"
+        }
+      }
+    },
+    "bpatger": {
+      "name": "Schweizerisches Bundespatentgericht",
+      "ABBREV": "BPatGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TFB"
+        },
+        "it": {
+          "abbrev": "TFB"
         }
       }
     },
@@ -95,18 +147,6 @@
         }
       }
     },
-    "bpatger": {
-      "name": "Schweizerisches Bundespatentgericht",
-      "ABBREV": "BPatGer",
-      "variants": {
-        "fr": {
-          "abbrev": "TFB"
-        },
-        "it": {
-          "abbrev": "TFB"
-        }
-      }
-    },
     "evg": {
       "name": "Eidgenössisches Versicherungsgericht",
       "ABBREV": "EVG",
@@ -131,114 +171,168 @@
         "evg": {}
       }
     },
-    "ch:aargau": {
+    "ch:ag": {
       "name": "Aargau",
       "ABBREV": "AG",
       "courts": {
+        "anwaltskommission": {},
         "oger": {},
-        "spezialverwaltungsgericht": {},
-        "zwangsmassnahmengericht": {},
         "schkk": {},
-        "anwaltskommission": {}
+        "spezialverwaltungsgericht": {},
+        "zwangsmassnahmengericht": {}
       }
     },
-    "ch:aargau:aarau": {
+    "ch:ag:aarau": {
       "name": "Aarau",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:baden": {
+    "ch:ag:baden": {
       "name": "Baden",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:bremgarten": {
+    "ch:ag:bremgarten": {
       "name": "Bremgarten",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:brugg": {
+    "ch:ag:brugg": {
       "name": "Brugg",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:kulm": {
+    "ch:ag:kulm": {
       "name": "Kulm",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:laufenburg": {
+    "ch:ag:laufenburg": {
       "name": "Laufenburg",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:lenzburg": {
+    "ch:ag:lenzburg": {
       "name": "Lenzburg",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:muri": {
+    "ch:ag:muri": {
       "name": "Muri",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:rheinfelden": {
+    "ch:ag:rheinfelden": {
       "name": "Rheinfelden",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:zofingen": {
+    "ch:ag:zofingen": {
       "name": "Zofingen",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:aargau:zurzach": {
+    "ch:ag:zurzach": {
       "name": "Zurzach",
       "courts": {
         "bezger": {}
       }
     },
-    "ch:appenzell.ausserrhoden": {
+    "ch:ai": {
+      "name": "Appenzell-Innerrhoden",
+      "ABBREV": "AI",
+      "courts": {
+        "anwaltskammer": {},
+        "bezger": {},
+        "jugendgericht": {},
+        "kger": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:ar": {
       "name": "Appenzell-Ausserrhoden",
+      "ABBREV": "AR",
       "courts": {
+        "anwaltsaufsichtskommission": {},
+        "kger": {},
         "oger": {}
       }
     },
-    "ch:basel.landschaft": {
+    "ch:be": {
+      "name": "Bern",
+      "ABBREV": "BE",
+      "courts": {
+        "anwaltsaufsichtsbehörde": {},
+        "bodenverbesserungskommission": {},
+        "enteignungsschätzungskommission": {},
+        "jugendgericht": {},
+        "oger": {},
+        "rkmf": {},
+        "vger": {},
+        "wirtschaftsstrafgericht": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:be:berner.jura-seeland": {
+      "name": "Berner Jura-Seeland",
+      "courts": {
+        "regionalgericht": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:be:emmental-oberaargau": {
+      "name": "Emmental-Oberaargau",
+      "courts": {
+        "regionalgericht": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:be:bern-mittelland": {
+      "name": "Bern-Mittelland",
+      "courts": {
+        "regionalgericht": {}
+      }
+    },
+    "ch:be:oberland": {
+      "name": "Oberland",
+      "courts": {
+        "regionalgericht": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:bl": {
       "name": "Basel-Landschaft",
+      "ABBREV": "BL",
       "courts": {
-        "oger": {}
+        "kger": {},
+        "zwangsmassnahmengericht": {}
       }
     },
-    "ch:basel.stadt": {
+    "ch:bs": {
       "name": "Basel-Stadt",
+      "ABBREV": "BS",
       "courts": {
         "appger": {}
       }
     },
-    "ch:bern": {
-      "name": "Bern",
-      "courts": {
-        "oger": {}
-      }
-    },
-    "ch:fribourg": {
+    "ch:fr": {
       "name": "Fribourg",
+      "ABBREV": "FR",
       "courts": {
         "tribunal.cantonal": {}
       }
     },
-    "ch:geneva": {
+    "ch:ge": {
       "name": "Geneva",
       "courts": {
         "cour.de.cassation": {}
@@ -250,99 +344,99 @@
         "oger": {}
       }
     },
-    "ch:jura": {
+    "ch:ju": {
       "name": "Jura",
       "courts": {
         "tribunal.cantonal": {}
       }
     },
-    "ch:luzern": {
+    "ch:lu": {
       "name": "Luzern",
       "courts": {
         "oger": {}
       }
     },
-    "ch:neuchatel": {
+    "ch:ne": {
       "name": "Neuchatel",
       "courts": {
         "cour.de.cassation.civile": {},
         "cour.de.cassation.penale": {}
       }
     },
-    "ch:nidwalden": {
+    "ch:nw": {
       "name": "Nidwalden",
       "courts": {
         "oger": {}
       }
     },
-    "ch:obwalden": {
+    "ch:ow": {
       "name": "Obwalden",
       "courts": {
         "oger": {}
       }
     },
-    "ch:schaffhausen": {
+    "ch:sh": {
       "name": "Schaffhausen",
       "courts": {
         "oger": {}
       }
     },
-    "ch:schwyz": {
+    "ch:sz": {
       "name": "Schwyz",
       "courts": {
         "kger": {}
       }
     },
-    "ch:solothurn": {
+    "ch:so": {
       "name": "Solothurn",
       "courts": {
         "oger": {}
       }
     },
-    "ch:st.gallen": {
+    "ch:sg": {
       "name": "St-Gallen",
       "courts": {
         "kger": {},
         "kassationsgericht": {}
       }
     },
-    "ch:thurgau": {
+    "ch:tg": {
       "name": "Thurgau",
       "courts": {
         "oger": {}
       }
     },
-    "ch:ticino": {
+    "ch:ti": {
       "name": "Ticino",
       "courts": {
         "tribunale.d.appello": {}
       }
     },
-    "ch:uri": {
+    "ch:ur": {
       "name": "Uri",
       "courts": {
         "oger": {}
       }
     },
-    "ch:valais": {
+    "ch:vs": {
       "name": "Valais",
       "courts": {
         "tribunal.cantonal": {}
       }
     },
-    "ch:vaud": {
+    "ch:vd": {
       "name": "Vaud",
       "courts": {
         "tribunal.cantonal": {}
       }
     },
-    "ch:zug": {
+    "ch:zg": {
       "name": "Zug",
       "courts": {
         "oger": {}
       }
     },
-    "ch:zurich": {
+    "ch:zh": {
       "name": "Zurich",
       "courts": {
         "kassationsgericht": {},

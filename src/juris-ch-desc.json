@@ -30,6 +30,9 @@
       "name": "Appellationsgericht",
       "ABBREV": "AppGer %s"
     },
+    "baurekurskommission": {
+      "name": "Baurekurskommission"
+    },
     "bezger": {
       "name": "Bezirksgericht",
       "ABBREV": "BezGer %s"
@@ -49,12 +52,30 @@
     "enteignungsschätzungskommission": {
       "name": "Enteignungsschätzungskommission"
     },
+    "entger": {
+      "name": "Enteignungsgericht",
+      "ABBREV": "EntGer %s"
+    },
+    "friedensrichteramt": {
+      "name": "Friedensrichteramt"
+    },
+    "fu-gericht": {
+      "name": "Gericht für fürsorgerische Unterbringungen",
+      "ABBREV": "FU-Gericht %s"
+    },
+    "hger": {
+      "name": "Handelsgericht",
+      "ABBREV": "HGer %s"
+    },
     "kassationsgericht": {
       "name": "Kassationsgericht"
     },
     "kger": {
       "name": "Kantonsgericht",
       "ABBREV": "KGer %s"
+    },
+    "kindesunderwachsenenschutzgericht": {
+      "name": "Kindes- und Erwachsenenschutzgericht"
     },
     "jugendgericht": {
       "name": "Jugendgericht"
@@ -66,6 +87,9 @@
     "regionalgericht": {
       "name": "Regionalgericht"
     },
+    "rekurskommissionbostadel": {
+      "name": "Rekurskommission Bostadel"
+    },
     "rkmf": {
       "name": "Rekurskommission für Massnahmen gegenüber Fahrzeugführerinnen und Fahrzeugführern",
       "ABBREV": "RKMF %s"
@@ -74,11 +98,42 @@
       "name": "Schuldbetreibungs- und Konkurskommission",
       "ABBREV": "SchKK %s"
     },
+    "schlichtungsbehörde": {
+      "name": "Schlichtungsbehörde"
+    },
+    "schlichtungsbehördemieteundpacht": {
+      "name": "Schlichtungsbehörde für Miete und Pacht"
+    },
+    "schlichtungsstellediskriminierung": {
+      "name": "Schlichtungsstelle bei Diskriminierung im Erwerbsleben"
+    },
+    "schlichtungsstellefrauundmann": {
+      "name": "Schlichtungsstelle Gleichstellung von Frau und Mann"
+    },
+    "schlichtungsstellegleichstellungsfragen": {
+      "name": "Schlichtungsstelle für Gleichstellungsfragen"
+    },
+    "schlichtungsstellemiete": {
+      "name": "Schlichtungsstelle Mietverhältnisse"
+    },
+    "schlichtungsstellemieteundnichtlandwirtschftlichepacht": {
+      "name": "Schlichtungsstelle für Miete und nichtlandwirtschaftliche Pacht"
+    },
+    "sozialversicherungsgericht": {
+      "name": "Sozialversicherungsgericht"
+    },
     "spezialverwaltungsgericht": {
       "name": "Spezialverwaltungsgericht"
     },
     "steuerrekurskommission": {
       "name": "Steuerrekurskommission"
+    },
+    "stger": {
+      "name": "Steuergericht",
+      "ABBREV": "StGer %s"
+    },
+    "strafgericht": {
+      "name": "Strafgericht"
     },
     "tribunal.cantonal": {
       "name": "Tribunal cantonal"
@@ -86,12 +141,18 @@
     "tribunale.d.appello": {
       "name": "Tribunale d'appello"
     },
+    "vermittler": {
+      "name": "Vermittler"
+    },
     "vger": {
       "name": "Verwaltungsgericht",
       "ABBREV": "VGer %s"
     },
     "wirtschaftsstrafgericht": {
       "name": "Wirtschaftsstrafgericht"
+    },
+    "zivilgericht": {
+      "name": "Zivilgericht"
     },
     "zivilkreisgericht": {
       "name": "Zivilkreisgericht"
@@ -178,6 +239,7 @@
         "anwaltskommission": {},
         "oger": {},
         "schkk": {},
+        "schlichtungsstellegleichstellungsfragen": {},
         "spezialverwaltungsgericht": {},
         "zwangsmassnahmengericht": {}
       }
@@ -185,67 +247,78 @@
     "ch:ag:aarau": {
       "name": "Aarau",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:baden": {
       "name": "Baden",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:bremgarten": {
       "name": "Bremgarten",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:brugg": {
       "name": "Brugg",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:kulm": {
       "name": "Kulm",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:laufenburg": {
       "name": "Laufenburg",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:lenzburg": {
       "name": "Lenzburg",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:muri": {
       "name": "Muri",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:rheinfelden": {
       "name": "Rheinfelden",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:zofingen": {
       "name": "Zofingen",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ag:zurzach": {
       "name": "Zurzach",
       "courts": {
-        "bezger": {}
+        "bezger": {},
+        "schlichtungsbehördemieteundpacht": {}
       }
     },
     "ch:ai": {
@@ -256,6 +329,9 @@
         "bezger": {},
         "jugendgericht": {},
         "kger": {},
+        "schlichtungsstellefrauundmann": {},
+        "schlichtungsstellemiete": {},
+        "vermittler": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -265,7 +341,27 @@
       "courts": {
         "anwaltsaufsichtskommission": {},
         "kger": {},
-        "oger": {}
+        "oger": {},
+        "schlichtungsstellediskriminierung": {},
+        "schlichtungsstellemieteundnichtlandwirtschftlichepacht": {}
+      }
+    },
+    "ch:ar:appenzeller-hinterland": {
+      "name": "Appenzeller-Hinterland",
+      "courts": {
+        "vermittler": {}
+      }
+    },
+    "ch:ar:appenzeller-mittelland": {
+      "name": "Appenzeller-Mittelland",
+      "courts": {
+        "vermittler": {}
+      }
+    },
+    "ch:ar:appenzeller-vorderland": {
+      "name": "Appenzeller-Vorderland",
+      "courts": {
+        "vermittler": {}
       }
     },
     "ch:be": {
@@ -275,6 +371,8 @@
         "anwaltsaufsichtsbehörde": {},
         "bodenverbesserungskommission": {},
         "enteignungsschätzungskommission": {},
+        "hger": {},
+        "kindesunderwachsenenschutzgericht": {},
         "jugendgericht": {},
         "oger": {},
         "rkmf": {},
@@ -287,6 +385,7 @@
       "name": "Berner Jura-Seeland",
       "courts": {
         "regionalgericht": {},
+        "schlichtungsbehörde": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -294,19 +393,22 @@
       "name": "Emmental-Oberaargau",
       "courts": {
         "regionalgericht": {},
+        "schlichtungsbehörde": {},
         "zwangsmassnahmengericht": {}
       }
     },
     "ch:be:bern-mittelland": {
       "name": "Bern-Mittelland",
       "courts": {
-        "regionalgericht": {}
+        "regionalgericht": {},
+        "schlichtungsbehörde": {}
       }
     },
     "ch:be:oberland": {
       "name": "Oberland",
       "courts": {
         "regionalgericht": {},
+        "schlichtungsbehörde": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -314,15 +416,41 @@
       "name": "Basel-Landschaft",
       "ABBREV": "BL",
       "courts": {
+        "entger": {},
+        "friedensrichteramt": {},
         "kger": {},
+        "jugendgericht": {},
+        "stger": {},
+        "strafgericht": {},
         "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:bl:basel-landschaft.ost": {
+      "name": "Basel-Landschaft Ost",
+      "courts": {
+        "zivilkreisgericht": {}
+      }
+    },
+    "ch:bl:basel-landschaft.west": {
+      "name": "Basel-Landschaft West",
+      "courts": {
+        "zivilkreisgericht": {}
       }
     },
     "ch:bs": {
       "name": "Basel-Stadt",
       "ABBREV": "BS",
       "courts": {
-        "appger": {}
+        "anwaltsaufsichtskommission": {},
+        "appger": {},
+        "baurekurskommission": {},
+        "fu-gericht": {},
+        "jugendgericht": {},
+        "rekurskommissionbostadel": {},
+        "steuerrekurskommission": {},
+        "strafgericht": {},
+        "sozialversicherungsgericht": {},
+        "zivilgericht": {}
       }
     },
     "ch:fr": {

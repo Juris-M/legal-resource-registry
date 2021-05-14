@@ -1,5 +1,9 @@
 {
   "langs": {
+    "de": [
+      "ui",
+      "abbrevs"
+    ],
     "fr": [
       "ui",
       "abbrevs"
@@ -12,153 +16,689 @@
   "courts": {
     "ager": {
       "name": "Arbeitsgericht",
-      "ABBREV": "AGer %s"
+      "ABBREV": "AGer %s",
+      "variants": {
+        "fr": {
+          "name": "Tribunal des prud'hommes"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "anwaltsaufsichtsbehörde": {
-      "name": "Anwaltsaufsichtsbehörde"
+      "name": "Anwaltsaufsichtsbehörde",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "anwaltsaufsichtskommission": {
-      "name": "Anwaltsaufsichtskommission"
+      "name": "Anwaltsaufsichtskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "anwaltskammer": {
-      "name": "Anwaltskammer"
+      "name": "Anwaltskammer",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "anwaltskommission": {
-      "name": "Anwaltskommission"
+      "name": "Anwaltskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "appger": {
       "name": "Appellationsgericht",
-      "ABBREV": "AppGer %s"
+      "ABBREV": "AppGer %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "autorite.de.conciliation.bail.et.baux": {
+      "name": "Autorité de conciliation en matière de bail et tribunal des baux",
+      "variants": {
+        "de": {
+          "name": "Schlichtungsbehörden in Mietsachen und Mietgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "autorite.de.surveillance.du.registre.foncier": {
+      "name": "Autorité de surveillance du Registre foncier",
+      "variants": {
+        "de": {
+          "name": "Aufsichtsbehörde über das Grundbuch"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "baurekurskommission": {
-      "name": "Baurekurskommission"
+      "name": "Baurekurskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "bezger": {
       "name": "Bezirksgericht",
-      "ABBREV": "BezGer %s"
+      "ABBREV": "BezGer %s",
+      "variants": {
+        "fr": {
+          "name": "Tribunal d'arrondissement"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "bodenverbesserungskommission": {
-      "name": "Bodenverbesserungskommission"
+      "name": "Bodenverbesserungskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "cellule.judiciaire.itinerante": {
+      "name": "Cellule judiciaire itinérante"
+    },
+    "commission.de.conciliation.d.egalite.entre.les.sexes.dans.les.rapports.de.travail": {
+      "name": "Commission de conciliation en matière d'égalité entre les sexes dans les rapports de travail",
+      "variants": {
+        "de": {
+          "name": "Schlichtungskommission für die Gleichstellung der Geschlechter im Erwerbsleben"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "commission.de.recours.d.ameliorations.foncieres": {
+      "name": "Commission de recours en matière d'améliorations foncières",
+      "variants": {
+        "de": {
+          "name": "Rekurskommission für Bodenverbesserungen"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "commission.de.recours.de.l.universite": {
+      "name": "Commission de recours de l'université",
+      "variants": {
+        "de": {
+          "name": "Rekurskommission der Universität"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "commission.de.recours.premier.releve": {
+      "name": "Commission de recours en matière de premier relevé",
+      "variants": {
+        "de": {
+          "name": "Rekurskommission für die Ersterhebung"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "commission.d.expropriation": {
+      "name": "Commission d'expropriation",
+      "variants": {
+        "de": {
+          "name": "Enteignungskommission"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "cour.de.cassation": {
-      "name": "Cour de cassation"
+      "name": "Cour de cassation",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "cour.de.cassation.civile": {
-      "name": "Cour de cassation civile"
+      "name": "Cour de cassation civile",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "cour.de.cassation.penale": {
-      "name": "Cour de cassation pénale"
+      "name": "Cour de cassation pénale",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "enteignungsschätzungskommission": {
-      "name": "Enteignungsschätzungskommission"
+      "name": "Enteignungsschätzungskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "entger": {
       "name": "Enteignungsgericht",
-      "ABBREV": "EntGer %s"
+      "ABBREV": "EntGer %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "friedensrichteramt": {
-      "name": "Friedensrichteramt"
+      "name": "Friedensrichteramt",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
-    "fu-gericht": {
+    "fu.gericht": {
       "name": "Gericht für fürsorgerische Unterbringungen",
-      "ABBREV": "FU-Gericht %s"
+      "ABBREV": "FU-Gericht %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "hger": {
       "name": "Handelsgericht",
-      "ABBREV": "HGer %s"
+      "ABBREV": "HGer %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "kassationsgericht": {
-      "name": "Kassationsgericht"
+      "name": "Kassationsgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "kger": {
       "name": "Kantonsgericht",
-      "ABBREV": "KGer %s"
+      "ABBREV": "KGer %s",
+      "variants": {
+        "fr": {
+          "name": "Tribunal cantonal"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "kindesunderwachsenenschutzgericht": {
-      "name": "Kindes- und Erwachsenenschutzgericht"
+      "name": "Kindes- und Erwachsenenschutzgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "jugendgericht": {
-      "name": "Jugendgericht"
+      "name": "Jugendgericht",
+      "variants": {
+        "fr": {
+          "name": "Tribunal des mineurs"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "justice.de.paix": {
+      "name": "Justice de paix",
+      "variants": {
+        "de": {
+          "name": "Friedensgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "oger": {
       "name": "Obergericht",
-      "ABBREV": "OGer %s"
+      "ABBREV": "OGer %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "oaf": {
+      "name": "Ordre des Avocats Fribourgeois",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "regionalgericht": {
-      "name": "Regionalgericht"
+      "name": "Regionalgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "rekurskommissionbostadel": {
-      "name": "Rekurskommission Bostadel"
+      "name": "Rekurskommission Bostadel",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "rkmf": {
       "name": "Rekurskommission für Massnahmen gegenüber Fahrzeugführerinnen und Fahrzeugführern",
-      "ABBREV": "RKMF %s"
+      "ABBREV": "RKMF %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "schkk": {
       "name": "Schuldbetreibungs- und Konkurskommission",
-      "ABBREV": "SchKK %s"
+      "ABBREV": "SchKK %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "schlichtungsbehörde": {
-      "name": "Schlichtungsbehörde"
+      "name": "Schlichtungsbehörde",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "schlichtungsbehördemieteundpacht": {
-      "name": "Schlichtungsbehörde für Miete und Pacht"
+      "name": "Schlichtungsbehörde für Miete und Pacht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "schlichtungsstellediskriminierung": {
-      "name": "Schlichtungsstelle bei Diskriminierung im Erwerbsleben"
+      "name": "Schlichtungsstelle bei Diskriminierung im Erwerbsleben",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "schlichtungsstellefrauundmann": {
-      "name": "Schlichtungsstelle Gleichstellung von Frau und Mann"
+      "name": "Schlichtungsstelle Gleichstellung von Frau und Mann",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "schlichtungsstellegleichstellungsfragen": {
-      "name": "Schlichtungsstelle für Gleichstellungsfragen"
+      "name": "Schlichtungsstelle für Gleichstellungsfragen",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "schlichtungsstellemiete": {
-      "name": "Schlichtungsstelle Mietverhältnisse"
+      "name": "Schlichtungsstelle Mietverhältnisse",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "schlichtungsstellemieteundnichtlandwirtschftlichepacht": {
-      "name": "Schlichtungsstelle für Miete und nichtlandwirtschaftliche Pacht"
+      "name": "Schlichtungsstelle für Miete und nichtlandwirtschaftliche Pacht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "sozialversicherungsgericht": {
-      "name": "Sozialversicherungsgericht"
+      "name": "Sozialversicherungsgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "spezialverwaltungsgericht": {
-      "name": "Spezialverwaltungsgericht"
+      "name": "Spezialverwaltungsgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "steuerrekurskommission": {
-      "name": "Steuerrekurskommission"
+      "name": "Steuerrekurskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "stger": {
       "name": "Steuergericht",
-      "ABBREV": "StGer %s"
+      "ABBREV": "StGer %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "strafgericht": {
-      "name": "Strafgericht"
+      "name": "Strafgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.arbitral.assurance.maladie.et.accidents": {
+      "name": "Tribunal arbitral en matière d'assurance-maladie et accidents",
+      "variants": {
+        "de": {
+          "name": "Schiedsgericht in Sachen Kranken- und Unfallversicherung"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "tribunal.cantonal": {
-      "name": "Tribunal cantonal"
+      "name": "Tribunal cantonal",
+      "variants": {
+        "de": {
+          "name": "Kantonsgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "tribunale.d.appello": {
-      "name": "Tribunale d'appello"
+      "name": "Tribunale d'appello",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.d.arrondissement": {
+      "name": "Tribunal d'arrondissement",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.des.prud.hommes": {
+      "name": "Tribunal des prud'hommes",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.des.mesures.de.contrainte": {
+      "name": "Tribunal des mesures de contrainte",
+      "variants": {
+        "de": {
+          "name": "Zwangsmassnahmengericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.des.mineurs": {
+      "name": "Tribunal des mineurs",
+      "variants": {
+        "de": {
+          "name": "Jugendgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.penal.economique": {
+      "name": "Tribunal pénal économique",
+      "variants": {
+        "de": {
+          "name": "Wirtschaftsstrafgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "vermittler": {
-      "name": "Vermittler"
+      "name": "Vermittler",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "vger": {
       "name": "Verwaltungsgericht",
-      "ABBREV": "VGer %s"
+      "ABBREV": "VGer %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "wirtschaftsstrafgericht": {
-      "name": "Wirtschaftsstrafgericht"
+      "name": "Wirtschaftsstrafgericht",
+      "variants": {
+        "fr": {
+          "name": "Tribunal pénal économique"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "zivilgericht": {
-      "name": "Zivilgericht"
+      "name": "Zivilgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "zivilkreisgericht": {
-      "name": "Zivilkreisgericht"
+      "name": "Zivilkreisgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "zwangsmassnahmengericht": {
-      "name": "Zwangsmassnahmengericht"
+      "name": "Zwangsmassnahmengericht",
+      "variants": {
+        "fr": {
+          "name": "Tribunal des mesures de contrainte"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "bger": {
       "name": "Schweizerisches Bundesgericht",
@@ -346,19 +886,19 @@
         "schlichtungsstellemieteundnichtlandwirtschftlichepacht": {}
       }
     },
-    "ch:ar:appenzeller-hinterland": {
+    "ch:ar:appenzeller.hinterland": {
       "name": "Appenzeller-Hinterland",
       "courts": {
         "vermittler": {}
       }
     },
-    "ch:ar:appenzeller-mittelland": {
+    "ch:ar:appenzeller.mittelland": {
       "name": "Appenzeller-Mittelland",
       "courts": {
         "vermittler": {}
       }
     },
-    "ch:ar:appenzeller-vorderland": {
+    "ch:ar:appenzeller.vorderland": {
       "name": "Appenzeller-Vorderland",
       "courts": {
         "vermittler": {}
@@ -381,7 +921,7 @@
         "zwangsmassnahmengericht": {}
       }
     },
-    "ch:be:berner.jura-seeland": {
+    "ch:be:berner.jura.seeland": {
       "name": "Berner Jura-Seeland",
       "courts": {
         "regionalgericht": {},
@@ -389,7 +929,7 @@
         "zwangsmassnahmengericht": {}
       }
     },
-    "ch:be:emmental-oberaargau": {
+    "ch:be:emmental.oberaargau": {
       "name": "Emmental-Oberaargau",
       "courts": {
         "regionalgericht": {},
@@ -397,7 +937,7 @@
         "zwangsmassnahmengericht": {}
       }
     },
-    "ch:be:bern-mittelland": {
+    "ch:be:bern.mittelland": {
       "name": "Bern-Mittelland",
       "courts": {
         "regionalgericht": {},
@@ -425,13 +965,13 @@
         "zwangsmassnahmengericht": {}
       }
     },
-    "ch:bl:basel-landschaft.ost": {
+    "ch:bl:basel.landschaft.ost": {
       "name": "Basel-Landschaft Ost",
       "courts": {
         "zivilkreisgericht": {}
       }
     },
-    "ch:bl:basel-landschaft.west": {
+    "ch:bl:basel.landschaft.west": {
       "name": "Basel-Landschaft West",
       "courts": {
         "zivilkreisgericht": {}
@@ -444,7 +984,7 @@
         "anwaltsaufsichtskommission": {},
         "appger": {},
         "baurekurskommission": {},
-        "fu-gericht": {},
+        "fu.gericht": {},
         "jugendgericht": {},
         "rekurskommissionbostadel": {},
         "steuerrekurskommission": {},
@@ -457,7 +997,22 @@
       "name": "Fribourg",
       "ABBREV": "FR",
       "courts": {
-        "tribunal.cantonal": {}
+        "autorite.de.conciliation.bail.et.baux": {},
+        "autorite.de.surveillance.du.registre.foncier": {},
+        "cellule.judiciaire.itinerante": {},
+        "commission.de.conciliation.d.egalite.entre.les.sexes.dans.les.rapports.de.travail": {},
+        "commission.de.recours.d.ameliorations.foncieres": {},
+        "commission.de.recours.de.l.universite": {},
+        "commission.de.recours.premier.releve": {},
+        "commission.d.expropriation": {},
+        "justice.de.paix": {},
+        "oaf": {},
+        "tribunal.arbitral.assurance.maladie.et.accidents": {},
+        "tribunal.cantonal": {},
+        "tribunal.des.mesures.de.contrainte": {},
+        "tribunal.des.mineurs": {},
+        "tribunal.des.prud.hommes": {},
+        "tribunal.penal.economique": {}
       }
     },
     "ch:ge": {

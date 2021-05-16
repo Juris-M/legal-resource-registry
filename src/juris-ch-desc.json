@@ -82,6 +82,17 @@
         }
       }
     },
+    "aufsichtskommissionrechtsanwälte": {
+      "name": "Aufsichtskommission Rechtsanwälte",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "autorite.de.conciliation.bail.et.baux": {
       "name": "Autorité de conciliation en matière de bail et tribunal des baux",
       "variants": {
@@ -196,6 +207,17 @@
         }
       }
     },
+    "cour.civile": {
+      "name": "Cour civile",
+      "variants": {
+        "de": {
+          "name": "Zivilgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "cour.de.cassation": {
       "name": "Cour de cassation",
       "variants": {
@@ -223,6 +245,28 @@
       "variants": {
         "de": {
           "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "cour.de.droit.public": {
+      "name": "Cour de droit public",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "cour.penale": {
+      "name": "Cour pénale",
+      "variants": {
+        "de": {
+          "name": "Strafgericht"
         },
         "it": {
           "name": "XXX"
@@ -343,9 +387,8 @@
         }
       }
     },
-    "oger": {
-      "name": "Obergericht",
-      "ABBREV": "OGer %s",
+    "notariatskommission": {
+      "name": "Notariatskommission",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -359,6 +402,40 @@
       "name": "Ordre des Avocats Fribourgeois",
       "variants": {
         "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "oaj": {
+      "name": "Ordre des Avocats Jurassiens",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "odage": {
+      "name": "Ordre des Avocats de Genève",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "oger": {
+      "name": "Obergericht",
+      "ABBREV": "OGer %s",
+      "variants": {
+        "fr": {
           "name": "XXX"
         },
         "it": {
@@ -423,8 +500,30 @@
         }
       }
     },
+    "schlichtungsbehördegleichstellungssachen": {
+      "name": "Schlichtungsbehörde für Gleichstellungssachen",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "schlichtungsbehördemieteundpacht": {
       "name": "Schlichtungsbehörde für Miete und Pacht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schlichtungsbehördemietsachen": {
+      "name": "Schlichtungsbehörde für Mietsachen",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -589,6 +688,17 @@
         }
       }
     },
+    "tribunal.de.premiere.instance": {
+      "name": "Tribunal de première instance",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "tribunal.des.prud.hommes": {
       "name": "Tribunal des prud'hommes",
       "variants": {
@@ -635,6 +745,17 @@
     },
     "vermittler": {
       "name": "Vermittler",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "vermittleramt": {
+      "name": "Vermittleramt",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -1016,21 +1137,131 @@
       }
     },
     "ch:ge": {
-      "name": "Geneva",
+      "name": "Genève",
       "courts": {
-        "cour.de.cassation": {}
+        "cour.civile": {},
+        "cour.de.droit.public": {},
+        "cour.penale": {},
+        "odage": {}
       }
     },
-    "ch:glarus": {
+    "ch:gl": {
       "name": "Glarus",
       "courts": {
-        "oger": {}
+        "anwaltskommission": {},
+        "kger": {},
+        "oger": {},
+        "schlichtungsbehörde": {},
+        "steuerrekurskommission": {},
+        "vger": {}
+      }
+    },
+    "ch:gr": {
+      "name": "Graubünden",
+      "courts": {
+        "aufsichtskommissionrechtsanwälte": {},
+        "kger": {},
+        "notariatskommission": {},
+        "schlichtungsbehördegleichstellungssachen": {},
+        "vger": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:gr:albula": {
+      "name": "Albula",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:bernina": {
+      "name": "Bernina",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:engiadina.bassa.val.mustair": {
+      "name": "Engiadina Bassa/Val Müstair",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:imboden": {
+      "name": "Imboden",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:landquart": {
+      "name": "Landquart",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:maloja": {
+      "name": "Maloja",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:moesa": {
+      "name": "Moesa",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:plessur": {
+      "name": "Plessur",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:prattigau.davos": {
+      "name": "Prättigau/Davos",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:surselva": {
+      "name": "Surselva",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:gr:viamala": {
+      "name": "Viamala",
+      "courts": {
+        "regionalgericht": {},
+        "schlichtungsbehördemietsachen": {},
+        "vermittleramt": {}
       }
     },
     "ch:ju": {
       "name": "Jura",
       "courts": {
-        "tribunal.cantonal": {}
+        "oaj": {},
+        "tribunal.cantonal": {},
+        "tribunal.des.mineurs": {},
+        "tribunal.de.premiere.instance": {}
       }
     },
     "ch:lu": {

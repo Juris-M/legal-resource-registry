@@ -82,7 +82,7 @@
         }
       }
     },
-    "aufsichtskommissionrechtsanwalte": {
+    "aufsichtskommission.rechtsanwalte": {
       "name": "Aufsichtskommission Rechtsanwälte",
       "variants": {
         "fr": {
@@ -296,6 +296,17 @@
         }
       }
     },
+    "friedensrichter": {
+      "name": "Friedensrichter",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "friedensrichteramt": {
       "name": "Friedensrichteramt",
       "variants": {
@@ -354,8 +365,19 @@
         }
       }
     },
-    "kindesunderwachsenenschutzgericht": {
+    "kindes.und.erwachsenenschutzgericht": {
       "name": "Kindes- und Erwachsenenschutzgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "kriminalgericht": {
+      "name": "Kriminalgericht",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -381,6 +403,17 @@
       "variants": {
         "de": {
           "name": "Friedensgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "lav": {
+      "name": "Luzerner Anwaltsverband",
+      "variants": {
+        "fr": {
+          "name": "XXX"
         },
         "it": {
           "name": "XXX"
@@ -454,7 +487,7 @@
         }
       }
     },
-    "rekurskommissionbostadel": {
+    "rekurskommission.bostadel": {
       "name": "Rekurskommission Bostadel",
       "variants": {
         "fr": {
@@ -468,6 +501,17 @@
     "rkmf": {
       "name": "Rekurskommission für Massnahmen gegenüber Fahrzeugführerinnen und Fahrzeugführern",
       "ABBREV": "RKMF %s",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schatzungskommission.nach.enteignungsgesetz": {
+      "name": "Schätzungskommission nach Enteignungsgesetz",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -500,7 +544,29 @@
         }
       }
     },
-    "schlichtungsbehordegleichstellungssachen": {
+    "schlichtungsbehorde.arbeit": {
+      "name": "Schlichtungsbehörde Arbeit",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schlichtungsbehorde.gleichstellung": {
+      "name": "Schlichtungsbehörde Gleichstellung",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schlichtungsbehorde.gleichstellungssachen": {
       "name": "Schlichtungsbehörde für Gleichstellungssachen",
       "variants": {
         "fr": {
@@ -511,7 +577,7 @@
         }
       }
     },
-    "schlichtungsbehordemieteundpacht": {
+    "schlichtungsbehorde.miete.und.pacht": {
       "name": "Schlichtungsbehörde für Miete und Pacht",
       "variants": {
         "fr": {
@@ -522,7 +588,7 @@
         }
       }
     },
-    "schlichtungsbehordemietsachen": {
+    "schlichtungsbehorde.mietsachen": {
       "name": "Schlichtungsbehörde für Mietsachen",
       "variants": {
         "fr": {
@@ -533,7 +599,7 @@
         }
       }
     },
-    "schlichtungsstellediskriminierung": {
+    "schlichtungsstelle.diskriminierung": {
       "name": "Schlichtungsstelle bei Diskriminierung im Erwerbsleben",
       "variants": {
         "fr": {
@@ -544,7 +610,7 @@
         }
       }
     },
-    "schlichtungsstellefrauundmann": {
+    "schlichtungsstelle.frau.und.mann": {
       "name": "Schlichtungsstelle Gleichstellung von Frau und Mann",
       "variants": {
         "fr": {
@@ -555,7 +621,7 @@
         }
       }
     },
-    "schlichtungsstellegleichstellungsfragen": {
+    "schlichtungsstelle.gleichstellungsfragen": {
       "name": "Schlichtungsstelle für Gleichstellungsfragen",
       "variants": {
         "fr": {
@@ -566,7 +632,7 @@
         }
       }
     },
-    "schlichtungsstellemiete": {
+    "schlichtungsstelle.mietverhaltnisse": {
       "name": "Schlichtungsstelle Mietverhältnisse",
       "variants": {
         "fr": {
@@ -577,7 +643,7 @@
         }
       }
     },
-    "schlichtungsstellemieteundnichtlandwirtschftlichepacht": {
+    "schlichtungsstelle.mietverhaltnisse.und.nichtlandwirtschftliche.pacht": {
       "name": "Schlichtungsstelle für Miete und nichtlandwirtschaftliche Pacht",
       "variants": {
         "fr": {
@@ -777,6 +843,17 @@
         }
       }
     },
+    "wildschaden.schatzungskommission": {
+      "name": "Wildschaden-Schätzungskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "wirtschaftsstrafgericht": {
       "name": "Wirtschaftsstrafgericht",
       "variants": {
@@ -910,7 +987,7 @@
         "anwaltskommission": {},
         "oger": {},
         "schkk": {},
-        "schlichtungsstellegleichstellungsfragen": {},
+        "schlichtungsstelle.gleichstellungsfragen": {},
         "spezialverwaltungsgericht": {},
         "zwangsmassnahmengericht": {}
       }
@@ -919,77 +996,77 @@
       "name": "Aarau",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:baden": {
       "name": "Baden",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:bremgarten": {
       "name": "Bremgarten",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:brugg": {
       "name": "Brugg",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:kulm": {
       "name": "Kulm",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:laufenburg": {
       "name": "Laufenburg",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:lenzburg": {
       "name": "Lenzburg",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:muri": {
       "name": "Muri",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:rheinfelden": {
       "name": "Rheinfelden",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:zofingen": {
       "name": "Zofingen",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ag:zurzach": {
       "name": "Zurzach",
       "courts": {
         "bezger": {},
-        "schlichtungsbehordemieteundpacht": {}
+        "schlichtungsbehorde.miete.und.pacht": {}
       }
     },
     "ch:ai": {
@@ -1000,8 +1077,8 @@
         "bezger": {},
         "jugendgericht": {},
         "kger": {},
-        "schlichtungsstellefrauundmann": {},
-        "schlichtungsstellemiete": {},
+        "schlichtungsstelle.frau.und.mann": {},
+        "schlichtungsstelle.mietverhaltnisse": {},
         "vermittler": {},
         "zwangsmassnahmengericht": {}
       }
@@ -1013,8 +1090,8 @@
         "anwaltsaufsichtskommission": {},
         "kger": {},
         "oger": {},
-        "schlichtungsstellediskriminierung": {},
-        "schlichtungsstellemieteundnichtlandwirtschftlichepacht": {}
+        "schlichtungsstelle.diskriminierung": {},
+        "schlichtungsstelle.mietverhaltnisse.und.nichtlandwirtschftliche.pacht": {}
       }
     },
     "ch:ar:appenzeller.hinterland": {
@@ -1043,7 +1120,7 @@
         "bodenverbesserungskommission": {},
         "enteignungsschatzungskommission": {},
         "hger": {},
-        "kindesunderwachsenenschutzgericht": {},
+        "kindes.und.erwachsenenschutzgericht": {},
         "jugendgericht": {},
         "oger": {},
         "rkmf": {},
@@ -1117,7 +1194,7 @@
         "baurekurskommission": {},
         "fu.gericht": {},
         "jugendgericht": {},
-        "rekurskommissionbostadel": {},
+        "rekurskommission.bostadel": {},
         "steuerrekurskommission": {},
         "strafgericht": {},
         "sozialversicherungsgericht": {},
@@ -1169,10 +1246,10 @@
     "ch:gr": {
       "name": "Graubünden",
       "courts": {
-        "aufsichtskommissionrechtsanwalte": {},
+        "aufsichtskommission.rechtsanwalte": {},
         "kger": {},
         "notariatskommission": {},
-        "schlichtungsbehordegleichstellungssachen": {},
+        "schlichtungsbehorde.gleichstellungssachen": {},
         "vger": {},
         "zwangsmassnahmengericht": {}
       }
@@ -1181,7 +1258,7 @@
       "name": "Albula",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1189,7 +1266,7 @@
       "name": "Bernina",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1197,7 +1274,7 @@
       "name": "Engiadina Bassa/Val Müstair",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1205,7 +1282,7 @@
       "name": "Imboden",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1213,7 +1290,7 @@
       "name": "Landquart",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1221,7 +1298,7 @@
       "name": "Maloja",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1229,7 +1306,7 @@
       "name": "Moesa",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1237,7 +1314,7 @@
       "name": "Plessur",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1245,7 +1322,7 @@
       "name": "Prättigau/Davos",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1253,7 +1330,7 @@
       "name": "Surselva",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1261,7 +1338,7 @@
       "name": "Viamala",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehordemietsachen": {},
+        "schlichtungsbehorde.mietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1277,7 +1354,40 @@
     "ch:lu": {
       "name": "Luzern",
       "courts": {
-        "oger": {}
+        "ager": {},
+        "bezger": {},
+        "friedensrichter": {},
+        "jugendgericht": {},
+        "kger": {},
+        "kriminalgericht": {},
+        "lav": {},
+        "schatzungskommission.nach.enteignungsgesetz": {},
+        "schlichtungsbehorde.arbeit": {},
+        "schlichtungsbehorde.gleichstellung": {},
+        "schlichtungsbehorde.miete.und.pacht": {},
+        "wildschaden.schatzungskommission": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:lu:hochdorf": {
+      "name": "Hochdorf",
+      "courts": {
+        "bezger": {},
+        "friedensrichter": {}
+      }
+    },
+    "ch:lu:kriens": {
+      "name": "Kriens",
+      "courts": {
+        "bezger": {},
+        "friedensrichter": {}
+      }
+    },
+    "ch:lu:willisau": {
+      "name": "Willisau",
+      "courts": {
+        "bezger": {},
+        "friedensrichter": {}
       }
     },
     "ch:ne": {

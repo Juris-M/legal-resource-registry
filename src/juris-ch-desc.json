@@ -26,7 +26,7 @@
         }
       }
     },
-    "anwaltsaufsichtsbehörde": {
+    "anwaltsaufsichtsbehorde": {
       "name": "Anwaltsaufsichtsbehörde",
       "variants": {
         "fr": {
@@ -82,7 +82,7 @@
         }
       }
     },
-    "aufsichtskommissionrechtsanwälte": {
+    "aufsichtskommissionrechtsanwalte": {
       "name": "Aufsichtskommission Rechtsanwälte",
       "variants": {
         "fr": {
@@ -273,7 +273,7 @@
         }
       }
     },
-    "enteignungsschätzungskommission": {
+    "enteignungsschatzungskommission": {
       "name": "Enteignungsschätzungskommission",
       "variants": {
         "fr": {
@@ -489,7 +489,7 @@
         }
       }
     },
-    "schlichtungsbehörde": {
+    "schlichtungsbehorde": {
       "name": "Schlichtungsbehörde",
       "variants": {
         "fr": {
@@ -500,7 +500,7 @@
         }
       }
     },
-    "schlichtungsbehördegleichstellungssachen": {
+    "schlichtungsbehordegleichstellungssachen": {
       "name": "Schlichtungsbehörde für Gleichstellungssachen",
       "variants": {
         "fr": {
@@ -511,7 +511,7 @@
         }
       }
     },
-    "schlichtungsbehördemieteundpacht": {
+    "schlichtungsbehordemieteundpacht": {
       "name": "Schlichtungsbehörde für Miete und Pacht",
       "variants": {
         "fr": {
@@ -522,7 +522,7 @@
         }
       }
     },
-    "schlichtungsbehördemietsachen": {
+    "schlichtungsbehordemietsachen": {
       "name": "Schlichtungsbehörde für Mietsachen",
       "variants": {
         "fr": {
@@ -826,10 +826,12 @@
       "ABBREV": "BGer",
       "variants": {
         "fr": {
-          "abbrev": "TF"
+          "abbrev": "TF",
+          "name": "XXX"
         },
         "it": {
-          "abbrev": "TF"
+          "abbrev": "TF",
+          "name": "XXX"
         }
       }
     },
@@ -838,10 +840,12 @@
       "ABBREV": "BPatGer",
       "variants": {
         "fr": {
-          "abbrev": "TFB"
+          "abbrev": "TFB",
+          "name": "XXX"
         },
         "it": {
-          "abbrev": "TFB"
+          "abbrev": "TFB",
+          "name": "XXX"
         }
       }
     },
@@ -850,10 +854,12 @@
       "ABBREV": "BStGer",
       "variants": {
         "fr": {
-          "abbrev": "TPF"
+          "abbrev": "TPF",
+          "name": "XXX"
         },
         "it": {
-          "abbrev": "TPF"
+          "abbrev": "TPF",
+          "name": "XXX"
         }
       }
     },
@@ -862,10 +868,12 @@
       "ABBREV": "BVGer",
       "variants": {
         "fr": {
-          "abbrev": "TAF"
+          "abbrev": "TAF",
+          "name": "XXX"
         },
         "it": {
-          "abbrev": "TAF"
+          "abbrev": "TAF",
+          "name": "XXX"
         }
       }
     },
@@ -874,10 +882,12 @@
       "ABBREV": "EVG",
       "variants": {
         "fr": {
-          "abbrev": "TFA"
+          "abbrev": "TFA",
+          "name": "XXX"
         },
         "it": {
-          "abbrev": "TFA"
+          "abbrev": "TFA",
+          "name": "XXX"
         }
       }
     }
@@ -909,77 +919,77 @@
       "name": "Aarau",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:baden": {
       "name": "Baden",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:bremgarten": {
       "name": "Bremgarten",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:brugg": {
       "name": "Brugg",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:kulm": {
       "name": "Kulm",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:laufenburg": {
       "name": "Laufenburg",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:lenzburg": {
       "name": "Lenzburg",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:muri": {
       "name": "Muri",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:rheinfelden": {
       "name": "Rheinfelden",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:zofingen": {
       "name": "Zofingen",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ag:zurzach": {
       "name": "Zurzach",
       "courts": {
         "bezger": {},
-        "schlichtungsbehördemieteundpacht": {}
+        "schlichtungsbehordemieteundpacht": {}
       }
     },
     "ch:ai": {
@@ -1029,9 +1039,9 @@
       "name": "Bern",
       "ABBREV": "BE",
       "courts": {
-        "anwaltsaufsichtsbehörde": {},
+        "anwaltsaufsichtsbehorde": {},
         "bodenverbesserungskommission": {},
-        "enteignungsschätzungskommission": {},
+        "enteignungsschatzungskommission": {},
         "hger": {},
         "kindesunderwachsenenschutzgericht": {},
         "jugendgericht": {},
@@ -1046,7 +1056,7 @@
       "name": "Berner Jura-Seeland",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehörde": {},
+        "schlichtungsbehorde": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -1054,7 +1064,7 @@
       "name": "Emmental-Oberaargau",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehörde": {},
+        "schlichtungsbehorde": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -1062,14 +1072,14 @@
       "name": "Bern-Mittelland",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehörde": {}
+        "schlichtungsbehorde": {}
       }
     },
     "ch:be:oberland": {
       "name": "Oberland",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehörde": {},
+        "schlichtungsbehorde": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -1151,7 +1161,7 @@
         "anwaltskommission": {},
         "kger": {},
         "oger": {},
-        "schlichtungsbehörde": {},
+        "schlichtungsbehorde": {},
         "steuerrekurskommission": {},
         "vger": {}
       }
@@ -1159,10 +1169,10 @@
     "ch:gr": {
       "name": "Graubünden",
       "courts": {
-        "aufsichtskommissionrechtsanwälte": {},
+        "aufsichtskommissionrechtsanwalte": {},
         "kger": {},
         "notariatskommission": {},
-        "schlichtungsbehördegleichstellungssachen": {},
+        "schlichtungsbehordegleichstellungssachen": {},
         "vger": {},
         "zwangsmassnahmengericht": {}
       }
@@ -1171,7 +1181,7 @@
       "name": "Albula",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1179,7 +1189,7 @@
       "name": "Bernina",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1187,7 +1197,7 @@
       "name": "Engiadina Bassa/Val Müstair",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1195,7 +1205,7 @@
       "name": "Imboden",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1203,7 +1213,7 @@
       "name": "Landquart",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1211,7 +1221,7 @@
       "name": "Maloja",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1219,7 +1229,7 @@
       "name": "Moesa",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1227,7 +1237,7 @@
       "name": "Plessur",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1235,7 +1245,7 @@
       "name": "Prättigau/Davos",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1243,7 +1253,7 @@
       "name": "Surselva",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },
@@ -1251,7 +1261,7 @@
       "name": "Viamala",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehördemietsachen": {},
+        "schlichtungsbehordemietsachen": {},
         "vermittleramt": {}
       }
     },

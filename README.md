@@ -2,7 +2,7 @@ Hier entsteht das LRR file für die Schweizerisches
 
 Aufbau:
 * Primär werden Gerichte in der (dominanten) Sprache des jeweiligen Kantons inkludiert
-* Für diese Gerichte werden Übersetzungen in jeweils die beiden Amtssprachen (de, fr oder it) als ´variants´ angeboten.
+* Für diese Gerichte werden Übersetzungen in den beiden jeweils anderen Amtssprachen (de, fr oder it) als ´variants´ angeboten.
 * ´variants´ gibt es sowohl für Namen wie auch für Abkürzungen (bis jetzt nur ´ABBREV´s)
 
 Anmerkungen:
@@ -12,4 +12,4 @@ Anmerkungen:
 * Die Kommissionen und das Schiedsgericht des Kantonsgerichts Appenzell-Innerrhoden könnten u.U. auch als eigene Gerichte aufgefasst werden, wurden bisher aber noch nicht inkludiert, da unklar ist, ob dies in Praxis auch so gehandhabt wird, oder, ob jeweils auch unter dem "Mantel" des Kantonsgerichts gehandelt wird
 
 Todo:
-* Momentan ist mir unklar, inwiefern jurisdictions an die courts angefügt werden. Würde der court "Ordre des Avocats Jurassiens" der jurisdiction "Jura" als "Ordre des Avocats Jurassiens Jura" gerendert? Oder braucht es auch bie "name" ein "%s"?
+* Momentan ist mir unklar, inwiefern jurisdictions an die courts angefügt werden. Würde der court "Ordre des Avocats Jurassiens" der jurisdiction "Jura" als "Ordre des Avocats Jurassiens Jura" gerendert? Oder braucht es auch bei "name" ein "%s"?

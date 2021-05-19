@@ -19,9 +19,11 @@
       "ABBREV": "AGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "Tribunal des prud'hommes"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -75,9 +77,11 @@
       "ABBREV": "AppGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -131,9 +135,11 @@
       "ABBREV": "BezGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "Tribunal d'arrondissement"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -289,9 +295,11 @@
       "ABBREV": "EntGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -323,9 +331,11 @@
       "ABBREV": "FU-Gericht %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -335,9 +345,11 @@
       "ABBREV": "HGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -358,9 +370,11 @@
       "ABBREV": "KGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "Tribunal cantonal"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -469,9 +483,11 @@
       "ABBREV": "OGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -503,9 +519,11 @@
       "ABBREV": "RKMF %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -526,9 +544,11 @@
       "ABBREV": "SchKK %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -692,9 +712,11 @@
       "ABBREV": "StGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -836,9 +858,11 @@
       "ABBREV": "VGer %s",
       "variants": {
         "fr": {
+          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
+          "abbrev": "XXX",
           "name": "XXX"
         }
       }

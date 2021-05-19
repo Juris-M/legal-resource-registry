@@ -1355,8 +1355,6 @@
       "name": "Luzern",
       "courts": {
         "ager": {},
-        "bezger": {},
-        "friedensrichter": {},
         "jugendgericht": {},
         "kger": {},
         "kriminalgericht": {},
@@ -1378,6 +1376,13 @@
     },
     "ch:lu:kriens": {
       "name": "Kriens",
+      "courts": {
+        "bezger": {},
+        "friedensrichter": {}
+      }
+    },
+    "ch:lu:luzern": {
+      "name": "Luzern",
       "courts": {
         "bezger": {},
         "friedensrichter": {}

@@ -72,17 +72,28 @@
         }
       }
     },
+    "anwalts.und.beurkundungskommission": {
+      "name": "Anwalts- und Beurkundungskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "appger": {
       "name": "Appellationsgericht",
       "ABBREV": "AppGer %s",
       "variants": {
         "fr": {
           "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Cour d'appel"
         },
         "it": {
           "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunale d'appello"
         }
       }
     },
@@ -108,11 +119,44 @@
         }
       }
     },
+    "autorite.de.recours.en.matiere.civile": {
+      "name": "Autorité de recours en matière civile",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "autorite.de.recours.en.matiere.penale": {
+      "name": "Autorité de recours en matière pénale",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "autorite.de.surveillance.du.registre.foncier": {
       "name": "Autorité de surveillance du Registre foncier",
       "variants": {
         "de": {
           "name": "Aufsichtsbehörde über das Grundbuch"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "autorite.superieure.de.surveillance.en.matiere.de.poursuites.et,faillites": {
+      "name": "Autorité supérieure de surveillance en matière de poursuites et faillites",
+      "variants": {
+        "de": {
+          "name": "XXX"
         },
         "it": {
           "name": "XXX"
@@ -157,6 +201,17 @@
     },
     "cellule.judiciaire.itinerante": {
       "name": "Cellule judiciaire itinérante"
+    },
+    "chambre.des.affaires.arbitrales": {
+      "name": "Chambre des affaires arbitrales",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
     },
     "commission.de.conciliation.d.egalite.entre.les.sexes.dans.les.rapports.de.travail": {
       "name": "Commission de conciliation en matière d'égalité entre les sexes dans les rapports de travail",
@@ -224,11 +279,22 @@
         }
       }
     },
+    "cour.d.appel": {
+      "name": "Cour d'appel",
+      "variants": {
+        "de": {
+          "name": "Appellationsgericht"
+        },
+        "it": {
+          "name": "Tribunale d'appello"
+        }
+      }
+    },
     "cour.de.cassation": {
       "name": "Cour de cassation",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Kassationsgericht"
         },
         "it": {
           "name": "XXX"
@@ -268,11 +334,33 @@
         }
       }
     },
+    "cour.des.mesures.de.protections.de.l.enfant.et.de.l.adulte": {
+      "name": "Cour des mesures de protections de l'enfant et de l'adulte",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "cour.penale": {
       "name": "Cour pénale",
       "variants": {
         "de": {
           "name": "Strafgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "enteignungskommission": {
+      "name": "Enteignungskommission",
+      "variants": {
+        "fr": {
+          "name": "Commission d'expropriation"
         },
         "it": {
           "name": "XXX"
@@ -358,7 +446,7 @@
       "name": "Kassationsgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Cour de cassation"
         },
         "it": {
           "name": "XXX"
@@ -381,6 +469,17 @@
     },
     "kindes.und.erwachsenenschutzgericht": {
       "name": "Kindes- und Erwachsenenschutzgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "kreisgericht": {
+      "name": "Kreisgericht",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -467,6 +566,17 @@
         }
       }
     },
+    "oan": {
+      "name": "Ordre des avocats neuchâtelois",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "odage": {
       "name": "Ordre des Avocats de Genève",
       "variants": {
@@ -496,7 +606,7 @@
       "name": "Regionalgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal régional"
         },
         "it": {
           "name": "XXX"
@@ -619,6 +729,17 @@
         }
       }
     },
+    "schlichtungsbehorde.in.zivilsachen": {
+      "name": "Schlichtungsbehörde in Zivilsachen",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "schlichtungsstelle.diskriminierung": {
       "name": "Schlichtungsstelle bei Diskriminierung im Erwerbsleben",
       "variants": {
@@ -641,6 +762,28 @@
         }
       }
     },
+    "schlichtungsstelle.fur.arbeitsverhaltnisse": {
+      "name": "Schlichtungsstelle für Arbeitsverhältnisse",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schlichtungsstelle.fur.klagen.nach.dem.gleichstellungsgesetz": {
+      "name": "Schlichtungsstelle für Klagen nach dem Gleichstellungsgesetz",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "schlichtungsstelle.gleichstellungsfragen": {
       "name": "Schlichtungsstelle für Gleichstellungsfragen",
       "variants": {
@@ -654,6 +797,17 @@
     },
     "schlichtungsstelle.mietverhaltnisse": {
       "name": "Schlichtungsstelle Mietverhältnisse",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schlichtungsstelle.miet.und.pachtverhältnisse": {
+      "name": "Schlichtungsstelle für Miet- und Pachtverhältnisse",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -725,6 +879,17 @@
       "name": "Strafgericht",
       "variants": {
         "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.arbitral": {
+      "name": "Tribunal arbitral",
+      "variants": {
+        "de": {
           "name": "XXX"
         },
         "it": {
@@ -831,6 +996,28 @@
         }
       }
     },
+    "tribunal.regional": {
+      "name": "Tribunal régional ",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "uwav": {
+      "name": "Unterwaldner Anwaltsverband",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "vermittler": {
       "name": "Vermittler",
       "variants": {
@@ -853,6 +1040,28 @@
         }
       }
     },
+    "vermittlungsamt": {
+      "name": "Vermittlungsamt",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "versicherungsgericht": {
+      "name": "Versicherungsgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "vger": {
       "name": "Verwaltungsgericht",
       "ABBREV": "VGer %s",
@@ -863,6 +1072,17 @@
         },
         "it": {
           "abbrev": "XXX",
+          "name": "XXX"
+        }
+      }
+    },
+    "verwaltungsrekurskommission": {
+      "name": "Verwaltungsrekurskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
           "name": "XXX"
         }
       }
@@ -1249,6 +1469,7 @@
     },
     "ch:ge": {
       "name": "Genève",
+      "ABBREV": "GE",
       "courts": {
         "cour.civile": {},
         "cour.de.droit.public": {},
@@ -1258,6 +1479,7 @@
     },
     "ch:gl": {
       "name": "Glarus",
+      "ABBREV": "GL",
       "courts": {
         "anwaltskommission": {},
         "kger": {},
@@ -1269,6 +1491,7 @@
     },
     "ch:gr": {
       "name": "Graubünden",
+      "ABBREV": "GR",
       "courts": {
         "aufsichtskommission.rechtsanwalte": {},
         "kger": {},
@@ -1368,6 +1591,7 @@
     },
     "ch:ju": {
       "name": "Jura",
+      "ABBREV": "JU",
       "courts": {
         "oaj": {},
         "tribunal.cantonal": {},
@@ -1377,6 +1601,7 @@
     },
     "ch:lu": {
       "name": "Luzern",
+      "ABBREV": "LU",
       "courts": {
         "ager": {},
         "jugendgericht": {},
@@ -1420,75 +1645,194 @@
       }
     },
     "ch:ne": {
-      "name": "Neuchatel",
+      "name": "Neuchâtel",
+      "ABBREV": "NE",
       "courts": {
-        "cour.de.cassation.civile": {},
-        "cour.de.cassation.penale": {}
+        "autorite.de.recours.en.matiere.civile": {},
+        "autorite.de.recours.en.matiere.penale": {},
+        "autorite.superieure.de.surveillance.en.matiere.de.poursuites.et,faillites": {},
+        "chambre.des.affaires.arbitrales": {},
+        "cour.civile": {},
+        "cour.d.appel": {},
+        "cour.de.cassation.penale": {},
+        "cour.de.droit.public": {},
+        "cour.des.mesures.de.protections.de.l.enfant.et.de.l.adulte": {},
+        "cour.penale": {},
+        "oan": {},
+        "tribunal.arbitral": {}
+      }
+    },
+    "ch:ne:boudry": {
+      "name": "Boudry",
+      "courts": {
+        "tribunal.regional": {}
+      }
+    },
+    "ch:ne:montagnes.et.du.val.de.ruz": {
+      "name": "Montagnes et du Val-de-Ruz",
+      "courts": {
+        "tribunal.regional": {}
+      }
+    },
+    "ch:ne:neuchatel": {
+      "name": "Neuchâtel",
+      "courts": {
+        "tribunal.regional": {}
       }
     },
     "ch:nw": {
       "name": "Nidwalden",
+      "ABBREV": "NW",
       "courts": {
-        "oger": {}
+        "anwalts.und.beurkundungskommission": {},
+        "enteignungskommission": {},
+        "kger": {},
+        "oger": {},
+        "schlichtungsbehorde.in.zivilsachen": {},
+        "uwav": {},
+        "vger": {}
       }
     },
     "ch:ow": {
       "name": "Obwalden",
+      "ABBREV": "OW",
       "courts": {
-        "oger": {}
+        "anwaltskommission": {},
+        "kger": {},
+        "oger": {},
+        "schlichtungsbehorde": {},
+        "steuerrekurskommission": {},
+        "uwav": {},
+        "vger": {}
+      }
+    },
+    "ch:sg": {
+      "name": "St. Gallen",
+      "ABBREV": "SG",
+      "courts": {
+        "anwaltskammer": {},
+        "kger": {},
+        "schlichtungsstelle.fur.klagen.nach.dem.gleichstellungsgesetz": {},
+        "versicherungsgericht": {},
+        "verwaltungsrekurskommission": {},
+        "kger": {}
+      }
+    },
+    "ch:sg:st.gallen": {
+      "name": "St. Gallen",
+      "courts": {
+        "kreisgericht": {},
+        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
+        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
+        "vermittlungsamt": {}
+      }
+    },
+    "ch:sg:rorschach": {
+      "name": "Rorschach",
+      "courts": {
+        "kreisgericht": {},
+        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
+        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
+        "vermittlungsamt": {}
+      }
+    },
+    "ch:sg:rheintal": {
+      "name": "Rheintal",
+      "courts": {
+        "kreisgericht": {},
+        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
+        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
+        "vermittlungsamt": {}
+      }
+    },
+    "ch:sg:werdenberg.sarganserland": {
+      "name": "Werdenberg-Sarganserland",
+      "courts": {
+        "kreisgericht": {},
+        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
+        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
+        "vermittlungsamt": {}
+      }
+    },
+    "ch:sg:see.gaster": {
+      "name": "See-Gaster",
+      "courts": {
+        "kreisgericht": {},
+        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
+        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
+        "vermittlungsamt": {}
+      }
+    },
+    "ch:sg:toggenburg": {
+      "name": "Toggenburg",
+      "courts": {
+        "kreisgericht": {},
+        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
+        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
+        "vermittlungsamt": {}
+      }
+    },
+    "ch:sg:wil": {
+      "name": "Wil",
+      "courts": {
+        "kreisgericht": {},
+        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
+        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
+        "vermittlungsamt": {}
       }
     },
     "ch:sh": {
       "name": "Schaffhausen",
+      "ABBREV": "SH",
       "courts": {
         "oger": {}
       }
     },
     "ch:sz": {
       "name": "Schwyz",
+      "ABBREV": "SZ",
       "courts": {
         "kger": {}
       }
     },
     "ch:so": {
       "name": "Solothurn",
+      "ABBREV": "SO",
       "courts": {
         "oger": {}
       }
     },
-    "ch:sg": {
-      "name": "St-Gallen",
-      "courts": {
-        "kger": {},
-        "kassationsgericht": {}
-      }
-    },
     "ch:tg": {
       "name": "Thurgau",
+      "ABBREV": "TG",
       "courts": {
         "oger": {}
       }
     },
     "ch:ti": {
       "name": "Ticino",
+      "ABBREV": "TI",
       "courts": {
         "tribunale.d.appello": {}
       }
     },
     "ch:ur": {
       "name": "Uri",
+      "ABBREV": "UR",
       "courts": {
         "oger": {}
       }
     },
     "ch:vs": {
       "name": "Valais",
+      "ABBREV": "VS",
       "courts": {
         "tribunal.cantonal": {}
       }
     },
     "ch:vd": {
       "name": "Vaud",
+      "ABBREV": "VD",
       "courts": {
         "tribunal.cantonal": {}
       }
@@ -1501,6 +1845,7 @@
     },
     "ch:zh": {
       "name": "Zurich",
+      "ABBREV": "ZH",
       "courts": {
         "kassationsgericht": {},
         "oger": {}

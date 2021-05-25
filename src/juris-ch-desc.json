@@ -97,6 +97,17 @@
         }
       }
     },
+    "aufsichtsbehorde.uber.das.anwaltswesen": {
+      "name": "Aufsichtsbehörde über das Anwaltswesen",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "aufsichtskommission.rechtsanwalte": {
       "name": "Aufsichtskommission Rechtsanwälte",
       "variants": {
@@ -428,6 +439,17 @@
         }
       }
     },
+    "haftgericht": {
+      "name": "Haftgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "hger": {
       "name": "Handelsgericht",
       "ABBREV": "HGer %s",
@@ -469,6 +491,17 @@
     },
     "kindes.und.erwachsenenschutzgericht": {
       "name": "Kindes- und Erwachsenenschutzgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "kommission.fur.enteignungen.gebaudeversicherung.und.brandschutz": {
+      "name": "Kommission für Enteignungen, Gebäudeversicherung und Brandschutz",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -548,7 +581,7 @@
       "name": "Ordre des Avocats Fribourgeois",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Freiburger Anwaltsverband"
         },
         "it": {
           "name": "XXX"
@@ -602,6 +635,17 @@
         }
       }
     },
+    "rechtspflegekommission.fur.die.justizverwaltung": {
+      "name": "Rechtspflegekommission für die Justizverwaltung",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "regionalgericht": {
       "name": "Regionalgericht",
       "variants": {
@@ -615,6 +659,17 @@
     },
     "rekurskommission.bostadel": {
       "name": "Rekurskommission Bostadel",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "richteramt": {
+      "name": "Richteramt",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -638,8 +693,41 @@
         }
       }
     },
+    "schatzungskommission": {
+      "name": "Schätzungskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schatzungskommission.fur.wildschaden": {
+      "name": "Schätzungskommission für Wildschäden",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "schatzungskommission.nach.enteignungsgesetz": {
       "name": "Schätzungskommission nach Enteignungsgesetz",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schiedsgericht.in.sozialversicherungssachen": {
+      "name": "Schiedsgericht in Sozialversicherungssachen",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -795,6 +883,28 @@
         }
       }
     },
+    "schlichtungsstelle.gleichstellung.frau.und.mann": {
+      "name": "Schlichtungsstelle für Gleichstellung von Frau und Mann",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schlichtungsstelle.fur.mietsachen": {
+      "name": "Schlichtungsstelle für Mietsachen",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "schlichtungsstelle.mietverhaltnisse": {
       "name": "Schlichtungsstelle Mietverhältnisse",
       "variants": {
@@ -828,8 +938,8 @@
         }
       }
     },
-    "sozialversicherungsgericht": {
-      "name": "Sozialversicherungsgericht",
+    "schlichtungsstelle.mietverhaltnisse.und.nichtlandwirtschftliche.pacht": {
+      "name": "Schlichtungsstelle für Miete und nichtlandwirtschaftliche Pacht",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -839,6 +949,28 @@
         }
       }
     },
+    "shav": {
+      "name": "Schaffhauser Anwaltskammer",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "sozialversicherungsgericht": {
+      "name": "Sozialversicherungsgericht",
+      "variants": {
+         "fr": {
+           "name": "XXX"
+         },
+         "it": {
+           "name": "XXX"
+         }
+       }
+     },
     "spezialverwaltungsgericht": {
       "name": "Spezialverwaltungsgericht",
       "variants": {
@@ -1785,7 +1917,119 @@
       "name": "Schaffhausen",
       "ABBREV": "SH",
       "courts": {
-        "oger": {}
+        "aufsichtsbehorde.uber.das.anwaltswesen": {},
+        "friedensrichteramt": {},
+        "kger": {},
+        "kommission.fur.enteignungen.gebaudeversicherung.und.brandschutz": {},
+        "oger": {},
+        "rechtspflegekommission.fur.die.justizverwaltung": {},
+        "schatzungskommission.fur.wildschaden": {},
+        "schiedsgericht.in.sozialversicherungssachen": {},
+        "schlichtungsstelle.diskriminierung": {},
+        "schlichtungsstelle.fur.mietsachen": {},
+        "shav": {}
+      }
+    },
+    "ch:so": {
+      "name": "Solothurn",
+      "ABBREV": "SO",
+      "courts": {
+        "anwaltskammer": {},
+        "haftgericht": {},
+        "jugendgericht": {},
+        "oger": {},
+        "schatzungskommission": {},
+        "schlichtungsstelle.gleichstellung.frau.und.mann": {},
+        "stger": {},
+        "versicherungsgericht": {},
+        "vger": {}
+      }
+    },
+    "ch:so:solothurn": {
+      "name": "Solothurn",
+      "courts": {
+        "schlichtungsbehorde.miete.und.pacht": {}
+      }
+    },
+    "ch:so:niederamt": {
+      "name": "Niederamt",
+      "courts": {
+        "friedensrichter": {}
+      }
+    },
+    "ch:so:barschwil.erschwil.grindel": {
+      "name": "Bärschwil-Erschwil-Grindel",
+      "courts": {
+        "friedensrichter": {}
+      }
+    },
+    "ch:so:dorneck.thierstein": {
+      "name": "Dorneck-Thierstein",
+      "courts": {
+        "richteramt": {},
+        "schlichtungsbehorde.miete.und.pacht": {}
+      }
+    },
+    "ch:so:fehren.himmelried": {
+      "name": "Fehren-Himmelried",
+      "courts": {
+        "friedensrichter": {}
+      }
+    },
+    "ch:so:gau": {
+      "name": "Gäu",
+      "courts": {
+        "friedensrichter": {}
+      }
+    },
+    "ch:so:niederamt": {
+      "name": "Niederamt",
+      "courts": {
+        "friedensrichter": {}
+      }
+    },
+    "ch:so:olten.gosgen": {
+      "name": "Olten-Gösgen",
+      "courts": {
+        "richteramt": {},
+        "schlichtungsbehorde.miete.und.pacht": {}
+      }
+    },
+    "ch:so:solothurn.bellach": {
+      "name": "Solothurn-Bellach",
+      "courts": {
+        "friedensrichter": {}
+      }
+    },
+    "ch:so:solothurn.lebern": {
+      "name": "Solothurn-Lebern",
+      "courts": {
+        "richteramt": {}
+      }
+    },
+    "ch:so:thal.gau": {
+      "name": "Thal-Gäu",
+      "courts": {
+        "richteramt": {},
+        "schlichtungsbehorde.miete.und.pacht": {}
+      }
+    },
+    "ch:so:unterer.hauenstein": {
+      "name": "Unterer Hauenstein",
+      "courts": {
+        "friedensrichter": {}
+      }
+    },
+    "ch:so:unterer.leberberg": {
+      "name": "Unterer Leberberg",
+      "courts": {
+        "friedensrichter": {}
+      }
+    },
+    "ch:so:wartenfels": {
+      "name": "Wartenfels",
+      "courts": {
+        "friedensrichter": {}
       }
     },
     "ch:sz": {
@@ -1793,13 +2037,6 @@
       "ABBREV": "SZ",
       "courts": {
         "kger": {}
-      }
-    },
-    "ch:so": {
-      "name": "Solothurn",
-      "ABBREV": "SO",
-      "courts": {
-        "oger": {}
       }
     },
     "ch:tg": {

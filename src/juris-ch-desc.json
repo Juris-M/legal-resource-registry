@@ -119,6 +119,28 @@
         }
       }
     },
+    "aufsichtskommission.uber.die.rechtsanwalte": {
+      "name": "Aufsichtskommission über die Rechtsanwälte",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "aufsichtskommission.uber.rechtsanwalte": {
+      "name": "Aufsichtskommission über Rechtsanwälte",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "autorite.de.conciliation.bail.et.baux": {
       "name": "Autorité de conciliation en matière de bail et tribunal des baux",
       "variants": {
@@ -224,6 +246,28 @@
         }
       }
     },
+    "chambre.des.avocats": {
+      "name": "Chambre des avocats",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "chambre.patrimoniale.cantonale": {
+      "name": "Chambre des affaires arbitrales",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "commission.de.conciliation.d.egalite.entre.les.sexes.dans.les.rapports.de.travail": {
       "name": "Commission de conciliation en matière d'égalité entre les sexes dans les rapports de travail",
       "variants": {
@@ -275,6 +319,50 @@
           "name": "Enteignungskommission"
         },
         "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "commissione.di.disciplina.degli.avvocati": {
+      "name": "Commissione di disciplina degli avvocati",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "fr": {
+          "name": "XXX"
+        }
+      }
+    },
+    "commissione.di.disciplina.notarile": {
+      "name": "Commissione di disciplina notarile",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "fr": {
+          "name": "XXX"
+        }
+      }
+    },
+    "commissione.per.il.notariato": {
+      "name": "Commissione per il notariato",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "fr": {
+          "name": "XXX"
+        }
+      }
+    },
+    "commissione.per.l.avvocatura": {
+      "name": "Commissione per l'avvocatura",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "fr": {
           "name": "XXX"
         }
       }
@@ -464,6 +552,17 @@
         }
       }
     },
+    "juge.de.commune": {
+      "name": "Juge de commune",
+      "variants": {
+        "de": {
+          "name": "Gemeinderichter"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "kassationsgericht": {
       "name": "Kassationsgericht",
       "variants": {
@@ -555,6 +654,17 @@
         }
       }
     },
+    "landgericht": {
+      "name": "Landgericht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "lav": {
       "name": "Luzerner Anwaltsverband",
       "variants": {
@@ -635,6 +745,17 @@
         }
       }
     },
+    "personalrekurskommission": {
+      "name": "Personalrekurskommission",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "rechtspflegekommission.fur.die.justizverwaltung": {
       "name": "Rechtspflegekommission für die Justizverwaltung",
       "variants": {
@@ -659,6 +780,50 @@
     },
     "rekurskommission.bostadel": {
       "name": "Rekurskommission Bostadel",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "rekurskommission.fur.die.gebaudeversicherung": {
+      "name": "Rekurskommission für die Gebäudeversicherung",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "rekurskommission.fur.landwirtschaftssachen": {
+      "name": "Rekurskommission für Landwirtschaftssachen",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "rekurskommission.fur.strassenverkehrssachen": {
+      "name": "Rekurskommission für Strassenverkehrssachen",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "rekurskommission.in.anwaltssachen": {
+      "name": "Rekurskommission in Anwaltssachen",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -773,6 +938,17 @@
         }
       }
     },
+    "schlichtungsbehorde.arbeitsrecht": {
+      "name": "Schlichtungsbehörde Arbeitsrecht",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "schlichtungsbehorde.gleichstellung": {
       "name": "Schlichtungsbehörde Gleichstellung",
       "variants": {
@@ -786,6 +962,17 @@
     },
     "schlichtungsbehorde.gleichstellungssachen": {
       "name": "Schlichtungsbehörde für Gleichstellungssachen",
+      "variants": {
+        "fr": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "schlichtungsbehorde.in.zivilsachen": {
+      "name": "Schlichtungsbehörde in Zivilsachen",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -817,8 +1004,8 @@
         }
       }
     },
-    "schlichtungsbehorde.in.zivilsachen": {
-      "name": "Schlichtungsbehörde in Zivilsachen",
+    "schlichtungsbehorde.miet.und.pachtrecht": {
+      "name": "Schlichtungsbehörde für Miet- und Pachtrecht",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -1057,7 +1244,7 @@
         "de": {
           "name": "XXX"
         },
-        "it": {
+        "fr": {
           "name": "XXX"
         }
       }
@@ -1073,8 +1260,52 @@
         }
       }
     },
+    "tribunale.dei.minorenni": {
+      "name": "Tribunale dei minorenni",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "fr": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunale.delle.espropriazioni": {
+      "name": "Tribunale delle espropriazioni",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "fr": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.de.district": {
+      "name": "Tribunal de district",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "tribunal.de.premiere.instance": {
       "name": "Tribunal de première instance",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.des.baux": {
+      "name": "Tribunal des baux",
       "variants": {
         "de": {
           "name": "XXX"
@@ -1106,11 +1337,33 @@
         }
       }
     },
+    "tribunal.des.mesures.de.contrainte.et.d.application.des.peines": {
+      "name": "Tribunal des mesures de contrainte et d'application des peines",
+      "variants": {
+        "de": {
+          "name": "XXX"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
     "tribunal.des.mineurs": {
       "name": "Tribunal des mineurs",
       "variants": {
         "de": {
           "name": "Jugendgericht"
+        },
+        "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "tribunal.de.l.application.des.peines.et.mesures": {
+      "name": "Tribunal de l'application des peines et mesures",
+      "variants": {
+        "de": {
+          "name": "Straf- und Massnahmenvollzugsgericht"
         },
         "it": {
           "name": "XXX"
@@ -1129,12 +1382,23 @@
       }
     },
     "tribunal.regional": {
-      "name": "Tribunal régional ",
+      "name": "Tribunal régional",
       "variants": {
         "de": {
           "name": "XXX"
         },
         "it": {
+          "name": "XXX"
+        }
+      }
+    },
+    "ufficio.di.conciliazione": {
+      "name": "Ufficio di conciliazione",
+      "variants": {
+        "de": {
+          "name": "Vermittleramt"
+        },
+        "fr": {
           "name": "XXX"
         }
       }
@@ -2231,49 +2495,525 @@
       "name": "Thurgau",
       "ABBREV": "TG",
       "courts": {
-        "oger": {}
+        "anwaltskommission": {},
+        "enteignungskommission": {},
+        "oger": {},
+        "personalrekurskommission": {},
+        "rekurskommission.fur.die.gebaudeversicherung": {},
+        "rekurskommission.fur.landwirtschaftssachen": {},
+        "rekurskommission.fur.strassenverkehrssachen": {},
+        "rekurskommission.in.anwaltssachen": {},
+        "steuerrekurskommission": {},
+        "vger": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:tg:arbon": {
+      "name": "Arbon",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:tg:frauenfeld": {
+      "name": "Frauenfeld",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:tg:kreuzlingen": {
+      "name": "Kreuzlingen",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:tg:munchwilen": {
+      "name": "Münchwilen",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:tg:weinfelden": {
+      "name": "Weinfelden",
+      "courts": {
+        "bezger": {}
       }
     },
     "ch:ti": {
       "name": "Ticino",
       "ABBREV": "TI",
       "courts": {
-        "tribunale.d.appello": {}
+        "commissione.di.disciplina.degli.avvocati": {},
+        "commissione.di.disciplina.notarile": {},
+        "commissione.per.il.notariato": {},
+        "commissione.per.l.avvocatura": {},
+        "tribunale.d.appello": {},
+        "tribunale.dei.minorenni": {},
+        "tribunale.delle.espropriazioni": {}
+      }
+    },
+    "ch:ti:agno": {
+      "name": "Agno",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:bellinzona": {
+      "name": "Bellinzona",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:biasca": {
+      "name": "Biasca",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:chiasso": {
+      "name": "Chiasso",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:giubiasco": {
+      "name": "Giubiasco",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:locarno": {
+      "name": "Locarno",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:lugano.est": {
+      "name": "Lugano Est",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:lugano.ovest": {
+      "name": "Lugano Ovest",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:massagno": {
+      "name": "Massagno",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:mendrisio": {
+      "name": "Mendrisio",
+      "courts": {
+        "ufficio.di.conciliazione": {}
+      }
+    },
+    "ch:ti:minusio": {
+      "name": "Minusio",
+      "courts": {
+        "ufficio.di.conciliazione": {}
       }
     },
     "ch:ur": {
       "name": "Uri",
       "ABBREV": "UR",
       "courts": {
-        "oger": {}
+        "oger": {},
+        "jugendgericht": {},
+        "schlichtungsbehorde": {},
+        "zwangsmassnahmengericht": {}
       }
     },
-    "ch:vs": {
-      "name": "Valais",
-      "ABBREV": "VS",
+    "ch:ur:uri": {
+      "name": "Uri",
       "courts": {
-        "tribunal.cantonal": {}
+        "landgericht": {}
+      }
+    },
+    "ch:ur:ursern": {
+      "name": "Ursern",
+      "courts": {
+        "landgericht": {}
       }
     },
     "ch:vd": {
       "name": "Vaud",
       "ABBREV": "VD",
       "courts": {
-        "tribunal.cantonal": {}
+        "chambre.des.avocats": {},
+        "chambre.patrimoniale.cantonale": {},
+        "tribunal.cantonal": {},
+        "tribunal.des.baux": {},
+        "tribunal.des.mesures.de.contrainte.et.d.application.des.peines": {},
+        "tribunal.des.mineurs": {}
+      }
+    },
+    "ch:vd:aigle": {
+      "name": "Aigle",
+      "courts": {
+        "justice.de.paix": {}
+      }
+    },
+    "ch:vd:broye.et.nord.vaudois": {
+      "name": "Broye et Nord vaudois",
+      "courts": {
+        "tribunal.d.arrondissement": {},
+        "tribunal.des.prud.hommes": {}
+      }
+    },
+    "ch:vd:broye.vully": {
+      "name": "Broye-Vully",
+      "courts": {
+        "justice.de.paix": {}
+      }
+    },
+    "ch:vd:est.vaudois": {
+      "name": "Est vaudois",
+      "courts": {
+        "tribunal.d.arrondissement": {},
+        "tribunal.des.prud.hommes": {}
+      }
+    },
+    "ch:vd:jura.nord.vaudois.et.gros.de.vaud": {
+      "name": "Jura-Nord vaudois et Gros-de-Vaud",
+      "courts": {
+        "justice.de.paix": {}
+      }
+    },
+    "ch:vd:la.cote": {
+      "name": "La Côte",
+      "courts": {
+        "tribunal.d.arrondissement": {},
+        "tribunal.des.prud.hommes": {}
+      }
+    },
+    "ch:vd:lausanne": {
+      "name": "Lausanne",
+      "courts": {
+        "justice.de.paix": {},
+        "tribunal.d.arrondissement": {},
+        "tribunal.des.prud.hommes": {}
+      }
+    },
+    "ch:vd:lavaux.oron": {
+      "name": "Lavaux-Oron",
+      "courts": {
+        "justice.de.paix": {}
+      }
+    },
+    "ch:vd:morges": {
+      "name": "Morges",
+      "courts": {
+        "justice.de.paix": {}
+      }
+    },
+    "ch:vd:nyon": {
+      "name": "Nyon",
+      "courts": {
+        "justice.de.paix": {}
+      }
+    },
+    "ch:vd:ouest.lausannois": {
+      "name": "Ouest lausannois",
+      "courts": {
+        "justice.de.paix": {}
+      }
+    },
+    "ch:vd:riviera.pays.d.enhaut": {
+      "name": "Riviera-Pays-d'Enhaut",
+      "courts": {
+        "justice.de.paix": {}
+      }
+    },
+    "ch:vs": {
+      "name": "Valais",
+      "ABBREV": "VS",
+      "courts": {
+        "tribunal.cantonal": {},
+        "tribunal.des.mesures.de.contrainte": {},
+        "tribunal.de.l.application.des.peines.et.mesures": {},
+        "tribunal.des.mineurs": {}
+      }
+    },
+    "ch:vs:brig.ostlich.raron.goms": {
+      "name": "Brig - Östlich Raron - Goms",
+      "courts": {
+        "tribunal.de.district": {}
+      }
+    },
+    "ch:vs:brigue": {
+      "name": "Brigue",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:conches": {
+      "name": "Conches",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:conthey": {
+      "name": "Conthey",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:entremont": {
+      "name": "Entremont",
+      "courts": {
+        "juge.de.commune": {},
+        "tribunal.de.district": {}
+      }
+    },
+    "ch:vs:herens": {
+      "name": "Hérens",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:herens.conthey": {
+      "name": "Hérens - Conthey",
+      "courts": {
+        "tribunal.de.district": {}
+      }
+    },
+    "ch:vs:leuk.westlich.raron": {
+      "name": "Leuk - Westlich Raron",
+      "courts": {
+        "tribunal.de.district": {}
+      }
+    },
+    "ch:vs:loeche": {
+      "name": "Loèche",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:martigny": {
+      "name": "Martigny",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:martigny.st.maurice": {
+      "name": "Martigny - St-Maurice",
+      "courts": {
+        "tribunal.de.district": {}
+      }
+    },
+    "ch:vs:monthey": {
+      "name": "Monthey",
+      "courts": {
+        "juge.de.commune": {},
+        "tribunal.de.district": {}
+      }
+    },
+    "ch:vs:rarogne.occidental": {
+      "name": "Rarogne occidental",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:rarogne.oriental": {
+      "name": "Rarogne oriental",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:sierre": {
+      "name": "Sierre",
+      "courts": {
+        "juge.de.commune": {},
+        "tribunal.de.district": {}
+      }
+    },
+    "ch:vs:sion": {
+      "name": "Sion",
+      "courts": {
+        "juge.de.commune": {},
+        "tribunal.de.district": {}
+      }
+    },
+    "ch:vs:st.maurice": {
+      "name": "St-Maurice",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:viege": {
+      "name": "Viège",
+      "courts": {
+        "juge.de.commune": {}
+      }
+    },
+    "ch:vs:visp": {
+      "name": "Visp",
+      "courts": {
+        "tribunal.de.district": {}
       }
     },
     "ch:zg": {
       "name": "Zug",
+      "ABBREV": "ZG",
       "courts": {
-        "oger": {}
+        "aufsichtskommission.uber.die.rechtsanwalte": {},
+        "kger": {},
+        "oger": {},
+        "schlichtungsbehorde.arbeitsrecht": {},
+        "schlichtungsbehorde.miet.und.pachtrecht": {},
+        "strafgericht": {},
+        "vger": {}
+      }
+    },
+    "ch:zg:baar": {
+      "name": "Baar",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:cham": {
+      "name": "Cham",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:hunenberg": {
+      "name": "Hünenberg",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:menzingen": {
+      "name": "Menzingen",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:neuheim": {
+      "name": "Neuheim",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:oberageri": {
+      "name": "Oberägeri",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:risch": {
+      "name": "Risch",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:steinhausen": {
+      "name": "Steinhausen",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:unterageri": {
+      "name": "Unterägeri",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:walchwil": {
+      "name": "Walchwil",
+      "courts": {
+        "friedensrichteramt": {}
+      }
+    },
+    "ch:zg:zug": {
+      "name": "Zug",
+      "courts": {
+        "friedensrichteramt": {}
       }
     },
     "ch:zh": {
       "name": "Zürich",
       "ABBREV": "ZH",
       "courts": {
-        "kassationsgericht": {},
+        "aufsichtskommission.uber.rechtsanwalte": {},
+        "hger": {},
         "oger": {}
+      }
+    },
+    "ch:zh:affoltern": {
+      "name": "Affoltern",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:andelfingen": {
+      "name": "Andelfingen",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:dielsdorf": {
+      "name": "Dielsdorf",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:bulach": {
+      "name": "Bülach",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:dietikon": {
+      "name": "Dietikon",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:hinwil": {
+      "name": "Hinwil",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:horgen": {
+      "name": "Horgen",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:meilen": {
+      "name": "Meilen",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:pfaffikon": {
+      "name": "Pfäffikon",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:uster": {
+      "name": "Uster",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:winterthur": {
+      "name": "Winterthur",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:zh:zurich": {
+      "name": "Zürich",
+      "courts": {
+        "bezger": {}
       }
     }
   }

@@ -13,6 +13,7 @@ Anmerkungen:
 * Neuchâtel benutzt einzigartige Abkürzungen für ihre Gerichte. Da unklar ist, ob diese weitere Verbreitung haben, wurden sie nicht implementiert, da dann wohl nur für Neuchâtel eigene courts nur wegen den Abkürzungen geschaffen werden müssten. Es wird aber angenommen, dass diese Abkürzungen ausserhalb der eigenen Gerichtsorganisation nicht viel Verwendung finden.
 * Generell hat Neuchâtel eine sehr eigene Art, die Entscheide ihrer Gerichte einzuordnen, die sehr schwer in JSON abzubilden ist. U.U. sollte dies später in Zusammenarbeit mit lokalen Experten abgeglichen werden.
 * Die verschiedenen Schlichtungsstellen in öffentlich-rechtlichen Personalsachen des Kantons St. Gallen wurden vorerst weggelassen, da vermutlich sehr unwichtig für juristisches Schreiben.
+* Im Fall von Ticino ist mir nicht ganz klar, was ein eigenes Gericht und was nur eine Abteilung/Kammer eines Gerichts ist.
 
 Todo:
 * Momentan ist mir unklar, inwiefern jurisdictions an die courts angefügt werden. Würde der court "Ordre des Avocats Jurassiens" der jurisdiction "Jura" als "Ordre des Avocats Jurassiens Jura" gerendert? Oder braucht es auch bei "name" ein "%s"?

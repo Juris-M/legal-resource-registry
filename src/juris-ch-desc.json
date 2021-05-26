@@ -1011,7 +1011,7 @@
       "name": "Strafgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Cour pénale"
         },
         "it": {
           "name": "XXX"
@@ -2036,7 +2036,195 @@
       "name": "Schwyz",
       "ABBREV": "SZ",
       "courts": {
-        "kger": {}
+        "anwaltskommission": {},
+        "kger": {},
+        "jugendgericht": {},
+        "strafgericht": {},
+        "vger": {},
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:sz:alpthal": {
+      "name": "Alpthal",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:altendorf": {
+      "name": "Altendorf",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:arth": {
+      "name": "Arth",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:einsiedeln": {
+      "name": "Einsiedeln",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:galgenen": {
+      "name": "Galgenen",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:gersau": {
+      "name": "Gersau",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:hofe": {
+      "name": "Höfe",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:illgau": {
+      "name": "Illgau",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:ingenbohl": {
+      "name": "Ingenbohl",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:innerthal": {
+      "name": "Innerthal",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:kussnacht": {
+      "name": "Küssnacht",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:lachen": {
+      "name": "Lachen",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:lauerz": {
+      "name": "Lauerz",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:march": {
+      "name": "March",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:sz:morschach": {
+      "name": "Morschach",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:muotathal": {
+      "name": "Muotathal",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:oberiberg": {
+      "name": "Oberiberg",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:reichenburg": {
+      "name": "Reichenburg",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:riemenstalden": {
+      "name": "Riemenstalden",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:rothenthurm": {
+      "name": "Rothenthurm",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:sattel": {
+      "name": "Sattel",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:schubelbach": {
+      "name": "Schübelbach",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:schwyz": {
+      "name": "Schwyz",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:steinen": {
+      "name": "Steinen",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:steinerberg": {
+      "name": "Steinerberg",
+      "courts": {
+        "bezger": {}
+      }
+    },
+    "ch:sz:tuggen": {
+      "name": "Tuggen",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:unteriberg": {
+      "name": "Unteriberg",
+      "courts": {
+        "bezger": {},
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:vorderthal": {
+      "name": "Vorderthal",
+      "courts": {
+        "vermittleramt": {}
+      }
+    },
+    "ch:sz:wangen": {
+      "name": "Wangen",
+      "courts": {
+        "vermittleramt": {}
       }
     },
     "ch:tg": {
@@ -2081,7 +2269,7 @@
       }
     },
     "ch:zh": {
-      "name": "Zurich",
+      "name": "Zürich",
       "ABBREV": "ZH",
       "courts": {
         "kassationsgericht": {},

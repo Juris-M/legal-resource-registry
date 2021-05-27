@@ -1,4 +1,4 @@
-Hier entsteht das LRR file für die Schweizerisches
+Hier entsteht das LRR file für die Schweiz
 
 Aufbau:
 * Primär werden Gerichte in der (dominanten) Sprache des jeweiligen Kantons inkludiert

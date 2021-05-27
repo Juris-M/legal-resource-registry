@@ -1,19 +1,19 @@
-Hier entsteht das LRR file für die Schweiz
+Here the LRR file for Switzerland is in the works.
 
-Aufbau:
-* Primär werden Gerichte in der (dominanten) Sprache des jeweiligen Kantons inkludiert
-* Für diese Gerichte werden Übersetzungen in den beiden jeweils anderen Amtssprachen (de, fr oder it) als ´variants´ angeboten.
-* ´variants´ gibt es sowohl für Namen wie auch für Abkürzungen (bis jetzt nur ´ABBREV´s)
+Structure:
+* Primarily, courts are included in the (dominant) language of the respective canton.
+* For these courts, translations in the other two official languages (de, fr or it) are offered as `variants`.
+* `Variants` are available for both names and abbreviations (so far only `ABBREV`).
 
-Anmerkungen:
-* Bislang nicht inkludiert werden Behörden die durchaus Entscheidungsfunktion haben können (z.B. Regierungsdepartemente, Betreibungsämter, Staatsanwaltschaften), soweit diese Funktion nicht primäre Aufgabe der Behörden ist
-* Es werden nur Gerichte (als eigenständige Organisationseinheit und damit Entscheidkörper), nicht aber einzelne Abteilungen oder Kammern dieser Gerichte aufgenommen. Dies kann zu einem späteren Zeitpunkt ergänzt werden, erscheint prima facie aber grösstenteils unnötig, da normalerweise nur das Gericht als ganzes zitiert wird.
-* Die freiburgsche "Cellule judiciaire itinérante" wird anscheinend auch im Deutschen so bezeichnet. Es wird angenommen, dass dies wohl auch in der italienischen Praxis so wäre. Von eine Übersetzung wurde bislang abgesehen
-* Die Kommissionen und das Schiedsgericht des Kantonsgerichts Appenzell-Innerrhoden könnten u.U. auch als eigene Gerichte aufgefasst werden, wurden bisher aber noch nicht inkludiert, da unklar ist, ob dies in Praxis auch so gehandhabt wird, oder, ob jeweils auch unter dem "Mantel" des Kantonsgerichts gehandelt wird
-* Neuchâtel benutzt einzigartige Abkürzungen für ihre Gerichte. Da unklar ist, ob diese weitere Verbreitung haben, wurden sie nicht implementiert, da dann wohl nur für Neuchâtel eigene courts nur wegen den Abkürzungen geschaffen werden müssten. Es wird aber angenommen, dass diese Abkürzungen ausserhalb der eigenen Gerichtsorganisation nicht viel Verwendung finden.
-* Generell hat Neuchâtel eine sehr eigene Art, die Entscheide ihrer Gerichte einzuordnen, die sehr schwer in JSON abzubilden ist. U.U. sollte dies später in Zusammenarbeit mit lokalen Experten abgeglichen werden.
-* Die verschiedenen Schlichtungsstellen in öffentlich-rechtlichen Personalsachen des Kantons St. Gallen wurden vorerst weggelassen, da vermutlich sehr unwichtig für juristisches Schreiben.
-* Im Fall von Ticino ist mir nicht ganz klar, was ein eigenes Gericht und was nur eine Abteilung/Kammer eines Gerichts ist.
+Notes:
+* Authorities that may well have a decision-making function (e.g. government departments, bankruptcy offices, public prosecutors), but where this function is not the primary task of the authorities, have not been included so far.
+* Only courts (as independent organisational units and thus decision-making bodies) are included, but not individual divisions or chambers of these courts. This can be added at a later stage, but prima facie seems largely unnecessary, as normally only the court as a whole is cited.
+* The Fribourg "Cellule judiciaire itinérante" is apparently also referred to as such in German. It is assumed that this would also be the case in Italian practice. A translation has been refrained from so far.
+* The commissions and the arbitral tribunal of the Cantonal Court of Appenzell-Innerrhoden could possibly also be understood as separate courts, but have not yet been included, as it is unclear whether this is also the case in practice, or whether they also act under the "mantle" of the Cantonal Court.
+* Neuchâtel uses unique abbreviations for its courts. As it is unclear whether these have wider use; they have not been implemented, as then separate courts would probably have to be created for Neuchâtel only because of the abbreviations. However, it is assumed that these abbreviations are not used much outside of their own judicial administration.
+* In general, Neuchâtel has a very unique way of classifying the decisions of its courts, which is very difficult to track in JSON. This might need to be adjusted with local experts at a later stage.
+* The various arbitration boards in public law employment cases of the Canton of St. Gallen have been omitted for the time being, as they are presumably fairly unimportant for legal writing.
+* In the case of Ticino, it is not entirely clear to me what is a court of its own and what is only a division/chamber of a court.
 
 Todo:
-* Momentan ist mir unklar, inwiefern jurisdictions an die courts angefügt werden. Würde der court "Ordre des Avocats Jurassiens" der jurisdiction "Jura" als "Ordre des Avocats Jurassiens Jura" gerendert? Oder braucht es auch bei "name" ein "%s"?
+* At the moment, it is unclear to me to what extent jurisdictions are appended to the courts. Would the court "Ordre des Avocats Jurassiens" of the jurisdiction "Jura" be rendered as "Ordre des Avocats Jurassiens Jura"? Or would a "%s" also need to be added to "name" for this to happen?

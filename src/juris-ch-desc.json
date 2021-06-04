@@ -676,6 +676,83 @@
         }
       }
     },
+    "militarappellationsgericht 1": {
+      "name": "Militärappellationsgericht 1",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire d'appel 1"
+        },
+        "it": {
+          "name": "Tribunale militare d'appello 1"
+        }
+      }
+    },
+    "militarappellationsgericht 2": {
+      "name": "Militärappellationsgericht 2",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire d'appel 2"
+        },
+        "it": {
+          "name": "Tribunale militare d'appello 2"
+        }
+      }
+    },
+    "militarappellationsgericht 3": {
+      "name": "Militärappellationsgericht 3",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire d'appel 3"
+        },
+        "it": {
+          "name": "Tribunale militare d'appello 3"
+        }
+      }
+    },
+    "militargericht 1": {
+      "name": "Militärgericht 1",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire 1"
+        },
+        "it": {
+          "name": "Tribunale militare di prima istanza 1"
+        }
+      }
+    },
+    "militargericht 2": {
+      "name": "Militärgericht 2",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire 2"
+        },
+        "it": {
+          "name": "Tribunale militare di prima istanza 2"
+        }
+      }
+    },
+    "militargericht 3": {
+      "name": "Militärgericht 3",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire 3"
+        },
+        "it": {
+          "name": "Tribunale militare di prima istanza 3"
+        }
+      }
+    },
+    "militarkassationsgericht": {
+      "name": "Militärkassationsgericht",
+      "variants": {
+        "fr": {
+          "name": "Tribunal militaire de cassation"
+        },
+        "it": {
+          "name": "Tribunale militare di cassazione"
+        }
+      }
+    },
     "notariatskommission": {
       "name": "Notariatskommission",
       "variants": {
@@ -1617,7 +1694,14 @@
         "bstger": {},
         "bvger": {},
         "bpatger": {},
-        "evg": {}
+        "evg": {},
+        "militarappellationsgericht 1": {},
+        "militarappellationsgericht 2": {},
+        "militarappellationsgericht 3": {},
+        "militargericht 1": {},
+        "militargericht 2": {},
+        "militargericht 3": {},
+        "militarkassationsgericht": {}
       }
     },
     "ch:ag": {

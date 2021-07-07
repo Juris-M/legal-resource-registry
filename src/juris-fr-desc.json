@@ -16,35 +16,35 @@
     },
     "cass~civ.1": {
       "name": "%s 1re Chambre civile",
-      "abbrev": "%s civ. 1re"
+      "abbrev": "Cour de cassation, civ. 1re"
     },
     "cass~civ.2": {
       "name": "%s 2e Chambre civile",
-      "abbrev": "%s civ. 2e"
+      "abbrev": "Cour de cassation, civ. 2e"
     },
     "cass~civ.3": {
       "name": "%s 3e Chambre civile",
-      "abbrev": "civ. 2e"
+      "abbrev": "Cour de cassation, civ. 3e"
     },
     "cass~crim": {
       "name": "%s Chambre criminelle",
-      "abbrev": "crim."
+      "abbrev": "Cour de cassation, crim."
     },
     "cass~com": {
       "name": "%s Chambre commerciale, économique et financière",
-      "abbrev": "com."
+      "abbrev": "Cour de cassation, com."
     },
     "cass~soc": {
       "name": "%s Chambre sociale",
-      "abbrev": "soc."
+      "abbrev": "Cour de cassation, soc."
     },
     "cass~plen": {
       "name": "%s Assemblée plénière",
-      "abbrev": "Ass. plen."
+      "abbrev": "Cour de cassation, ass. plen."
     },
     "cass~mixte": {
       "name": "%s Chambre mixte",
-      "abbrev": "%s ch. mixte"
+      "abbrev": "Cour de cassation, ch. mixte"
     },
     "cc": {
       "name": "Conseil constitutionnel"
@@ -59,15 +59,7 @@
     },
     "ce~reunies": {
       "name": "%s Chambres réunies",
-      "abbrev": "%s Ch. réunies"
-    },
-    "ce~sect": {
-      "name": "%s Section du contentieux",
-      "abbrev": "%s Sect."
-    },
-    "ce~ass": {
-      "name": "%s Assemblée du contentieux",
-      "abbrev": "%s Ass."
+      "abbrev": "Conseil d'État, ch. réunies"
     },
     "cnda": {
       "name": "Cour nationale du droit d'asile",
@@ -115,8 +107,6 @@
         "cc": {},
         "ce": {},
         "ce~reunies": {},
-        "ce~sect": {},
-        "ce~ass": {},
         "cnda": {},
         "ca": {},
         "tsa": {},

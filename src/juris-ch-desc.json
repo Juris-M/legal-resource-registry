@@ -141,17 +141,6 @@
         }
       }
     },
-    "autorite.de.conciliation.bail.et.baux": {
-      "name": "Autorité de conciliation en matière de bail et tribunal des baux",
-      "variants": {
-        "de": {
-          "name": "Schlichtungsbehörden in Mietsachen und Mietgericht"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
     "autorite.de.recours.en.matiere.civile": {
       "name": "Autorité de recours en matière civile",
       "variants": {
@@ -258,21 +247,10 @@
       }
     },
     "chambre.patrimoniale.cantonale": {
-      "name": "Chambre des affaires arbitrales",
+      "name": "Chambre patrimoniale cantonale",
       "variants": {
         "de": {
           "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "commission.de.conciliation.d.egalite.entre.les.sexes.dans.les.rapports.de.travail": {
-      "name": "Commission de conciliation en matière d'égalité entre les sexes dans les rapports de travail",
-      "variants": {
-        "de": {
-          "name": "Schlichtungskommission für die Gleichstellung der Geschlechter im Erwerbsleben"
         },
         "it": {
           "name": "XXX"
@@ -491,28 +469,6 @@
         }
       }
     },
-    "friedensrichter": {
-      "name": "Friedensrichter",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "friedensrichteramt": {
-      "name": "Friedensrichteramt",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
     "fu.gericht": {
       "name": "Gericht für fürsorgerische Unterbringungen",
       "ABBREV": "FU-Gericht %s",
@@ -548,17 +504,6 @@
         },
         "it": {
           "abbrev": "XXX",
-          "name": "XXX"
-        }
-      }
-    },
-    "juge.de.commune": {
-      "name": "Juge de commune",
-      "variants": {
-        "de": {
-          "name": "Gemeinderichter"
-        },
-        "it": {
           "name": "XXX"
         }
       }
@@ -637,17 +582,6 @@
       "variants": {
         "fr": {
           "name": "Tribunal des mineurs"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "justice.de.paix": {
-      "name": "Justice de paix",
-      "variants": {
-        "de": {
-          "name": "Friedensgericht"
         },
         "it": {
           "name": "XXX"
@@ -993,226 +927,6 @@
         }
       }
     },
-    "schlichtungsbehorde": {
-      "name": "Schlichtungsbehörde",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsbehorde.arbeit": {
-      "name": "Schlichtungsbehörde Arbeit",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsbehorde.arbeitsrecht": {
-      "name": "Schlichtungsbehörde Arbeitsrecht",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsbehorde.gleichstellung": {
-      "name": "Schlichtungsbehörde Gleichstellung",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsbehorde.gleichstellungssachen": {
-      "name": "Schlichtungsbehörde für Gleichstellungssachen",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsbehorde.in.zivilsachen": {
-      "name": "Schlichtungsbehörde in Zivilsachen",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsbehorde.miete.und.pacht": {
-      "name": "Schlichtungsbehörde für Miete und Pacht",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsbehorde.mietsachen": {
-      "name": "Schlichtungsbehörde für Mietsachen",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsbehorde.miet.und.pachtrecht": {
-      "name": "Schlichtungsbehörde für Miet- und Pachtrecht",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.diskriminierung": {
-      "name": "Schlichtungsstelle bei Diskriminierung im Erwerbsleben",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.frau.und.mann": {
-      "name": "Schlichtungsstelle Gleichstellung von Frau und Mann",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.fur.arbeitsverhaltnisse": {
-      "name": "Schlichtungsstelle für Arbeitsverhältnisse",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.fur.klagen.nach.dem.gleichstellungsgesetz": {
-      "name": "Schlichtungsstelle für Klagen nach dem Gleichstellungsgesetz",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.gleichstellungsfragen": {
-      "name": "Schlichtungsstelle für Gleichstellungsfragen",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.gleichstellung.frau.und.mann": {
-      "name": "Schlichtungsstelle für Gleichstellung von Frau und Mann",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.fur.mietsachen": {
-      "name": "Schlichtungsstelle für Mietsachen",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.mietverhaltnisse": {
-      "name": "Schlichtungsstelle Mietverhältnisse",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.miet.und.pachtverhältnisse": {
-      "name": "Schlichtungsstelle für Miet- und Pachtverhältnisse",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.mietverhaltnisse.und.nichtlandwirtschftliche.pacht": {
-      "name": "Schlichtungsstelle für Miete und nichtlandwirtschaftliche Pacht",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "schlichtungsstelle.mietverhaltnisse.und.nichtlandwirtschftliche.pacht": {
-      "name": "Schlichtungsstelle für Miete und nichtlandwirtschaftliche Pacht",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
     "shav": {
       "name": "Schaffhauser Anwaltskammer",
       "variants": {
@@ -1276,28 +990,6 @@
       "variants": {
         "fr": {
           "name": "Cour pénale"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "tribunal.arbitral": {
-      "name": "Tribunal arbitral",
-      "variants": {
-        "de": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "tribunal.arbitral.assurance.maladie.et.accidents": {
-      "name": "Tribunal arbitral en matière d'assurance-maladie et accidents",
-      "variants": {
-        "de": {
-          "name": "Schiedsgericht in Sachen Kranken- und Unfallversicherung"
         },
         "it": {
           "name": "XXX"
@@ -1469,52 +1161,8 @@
         }
       }
     },
-    "ufficio.di.conciliazione": {
-      "name": "Ufficio di conciliazione",
-      "variants": {
-        "de": {
-          "name": "Vermittleramt"
-        },
-        "fr": {
-          "name": "XXX"
-        }
-      }
-    },
     "uwav": {
       "name": "Unterwaldner Anwaltsverband",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "vermittler": {
-      "name": "Vermittler",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "vermittleramt": {
-      "name": "Vermittleramt",
-      "variants": {
-        "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "vermittlungsamt": {
-      "name": "Vermittlungsamt",
       "variants": {
         "fr": {
           "name": "XXX"
@@ -1711,7 +1359,6 @@
         "anwaltskommission": {},
         "oger": {},
         "schkk": {},
-        "schlichtungsstelle.gleichstellungsfragen": {},
         "spezialverwaltungsgericht": {},
         "zwangsmassnahmengericht": {}
       }
@@ -1719,78 +1366,67 @@
     "ch:ag:aarau": {
       "name": "Aarau",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:baden": {
       "name": "Baden",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:bremgarten": {
       "name": "Bremgarten",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:brugg": {
       "name": "Brugg",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:kulm": {
       "name": "Kulm",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:laufenburg": {
       "name": "Laufenburg",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:lenzburg": {
       "name": "Lenzburg",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:muri": {
       "name": "Muri",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:rheinfelden": {
       "name": "Rheinfelden",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:zofingen": {
       "name": "Zofingen",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ag:zurzach": {
       "name": "Zurzach",
       "courts": {
-        "bezger": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
+        "bezger": {}
       }
     },
     "ch:ai": {
@@ -1801,9 +1437,6 @@
         "bezger": {},
         "jugendgericht": {},
         "kger": {},
-        "schlichtungsstelle.frau.und.mann": {},
-        "schlichtungsstelle.mietverhaltnisse": {},
-        "vermittler": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -1813,27 +1446,7 @@
       "courts": {
         "anwaltsaufsichtskommission": {},
         "kger": {},
-        "oger": {},
-        "schlichtungsstelle.diskriminierung": {},
-        "schlichtungsstelle.mietverhaltnisse.und.nichtlandwirtschftliche.pacht": {}
-      }
-    },
-    "ch:ar:appenzeller.hinterland": {
-      "name": "Appenzeller-Hinterland",
-      "courts": {
-        "vermittler": {}
-      }
-    },
-    "ch:ar:appenzeller.mittelland": {
-      "name": "Appenzeller-Mittelland",
-      "courts": {
-        "vermittler": {}
-      }
-    },
-    "ch:ar:appenzeller.vorderland": {
-      "name": "Appenzeller-Vorderland",
-      "courts": {
-        "vermittler": {}
+        "oger": {}
       }
     },
     "ch:be": {
@@ -1857,7 +1470,6 @@
       "name": "Berner Jura-Seeland",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehorde": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -1865,22 +1477,19 @@
       "name": "Emmental-Oberaargau",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehorde": {},
         "zwangsmassnahmengericht": {}
       }
     },
     "ch:be:bern.mittelland": {
       "name": "Bern-Mittelland",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde": {}
+        "regionalgericht": {}
       }
     },
     "ch:be:oberland": {
       "name": "Oberland",
       "courts": {
         "regionalgericht": {},
-        "schlichtungsbehorde": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -1889,7 +1498,6 @@
       "ABBREV": "BL",
       "courts": {
         "entger": {},
-        "friedensrichteramt": {},
         "kger": {},
         "jugendgericht": {},
         "stger": {},
@@ -1929,17 +1537,13 @@
       "name": "Fribourg",
       "ABBREV": "FR",
       "courts": {
-        "autorite.de.conciliation.bail.et.baux": {},
         "autorite.de.surveillance.du.registre.foncier": {},
         "cellule.judiciaire.itinerante": {},
-        "commission.de.conciliation.d.egalite.entre.les.sexes.dans.les.rapports.de.travail": {},
         "commission.de.recours.d.ameliorations.foncieres": {},
         "commission.de.recours.de.l.universite": {},
         "commission.de.recours.premier.releve": {},
         "commission.d.expropriation": {},
-        "justice.de.paix": {},
         "oaf": {},
-        "tribunal.arbitral.assurance.maladie.et.accidents": {},
         "tribunal.cantonal": {},
         "tribunal.des.mesures.de.contrainte": {},
         "tribunal.des.mineurs": {},
@@ -1964,7 +1568,6 @@
         "anwaltskommission": {},
         "kger": {},
         "oger": {},
-        "schlichtungsbehorde": {},
         "steuerrekurskommission": {},
         "vger": {}
       }
@@ -1976,7 +1579,6 @@
         "aufsichtskommission.rechtsanwalte": {},
         "kger": {},
         "notariatskommission": {},
-        "schlichtungsbehorde.gleichstellungssachen": {},
         "vger": {},
         "zwangsmassnahmengericht": {}
       }
@@ -1984,89 +1586,67 @@
     "ch:gr:albula": {
       "name": "Albula",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:bernina": {
       "name": "Bernina",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:engiadina.bassa.val.mustair": {
       "name": "Engiadina Bassa/Val Müstair",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:imboden": {
       "name": "Imboden",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:landquart": {
       "name": "Landquart",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:maloja": {
       "name": "Maloja",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:moesa": {
       "name": "Moesa",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:plessur": {
       "name": "Plessur",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:prattigau.davos": {
       "name": "Prättigau/Davos",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:surselva": {
       "name": "Surselva",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:gr:viamala": {
       "name": "Viamala",
       "courts": {
-        "regionalgericht": {},
-        "schlichtungsbehorde.mietsachen": {},
-        "vermittleramt": {}
+        "regionalgericht": {}
       }
     },
     "ch:ju": {
@@ -2089,9 +1669,6 @@
         "kriminalgericht": {},
         "lav": {},
         "schatzungskommission.nach.enteignungsgesetz": {},
-        "schlichtungsbehorde.arbeit": {},
-        "schlichtungsbehorde.gleichstellung": {},
-        "schlichtungsbehorde.miete.und.pacht": {},
         "wildschaden.schatzungskommission": {},
         "zwangsmassnahmengericht": {}
       }
@@ -2099,29 +1676,25 @@
     "ch:lu:hochdorf": {
       "name": "Hochdorf",
       "courts": {
-        "bezger": {},
-        "friedensrichter": {}
+        "bezger": {}
       }
     },
     "ch:lu:kriens": {
       "name": "Kriens",
       "courts": {
-        "bezger": {},
-        "friedensrichter": {}
+        "bezger": {}
       }
     },
     "ch:lu:luzern": {
       "name": "Luzern",
       "courts": {
-        "bezger": {},
-        "friedensrichter": {}
+        "bezger": {}
       }
     },
     "ch:lu:willisau": {
       "name": "Willisau",
       "courts": {
-        "bezger": {},
-        "friedensrichter": {}
+        "bezger": {}
       }
     },
     "ch:ne": {
@@ -2138,8 +1711,7 @@
         "cour.de.droit.public": {},
         "cour.des.mesures.de.protections.de.l.enfant.et.de.l.adulte": {},
         "cour.penale": {},
-        "oan": {},
-        "tribunal.arbitral": {}
+        "oan": {}
       }
     },
     "ch:ne:boudry": {
@@ -2168,7 +1740,6 @@
         "enteignungskommission": {},
         "kger": {},
         "oger": {},
-        "schlichtungsbehorde.in.zivilsachen": {},
         "uwav": {},
         "vger": {}
       }
@@ -2180,7 +1751,6 @@
         "anwaltskommission": {},
         "kger": {},
         "oger": {},
-        "schlichtungsbehorde": {},
         "steuerrekurskommission": {},
         "uwav": {},
         "vger": {}
@@ -2192,7 +1762,6 @@
       "courts": {
         "anwaltskammer": {},
         "kger": {},
-        "schlichtungsstelle.fur.klagen.nach.dem.gleichstellungsgesetz": {},
         "versicherungsgericht": {},
         "verwaltungsrekurskommission": {},
         "kger": {}
@@ -2201,64 +1770,43 @@
     "ch:sg:st.gallen": {
       "name": "St. Gallen",
       "courts": {
-        "kreisgericht": {},
-        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
-        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
-        "vermittlungsamt": {}
+        "kreisgericht": {}
       }
     },
     "ch:sg:rorschach": {
       "name": "Rorschach",
       "courts": {
-        "kreisgericht": {},
-        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
-        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
-        "vermittlungsamt": {}
+        "kreisgericht": {}
       }
     },
     "ch:sg:rheintal": {
       "name": "Rheintal",
       "courts": {
-        "kreisgericht": {},
-        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
-        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
-        "vermittlungsamt": {}
+        "kreisgericht": {}
       }
     },
     "ch:sg:werdenberg.sarganserland": {
       "name": "Werdenberg-Sarganserland",
       "courts": {
-        "kreisgericht": {},
-        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
-        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
-        "vermittlungsamt": {}
+        "kreisgericht": {}
       }
     },
     "ch:sg:see.gaster": {
       "name": "See-Gaster",
       "courts": {
-        "kreisgericht": {},
-        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
-        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
-        "vermittlungsamt": {}
+        "kreisgericht": {}
       }
     },
     "ch:sg:toggenburg": {
       "name": "Toggenburg",
       "courts": {
-        "kreisgericht": {},
-        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
-        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
-        "vermittlungsamt": {}
+        "kreisgericht": {}
       }
     },
     "ch:sg:wil": {
       "name": "Wil",
       "courts": {
-        "kreisgericht": {},
-        "schlichtungsstelle.fur.arbeitsverhaltnisse": {},
-        "schlichtungsstelle.miet.und.pachtverhältnisse": {},
-        "vermittlungsamt": {}
+        "kreisgericht": {}
       }
     },
     "ch:sh": {
@@ -2266,15 +1814,12 @@
       "ABBREV": "SH",
       "courts": {
         "aufsichtsbehorde.uber.das.anwaltswesen": {},
-        "friedensrichteramt": {},
         "kger": {},
         "kommission.fur.enteignungen.gebaudeversicherung.und.brandschutz": {},
         "oger": {},
         "rechtspflegekommission.fur.die.justizverwaltung": {},
         "schatzungskommission.fur.wildschaden": {},
         "schiedsgericht.in.sozialversicherungssachen": {},
-        "schlichtungsstelle.diskriminierung": {},
-        "schlichtungsstelle.fur.mietsachen": {},
         "shav": {}
       }
     },
@@ -2287,66 +1832,21 @@
         "jugendgericht": {},
         "oger": {},
         "schatzungskommission": {},
-        "schlichtungsstelle.gleichstellung.frau.und.mann": {},
         "stger": {},
         "versicherungsgericht": {},
         "vger": {}
       }
     },
-    "ch:so:solothurn": {
-      "name": "Solothurn",
-      "courts": {
-        "schlichtungsbehorde.miete.und.pacht": {}
-      }
-    },
-    "ch:so:niederamt": {
-      "name": "Niederamt",
-      "courts": {
-        "friedensrichter": {}
-      }
-    },
-    "ch:so:barschwil.erschwil.grindel": {
-      "name": "Bärschwil-Erschwil-Grindel",
-      "courts": {
-        "friedensrichter": {}
-      }
-    },
     "ch:so:dorneck.thierstein": {
       "name": "Dorneck-Thierstein",
       "courts": {
-        "richteramt": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
-      }
-    },
-    "ch:so:fehren.himmelried": {
-      "name": "Fehren-Himmelried",
-      "courts": {
-        "friedensrichter": {}
-      }
-    },
-    "ch:so:gau": {
-      "name": "Gäu",
-      "courts": {
-        "friedensrichter": {}
-      }
-    },
-    "ch:so:niederamt": {
-      "name": "Niederamt",
-      "courts": {
-        "friedensrichter": {}
+        "richteramt": {}
       }
     },
     "ch:so:olten.gosgen": {
       "name": "Olten-Gösgen",
       "courts": {
-        "richteramt": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
-      }
-    },
-    "ch:so:solothurn.bellach": {
-      "name": "Solothurn-Bellach",
-      "courts": {
-        "friedensrichter": {}
+        "richteramt": {}
       }
     },
     "ch:so:solothurn.lebern": {
@@ -2358,26 +1858,7 @@
     "ch:so:thal.gau": {
       "name": "Thal-Gäu",
       "courts": {
-        "richteramt": {},
-        "schlichtungsbehorde.miete.und.pacht": {}
-      }
-    },
-    "ch:so:unterer.hauenstein": {
-      "name": "Unterer Hauenstein",
-      "courts": {
-        "friedensrichter": {}
-      }
-    },
-    "ch:so:unterer.leberberg": {
-      "name": "Unterer Leberberg",
-      "courts": {
-        "friedensrichter": {}
-      }
-    },
-    "ch:so:wartenfels": {
-      "name": "Wartenfels",
-      "courts": {
-        "friedensrichter": {}
+        "richteramt": {}
       }
     },
     "ch:sz": {
@@ -2392,86 +1873,28 @@
         "zwangsmassnahmengericht": {}
       }
     },
-    "ch:sz:alpthal": {
-      "name": "Alpthal",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:altendorf": {
-      "name": "Altendorf",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:arth": {
-      "name": "Arth",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
     "ch:sz:einsiedeln": {
       "name": "Einsiedeln",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:galgenen": {
-      "name": "Galgenen",
-      "courts": {
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:sz:gersau": {
       "name": "Gersau",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:sz:hofe": {
       "name": "Höfe",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:illgau": {
-      "name": "Illgau",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:ingenbohl": {
-      "name": "Ingenbohl",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:innerthal": {
-      "name": "Innerthal",
-      "courts": {
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:sz:kussnacht": {
       "name": "Küssnacht",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:lachen": {
-      "name": "Lachen",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:lauerz": {
-      "name": "Lauerz",
-      "courts": {
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:sz:march": {
@@ -2483,65 +1906,25 @@
     "ch:sz:morschach": {
       "name": "Morschach",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:muotathal": {
-      "name": "Muotathal",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:oberiberg": {
-      "name": "Oberiberg",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:reichenburg": {
-      "name": "Reichenburg",
-      "courts": {
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:sz:riemenstalden": {
       "name": "Riemenstalden",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:sz:rothenthurm": {
       "name": "Rothenthurm",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:sattel": {
-      "name": "Sattel",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:schubelbach": {
-      "name": "Schübelbach",
-      "courts": {
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:sz:schwyz": {
       "name": "Schwyz",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:steinen": {
-      "name": "Steinen",
-      "courts": {
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:sz:steinerberg": {
@@ -2550,29 +1933,10 @@
         "bezger": {}
       }
     },
-    "ch:sz:tuggen": {
-      "name": "Tuggen",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
     "ch:sz:unteriberg": {
       "name": "Unteriberg",
       "courts": {
-        "bezger": {},
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:vorderthal": {
-      "name": "Vorderthal",
-      "courts": {
-        "vermittleramt": {}
-      }
-    },
-    "ch:sz:wangen": {
-      "name": "Wangen",
-      "courts": {
-        "vermittleramt": {}
+        "bezger": {}
       }
     },
     "ch:tg": {
@@ -2635,79 +1999,12 @@
         "tribunale.delle.espropriazioni": {}
       }
     },
-    "ch:ti:agno": {
-      "name": "Agno",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:bellinzona": {
-      "name": "Bellinzona",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:biasca": {
-      "name": "Biasca",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:chiasso": {
-      "name": "Chiasso",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:giubiasco": {
-      "name": "Giubiasco",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:locarno": {
-      "name": "Locarno",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:lugano.est": {
-      "name": "Lugano Est",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:lugano.ovest": {
-      "name": "Lugano Ovest",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:massagno": {
-      "name": "Massagno",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:mendrisio": {
-      "name": "Mendrisio",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
-    "ch:ti:minusio": {
-      "name": "Minusio",
-      "courts": {
-        "ufficio.di.conciliazione": {}
-      }
-    },
     "ch:ur": {
       "name": "Uri",
       "ABBREV": "UR",
       "courts": {
         "oger": {},
         "jugendgericht": {},
-        "schlichtungsbehorde": {},
         "zwangsmassnahmengericht": {}
       }
     },
@@ -2735,12 +2032,6 @@
         "tribunal.des.mineurs": {}
       }
     },
-    "ch:vd:aigle": {
-      "name": "Aigle",
-      "courts": {
-        "justice.de.paix": {}
-      }
-    },
     "ch:vd:broye.et.nord.vaudois": {
       "name": "Broye et Nord vaudois",
       "courts": {
@@ -2748,23 +2039,11 @@
         "tribunal.des.prud.hommes": {}
       }
     },
-    "ch:vd:broye.vully": {
-      "name": "Broye-Vully",
-      "courts": {
-        "justice.de.paix": {}
-      }
-    },
     "ch:vd:est.vaudois": {
       "name": "Est vaudois",
       "courts": {
         "tribunal.d.arrondissement": {},
         "tribunal.des.prud.hommes": {}
-      }
-    },
-    "ch:vd:jura.nord.vaudois.et.gros.de.vaud": {
-      "name": "Jura-Nord vaudois et Gros-de-Vaud",
-      "courts": {
-        "justice.de.paix": {}
       }
     },
     "ch:vd:la.cote": {
@@ -2777,39 +2056,8 @@
     "ch:vd:lausanne": {
       "name": "Lausanne",
       "courts": {
-        "justice.de.paix": {},
         "tribunal.d.arrondissement": {},
         "tribunal.des.prud.hommes": {}
-      }
-    },
-    "ch:vd:lavaux.oron": {
-      "name": "Lavaux-Oron",
-      "courts": {
-        "justice.de.paix": {}
-      }
-    },
-    "ch:vd:morges": {
-      "name": "Morges",
-      "courts": {
-        "justice.de.paix": {}
-      }
-    },
-    "ch:vd:nyon": {
-      "name": "Nyon",
-      "courts": {
-        "justice.de.paix": {}
-      }
-    },
-    "ch:vd:ouest.lausannois": {
-      "name": "Ouest lausannois",
-      "courts": {
-        "justice.de.paix": {}
-      }
-    },
-    "ch:vd:riviera.pays.d.enhaut": {
-      "name": "Riviera-Pays-d'Enhaut",
-      "courts": {
-        "justice.de.paix": {}
       }
     },
     "ch:vs": {
@@ -2828,35 +2076,10 @@
         "tribunal.de.district": {}
       }
     },
-    "ch:vs:brigue": {
-      "name": "Brigue",
-      "courts": {
-        "juge.de.commune": {}
-      }
-    },
-    "ch:vs:conches": {
-      "name": "Conches",
-      "courts": {
-        "juge.de.commune": {}
-      }
-    },
-    "ch:vs:conthey": {
-      "name": "Conthey",
-      "courts": {
-        "juge.de.commune": {}
-      }
-    },
     "ch:vs:entremont": {
       "name": "Entremont",
       "courts": {
-        "juge.de.commune": {},
         "tribunal.de.district": {}
-      }
-    },
-    "ch:vs:herens": {
-      "name": "Hérens",
-      "courts": {
-        "juge.de.commune": {}
       }
     },
     "ch:vs:herens.conthey": {
@@ -2871,18 +2094,6 @@
         "tribunal.de.district": {}
       }
     },
-    "ch:vs:loeche": {
-      "name": "Loèche",
-      "courts": {
-        "juge.de.commune": {}
-      }
-    },
-    "ch:vs:martigny": {
-      "name": "Martigny",
-      "courts": {
-        "juge.de.commune": {}
-      }
-    },
     "ch:vs:martigny.st.maurice": {
       "name": "Martigny - St-Maurice",
       "courts": {
@@ -2892,46 +2103,19 @@
     "ch:vs:monthey": {
       "name": "Monthey",
       "courts": {
-        "juge.de.commune": {},
         "tribunal.de.district": {}
-      }
-    },
-    "ch:vs:rarogne.occidental": {
-      "name": "Rarogne occidental",
-      "courts": {
-        "juge.de.commune": {}
-      }
-    },
-    "ch:vs:rarogne.oriental": {
-      "name": "Rarogne oriental",
-      "courts": {
-        "juge.de.commune": {}
       }
     },
     "ch:vs:sierre": {
       "name": "Sierre",
       "courts": {
-        "juge.de.commune": {},
         "tribunal.de.district": {}
       }
     },
     "ch:vs:sion": {
       "name": "Sion",
       "courts": {
-        "juge.de.commune": {},
         "tribunal.de.district": {}
-      }
-    },
-    "ch:vs:st.maurice": {
-      "name": "St-Maurice",
-      "courts": {
-        "juge.de.commune": {}
-      }
-    },
-    "ch:vs:viege": {
-      "name": "Viège",
-      "courts": {
-        "juge.de.commune": {}
       }
     },
     "ch:vs:visp": {
@@ -2947,76 +2131,8 @@
         "aufsichtskommission.uber.die.rechtsanwalte": {},
         "kger": {},
         "oger": {},
-        "schlichtungsbehorde.arbeitsrecht": {},
-        "schlichtungsbehorde.miet.und.pachtrecht": {},
         "strafgericht": {},
         "vger": {}
-      }
-    },
-    "ch:zg:baar": {
-      "name": "Baar",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:cham": {
-      "name": "Cham",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:hunenberg": {
-      "name": "Hünenberg",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:menzingen": {
-      "name": "Menzingen",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:neuheim": {
-      "name": "Neuheim",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:oberageri": {
-      "name": "Oberägeri",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:risch": {
-      "name": "Risch",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:steinhausen": {
-      "name": "Steinhausen",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:unterageri": {
-      "name": "Unterägeri",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:walchwil": {
-      "name": "Walchwil",
-      "courts": {
-        "friedensrichteramt": {}
-      }
-    },
-    "ch:zg:zug": {
-      "name": "Zug",
-      "courts": {
-        "friedensrichteramt": {}
       }
     },
     "ch:zh": {

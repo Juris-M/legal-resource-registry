@@ -19,12 +19,10 @@
       "ABBREV": "AGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
           "name": "Tribunal des prud'hommes"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunale del lavoro"
         }
       }
     },
@@ -32,10 +30,10 @@
       "name": "Anwaltsaufsichtsbehörde",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Autorité de surveillance des avocats"
         },
         "it": {
-          "name": "XXX"
+          "name": "Autorità di vigilanza sugli avvocati"
         }
       }
     },
@@ -43,10 +41,10 @@
       "name": "Anwaltsaufsichtskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission de surveillance des avocats"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di vigilanza sugli avvocati"
         }
       }
     },
@@ -54,10 +52,10 @@
       "name": "Anwaltskammer",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Chambre des avocats"
         },
         "it": {
-          "name": "XXX"
+          "name": "Camera per l'avvocatura"
         }
       }
     },
@@ -65,10 +63,10 @@
       "name": "Anwaltskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission des avocats"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione per l'avvocatura"
         }
       }
     },
@@ -76,10 +74,10 @@
       "name": "Anwalts- und Beurkundungskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission des avocats et des notaires"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione per l'avvocatura e il notariato"
         }
       }
     },
@@ -88,11 +86,9 @@
       "ABBREV": "AppGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
           "name": "Cour d'appel"
         },
         "it": {
-          "abbrev": "XXX",
           "name": "Tribunale d'appello"
         }
       }
@@ -101,10 +97,10 @@
       "name": "Aufsichtsbehörde über das Anwaltswesen",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Autorité de surveillance de la profession juridique"
         },
         "it": {
-          "name": "XXX"
+          "name": "Autorità di vigilanza sulla professione legale"
         }
       }
     },
@@ -112,10 +108,10 @@
       "name": "Aufsichtskommission Rechtsanwälte",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission de surveillance des avocats"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di vigilanza sugli avvocati"
         }
       }
     },
@@ -123,10 +119,10 @@
       "name": "Aufsichtskommission über die Rechtsanwälte",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission de surveillance des avocats"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di vigilanza sugli avvocati"
         }
       }
     },
@@ -134,10 +130,10 @@
       "name": "Aufsichtskommission über Rechtsanwälte",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission de surveillance des avocats"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di vigilanza sugli avvocati"
         }
       }
     },
@@ -145,10 +141,10 @@
       "name": "Autorité de recours en matière civile",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Berufungsinstanz in Zivilsachen"
         },
         "it": {
-          "name": "XXX"
+          "name": "Autorità di appello in materia civile"
         }
       }
     },
@@ -156,10 +152,10 @@
       "name": "Autorité de recours en matière pénale",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Berufungsinstanz in Strafsachen"
         },
         "it": {
-          "name": "XXX"
+          "name": "Autorità di appello in materia penale"
         }
       }
     },
@@ -170,18 +166,7 @@
           "name": "Aufsichtsbehörde über das Grundbuch"
         },
         "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "autorite.superieure.de.surveillance.en.matiere.de.poursuites.et,faillites": {
-      "name": "Autorité supérieure de surveillance en matière de poursuites et faillites",
-      "variants": {
-        "de": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
+          "name": "Ispettorato del registro fondiario"
         }
       }
     },
@@ -189,10 +174,10 @@
       "name": "Baurekurskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission de recours en matière de construction"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione d'appello per l'edilizia"
         }
       }
     },
@@ -201,12 +186,10 @@
       "ABBREV": "BezGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
           "name": "Tribunal d'arrondissement"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunale distrettuale"
         }
       }
     },
@@ -214,10 +197,10 @@
       "name": "Bodenverbesserungskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission d'améliorations foncières"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione per il miglioramento del suolo"
         }
       }
     },
@@ -228,10 +211,10 @@
       "name": "Chambre des affaires arbitrales",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Schiedsgerichtskammer"
         },
         "it": {
-          "name": "XXX"
+          "name": "Camera arbitrale"
         }
       }
     },
@@ -239,10 +222,10 @@
       "name": "Chambre des avocats",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Anwaltskammer"
         },
         "it": {
-          "name": "XXX"
+          "name": "Camera per l'avvocatura"
         }
       }
     },
@@ -250,10 +233,10 @@
       "name": "Chambre patrimoniale cantonale",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Kantonale Denkmalschutzkammer"
         },
         "it": {
-          "name": "XXX"
+          "name": "Camera del patrimonio cantonale"
         }
       }
     },
@@ -264,7 +247,7 @@
           "name": "Rekurskommission für Bodenverbesserungen"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione d'appello per il miglioramento del suolo"
         }
       }
     },
@@ -275,7 +258,7 @@
           "name": "Rekurskommission der Universität"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione d'appello dell'università"
         }
       }
     },
@@ -286,7 +269,7 @@
           "name": "Rekurskommission für die Ersterhebung"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di ricorso per il della prima dichiarazione"
         }
       }
     },
@@ -297,7 +280,7 @@
           "name": "Enteignungskommission"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione d'espropriazione"
         }
       }
     },
@@ -305,10 +288,10 @@
       "name": "Commissione di disciplina degli avvocati",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Anwaltsdisziplinarkommission"
         },
         "fr": {
-          "name": "XXX"
+          "name": "Commission de discipline des avocats"
         }
       }
     },
@@ -316,10 +299,10 @@
       "name": "Commissione di disciplina notarile",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Notariatsdisziplinarkommission"
         },
         "fr": {
-          "name": "XXX"
+          "name": "Commission de discipline des notaires"
         }
       }
     },
@@ -327,10 +310,10 @@
       "name": "Commissione per il notariato",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Notariatskommission"
         },
         "fr": {
-          "name": "XXX"
+          "name": "Commission notariale"
         }
       }
     },
@@ -691,10 +674,10 @@
       "name": "Notariatskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission notariale"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione per il notariato"
         }
       }
     },
@@ -1703,7 +1686,6 @@
       "courts": {
         "autorite.de.recours.en.matiere.civile": {},
         "autorite.de.recours.en.matiere.penale": {},
-        "autorite.superieure.de.surveillance.en.matiere.de.poursuites.et,faillites": {},
         "chambre.des.affaires.arbitrales": {},
         "cour.civile": {},
         "cour.d.appel": {},

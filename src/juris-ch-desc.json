@@ -186,7 +186,7 @@
       "ABBREV": "BezGer %s",
       "variants": {
         "fr": {
-          "name": "Tribunal d'arrondissement"
+          "name": "Tribunal de district"
         },
         "it": {
           "name": "Tribunale distrettuale"
@@ -321,10 +321,10 @@
       "name": "Commissione per l'avvocatura",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Anwaltskommission"
         },
         "fr": {
-          "name": "XXX"
+          "name": "Commission des avocats"
         }
       }
     },
@@ -335,7 +335,7 @@
           "name": "Zivilgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale civile"
         }
       }
     },
@@ -357,7 +357,7 @@
           "name": "Kassationsgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Corte di cassazione"
         }
       }
     },
@@ -365,10 +365,10 @@
       "name": "Cour de cassation civile",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Zivilkassationshof"
         },
         "it": {
-          "name": "XXX"
+          "name": "Corte di cassazione civile"
         }
       }
     },
@@ -376,10 +376,10 @@
       "name": "Cour de cassation pénale",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Strafkassationshof"
         },
         "it": {
-          "name": "XXX"
+          "name": "Corte di cassazione penale"
         }
       }
     },
@@ -387,10 +387,10 @@
       "name": "Cour de droit public",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Öffentlich-rechtliche Abteilung"
         },
         "it": {
-          "name": "XXX"
+          "name": "Sezione di diritto pubblico"
         }
       }
     },
@@ -398,10 +398,10 @@
       "name": "Cour des mesures de protections de l'enfant et de l'adulte",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Kindes- und Erwachsenenschutzgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale di protezione dei bambini e degli adulti"
         }
       }
     },
@@ -412,7 +412,7 @@
           "name": "Strafgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale penale"
         }
       }
     },
@@ -423,7 +423,7 @@
           "name": "Commission d'expropriation"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione d'espropriazione"
         }
       }
     },
@@ -431,10 +431,10 @@
       "name": "Enteignungsschätzungskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission d'estimation en matière d'expropriation"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione per la valutazione dell'espropriazione"
         }
       }
     },
@@ -443,12 +443,10 @@
       "ABBREV": "EntGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunal d'expropriation"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunale di espropriazione"
         }
       }
     },
@@ -457,12 +455,10 @@
       "ABBREV": "FU-Gericht %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Cour pour les placements préventifs"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunale per i collocamenti precauzionali"
         }
       }
     },
@@ -470,10 +466,10 @@
       "name": "Haftgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Juge de l'arrestation"
         },
         "it": {
-          "name": "XXX"
+          "name": "Giudice competente per la carcerazione"
         }
       }
     },
@@ -482,12 +478,10 @@
       "ABBREV": "HGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunal de commerce"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunale commerciale"
         }
       }
     },
@@ -498,7 +492,7 @@
           "name": "Cour de cassation"
         },
         "it": {
-          "name": "XXX"
+          "name": "Corte di cassazione"
         }
       }
     },
@@ -507,12 +501,10 @@
       "ABBREV": "KGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
           "name": "Tribunal cantonal"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunale cantonale"
         }
       }
     },
@@ -520,10 +512,10 @@
       "name": "Kindes- und Erwachsenenschutzgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Cour des mesures de protections de l'enfant et de l'adulte"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale di protezione dei bambini e degli adulti"
         }
       }
     },
@@ -531,10 +523,10 @@
       "name": "Kommission für Enteignungen, Gebäudeversicherung und Brandschutz",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission des expropriations, de l'assurance des bâtiments et de la protection contre l'incendie"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione per gli espropri, l'assicurazione degli edifici e la protezione antincendio"
         }
       }
     },
@@ -542,10 +534,10 @@
       "name": "Kreisgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal d'arrondissement"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale di circolo"
         }
       }
     },
@@ -553,10 +545,10 @@
       "name": "Kriminalgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal criminel"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale penale"
         }
       }
     },
@@ -567,7 +559,7 @@
           "name": "Tribunal des mineurs"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale dei minorenni"
         }
       }
     },
@@ -575,10 +567,10 @@
       "name": "Landgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal cantonal"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale cantonale"
         }
       }
     },
@@ -586,10 +578,10 @@
       "name": "Luzerner Anwaltsverband",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Ordre des avocats de Lucerne"
         },
         "it": {
-          "name": "XXX"
+          "name": "Ordine degli avvocati di Lucerna"
         }
       }
     },
@@ -688,7 +680,7 @@
           "name": "Freiburger Anwaltsverband"
         },
         "it": {
-          "name": "XXX"
+          "name": "Ordine degli avvocati di Friburgo"
         }
       }
     },
@@ -696,10 +688,10 @@
       "name": "Ordre des Avocats Jurassiens",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Jurassischer Anwaltsverband"
         },
         "it": {
-          "name": "XXX"
+          "name": "Ordine degli avvocati di Jura"
         }
       }
     },
@@ -707,10 +699,10 @@
       "name": "Ordre des avocats neuchâtelois",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Neuenburger Anwaltsverband"
         },
         "it": {
-          "name": "XXX"
+          "name": "Ordine degli avvocati di Neuchâtel"
         }
       }
     },
@@ -718,10 +710,10 @@
       "name": "Ordre des Avocats de Genève",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Genfer Anwaltsverband"
         },
         "it": {
-          "name": "XXX"
+          "name": "Ordine degli avvocati di Ginevra"
         }
       }
     },
@@ -730,11 +722,9 @@
       "ABBREV": "OGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
           "name": "XXX"
         },
         "it": {
-          "abbrev": "XXX",
           "name": "XXX"
         }
       }
@@ -743,10 +733,10 @@
       "name": "Personalrekurskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal cantonal"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale cantonale"
         }
       }
     },
@@ -1005,10 +995,10 @@
       "name": "Tribunal d'arrondissement",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Kreisgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale di circolo"
         }
       }
     },
@@ -1107,7 +1097,7 @@
           "name": "Jugendgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale dei minorenni"
         }
       }
     },

@@ -28,7 +28,7 @@
   },
   "jurisdictions": {
     "br": {
-      "name": "Brazil"
+      "name": "Brazil",
       "courts": {
           "stf": {},
           "stj": {},

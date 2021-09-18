@@ -5,6 +5,9 @@
     ]
   },
   "courts": {
+    "scsprar": {
+      "name": "Protection System for Refugees and Asylum Seekers Central Services"
+    },
     "csdc": {
       "name": "Corte Suprema di Cassazione",
       "variants": {
@@ -83,7 +86,8 @@
         "csdc": {},
         "cs": {},
         "cc": {},
-        "ctc": {}
+        "ctc": {},
+		"scsprar": {}
       }
     },
     "it:abruzzo": {
@@ -965,7 +969,8 @@
         "tpm": {},
         "tds": {},
         "cdass": {},
-        "cdadapp": {}
+        "cdadapp": {},
+        "ct": {}
       }
     },
     "it:perugia:perugia": {

@@ -1,5 +1,10 @@
 {
-	"langs": {},
+	"langs": {
+		"fr": [
+			"ui",
+			"abbrevs"
+		]
+	},
 	"courts": {
 		"uksiac": {
 			"name": "Special Immigration Appeals Commission",
@@ -93,14 +98,25 @@
 			"name": "United Kingdom",
 			"abbrev": "UK",
 			"courts": {
-				"house.of.lords": {},
-				"privy.council": {},
+				"house.of.lords": {
+					"ABBREV": "UKHL"
+				},
+				"privy.council": {
+					"ABBREV": "UKPC",
+					"abbrev": "PC"
+				},
 				"supreme.court": {
 					"name": "UK Supreme Court",
 					"abbrev": "UKSC"
 				},
 				"uksiac": {},
 				"ukut.iac": {}
+			},
+			"variants": {
+				"fr" : {
+					"name": "Royaumes-Unis",
+					"abbrev": "R-U"
+				}
 			}
 		},
 		"gb:bermuda": {

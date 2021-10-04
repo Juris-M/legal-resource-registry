@@ -722,17 +722,6 @@
       "ABBREV": "OGer %s",
       "variants": {
         "fr": {
-          "name": "XXX"
-        },
-        "it": {
-          "name": "XXX"
-        }
-      }
-    },
-    "personalrekurskommission": {
-      "name": "Personalrekurskommission",
-      "variants": {
-        "fr": {
           "name": "Tribunal cantonal"
         },
         "it": {
@@ -740,14 +729,25 @@
         }
       }
     },
+    "personalrekurskommission": {
+      "name": "Personalrekurskommission",
+      "variants": {
+        "fr": {
+          "name": "Commission de recours en matière de personnel"
+        },
+        "it": {
+          "name": "Commissione di ricorso in materia di personale"
+        }
+      }
+    },
     "rechtspflegekommission.fur.die.justizverwaltung": {
       "name": "Rechtspflegekommission für die Justizverwaltung",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission pour l'administration de la justice"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione per l'amministrazione della giustizia"
         }
       }
     },
@@ -758,7 +758,7 @@
           "name": "Tribunal régional"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale distrettuale"
         }
       }
     },
@@ -766,10 +766,10 @@
       "name": "Rekurskommission Bostadel",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission de recours Bostadel"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di ricorso Bostadel"
         }
       }
     },
@@ -777,10 +777,10 @@
       "name": "Rekurskommission für die Gebäudeversicherung",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission des recours de l'assurance immobilière"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di ricorso in materia di assicurazione degli edifici"
         }
       }
     },
@@ -788,10 +788,10 @@
       "name": "Rekurskommission für Landwirtschaftssachen",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission de recours en matière de bail à ferme agricole"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di ricorso per l'agricoltura"
         }
       }
     },
@@ -799,10 +799,10 @@
       "name": "Rekurskommission für Strassenverkehrssachen",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission des recours en matière de mesures à l'égard des conducteurs de véhicules"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di ricorso in materia di misure nei confronti di conducenti di veicoli"
         }
       }
     },
@@ -810,10 +810,10 @@
       "name": "Rekurskommission in Anwaltssachen",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission d'appel en matière de barreau"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione d'appello in materia di avvocati"
         }
       }
     },
@@ -821,10 +821,10 @@
       "name": "Richteramt",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal de district"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale distrettuale"
         }
       }
     },
@@ -833,12 +833,11 @@
       "ABBREV": "RKMF %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "abbrev": "CRMLCR",
+          "name": "Commission de recours contre les mesures administratives prononcées en vertu de la loi sur la circulation routière"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Commissione d'appello per le misure contro i conducenti di veicoli"
         }
       }
     },
@@ -846,10 +845,10 @@
       "name": "Schätzungskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission d'estimation"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di stima"
         }
       }
     },
@@ -857,10 +856,10 @@
       "name": "Schätzungskommission für Wildschäden",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission d'estimation des dommages causés par le gibier"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di stima dei danni alla cacciagione"
         }
       }
     },
@@ -868,10 +867,10 @@
       "name": "Schätzungskommission nach Enteignungsgesetz",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal d'expropriation"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale di espropriazione"
         }
       }
     },
@@ -879,10 +878,10 @@
       "name": "Schiedsgericht in Sozialversicherungssachen",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal arbitral en matière de sécurité sociale"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale arbitrale in materia di sicurezza sociale"
         }
       }
     },
@@ -891,12 +890,10 @@
       "ABBREV": "SchKK %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Chambre des poursuites et faillites"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Camera di esecuzione e fallimenti"
         }
       }
     },
@@ -904,10 +901,10 @@
       "name": "Schaffhauser Anwaltskammer",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Chambre des avocats de Schaffhouse"
         },
         "it": {
-          "name": "XXX"
+          "name": "Camera per l'avvocatura di Schaffhausen"
         }
       }
     },
@@ -915,10 +912,10 @@
       "name": "Sozialversicherungsgericht",
       "variants": {
          "fr": {
-           "name": "XXX"
+           "name": "Tribunal des assurances"
          },
          "it": {
-           "name": "XXX"
+           "name": "Tribunale delle assicurazioni"
          }
        }
      },
@@ -926,10 +923,10 @@
       "name": "Spezialverwaltungsgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal administratif spécial"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale amministrativo speciale"
         }
       }
     },
@@ -937,10 +934,10 @@
       "name": "Steuerrekurskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission des recours en matière d'impôts"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di ricorso in materia fiscale"
         }
       }
     },
@@ -949,12 +946,10 @@
       "ABBREV": "StGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Cour fiscale"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "name": "Tribunale fiscale"
         }
       }
     },
@@ -965,7 +960,7 @@
           "name": "Cour pénale"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale penale"
         }
       }
     },
@@ -976,7 +971,7 @@
           "name": "Kantonsgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale cantonale"
         }
       }
     },
@@ -984,10 +979,10 @@
       "name": "Tribunale d'appello",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Appellationsgericht"
         },
         "fr": {
-          "name": "XXX"
+          "name": "Cour d'appel"
         }
       }
     },
@@ -1006,10 +1001,10 @@
       "name": "Tribunale dei minorenni",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Jugendgericht"
         },
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal des mineurs"
         }
       }
     },

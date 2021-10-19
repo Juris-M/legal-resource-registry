@@ -14,7 +14,7 @@ Notes:
 * In general, Neuchâtel has a very unique way of classifying the decisions of its courts, which is very difficult to track in JSON. This might need to be adjusted with local experts at a later stage.
 * The various arbitration boards in public law employment cases of the Canton of St. Gallen have been omitted for the time being, as they are presumably fairly unimportant for legal writing.
 * In the case of Ticino, it is not entirely clear to me what is a court of its own and what is only a division/chamber of a court.
-* For translations, where one is not provided by the court itself already, [TERMDAT](https://www.termdat.bk.admin.ch/Search/Search), the official government translation database, is used
+* For translations, where one is not provided by the court itself already, [TERMDAT](https://www.termdat.bk.admin.ch/Search/Search), the official government translation database, is used. Where TERMDAT does not have an entry and no precedent is found, a direct translation is used.
 
 Todo:
 * At the moment, it is unclear to me to what extent jurisdictions are appended to the courts. Would the court "Ordre des Avocats Jurassiens" of the jurisdiction "Jura" be rendered as "Ordre des Avocats Jurassiens Jura"? Or would a "%s" also need to be added to "name" for this to happen?

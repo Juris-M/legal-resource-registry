@@ -446,7 +446,7 @@
           "name": "Tribunal d'expropriation"
         },
         "it": {
-          "name": "Tribunale di espropriazione"
+          "name": "Tribunale delle espropriazioni"
         }
       }
     },
@@ -1012,10 +1012,10 @@
       "name": "Tribunale delle espropriazioni",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Enteignungsgericht"
         },
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal d'expropriation"
         }
       }
     },
@@ -1023,10 +1023,10 @@
       "name": "Tribunal de district",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Bezirksgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale distrettuale"
         }
       }
     },
@@ -1034,10 +1034,10 @@
       "name": "Tribunal de première instance",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Kantonsgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale di prima istanza"
         }
       }
     },
@@ -1045,10 +1045,10 @@
       "name": "Tribunal des baux",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Mietgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale competente in materia di locazione"
         }
       }
     },
@@ -1056,10 +1056,10 @@
       "name": "Tribunal des prud'hommes",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Arbeitsgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale del lavoro"
         }
       }
     },
@@ -1070,7 +1070,7 @@
           "name": "Zwangsmassnahmengericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Giudice dei provvedimenti coercitivi"
         }
       }
     },
@@ -1078,10 +1078,10 @@
       "name": "Tribunal des mesures de contrainte et d'application des peines",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Zwangsmassnahmen- und Strafvollzugsgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale delle misure coercitive e dell'esecuzione delle sentenze "
         }
       }
     },
@@ -1103,7 +1103,7 @@
           "name": "Straf- und Massnahmenvollzugsgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale di esecuzione delle pene e delle misure"
         }
       }
     },
@@ -1114,7 +1114,7 @@
           "name": "Wirtschaftsstrafgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale penale economico"
         }
       }
     },
@@ -1122,10 +1122,10 @@
       "name": "Tribunal régional",
       "variants": {
         "de": {
-          "name": "XXX"
+          "name": "Regionalgericht"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale distrettuale"
         }
       }
     },
@@ -1133,10 +1133,10 @@
       "name": "Unterwaldner Anwaltsverband",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Association du barreau d'Unterwalden"
         },
         "it": {
-          "name": "XXX"
+          "name": "Ordine degli avvocati di Unterwalden"
         }
       }
     },
@@ -1144,10 +1144,10 @@
       "name": "Versicherungsgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Tribunal des assurances"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale delle assicurazioni"
         }
       }
     },
@@ -1156,12 +1156,12 @@
       "ABBREV": "VGer %s",
       "variants": {
         "fr": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "abbrev": "TA %s",
+          "name": "Tribunal administratif"
         },
         "it": {
-          "abbrev": "XXX",
-          "name": "XXX"
+          "abbrev": "TRAM %s",
+          "name": "Tribunale amministrativo"
         }
       }
     },
@@ -1169,10 +1169,10 @@
       "name": "Verwaltungsrekurskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission des recours administratifs"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione di ricorso in materia amministrativa"
         }
       }
     },
@@ -1180,10 +1180,10 @@
       "name": "Wildschaden-Schätzungskommission",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Commission d'évaluation des dommages causés par le gibier"
         },
         "it": {
-          "name": "XXX"
+          "name": "Commissione per la valutazione dei danni alla selvaggina"
         }
       }
     },
@@ -1194,7 +1194,7 @@
           "name": "Tribunal pénal économique"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale penale economico"
         }
       }
     },
@@ -1202,10 +1202,10 @@
       "name": "Zivilgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Cour civile"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale civile"
         }
       }
     },
@@ -1213,10 +1213,10 @@
       "name": "Zivilkreisgericht",
       "variants": {
         "fr": {
-          "name": "XXX"
+          "name": "Cour civile de district"
         },
         "it": {
-          "name": "XXX"
+          "name": "Tribunale distrettuale civile"
         }
       }
     },
@@ -1227,7 +1227,7 @@
           "name": "Tribunal des mesures de contrainte"
         },
         "it": {
-          "name": "XXX"
+          "name": "Giudice dei provvedimenti coercitivi"
         }
       }
     },
@@ -1237,53 +1237,53 @@
       "variants": {
         "fr": {
           "abbrev": "TF",
-          "name": "XXX"
+          "name": "Tribunal fédéral"
         },
         "it": {
           "abbrev": "TF",
-          "name": "XXX"
+          "name": "Tribunale federale"
         }
       }
     },
     "bpatger": {
-      "name": "Schweizerisches Bundespatentgericht",
+      "name": "Bundespatentgericht",
       "ABBREV": "BPatGer",
       "variants": {
         "fr": {
           "abbrev": "TFB",
-          "name": "XXX"
+          "name": "Tribunal fédéral des brevets"
         },
         "it": {
           "abbrev": "TFB",
-          "name": "XXX"
+          "name": "Tribunale federale dei brevetti"
         }
       }
     },
     "bstger": {
-      "name": "Schweizerisches Bundesstrafgericht",
+      "name": "Bundesstrafgericht",
       "ABBREV": "BStGer",
       "variants": {
         "fr": {
           "abbrev": "TPF",
-          "name": "XXX"
+          "name": "Tribunal pénal fédéral"
         },
         "it": {
           "abbrev": "TPF",
-          "name": "XXX"
+          "name": "Tribunale penale federale"
         }
       }
     },
     "bvger": {
-      "name": "Schweizerisches Bundesverwaltungsgericht",
+      "name": "Bundesverwaltungsgericht",
       "ABBREV": "BVGer",
       "variants": {
         "fr": {
           "abbrev": "TAF",
-          "name": "XXX"
+          "name": "Tribunal administratif fédéral"
         },
         "it": {
           "abbrev": "TAF",
-          "name": "XXX"
+          "name": "Tribunale amministrativo federale"
         }
       }
     },
@@ -1293,11 +1293,11 @@
       "variants": {
         "fr": {
           "abbrev": "TFA",
-          "name": "XXX"
+          "name": "Tribunal fédéral des assurances"
         },
         "it": {
           "abbrev": "TFA",
-          "name": "XXX"
+          "name": "Tribunale federale delle assicurazioni"
         }
       }
     }

@@ -653,11 +653,14 @@
     },
     "militarkassationsgericht": {
       "name": "Militärkassationsgericht",
+      "ABBREV": "MKG",
       "variants": {
         "fr": {
+          "abbrev": "TMC",
           "name": "Tribunal militaire de cassation"
         },
         "it": {
+          "abbrev": "TMC",
           "name": "Tribunale militare di cassazione"
         }
       }
@@ -696,7 +699,7 @@
       }
     },
     "oan": {
-      "name": "Ordre des avocats neuchâtelois",
+      "name": "Ordre des Avocats neuchâtelois",
       "variants": {
         "de": {
           "name": "Neuenburger Anwaltsverband"
@@ -714,6 +717,17 @@
         },
         "it": {
           "name": "Ordine degli avvocati di Ginevra"
+        }
+      }
+    },
+    "oavs": {
+      "name": "Ordre des Avocats Valaisans",
+      "variants": {
+        "de": {
+          "name": "Wallisser Anwaltsverband"
+        },
+        "it": {
+          "name": "Ordine degli avvocati del Vallese"
         }
       }
     },
@@ -1465,6 +1479,7 @@
       "name": "Basel-Landschaft",
       "ABBREV": "BL",
       "courts": {
+        "anwaltsaufsichtskommission": {},
         "entger": {},
         "kger": {},
         "jugendgericht": {},
@@ -2031,6 +2046,7 @@
       "name": "Valais",
       "ABBREV": "VS",
       "courts": {
+        "oavs": {},
         "tribunal.cantonal": {},
         "tribunal.des.mesures.de.contrainte": {},
         "tribunal.de.l.application.des.peines.et.mesures": {},

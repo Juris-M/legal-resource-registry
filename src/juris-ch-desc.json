@@ -104,6 +104,17 @@
         }
       }
     },
+    "aufsichtsbehorde.uber.die.anwaltinnen.und.anwalte": {
+      "name": "Aufsichtsbehörde über die Anwältinnen und Anwälte",
+      "variants": {
+        "fr": {
+          "name": "Autorité de surveillance des avocats"
+        },
+        "it": {
+          "name": "Autorità di vigilanza sugli avvocati"
+        }
+      }
+    },
     "aufsichtskommission.rechtsanwalte": {
       "name": "Aufsichtskommission Rechtsanwälte",
       "variants": {
@@ -1647,6 +1658,7 @@
       "ABBREV": "LU",
       "courts": {
         "ager": {},
+        "aufsichtsbehorde.uber.die.anwaltinnen.und.anwalte": {},
         "jugendgericht": {},
         "kger": {},
         "kriminalgericht": {},

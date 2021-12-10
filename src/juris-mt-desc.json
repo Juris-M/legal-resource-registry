@@ -92,6 +92,12 @@
 				"tgii": {},
 				"qk": {}
 			}
+		},
+		"mt:gozo": {
+			"name": "Gozo",
+			"courts": {
+				"qc": {}
+			}
 		}
 	}
 }

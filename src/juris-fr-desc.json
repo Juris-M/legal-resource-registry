@@ -1,6 +1,6 @@
 {
   "langs": {
-    "enIBFD": [
+      "enIBFD": [
       "abbrevs"
     ]
   },
@@ -90,7 +90,24 @@
           "abbrev": "TA %s [Administrative Tribunal]"
         }
       }
-    }
+    },
+	  "ofpra": {
+          "name": "Office Français de Protection des Réfugiés et Apatrides",
+		  "abbrev": "Office Français de Protection des Réfugiés et Apatrides"
+	  },
+	  "tgi": {
+		  "name": "Tribunal de Grande Instance",
+		  "abbrev": "T.G.I. de %s"
+	  },
+	  "te": {
+		  "name": "Tribunal pour Enfants",
+		  "abbrev": "Tribunal pour Enfants"
+	  },
+	  "cassises": {
+		  "name": "Cour d'Assises",
+		  "abbrev": "Cour d'Assises de %s"
+	  }
+
   },
   "jurisdictions": {
     "fr": {
@@ -110,7 +127,8 @@
         "cnda": {},
         "ca": {},
         "tsa": {},
-        "caa": {}
+          "caa": {},
+		  "ofpra": {}
       }
     },
     "fr:agen": {
@@ -184,7 +202,8 @@
       "name": "Cayenne",
       "courts": {
         "ca": {},
-        "ta": {}
+          "ta": {},
+		  "tgi": {}
       }
     },
     "fr:cergy.pontoise": {
@@ -364,7 +383,9 @@
       "courts": {
         "ca": {},
         "caa": {},
-        "ta": {}
+          "ta": {},
+		  "tgi": {},
+		  "cassises": {}
       }
     },
     "fr:pau": {

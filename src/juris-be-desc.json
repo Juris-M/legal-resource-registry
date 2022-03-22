@@ -7,6 +7,7 @@
   "courts": {
     "dc": {
       "name": "Vredegerecht",
+	  "abbrev": "Vred. %s",
       "variants": {
         "francais": {
           "abbrev": "J.P. %s"
@@ -15,6 +16,7 @@
     },
     "br": {
       "name": "Beslagrechter",
+	  "abbrev": "Beslagr. %s",
       "variants": {
         "francais": {
           "abbrev": "%s"
@@ -23,6 +25,7 @@
     },
     "cc": {
       "name": "Rechtbank van Koophandel",
+	  "abbrev": "Kh. %s",
       "variants": {
         "francais": {
           "abbrev": "Comm. %s"
@@ -31,14 +34,34 @@
     },
     "cfi": {
       "name": "Rechtbank van eerste aanleg",
+	  "abbrev": "Rb. %s",
       "variants": {
         "francais": {
           "abbrev": "Trib. arr. %s"
         }
       }
     },
+	"cfi.fr": {
+      "name": "Rechtbank van eerste aanleg",
+	  "abbrev": "Rb. Brussel (Fr.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Trib. arr. Brussel (Fr.)"
+        }
+      }
+    },
+	"cfi.nl": {
+      "name": "Rechtbank van eerste aanleg",
+	  "abbrev": "Rb. Brussel (Nl.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Trib. arr. Brussel (Nl.)"
+        }
+      }
+    },
     "corrc": {
       "name": "Correctionele rechtbank",
+	  "abbrev": "Corr. %s",
       "variants": {
         "francais": {
           "abbrev": "Corr. %s"
@@ -47,6 +70,7 @@
     },
     "famc": {
       "name": "Familierechtbank",
+	  "abbrev": "Famrb. %s",
       "variants": {
         "francais": {
           "abbrev": "Trib. fam. %s"
@@ -55,6 +79,7 @@
     },
     "juvc": {
       "name": "Jeugdrechtbank",
+	  "abbrev": "Jeugdrb. %s",
       "variants": {
         "francais": {
           "abbrev": "Trib. jeun. %s"
@@ -63,14 +88,34 @@
     },
     "lc": {
       "name": "Arbeidsrechtbank",
+	  "abbrev": "Arbrb %s",
       "variants": {
         "francais": {
           "abbrev": "Trib. trav. %s"
         }
       }
     },
+	"lc.nl": {
+      "name": "Arbeidsrechtbank",
+	  "abbrev": "Arbrb Brussel (Nl.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Trib. trav. Brussel (Nl.)"
+        }
+      }
+    },
+	"lc": {
+      "name": "Arbeidsrechtbank",
+	  "abbrev": "Arbrb Brussel (Fr.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Trib. trav. Brussel (Fr.)"
+        }
+      }
+    },
     "pc": {
       "name": "Politierechtbank",
+	  "abbrev": "Pol. %s",
       "variants": {
         "francais": {
           "abbrev": "Pol. %s"
@@ -79,6 +124,7 @@
     },
     "pres": {
       "name": "Voorzitter",
+	  "abbrev": "KG %s",
       "variants": {
         "francais": {
           "abbrev": "Président %s"
@@ -87,6 +133,7 @@
     },
     "sentc": {
       "name": "Strafuitvoeringsrechtbank",
+	  "abbrev": "Surb. %s",
       "variants": {
         "francais": {
           "abbrev": "T.A.P. %s"
@@ -95,6 +142,7 @@
     },
     "coass": {
       "name": "Hof van assisen",
+	  "abbrev": "Assisen %s",
       "variants": {
         "francais": {
           "abbrev": "Cour ass. %s"
@@ -103,6 +151,7 @@
     },
     "lca": {
       "name": "Arbeidshof",
+	  "abbrev": "Arbh. %s",
       "variants": {
         "francais": {
           "abbrev": "C. trav. %s"
@@ -111,6 +160,7 @@
     },
     "cc.fr": {
       "name": "Franstalige rechtbank van koophandel",
+	  "abbrev": "Kh. Brussel (Fr.)",
       "variants": {
         "francais": {
           "abbrev": "Comm. Brussel (Fr.) Bruxelles"
@@ -119,6 +169,7 @@
     },
     "cc.nl": {
       "name": "Nederlandstalige rechtbank van koophandel",
+	  "abbrev": "Kh. Brussel (Nl.)",
       "variants": {
         "francais": {
           "abbrev": "Kh. Brussel (Nl.) Bruxelles"
@@ -127,6 +178,7 @@
     },
     "lc.fr": {
       "name": "Franstalige arbeidsrechtbank Brussel",
+	  "abbrev": "Arbrb. Brussel (Fr.)",
       "variants": {
         "francais": {
           "abbrev": "Arbrb. Brussel (Fr.) Bruxelles"
@@ -135,6 +187,7 @@
     },
     "lc.nl": {
       "name": "Nederlandstalige arbeidsrechtbank Brussel",
+	  "abbrev": "Arbrb. Brussel (Nl.)",
       "variants": {
         "francais": {
           "abbrev": "Arbrb. Brussel (Nl.) Bruxelles"
@@ -143,6 +196,7 @@
     },
     "pc.fr": {
       "name": "Franstalige politierechtbank",
+	  "abbrev": "Pol. Brussel (Fr.)",
       "variants": {
         "francais": {
           "abbrev": "Pol. Brussel (Fr.) Bruxelles"
@@ -151,6 +205,7 @@
     },
     "pc.nl": {
       "name": "Nederlandstalige politierechtbank Brussel",
+	  "abbrev": "Pol. Brussel (Nl.)",
       "variants": {
         "francais": {
           "abbrev": "Pol. Brussel (Nl.) Bruxelles"
@@ -159,14 +214,34 @@
     },
     "ca": {
       "name": "Hof van Beroep",
+	  "abbrev": "%s",
       "variants": {
         "francais": {
           "abbrev": "%s"
         }
       }
     },
+	"ca.nl": {
+      "name": "Hof van Beroep",
+	  "abbrev": "Brussel (Nl.)",
+      "variants": {
+        "francais": {
+          "abbrev": "Brussel (Nl.)"
+        }
+      }
+    },
+	"ca.fr": {
+      "name": "Hof van Beroep",
+	  "abbrev": "Brussel (Fr.)"
+      "variants": {
+        "francais": {
+          "abbrev": "Brussel (Fr.)"
+        }
+      }
+    },
     "bma": {
       "name": "Belgische Mededingingsautoriteit",
+	  "abbrev": "BMA",
       "variants": {
         "francais": {
           "abbrev": "BMA"
@@ -175,6 +250,7 @@
     },
     "const": {
       "name": "Grondwettelijk Hof",
+	  "abbrev": "GwH",
       "variants": {
         "francais": {
           "abbrev": "C.C."
@@ -183,6 +259,7 @@
     },
     "cs": {
       "name": "Raad van State",
+	  "abbrev": "RvS",
       "variants": {
         "francais": {
           "abbrev": "RvS"
@@ -191,14 +268,16 @@
     },
     "educ": {
       "name": "Raad voor betwistingen inzake studievoortgangsbeslissingen",
+	  "abbrev": "R.Stvb.",
       "variants": {
         "francais": {
-          "abbrev": "R.Stvb"
+          "abbrev": "R.Stvb."
         }
       }
     },
     "electionc": {
       "name": "Raad voor Verkiezingsbetwistingen",
+	  "abbrev": "R. Verkb.",
       "variants": {
         "francais": {
           "abbrev": "R.Verkb."
@@ -207,6 +286,7 @@
     },
     "envc": {
       "name": "Milieuhandhavingscollege",
+	  "abbrev": "MHHC",
       "variants": {
         "francais": {
           "abbrev": "MHHC"
@@ -215,6 +295,7 @@
     },
     "mc": {
       "name": "Krijgsraad",
+	  "abbrev": "Kr.",
       "variants": {
         "francais": {
           "abbrev": "Kr."
@@ -223,6 +304,7 @@
     },
     "migc": {
       "name": "Raad voor Vreemdelingenbetwistingen",
+	  "abbrev": "RvV",
       "variants": {
         "francais": {
           "abbrev": "RvV"
@@ -231,6 +313,7 @@
     },
     "milc": {
       "name": "Militair Gerechtshof",
+	  "abbrev": "Mil. Ger.",
       "variants": {
         "francais": {
           "abbrev": "Mil.Ger."
@@ -239,6 +322,7 @@
     },
     "permitc": {
       "name": "Raad voor Vergunningsbetwistingen",
+	  "abbrev": "RvVb",
       "variants": {
         "francais": {
           "abbrev": "RvVb"
@@ -247,13 +331,42 @@
     },
     "sc": {
       "name": "Hof van Cassatie",
+	  "abbrev": "Cass.",
       "variants": {
         "francais": {
           "abbrev": "Cass."
         }
       }
-    }
-  },
+    },
+	"or": {
+		"name": "Ondernemingsrechtbank"
+		"abbrev": "Or. %s",
+		"variants": {
+			"francais": {
+				"abbrev": "Or. %s"
+			}
+		}
+	},
+	"or.fr": {
+		"name": "Franstalige ondernemingsrechtbank van Brussel"
+		"abbrev": "Or. Brussel (Fr.)",
+		"variants": {
+			"francais": {
+				"abbrev": "Or. Brussel (Fr.)"
+			}
+		}
+	}
+	"or.nl": {
+		"name": "Nederlandstalige ondernemingsrechtbank van Brussel"
+		"abbrev": "Or. Brussel (Nl.)",
+		"variants": {
+			"francais": {
+				"abbrev": "Or. Brussel (Nl.)"
+			}
+		}
+	}
+},
+
   "jurisdictions": {
     "be": {
       "name": "België",
@@ -328,11 +441,21 @@
             "francais": {}
           }
         },
+		"ca": {
+		  "variants": {
+			 "francais": {}
+			}
+		},
         "cc": {
           "variants": {
             "francais": {}
           }
         },
+		"or": {
+			"variants": {
+				"francais": {}
+			}
+		},
         "cfi": {
           "variants": {
             "francais": {}
@@ -386,7 +509,7 @@
       },
       "variants": {
         "francais": {
-          "abbrev": "Antwerp"
+          "abbrev": "Anvers"
         }
       }
     },
@@ -578,6 +701,11 @@
             "francais": {}
           }
         },
+		"or": {
+			"variants": {
+				"francais": {}
+			}
+		},
         "cfi": {
           "variants": {
             "francais": {}
@@ -673,6 +801,11 @@
             "francais": {}
           }
         },
+		"or": {
+			"variants": {
+				"francais": {}
+			}
+		},
         "cfi": {
           "variants": {
             "francais": {}
@@ -1051,6 +1184,11 @@
             "francais": {}
           }
         },
+		"or": {
+			"variants": {
+				"francais": {}
+			}
+		},
         "cfi": {
           "variants": {
             "francais": {}
@@ -1191,6 +1329,11 @@
             "francais": {}
           }
         },
+		"or": {
+			"variants": {
+				"francais": {}
+			}
+		},
         "cfi": {
           "variants": {
             "francais": {}
@@ -1281,6 +1424,11 @@
             "francais": {}
           }
         },
+		"or": {
+			"variants": {
+				"francais": {}
+			}
+		},
         "cfi": {
           "variants": {
             "francais": {}
@@ -1361,6 +1509,11 @@
             "francais": {}
           }
         },
+		"or": {
+			"variants": {
+				"francais": {}
+			}
+		},
         "cfi": {
           "variants": {
             "francais": {}
@@ -1581,6 +1734,16 @@
             "francais": {}
           }
         },
+		"or.fr": {
+			"variants": {
+				"francais": {}
+			}
+		},
+		"or.nl": {
+			"variants": {
+				"francais": {}
+			}
+		},
         "coass": {
           "variants": {
             "francais": {}
@@ -2001,6 +2164,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -2176,6 +2344,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "dc": {
           "variants": {
             "francais": {}
@@ -2341,6 +2514,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -2422,6 +2600,11 @@
       "name": "Gent",
       "courts": {
         "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+		"or": {
           "variants": {
             "francais": {}
           }
@@ -2522,6 +2705,11 @@
       "name": "Oudenaarde",
       "courts": {
         "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+		"or": {
           "variants": {
             "francais": {}
           }
@@ -2691,6 +2879,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -2761,6 +2954,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -2827,6 +3025,11 @@
           }
         },
         "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+		"or": {
           "variants": {
             "francais": {}
           }
@@ -2976,6 +3179,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -3096,6 +3304,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -3182,6 +3395,11 @@
           }
         },
         "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+		"or": {
           "variants": {
             "francais": {}
           }
@@ -3331,6 +3549,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -3471,6 +3694,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -3571,6 +3799,11 @@
             "francais": {}
           }
         },
+		"or": {
+          "variants": {
+            "francais": {}
+          }
+        },
         "cfi": {
           "variants": {
             "francais": {}
@@ -3632,6 +3865,11 @@
           }
         },
         "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+		"or": {
           "variants": {
             "francais": {}
           }
@@ -3702,6 +3940,11 @@
       "name": "Neufchâteau",
       "courts": {
         "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+		"or": {
           "variants": {
             "francais": {}
           }
@@ -3857,6 +4100,11 @@
           }
         },
         "cc": {
+          "variants": {
+            "francais": {}
+          }
+        },
+		"or": {
           "variants": {
             "francais": {}
           }

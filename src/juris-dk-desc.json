@@ -6,7 +6,7 @@
   },
   "courts": {
     "dc": {
-      "name": "Byret %s",
+      "name": "%s Byret",
       "variants": {
         "enIBFD": {
           "abbrev": "BR %s [District Court]"

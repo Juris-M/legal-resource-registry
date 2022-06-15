@@ -1,45 +1,102 @@
 {
   "langs": {
+    "en": [
+      "abbrevs"
+    ],
     "enIBFD": [
       "abbrevs"
     ]
   },
   "courts": {
     "dc": {
-      "name": "Επαρχιακά Δικαστήρια",
+      "name": "Επαρχιακό Δικαστήριο",
       "variants": {
+          "en": {
+          "abbrev": "%s District Court"
+        },
         "enIBFD": {
           "abbrev": "DC %s [District Court]"
         }
       }
     },
     "fc": {
-      "name": "Δικαστήριο Έλεγχου Ενοικιάσεων"
+      "name": "Οικογενειακό Δικαστήριο",
+      "variants": {
+        "en": {
+          "abbrev": "%s Family Court"
+        }
+      }
     },
     "assize": {
-      "name": "Κακουργιοδικεία"
+      "name": "Κακουργιοδικεία",
+      "variants": {
+        "en": {
+          "abbrev": "%s Assizes"
+        }
+      }
     },
     "lc": {
-      "name": "Δικαστήριο Εργατικών Διάφορων"
+      "name": "Δικαστήριο Εργατικών Διάφορων",
+      "variants": {
+        "en": {
+          "abbrev": "%s Labor Court"
+        }
+      }
     },
     "rcc": {
-      "name": "Δικαστήριο Εργατικών Διάφορων"
+      "name": "Δικαστήριο Ελέγχου Ενοικίων",
+      "variants": {
+        "en": {
+          "abbrev": "%s Rent Control Court"
+        }
+      }
     },
     "ac": {
-      "name": "Διοικητικό Δικαστήριο"
+      "name": "Διοικητικό Δικαστήριο",
+      "variants": {
+        "en": {
+          "abbrev": "Administrative Court"
+        }
+      }
     },
     "afc": {
-      "name": "Δευτεροβάθμιο Οικογενειακό Δικαστήριο"
+      "name": "Δευτεροβάθμιο Οικογενειακό Δικαστήριο",
+      "variants": {
+        "en": {
+          "abbrev": "Adjunct Family Court"
+        }
+      }
+    },
+    "asylum": {
+      "name": "Διοικητικό Δικαστήριο Διεθνούς Προστασίας",
+      "variants": {
+        "en": {
+          "abbrev": "Asylum Tribunal"
+        }
+      }
     },
     "fcrg": {
-      "name": "Οικογενειακά Δικαστήρια θρησκευτικών ομάδων"
+      "name": "Οικογενειακά Δικαστήρια θρησκευτικών ομάδων",
+      "variants": {
+        "en": {
+          "abbrev": "Family Courts for Religious Groups"
+        }
+      }
     },
     "mc": {
-      "name": "Στρατιωτικό Δικαστήριο"
+      "name": "Στρατιωτικό Δικαστήριο",
+      "variants": {
+        "en": {
+          "abbrev": "Military Court"
+        }
+      }
     },
     "sc": {
       "name": "Ανώτατο Δικαστήριο",
       "variants": {
+        "en": {
+          "abbrev": "Supreme Court"
+        },
         "enIBFD": {
           "abbrev": "SC [Supreme Court]"
         }
@@ -54,7 +111,8 @@
         "afc": {},
         "fcrg": {},
         "mc": {},
-        "sc": {}
+        "sc": {},
+        "asylum": {}
       }
     },
     "cy:famagusta": {

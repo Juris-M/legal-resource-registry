@@ -5,6 +5,9 @@
     ]
   },
   "courts": {
+    "rab": {
+      "name": "Refugee Appeals Board"
+    },
     "dc": {
       "name": "%s Byret",
       "variants": {
@@ -82,7 +85,8 @@
         "sc": {},
         "om": {},
         "neab": {},
-        "tc": {}
+        "tc": {},
+		"rab": {}
       }
     },
     "dk:copenhagen": {

@@ -8,6 +8,14 @@
 		]
 	},
 	"courts": {
+		"lcs": {
+			"name": "Νομικό Συμβούλιο του Κράτους",
+			"variants": {
+				"englished": {
+					"abbrev": "Legal Council of the State"
+				}
+			}
+		},
 		"coa": {
 			"name": "Ελεγκτικό Συνέδριο",
 			"variants": {
@@ -44,16 +52,23 @@
 			}
 		},
 		"asylum": {
-			"name": "Υπηρεσία Ασύλου",
+			"name": "Υπηρεσία Ασύλου %s",
 			"variants": {
 				"englished": {
-					"abbrev": "Asylum Tribunal"
+					"abbrev": "%s Asylum Tribunal"
+				}
+			}
+		},
+		"rao": {
+			"name": "Περιφερειακό Γραφείο Ασύλου %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Regional Asylum Office"
 				}
 			}
 		},
 		"otcc": {
-			"name": "Πλημμελειοδικείο",
-			"abbrev": "Πλημμελειοδικείο %s",
+			"name": "Πλημμελειοδικείο %s",
 			"variants": {
 				"englished": {
 					"abbrev": "%s Criminal Court"
@@ -61,8 +76,7 @@
 			}
 		},
 		"otc": {
-			"name": "Πρωτοδικειο",
-			"abbrev": "Πρωτοδικειο %s",
+			"name": "Πρωτοδικειο %s",
 			"variants": {
 				"englished": {
 					"abbrev": "%s Court of First Instance"
@@ -70,17 +84,14 @@
 			}
 		},
 		"oca": {
-			"name": "Εφετειο",
-			"abbrev": "Εφετειο %s",
+			"name": "Εφετειο %s",
 			"variants": {
 				"englished": {
-					"abbrev": "%s Court of Appeal"
-				}
+					"abbrev": "%s Court of Appeal"				}
 			}
 		},
 		"atc": {
-			"name": "Διοικητικα Πρωτοδικεια",
-			"abbrev": "Διοικητικα Πρωτοδικεια %s",
+			"name": "Διοικητικα Πρωτοδικεια %s",
 			"variants": {
 				"englished": {
 					"abbrev": "%s Administrative Court of First Instance"
@@ -90,15 +101,30 @@
 				}
 			}
 		},
+		"mc": {
+			"name": "Ναυτοδικείο %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Martime Court"
+				}
+			}
+		},
 		"aca": {
-			"name": "Διοικητικα Εφετεια",
-			"abbrev": "Διοικητικα Εφετεια %s",
+			"name": "Διοικητικα Εφετεια %s",
 			"variants": {
 				"englished": {
 					"abbrev": "%s Administrative Court of Appeal"
 				},
 				"enIBFD": {
 					"abbrev": "DE %s [Administrative Court of Appeal]"
+				}
+			}
+		},
+		"magis": {
+			"name": "Ειρηνοδικείο %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Magistrate's Court"
 				}
 			}
 		}
@@ -114,7 +140,8 @@
 				"coc": {},
 				"cos": {},
 				"ssc": {},
-				"asylum": {}
+				"asylum": {},
+				"lcs": {}
 			}
 		},
 		"gr:aegean": {
@@ -123,6 +150,7 @@
 				"englished": "Aegean"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -132,6 +160,7 @@
 				"englished": "Chios"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -141,7 +170,9 @@
 				"englished": "Mytilene"
 			},
 			"courts": {
-				"otc": {}
+				"otcc": {},
+				"otc": {},
+				"magis": {}
 			}
 		},
 		"gr:aegean:naxos": {
@@ -150,6 +181,7 @@
 				"englished": "Naxos"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -159,6 +191,7 @@
 				"englished": "Samou"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -168,6 +201,7 @@
 				"englished": "Syros"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -177,8 +211,10 @@
 				"englished": "Athens"
 			},
 			"courts": {
+				"mc": {},
 				"aca": {},
-				"oca": {}
+				"oca": {},
+				"rao": {}
 			}
 		},
 		"gr:athens:athens": {
@@ -187,6 +223,7 @@
 				"englished": "Athens"
 			},
 			"courts": {
+				"otcc": {},
 				"atc": {},
 				"otc": {}
 			}
@@ -197,6 +234,7 @@
 				"englished": "Chalkis"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -206,6 +244,7 @@
 				"englished": "Thebes"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -242,6 +281,7 @@
 				"englished": "Corfu"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -251,6 +291,7 @@
 				"englished": "Corfu"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -260,6 +301,7 @@
 				"englished": "Thesprotia"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -269,6 +311,7 @@
 				"englished": "Crete"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -278,6 +321,7 @@
 				"englished": "Chania"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -287,6 +331,7 @@
 				"englished": "Heraklion"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -296,6 +341,7 @@
 				"englished": "Lasithi"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -305,6 +351,7 @@
 				"englished": "Rethymnon"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -314,6 +361,7 @@
 				"englished": "Dodecanese"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -323,6 +371,7 @@
 				"englished": "Kos"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -332,6 +381,7 @@
 				"englished": "Rhodes"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -341,6 +391,7 @@
 				"englished": "Dyt.macedonia"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -350,6 +401,7 @@
 				"englished": "Florina"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -359,6 +411,7 @@
 				"englished": "Grevena"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -368,6 +421,7 @@
 				"englished": "Kastoria"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -377,6 +431,7 @@
 				"englished": "Kozani"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -386,6 +441,7 @@
 				"englished": "Ioannina"
 			},
 			"courts": {
+				"mc": {},
 				"aca": {},
 				"oca": {}
 			}
@@ -396,6 +452,7 @@
 				"englished": "Arta"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -414,6 +471,7 @@
 				"englished": "Ioannina"
 			},
 			"courts": {
+				"otcc": {},
 				"atc": {},
 				"otc": {}
 			}
@@ -424,6 +482,7 @@
 				"englished": "Preveza"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -433,6 +492,7 @@
 				"englished": "Kalamata"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -442,6 +502,7 @@
 				"englished": "Corinth"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -451,6 +512,7 @@
 				"englished": "Gytheion"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -460,6 +522,7 @@
 				"englished": "Kalamata"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -469,6 +532,7 @@
 				"englished": "Kyparissia"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -487,7 +551,8 @@
 				"englished": "Alex City"
 			},
 			"courts": {
-				"atc": {}
+				"atc": {},
+				"otc": {}
 			}
 		},
 		"gr:komotinis:kavala": {
@@ -514,6 +579,7 @@
 				"englished": "Lamia"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -523,6 +589,7 @@
 				"englished": "Amfissa"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -532,6 +599,7 @@
 				"englished": "Evrytania"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -541,6 +609,7 @@
 				"englished": "Lamia"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -550,6 +619,7 @@
 				"englished": "Livadia"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -586,6 +656,7 @@
 				"englished": "Larissa"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -595,6 +666,7 @@
 				"englished": "Karditsa"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -604,6 +676,7 @@
 				"englished": "Larissa"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -613,6 +686,7 @@
 				"englished": "Trikala"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -622,6 +696,7 @@
 				"englished": "Volos"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -631,6 +706,7 @@
 				"englished": "Nafplio"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -640,6 +716,7 @@
 				"englished": "Corinth"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -649,6 +726,7 @@
 				"englished": "Nafplion"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -658,6 +736,7 @@
 				"englished": "Sparta"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -667,6 +746,7 @@
 				"englished": "Tripoli"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -676,6 +756,7 @@
 				"englished": "Patron"
 			},
 			"courts": {
+				"mc": {},
 				"aca": {},
 				"oca": {}
 			}
@@ -686,6 +767,7 @@
 				"englished": "Agrinion"
 			},
 			"courts": {
+				"otcc": {},
 				"atc": {},
 				"otc": {}
 			}
@@ -696,6 +778,7 @@
 				"englished": "Aigion"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -705,6 +788,7 @@
 				"englished": "Amaliada"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -714,6 +798,7 @@
 				"englished": "Ilia"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -723,6 +808,7 @@
 				"englished": "Kalavryta"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -732,6 +818,7 @@
 				"englished": "Kefallinias"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -741,6 +828,7 @@
 				"englished": "Lefkada"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -750,6 +838,7 @@
 				"englished": "Mesolongi"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -768,6 +857,7 @@
 				"englished": "Patras"
 			},
 			"courts": {
+				"otcc": {},
 				"atc": {},
 				"otc": {}
 			}
@@ -787,6 +877,7 @@
 				"englished": "Zakynthos"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -796,6 +887,7 @@
 				"englished": "Piraeus"
 			},
 			"courts": {
+				"mc": {},
 				"aca": {},
 				"oca": {}
 			}
@@ -842,6 +934,7 @@
 				"englished": "Piraeus"
 			},
 			"courts": {
+				"otcc": {},
 				"atc": {},
 				"otc": {}
 			}
@@ -870,6 +963,7 @@
 				"englished": "Thessaloniki"
 			},
 			"courts": {
+				"mc": {},
 				"aca": {},
 				"oca": {}
 			}
@@ -880,6 +974,7 @@
 				"englished": "Chalkidiki"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -889,6 +984,7 @@
 				"englished": "Edessa"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -898,6 +994,7 @@
 				"englished": "Giannitson"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -907,6 +1004,7 @@
 				"englished": "Katerini"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -916,6 +1014,7 @@
 				"englished": "Kilkis"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -934,6 +1033,7 @@
 				"englished": "Serres"
 			},
 			"courts": {
+				"otcc": {},
 				"atc": {},
 				"otc": {}
 			}
@@ -944,6 +1044,7 @@
 				"englished": "Thessaloniki"
 			},
 			"courts": {
+				"otcc": {},
 				"atc": {},
 				"otc": {}
 			}
@@ -954,6 +1055,7 @@
 				"englished": "Veria"
 			},
 			"courts": {
+				"otcc": {},
 				"atc": {},
 				"otc": {}
 			}
@@ -964,6 +1066,7 @@
 				"englished": "Thrace"
 			},
 			"courts": {
+				"mc": {},
 				"oca": {}
 			}
 		},
@@ -973,6 +1076,7 @@
 				"englished": "Drama"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -982,6 +1086,7 @@
 				"englished": "Evros"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -991,6 +1096,7 @@
 				"englished": "Kavala"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -1000,6 +1106,7 @@
 				"englished": "Orestiada"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -1009,6 +1116,7 @@
 				"englished": "Rodopi"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},
@@ -1018,6 +1126,7 @@
 				"englished": "Xanthi"
 			},
 			"courts": {
+				"otcc": {},
 				"otc": {}
 			}
 		},

@@ -1,696 +1,1179 @@
 {
-  "langs": {
-    "enIBFD": [
-      "abbrevs"
-    ]
-  },
-  "courts": {
-    "otc": {
-      "name": "ΠΡΩΤΟΔΙΚΕΙΟ"
-    },
-    "oca": {
-      "name": "ΕΦΕΤΕΙΟ"
-    },
-    "atc": {
-      "name": "ΔΙΟΙΚΗΤΙΚΑ ΠΡΩΤΟΔΙΚΕΙΑ",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "DP %s [Administrative Court of First Instance]"
-        }
-      }
-    },
-    "aca": {
-      "name": "ΔΙΟΙΚΗΤΙΚΑ ΕΦΕΤΕΙΑ",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "DE %s [Administrative Court of Appeal]"
-        }
-      }
-    },
-    "coa": {
-      "name": "Ελεγκτικό Συνέδριο"
-    },
-    "coc": {
-      "name": "Άρειος Πάγος"
-    },
-    "cos": {
-      "name": "Συμβούλιο της Επικρατείας",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "SE [Supreme Administrative Court]"
-        }
-      }
-    },
-    "ssc": {
-      "name": "Ανώτατο Ειδικό Δικαστήριο"
-    }
-  },
-  "jurisdictions": {
-    "gr": {
-      "name": "Greece",
-      "courts": {
-        "coa": {},
-        "coc": {},
-        "cos": {},
-        "ssc": {}
-      }
-    },
-    "gr:aegean": {
-      "name": "ΑΙΓΑΙΟΥ (Σύρος)",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:aegean:chios": {
-      "name": "Χίου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:aegean:mytilene": {
-      "name": "Μυτιλήνης",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:aegean:naxos": {
-      "name": "Νάξου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:aegean:samou": {
-      "name": "Σάμου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:aegean:syros": {
-      "name": "Σύρου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:athens": {
-      "name": "ΑΘΗΝΩΝ",
-      "courts": {
-        "aca": {},
-        "oca": {}
-      }
-    },
-    "gr:athens:athens": {
-      "name": "Αθηνών",
-      "courts": {
-        "atc": {},
-        "otc": {}
-      }
-    },
-    "gr:athens:chalkis": {
-      "name": "Χαλκίδας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:athens:thebes": {
-      "name": "Θηβών",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:chania": {
-      "name": "ΧΑΝΙΩΝ",
-      "courts": {
-        "aca": {}
-      }
-    },
-    "gr:chania:chania": {
-      "name": "Χανίων",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:chania:heraklion": {
-      "name": "Ηρακλείου",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:corfu": {
-      "name": "ΚΕΡΚΥΡΑΣ",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:corfu:corfu": {
-      "name": "Κερκύρας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:corfu:thesprotia": {
-      "name": "Θεσπρωτίας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:crete": {
-      "name": "ΚΡΗΤΗΣ (Χανιά)",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:crete:chania": {
-      "name": "Χανίων",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:crete:heraklion": {
-      "name": "Ηρακλείου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:crete:lasithi": {
-      "name": "Λασιθίου (Νεάπολη)",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:crete:rethymnon": {
-      "name": "Ρεθύμνου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:dodecanese": {
-      "name": "ΔΩΔΕΚΑΝΗΣΟΥ (Ρόδος)",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:dodecanese:kos": {
-      "name": "Κω",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:dodecanese:rhodes": {
-      "name": "Ρόδου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:dyt.macedonia": {
-      "name": "ΔΥΤ. ΜΑΚΕΔΟΝΙΑΣ (Κοζάνη)",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:dyt.macedonia:florina": {
-      "name": "Φλωρίνης",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:dyt.macedonia:grevena": {
-      "name": "Γρεβενών",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:dyt.macedonia:kastoria": {
-      "name": "Καστοριάς",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:dyt.macedonia:kozani": {
-      "name": "Κοζάνης",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:ioannina": {
-      "name": "ΙΩΑΝΝΙΝΩΝ",
-      "courts": {
-        "aca": {},
-        "oca": {}
-      }
-    },
-    "gr:ioannina:arta": {
-      "name": "Άρτας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:ioannina:corfu": {
-      "name": "Κερκύρας",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:ioannina:ioannina": {
-      "name": "Ιωαννίνων",
-      "courts": {
-        "atc": {},
-        "otc": {}
-      }
-    },
-    "gr:ioannina:preveza": {
-      "name": "Πρέβεζας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:kalamata": {
-      "name": "ΚΑΛΑΜΑΤΑΣ",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:kalamata:corinth": {
-      "name": "Κορίνθου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:kalamata:gytheion": {
-      "name": "Γυθείου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:kalamata:kalamata": {
-      "name": "Καλαμάτας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:kalamata:kyparissia": {
-      "name": "Κυπαρισσίας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:komotinis": {
-      "name": "ΚΟΜΟΤΗΝΗΣ",
-      "courts": {
-        "aca": {}
-      }
-    },
-    "gr:komotinis:alex.city": {
-      "name": "Αλεξ/πόλεως",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:komotinis:kavala": {
-      "name": "Καβάλας",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:komotinis:komotini": {
-      "name": "Κομοτηνής",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:lamia": {
-      "name": "ΛΑΜΙΑΣ",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:lamia:amfissa": {
-      "name": "Άμφισσας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:lamia:evrytania": {
-      "name": "Ευρυτανίας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:lamia:lamia": {
-      "name": "Λαμίας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:lamia:livadia": {
-      "name": "Λιβαδειάς",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:larisa": {
-      "name": "ΛΑΡΙΣΑΣ",
-      "courts": {
-        "aca": {}
-      }
-    },
-    "gr:larisa:larissa": {
-      "name": "Λάρισας",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:larisa:volos": {
-      "name": "Βόλου",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:larissa": {
-      "name": "ΛΑΡΙΣΑΣ",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:larissa:karditsa": {
-      "name": "Καρδίτσας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:larissa:larissa": {
-      "name": "Λάρισας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:larissa:trikala": {
-      "name": "Τρικάλων",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:larissa:volos": {
-      "name": "Βόλου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:nafplio": {
-      "name": "ΝΑΥΠΛΙΟΥ",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:nafplio:corinth": {
-      "name": "Κορίνθου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:nafplio:nafplion": {
-      "name": "Ναυπλίου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:nafplio:sparta": {
-      "name": "Σπάρτης",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:nafplio:tripoli": {
-      "name": "Τριπόλεως",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:patron": {
-      "name": "ΠΑΤΡΩΝ",
-      "courts": {
-        "aca": {},
-        "oca": {}
-      }
-    },
-    "gr:patron:agrinion": {
-      "name": "Αγρινίου",
-      "courts": {
-        "atc": {},
-        "otc": {}
-      }
-    },
-    "gr:patron:aigion": {
-      "name": "Αιγίου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:patron:amaliada": {
-      "name": "Αμαλιάδας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:patron:ilia": {
-      "name": "Ηλείας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:patron:kalavryta": {
-      "name": "Καλαβρύτων",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:patron:kefallinias": {
-      "name": "Κεφαλληνίας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:patron:lefkada": {
-      "name": "Λευκάδας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:patron:mesolongi": {
-      "name": "Μεσολογγίου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:patron:messolonghi": {
-      "name": "Μεσολογγίου",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:patron:patras": {
-      "name": "Πατρών",
-      "courts": {
-        "atc": {},
-        "otc": {}
-      }
-    },
-    "gr:patron:tower": {
-      "name": "Πύργου",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:patron:zakynthos": {
-      "name": "Ζακύνθου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:piraeus": {
-      "name": "ΠΕΙΡΑΙΩΣ",
-      "courts": {
-        "aca": {},
-        "oca": {}
-      }
-    },
-    "gr:piraeus:chalkis": {
-      "name": "Χαλκίδας",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:piraeus:lamia": {
-      "name": "Λαμίας",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:piraeus:livadia": {
-      "name": "Λειβαδιάς",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:piraeus:mytilene": {
-      "name": "Μυτιλήνης",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:piraeus:piraeus": {
-      "name": "Πειραιώς",
-      "courts": {
-        "atc": {},
-        "otc": {}
-      }
-    },
-    "gr:piraeus:rhodes": {
-      "name": "Ρόδου",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:piraeus:syros": {
-      "name": "Σύρου",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:thessaloniki": {
-      "name": "ΘΕΣΣΑΛΟΝΙΚΗΣ",
-      "courts": {
-        "aca": {},
-        "oca": {}
-      }
-    },
-    "gr:thessaloniki:chalkidiki": {
-      "name": "Χαλκιδικής",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thessaloniki:edessa": {
-      "name": "Έδεσσας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thessaloniki:giannitson": {
-      "name": "Γιαννιτσών",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thessaloniki:katerini": {
-      "name": "Κατερίνης",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thessaloniki:kilkis": {
-      "name": "Κιλκίς",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thessaloniki:kozani": {
-      "name": "Κοζάνης",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:thessaloniki:serres": {
-      "name": "Σερρών",
-      "courts": {
-        "atc": {},
-        "otc": {}
-      }
-    },
-    "gr:thessaloniki:thessaloniki": {
-      "name": "Θεσσαλονίκης",
-      "courts": {
-        "atc": {},
-        "otc": {}
-      }
-    },
-    "gr:thessaloniki:veria": {
-      "name": "Βέροιας",
-      "courts": {
-        "atc": {},
-        "otc": {}
-      }
-    },
-    "gr:thrace": {
-      "name": "ΘΡΑΚΗΣ (Κομοτηνή)",
-      "courts": {
-        "oca": {}
-      }
-    },
-    "gr:thrace:drama": {
-      "name": "Δράμας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thrace:evros": {
-      "name": "Έβρου",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thrace:kavala": {
-      "name": "Καβάλας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thrace:orestiada": {
-      "name": "Ορεστιάδας",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thrace:rodopi": {
-      "name": "Ροδόπης",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:thrace:xanthi": {
-      "name": "Ξάνθης",
-      "courts": {
-        "otc": {}
-      }
-    },
-    "gr:tripoleos": {
-      "name": "ΤΡΙΠΟΛΕΩΣ",
-      "courts": {
-        "aca": {}
-      }
-    },
-    "gr:tripoleos:corinth": {
-      "name": "Κορίνθου",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:tripoleos:kalamata": {
-      "name": "Καλαμάτας",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:tripoleos:nafplion": {
-      "name": "Ναυπλίου",
-      "courts": {
-        "atc": {}
-      }
-    },
-    "gr:tripoleos:tripoli": {
-      "name": "Τριπόλεως",
-      "courts": {
-        "atc": {}
-      }
-    }
-  }
+	"langs": {
+		"englished": [
+			"abbrevs"
+		],
+		"enIBFD": [
+			"abbrevs"
+		]
+	},
+	"courts": {
+		"lcs": {
+			"name": "Νομικό Συμβούλιο του Κράτους",
+			"variants": {
+				"englished": {
+					"abbrev": "Legal Council of the State"
+				}
+			}
+		},
+		"coa": {
+			"name": "Ελεγκτικό Συνέδριο",
+			"variants": {
+				"englished": {
+					"abbrev": "Court of Auditors"
+				}
+			}
+		},
+		"coc": {
+			"name": "Άρειος Πάγος",
+			"variants": {
+				"englished": {
+					"abbrev": "Supreme Court"
+				}
+			}
+		},
+		"cos": {
+			"name": "Συμβούλιο της Επικρατείας",
+			"variants": {
+				"englished": {
+					"abbrev": "Supreme Administrative Court"
+				},
+				"enIBFD": {
+					"abbrev": "SE [Supreme Administrative Court]"
+				}
+			}
+		},
+		"ssc": {
+			"name": "Ανώτατο Ειδικό Δικαστήριο",
+			"variants": {
+				"englished": {
+					"abbrev": "Supreme Special Court"
+				}
+			}
+		},
+		"asylum": {
+			"name": "Υπηρεσία Ασύλου %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Asylum Tribunal"
+				}
+			}
+		},
+		"rao": {
+			"name": "Περιφερειακό Γραφείο Ασύλου %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Regional Asylum Office"
+				}
+			}
+		},
+		"otcc": {
+			"name": "Πλημμελειοδικείο %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Criminal Court"
+				}
+			}
+		},
+		"otc": {
+			"name": "Πρωτοδικειο %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Court of First Instance"
+				}
+			}
+		},
+		"oca": {
+			"name": "Εφετειο %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Court of Appeal"				}
+			}
+		},
+		"atc": {
+			"name": "Διοικητικα Πρωτοδικεια %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Administrative Court of First Instance"
+				},
+				"enIBFD": {
+					"abbrev": "DP %s [Administrative Court of First Instance]"
+				}
+			}
+		},
+		"mc": {
+			"name": "Ναυτοδικείο %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Martime Court"
+				}
+			}
+		},
+		"aca": {
+			"name": "Διοικητικα Εφετεια %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Administrative Court of Appeal"
+				},
+				"enIBFD": {
+					"abbrev": "DE %s [Administrative Court of Appeal]"
+				}
+			}
+		},
+		"magis": {
+			"name": "Ειρηνοδικείο %s",
+			"variants": {
+				"englished": {
+					"abbrev": "%s Magistrate's Court"
+				}
+			}
+		}
+	},
+	"jurisdictions": {
+		"gr": {
+			"name": "Greece",
+			"variants": {
+				"englished": "Greece"
+			},
+			"courts": {
+				"coa": {},
+				"coc": {},
+				"cos": {},
+				"ssc": {},
+				"asylum": {},
+				"lcs": {}
+			}
+		},
+		"gr:aegean": {
+			"name": "Αιγαιου (Σύρος)",
+			"variants": {
+				"englished": "Aegean"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:aegean:chios": {
+			"name": "Χίου",
+			"variants": {
+				"englished": "Chios"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:aegean:mytilene": {
+			"name": "Μυτιλήνης",
+			"variants": {
+				"englished": "Mytilene"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {},
+				"magis": {}
+			}
+		},
+		"gr:aegean:naxos": {
+			"name": "Νάξου",
+			"variants": {
+				"englished": "Naxos"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:aegean:samou": {
+			"name": "Σάμου",
+			"variants": {
+				"englished": "Samou"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:aegean:syros": {
+			"name": "Σύρου",
+			"variants": {
+				"englished": "Syros"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:athens": {
+			"name": "Αθηνων",
+			"variants": {
+				"englished": "Athens"
+			},
+			"courts": {
+				"mc": {},
+				"aca": {},
+				"oca": {},
+				"rao": {}
+			}
+		},
+		"gr:athens:athens": {
+			"name": "Αθηνών",
+			"variants": {
+				"englished": "Athens"
+			},
+			"courts": {
+				"otcc": {},
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:athens:chalkis": {
+			"name": "Χαλκίδας",
+			"variants": {
+				"englished": "Chalkis"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:athens:thebes": {
+			"name": "Θηβών",
+			"variants": {
+				"englished": "Thebes"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:chania": {
+			"name": "Χανιων",
+			"variants": {
+				"englished": "Chania"
+			},
+			"courts": {
+				"aca": {}
+			}
+		},
+		"gr:chania:chania": {
+			"name": "Χανίων",
+			"variants": {
+				"englished": "Chania"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:chania:heraklion": {
+			"name": "Ηρακλείου",
+			"variants": {
+				"englished": "Heraklion"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:corfu": {
+			"name": "Κερκυρασ",
+			"variants": {
+				"englished": "Corfu"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:corfu:corfu": {
+			"name": "Κερκύρας",
+			"variants": {
+				"englished": "Corfu"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:corfu:thesprotia": {
+			"name": "Θεσπρωτίας",
+			"variants": {
+				"englished": "Thesprotia"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:crete": {
+			"name": "Κρητησ (Χανιά)",
+			"variants": {
+				"englished": "Crete"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:crete:chania": {
+			"name": "Χανίων",
+			"variants": {
+				"englished": "Chania"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:crete:heraklion": {
+			"name": "Ηρακλείου",
+			"variants": {
+				"englished": "Heraklion"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:crete:lasithi": {
+			"name": "Λασιθίου (Νεάπολη)",
+			"variants": {
+				"englished": "Lasithi"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:crete:rethymnon": {
+			"name": "Ρεθύμνου",
+			"variants": {
+				"englished": "Rethymnon"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:dodecanese": {
+			"name": "Δωδεκανησου (Ρόδος)",
+			"variants": {
+				"englished": "Dodecanese"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:dodecanese:kos": {
+			"name": "Κω",
+			"variants": {
+				"englished": "Kos"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:dodecanese:rhodes": {
+			"name": "Ρόδου",
+			"variants": {
+				"englished": "Rhodes"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:dyt.macedonia": {
+			"name": "Δυτ. Μακεδονιασ (Κοζάνη)",
+			"variants": {
+				"englished": "Dyt.macedonia"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:dyt.macedonia:florina": {
+			"name": "Φλωρίνης",
+			"variants": {
+				"englished": "Florina"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:dyt.macedonia:grevena": {
+			"name": "Γρεβενών",
+			"variants": {
+				"englished": "Grevena"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:dyt.macedonia:kastoria": {
+			"name": "Καστοριάς",
+			"variants": {
+				"englished": "Kastoria"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:dyt.macedonia:kozani": {
+			"name": "Κοζάνης",
+			"variants": {
+				"englished": "Kozani"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:ioannina": {
+			"name": "Ιωαννινων",
+			"variants": {
+				"englished": "Ioannina"
+			},
+			"courts": {
+				"mc": {},
+				"aca": {},
+				"oca": {}
+			}
+		},
+		"gr:ioannina:arta": {
+			"name": "Άρτας",
+			"variants": {
+				"englished": "Arta"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:ioannina:corfu": {
+			"name": "Κερκύρας",
+			"variants": {
+				"englished": "Corfu"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:ioannina:ioannina": {
+			"name": "Ιωαννίνων",
+			"variants": {
+				"englished": "Ioannina"
+			},
+			"courts": {
+				"otcc": {},
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:ioannina:preveza": {
+			"name": "Πρέβεζας",
+			"variants": {
+				"englished": "Preveza"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:kalamata": {
+			"name": "Καλαματασ",
+			"variants": {
+				"englished": "Kalamata"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:kalamata:corinth": {
+			"name": "Κορίνθου",
+			"variants": {
+				"englished": "Corinth"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:kalamata:gytheion": {
+			"name": "Γυθείου",
+			"variants": {
+				"englished": "Gytheion"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:kalamata:kalamata": {
+			"name": "Καλαμάτας",
+			"variants": {
+				"englished": "Kalamata"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:kalamata:kyparissia": {
+			"name": "Κυπαρισσίας",
+			"variants": {
+				"englished": "Kyparissia"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:komotinis": {
+			"name": "Κομοτηνησ",
+			"variants": {
+				"englished": "Komotinis"
+			},
+			"courts": {
+				"aca": {}
+			}
+		},
+		"gr:komotinis:alex.city": {
+			"name": "Αλεξ/πόλεως",
+			"variants": {
+				"englished": "Alex City"
+			},
+			"courts": {
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:komotinis:kavala": {
+			"name": "Καβάλας",
+			"variants": {
+				"englished": "Kavala"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:komotinis:komotini": {
+			"name": "Κομοτηνής",
+			"variants": {
+				"englished": "Komotini"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:lamia": {
+			"name": "Λαμιασ",
+			"variants": {
+				"englished": "Lamia"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:lamia:amfissa": {
+			"name": "Άμφισσας",
+			"variants": {
+				"englished": "Amfissa"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:lamia:evrytania": {
+			"name": "Ευρυτανίας",
+			"variants": {
+				"englished": "Evrytania"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:lamia:lamia": {
+			"name": "Λαμίας",
+			"variants": {
+				"englished": "Lamia"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:lamia:livadia": {
+			"name": "Λιβαδειάς",
+			"variants": {
+				"englished": "Livadia"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:larisa": {
+			"name": "Λαρισασ",
+			"variants": {
+				"englished": "Larisa"
+			},
+			"courts": {
+				"aca": {}
+			}
+		},
+		"gr:larisa:larissa": {
+			"name": "Λάρισας",
+			"variants": {
+				"englished": "Larissa"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:larisa:volos": {
+			"name": "Βόλου",
+			"variants": {
+				"englished": "Volos"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:larissa": {
+			"name": "Λαρισασ",
+			"variants": {
+				"englished": "Larissa"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:larissa:karditsa": {
+			"name": "Καρδίτσας",
+			"variants": {
+				"englished": "Karditsa"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:larissa:larissa": {
+			"name": "Λάρισας",
+			"variants": {
+				"englished": "Larissa"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:larissa:trikala": {
+			"name": "Τρικάλων",
+			"variants": {
+				"englished": "Trikala"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:larissa:volos": {
+			"name": "Βόλου",
+			"variants": {
+				"englished": "Volos"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:nafplio": {
+			"name": "Ναυπλιου",
+			"variants": {
+				"englished": "Nafplio"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:nafplio:corinth": {
+			"name": "Κορίνθου",
+			"variants": {
+				"englished": "Corinth"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:nafplio:nafplion": {
+			"name": "Ναυπλίου",
+			"variants": {
+				"englished": "Nafplion"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:nafplio:sparta": {
+			"name": "Σπάρτης",
+			"variants": {
+				"englished": "Sparta"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:nafplio:tripoli": {
+			"name": "Τριπόλεως",
+			"variants": {
+				"englished": "Tripoli"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron": {
+			"name": "Πατρων",
+			"variants": {
+				"englished": "Patron"
+			},
+			"courts": {
+				"mc": {},
+				"aca": {},
+				"oca": {}
+			}
+		},
+		"gr:patron:agrinion": {
+			"name": "Αγρινίου",
+			"variants": {
+				"englished": "Agrinion"
+			},
+			"courts": {
+				"otcc": {},
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:aigion": {
+			"name": "Αιγίου",
+			"variants": {
+				"englished": "Aigion"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:amaliada": {
+			"name": "Αμαλιάδας",
+			"variants": {
+				"englished": "Amaliada"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:ilia": {
+			"name": "Ηλείας",
+			"variants": {
+				"englished": "Ilia"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:kalavryta": {
+			"name": "Καλαβρύτων",
+			"variants": {
+				"englished": "Kalavryta"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:kefallinias": {
+			"name": "Κεφαλληνίας",
+			"variants": {
+				"englished": "Kefallinias"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:lefkada": {
+			"name": "Λευκάδας",
+			"variants": {
+				"englished": "Lefkada"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:mesolongi": {
+			"name": "Μεσολογγίου",
+			"variants": {
+				"englished": "Mesolongi"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:messolonghi": {
+			"name": "Μεσολογγίου",
+			"variants": {
+				"englished": "Messolonghi"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:patron:patras": {
+			"name": "Πατρών",
+			"variants": {
+				"englished": "Patras"
+			},
+			"courts": {
+				"otcc": {},
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:patron:tower": {
+			"name": "Πύργου",
+			"variants": {
+				"englished": "Tower"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:patron:zakynthos": {
+			"name": "Ζακύνθου",
+			"variants": {
+				"englished": "Zakynthos"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:piraeus": {
+			"name": "Πειραιωσ",
+			"variants": {
+				"englished": "Piraeus"
+			},
+			"courts": {
+				"mc": {},
+				"aca": {},
+				"oca": {}
+			}
+		},
+		"gr:piraeus:chalkis": {
+			"name": "Χαλκίδας",
+			"variants": {
+				"englished": "Chalkis"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:piraeus:lamia": {
+			"name": "Λαμίας",
+			"variants": {
+				"englished": "Lamia"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:piraeus:livadia": {
+			"name": "Λειβαδιάς",
+			"variants": {
+				"englished": "Livadia"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:piraeus:mytilene": {
+			"name": "Μυτιλήνης",
+			"variants": {
+				"englished": "Mytilene"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:piraeus:piraeus": {
+			"name": "Πειραιώς",
+			"variants": {
+				"englished": "Piraeus"
+			},
+			"courts": {
+				"otcc": {},
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:piraeus:rhodes": {
+			"name": "Ρόδου",
+			"variants": {
+				"englished": "Rhodes"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:piraeus:syros": {
+			"name": "Σύρου",
+			"variants": {
+				"englished": "Syros"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:thessaloniki": {
+			"name": "Θεσσαλονικησ",
+			"variants": {
+				"englished": "Thessaloniki"
+			},
+			"courts": {
+				"mc": {},
+				"aca": {},
+				"oca": {}
+			}
+		},
+		"gr:thessaloniki:chalkidiki": {
+			"name": "Χαλκιδικής",
+			"variants": {
+				"englished": "Chalkidiki"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thessaloniki:edessa": {
+			"name": "Έδεσσας",
+			"variants": {
+				"englished": "Edessa"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thessaloniki:giannitson": {
+			"name": "Γιαννιτσών",
+			"variants": {
+				"englished": "Giannitson"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thessaloniki:katerini": {
+			"name": "Κατερίνης",
+			"variants": {
+				"englished": "Katerini"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thessaloniki:kilkis": {
+			"name": "Κιλκίς",
+			"variants": {
+				"englished": "Kilkis"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thessaloniki:kozani": {
+			"name": "Κοζάνης",
+			"variants": {
+				"englished": "Kozani"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:thessaloniki:serres": {
+			"name": "Σερρών",
+			"variants": {
+				"englished": "Serres"
+			},
+			"courts": {
+				"otcc": {},
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:thessaloniki:thessaloniki": {
+			"name": "Θεσσαλονίκης",
+			"variants": {
+				"englished": "Thessaloniki"
+			},
+			"courts": {
+				"otcc": {},
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:thessaloniki:veria": {
+			"name": "Βέροιας",
+			"variants": {
+				"englished": "Veria"
+			},
+			"courts": {
+				"otcc": {},
+				"atc": {},
+				"otc": {}
+			}
+		},
+		"gr:thrace": {
+			"name": "Θρακησ (Κομοτηνή)",
+			"variants": {
+				"englished": "Thrace"
+			},
+			"courts": {
+				"mc": {},
+				"oca": {}
+			}
+		},
+		"gr:thrace:drama": {
+			"name": "Δράμας",
+			"variants": {
+				"englished": "Drama"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thrace:evros": {
+			"name": "Έβρου",
+			"variants": {
+				"englished": "Evros"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thrace:kavala": {
+			"name": "Καβάλας",
+			"variants": {
+				"englished": "Kavala"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thrace:orestiada": {
+			"name": "Ορεστιάδας",
+			"variants": {
+				"englished": "Orestiada"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thrace:rodopi": {
+			"name": "Ροδόπης",
+			"variants": {
+				"englished": "Rodopi"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:thrace:xanthi": {
+			"name": "Ξάνθης",
+			"variants": {
+				"englished": "Xanthi"
+			},
+			"courts": {
+				"otcc": {},
+				"otc": {}
+			}
+		},
+		"gr:tripoleos": {
+			"name": "Τριπολεωσ",
+			"variants": {
+				"englished": "Tripoleos"
+			},
+			"courts": {
+				"aca": {}
+			}
+		},
+		"gr:tripoleos:corinth": {
+			"name": "Κορίνθου",
+			"variants": {
+				"englished": "Corinth"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:tripoleos:kalamata": {
+			"name": "Καλαμάτας",
+			"variants": {
+				"englished": "Kalamata"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:tripoleos:nafplion": {
+			"name": "Ναυπλίου",
+			"variants": {
+				"englished": "Nafplion"
+			},
+			"courts": {
+				"atc": {}
+			}
+		},
+		"gr:tripoleos:tripoli": {
+			"name": "Τριπόλεως",
+			"variants": {
+				"englished": "Tripoli"
+			},
+			"courts": {
+				"atc": {}
+			}
+		}
+	}
 }

@@ -577,14 +577,14 @@
         "court.appeal": {
           "variants": {
             "fr": {
-              "abbrev": "CA %s"
+              "abbrev": "%s CA"
             }
           }
         },
         "court.queens.bench": {
           "variants": {
             "fr": {
-              "abbrev": "BR %s",
+              "abbrev": "%s BR",
               "ABBREV": "NBBR"
             }
           }
@@ -592,7 +592,7 @@
         "provincial.court": {
           "variants": {
             "fr": {
-              "abbrev": "CP %s",
+              "abbrev": "%s CP",
               "ABBREV": "NBCP"
             }
           }

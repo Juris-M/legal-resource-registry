@@ -5,9 +5,17 @@
 			"name": "Special Immigration Appeals Commission",
 			"abbrev": "UKSIAC"
 		},
+		"ait": {
+			"name": "Asylum and Immigration Tribunal",
+			"abbrev": "AIT"
+		},
 		"ukut.iac": {
 			"name": "Upper Tribunal|Immigration and Asylum Chamber",
 			"abbrev": "UKUT|IAC"
+		},
+		"ukft.iac": {
+			"name": "First-tier Tribunal|Immigration and Asylum Chamber",
+			"abbrev": "UKFT|IAC"
 		},
 		"ewca.civ": {
 			"name": "Court of Appeal|Civil Division",

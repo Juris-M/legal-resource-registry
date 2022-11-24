@@ -29,12 +29,22 @@
       }
     },
     "court.queens.bench": {
-      "name": "Court of Queen's Bench",
+      "name": "--- Old --- Court of Queen's Bench",
       "abbrev": "%s QB",
       "ABBREV": "%sQB",
       "variants": {
         "fr": {
-          "name": "Cour du Banc de la Reine"
+          "name": "--- Désuet --- Cour du Banc de la Reine"
+        }
+      }
+    },
+    "court.kings.bench": {
+      "name": "Court of King's Bench",
+      "abbrev": "%s KB",
+      "ABBREV": "%sKB",
+      "variants": {
+        "fr": {
+          "name": "Cour du Banc du Roi"
         }
       }
     },
@@ -119,7 +129,7 @@
       "variants": {
         "fr": {
           "name": "Cours municipales",
-          "abbrev": "CM %s"          
+          "abbrev": "CM %s"
         }
       }
     },
@@ -495,6 +505,7 @@
       "ABBREV": "AB",
       "courts": {
         "court.appeal": {},
+        "court.kings.bench": {},
         "court.queens.bench": {},
         "provincial.court": {}
       },
@@ -555,6 +566,7 @@
       "courts": {
         "court.appeal": {},
         "court.queens.bench": {},
+        "court.kings.bench": {},
         "provincial.court": {}
       },
       "container-title": {
@@ -582,6 +594,14 @@
           }
         },
         "court.queens.bench": {
+          "variants": {
+            "fr": {
+              "abbrev": "%s BR",
+              "ABBREV": "NBBR"
+            }
+          }
+        },
+        "court.kings.bench": {
           "variants": {
             "fr": {
               "abbrev": "%s BR",
@@ -996,6 +1016,7 @@
       "courts": {
         "court.appeal": {},
         "court.queens.bench": {},
+        "court.kings.bench": {},
         "provincial.court": {}
       },
       "container-title": {

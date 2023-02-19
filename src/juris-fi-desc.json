@@ -72,11 +72,20 @@
         "kko": {}
       }
     },
+	  "fi:unknown": {
+		  "name": "Unknown Jurisdiction",
+		  "courts": {
+			  "hao": {},
+			  "ko": {},
+			  "ho": {}
+		  }
+	  },
     "fi:ahvenanmaa": {
       "name": "Ahvenanmaa",
       "abbrev": "Ahvenanmaan",
       "courts": {
-        "hao": {}
+          "hao": {},
+		  "ko": {}
       }
     },
     "fi:hameenlinna": {
@@ -283,6 +292,27 @@
       "abbrev": "Vaasan",
       "courts": {
         "ho": {}
+      }
+    },
+    "fi:vaasa:ostrobothnia": {
+      "name": "Ostrobothnia",
+      "abbrev": "Ostrobothnia",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:vaasa:central.ostrobothnia": {
+      "name": "Central Ostrobothnia",
+      "abbrev": "Central Ostrobothnia",
+      "courts": {
+        "ko": {}
+      }
+    },
+    "fi:vaasa:south.ostrobothnia": {
+      "name": "South Ostrobothnia",
+      "abbrev": "South Ostrobothnia",
+      "courts": {
+        "ko": {}
       }
     },
     "fi:vaasa:etela.pohjanmaa": {

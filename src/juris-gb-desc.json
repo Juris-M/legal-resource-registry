@@ -108,8 +108,10 @@
 					"abbrev": "UKSC"
 				},
 				"uksiac": {},
-				"ukut.iac": {}
-			}
+				"ukut.iac": {},
+				"ukft.iac": {},
+				"ait": {}
+	    }
 		},
 		"gb:bermuda": {
 			"name": "Bermuda",

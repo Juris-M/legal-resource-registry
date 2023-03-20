@@ -1,0 +1,30 @@
+{
+  "name": "juris-desc",
+  "version": "1.0.0",
+  "description": "Build Jurism abbrevs from Legal Resource Registry",
+  "main": "./scripts/index.js",
+  "scripts": {
+      "build": "node ./scripts/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juris-M/legal-resource-registry.git"
+  },
+  "keywords": [
+    "law",
+    "legal",
+    "referencing",
+    "citation"
+  ],
+  "author": "Frank Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juris-M/legal-resource-registry/issues"
+  },
+  "homepage": "https://github.com/Juris-M/legal-resource-registry#readme",
+  "dependencies": {
+    "eol": "^0.9.1",
+    "getopts": "^2.3.0"
+  }
+}

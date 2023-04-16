@@ -1759,6 +1759,11 @@
         }
       }
     },
+    "us:cz": {
+        "name": "Panama Canal Zone",
+        "abbrev": "C.Z",
+        "courts": {}
+    },
     "us:dc": {
       "name": "District of Columbia",
       "abbrev": "D.C.",

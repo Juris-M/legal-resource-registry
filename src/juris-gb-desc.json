@@ -18,6 +18,10 @@
 			"name": "Upper Tribunal|Immigration and Asylum Chamber",
 			"abbrev": "UKUT|IAC"
 		},
+        "ssat.osscsc": {
+            "name": "Social Security Appeal Tribunal|Office of the Social Security and Child Support Commissioner",
+            "abbrev": "SSAT|OSSCSC"
+        },
 		"ukft.iac": {
 			"name": "First-tier Tribunal|Immigration and Asylum Chamber",
 			"abbrev": "UKFT|IAC"
@@ -120,7 +124,8 @@
 				"uksiac": {},
 				"ukut.iac": {},
 				"ukft.iac": {},
-				"ait": {}
+				"ait": {},
+                "ssat.osscsc": {}
 			},
 			"variants": {
 				"fr" : {

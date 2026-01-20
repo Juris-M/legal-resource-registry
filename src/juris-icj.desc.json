@@ -1,0 +1,26 @@
+{
+  "langs": {
+    "de": [
+      "abbrevs"
+    ]
+  },
+  "courts": {
+    "court": {
+      "name": "Court"
+      }
+    },
+  "jurisdictions": {
+    "icj.int": {
+      "name": "International Court of Justice",
+      "courts": {
+        "court": {},
+      },
+      "variants": {
+        "de": {
+          "abbrev": "IGH, %s",
+          "name": "Internationaler Gerichtshof"
+        }
+      }
+    }
+  }
+}

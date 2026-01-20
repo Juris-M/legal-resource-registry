@@ -18,6 +18,7 @@
   "jurisdictions": {
     "icc.int": {
       "name": "International Criminal Court",
+      "abbrev": "ICC",
       "courts": {
         "appeals.chamber": {},
         "pre.trial.chamber": {},
@@ -25,7 +26,8 @@
       },
       "variants": {
         "de": {
-          "abbrev": "ICC, %s"
+          "abbrev": "IStGH, %s",
+          "name": "Internationaler Strafgerichtshof"
         }
       }
     }

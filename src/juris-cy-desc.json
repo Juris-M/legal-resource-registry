@@ -1,47 +1,108 @@
 {
   "langs": {
+    "englished": [
+      "abbrevs"
+    ],
     "enIBFD": [
       "abbrevs"
     ]
   },
   "courts": {
-    "dc": {
-      "name": "Επαρχιακά Δικαστήρια",
+    "ac": {
+      "name": "Διοικητικό Δικαστήριο",
       "variants": {
+        "englished": {
+          "abbrev": "Administrative Court"
+        }
+      }
+    },
+    "fc": {
+      "name": "Οικογενειακό Δικαστήριο",
+      "variants": {
+        "englished": {
+          "abbrev": "%s Family Court"
+        }
+      }
+    },
+    "afc": {
+      "name": "Δευτεροβάθμιο Οικογενειακό Δικαστήριο",
+      "variants": {
+        "englished": {
+          "abbrev": "Adjunct Family Court"
+        }
+      }
+    },
+    "fcrg": {
+      "name": "Οικογενειακά Δικαστήρια θρησκευτικών ομάδων",
+      "variants": {
+        "englished": {
+          "abbrev": "Family Courts for Religious Groups"
+        }
+      }
+    },
+    "asylum": {
+      "name": "Διοικητικό Δικαστήριο Διεθνούς Προστασίας",
+      "variants": {
+        "englished": {
+          "abbrev": "Asylum Tribunal"
+        }
+      }
+    },
+    "mc": {
+      "name": "Στρατιωτικό Δικαστήριο",
+      "variants": {
+        "englished": {
+          "abbrev": "Military Court"
+        }
+      }
+    },
+    "sc": {
+      "name": "Ανώτατο Δικαστήριο",
+      "variants": {
+        "englished": {
+          "abbrev": "Supreme Court"
+        },
+        "enIBFD": {
+          "abbrev": "SC [Supreme Court]"
+        }
+      }
+    },
+    "dc": {
+      "name": "Επαρχιακό Δικαστήριο",
+      "abbrev": "Επαρχιακό Δικαστήριο %s",
+      "variants": {
+          "englished": {
+          "abbrev": "%s District Court"
+        },
         "enIBFD": {
           "abbrev": "DC %s [District Court]"
         }
       }
     },
-    "fc": {
-      "name": "Δικαστήριο Έλεγχου Ενοικιάσεων"
-    },
     "assize": {
-      "name": "Κακουργιοδικεία"
+      "name": "Κακουργιοδικεία",
+      "abbrev": "Κακουργιοδικεία %s",
+      "variants": {
+        "englished": {
+          "abbrev": "%s Assizes"
+        }
+      }
     },
     "lc": {
-      "name": "Δικαστήριο Εργατικών Διάφορων"
+      "name": "Δικαστήριο Εργατικών Διάφορων",
+      "abbrev": "Δικαστήριο Εργατικών Διάφορων %s",
+      "variants": {
+        "englished": {
+          "abbrev": "%s Labor Court"
+        }
+      }
     },
     "rcc": {
-      "name": "Δικαστήριο Εργατικών Διάφορων"
-    },
-    "ac": {
-      "name": "Διοικητικό Δικαστήριο"
-    },
-    "afc": {
-      "name": "Δευτεροβάθμιο Οικογενειακό Δικαστήριο"
-    },
-    "fcrg": {
-      "name": "Οικογενειακά Δικαστήρια θρησκευτικών ομάδων"
-    },
-    "mc": {
-      "name": "Στρατιωτικό Δικαστήριο"
-    },
-    "sc": {
-      "name": "Ανώτατο Δικαστήριο",
+      "name": "Δικαστήριο Ελέγχου Ενοικίων",
+      "abbrev": "Δικαστήριο Ελέγχου Ενοικίων %s",
       "variants": {
-        "enIBFD": {
-          "abbrev": "SC [Supreme Court]"
+        "englished": {
+          "abbrev": "%s Rent Control Court"
         }
       }
     }
@@ -54,23 +115,39 @@
         "afc": {},
         "fcrg": {},
         "mc": {},
-        "sc": {}
+        "sc": {},
+        "asylum": {}
       }
     },
     "cy:famagusta": {
       "name": "Αμμοχώστου",
+      "variants": {
+        "englished": {
+          "abbrev": "Famagusta"
+        }
+      },
       "courts": {
         "dc": {}
       }
     },
     "cy:kyrenia": {
       "name": "Κερύνειας",
+      "variants": {
+        "englished": {
+          "abbrev": "Kyrenia"
+        }
+      },
       "courts": {
         "dc": {}
       }
     },
     "cy:larnaca": {
       "name": "Λάρνακας",
+      "variants": {
+        "englished": {
+          "abbrev": "Larnaka"
+        }
+      },
       "courts": {
         "assize": {},
         "dc": {},
@@ -80,12 +157,22 @@
     },
     "cy:larnaca.famagusta": {
       "name": "Λάρνακας-Αμμοχώστου",
+      "variants": {
+        "englished": {
+          "abbrev": "Larnaka-Famagusta"
+        }
+      },
       "courts": {
         "fc": {}
       }
     },
     "cy:limassol": {
       "name": "Λεμεσού",
+      "variants": {
+        "englished": {
+          "abbrev": "Limassol"
+        }
+      },
       "courts": {
         "assize": {},
         "dc": {},
@@ -95,12 +182,22 @@
     },
     "cy:limassol.paphos.": {
       "name": "Λεμεσού-Πάφου",
+      "variants": {
+        "englished": {
+          "abbrev": "Limassol-Paphos"
+        }
+      },
       "courts": {
         "fc": {}
       }
     },
     "cy:nicosia": {
       "name": "Λευκωσίας",
+      "variants": {
+        "englished": {
+          "abbrev": "Nicosia"
+        }
+      },
       "courts": {
         "assize": {},
         "dc": {},
@@ -110,12 +207,22 @@
     },
     "cy:nicosia.kyrenia": {
       "name": "Λευκωσίας-Κερύνειας",
+      "variants": {
+        "englished": {
+          "abbrev": "Nicosia-Kyrenia"
+        }
+      },
       "courts": {
         "fc": {}
       }
     },
     "cy:paphos": {
       "name": "Πάφου",
+      "variants": {
+        "englished": {
+          "abbrev": "Paphos"
+        }
+      },
       "courts": {
         "assize": {},
         "dc": {},

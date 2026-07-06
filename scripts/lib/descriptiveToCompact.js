@@ -195,7 +195,6 @@ const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 			console.log(`Writing ${pathName}`);
 			fs.writeFileSync(pathName, JSON.stringify(ret, null, 2));
 		}
-		// The DIRECTORY_LISTING file seems not to be used? How are abbrevs loaded anyhow?
 	}
 }
 
@@ -430,7 +429,7 @@ async function descriptiveToCompact(opts) {
 		processJurisAbbrevs(opts, jurisID, jurisDesc);
 		processJurisMap(opts, jurisID, jurisDesc);
 	}
-	// rewriteAbbrevsDirectoryListing();
+	rewriteAbbrevsDirectoryListing();
 }
 
 const rewriteAbbrevsDirectoryListing = () => {

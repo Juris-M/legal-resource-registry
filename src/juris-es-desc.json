@@ -80,8 +80,25 @@
 				}
 			}
 		},
+		"ji": {
+			"name": "Juzgado de lo Instruccion",
+			"abbrev": "Juzgado de Instrucction de %s"
+		},
+		"jca": {
+			"name": "Juzgado de lo Contencioso-Administrativo",
+			"abbrev": "Juzgado de lo Contencioso-Administrativo de %s"
+		},
+		
+		"js": {
+			"name": "Juzgado de lo Social",
+			"abbrev": "Juzgado de lo Social de %s"
+		},
+		"jp": {
+			"name": "Juzgado de lo Penal",
+			"abbrev": "Juzgado de lo Penal de %s"
+		},
 		"jpi": {
-			"name": "Juzgado de 1a Instancia",
+			"name": "Juzgado de la Instancia",
 			"abbrev": "Juzgado de 1ª Instancia de %s",
 			"ABBREV": "JPI %s"
 		},
@@ -111,6 +128,10 @@
 					"abbrev": "Central Military Court"
 				}
 			}
+		},
+		"tmt": {
+			"name": "Tribunal Militar Territorial",
+			"abbrev": "Tribunal Militar Territorial de %s"
 		}
 	},
 	"jurisdictions": {
@@ -128,17 +149,20 @@
 			}
 		},
 		"es:andalucia": {
-			"name": "Andalucia, Ceuta y Melilla",
+			"name": "Andalucia",
 			"abbrev": "Andalucía",
 			"courts": {
-				"tsj": {}
+				"tsj": {},
+				"tmt": {}
 			}
 		},
 		"es:andalucia:almeria": {
 			"name": "Almeria",
 			"abbrev": "Almería",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:andalucia:almeria:almeria": {
@@ -146,6 +170,7 @@
 			"abbrev": "Almería",
 			"courts": {
 				"jm": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -153,6 +178,7 @@
 			"name": "Berja",
 			"abbrev": "Berja",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -160,6 +186,8 @@
 			"name": "Purchena",
 			"abbrev": "Purchena",
 			"courts": {
+				"ji": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -167,6 +195,7 @@
 			"name": "Vera",
 			"abbrev": "Vera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -174,6 +203,7 @@
 			"name": "El Ejido",
 			"abbrev": "El Ejido",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -181,6 +211,7 @@
 			"name": "Roquetas de Mar",
 			"abbrev": "Roquetas de Mar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -188,6 +219,7 @@
 			"name": "Huercal Overa",
 			"abbrev": "Huercal Overa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -195,6 +227,7 @@
 			"name": "Velez Rubio",
 			"abbrev": "Vélez Rubio",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -202,13 +235,16 @@
 			"name": "Cadiz",
 			"abbrev": "Cádiz",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:andalucia:cadiz:algeciras": {
 			"name": "Algeciras",
 			"abbrev": "Algeciras",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -216,6 +252,7 @@
 			"name": "Jerez de la Frontera",
 			"abbrev": "Jeréz de la Frontera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -223,6 +260,7 @@
 			"name": "El puerto de Santa Maria",
 			"abbrev": "El puerto de Santa María",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -230,6 +268,7 @@
 			"name": "Arcos de la Frontera",
 			"abbrev": "Arcos de la Frontera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -237,6 +276,7 @@
 			"name": "Barbate",
 			"abbrev": "Barbate",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -244,6 +284,7 @@
 			"name": "Puerto Real",
 			"abbrev": "Puerto Real",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -251,6 +292,7 @@
 			"name": "San Roque",
 			"abbrev": "San Roque",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -258,6 +300,7 @@
 			"name": "Chiclana de la Frontera",
 			"abbrev": "Chiclana de la Frontera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -265,6 +308,7 @@
 			"name": "Rota",
 			"abbrev": "Rota",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -272,6 +316,7 @@
 			"name": "Sanlucar de Barrameda",
 			"abbrev": "Sanlúcar de Barrameda",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -279,6 +324,7 @@
 			"name": "La linea de la Concepcion",
 			"abbrev": "La línea de la Concepción",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -286,6 +332,7 @@
 			"name": "San Fernando",
 			"abbrev": "San Fernándo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -293,6 +340,7 @@
 			"name": "Ubrique",
 			"abbrev": "Ubrique",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -300,7 +348,9 @@
 			"name": "Cordoba",
 			"abbrev": "Córdoba",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:andalucia:cordoba:cordoba": {
@@ -308,6 +358,7 @@
 			"abbrev": "Córdoba",
 			"courts": {
 				"jm": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -315,6 +366,7 @@
 			"name": "Aguilar de la Frontera",
 			"abbrev": "Aguilar de la Frontera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -322,6 +374,7 @@
 			"name": "Lucena",
 			"abbrev": "Lucena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -329,6 +382,7 @@
 			"name": "Penarroya Pueblonuevo",
 			"abbrev": "Peñarroya Pueblonuevo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -336,6 +390,7 @@
 			"name": "Priego de Cordoba",
 			"abbrev": "Priego de Córdoba",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -343,6 +398,7 @@
 			"name": "Baena",
 			"abbrev": "Baena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -350,6 +406,7 @@
 			"name": "Montilla",
 			"abbrev": "Montilla",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -357,6 +414,7 @@
 			"name": "Posadas",
 			"abbrev": "Posadas",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -364,6 +422,7 @@
 			"name": "Puente Genil",
 			"abbrev": "Puente Genil",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -371,6 +430,7 @@
 			"name": "Cabra",
 			"abbrev": "Cabra",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -378,6 +438,7 @@
 			"name": "Montoro",
 			"abbrev": "Montoro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -385,6 +446,7 @@
 			"name": "Pozoblanco",
 			"abbrev": "Pozoblanco",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -392,7 +454,9 @@
 			"name": "Granada",
 			"abbrev": "Granada",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:andalucia:granada:granada": {
@@ -400,6 +464,7 @@
 			"abbrev": "Granada",
 			"courts": {
 				"jm": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -407,6 +472,7 @@
 			"name": "Motril",
 			"abbrev": "Motril",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -414,6 +480,7 @@
 			"name": "Almunecar",
 			"abbrev": "Almuñecar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -421,6 +488,7 @@
 			"name": "Baza",
 			"abbrev": "Baza",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -428,6 +496,7 @@
 			"name": "Loja",
 			"abbrev": "Loja",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -435,6 +504,7 @@
 			"name": "Guadix",
 			"abbrev": "Guadix",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -442,6 +512,7 @@
 			"name": "Orgiva",
 			"abbrev": "Orgiva",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -449,6 +520,7 @@
 			"name": "Huescar",
 			"abbrev": "Huéscar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -456,6 +528,7 @@
 			"name": "Santa Fe",
 			"abbrev": "Santa Fé",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -463,13 +536,16 @@
 			"name": "Huelva",
 			"abbrev": "Huelva",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:andalucia:huelva:huelva": {
 			"name": "Huelva",
 			"abbrev": "Huelva",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -477,6 +553,7 @@
 			"name": "Aracena",
 			"abbrev": "Aracena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -484,6 +561,7 @@
 			"name": "Moguer",
 			"abbrev": "Moguer",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -491,6 +569,7 @@
 			"name": "Ayamonte",
 			"abbrev": "Ayamonte",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -498,6 +577,7 @@
 			"name": "Valverde del Camino",
 			"abbrev": "Valverde del Camino",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -505,6 +585,7 @@
 			"name": "La Palma del Condado",
 			"abbrev": "La Palma del Condado",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -512,13 +593,16 @@
 			"name": "Jaen",
 			"abbrev": "Jaén",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:andalucia:jaen:jaen": {
 			"name": "Jaen",
 			"abbrev": "Jaén",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -526,6 +610,7 @@
 			"name": "Alcala la Real",
 			"abbrev": "Alcalá la Real",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -533,6 +618,7 @@
 			"name": "Cazorla",
 			"abbrev": "Cazorla",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -540,6 +626,7 @@
 			"name": "Martos",
 			"abbrev": "Martos",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -547,6 +634,7 @@
 			"name": "Andujar",
 			"abbrev": "Andújar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -554,6 +642,7 @@
 			"name": "La Carolina",
 			"abbrev": "La Carolina",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -561,6 +650,7 @@
 			"name": "Ubeda ",
 			"abbrev": "Úbeda ",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -568,6 +658,7 @@
 			"name": "Baeza",
 			"abbrev": "Baeza",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -575,6 +666,7 @@
 			"name": "Linares",
 			"abbrev": "Linares",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -582,6 +674,7 @@
 			"name": "Villacarrillo ",
 			"abbrev": "Villacarrillo ",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -589,7 +682,9 @@
 			"name": "Malaga",
 			"abbrev": "Málaga",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:andalucia:malaga:malaga": {
@@ -597,6 +692,7 @@
 			"abbrev": "Málaga",
 			"courts": {
 				"jm": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -604,6 +700,7 @@
 			"name": "Fuengirola",
 			"abbrev": "Fuengirola",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -611,6 +708,7 @@
 			"name": "Marbella",
 			"abbrev": "Marbella",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -618,6 +716,7 @@
 			"name": "Torremolinos",
 			"abbrev": "Torremolinos",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -625,6 +724,7 @@
 			"name": "Antequerra",
 			"abbrev": "Antequerra",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -632,6 +732,7 @@
 			"name": "Estepona",
 			"abbrev": "Estepona",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -639,6 +740,7 @@
 			"name": "Velez Malaga",
 			"abbrev": "Vélez Málaga",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -646,6 +748,7 @@
 			"name": "Archidona",
 			"abbrev": "Archidona",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -653,6 +756,7 @@
 			"name": "Ronda",
 			"abbrev": "Ronda",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -660,6 +764,7 @@
 			"name": "Coin",
 			"abbrev": "Coín",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -667,6 +772,7 @@
 			"name": "Torrox",
 			"abbrev": "Torrox",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -674,7 +780,9 @@
 			"name": "Sevilla",
 			"abbrev": "Sevilla",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:andalucia:sevilla:sevilla": {
@@ -682,6 +790,7 @@
 			"abbrev": "Sevilla",
 			"courts": {
 				"jm": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -689,6 +798,7 @@
 			"name": "Alcala de Guadaira",
 			"abbrev": "Alcalá de Guadaíra",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -696,6 +806,7 @@
 			"name": "Coria del Rio",
 			"abbrev": "Coria del Río",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -703,6 +814,7 @@
 			"name": "Carmona",
 			"abbrev": "Carmona",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -710,6 +822,7 @@
 			"name": "Dos Hermanas",
 			"abbrev": "Dos Hermanas",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -717,6 +830,7 @@
 			"name": "Cazalla de la Sierra",
 			"abbrev": "Cazalla de la Sierra",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -724,6 +838,7 @@
 			"name": "Ezija",
 			"abbrev": "Ézija",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -731,6 +846,7 @@
 			"name": "Estepa",
 			"abbrev": "Estepa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -738,6 +854,7 @@
 			"name": "Marchena",
 			"abbrev": "Marchena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -745,6 +862,7 @@
 			"name": "Sanlucar la Mayor",
 			"abbrev": "Sanlúcar la Mayor",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -752,6 +870,7 @@
 			"name": "Lebrija",
 			"abbrev": "Lebrija",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -759,6 +878,7 @@
 			"name": "Moron de la Frontera",
 			"abbrev": "Morón de la Frontera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -766,6 +886,7 @@
 			"name": "Utrera",
 			"abbrev": "Utrera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -773,6 +894,7 @@
 			"name": "Lora del Rio",
 			"abbrev": "Lora del Río",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -780,6 +902,7 @@
 			"name": "Ceuta",
 			"abbrev": "Ceuta",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -787,6 +910,7 @@
 			"name": "Melilla",
 			"abbrev": "Melilla",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -801,13 +925,16 @@
 			"name": "Huesca",
 			"abbrev": "Huesca",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:zaragoza:huesca:huesca": {
 			"name": "Huesca",
 			"abbrev": "Huesca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -815,6 +942,7 @@
 			"name": "Barbastro",
 			"abbrev": "Barbastro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -822,6 +950,7 @@
 			"name": "Jaca",
 			"abbrev": "Jaca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -829,6 +958,7 @@
 			"name": "Boltana",
 			"abbrev": "Boltaña",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -836,6 +966,7 @@
 			"name": "Monzon",
 			"abbrev": "Monzón",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -843,6 +974,7 @@
 			"name": "Fraga",
 			"abbrev": "Fraga",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -850,13 +982,16 @@
 			"name": "Teruel",
 			"abbrev": "Teruel",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:zaragoza:teruel:teruel": {
 			"name": "Teruel",
 			"abbrev": "Teruel",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -864,6 +999,7 @@
 			"name": "Alcaniz",
 			"abbrev": "Alcañiz",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -871,6 +1007,7 @@
 			"name": "Calamocha",
 			"abbrev": "Calamocha",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -878,7 +1015,9 @@
 			"name": "Zaragoza",
 			"abbrev": "Zaragoza",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:zaragoza:zaragoza:zaragoza": {
@@ -886,6 +1025,7 @@
 			"abbrev": "Zaragoza",
 			"courts": {
 				"jm": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -893,6 +1033,7 @@
 			"name": "Calatayud",
 			"abbrev": "Calatayud",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -900,6 +1041,7 @@
 			"name": "Ejea de los Caballeros",
 			"abbrev": "Ejea de los Caballeros",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -907,6 +1049,7 @@
 			"name": "Caspe",
 			"abbrev": "Caspe",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -914,6 +1057,7 @@
 			"name": "La Almunia de Dona Godina",
 			"abbrev": "La Almunia de Doña Godina",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -921,6 +1065,7 @@
 			"name": "Daroca",
 			"abbrev": "Daroca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -928,6 +1073,7 @@
 			"name": "Tarazona",
 			"abbrev": "Tarazona",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -942,7 +1088,9 @@
 			"name": "Oviedo",
 			"abbrev": "Oviedo",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:asturias:oviedo:oviedo": {
@@ -950,6 +1098,7 @@
 			"abbrev": "Oviedo",
 			"courts": {
 				"jm": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -957,6 +1106,7 @@
 			"name": "Gijon",
 			"abbrev": "Gijón",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -964,6 +1114,7 @@
 			"name": "Aviles",
 			"abbrev": "Avilés",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -971,6 +1122,7 @@
 			"name": "Langreo",
 			"abbrev": "Langreo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -978,6 +1130,7 @@
 			"name": "Mieres",
 			"abbrev": "Mieres",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -985,6 +1138,7 @@
 			"name": "Cangas de Onis",
 			"abbrev": "Cangas de Onís",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -992,6 +1146,7 @@
 			"name": "Grado",
 			"abbrev": "Grado",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -999,6 +1154,7 @@
 			"name": "Llanes",
 			"abbrev": "Llanes",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1006,6 +1162,7 @@
 			"name": "Siero",
 			"abbrev": "Siero",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1013,6 +1170,7 @@
 			"name": "Villaviciosa",
 			"abbrev": "Villaviciosa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1020,6 +1178,7 @@
 			"name": "Cangas del Narcea",
 			"abbrev": "Cangas del Narcea",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1027,6 +1186,7 @@
 			"name": "Laviana",
 			"abbrev": "Laviana",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1034,6 +1194,7 @@
 			"name": "Pilona",
 			"abbrev": "Piloña",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1041,6 +1202,7 @@
 			"name": "Tineo",
 			"abbrev": "Tineo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1048,6 +1210,7 @@
 			"name": "Castropol",
 			"abbrev": "Castropol",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1055,6 +1218,7 @@
 			"name": "Lena",
 			"abbrev": "Lena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1062,6 +1226,7 @@
 			"name": "Pravia",
 			"abbrev": "Pravia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1069,6 +1234,7 @@
 			"name": "Valdes",
 			"abbrev": "Valdés",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1077,7 +1243,9 @@
 			"abbrev": "Islas Baleares",
 			"courts": {
 				"tsj": {},
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:islas.baleares:palma.mallorca": {
@@ -1085,6 +1253,8 @@
 			"abbrev": "Palma de Mallorca",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1092,6 +1262,7 @@
 			"name": "Eivissa",
 			"abbrev": "Eivissa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1099,6 +1270,7 @@
 			"name": "Ciutadella de Menorca",
 			"abbrev": "Ciutadella de Menorca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1106,6 +1278,7 @@
 			"name": "Inca",
 			"abbrev": "Inca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1113,6 +1286,7 @@
 			"name": "Manacor",
 			"abbrev": "Manacor",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1120,6 +1294,7 @@
 			"name": "Mao-Mahon",
 			"abbrev": "Maó-Mahón",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1127,14 +1302,17 @@
 			"name": "Canarias",
 			"abbrev": "Canarias",
 			"courts": {
-				"tsj": {}
+				"tsj": {},
+				"tmt": {}
 			}
 		},
 		"es:canarias:palmas": {
 			"name": "Las Palmas",
 			"abbrev": "Las Palmas",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:canarias:palmas:palmas": {
@@ -1142,6 +1320,8 @@
 			"abbrev": "Las Palmas",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1149,6 +1329,7 @@
 			"name": "Arrecife",
 			"abbrev": "Arrecife",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1156,6 +1337,7 @@
 			"name": "Telde",
 			"abbrev": "Telde",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1163,6 +1345,7 @@
 			"name": "Puerto del Rosario",
 			"abbrev": "Puerto del Rosario",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1170,6 +1353,7 @@
 			"name": "San Bartolome de Tirajana",
 			"abbrev": "San Bartolomé de Tirajana",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1177,6 +1361,7 @@
 			"name": "Galdar",
 			"abbrev": "Gáldar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1184,6 +1369,7 @@
 			"name": "Santa Maria de Guia de Gran Canaria",
 			"abbrev": "Santa María de Guía de Gran Canaria",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1191,6 +1377,7 @@
 			"name": "Arucas",
 			"abbrev": "Arucas",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1198,7 +1385,9 @@
 			"name": "Santa Cruz de Tenerife",
 			"abbrev": "Santa Cruz de Tenerife",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:canarias:santa.cruz.tenerife:santa.cruz.tenerife": {
@@ -1206,6 +1395,8 @@
 			"abbrev": "Santa Cruz de Tenerife",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1213,6 +1404,7 @@
 			"name": "Arona",
 			"abbrev": "Arona",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1220,6 +1412,7 @@
 			"name": "San Cristobal de La Laguna",
 			"abbrev": "San Cristóbal de La Laguna",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1227,6 +1420,7 @@
 			"name": "Granadilla de Abona",
 			"abbrev": "Granadilla de Abona",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1234,6 +1428,7 @@
 			"name": "Guimar",
 			"abbrev": "Güimar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1241,6 +1436,7 @@
 			"name": "Icod de los Vinos",
 			"abbrev": "Icod de los Vinos",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1248,6 +1444,7 @@
 			"name": "La Orotafa",
 			"abbrev": "La Orotafa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1255,6 +1452,7 @@
 			"name": "Los Llanos de Aridane",
 			"abbrev": "Los Llanos de Aridane",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1262,6 +1460,7 @@
 			"name": "Puerto de la Cruz",
 			"abbrev": "Puerto de la Cruz",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1269,6 +1468,7 @@
 			"name": "San Sebastian de La Gomera",
 			"abbrev": "San Sebastián de La Gomera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1276,6 +1476,7 @@
 			"name": "Valverde",
 			"abbrev": "Valverde",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1290,7 +1491,9 @@
 			"name": "Santander",
 			"abbrev": "Santander",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:cantabria:santander:santander": {
@@ -1298,6 +1501,8 @@
 			"abbrev": "Santander",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1305,6 +1510,7 @@
 			"name": "Castro Urdiales",
 			"abbrev": "Castro Urdiales",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1312,6 +1518,7 @@
 			"name": "Reinosa",
 			"abbrev": "Reinosa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1319,6 +1526,7 @@
 			"name": "Torrelavega",
 			"abbrev": "Torrelavega",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1326,6 +1534,7 @@
 			"name": "Laredo",
 			"abbrev": "Laredo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1333,6 +1542,7 @@
 			"name": "San Vicente de la Barquera",
 			"abbrev": "San Vicente de la Barquera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1340,6 +1550,7 @@
 			"name": "Medio Cudeyo",
 			"abbrev": "Medio Cudeyo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1347,6 +1558,7 @@
 			"name": "Santona",
 			"abbrev": "Santoña",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1361,13 +1573,16 @@
 			"name": "Avila",
 			"abbrev": "Ávila",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:avila:arenas.san.pedro": {
 			"name": "Arenas de San Pedro",
 			"abbrev": "Arenas de San Pedro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1375,6 +1590,7 @@
 			"name": "Arevalo",
 			"abbrev": "Arévalo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1382,6 +1598,7 @@
 			"name": "Piedrahita",
 			"abbrev": "Piedrahita",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1389,7 +1606,9 @@
 			"name": "Burgos",
 			"abbrev": "Burgos",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:burgos:burgos": {
@@ -1397,6 +1616,8 @@
 			"abbrev": "Burgos",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1404,6 +1625,7 @@
 			"name": "Aranda de Duero",
 			"abbrev": "Aranda de Duero",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1411,6 +1633,7 @@
 			"name": "Miranda de Ebro",
 			"abbrev": "Miranda de Ebro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1418,6 +1641,7 @@
 			"name": "Briviesca",
 			"abbrev": "Briviesca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1425,6 +1649,7 @@
 			"name": "Salas de los Infantes",
 			"abbrev": "Salas de los Infantes",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1432,6 +1657,7 @@
 			"name": "Lerma",
 			"abbrev": "Lerma",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1439,6 +1665,7 @@
 			"name": "Villarcayo",
 			"abbrev": "Villarcayo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1446,13 +1673,16 @@
 			"name": "Leon",
 			"abbrev": "León",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:leon:leon": {
 			"name": "Leon",
 			"abbrev": "León",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1460,6 +1690,7 @@
 			"name": "Ponferrada",
 			"abbrev": "Ponferrada",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1467,6 +1698,7 @@
 			"name": "Astorga",
 			"abbrev": "Astorga",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1474,6 +1706,7 @@
 			"name": "Sahagun",
 			"abbrev": "Sahagún",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1481,6 +1714,7 @@
 			"name": "Cistierna",
 			"abbrev": "Cistierna",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1488,6 +1722,7 @@
 			"name": "Villablino",
 			"abbrev": "Villablino",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1495,6 +1730,7 @@
 			"name": "La Baneza",
 			"abbrev": "La Bañeza",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1502,13 +1738,16 @@
 			"name": "Palencia",
 			"abbrev": "Palencia",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:palencia:palencia": {
 			"name": "Palencia",
 			"abbrev": "Palencia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1516,6 +1755,7 @@
 			"name": "Carrion de los Condes",
 			"abbrev": "Carrión de los Condes",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1523,6 +1763,7 @@
 			"name": "Cervera de Pisuerga",
 			"abbrev": "Cervera de Pisuerga",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1530,13 +1771,16 @@
 			"name": "Salamanca",
 			"abbrev": "Salamanca",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:salamanca:salamanca": {
 			"name": "Salamanca",
 			"abbrev": "Salamanca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1544,6 +1788,7 @@
 			"name": "Bejar",
 			"abbrev": "Béjar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1551,6 +1796,7 @@
 			"name": "Penaranda de Bracamonte",
 			"abbrev": "Peñaranda de Bracamonte",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1558,6 +1804,7 @@
 			"name": "Ciudad Rodrigo",
 			"abbrev": "Ciudad Rodrigo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1565,6 +1812,7 @@
 			"name": "Vitigudino",
 			"abbrev": "Vitigudino",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1572,13 +1820,16 @@
 			"name": "Segovia",
 			"abbrev": "Segovia",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:segovia:segovia": {
 			"name": "Segovia",
 			"abbrev": "Segovia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1586,6 +1837,7 @@
 			"name": "Cuellar",
 			"abbrev": "Cuéllar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1593,6 +1845,7 @@
 			"name": "Santa Maria la Real de Nieva",
 			"abbrev": "Santa María la Real de Nieva",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1600,6 +1853,7 @@
 			"name": "Sepulveda",
 			"abbrev": "Sepúlveda",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1607,13 +1861,16 @@
 			"name": "Soria",
 			"abbrev": "Soria",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:soria:soria": {
 			"name": "Soria",
 			"abbrev": "Soria",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1621,6 +1878,7 @@
 			"name": "Almazan",
 			"abbrev": "Almazán",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1628,6 +1886,7 @@
 			"name": "Burgo de Osma",
 			"abbrev": "Burgo de Osma",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1635,7 +1894,9 @@
 			"name": "Valladolid",
 			"abbrev": "Valladolid",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:valladolid:valladolid": {
@@ -1643,6 +1904,8 @@
 			"abbrev": "Valladolid",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1650,6 +1913,7 @@
 			"name": "Medina de Rioseco",
 			"abbrev": "Medina de Ríoseco",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1657,6 +1921,7 @@
 			"name": "Medina del campo",
 			"abbrev": "Medina del campo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1664,13 +1929,16 @@
 			"name": "Zamora",
 			"abbrev": "Zamora",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.y.leon:zamora:zamora": {
 			"name": "Zamora",
 			"abbrev": "Zamora",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1678,6 +1946,7 @@
 			"name": "Benavente",
 			"abbrev": "Benavente",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1685,6 +1954,7 @@
 			"name": "Toro",
 			"abbrev": "Toro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1692,6 +1962,7 @@
 			"name": "Puebla de Sanabria",
 			"abbrev": "Puebla de Sanabria",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1699,6 +1970,7 @@
 			"name": "Villalpando",
 			"abbrev": "Villalpando",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1713,13 +1985,16 @@
 			"name": "Albacete",
 			"abbrev": "Albacete",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.la.mancha:albacete:albacete": {
 			"name": "Albacete",
 			"abbrev": "Albacete",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1727,6 +2002,7 @@
 			"name": "Alcaraz",
 			"abbrev": "Alcaraz",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1734,6 +2010,7 @@
 			"name": "Hellin",
 			"abbrev": "Hellín",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1741,6 +2018,7 @@
 			"name": "Almansa",
 			"abbrev": "Almansa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1748,6 +2026,7 @@
 			"name": "La Roda",
 			"abbrev": "La Roda",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1755,6 +2034,7 @@
 			"name": "Casas-Ibanez",
 			"abbrev": "Casas-Ibáñez",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1762,6 +2042,7 @@
 			"name": "Villarrobledo",
 			"abbrev": "Villarrobledo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1769,13 +2050,16 @@
 			"name": "Ciudad Real",
 			"abbrev": "Ciudad Real",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.la.mancha:ciudad.real:ciudad.real": {
 			"name": "Ciudad Real",
 			"abbrev": "Ciudad Real",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1783,6 +2067,7 @@
 			"name": "Alcazar de San Juan",
 			"abbrev": "Alcázar de San Juan",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1790,6 +2075,7 @@
 			"name": "Daimiel",
 			"abbrev": "Daimiel",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1797,6 +2083,7 @@
 			"name": "Tomelloso",
 			"abbrev": "Tomelloso",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1804,6 +2091,7 @@
 			"name": "Almaden",
 			"abbrev": "Almadén",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1811,6 +2099,7 @@
 			"name": "Manzanares",
 			"abbrev": "Manzanares",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1818,6 +2107,7 @@
 			"name": "Valdepenas",
 			"abbrev": "Valdepeñas",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1825,6 +2115,7 @@
 			"name": "Almagro",
 			"abbrev": "Almagro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1832,6 +2123,7 @@
 			"name": "Puertollano",
 			"abbrev": "Puertollano",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1839,6 +2131,7 @@
 			"name": "Villanueva de los Infantes",
 			"abbrev": "Villanueva de los Infantes",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1846,13 +2139,16 @@
 			"name": "Cuenca",
 			"abbrev": "Cuenca",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.la.mancha:cuenca:cuenca": {
 			"name": "Cuenca",
 			"abbrev": "Cuenca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1860,6 +2156,7 @@
 			"name": "Motilla del Palancar",
 			"abbrev": "Motilla del Palancar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1867,6 +2164,7 @@
 			"name": "San Clemente",
 			"abbrev": "San Clemente",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1874,6 +2172,7 @@
 			"name": "Tarancon",
 			"abbrev": "Tarancón",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1881,13 +2180,16 @@
 			"name": "Guadalaraja",
 			"abbrev": "Guadalaraja",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.la.mancha:guadalaraja:guadalaraja": {
 			"name": "Guadalaraja",
 			"abbrev": "Guadalaraja",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1895,6 +2197,7 @@
 			"name": "Molina de Aragon",
 			"abbrev": "Molina de Aragón",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1902,6 +2205,7 @@
 			"name": "Siguenza",
 			"abbrev": "Sigüenza",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1909,13 +2213,16 @@
 			"name": "Toledo",
 			"abbrev": "Toledo",
 			"courts": {
-				"ap": {}
+				"jca": {},
+				"ap": {},
+				"jp": {}
 			}
 		},
 		"es:castilla.la.mancha:toledo:toledo": {
 			"name": "Toledo",
 			"abbrev": "Toledo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1923,6 +2230,7 @@
 			"name": "Talavera de la Reina",
 			"abbrev": "Talavera de la Reina",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1930,6 +2238,7 @@
 			"name": "Ocana",
 			"abbrev": "Ocaña",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1937,6 +2246,7 @@
 			"name": "Illescas",
 			"abbrev": "Illescas",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1944,6 +2254,7 @@
 			"name": "Quintanar de la Orden",
 			"abbrev": "Quintanar de la Orden",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1951,6 +2262,7 @@
 			"name": "Orgaz",
 			"abbrev": "Orgaz",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1958,6 +2270,7 @@
 			"name": "Torrijos",
 			"abbrev": "Torrijos",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1965,13 +2278,15 @@
 			"name": "Cataluna",
 			"abbrev": "Cataluña",
 			"courts": {
-				"tsj": {}
+				"tsj": {},
+				"tmt": {}
 			}
 		},
 		"es:cataluna:barcelona": {
 			"name": "Barcelona",
 			"abbrev": "Barcelona",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -1980,6 +2295,9 @@
 			"abbrev": "Barcelona",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
+				"jp": {},
 				"jpi": {}
 			}
 		},
@@ -1987,6 +2305,7 @@
 			"name": "Granollers",
 			"abbrev": "Granollers",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -1994,6 +2313,7 @@
 			"name": "Mataro",
 			"abbrev": "Mataró",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2001,6 +2321,7 @@
 			"name": "Sabadell",
 			"abbrev": "Sabadell",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2008,6 +2329,7 @@
 			"name": "Terrassa",
 			"abbrev": "Terrassa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2015,6 +2337,7 @@
 			"name": "Manresa",
 			"abbrev": "Manresa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2022,6 +2345,7 @@
 			"name": "Badalona",
 			"abbrev": "Badalona",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2029,6 +2353,7 @@
 			"name": "Hospitalet de Llobregat",
 			"abbrev": "Hospitalet de Llobregat",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2036,6 +2361,7 @@
 			"name": "Arenys de Mar",
 			"abbrev": "Arenys de Mar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2043,6 +2369,7 @@
 			"name": "Vilanova i la Geltru",
 			"abbrev": "Vilanova i la Geltrú",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2050,6 +2377,7 @@
 			"name": "San Feliu de Llobregat",
 			"abbrev": "San Feliú de Llobregat",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2057,6 +2385,7 @@
 			"name": "Gava",
 			"abbrev": "Gavà",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2064,6 +2393,7 @@
 			"name": "Berga",
 			"abbrev": "Berga",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2071,6 +2401,7 @@
 			"name": "Cerdanyola del Valles",
 			"abbrev": "Cerdanyola del Vallès",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2078,6 +2409,7 @@
 			"name": "Cornella de Llobregat",
 			"abbrev": "Cornellá de Llobregat",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2085,6 +2417,7 @@
 			"name": "El Prat de Llobregat",
 			"abbrev": "El Prat de Llobregat",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2092,6 +2425,7 @@
 			"name": "Martorell",
 			"abbrev": "Martorell",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2099,6 +2433,7 @@
 			"name": "Sant Boi de Llobregat",
 			"abbrev": "Sant Boi de Llobregat",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2106,6 +2441,7 @@
 			"name": "Vilafranca del Penedes",
 			"abbrev": "Vilafranca del Penedés",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2113,6 +2449,7 @@
 			"name": "Esplugues de Llobregat",
 			"abbrev": "Esplugues de Llobregat",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2120,6 +2457,7 @@
 			"name": "Mollet del Valles",
 			"abbrev": "Mollet del Vallés",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2127,6 +2465,7 @@
 			"name": "Santa Coloma de Gramanet",
 			"abbrev": "Santa Coloma de Gramanet",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2134,6 +2473,7 @@
 			"name": "Igualada",
 			"abbrev": "Igualada",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2141,6 +2481,7 @@
 			"name": "Rubi",
 			"abbrev": "Rubí",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2148,6 +2489,7 @@
 			"name": "Vic",
 			"abbrev": "Vic",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2155,6 +2497,7 @@
 			"name": "Girona",
 			"abbrev": "Girona",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2163,6 +2506,8 @@
 			"abbrev": "Girona",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2170,6 +2515,7 @@
 			"name": "Figueres",
 			"abbrev": "Figueres",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2177,6 +2523,7 @@
 			"name": "Blanes",
 			"abbrev": "Blanes",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2184,6 +2531,7 @@
 			"name": "La Bisbal d'Emporda",
 			"abbrev": "La Bisbal d'Empordà",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2191,6 +2539,7 @@
 			"name": "Ripoll",
 			"abbrev": "Ripoll",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2198,6 +2547,7 @@
 			"name": "Olot",
 			"abbrev": "Olot",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2205,6 +2555,7 @@
 			"name": "Sant Feliu de Guixols",
 			"abbrev": "Sant Feliu de Guíxols",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2212,6 +2563,7 @@
 			"name": "Puigcerda",
 			"abbrev": "Puigcerdá",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2219,6 +2571,7 @@
 			"name": "Santa Coloma de Farners",
 			"abbrev": "Santa Coloma de Farners",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2226,6 +2579,7 @@
 			"name": "Lleida",
 			"abbrev": "Lleida",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2233,6 +2587,7 @@
 			"name": "Lleida",
 			"abbrev": "Lleida",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2240,6 +2595,7 @@
 			"name": "Balaguer",
 			"abbrev": "Balaguer",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2247,6 +2603,7 @@
 			"name": "Solsona",
 			"abbrev": "Solsona",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2254,6 +2611,7 @@
 			"name": "Cervera",
 			"abbrev": "Cervera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2261,6 +2619,7 @@
 			"name": "Tremp",
 			"abbrev": "Tremp",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2268,6 +2627,7 @@
 			"name": "La Seu d'Urgell",
 			"abbrev": "La Seu d'Urgell",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2275,6 +2635,7 @@
 			"name": "Vielha e Mijaran",
 			"abbrev": "Vielha e Mijaran",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2282,6 +2643,7 @@
 			"name": "Tarragona",
 			"abbrev": "Tarragona",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2290,6 +2652,8 @@
 			"abbrev": "Tarragona",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2297,6 +2661,7 @@
 			"name": "Reus",
 			"abbrev": "Reus",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2304,6 +2669,7 @@
 			"name": "Tortosa",
 			"abbrev": "Tortosa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2311,6 +2677,7 @@
 			"name": "El Vendrell",
 			"abbrev": "El Vendrell",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2318,6 +2685,7 @@
 			"name": "Amposta",
 			"abbrev": "Amposta",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2325,6 +2693,7 @@
 			"name": "Falset",
 			"abbrev": "Falset",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2332,6 +2701,7 @@
 			"name": "Gandesa",
 			"abbrev": "Gandesa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2339,6 +2709,7 @@
 			"name": "Valls",
 			"abbrev": "Valls",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2353,6 +2724,7 @@
 			"name": "Alicante",
 			"abbrev": "Alicante",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2361,6 +2733,8 @@
 			"abbrev": "Alicante",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2368,6 +2742,7 @@
 			"name": "Elche",
 			"abbrev": "Elche",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2375,6 +2750,7 @@
 			"name": "Benidorm",
 			"abbrev": "Benidorm",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2382,6 +2758,7 @@
 			"name": "Orihuela",
 			"abbrev": "Orihuela",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2389,6 +2766,7 @@
 			"name": "Torrevieja",
 			"abbrev": "Torrevieja",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2396,6 +2774,7 @@
 			"name": "Denia",
 			"abbrev": "Denia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2403,6 +2782,7 @@
 			"name": "Villena",
 			"abbrev": "Villena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2410,6 +2790,7 @@
 			"name": "Alcoy",
 			"abbrev": "Alcoy",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2417,6 +2798,7 @@
 			"name": "Novelda",
 			"abbrev": "Novelda",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2424,6 +2806,7 @@
 			"name": "Elda",
 			"abbrev": "Elda",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2431,6 +2814,7 @@
 			"name": "San Vicente del Raspeig",
 			"abbrev": "San Vicente del Raspeig",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2438,6 +2822,7 @@
 			"name": "Ibi",
 			"abbrev": "Ibi",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2445,6 +2830,7 @@
 			"name": "Villajoyosa",
 			"abbrev": "Villajoyosa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2452,6 +2838,7 @@
 			"name": "Castellon",
 			"abbrev": "Castellón",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2460,6 +2847,8 @@
 			"abbrev": "Castellón",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2467,6 +2856,7 @@
 			"name": "Vila-real",
 			"abbrev": "Vila-real",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2474,6 +2864,7 @@
 			"name": "Vinaros",
 			"abbrev": "Vinarós",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2481,6 +2872,7 @@
 			"name": "Nules",
 			"abbrev": "Nules",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2488,6 +2880,7 @@
 			"name": "Segorbe",
 			"abbrev": "Segorbe",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2495,6 +2888,7 @@
 			"name": "Valencia",
 			"abbrev": "Valencia",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2503,6 +2897,8 @@
 			"abbrev": "Valencia",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2510,6 +2906,7 @@
 			"name": "Gandia",
 			"abbrev": "Gandía",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2517,6 +2914,7 @@
 			"name": "Torrent",
 			"abbrev": "Torrent",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2524,6 +2922,7 @@
 			"name": "Paterna",
 			"abbrev": "Paterna",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2531,6 +2930,7 @@
 			"name": "Alzira",
 			"abbrev": "Alzira",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2538,6 +2938,7 @@
 			"name": "Lliria",
 			"abbrev": "Llíria",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2545,6 +2946,7 @@
 			"name": "Moncada",
 			"abbrev": "Moncada",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2552,6 +2954,7 @@
 			"name": "Quart de Poblet",
 			"abbrev": "Quart de Poblet",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2559,6 +2962,7 @@
 			"name": "Sueca",
 			"abbrev": "Sueca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2566,6 +2970,7 @@
 			"name": "Carlet",
 			"abbrev": "Carlet",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2573,6 +2978,7 @@
 			"name": "Massamagrell",
 			"abbrev": "Massamagrell",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2580,6 +2986,7 @@
 			"name": "Ontinyent",
 			"abbrev": "Ontinyent",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2587,6 +2994,7 @@
 			"name": "Requena",
 			"abbrev": "Requena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2594,6 +3002,7 @@
 			"name": "Xativa",
 			"abbrev": "Xátiva",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2601,6 +3010,7 @@
 			"name": "Catarroja",
 			"abbrev": "Catarroja",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2608,6 +3018,7 @@
 			"name": "Mislata",
 			"abbrev": "Mislata",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2615,6 +3026,7 @@
 			"name": "Picassent",
 			"abbrev": "Picassent",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2622,6 +3034,7 @@
 			"name": "Sagunto",
 			"abbrev": "Sagunto",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2636,6 +3049,7 @@
 			"name": "Badajoz",
 			"abbrev": "Badajoz",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2644,6 +3058,8 @@
 			"abbrev": "Badajoz",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2651,6 +3067,7 @@
 			"name": "Merida",
 			"abbrev": "Mérida",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2658,6 +3075,7 @@
 			"name": "Don Benito",
 			"abbrev": "Don Benito",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2665,6 +3083,7 @@
 			"name": "Almendralejo",
 			"abbrev": "Almendralejo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2672,6 +3091,7 @@
 			"name": "Herrera del Duque",
 			"abbrev": "Herrera del Duque",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2679,6 +3099,7 @@
 			"name": "Montijo",
 			"abbrev": "Montijo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2686,6 +3107,7 @@
 			"name": "Villanueva de la Serena",
 			"abbrev": "Villanueva de la Serena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2693,6 +3115,7 @@
 			"name": "Castuera",
 			"abbrev": "Castuera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2700,6 +3123,7 @@
 			"name": "Jerez de los Caballeros",
 			"abbrev": "Jerez de los Caballeros",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2707,6 +3131,7 @@
 			"name": "Olivenza",
 			"abbrev": "Olivenza",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2714,6 +3139,7 @@
 			"name": "Zafra",
 			"abbrev": "Zafra",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2721,6 +3147,7 @@
 			"name": "Fregenal de la Sierra",
 			"abbrev": "Fregenal de la Sierra",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2728,6 +3155,7 @@
 			"name": "Llerena",
 			"abbrev": "Llerena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2735,6 +3163,7 @@
 			"name": "Villafranca de los Barros",
 			"abbrev": "Villafranca de los Barros",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2742,6 +3171,7 @@
 			"name": "Caceres",
 			"abbrev": "Cáceres",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2749,6 +3179,7 @@
 			"name": "Caceres",
 			"abbrev": "Cáceres",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2756,6 +3187,7 @@
 			"name": "Plasencia",
 			"abbrev": "Plasencia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2763,6 +3195,7 @@
 			"name": "Coria",
 			"abbrev": "Coria",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2770,6 +3203,7 @@
 			"name": "Trujillo",
 			"abbrev": "Trujillo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2777,6 +3211,7 @@
 			"name": "Logrosan",
 			"abbrev": "Logrosán",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2784,6 +3219,7 @@
 			"name": "Valencia de Alcantara",
 			"abbrev": "Valencia de Alcántara",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2791,6 +3227,7 @@
 			"name": "Navalmoral de la Mata",
 			"abbrev": "Navalmoral de la Mata",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2798,13 +3235,15 @@
 			"name": "Galicia",
 			"abbrev": "Galicia",
 			"courts": {
-				"tsj": {}
+				"tsj": {},
+				"tmt": {}
 			}
 		},
 		"es:galicia:coruna": {
 			"name": "A Coruna",
 			"abbrev": "A Coruña",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2813,6 +3252,8 @@
 			"abbrev": "A Coruña",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2820,6 +3261,7 @@
 			"name": "Santiago de Compostela",
 			"abbrev": "Santiago de Compostela",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2827,6 +3269,7 @@
 			"name": "Ferrol",
 			"abbrev": "Ferrol",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2834,6 +3277,7 @@
 			"name": "Arzua",
 			"abbrev": "Arzua",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2841,6 +3285,7 @@
 			"name": "Corcubion",
 			"abbrev": "Corcubión",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2848,6 +3293,7 @@
 			"name": "Noia",
 			"abbrev": "Noia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2855,6 +3301,7 @@
 			"name": "Padron",
 			"abbrev": "Padrón",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2862,6 +3309,7 @@
 			"name": "Betanzos",
 			"abbrev": "Betanzos",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2869,6 +3317,7 @@
 			"name": "Muros",
 			"abbrev": "Muros",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2876,6 +3325,7 @@
 			"name": "Ordes",
 			"abbrev": "Ordes",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2883,6 +3333,7 @@
 			"name": "Ribeira",
 			"abbrev": "Ribeira",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2890,6 +3341,7 @@
 			"name": "Carballo",
 			"abbrev": "Carballo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2897,6 +3349,7 @@
 			"name": "Negreira",
 			"abbrev": "Negreira",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2904,6 +3357,7 @@
 			"name": "Ortiguiera",
 			"abbrev": "Ortiguiera",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2911,6 +3365,7 @@
 			"name": "Lugo",
 			"abbrev": "Lugo",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2918,6 +3373,7 @@
 			"name": "Lugo",
 			"abbrev": "Lugo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2925,6 +3381,7 @@
 			"name": "A Fonsagrada",
 			"abbrev": "A Fonsagrada",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2932,6 +3389,7 @@
 			"name": "Mondonedo",
 			"abbrev": "Mondoñedo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2939,6 +3397,7 @@
 			"name": "Vilalba",
 			"abbrev": "Vilalba",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2946,6 +3405,7 @@
 			"name": "Becerrea",
 			"abbrev": "Becerreá",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2953,6 +3413,7 @@
 			"name": "Monforte de Lemos",
 			"abbrev": "Monforte de Lemos",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2960,6 +3421,7 @@
 			"name": "Viveiro",
 			"abbrev": "Viveiro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2967,6 +3429,7 @@
 			"name": "Chantada",
 			"abbrev": "Chantada",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2974,6 +3437,7 @@
 			"name": "Sarria",
 			"abbrev": "Sarria",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2981,6 +3445,7 @@
 			"name": "Ourense",
 			"abbrev": "Ourense",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -2988,6 +3453,7 @@
 			"name": "Ourense",
 			"abbrev": "Ourense",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -2995,6 +3461,7 @@
 			"name": "A Proba de Trives",
 			"abbrev": "A Proba de Trives",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3002,6 +3469,7 @@
 			"name": "O Barco de Valdeorras",
 			"abbrev": "O Barco de Valdeorras",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3009,6 +3477,7 @@
 			"name": "Verin",
 			"abbrev": "Verín",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3016,6 +3485,7 @@
 			"name": "Bande",
 			"abbrev": "Bande",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3023,6 +3493,7 @@
 			"name": "O Carballino",
 			"abbrev": "O Carballiño",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3030,6 +3501,7 @@
 			"name": "Xinzo de Limia",
 			"abbrev": "Xinzo de Limia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3037,6 +3509,7 @@
 			"name": "Celanova",
 			"abbrev": "Celanova",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3044,6 +3517,7 @@
 			"name": "Ribadavia",
 			"abbrev": "Ribadavia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3051,6 +3525,7 @@
 			"name": "Pontevedra",
 			"abbrev": "Pontevedra",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -3059,6 +3534,8 @@
 			"abbrev": "Pontevedra",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3066,14 +3543,17 @@
 			"name": "Vigo",
 			"abbrev": "Vigo",
 			"courts": {
+				"ji": {},
 				"jpi": {},
-				"jm": {}
+				"jm": {},
+				"js": {}
 			}
 		},
 		"es:galicia:pontevedra:estrada": {
 			"name": "A Estrada",
 			"abbrev": "A Estrada",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3081,6 +3561,7 @@
 			"name": "Cangas",
 			"abbrev": "Cangas",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3088,6 +3569,7 @@
 			"name": "O Porrino",
 			"abbrev": "O Porriño",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3095,6 +3577,7 @@
 			"name": "Tui",
 			"abbrev": "Tui",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3102,6 +3585,7 @@
 			"name": "Caldas de Reis",
 			"abbrev": "Caldas de Reis",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3109,6 +3593,7 @@
 			"name": "Lalin",
 			"abbrev": "Lalín",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3116,6 +3601,7 @@
 			"name": "Ponteareas",
 			"abbrev": "Ponteareas",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3123,6 +3609,7 @@
 			"name": "Vilagarcia de Arousa",
 			"abbrev": "Vilagarcía de Arousa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3130,6 +3617,7 @@
 			"name": "Cambados",
 			"abbrev": "Cambados",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3137,6 +3625,7 @@
 			"name": "Marin",
 			"abbrev": "Marín",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3144,6 +3633,7 @@
 			"name": "Redondela",
 			"abbrev": "Redondela",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3151,13 +3641,16 @@
 			"name": "Madrid",
 			"abbrev": "Madrid",
 			"courts": {
-				"tsj": {}
+				"tsj": {},
+				"tmt": {}
 			}
 		},
 		"es:madrid:madrid": {
 			"name": "Madrid",
 			"abbrev": "Madrid",
 			"courts": {
+				"jca": {},
+				"jp": {},
 				"ap": {}
 			}
 		},
@@ -3165,14 +3658,17 @@
 			"name": "Madrid",
 			"abbrev": "Madrid",
 			"courts": {
+				"ji": {},
 				"jpi": {},
-				"jm": {}
+				"jm": {},
+				"js": {}
 			}
 		},
 		"es:madrid:madrid:mostoles": {
 			"name": "Mostoles",
 			"abbrev": "Móstoles",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3180,6 +3676,7 @@
 			"name": "Alcala de Henares",
 			"abbrev": "Alcalá de Henares",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3187,6 +3684,7 @@
 			"name": "Alcobendas",
 			"abbrev": "Alcobendas",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3194,6 +3692,7 @@
 			"name": "Fuenlabrada",
 			"abbrev": "Fuenlabrada",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3201,6 +3700,7 @@
 			"name": "Getafe",
 			"abbrev": "Getafe",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3208,6 +3708,7 @@
 			"name": "Alcorcon",
 			"abbrev": "Alcorcón",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3215,6 +3716,7 @@
 			"name": "Arganda del Rey",
 			"abbrev": "Arganda del Rey",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3222,6 +3724,7 @@
 			"name": "Coslada",
 			"abbrev": "Coslada",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3229,6 +3732,7 @@
 			"name": "Collado Villalba",
 			"abbrev": "Collado Villalba",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3236,6 +3740,7 @@
 			"name": "Leganes",
 			"abbrev": "Leganés",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3243,6 +3748,7 @@
 			"name": "Parla",
 			"abbrev": "Parla",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3250,6 +3756,7 @@
 			"name": "Torrejon de Ardoz",
 			"abbrev": "Torrejón de Ardoz",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3257,6 +3764,7 @@
 			"name": "Aranjuez",
 			"abbrev": "Aranjuez",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3264,6 +3772,7 @@
 			"name": "Navalcarnero",
 			"abbrev": "Navalcarnero",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3271,6 +3780,7 @@
 			"name": "Torrelaguna",
 			"abbrev": "Torrelaguna",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3278,6 +3788,7 @@
 			"name": "Colmenar Viejo",
 			"abbrev": "Colmenar Viejo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3285,6 +3796,7 @@
 			"name": "Pozuelo de Alarcon",
 			"abbrev": "Pozuelo de Alarcón",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3292,6 +3804,7 @@
 			"name": "Valdemoro",
 			"abbrev": "Valdemoro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3299,6 +3812,7 @@
 			"name": "Majadahonda",
 			"abbrev": "Majadahonda",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3306,6 +3820,7 @@
 			"name": "San Lorenzo de El Escorial",
 			"abbrev": "San Lorenzo de El Escorial",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3320,6 +3835,7 @@
 			"name": "Murcia",
 			"abbrev": "Murcia",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -3328,6 +3844,8 @@
 			"abbrev": "Murcia",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3335,6 +3853,7 @@
 			"name": "Cartagena",
 			"abbrev": "Cartagena",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3342,6 +3861,7 @@
 			"name": "Lorca",
 			"abbrev": "Lorca",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3349,6 +3869,7 @@
 			"name": "Caravaca de la Cruz",
 			"abbrev": "Caravaca de la Cruz",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3356,6 +3877,7 @@
 			"name": "Molina de Segura",
 			"abbrev": "Molina de Segura",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3363,6 +3885,7 @@
 			"name": "Totana",
 			"abbrev": "Totana",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3370,6 +3893,7 @@
 			"name": "Cieza",
 			"abbrev": "Cieza",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3377,6 +3901,7 @@
 			"name": "Mula",
 			"abbrev": "Mula",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3384,6 +3909,7 @@
 			"name": "Yecla",
 			"abbrev": "Yecla",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3391,6 +3917,7 @@
 			"name": "Jumilla",
 			"abbrev": "Jumilla",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3398,6 +3925,7 @@
 			"name": "San Javier",
 			"abbrev": "San Javier",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3412,6 +3940,7 @@
 			"name": "Pamplona",
 			"abbrev": "Pamplona",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -3420,6 +3949,8 @@
 			"abbrev": "Pamplona",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3427,6 +3958,7 @@
 			"name": "Aoiz",
 			"abbrev": "Aoiz",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3434,6 +3966,7 @@
 			"name": "Tudela",
 			"abbrev": "Tudela",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3441,6 +3974,7 @@
 			"name": "Estella",
 			"abbrev": "Estella",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3448,6 +3982,7 @@
 			"name": "Tafalla",
 			"abbrev": "Tafalla",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3462,6 +3997,7 @@
 			"name": "Vitoria Gasteiz",
 			"abbrev": "Vitoria Gasteiz",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -3469,6 +4005,7 @@
 			"name": "Vitoria Gasteiz",
 			"abbrev": "Vitoria Gasteiz",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3476,6 +4013,7 @@
 			"name": "Amurrio",
 			"abbrev": "Amurrio",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3483,6 +4021,7 @@
 			"name": "Bilbao",
 			"abbrev": "Bilbao",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -3491,6 +4030,8 @@
 			"abbrev": "Bilbao",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3498,6 +4039,7 @@
 			"name": "Barakaldo",
 			"abbrev": "Barakaldo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3505,6 +4047,7 @@
 			"name": "Balmaseda",
 			"abbrev": "Balmaseda",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3512,6 +4055,7 @@
 			"name": "Durango",
 			"abbrev": "Durango",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3519,6 +4063,7 @@
 			"name": "Gernika-Lumo",
 			"abbrev": "Gernika-Lumo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3526,6 +4071,7 @@
 			"name": "Getxo",
 			"abbrev": "Getxo",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3533,6 +4079,7 @@
 			"name": "San Sebastian",
 			"abbrev": "San Sebastián",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -3541,6 +4088,8 @@
 			"abbrev": "San Sebastián",
 			"courts": {
 				"jm": {},
+				"js": {},
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3548,6 +4097,7 @@
 			"name": "Eibar",
 			"abbrev": "Eibar",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3555,6 +4105,7 @@
 			"name": "Azpeitia",
 			"abbrev": "Azpeitia",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3562,6 +4113,7 @@
 			"name": "Bergara",
 			"abbrev": "Bergara",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3569,6 +4121,7 @@
 			"name": "Irun",
 			"abbrev": "Irun",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3576,6 +4129,7 @@
 			"name": "Tolosa",
 			"abbrev": "Tolosa",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3590,6 +4144,7 @@
 			"name": "Logrono",
 			"abbrev": "Logroño",
 			"courts": {
+				"jca": {},
 				"ap": {}
 			}
 		},
@@ -3597,6 +4152,7 @@
 			"name": "Logrono",
 			"abbrev": "Logroño",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3604,6 +4160,7 @@
 			"name": "Calahorra",
 			"abbrev": "Calahorra",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		},
@@ -3611,6 +4168,7 @@
 			"name": "Haro",
 			"abbrev": "Haro",
 			"courts": {
+				"ji": {},
 				"jpi": {}
 			}
 		}

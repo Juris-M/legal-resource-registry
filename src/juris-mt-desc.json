@@ -1,9 +1,103 @@
 {
-  "langs": {},
-  "courts": {},
-  "jurisdictions": {
-    "mt": {
-      "name": "Malta"
-    }
-  }
+	"langs": {
+		"en": [
+			"names"
+		]
+	},
+	"courts": {
+		"qcpa": {
+			"name": "Qorti Civili Prim' Awla",
+			"variants": {
+				"en": {
+					"name": "Civil Court, First Hall"
+				}
+			}
+		},
+		"kgr": {
+			"name": "Kummissarju għar-Refuġjati",
+			"variants": {
+				"en": {
+					"name": "Commissioner for Refugees"
+				}
+			}
+		},
+		"qc": {
+			"name": "Qorti Civili",
+			"variants": {
+				"en": {
+					"name": "Civil Court"
+				}
+			}
+		},
+		"qm": {
+			"name": "Qorti tal-Magistrati",
+			"variants": {
+				"en": {
+					"name": "Court of Magistrates"
+				}
+			}
+		},
+		"qa": {
+			"name": "Qorti tal-Appell",
+			"variants": {
+				"en": {
+					"name": "Court of Appeal"
+				}
+			}
+		},
+		"bar": {
+			"name": "Bord tal-Appelli dwar ir-Refuġjati",
+			"variants": {
+				"en": {
+					"name": "Refugee Appeals Board"
+				}
+			}
+		},
+		"tgtz": {
+			"name": "Tribunal Ghal Talbiet Zghar",
+			"variants": {
+				"en": {
+					"name": "Small Claims Tribunal"
+				}
+			}
+		},
+		"tgii": {
+			"name": "Tribunal Ghall-Investigazzjoni ta' Ingustizzji",
+			"variants": {
+				"en": {
+					"name": "Tribunal for the Investigation of Injustices"
+				}
+			}
+		},
+		"qk": {
+			"name": "Qorti Kostituzzjonali",
+			"variants": {
+				"en": {
+					"name": "Constitutional Court"
+				}
+			}
+		}
+	},
+	"jurisdictions": {
+		"mt": {
+			"name": "Malta",
+			"courts": {
+				"qcpa": {},
+				"kgr": {},
+				"qc": {},
+				"qm": {},
+				"qa": {},
+				"bar": {},
+				"tgtz": {},
+				"tgii": {},
+				"qk": {}
+			}
+		},
+		"mt:gozo": {
+			"name": "Gozo",
+			"courts": {
+				"qc": {}
+			}
+		}
+	}
 }

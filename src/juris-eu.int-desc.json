@@ -80,6 +80,18 @@
         "de": {}
       }
     },
+    "ecj~chamber.10": {
+      "name": "%s Tenth Chamber",
+      "variants": {
+        "de": {}
+      }
+    },
+    "ecj~chamber.grand": {
+      "name": "%s Grand Chamber",
+      "variants": {
+        "de": {}
+      }
+    },
     "ec": {
       "name": "European Commission",
       "variants": {

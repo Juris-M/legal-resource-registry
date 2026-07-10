@@ -159,13 +159,9 @@
       "name": "Air Force Court of Criminal Appeals",
       "abbrev": "A.F. Ct. Crim. App."
     },
-    "armed.services.board.contract.appeals": {
-      "name": "Armed Services Board of Contract Appeals",
-      "abbrev": "A.S.B.C.A."
-    },
     "army.court.criminal.appeals": {
       "name": "Army Court of Criminal Appeals",
-      "abbrev": "Army Ct. Crim. App."
+      "abbrev": "A. Ct. Crim. App."
     },
     "commerce.court": {
       "name": "Commerce Court",
@@ -175,6 +171,10 @@
       "name": "Court of Appeals for the Armed Forces",
       "abbrev": "C.A.A.F."
     },
+    "armed.services.board.contract.appeals": {
+      "name": "Armed Services Board of Contract Appeals",
+      "abbrev": "A.S.B.C.A."
+    },
     "court.military.commission.review": {
       "name": "Court of Military Commission Review",
       "abbrev": "Ct. Mi. Comm'n Rev."
@@ -182,6 +182,50 @@
     "courts.martial": {
       "name": "United States Courts Martial",
       "abbrev": "Ct. Martial"
+    },
+    "air.force.court.military.review": {
+      "name": "Air Force Court of Military Review",
+      "abbrev": "A.F.C.M.R."
+    },
+    "air.force.board.review" : {
+      "name": "Air Force Board of Review",
+      "abbrev": "A.F.B.R."
+    },
+    "army.court.military.review": {
+      "name": "Army Court of Military Review",
+      "abbrev": "A.C.M.R."
+    },
+    "army.board.review": {
+      "name": "Army Board of Review",
+      "abbrev": "A.B.R."
+    },
+    "coast.guard.court.criminal.appeals": {
+      "name": "Coast Guard Court of Criminal Appeals",
+      "abbrev": "C.G. Ct. Crim. App."
+    },
+    "coast.guard.military.review": {
+      "name": "Coast Guard Court of Military Review",
+      "abbrev": "C.G.M.R."
+    },
+    "coast.guard.board.review": {
+      "name": "Coast Guard Board of Review",
+      "abbrev": "C.G.B.R."
+    },
+    "court.military.appeals": {
+      "name": "Court of Military Appeals",
+      "abbrev": "C.M.A."
+    },
+    "navy.marine.corps.court.military.review": {
+      "name": "Navy-Marine Corps Court of Military Review",
+      "abbrev": "N.M.C.M.R."
+    },
+    "navy.court.military.review": {
+      "name": "Navy Court of Military Review",
+      "abbrev": "N.C.M.R."
+    },
+    "navy.board.review": {
+      "name": "Navy Board of Review",
+      "abbrev": "N.B.R."
     },
     "emergency.court.appeals": {
       "name": "Emergency Court of Appeals",
@@ -1796,13 +1840,13 @@
       "name": "Federal",
       "courts": {
         "air.force.court.criminal.appeals": {},
-        "armed.services.board.contract.appeals": {},
         "army.court.criminal.appeals": {},
         "attorney.general": {
           "abbrev_select": "court"
         },
         "commerce.court": {},
         "court.appeals.armed.forces": {},
+        "armed.services.board.contract.appeals": {},
         "court.military.commission.review": {},
         "courts.martial": {},
         "emergency.court.appeals": {},
@@ -1813,7 +1857,18 @@
         "navy.marine.corps.court.criminal.appeals": {},
         "special.court.regional.rail.reorganization.act": {},
         "tax.court": {},
-        "temporary.emergency.court.appeals": {}
+        "temporary.emergency.court.appeals": {},
+        "air.force.court.military.review": {},
+        "air.force.board.review": {},
+        "army.court.military.review": {},
+        "army.board.review": {},
+        "coast.guard.court.criminal.appeals": {},
+        "coast.guard.military.review": {},
+        "coast.guard.board.review": {},
+        "court.military.appeals": {},
+        "navy.marine.corps.court.military.review": {},
+        "navy.court.military.review": {},
+        "navy.board.review": {}
       }
     },
     "us:fl": {
@@ -1847,7 +1902,7 @@
           "abbrev": "Super. Ct. Guam"
 		},
         "supreme.court": {
-			"abbrev": "Sup. Ct. Guam",  
+			"abbrev": "Sup. Ct. Guam",
           "ABBREV": "Guam"
         }
       }

@@ -3,6 +3,10 @@
     "de": [
       "abbrevs",
       "ui"
+    ],
+    "se": [
+      "abbrevs",
+      "ui"
     ]
   },
   "courts": {
@@ -39,8 +43,8 @@
         "de": {},
         "se": {
           "name": "Första avdelningen"
-		}  
-	  }
+        }  
+      }
     },
     "ecj~chamber.2": {
       "name": "%s Second Chamber",
@@ -48,7 +52,7 @@
         "de": {},
         "se": {
           "name": "Andra avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.3": {
@@ -57,7 +61,7 @@
         "de": {},
         "se": {
           "name": "Trejde avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.4": {
@@ -66,7 +70,7 @@
         "de": {},
         "se": {
           "name": "Fjärde avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.5": {
@@ -75,7 +79,7 @@
         "de": {},
         "se": {
           "name": "Femte avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.6": {
@@ -84,7 +88,7 @@
         "de": {},
         "se": {
           "name": "Sjätte avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.7": {
@@ -93,7 +97,7 @@
         "de": {},
         "se": {
           "name": "Sjunde avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.8": {
@@ -102,7 +106,7 @@
         "de": {},
         "se": {
           "name": "Åttonde avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.9": {
@@ -111,7 +115,7 @@
         "de": {},
         "se": {
           "name": "Nionde avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.10": {
@@ -120,7 +124,7 @@
         "de": {},
         "se": {
           "name": "Tionde avdelningen"
-		}
+        }
       }
     },
     "ecj~chamber.grand": {
@@ -129,7 +133,7 @@
         "de": {},
         "se": {
           "name": "Stora avdelningen"
-		}
+        }
       }
     },
     "ec": {
@@ -139,7 +143,7 @@
           "abbrev": "Kom",
           "name": "Europäische Kommission"
         },
-		"se": {
+        "se": {
           "name": "Europeiska kommisionen"
         }
       }
@@ -152,9 +156,9 @@
           "abbrev": "EuG",
           "name": "Gericht der Europäischen Union"
         },
-		"se": {
-		  "name": "Tribunalen"
-		}
+        "se": {
+          "name": "Tribunalen"
+        }
       }
     },
     "cst": {
@@ -164,9 +168,9 @@
           "abbrev": "EuGöD",
           "name": "Gericht für den öffentlichen Dienst"
         },
-		"se": {
-		  "name": "Personaldomstolen"
-		}
+        "se": {
+          "name": "Personaldomstolen"
+        }
       }
     }
   },

@@ -1,202 +1,230 @@
 {
   "langs": {},
   "courts": {
-          "stf": {
-            "name": "Supremo Tribunal Federal",
-            "abbrev": "STF"
-          },
-          "stj": {
-            "name": "Superior Tribunal de Justiça",
-            "abbrev": "STJ"
-          },
-          "tst": {
-            "name": "Tribunal Superior do Trabalho",
-            "abbrev": "TST"
-          },
-          "tse": {
-            "name": "Tribunal Superior Eleitoral",
-            "abbrev": "TSE"
-          },
-          "stm": {
-            "name": "Superior Tribunal Militar",
-            "abbrev": "STJ"
-          },
-          "court.appeal": {
-            "name": "Tribunal de Justiça",
-            "abbrev": "TJ-%s"
-        }
+    "stf": {
+      "name": "Supremo Tribunal Federal",
+      "abbrev": "STF"
+    },
+    "stj": {
+      "name": "Superior Tribunal de Justiça",
+      "abbrev": "STJ"
+    },
+    "tst": {
+      "name": "Tribunal Superior do Trabalho",
+      "abbrev": "TST"
+    },
+    "tse": {
+      "name": "Tribunal Superior Eleitoral",
+      "abbrev": "TSE"
+    },
+    "stm": {
+      "name": "Superior Tribunal Militar",
+      "abbrev": "STM"
+    },
+    "court.appeal": {
+      "name": "Tribunal de Justiça",
+      "abbrev": "TJ-%s"
+    }
   },
   "jurisdictions": {
     "br": {
       "name": "Brazil",
       "courts": {
-          "stf": {},
-          "stj": {},
-          "tse": {},
-          "tst": {},
-          "stm": {},
+        "stf": {},
+        "stj": {},
+        "tse": {},
+        "tst": {},
+        "stm": {}
+      }
     },
     "br:ac": {
       "name": "Acre",
       "abbrev": "AC",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:al": {
       "name": "Alagoas",
       "abbrev": "AL",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:ap": {
       "name": "Amapá",
       "abbrev": "AP",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:am": {
       "name": "Amazonas",
       "abbrev": "AM",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:ba": {
       "name": "Bahia",
       "abbrev": "BA",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:ce": {
       "name": "Ceará",
       "abbrev": "CE",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:es": {
       "name": "Espírito Santo",
       "abbrev": "ES",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:go": {
       "name": "Goiás",
       "abbrev": "GO",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:ma": {
       "name": "Maranhão",
       "abbrev": "MA",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:mt": {
       "name": "Mato Grosso",
       "abbrev": "MT",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:ms": {
       "name": "Mato Grosso do Sul",
       "abbrev": "MS",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:mg": {
       "name": "Minas Gerais",
       "abbrev": "MG",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:pa": {
       "name": "Pará",
       "abbrev": "PA",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:pb": {
       "name": "Paraíba",
       "abbrev": "PB",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:pr": {
       "name": "Paraná",
       "abbrev": "PR",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:pe": {
       "name": "Pernambuco",
       "abbrev": "PE",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:pi": {
       "name": "Piauí",
       "abbrev": "PI",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:rj": {
       "name": "Rio de Janeiro",
       "abbrev": "RJ",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:rn": {
       "name": "Rio Grande do Norte",
       "abbrev": "RN",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:rs": {
       "name": "Rio Grande do Sul",
       "abbrev": "RS",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:ro": {
       "name": "Rondônia",
       "abbrev": "RO",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:rr": {
       "name": "Roraima",
       "abbrev": "RR",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:sc": {
       "name": "Santa Catarina",
       "abbrev": "SC",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:sp": {
       "name": "São Paulo",
       "abbrev": "SP",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:se": {
       "name": "Sergipe",
       "abbrev": "SE",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:to": {
       "name": "Tocantins",
       "abbrev": "TO",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     },
     "br:df": {
       "name": "Distrito Federal",
       "abbrev": "DF",
       "courts": {
-          "court.appeal": {}
+        "court.appeal": {}
+      }
     }
   }
 }

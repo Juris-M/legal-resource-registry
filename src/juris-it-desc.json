@@ -1,1351 +1,1401 @@
 {
-  "langs": {
-    "enIBFD": [
-      "abbrevs"
-    ]
-  },
-  "courts": {
-    "scsprar": {
-      "name": "Protection System for Refugees and Asylum Seekers Central Services"
-    },
-    "csdc": {
-      "name": "Corte Suprema di Cassazione",
-      "variants": {
-        "enIBFD": {
-          "abbrev": " Cass. [Supreme Court]"
-        }
-      }
-    },
-    "cs": {
-      "name": "Consiglio di Stato"
-    },
-    "cc": {
-      "name": "Corte Costituzionale",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "C. Cost. [Constitutional Court]"
-        }
-      }
-    },
-    "cdapp": {
-      "name": "Corte d’Appello di %s"
-    },
-    "cdadapp": {
-      "name": "Corte d’Assise d’Appello di %s"
-    },
-    "ct": {
-      "name": "Commissione Territoriale di %s"
-    },
-    "ctc": {
-      "name": "Commissione Tributaria Centrale",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "CTC [Central Tax Court]"
-        }
-      }
-    },
-    "ctp": {
-      "name": "Commissione Tributaria Provinciale di %s",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "CTP %s [First Instance Tax Court]"
-        }
-      }
-    },
-    "ctr": {
-      "name": "Commissione Tributaria Regionale di %s",
-      "variants": {
-        "enIBFD": {
-          "abbrev": "CTR %s [Tax Court of Appeal]"
-        }
-      }
-    },
-    "tar": {
-      "name": "Tribunale Administrativo Regionale di %s"
-    },
-    "to": {
-      "name": "Tribunale di %s"
-    },
-    "tpm": {
-      "name": "Tribunale per i minorenni di %s"
-    },
-    "cdass": {
-      "name": "Corte d’Assise di %s"
-    },
-    "tds": {
-      "name": "Tribunale di Sorveglianza di %s"
-    },
-    "uds": {
-      "name": "Ufficio di Sorveglianza di %s"
-    }
-  },
-  "jurisdictions": {
-    "it": {
-      "name": "Italy",
-      "courts": {
-        "csdc": {},
-        "cs": {},
-        "cc": {},
-        "ctc": {},
-		"scsprar": {}
-      }
-    },
-    "it:abruzzo": {
-      "name": "Abruzzo",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:basilicata": {
-      "name": "Basilicata",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:calabria": {
-      "name": "Calabria",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:campania": {
-      "name": "Campania",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:emilia.romagna": {
-      "name": "Emilia-Romagna",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:friuli.venezia.giulia": {
-      "name": "Friuli-Venezia Giulia",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:lazio": {
-      "name": "Lazio",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:liguria": {
-      "name": "Liguria",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:lombardia": {
-      "name": "Lombardia",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:marche": {
-      "name": "Marche",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:molise": {
-      "name": "Molise",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:piemonte": {
-      "name": "Piemonte",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:puglia": {
-      "name": "Puglia",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:sardegna": {
-      "name": "Sardegna",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:sicilia": {
-      "name": "Sicilia",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:toscana": {
-      "name": "Toscana",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:trention.ato.adige": {
-      "name": "Trentino-Alto Adige",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:umbria": {
-      "name": "Umbria",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:valle.d.aosta": {
-      "name": "Valle d'Aosta",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:veneto": {
-      "name": "Veneto",
-      "courts": {
-        "tar": {}
-      }
-    },
-    "it:ancona": {
-      "name": "Ancona",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:ancona:ancona": {
-      "name": "Ancona",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:ancona:ascoli.piceno": {
-      "name": "Ascoli Piceno",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:ancona:fermo": {
-      "name": "Fermo",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:ancona:macerata": {
-      "name": "Macerata",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:ancona:pesaro": {
-      "name": "Pesaro",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:ancona:urbino": {
-      "name": "Urbino",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bari": {
-      "name": "Bari",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:bari:bari": {
-      "name": "Bari",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bari:foggia": {
-      "name": "Foggia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bari:trani": {
-      "name": "Trani",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna": {
-      "name": "Bologna",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:bologna:bologna": {
-      "name": "Bologna",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna:ferrara": {
-      "name": "Ferrara",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna:forlì": {
-      "name": "Forlì",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna:modena": {
-      "name": "Modena",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna:parma": {
-      "name": "Parma",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna:piacenza": {
-      "name": "Piacenza",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna:ravenna": {
-      "name": "Ravenna",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna:reggio.nell.emilia": {
-      "name": "Reggio nell'Emilia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:bologna:rimini": {
-      "name": "Rimini",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:brescia": {
-      "name": "Brescia",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:brescia:bergamo": {
-      "name": "Bergamo",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:brescia:brescia": {
-      "name": "Brescia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:brescia:cremona": {
-      "name": "Cremona",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:brescia:mantova": {
-      "name": "Mantova",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:cagliari": {
-      "name": "Cagliari",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:cagliari:cagliari": {
-      "name": "Cagliari",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:cagliari:lanusei": {
-      "name": "Lanusei",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:cagliari:nuoro": {
-      "name": "Nuoro",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:cagliari:oristano": {
-      "name": "Oristano",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:cagliari:sassari": {
-      "name": "Sassari",
-      "courts": {
-        "cdass": {},
-        "to": {}
-      }
-    },
-    "it:cagliari:tempio.pausania": {
-      "name": "Tempio Pausania",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:caserta": {
-      "name": "Caserta",
-      "courts": {
-        "ct": {}
-      }
-    },
-    "it:caltanissetta": {
-      "name": "Caltanissetta",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:caltanissetta:caltanissetta": {
-      "name": "Caltanissetta",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:caltanissetta:enna": {
-      "name": "Enna",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:caltanissetta:gela": {
-      "name": "Gela",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:campobasso": {
-      "name": "Campobasso",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:campobasso:campobasso": {
-      "name": "Campobasso",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:campobasso:isernia": {
-      "name": "Isernia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:campobasso:larino": {
-      "name": "Larino",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catania": {
-      "name": "Catania",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:catania:caltagirone": {
-      "name": "Caltagirone",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catania:catania": {
-      "name": "Catania",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catania:ragusa": {
-      "name": "Ragusa",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catania:siracusa": {
-      "name": "Siracusa",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catanzaro": {
-      "name": "Catanzaro",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:catanzaro:castrovillari": {
-      "name": "Castrovillari",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catanzaro:catanzaro": {
-      "name": "Catanzaro",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catanzaro:cosenza": {
-      "name": "Cosenza",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catanzaro:crotone": {
-      "name": "Crotone",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catanzaro:lamezia.terme": {
-      "name": "Lamezia Terme",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catanzaro:paola": {
-      "name": "Paola",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:catanzaro:vibo.valentia": {
-      "name": "Vibo Valentia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:crotone": {
-      "name": "Crotone",
-      "courts": {
-        "ct": {}
-      }
-    },
-    "it:firenze": {
-      "name": "Firenze",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:firenze:arezzo": {
-      "name": "Arezzo",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:firenze:firenze": {
-      "name": "Firenze",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:firenze:grosseto": {
-      "name": "Grosseto",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:firenze:livorno": {
-      "name": "Livorno",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:firenze:lucca": {
-      "name": "Lucca",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:firenze:pisa": {
-      "name": "Pisa",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:firenze:pistoia": {
-      "name": "Pistoia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:firenze:prato": {
-      "name": "Prato",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:firenze:siena": {
-      "name": "Siena",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:foggia": {
-      "name": "Foggia",
-      "courts": {
-        "ct": {}
-      }
-    },
-    "it:genova": {
-      "name": "Genova",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:genova:genova": {
-      "name": "Genova",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:genova:imperia": {
-      "name": "Imperia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:genova:la.spezia": {
-      "name": "La Spezia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:genova:massa": {
-      "name": "Massa",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:genova:savona": {
-      "name": "Savona",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:l.aquila": {
-      "name": "L'aquila",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:l.aquila:chieti": {
-      "name": "Chieti",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:l.aquila:l.aquila": {
-      "name": "L'Aquila",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:l.aquila:pescara": {
-      "name": "Pescara",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:l.aquila:teramo": {
-      "name": "Teramo",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:lecce": {
-      "name": "Lecce",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:lecce:brindisi": {
-      "name": "Brindisi",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:lecce:lecce": {
-      "name": "Lecce",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:lecce:taranto": {
-      "name": "Taranto",
-      "courts": {
-        "cdass": {},
-        "to": {}
-      }
-    },
-    "it:messina": {
-      "name": "Messina",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:messina:barcellona.pozzo.di.gotto": {
-      "name": "Barcellona Pozzo di Gotto",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:messina:messina": {
-      "name": "Messina",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:messina:patti": {
-      "name": "Patti",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:milano": {
-      "name": "Milano",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:milano:busto.arsizio": {
-      "name": "Busto Arsizio",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:milano:como": {
-      "name": "Como",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:milano:lecco": {
-      "name": "Lecco",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:milano:lodi": {
-      "name": "Lodi",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:milano:milano": {
-      "name": "Milano",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:milano:monza": {
-      "name": "Monza",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:milano:pavia": {
-      "name": "Pavia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:padova": {
-      "name": "Padova",
-      "courts": {
-        "ct": {}
-      }
-    },
-    "it:milano:sondrio": {
-      "name": "Sondrio",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:milano:varese": {
-      "name": "Varese",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:napoli": {
-      "name": "Napoli",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:napoli:avellino": {
-      "name": "Avellino",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:napoli:benevento": {
-      "name": "Benevento",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:napoli:napoli": {
-      "name": "Napoli",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:napoli:napoli.nord": {
-      "name": "Napoli Nord",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:napoli:nola": {
-      "name": "Nola",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:napoli:santa.maria.capua.vetere": {
-      "name": "Santa Maria Capua Vetere",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:napoli:torre.annunziata": {
-      "name": "Torre Annunziata",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:palermo": {
-      "name": "Palermo",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:palermo:agrigento": {
-      "name": "Agrigento",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:palermo:marsala": {
-      "name": "Marsala",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:palermo:palermo": {
-      "name": "Palermo",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:palermo:sciacca": {
-      "name": "Sciacca",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:palermo:termini.imerese": {
-      "name": "Termini Imerese",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:palermo:trapani": {
-      "name": "Trapani",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:perugia": {
-      "name": "Perugia",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {},
-        "ct": {}
-      }
-    },
-    "it:perugia:perugia": {
-      "name": "Perugia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:perugia:spoleto": {
-      "name": "Spoleto",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:perugia:terni": {
-      "name": "Terni",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:potenza": {
-      "name": "Potenza",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:potenza:lagonegro": {
-      "name": "Lagonegro",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:potenza:matera": {
-      "name": "Matera",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:potenza:potenza": {
-      "name": "Potenza",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:reggio.calabria": {
-      "name": "Reggio calabria",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:reggio.calabria:locri": {
-      "name": "Locri",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:reggio.calabria:palmi": {
-      "name": "Palmi",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:reggio.calabria:reggio.calabria": {
-      "name": "Reggio Calabria",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma": {
-      "name": "Roma",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:roma:cassino": {
-      "name": "Cassino",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma:civitavecchia": {
-      "name": "Civitavecchia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma:frosinone": {
-      "name": "Frosinone",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma:latina": {
-      "name": "Latina",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma:rieti": {
-      "name": "Rieti",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma:roma": {
-      "name": "Roma",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma:tivoli": {
-      "name": "Tivoli",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma:velletri": {
-      "name": "Velletri",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:roma:viterbo": {
-      "name": "Viterbo",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:salerno": {
-      "name": "Salerno",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:salerno:nocera.inferiore": {
-      "name": "Nocera Inferiore",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:salerno:salerno": {
-      "name": "Salerno",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:salerno:vallo.della.lucania": {
-      "name": "Vallo della Lucania",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:siracusa": {
-      "name": "Siracusa",
-      "courts": {
-        "ct": {}
-      }
-    },
-    "it:sassari": {
-      "name": "Sassari",
-      "courts": {
-        "cdass": {},
-        "to": {}
-      }
-    },
-    "it:torino": {
-      "name": "Torino",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:torino:alessandria": {
-      "name": "Alessandria",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:aosta": {
-      "name": "Aosta",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:asti": {
-      "name": "Asti",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:biella": {
-      "name": "Biella",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:cuneo": {
-      "name": "Cuneo",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:ivrea": {
-      "name": "Ivrea",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:novara": {
-      "name": "Novara",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:torino": {
-      "name": "Torino",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:verbania": {
-      "name": "Verbania",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:torino:vercelli": {
-      "name": "Vercelli",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:trento": {
-      "name": "Trento",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:trento:bolzano": {
-      "name": "Bolzano",
-      "courts": {
-        "cdass": {},
-        "to": {}
-      }
-    },
-    "it:trento:rovereto": {
-      "name": "Rovereto",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:trento:trento": {
-      "name": "Trento",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:trieste": {
-      "name": "Trieste",
-      "courts": {
-        "ct": {},
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:trieste:gorizia": {
-      "name": "Gorizia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:trieste:pordenone": {
-      "name": "Pordenone",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:trieste:trieste": {
-      "name": "Trieste",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:trieste:udine": {
-      "name": "Udine",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:verona": {
-      "name": "Verona",
-      "courts": {
-        "ct": {}
-      }
-    },
-    "it:venezia": {
-      "name": "Venezia",
-      "courts": {
-        "cdapp": {},
-        "tpm": {},
-        "tds": {},
-        "cdass": {},
-        "cdadapp": {}
-      }
-    },
-    "it:venezia:belluno": {
-      "name": "Belluno",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:venezia:padova": {
-      "name": "Padova",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:venezia:rovigo": {
-      "name": "Rovigo",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:venezia:treviso": {
-      "name": "Treviso",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:venezia:venezia": {
-      "name": "Venezia",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:venezia:verona": {
-      "name": "Verona",
-      "courts": {
-        "to": {}
-      }
-    },
-    "it:venezia:vicenza": {
-      "name": "Vicenza",
-      "courts": {
-        "to": {}
-      }
-    }
-  }
+	"langs": {
+		"enIBFD": [
+			"abbrevs"
+		]
+	},
+	"courts": {
+		"scsprar": {
+			"name": "Protection System for Refugees and Asylum Seekers Central Services"
+		},
+		"csdc": {
+			"name": "Corte Suprema di Cassazione",
+			"variants": {
+				"enIBFD": {
+					"abbrev": " Cass. [Supreme Court]"
+				}
+			}
+		},
+		"cs": {
+			"name": "Consiglio di Stato"
+		},
+		"cc": {
+			"name": "Corte Costituzionale",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "C. Cost. [Constitutional Court]"
+				}
+			}
+		},
+		"cdapp": {
+			"name": "Corte d’Appello di %s"
+		},
+		"cdass": {
+			"name": "Corte d’Assise di %s"
+		},
+		"cdadapp": {
+			"name": "Corte d’Assise d’Appello di %s"
+		},
+		"ct": {
+			"name": "Commissione Territoriale di %s"
+		},
+		"ctc": {
+			"name": "Commissione Tributaria Centrale",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "CTC [Central Tax Court]"
+				}
+			}
+		},
+		"ctp": {
+			"name": "Commissione Tributaria Provinciale di %s",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "CTP %s [First Instance Tax Court]"
+				}
+			}
+		},
+		"ctr": {
+			"name": "Commissione Tributaria Regionale di %s",
+			"variants": {
+				"enIBFD": {
+					"abbrev": "CTR %s [Tax Court of Appeal]"
+				}
+			}
+		},
+		"tar": {
+			"name": "Tribunale Administrativo Regionale di %s"
+		},
+		"to": {
+			"name": "Tribunale di %s"
+		},
+		"tpm": {
+			"name": "Tribunale per i minorenni di %s"
+		},
+		"tds": {
+			"name": "Tribunale di Sorveglianza di %s"
+		},
+		"uds": {
+			"name": "Ufficio di Sorveglianza di %s"
+		}
+	},
+	"jurisdictions": {
+		"it": {
+			"name": "Italy",
+			"courts": {
+				"csdc": {},
+				"cs": {},
+				"cc": {},
+				"ctc": {},
+				"scsprar": {}
+			}
+		},
+		"it:abruzzo": {
+			"name": "Abruzzo",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:abruzzo:chieti": {
+			"name": "Chieti",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:abruzzo:lanciano": {
+			"name": "Lanciano",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:abruzzo:vasto": {
+			"name": "Vasto",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:abruzzo:avezzano": {
+			"name": "Avezzano",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:abruzzo:laquila": {
+			"name": "L'aquila",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:abruzzo:sulmona": {
+			"name": "Sulmona",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:abruzzo:pescara": {
+			"name": "Pescara",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:abruzzo:teramo": {
+			"name": "Teramo",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:basilicata": {
+			"name": "Basilicata",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:basilicata:matera": {
+			"name": "Matera",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:basilicata:lagonegro": {
+			"name": "Lagonegro",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:basilicata:melfi": {
+			"name": "Melfi",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:basilicata:potenza": {
+			"name": "Potenza",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:calabria": {
+			"name": "Calabria",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:calabria:catanzaro": {
+			"name": "Catanzaro",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:calabria:lamezia.terme": {
+			"name": "Lamezia Terme",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:calabria:castrovillari": {
+			"name": "Castrovillari",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:calabria:cosenza": {
+			"name": "Cosenza",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:calabria:paola": {
+			"name": "Paola",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:calabria:rossano": {
+			"name": "Rossano",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:calabria:crotone": {
+			"name": "Crotone",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:calabria:locri": {
+			"name": "Locri",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:calabria:palmi": {
+			"name": "Palmi",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:calabria:reggio.di.calabria": {
+			"name": "Reggio Di Calabria",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:calabria:vibo.valentia": {
+			"name": "Vibo Valentia",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:campania": {
+			"name": "Campania",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:campania:ariano.irpino": {
+			"name": "Ariano Irpino",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:campania:avellino": {
+			"name": "Avellino",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:campania:santangelo.dei.lombardi": {
+			"name": "Sant'angelo Dei Lombardi",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:campania:benevento": {
+			"name": "Benevento",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:campania:santa.maria.capua.vetere": {
+			"name": "Santa Maria Capua Vetere",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:campania:giugliano.in.campania": {
+			"name": "Giugliano In Campania",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:campania:napoli": {
+			"name": "Napoli",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:campania:nola": {
+			"name": "Nola",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:campania:torre.annunziata": {
+			"name": "Torre Annunziata",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:campania:nocera.inferiore": {
+			"name": "Nocera Inferiore",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:campania:sala.consilina": {
+			"name": "Sala Consilina",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:campania:salerno": {
+			"name": "Salerno",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:campania:vallo.della.lucania": {
+			"name": "Vallo Della Lucania",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:emilia.romagna": {
+			"name": "Emilia Romagna",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:emilia.romagna:bologna": {
+			"name": "Bologna",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:emilia.romagna:ferrara": {
+			"name": "Ferrara",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:emilia.romagna:forli": {
+			"name": "Forli'",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:emilia.romagna:modena": {
+			"name": "Modena",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:emilia.romagna:parma": {
+			"name": "Parma",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:emilia.romagna:piacenza": {
+			"name": "Piacenza",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:emilia.romagna:ravenna": {
+			"name": "Ravenna",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:emilia.romagna:reggio.nellemilia": {
+			"name": "Reggio Nell'emilia",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:emilia.romagna:rimini": {
+			"name": "Rimini",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:friuli.venezia.giulia": {
+			"name": "Friuli Venezia Giulia",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:friuli.venezia.giulia:gorizia": {
+			"name": "Gorizia",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:friuli.venezia.giulia:pordenone": {
+			"name": "Pordenone",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:friuli.venezia.giulia:trieste": {
+			"name": "Trieste",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:friuli.venezia.giulia:tolmezzo": {
+			"name": "Tolmezzo",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:friuli.venezia.giulia:udine": {
+			"name": "Udine",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lazio": {
+			"name": "Lazio",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:lazio:cassino": {
+			"name": "Cassino",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lazio:frosinone": {
+			"name": "Frosinone",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lazio:latina": {
+			"name": "Latina",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lazio:rieti": {
+			"name": "Rieti",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lazio:civitavecchia": {
+			"name": "Civitavecchia",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lazio:roma": {
+			"name": "Roma",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:lazio:tivoli": {
+			"name": "Tivoli",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lazio:velletri": {
+			"name": "Velletri",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lazio:viterbo": {
+			"name": "Viterbo",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:liguria": {
+			"name": "Liguria",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:liguria:chiavari": {
+			"name": "Chiavari",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:liguria:genova": {
+			"name": "Genova",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:liguria:imperia": {
+			"name": "Imperia",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:liguria:sanremo": {
+			"name": "Sanremo",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:liguria:la.spezia": {
+			"name": "La Spezia",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:liguria:savona": {
+			"name": "Savona",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia": {
+			"name": "Lombardia",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:lombardia:bergamo": {
+			"name": "Bergamo",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia:brescia": {
+			"name": "Brescia",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:lombardia:como": {
+			"name": "Como",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia:crema": {
+			"name": "Crema",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lombardia:cremona": {
+			"name": "Cremona",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia:lecco": {
+			"name": "Lecco",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lombardia:lodi": {
+			"name": "Lodi",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lombardia:mantova": {
+			"name": "Mantova",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia:milano": {
+			"name": "Milano",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:lombardia:monza": {
+			"name": "Monza",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia:pavia": {
+			"name": "Pavia",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia:vigevano": {
+			"name": "Vigevano",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lombardia:voghera": {
+			"name": "Voghera",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:lombardia:sondrio": {
+			"name": "Sondrio",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia:busto.arsizio": {
+			"name": "Busto Arsizio",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:lombardia:varese": {
+			"name": "Varese",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:marche": {
+			"name": "Marche",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:marche:ancona": {
+			"name": "Ancona",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:marche:ascoli.piceno": {
+			"name": "Ascoli Piceno",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:marche:fermo": {
+			"name": "Fermo",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:marche:camerino": {
+			"name": "Camerino",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:marche:macerata": {
+			"name": "Macerata",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:marche:pesaro": {
+			"name": "Pesaro",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:marche:urbino": {
+			"name": "Urbino",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:molise": {
+			"name": "Molise",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:molise:campobasso": {
+			"name": "Campobasso",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:molise:larino": {
+			"name": "Larino",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:molise:isernia": {
+			"name": "Isernia",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte": {
+			"name": "Piemonte",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:piemonte:acqui.terme": {
+			"name": "Acqui Terme",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte:alessandria": {
+			"name": "Alessandria",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:piemonte:casale.monferrato": {
+			"name": "Casale Monferrato",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:piemonte:tortona": {
+			"name": "Tortona",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte:asti": {
+			"name": "Asti",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:piemonte:biella": {
+			"name": "Biella",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte:alba": {
+			"name": "Alba",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte:cuneo": {
+			"name": "Cuneo",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:piemonte:mondovi": {
+			"name": "Mondovi'",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte:saluzzo": {
+			"name": "Saluzzo",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte:novara": {
+			"name": "Novara",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:piemonte:ivrea": {
+			"name": "Ivrea",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:piemonte:pinerolo": {
+			"name": "Pinerolo",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte:torino": {
+			"name": "Torino",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:piemonte:verbania": {
+			"name": "Verbania",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:piemonte:vercelli": {
+			"name": "Vercelli",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:puglia": {
+			"name": "Puglia",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:puglia:bari": {
+			"name": "Bari",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:puglia:trani": {
+			"name": "Trani",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:puglia:brindisi": {
+			"name": "Brindisi",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:puglia:foggia": {
+			"name": "Foggia",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:puglia:lucera": {
+			"name": "Lucera",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:puglia:lecce": {
+			"name": "Lecce",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:puglia:taranto": {
+			"name": "Taranto",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:sardegna": {
+			"name": "Sardegna",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:sardegna:cagliari": {
+			"name": "Cagliari",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:sardegna:nuoro": {
+			"name": "Nuoro",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:sardegna:lanusei": {
+			"name": "Lanusei",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sardegna:tempio.pausania": {
+			"name": "Tempio Pausania",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sardegna:oristano": {
+			"name": "Oristano",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sardegna:sassari": {
+			"name": "Sassari",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:sicilia": {
+			"name": "Sicilia",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:sicilia:agrigento": {
+			"name": "Agrigento",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:sicilia:sciacca": {
+			"name": "Sciacca",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:caltanissetta": {
+			"name": "Caltanissetta",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:sicilia:gela": {
+			"name": "Gela",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:caltagirone": {
+			"name": "Caltagirone",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:catania": {
+			"name": "Catania",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:sicilia:enna": {
+			"name": "Enna",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:nicosia": {
+			"name": "Nicosia",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:barcellona.pozzo.di.gotto": {
+			"name": "Barcellona Pozzo Di Gotto",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:messina": {
+			"name": "Messina",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:sicilia:mistretta": {
+			"name": "Mistretta",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:patti": {
+			"name": "Patti",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:palermo": {
+			"name": "Palermo",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:sicilia:termini.imerese": {
+			"name": "Termini Imerese",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:modica": {
+			"name": "Modica",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:ragusa": {
+			"name": "Ragusa",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:siracusa": {
+			"name": "Siracusa",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:sicilia:marsala": {
+			"name": "Marsala",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:sicilia:trapani": {
+			"name": "Trapani",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:toscana": {
+			"name": "Toscana",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:toscana:arezzo": {
+			"name": "Arezzo",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:toscana:firenze": {
+			"name": "Firenze",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:toscana:grosseto": {
+			"name": "Grosseto",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:toscana:livorno": {
+			"name": "Livorno",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:toscana:lucca": {
+			"name": "Lucca",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:toscana:massa": {
+			"name": "Massa",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:toscana:pisa": {
+			"name": "Pisa",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:toscana:pistoia": {
+			"name": "Pistoia",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:toscana:prato": {
+			"name": "Prato",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:toscana:montepulciano": {
+			"name": "Montepulciano",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:toscana:siena": {
+			"name": "Siena",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:trentino.alto.adige": {
+			"name": "Trentino Alto Adige",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:trentino.alto.adige:bolzano": {
+			"name": "Bolzano",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:trentino.alto.adige:rovereto": {
+			"name": "Rovereto",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:trentino.alto.adige:trento": {
+			"name": "Trento",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:umbria": {
+			"name": "Umbria",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:umbria:perugia": {
+			"name": "Perugia",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:umbria:spoleto": {
+			"name": "Spoleto",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:umbria:orvieto": {
+			"name": "Orvieto",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:umbria:terni": {
+			"name": "Terni",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:valle.daosta": {
+			"name": "Valle D'aosta",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:valle.daosta:aosta": {
+			"name": "Aosta",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:veneto": {
+			"name": "Veneto",
+			"courts": {
+				"tar": {},
+				"ct": {}
+			}
+		},
+		"it:veneto:belluno": {
+			"name": "Belluno",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:veneto:padova": {
+			"name": "Padova",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:veneto:rovigo": {
+			"name": "Rovigo",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:veneto:treviso": {
+			"name": "Treviso",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:veneto:venezia": {
+			"name": "Venezia",
+			"courts": {
+				"to": {},
+				"cdapp": {},
+				"tpm": {},
+				"cdass": {},
+				"cdadapp": {}
+			}
+		},
+		"it:veneto:verona": {
+			"name": "Verona",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		},
+		"it:veneto:bassano.del.grappa": {
+			"name": "Bassano Del Grappa",
+			"courts": {
+				"to": {}
+			}
+		},
+		"it:veneto:vicenza": {
+			"name": "Vicenza",
+			"courts": {
+				"to": {},
+				"cdass": {}
+			}
+		}
+	}
 }

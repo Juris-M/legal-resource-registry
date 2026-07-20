@@ -1,41 +1,100 @@
 {
-  "langs": {},
+  "langs": {
+    "fr": [
+      "ui",
+      "abbrevs"
+    ]
+  },
   "courts": {
     "obergericht": {
-      "name": "Obergericht"
+      "name": "Obergericht",
+      "abbrev": "OGer"
     },
     "appellationsgericht": {
-      "name": "Appellationsgericht"
+      "name": "Appellationsgericht",
+      "abbrev": "AppGer"
     },
     "tribunal.cantonal": {
-      "name": "Tribunal cantonal"
+      "name": "Tribunal cantonal",
+      "abbrev": "TC"
     },
     "cour.de.cassation": {
       "name": "Cour de cassation"
     },
-    "cour.de.cassation.civile": {
-      "name": "Cour de cassation civile"
-    },
-    "cour.de.cassation.penale": {
-      "name": "Cour de cassation pénale"
-    },
     "kantonsgericht": {
-      "name": "Kantonsgericht"
+      "name": "Kantonsgericht",
+      "abbrev": "KGer"
+    },
+    "verwaltungsgericht": {
+      "name": "Verwaltungsgericht",
+      "abbrev": "VGer"
     },
     "kassationsgericht": {
-      "name": "Kassationsgericht"
+      "name": "Kassationsgericht",
+      "abbrev": "KassGer"
     },
     "tribunale.d.appello": {
       "name": "Tribunale d'appello"
     },
-    "kassationssgericht": {
-      "name": "Kassationssgericht"
+    "bezirksgericht": {
+      "name": "Bezirksgericht",
+      "abbrev": "BezGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TA",
+          "name": "Tribunal d'arrondissement"
+        }
+      }
+    },
+    "zwangsmassnahmengericht": {
+      "name": "Zwangsmassnahmengericht",
+      "abbrev": "ZMG",
+      "variants": {
+        "fr": {
+          "abbrev": "TMC",
+          "name": "Tribunal des mesures de contrainte"
+        }
+      }
     },
     "fcc": {
-      "name": "Bundesstrafgericht"
+      "name": "Bundesstrafgericht",
+      "abbrev": "BStGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TPF",
+          "name": "Tribunal pénal fédéral"
+        }
+      }
     },
     "fsc": {
-      "name": "Sweizerisches Bundesgericht"
+      "name": "Bundesgericht",
+      "abbrev": "BGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TF",
+          "name": "Tribunal fédéral"
+        }
+      }
+    },
+    "fac": {
+      "name": "Bundesverwaltungsgericht",
+      "abbrev": "BVGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TAF",
+          "name": "Tribunal administratif fédéral"
+        }
+      }
+    },
+    "fpc": {
+      "name": "Bundespatentgericht",
+      "abbrev": "BPatGer",
+      "variants": {
+        "fr": {
+          "abbrev": "TBF",
+          "name": "Tribunal fédéral des brevets"
+        }
+      }
     }
   },
   "jurisdictions": {
@@ -43,7 +102,9 @@
       "name": "Switzerland",
       "courts": {
         "fcc": {},
-        "fsc": {}
+        "fsc": {},
+        "fac": {},
+        "fpc": {}
       }
     },
     "ch:aargau": {
@@ -107,10 +168,9 @@
       }
     },
     "ch:neuchatel": {
-      "name": "Neuchatel",
+      "name": "Neuchâtel",
       "courts": {
-        "cour.de.cassation.civile": {},
-        "cour.de.cassation.penale": {}
+        "tribunal.cantonal": {}
       }
     },
     "ch:nidwalden": {
@@ -189,7 +249,7 @@
     "ch:zurich": {
       "name": "Zurich",
       "courts": {
-        "kassationssgericht": {},
+        "kassationsgericht": {},
         "obergericht": {}
       }
     }

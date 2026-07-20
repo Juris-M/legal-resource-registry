@@ -139,7 +139,7 @@
       }
     },
     "pt:lisboa:lisboa.norte": {
-      "name": "Lisboa Norte",
+      "name": "de Torres Vedras",
       "courts": {
         "comarca": {}
       }
@@ -302,7 +302,8 @@
       }
     },
     "pt:porto:porto": {
-      "name": "Porto",
+		"name": "Porto",
+		"abbrev": "do Porto",
       "courts": {
         "comarca": {},
         "administrativo.fiscal.norte": {}
@@ -356,10 +357,16 @@
       "abbrev": "de Guimarães",
       "ABBREV": "G",
       "courts": {
-        "relacao": {},
-        "comarca": {}
+        "relacao": {}
       }
     },
+      "pt:guimaraes:guimaraes": {
+      "name": "Guimarães",
+      "abbrev": "de Guimarães",
+      "courts": {
+        "comarca": {}
+      }
+	  },
     "pt:guimaraes:braga": {
       "name": "Braga",
       "courts": {

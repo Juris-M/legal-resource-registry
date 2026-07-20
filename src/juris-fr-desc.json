@@ -29,7 +29,7 @@
     "cass~crim": {
       "name": "%s Chambre criminelle",
       "abbrev": "Cour de cassation, crim."
-    },
+   },
     "cass~com": {
       "name": "%s Chambre commerciale, économique et financière",
       "abbrev": "Cour de cassation, com."
@@ -386,6 +386,19 @@
           "ta": {},
 		  "tgi": {},
 		  "cassises": {}
+      }
+    },
+    "fr:paris:bobigny": {
+      "name": "Bobigny",
+      "courts": {
+		  "te": {},
+		  "tgi": {}
+      }
+    },
+    "fr:paris:nanterre": {
+      "name": "Nanterre",
+      "courts": {
+		  "tgi": {}
       }
     },
     "fr:pau": {

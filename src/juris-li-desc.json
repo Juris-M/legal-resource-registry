@@ -1,9 +1,37 @@
 {
   "langs": {},
-  "courts": {},
+  "courts": {
+    "flg": {
+      "name": "Fürstliches Landgericht",
+      "abbrev": "FLG"
+    },
+    "fog": {
+      "name": "Fürstliches Obergericht",
+      "abbrev": "FOG"
+    },
+    "fogh": {
+      "name": "Fürstlicher Oberster Gerichtshof",
+      "abbrev": "FOGH"
+    },
+    "stgh": {
+      "name": "Staatsgerichtshof",
+      "abbrev": "StGH"
+    },
+    "vgh": {
+      "name": "Verwaltungsgerichtshof",
+      "abbrev": "VGH"
+    }
+  },
   "jurisdictions": {
     "li": {
-      "name": "Liechtenstein"
+      "name": "Liechtenstein",
+      "courts": {
+        "flg": {},
+        "fog": {},
+        "fogh": {},
+        "stgh": {},
+        "vgh": {}
+      }
     }
   }
 }

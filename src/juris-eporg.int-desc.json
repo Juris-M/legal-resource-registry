@@ -1,0 +1,55 @@
+{
+  "langs": {},
+  "courts": {
+    "rs": {
+      "name": "Receiving Section"
+    },
+    "sd": {
+      "name": "Search Divisions"
+    },
+    "ed": {
+      "name": "Examining Divisions"
+    },
+    "op": {
+      "name": "Opposition Divisions"
+    },
+    "ld": {
+      "name": "Legal Division"
+    },
+    "boa": {
+      "name": "Boards of Appeal"
+    },
+    "eboa": {
+      "name": "Enlarged Board of Appeal"
+    }
+  },
+  "jurisdictions": {
+    "eporg.int": {
+      "name": "European Patent Organisation",
+      "abbrev": "EPOrg"
+    },
+    "eport.int:epo": {
+      "name": "European Patent Office",
+      "abbrev": "EPO",
+      "courts": {
+        "rs": {
+        },
+        "sd": {
+        },
+        "ed": {
+        },
+        "op": {
+        },
+        "ld": {
+        },
+        "boa": {
+        },
+        "eboa": {
+        }
+      }
+    },
+    "eporg.int:ac": {
+      "name": "Administrative Council"
+    }
+  }
+}

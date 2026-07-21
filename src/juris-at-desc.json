@@ -113,6 +113,15 @@
         }
       }
     },
+    "risjustiz": {
+      "name": "RIS-Justiz",
+      "ABBREV": "RIS-Justiz",
+      "variants": {
+        "enIBFD": {
+          "abbrev": "OGH [Supreme Court], RIS-Justiz"
+        }
+      }
+    },
     "vfgh": {
       "name": "Verfassungsgerichtshof",
       "ABBREV": "VfGH",
@@ -187,6 +196,7 @@
         "bfg": {},
         "bvwg": {},
         "ogh": {},
+        "risjustiz": {},
         "vfgh": {},
         "vwgh": {},
         "asylgh": {},

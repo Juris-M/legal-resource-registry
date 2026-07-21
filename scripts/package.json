@@ -28,6 +28,7 @@
   "homepage": "https://github.com/Juris-M/juris-update#readme",
   "dependencies": {
     "eol": "^0.9.1",
+    "form-data": "^2.5.4",
     "getopts": "^2.2.5",
     "rfc6902": "^5.0.0",
     "sqlite": "^3.0.3",

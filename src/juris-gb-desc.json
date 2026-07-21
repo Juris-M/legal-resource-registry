@@ -38,6 +38,10 @@
 			"name": "High Court|Chancery Division",
 			"abbrev": "EWHC|Ch"
 		},
+		"ewhc.kb": {
+			"name": "High Court|King's Bench",
+			"abbrev": "EWHC|KB"
+		},
 		"ewhc.qb": {
 			"name": "High Court|Queen's Bench",
 			"abbrev": "EWHC|QB"
@@ -79,6 +83,10 @@
 		"ewcop": {
 			"name": "Court of Protection",
 			"abbrev": "EWCOP"
+		},
+		"ewex": {
+			"name": "Court of Exchequer",
+			"abbrev": "Ex"
 		},
 		"kb": {
 			"name": "King's Bench"
@@ -146,6 +154,7 @@
 				"ewca.crim": {},
 				"ewhc.ch": {},
 				"ewhc.qb": {},
+				"ewhc.kb": {},
 				"ewhc.bankruptcy": {},
 				"ewhc.masters": {},
 				"ewhc.patent": {},
@@ -156,6 +165,7 @@
 				"ewhc.mercantile": {},
 				"ewhc.tcc": {},
 				"ewcop": {},
+				"ewex": {},
 				"kb": {}
 			}
 		},

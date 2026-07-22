@@ -28,7 +28,7 @@
       "name": "European Patent Organisation",
       "abbrev": "EPOrg"
     },
-    "eport.int:epo": {
+    "eporg.int:epo": {
       "name": "European Patent Office",
       "abbrev": "EPO",
       "courts": {

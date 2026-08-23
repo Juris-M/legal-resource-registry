@@ -8,59 +8,61 @@
   "courts": {
     "obergericht": {
       "name": "Obergericht",
-      "abbrev": "OGer"
+      "ABBREV": "OGer"
     },
     "appellationsgericht": {
       "name": "Appellationsgericht",
-      "abbrev": "AppGer"
+      "ABBREV": "AppGer"
     },
     "tribunal.cantonal": {
       "name": "Tribunal cantonal",
-      "abbrev": "TC"
+      "ABBREV": "TC"
     },
     "cour.de.cassation": {
       "name": "Cour de cassation"
     },
     "kantonsgericht": {
       "name": "Kantonsgericht",
-      "abbrev": "KGer"
+      "ABBREV": "KGer"
     },
     "verwaltungsgericht": {
       "name": "Verwaltungsgericht",
-      "abbrev": "VGer"
+      "ABBREV": "VGer"
     },
     "kassationsgericht": {
       "name": "Kassationsgericht",
-      "abbrev": "KassGer"
+      "ABBREV": "KassGer"
     },
     "tribunale.d.appello": {
       "name": "Tribunale d'appello"
     },
     "bezirksgericht": {
       "name": "Bezirksgericht",
-      "abbrev": "BezGer",
+      "ABBREV": "BezGer",
       "variants": {
         "fr": {
-          "abbrev": "TA",
+          "ABBREV": "TA",
           "name": "Tribunal d'arrondissement"
         }
       }
     },
     "zwangsmassnahmengericht": {
       "name": "Zwangsmassnahmengericht",
-      "abbrev": "ZMG",
+      "ABBREV": "ZMG",
       "variants": {
         "fr": {
-          "abbrev": "TMC",
+          "ABBREV": "TMC",
           "name": "Tribunal des mesures de contrainte"
         }
       }
     },
     "fcc": {
       "name": "Bundesstrafgericht",
-      "abbrev": "BStGer",
+      "ABBREV": "BStGer",
+      "abbrev": "TPF",
       "variants": {
         "fr": {
+          "ABBREV": "TPF",
           "abbrev": "TPF",
           "name": "Tribunal pénal fédéral"
         }
@@ -68,30 +70,34 @@
     },
     "fsc": {
       "name": "Bundesgericht",
-      "abbrev": "BGer",
+      "ABBREV": "BGer",
+      "abbrev": "BGE",
       "variants": {
         "fr": {
-          "abbrev": "TF",
+          "ABBREV": "TF",
+          "ABBREV": "ATF",
           "name": "Tribunal fédéral"
         }
       }
     },
     "fac": {
       "name": "Bundesverwaltungsgericht",
-      "abbrev": "BVGer",
+      "ABBREV": "BVGer",
+      "abbrev": "BVGE",
       "variants": {
         "fr": {
-          "abbrev": "TAF",
+          "ABBREV": "TAF",
+          "abbrev": "ATAF",
           "name": "Tribunal administratif fédéral"
         }
       }
     },
     "fpc": {
       "name": "Bundespatentgericht",
-      "abbrev": "BPatGer",
+      "ABBREV": "BPatGer",
       "variants": {
         "fr": {
-          "abbrev": "TBF",
+          "ABBREV": "TBF",
           "name": "Tribunal fédéral des brevets"
         }
       }

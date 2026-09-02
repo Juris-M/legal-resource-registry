@@ -98,7 +98,7 @@ const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 		// jurisdictions
 		for (var jKey in jurisDesc.jurisdictions) {
 			var jObj = jurisDesc.jurisdictions[jKey];
-			data.jurisdictions[jKey] = setAbbrevData(jObj, lang, ["container-title"]);
+			data.jurisdictions[jKey] = setAbbrevData(jObj, lang, ["container-title", "overrides"]);
 		}
 		// for jurisdictionCourts
 		for (var jKey in jurisDesc.jurisdictions) {
@@ -108,6 +108,13 @@ const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 				for (var cKey in jurisdiction.courts) {
 					var cObj = jurisdiction.courts[cKey];
 					data.jurisdictions[jKey].courts[cKey] = setAbbrevData(cObj, lang, ["abbrev_select"]);
+				}
+			}
+			data.jurisdictions[jKey].overrides = {};
+			if (jurisdiction.overrides) {
+				for (var oKey in jurisdiction.overrides) {
+					var oObj = jurisdiction.overrides[oKey];
+					data.jurisdictions[jKey].overrides[oKey] = setAbbrevData(oObj, lang, ["abbrev_select"]);
 				}
 			}
 		}
@@ -128,6 +135,22 @@ const processJurisAbbrevs = (opts, jurisID, jurisDesc) => {
 					}
 					cabbrev = data.courts[cKey].abbrev;
 					cABBREV = data.courts[cKey].ABBREV;
+
+					var jParts = jKey.split(":");
+					var jPartString = jParts.shift();
+					while (jParts.length > 0) {
+						var oObj = data.jurisdictions[jPartString].overrides[cKey];
+						if ("undefined" !== typeof oObj) {
+							if (oObj.abbrev) {
+								cabbrev = oObj.abbrev;
+							}
+							if (oObj.ABBREV) {
+								cABBREV = oObj.ABBREV;
+							}
+						}
+						jPartString += ":" + jParts.shift();
+					}
+
 					var cObj = jObj.courts[cKey];
 					if ("undefined" === typeof cObj) {
 						throw new Error(`Undefined cObj from cKey=${cKey} in processJurisAbbrevs`);

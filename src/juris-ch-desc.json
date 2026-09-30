@@ -3,6 +3,10 @@
     "fr": [
       "ui",
       "abbrevs"
+    ],
+    "it": [
+      "ui",
+      "abbrevs"
     ]
   },
   "courts": {
@@ -24,10 +28,6 @@
     "kantonsgericht": {
       "name": "Kantonsgericht",
       "ABBREV": "KGer"
-    },
-    "verwaltungsgericht": {
-      "name": "Verwaltungsgericht",
-      "ABBREV": "VGer"
     },
     "kassationsgericht": {
       "name": "Kassationsgericht",
@@ -56,10 +56,11 @@
       "variants": {
         "fr": {
           "ABBREV": "TA",
-          "name": "Tribunal d'arrondissement"
-        "it": {
-          "ABBREV": "Pret.",
-          "name": "Pretura"
+          "name": "Tribunal d'arrondissement",
+          "it": {
+            "ABBREV": "Pret.",
+            "name": "Pretura"
+          }
         }
       }
     },
@@ -76,7 +77,6 @@
     "cour.de.justice": {
       "name": "Cour de justice",
       "ABBREV": "CJ"
-    }
     },
     "fcc": {
       "name": "Bundesstrafgericht",
@@ -97,7 +97,7 @@
       "variants": {
         "fr": {
           "ABBREV": "TF",
-          "ABBREV": "ATF",
+          "abbrev": "ATF",
           "name": "Tribunal fédéral"
         }
       }

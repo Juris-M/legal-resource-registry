@@ -33,6 +33,20 @@
       "name": "Kassationsgericht",
       "ABBREV": "KassGer"
     },
+    "verwaltungsgericht": {
+      "name": "Verwaltungsgericht",
+      "ABBREV": "VGer",
+      "variants": {
+        "fr": {
+          "ABBREV": "TA",
+          "name": "Tribunal administratif"
+        },
+        "it": {
+          "ABBREV": "TRAM",
+          "name": "Tribunale amministrativo"
+        }
+      }
+    },
     "tribunale.d.appello": {
       "name": "Tribunale d'appello"
     },
@@ -43,6 +57,9 @@
         "fr": {
           "ABBREV": "TA",
           "name": "Tribunal d'arrondissement"
+        "it": {
+          "ABBREV": "Pret.",
+          "name": "Pretura"
         }
       }
     },
@@ -55,6 +72,11 @@
           "name": "Tribunal des mesures de contrainte"
         }
       }
+    },
+    "cour.de.justice": {
+      "name": "Cour de justice",
+      "ABBREV": "CJ"
+    }
     },
     "fcc": {
       "name": "Bundesstrafgericht",
@@ -97,7 +119,7 @@
       "ABBREV": "BPatGer",
       "variants": {
         "fr": {
-          "ABBREV": "TBF",
+          "ABBREV": "TFB",
           "name": "Tribunal fédéral des brevets"
         }
       }
@@ -116,147 +138,612 @@
     "ch:aargau": {
       "name": "Aargau",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer AG",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-AG"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer AG",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA AG"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:appenzell.ausserrhoden": {
       "name": "Appenzell-Ausserrhoden",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer AR",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-AR"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer AR",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA AR"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:appenzell.innerrhoden": {
+      "name": "Appenzell-Innerrhoden",
+      "courts": {
+        "bezirksgericht": {},
+        "kantonsgericht": {
+          "ABBREV": "KGer AI",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-AI"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer AI",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA AI"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:basel.landschaft": {
       "name": "Basel-Landschaft",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer BL",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-BL"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer BL",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA BL"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:basel.stadt": {
       "name": "Basel-Stadt",
       "courts": {
-        "appellationsgericht": {}
+        "appellationsgericht": {
+          "ABBREV": "AppGer BS",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-BS"
+            }
+          }
+        },
+        "bezirksgericht": {},
+        "verwaltungsgericht": {
+          "ABBREV": "VGer BS",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA BS"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:bern": {
       "name": "Bern",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer BE",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-BE"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer BE",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA BE"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:fribourg": {
       "name": "Fribourg",
       "courts": {
-        "tribunal.cantonal": {}
+        "bezirksgericht": {},
+        "tribunal.cantonal": {
+          "ABBREV": "TC FR",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-FR"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer FR",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA FR"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:geneva": {
       "name": "Geneva",
       "courts": {
-        "cour.de.cassation": {}
+        "bezirksgericht": {},
+        "cour.de.cassation": {
+          "comment": "< 2011"
+        },
+        "cour.de.justice": {
+          "ABBREV": "CJ GE",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-GE"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer GE",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA GE"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:glarus": {
       "name": "Glarus",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer GL",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-GL"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer GL",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA GL"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
+      }
+    },
+    "ch:graubunden": {
+      "name": "Graubünden",
+      "courts": {
+        "bezirksgericht": {},
+        "kantonsgericht": {
+          "ABBREV": "KGer GR",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-GR"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer GR",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA GR"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:jura": {
       "name": "Jura",
       "courts": {
-        "tribunal.cantonal": {}
+        "bezirksgericht": {},
+        "tribunal.cantonal": {
+          "ABBREV": "TC JU",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-JU"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer JU",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA JU"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:luzern": {
       "name": "Luzern",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer LU",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-LU"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer LU",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA LU"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:neuchatel": {
       "name": "Neuchâtel",
       "courts": {
-        "tribunal.cantonal": {}
+        "bezirksgericht": {},
+        "tribunal.cantonal": {
+          "ABBREV": "TC NE",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-NE"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer NE",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA NE"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:nidwalden": {
       "name": "Nidwalden",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer NW",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-NW"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer NW",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA NW"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:obwalden": {
       "name": "Obwalden",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer OW",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-OW"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer OW",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA OW"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:schaffhausen": {
       "name": "Schaffhausen",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer SH",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-SH"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer SH",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA SH"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:schwyz": {
       "name": "Schwyz",
       "courts": {
-        "kantonsgericht": {}
+        "bezirksgericht": {},
+        "kantonsgericht": {
+          "ABBREV": "KGer SZ",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-SZ"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer SZ",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA SZ"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:solothurn": {
       "name": "Solothurn",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer SO",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-SO"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer SO",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA SO"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:st.gallen": {
       "name": "St-Gallen",
       "courts": {
-        "kantonsgericht": {},
-        "kassationsgericht": {}
+        "bezirksgericht": {},
+        "kantonsgericht": {
+          "ABBREV": "KGer SG",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-SG"
+            }
+          }
+        },
+        "kassationsgericht": {
+          "ABBREV": "KassGer SG",
+          "comment": "< 2011"
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer SG",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA SG"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:thurgau": {
       "name": "Thurgau",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer TG",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-TG"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer TG",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA TG"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:ticino": {
       "name": "Ticino",
       "courts": {
-        "tribunale.d.appello": {}
+        "bezirksgericht": {},
+        "tribunale.d.appello": {
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-TI"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer TI",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA TI"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:uri": {
       "name": "Uri",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "obergericht": {
+          "ABBREV": "OGer UR",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-UR"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer UR",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA UR"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:valais": {
       "name": "Valais",
       "courts": {
-        "tribunal.cantonal": {}
+        "bezirksgericht": {},
+        "tribunal.cantonal": {
+          "ABBREV": "TC VS",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-VS"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer VS",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA VS"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:vaud": {
       "name": "Vaud",
       "courts": {
-        "tribunal.cantonal": {}
+        "bezirksgericht": {},
+        "tribunal.cantonal": {
+          "ABBREV": "TC VD",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-VD"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer VD",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA VD"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:zug": {
       "name": "Zug",
       "courts": {
-        "obergericht": {}
+        "bezirksgericht": {},
+        "kantonsgericht": {
+          "ABBREV": "KGer ZG"
+        },
+        "obergericht": {
+          "ABBREV": "OGer ZG",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-ZG"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer ZG",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA ZG"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     },
     "ch:zurich": {
       "name": "Zurich",
       "courts": {
-        "kassationsgericht": {},
-        "obergericht": {}
+        "bezirksgericht": {},
+        "kassationsgericht": {
+          "ABBREV": "KassGer ZH",
+          "comment": "< 2011"
+        },
+        "obergericht": {
+          "ABBREV": "OGer ZH",
+          "variants": {
+            "fr": {
+              "ABBREV": "TC-ZH"
+            }
+          }
+        },
+        "verwaltungsgericht": {
+          "ABBREV": "VGer ZH",
+          "variants": {
+            "fr": {
+              "ABBREV": "TA ZH"
+            }
+          }
+        },
+        "zwangsmassnahmengericht": {}
       }
     }
   }
